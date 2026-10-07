@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GeoGuessr 知识宝典与速查工具 | GeoGuessr Master Hub</title>
+  <meta name="description" content="精心整理总结的 GeoGuessr 笔记、实用网站、排位对决技巧与快速复习系统。">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧭</text></svg>">
+
+  <!-- Immediate Theme Initialization (Default Light) -->
+  <script>
+    (function () {
+      const savedTheme = localStorage.getItem('geoguessr_theme') || 'light';
+      if (savedTheme === 'dark') {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+    })();
+  </script>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            slate: {
+              850: '#131b2e',
+              950: '#070b14'
+            }
+          },
+          fontSize: {
+            '2xs': '0.65rem'
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-slate-50 text-slate-800 dark:bg-[#0b0f19] dark:text-slate-100 min-h-screen flex flex-col selection:bg-emerald-500 selection:text-white transition-colors duration-200">
+
+  <!-- Sticky Top Header & Navigation -->
+  <header class="sticky top-0 z-40 glass-nav border-b border-slate-200 dark:border-slate-800/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16 gap-4">
+        
+        <!-- Brand / Logo -->
+        <div class="flex items-center gap-3 cursor-pointer" onclick="switchTab('topics')">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-purple-500 via-indigo-600 to-emerald-500 flex items-center justify-center text-xl shadow-lg shadow-purple-500/25 font-black text-white">
+            🧭
+          </div>
+          <div>
+            <h1 id="site-title" class="font-extrabold text-base sm:text-lg tracking-tight text-slate-900 dark:text-white hover:text-purple-600 dark:hover:text-purple-400 transition-colors">
+              GeoGuessr 知识宝典与速查工具
+            </h1>
+            <p id="site-subtitle" class="text-2xs text-slate-500 dark:text-slate-400 hidden sm:block">
+              提炼自实战笔记的全球 Meta 识别指南与复习系统
+            </p>
+          </div>
+        </div>
+
+        <!-- Global Search Bar -->
+        <div class="flex-1 max-w-md hidden md:block">
+          <div class="relative">
+            <span class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400 text-sm">
+              🔍
+            </span>
+            <input type="text" id="global-search" oninput="onSearchInput(this.value)"
+              placeholder="搜索国家、电线杆、车牌、红土、路缘标... (⌘K / /)"
+              class="w-full pl-9 pr-12 py-2 rounded-xl bg-white dark:bg-slate-900/90 border border-slate-300 dark:border-slate-700/70 text-xs text-slate-900 dark:text-white placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/50 focus:border-emerald-500 transition-all shadow-sm">
+            <kbd class="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none text-2xs text-slate-400 dark:text-slate-500 font-mono">
+              /
+            </kbd>
+          </div>
+        </div>
+
+        <!-- Header Actions: Theme & Lang Switcher -->
+        <div class="flex items-center gap-2">
+          <!-- Theme Toggle -->
+          <button id="theme-btn" onclick="toggleTheme()"
+            class="px-3 py-1.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700 transition-all font-semibold shadow-sm flex items-center gap-1.5 text-xs"
+            title="切换深色/浅色模式">
+            <span>🌙</span>
+            <span class="hidden sm:inline">深色</span>
+          </button>
+
+          <!-- Language Switcher -->
+          <button id="lang-btn" onclick="toggleLanguage()"
+            class="px-3.5 py-1.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700 transition-all font-semibold shadow-sm flex items-center gap-1.5 text-xs">
+            <span class="text-base">🇬🇧</span> English
+          </button>
+        </div>
+
+      </div>
+
+      <!-- Mobile Search Bar (small screens) -->
+      <div class="pb-3 md:hidden">
+        <div class="relative">
+          <span class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400 text-sm">
+            🔍
+          </span>
+          <input type="text" id="mobile-search" oninput="onSearchInput(this.value)"
+            placeholder="搜索国家、线索、车牌、电线杆..."
+            class="w-full pl-9 pr-4 py-2 rounded-xl bg-white dark:bg-slate-900 border border-slate-300 dark:border-slate-700 text-xs text-slate-900 dark:text-white placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:ring-1 focus:ring-emerald-500">
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Banner / Quick Stats Bar -->
+  <div id="stats-banner" class="banner-stats border-b py-2.5 px-4 text-center">
+    <div class="max-w-7xl mx-auto flex items-center justify-between flex-wrap gap-2 text-xs">
+      <span id="stats-badge" class="font-medium">
+        ⚡ 覆盖 14 大专项 Meta · 21 个大国地区 · 105+ 街景国家 · 31 处偏远离岛 · 114 面国旗口诀
+      </span>
+      <div id="stats-shortcuts" class="flex items-center gap-3 text-2xs font-mono ml-auto opacity-75">
+        <span>快捷键: <kbd class="px-1.5 py-0.5 rounded border text-xs">/</kbd> 搜索</span>
+        <span><kbd class="px-1.5 py-0.5 rounded border text-xs">Esc</kbd> 关闭大图</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Primary Tab Selector Bar -->
+  <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 pb-2 w-full">
+    <div id="main-tabs" class="flex flex-wrap items-center gap-2">
+      <!-- Tabs generated dynamically by app.js -->
+    </div>
+  </nav>
+
+  <!-- Main Content Container -->
+  <main class="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 w-full">
+    <div id="tab-container" class="min-h-[500px]">
+      <!-- Content rendered dynamically by app.js -->
+    </div>
+  </main>
+
+  <!-- Image Lightbox Modal -->
+  <div id="lightbox-modal" class="lightbox-modal" onclick="closeLightbox()">
+    <div class="relative max-w-5xl max-h-[90vh] p-4 flex flex-col items-center" onclick="event.stopPropagation()">
+      <button onclick="closeLightbox()"
+        class="absolute -top-3 -right-3 w-9 h-9 rounded-full bg-slate-800 text-white flex items-center justify-center text-sm font-bold border border-slate-600 hover:bg-rose-600 transition-colors shadow-xl">
+        ✕
+      </button>
+      <img id="lightbox-img" src="" alt="Enlarged Diagram" class="rounded-xl shadow-2xl max-h-[80vh] object-contain border border-slate-700 bg-slate-900">
+      <p id="lightbox-caption" class="text-sm text-slate-300 mt-3 font-medium text-center"></p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-200 dark:border-slate-800/80 bg-white dark:bg-slate-950/70 py-8 px-4 mt-12 text-xs text-slate-500">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-2">
+        <span class="text-lg">🧭</span>
+        <span class="font-semibold text-slate-700 dark:text-slate-400">GeoGuessr Master Hub</span>
+        <span>•</span>
+        <span id="footer-desc">基于个人实战笔记提炼</span>
+      </div>
+      <div id="footer-links" class="flex items-center gap-4 text-slate-500 dark:text-slate-400">
+        <a href="https://www.geoguessr.com/" target="_blank" class="hover:text-emerald-600 dark:hover:text-white transition-colors">GeoGuessr 官网</a>
+        <a href="https://www.plonkit.net/guide" target="_blank" class="hover:text-emerald-600 dark:hover:text-white transition-colors">Plonk It</a>
+        <a href="https://geohints.com/" target="_blank" class="hover:text-emerald-600 dark:hover:text-white transition-colors">Geohints</a>
+        <a href="https://tuxun.fun/" target="_blank" class="hover:text-emerald-600 dark:hover:text-white transition-colors">图寻</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/geoguessr-data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

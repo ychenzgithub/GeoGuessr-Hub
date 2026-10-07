@@ -1,0 +1,488 @@
+[
+  {
+    "region": "Africa",
+    "items": [
+      {
+        "subgroup": "全部",
+        "text": "[Senegal](https://geohints.com/meta/flags) (塞内加尔) 🇸🇳： 竖向绿黄红 + 中心绿星。记忆：“绿星闪耀”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Nigeria](https://geohints.com/meta/flags) (尼日利亚)🇳🇬： 竖向绿白绿，无图案。记忆：“纯净的农业与和平”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Ghana](https://geohints.com/meta/flags) (加纳)🇬🇭： 横向红黄绿 + 中心黑星。记忆：“黄金海岸黑星”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Kenya](https://geohints.com/meta/flags) (肯尼亚)🇰🇪： 黑红绿横条 + 中心马赛盾矛。记忆：“战斗的防御”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Uganda](https://geohints.com/meta/flags) (乌干达)🇺🇬： 黑黄红六道横条 + 中心灰冠鹤。记忆：“会跳舞的起重机”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Rwanda](https://geohints.com/meta/flags) (卢旺达)🇷🇼： 宽蓝条 + 黄绿条 + 右上角金太阳。记忆：“告别红色的和平”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Namibia](https://geohints.com/meta/flags) (纳米比亚)🇳🇦： 红斜条（带白边）+ 左上角金太阳。记忆：“沙漠阳光”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Botswana](https://geohints.com/meta/flags) (博茨瓦纳)🇧🇼： 浅蓝底色 + 黑白横条。记忆：“水（Pula）与斑马”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[South Africa](https://geohints.com/meta/flags) (南非)🇿🇦： 唯一的 横向“Y”字型，多色组合。记忆：“和解的彩虹”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Lesotho](https://geohints.com/meta/flags) (莱索托)🇱🇸： 蓝白绿横条 + 中间黑色巴索托帽。记忆：“高山民族风”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Eswatini](https://geohints.com/meta/flags) (埃斯瓦蒂尼)🇸🇿： 蓝黄红黄蓝 + 中心黑白盾牌。记忆：“华丽的武士盾”。"
+      }
+    ]
+  },
+  {
+    "region": "Europe",
+    "items": [
+      {
+        "subgroup": "“十字”阵营（北欧与英伦）",
+        "text": "[Denmark](https://geohints.com/meta/flags)🇩🇰：红底 + 白色北欧十字。记忆点：“北欧十字鼻祖，最简红白配”。"
+      },
+      {
+        "subgroup": "“十字”阵营（北欧与英伦）",
+        "text": "[Sweden](https://geohints.com/meta/flags)🇸🇪：蓝底 + 黄色北欧十字。记忆点：“经典的宜家配色”。"
+      },
+      {
+        "subgroup": "“十字”阵营（北欧与英伦）",
+        "text": "[Norway](https://geohints.com/meta/flags)🇳🇴：红底 + 蓝十字（带白边）。记忆点：“丹麦国旗上叠加了深蓝十字”。"
+      },
+      {
+        "subgroup": "“十字”阵营（北欧与英伦）",
+        "text": "[Finland](https://geohints.com/meta/flags)🇫🇮：白底 + 蓝色北欧十字。记忆点：“白雪衬托着蓝色的湖泊”。"
+      },
+      {
+        "subgroup": "“十字”阵营（北欧与英伦）",
+        "text": "[Iceland](https://geohints.com/meta/flags)🇮🇸：蓝底 + 红色十字（带白边）。记忆点：“冰川白、火山红、海洋蓝”。"
+      },
+      {
+        "subgroup": "“十字”阵营（北欧与英伦）",
+        "text": "[Faroe Islands](https://geohints.com/meta/flags)🇫🇴：白底 + 红十字（带蓝边）。记忆点：“挪威颜色的反转版”。"
+      },
+      {
+        "subgroup": "“十字”阵营（北欧与英伦）",
+        "text": "Georgia:🇬🇪：白底+红十字，四边各有一小红十字"
+      },
+      {
+        "subgroup": "“十字”阵营（北欧与英伦）",
+        "text": "[Åland](https://geohints.com/meta/flags)：蓝底 + 黄红双色十字。记忆点：“瑞典国旗中心嵌入了红十字”。"
+      },
+      {
+        "subgroup": "“十字”阵营（北欧与英伦）",
+        "text": "[United Kingdom](https://geohints.com/meta/flags)🇬🇧：蓝底 + 红白叠加米字旗。记忆点：“多国圣十字的米字重叠”。"
+      },
+      {
+        "subgroup": "“十字”阵营（北欧与英伦）",
+        "text": "[Greece](https://geohints.com/meta/flags)🇬🇷：蓝白条纹 + 左上角蓝底白十字。记忆点：“爱琴海的蓝白条纹”。"
+      },
+      {
+        "subgroup": "“十字”阵营（北欧与英伦）",
+        "text": "[Switzerland](https://geohints.com/meta/flags)🇨🇭：红色正方形 + 中心白色等臂十字。记忆点：“唯一的正方形，红十字会反色”。"
+      },
+      {
+        "subgroup": "“十字”阵营（北欧与英伦）",
+        "text": "[Malta](https://geohints.com/meta/flags)🇲🇹：左白右红竖条 + 左上角灰色马耳他十字。记忆点：“白红双色配银灰色勋章”。"
+      },
+      {
+        "subgroup": "“垂直三色”阵营（西欧与南欧）",
+        "text": "[France](https://geohints.com/meta/flags)🇫🇷 (法国)： 蓝-白-红。现代三色旗的老祖宗。"
+      },
+      {
+        "subgroup": "“垂直三色”阵营（西欧与南欧）",
+        "text": "[Belgium](https://geohints.com/meta/flags)🇧🇪 (比利时)： 黑-黄-红。颜色源自其纹章。"
+      },
+      {
+        "subgroup": "“垂直三色”阵营（西欧与南欧）",
+        "text": "[Italy](https://geohints.com/meta/flags)🇮🇹 (意大利)： 绿-白-红。把法国的蓝换成绿（罗勒叶、意面）。"
+      },
+      {
+        "subgroup": "“垂直三色”阵营（西欧与南欧）",
+        "text": "[Ireland](https://geohints.com/meta/flags)🇮🇪 (爱尔兰)： 绿-白-橙。注意最右边是橙色（代表新教徒）。"
+      },
+      {
+        "subgroup": "“垂直三色”阵营（西欧与南欧）",
+        "text": "[Romania](https://geohints.com/meta/flags)🇷🇴 (罗马尼亚)： 蓝-黄-红。和非洲的乍得几乎一模一样。"
+      },
+      {
+        "subgroup": "“垂直三色”阵营（西欧与南欧）",
+        "text": "[Andorra](https://geohints.com/meta/flags)🇦🇩 (安道尔)： 蓝-黄-红 + 中心有国徽。"
+      },
+      {
+        "subgroup": "“水平三色”阵营（中欧、东欧与波罗的海）",
+        "text": "经典红白蓝系列："
+      },
+      {
+        "subgroup": "“水平三色”阵营（中欧、东欧与波罗的海）",
+        "text": "[Netherlands](https://geohints.com/meta/flags)🇳🇱 (荷兰)： 红-白-蓝。横向三色旗的始祖。"
+      },
+      {
+        "subgroup": "“水平三色”阵营（中欧、东欧与波罗的海）",
+        "text": "[Luxembourg](https://geohints.com/meta/flags)🇱🇺 (卢森堡)： 红-白-浅蓝。比荷兰的蓝更浅。"
+      },
+      {
+        "subgroup": "“水平三色”阵营（中欧、东欧与波罗的海）",
+        "text": "[Russia](https://geohints.com/meta/flags)🇷🇺 (俄罗斯)： 白-蓝-红。泛斯拉夫颜色的来源。"
+      },
+      {
+        "subgroup": "“水平三色”阵营（中欧、东欧与波罗的海）",
+        "text": "泛斯拉夫/东欧变体："
+      },
+      {
+        "subgroup": "“水平三色”阵营（中欧、东欧与波罗的海）",
+        "text": "[Germany](https://geohints.com/meta/flags)🇩🇪 (德国)： 黑-红-金。"
+      },
+      {
+        "subgroup": "“水平三色”阵营（中欧、东欧与波罗的海）",
+        "text": "[Austria](https://geohints.com/meta/flags)🇦🇹 (奥地利)： 红-白-红。传说英雄血染白袍。"
+      },
+      {
+        "subgroup": "“水平三色”阵营（中欧、东欧与波罗的海）",
+        "text": "[Hungary](https://geohints.com/meta/flags)🇭🇺 (匈牙利)： 红-白-绿。"
+      },
+      {
+        "subgroup": "“水平三色”阵营（中欧、东欧与波罗的海）",
+        "text": "[Bulgaria](https://geohints.com/meta/flags)🇧🇬 (保加利亚)： 白-绿-红。"
+      },
+      {
+        "subgroup": "“水平三色”阵营（中欧、东欧与波罗的海）",
+        "text": "[Estonia](https://geohints.com/meta/flags)🇪🇪 (爱沙尼亚)： 蓝-黑-白。极其独特的冷系色彩。"
+      },
+      {
+        "subgroup": "“水平三色”阵营（中欧、东欧与波罗的海）",
+        "text": "[Latvia](https://geohints.com/meta/flags)🇱🇻 (拉脱维亚)： 暗红-白-暗红。白色条纹非常窄。"
+      },
+      {
+        "subgroup": "“水平三色”阵营（中欧、东欧与波罗的海）",
+        "text": "[Lithuania](https://geohints.com/meta/flags)🇱🇹 (立陶宛)： 黄-绿-红。在欧洲很少见的配色，很像非洲。"
+      },
+      {
+        "subgroup": "“水平二色”",
+        "text": "[Poland](https://geohints.com/meta/flags)🇵🇱 (波兰)： 上白下红。"
+      },
+      {
+        "subgroup": "“水平二色”",
+        "text": "[Monaco](https://geohints.com/meta/flags)🇲🇨 (摩纳哥)： 上红下白（比波兰矮一点）。"
+      },
+      {
+        "subgroup": "“水平二色”",
+        "text": "[Ukraine](https://geohints.com/meta/flags)🇺🇦 (乌克兰)： 上蓝下黄（天空与麦田）。"
+      },
+      {
+        "subgroup": "4. “带纹章/特殊构图”阵营",
+        "text": "[Czech Republic](https://geohints.com/meta/flags)🇨🇿 (捷克)： 白红横条 + 左侧蓝色三角形。"
+      },
+      {
+        "subgroup": "4. “带纹章/特殊构图”阵营",
+        "text": "[Portugal](https://geohints.com/meta/flags)🇵🇹 (葡萄牙)： 绿红竖条（比例不等）+ 国徽。"
+      },
+      {
+        "subgroup": "4. “带纹章/特殊构图”阵营",
+        "text": "[Spain](https://geohints.com/meta/flags)🇪🇸 (西班牙)： 红黄红（黄色占一半）+ 国徽。"
+      },
+      {
+        "subgroup": "4. “带纹章/特殊构图”阵营",
+        "text": "[Croatia](https://geohints.com/meta/flags)🇭🇷 (克罗地亚)： 红白蓝 + 红白格盾徽。"
+      },
+      {
+        "subgroup": "4. “带纹章/特殊构图”阵营",
+        "text": "[Slovakia](https://geohints.com/meta/flags)🇸🇰 (斯洛伐克)： 白蓝红 + 带有双十字的盾徽（徽章靠左）。"
+      },
+      {
+        "subgroup": "4. “带纹章/特殊构图”阵营",
+        "text": "[Slovenia](https://geohints.com/meta/flags)🇸🇮 (斯洛文尼亚)： 白蓝红 + 三座山峰的盾徽（徽章在左上角）。"
+      },
+      {
+        "subgroup": "4. “带纹章/特殊构图”阵营",
+        "text": "[Serbia](https://geohints.com/meta/flags)🇷🇸 (塞尔维亚)： 红蓝白（倒序）+ 双头鹰国徽。"
+      },
+      {
+        "subgroup": "4. “带纹章/特殊构图”阵营",
+        "text": "[Albania](https://geohints.com/meta/flags)🇦🇱 (阿尔巴尼亚)： 红底 + 黑色双头鹰。"
+      },
+      {
+        "subgroup": "4. “带纹章/特殊构图”阵营",
+        "text": "[Malta](https://geohints.com/meta/flags)🇲🇹 (马耳他)： 左白右红 + 左上角灰色小十字。"
+      },
+      {
+        "subgroup": "4. “带纹章/特殊构图”阵营",
+        "text": "[Vatican City](https://geohints.com/meta/flags)🇻🇦 (梵蒂冈)： 黄白竖条 + 教皇权杖。"
+      }
+    ]
+  },
+  {
+    "region": "Asia",
+    "items": [
+      {
+        "subgroup": "全部",
+        "text": "[Japan](https://geohints.com/meta/flags) (日本) 🇯🇵：白底 + 中心红圆。记忆：“白地红日”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[South Korea](https://geohints.com/meta/flags) (韩国) 🇰🇷：白底 + 中心太极圆 + 四角黑卦。记忆：“太极四卦”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Taiwan](https://geohints.com/meta/flags) (中国台湾) 🇹🇼：红底 + 左上蓝底白日。记忆：“青天白日满地红”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Hong Kong](https://geohints.com/meta/flags) (中国香港) 🇭🇰：红底 + 白色五瓣紫荆花。记忆：“红底紫荆花”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Macao](https://geohints.com/meta/flags) (中国澳门) 🇲🇴：绿底 + 白色莲花。记忆：“绿底白莲花”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Indonesia](https://geohints.com/meta/flags) (印度尼西亚) 🇮🇩：横向上红下白。记忆：“上面是火，下面是冰”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Thailand](https://geohints.com/meta/flags) (泰国) 🇹🇭：横向红白蓝白红。记忆：“五层色，蓝中心”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Malaysia](https://geohints.com/meta/flags) (马来西亚) 🇲🇾：红白条纹 + 左上蓝底黄星月。记忆：“星月红白条”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Philippines](https://geohints.com/meta/flags) (菲律宾) 🇵🇭：左白三角 + 右侧上蓝下红。记忆：“白三角，蓝红条”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Singapore](https://geohints.com/meta/flags) (新加坡) 🇸🇬：横向上红下白 + 左上五星新月。记忆：“红白星月”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Vietnam](https://geohints.com/meta/flags) (越南) 🇻🇳：红色背景 + 中心黄五角星。记忆：“红底金星”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Cambodia](https://geohints.com/meta/flags) (柬埔寨) 🇰🇭：横向蓝红蓝 + 中心白色吴哥窟。记忆：“蓝边红心吴哥窟”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Laos](https://geohints.com/meta/flags) (老挝) 🇱🇦：横向红蓝红 + 中心白圆。记忆：“蓝心白月”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Bangladesh](https://geohints.com/meta/flags) (孟加拉国) 🇧🇩：深绿背景 + 偏左红圆。记忆：“绿地红日”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[India](https://geohints.com/meta/flags) (印度) 🇮🇳：横向橙白绿 + 中心蓝色法轮。记忆：“橙白绿，法论转”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Sri Lanka](https://geohints.com/meta/flags) (斯里兰卡) 🇱🇰：绿橙条 + 右侧金色狮子持剑。记忆：“黄金狮子”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Bhutan](https://geohints.com/meta/flags) (不丹) 🇧🇹：黄橙斜分 + 中心白龙。记忆：“雷龙之国”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Kazakhstan](https://geohints.com/meta/flags) (哈萨克斯坦) 🇰🇿：亮蓝底 + 金色鹰日 + 侧边花纹。记忆：“天蓝金鹰”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Kyrgyzstan](https://geohints.com/meta/flags) (吉尔吉斯斯坦) 🇰🇬：红底 + 中心黄色太阳轮。记忆：“红底黄太阳”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Mongolia](https://geohints.com/meta/flags) (蒙古) 🇲🇳：纵向红蓝红 + 左侧黄色索永布。记忆：“红蓝红，索永布”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Israel](https://geohints.com/meta/flags) (以色列) 🇮🇱：白底 + 上下蓝条 + 中心蓝色大卫之星。记忆：“蓝白大卫星”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Jordan](https://geohints.com/meta/flags) (约旦) 🇯🇴：黑白绿横条 + 左红三角白星。记忆：“红角白星”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[United Arab Emirates](https://geohints.com/meta/flags) (阿联酋) 🇦🇪：左红竖条 + 右侧绿白黑横条。记忆：“左红右绿白黑”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Qatar](https://geohints.com/meta/flags) (卡塔尔) 🇶🇦：左白右栗红 + 锯齿分界。记忆：“锯齿长旗”。"
+      }
+    ]
+  },
+  {
+    "region": "North America",
+    "items": [
+      {
+        "subgroup": "全部",
+        "text": "[Canada](https://geohints.com/meta/flags) (加拿大) 🇨🇦：两侧红条 + 中心白色带红色枫叶。记忆：“红色枫叶”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[United States](https://geohints.com/meta/flags) (美国) 🇺🇸：红白相间条纹 + 左上蓝底白星。记忆：“星条旗”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Mexico](https://geohints.com/meta/flags) (墨西哥) 🇲🇽：绿白红纵向三色 + 中心雄鹰叼蛇。记忆：“鹰叼蛇”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Greenland](https://geohints.com/meta/flags) (格陵兰岛) 🇬🇱：上白下红 + 左侧红白反色圆。记忆：“冰雪中的红日”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Guatemala](https://geohints.com/meta/flags) (危地马拉) 🇬🇹：蓝白蓝纵向三色 + 中心国徽(有鸟)。记忆：“纵向蓝白蓝”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[El Salvador](https://geohints.com/meta/flags) (萨尔瓦多) 🇸🇻：蓝白蓝横向三色 + 中心圆圈国徽。记忆：“横向蓝白蓝，有圆徽”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Costa Rica](https://geohints.com/meta/flags) (哥斯达黎加) 🇨🇷：蓝白红白蓝横向条纹。记忆：“红心最宽”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Panama](https://geohints.com/meta/flags) (巴拿马) 🇵🇦：红蓝白四块对称 + 蓝红各一颗五角星。记忆：“红蓝白四分”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Dominican Republic](https://geohints.com/meta/flags) (多米尼加) 🇩🇴：蓝红十字分区 + 中心国徽。记忆：“蓝红十字”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Nicaragua](https://geohints.com/meta/flags) (尼加拉瓜) 🇳🇮：蓝白蓝横向三色 + 中心三角形国徽。记忆：“蓝白蓝，三角徽”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Honduras](https://geohints.com/meta/flags) (洪都拉斯) 🇭🇳：蓝白蓝横向三色 + 中心五颗蓝色五角星。记忆：“五蓝星”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Puerto Rico](https://geohints.com/meta/flags) (波多黎各) 🇵🇷：红白条纹 + 左侧蓝三角白星。记忆：“红白条蓝三角” (与古巴反色)。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[U.S. Virgin Islands](https://geohints.com/meta/flags) (美属维尔京群岛) 🇻🇮：白底 + 中心黄色老鹰。记忆：“白底黄鹰”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Bermuda](https://geohints.com/meta/flags) (百慕大) 🇧🇲：红底 + 左上英国国旗 + 右侧狮子纹章。记忆：“红底英国旗”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Curaçao](https://geohints.com/meta/flags) (库拉索) 🇨🇼：蓝底 + 下部黄条 + 左上两颗白星。记忆：“蓝底黄条双星”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Martinique](https://geohints.com/meta/flags) (马提尼克) 🇲🇶：红绿黑三色 (或旧旗的蓝白四蛇旗)。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Saint Pierre and Miquelon](https://geohints.com/meta/flags) (圣皮埃尔和密克隆) 🇵🇲：蓝底黄船 + 左侧三个小纹章。"
+      }
+    ]
+  },
+  {
+    "region": "South America",
+    "items": [
+      {
+        "subgroup": "全部",
+        "text": "[Argentina](https://geohints.com/meta/flags) (阿根廷) 🇦🇷：天蓝白天蓝横向三色 + 中心五月太阳。记忆：“天蓝色的太阳”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Brazil](https://geohints.com/meta/flags) (巴西) 🇧🇷：绿底 + 黄色菱形 + 中心蓝色星空球。记忆：“绿地黄菱蓝地球”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Chile](https://geohints.com/meta/flags) (智利) 🇨🇱：下半部分红色 + 左上蓝底白星。记忆：“单星旗” (与德州旗极像)。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Colombia](https://geohints.com/meta/flags) (哥伦比亚) 🇨🇴：黄蓝红横向三色，黄色占一半。记忆：“大黄蓝红”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Ecuador](https://geohints.com/meta/flags) (厄瓜多尔) 🇪🇨：黄蓝红横向三色 + 中心国徽。记忆：“有勋章的哥伦比亚”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Peru](https://geohints.com/meta/flags) (秘鲁) 🇵🇪：红白红纵向三色。记忆：“竖向红白红”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Bolivia](https://geohints.com/meta/flags) (玻利维亚) 🇧🇴：红黄绿横向三色。记忆：“南美的红黄绿” (无星星)。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Uruguay](https://geohints.com/meta/flags) (乌拉圭) 🇺🇾：蓝白相间条纹 + 左上五月太阳。记忆：“条纹太阳旗”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Paraguay](https://geohints.com/meta/flags) (巴拉圭) 🇵🇾：红白蓝横向三色 + 中心圆形国徽。记忆：“正反面图案不同”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Falkland Islands](https://geohints.com/meta/flags) (福克兰群岛) 🇫🇰：蓝底 + 左上英国国旗 + 右侧羊群纹章。记忆：“蓝底英国旗加羊”。"
+      }
+    ]
+  },
+  {
+    "region": "Oceania",
+    "items": [
+      {
+        "subgroup": "全部",
+        "text": "[Australia](https://geohints.com/meta/flags) (澳大利亚) 🇦🇺：蓝底 + 左上英国国旗 + 右侧南十字星 + 下方七角大星。记忆：“蓝底英国旗加六颗星”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[New Zealand](https://geohints.com/meta/flags) (新西兰) 🇳🇿：蓝底 + 左上英国国旗 + 右侧四颗红心白边星。记忆：“四颗红星” (与澳洲区分的关键)。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[American Samoa](https://geohints.com/meta/flags) (美属萨摩亚) 🇦🇸：右侧白三角内有白头海雕。记忆：“带老鹰的白三角”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Guam](https://geohints.com/meta/flags) (关岛) 🇬🇺：蓝底红边 + 中心梭形徽章。记忆：“红边蓝旗”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Northern Mariana Islands](https://geohints.com/meta/flags) (北马里亚纳群岛) 🇲🇵：蓝底 + 中心石柱与花环。记忆：“蓝底石柱花环”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Vanuatu](https://geohints.com/meta/flags) (瓦努阿图) 🇻🇺：红绿黑底色 + 黄色Y型条纹 + 猪牙图案。记忆：“黄色Y型与猪牙”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Christmas Island](https://geohints.com/meta/flags) (圣诞岛) 🇨🇽：蓝绿斜分 + 中心黄圆内有金鹲。记忆：“蓝绿地，金鸟飞”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Cocos (Keeling) Islands](https://geohints.com/meta/flags) (科科斯群岛) 🇨🇨：绿底 + 左上棕榈树 + 中心黄星月。记忆：“绿底棕榈树”。"
+      },
+      {
+        "subgroup": "全部",
+        "text": "[Pitcairn Islands](https://geohints.com/meta/flags) (皮特凯恩群岛) 🇵🇳：蓝底 + 左上英国国旗 + 右侧绿色纹章。记忆：“蓝底英国旗加绿盾”。"
+      }
+    ]
+  }
+]
