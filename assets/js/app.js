@@ -13,6 +13,7 @@
     currentTab: 'topics', // Default focus on 专项知识 per user request!
     countryViewMode: 'countries', // 'countries' (主权国家), 'islands' (偏远离岛)
     infographicsViewMode: 'charts', // 'charts' (核心图解), 'flags' (国旗口诀)
+    chartCategoryFilter: 'ALL',
     flagRegionFilter: 'ALL',
     resourceCategoryFilter: 'ALL', // 'ALL', 'games', 'tools', 'articles'
     currentKnowledgeSubTab: 'topics', // backwards compatibility alias
@@ -50,7 +51,7 @@
       subFlags: "国旗口诀与构图 (114面)",
       countryModeCountries: "🌐 主权国家 (105国)",
       countryModeIslands: "🏝️ 偏远离岛速查 (31处)",
-      infoModeCharts: "📊 核心 Meta 图解 (9张)",
+      infoModeCharts: "📊 核心 Meta 图解 (30张)",
       infoModeFlags: "🚩 全球国旗口诀 (114面)",
       flagMnemonicPrefix: "速记口诀",
       flagPatternLabel: "构图特征",
@@ -78,11 +79,12 @@
       islandColSov: "归属 / 宗主国",
       islandColMeta: "核心 Meta / 识别特征",
       imageEnlarge: "点击查看原尺寸高清大图",
-      statsBadge: "⚡ 覆盖 14 大专项 Meta · 21 个大国地区 · 105+ 街景国家 · 31 处偏远离岛 · 114 面国旗口诀",
+      statsBadge: "⚡ 覆盖 14 大专项 Meta · 21 个大国地区 · 105+ 街景国家 · 31 处偏远离岛 · 30 张高清图解 · 114 面国旗口诀",
       discussionLink: "Reddit 讨论 ↗",
       keyClue: "关键记忆点:",
       commonLabel: "共性:",
       flagsCount: "{count} 面国旗",
+      chartsCount: "{count} 张图解",
       articlesCount: "{count} 篇推荐",
       allTagPill: "全部标签",
       prevTopic: "上一专题",
@@ -117,7 +119,7 @@
       subFlags: "Flag Mnemonics (114)",
       countryModeCountries: "🌐 Sovereign Countries (105)",
       countryModeIslands: "🏝️ Remote Islands (31)",
-      infoModeCharts: "📊 Core Meta Charts (9)",
+      infoModeCharts: "📊 Core Meta Charts (30)",
       infoModeFlags: "🚩 Flag Mnemonics (114)",
       flagMnemonicPrefix: "Mnemonic",
       flagPatternLabel: "Visual Pattern",
@@ -145,11 +147,12 @@
       islandColSov: "Sovereignty",
       islandColMeta: "Key Meta & Identification Clues",
       imageEnlarge: "Click to view full-resolution image",
-      statsBadge: "⚡ 14 Specialized Metas · 21 Regional Guides · 105+ Countries · 31 Remote Islands · 114 Flag Mnemonics",
+      statsBadge: "⚡ 14 Specialized Metas · 21 Regional Guides · 105+ Countries · 31 Remote Islands · 30 Infographics · 114 Flag Mnemonics",
       discussionLink: "Reddit Thread ↗",
       keyClue: "Key Clue:",
       commonLabel: "Common:",
       flagsCount: "{count} flags",
+      chartsCount: "{count} charts",
       articlesCount: "{count} articles",
       allTagPill: "All Tags",
       prevTopic: "Previous Topic",
@@ -255,6 +258,12 @@
   // Helper: filter flag region in 国旗口诀
   window.filterFlagRegion = function (region) {
     state.flagRegionFilter = region;
+    renderInfographicsGallery();
+  };
+
+  // Helper: filter chart category in 核心图解
+  window.filterChartCategory = function (cat) {
+    state.chartCategoryFilter = cat;
     renderInfographicsGallery();
   };
 
@@ -472,7 +481,7 @@
     ];
 
     const toolTabs = [
-      { id: 'infographics', labelZh: '核心图表与国旗', labelEn: 'Infographics & Flags', icon: '📊', count: state.lang === 'zh' ? '9图+114旗' : '9+114', color: 'rose' },
+      { id: 'infographics', labelZh: '核心图表与国旗', labelEn: 'Infographics & Flags', icon: '📊', count: state.lang === 'zh' ? '30图+114旗' : '30+114', color: 'rose' },
       { id: 'resources', labelZh: '网络资源与游戏', labelEn: 'Resources & Games', icon: '🌐', count: state.lang === 'zh' ? '对战·工具·攻略' : 'Games & Tools', color: 'teal' }
     ];
 
@@ -1501,11 +1510,18 @@
   // 3.4 Topic Metas (Elevated First-Class Module)
   const TOPIC_INFOGRAPHICS = {
     plates: { titleZh: '美国50州车牌特征图解', titleEn: 'US License Plates Chart', img: 'assets/images/infographics/us_license_plates.png' },
+    taxis: { titleZh: '全球黄色车牌与出租车分布图', titleEn: 'World Yellow & Taxi License Plates Map', img: 'assets/images/infographics/yellow_license_plates_map.png' },
+    cars: { titleZh: 'Gen 4 街景车全形态分布图', titleEn: 'Gen 4 Camera Car Forms Map', img: 'assets/images/infographics/gen4_prominent_forms_map.png' },
     poles: { titleZh: '全球电线杆分布与特征图解', titleEn: 'Poles Distribution Chart', img: 'assets/images/infographics/poles_distribution.png' },
+    bollards: { titleZh: '全球各国标志性路缘标实拍全览图', titleEn: 'World Roadside Bollards Visual Map', img: 'assets/images/infographics/world_bollards_visual_map.png' },
     chevrons: { titleZh: '欧洲V形导向标志总表', titleEn: 'Europe Chevrons Chart', img: 'assets/images/infographics/chevrons_europe.png' },
-    markings: { titleZh: '世界道路标线与行车方向大地图', titleEn: 'World Markings Map', img: 'assets/images/infographics/world_markings_map.png' },
-    signs: { titleZh: '欧洲路牌设计图谱', titleEn: 'Europe Signs Style', img: 'assets/images/infographics/europe_directional_signs.png' },
-    languages: { titleZh: '全球文字系统分布图', titleEn: 'World Scripts Map', img: 'assets/images/infographics/writing_systems_map.png' }
+    markings: { titleZh: '全球道路标线颜色分布图', titleEn: 'World Road Markings Map', img: 'assets/images/infographics/world_markings_map.png' },
+    signs: { titleZh: '全球道路警告标志形状与配色分布图', titleEn: 'World Warning Sign Shapes & Colours Map', img: 'assets/images/infographics/warning_signs_world_map.jpg' },
+    languages: { titleZh: '全球文字系统分布图', titleEn: 'World Scripts Map', img: 'assets/images/infographics/writing_systems_map.png' },
+    architecture: { titleZh: '全球屋顶水箱颜色与造型分布图', titleEn: 'World Rooftop Water Tank Colours Map', img: 'assets/images/infographics/water_tank_colours_map.png' },
+    vegetation: { titleZh: '全球平坦地形遭遇概率分布图', titleEn: 'World Flat Landscape Probability Map', img: 'assets/images/infographics/flat_landscape_map.png' },
+    'road-numbers': { titleZh: '欧洲各国公路编号规则与高速路牌颜色全图解', titleEn: 'European Road Numbering & Highway Sign Colours', img: 'assets/images/infographics/euro_road_numbering_map.png' },
+    misc: { titleZh: 'GeoGuessr 全球国家级梗与标志性线索手绘全图', titleEn: 'The GeoGuessr Map of References', img: 'assets/images/infographics/geoguessr_map_of_references.jpg' }
   };
 
   function renderSingleTopicCard(tp, isAllMode) {
@@ -1834,6 +1850,7 @@
     const flagsData = data.flags || [];
     const query = state.searchQuery;
     const mode = state.infographicsViewMode || 'charts';
+    const chartCat = state.chartCategoryFilter || 'ALL';
     const flagRegion = state.flagRegionFilter || 'ALL';
 
     const infoTagMap = {
@@ -1842,9 +1859,12 @@
       '全球地图': 'World Map',
       '道路标线': 'Road Markings',
       '左右行': 'Driving Side',
+      '街景覆盖': 'SV Coverage',
+      '街景车': 'Camera Car',
       '核心Meta': 'Core Meta',
       '车牌': 'License Plates',
       '美国': 'USA',
+      '加拿大': 'Canada',
       '大国地区': 'Regions',
       '交通标志': 'Road Signs',
       'V形导向牌': 'Chevrons',
@@ -1852,6 +1872,9 @@
       '路牌': 'Directional Signs',
       '标志设计': 'Signage Design',
       '电线杆': 'Utility Poles',
+      '路缘标': 'Bollards',
+      '建筑与水箱': 'Water Tanks',
+      '自然地理': 'Landscape',
       '基础设施': 'Infrastructure',
       '全球速查': 'Global Cheat Sheet',
       '西里尔字母': 'Cyrillic',
@@ -1859,11 +1882,30 @@
       '希腊字母': 'Greek Script',
       '字母辨识': 'Script ID',
       '东南亚': 'Southeast Asia',
+      '国旗': 'Flags',
       '高阶Meta': 'Advanced Meta'
     };
 
+    const chartCategories = [
+      { id: 'ALL', labelZh: '全部图解 (30)', labelEn: 'All Charts (30)', tags: [] },
+      { id: 'core', labelZh: '🌍 左右行·标线·覆盖·地形 (4)', labelEn: '🌍 Driving·Markings·Coverage·Terrain (4)', tags: ['左右行', '道路标线', '街景覆盖', '自然地理'] },
+      { id: 'car', labelZh: '📷 街景车与天线 (3)', labelEn: '📷 Camera & Car Meta (3)', tags: ['街景车'] },
+      { id: 'plate', labelZh: '🚗 车牌特征与法规 (5)', labelEn: '🚗 License Plates (5)', tags: ['车牌'] },
+      { id: 'sign', labelZh: '⚠️ 路牌与交通标志 (6)', labelEn: '⚠️ Signs & Chevrons (6)', tags: ['交通标志', '路牌', 'V形导向牌'] },
+      { id: 'infra', labelZh: '⚡ 电线杆·护柱·水箱 (4)', labelEn: '⚡ Poles·Bollards·Tanks (4)', tags: ['电线杆', '路缘标', '建筑与水箱'] },
+      { id: 'lang', labelZh: '🔤 语言文字·国旗·梗图 (8)', labelEn: '🔤 Scripts·Flags·Atlas (8)', tags: ['语言', '文字', '国旗'] }
+    ];
+
     // Filter Charts
     const filteredCharts = chartsList.filter(item => {
+      if (chartCat !== 'ALL') {
+        const catObj = chartCategories.find(c => c.id === chartCat);
+        if (catObj) {
+          const itemTags = item.tags || [];
+          const matchesCat = catObj.tags.some(tg => itemTags.includes(tg)) || (chartCat === 'lang' && item.id === 'geoguessr-map-of-references');
+          if (!matchesCat) return false;
+        }
+      }
       if (!query) return true;
       const text = `${item.titleZh} ${item.titleEn} ${item.descZh} ${item.descEn} ${(item.tags||[]).join(' ')}`.toLowerCase();
       return text.includes(query);
@@ -1919,6 +1961,23 @@
     // Helper: Build Charts HTML
     function buildChartsHtml() {
       let chartsHtml = `
+        <!-- Category Filter Pills -->
+        <div class="mb-5 flex flex-wrap items-center gap-1.5">
+          ${chartCategories.map(cat => {
+            const active = chartCat === cat.id;
+            const cls = active
+              ? "bg-rose-600 text-white font-semibold shadow-sm"
+              : "bg-slate-100 dark:bg-slate-800/80 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700/80 border border-slate-200 dark:border-slate-700/50";
+            return `
+              <button onclick="filterChartCategory('${cat.id}')"
+                class="px-3 py-1 rounded-md text-xs transition-colors ${cls}">
+                ${state.lang === 'zh' ? cat.labelZh : cat.labelEn}
+              </button>
+            `;
+          }).join('')}
+          <span class="ml-auto text-xs text-slate-400 font-mono">${t('chartsCount', { count: filteredCharts.length })}</span>
+        </div>
+
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       `;
 
