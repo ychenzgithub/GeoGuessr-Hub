@@ -1050,7 +1050,11 @@ db = {
                 "image": "assets/images/infographics/world_driving_side_map.png",
                 "descZh": "【开局第一定律】红色为靠右行驶（左舵车，占全球约65%：欧洲大陆、全美洲大部、俄蒙中韩、中东、北非与西非）；蓝色为靠左行驶（右舵车：英国、爱尔兰、马耳他、塞浦路斯、日本、港澳、泰国、马来西亚、新加坡、印尼、印度、孟加拉、斯里兰卡、不丹、澳新、南非、博茨瓦纳、纳米比亚、肯尼亚、乌干达及圭亚那/苏里南）。",
                 "descEn": "Fundamental opening filter: Red = Right-Hand Traffic (driving on the right: Continental Europe, most of the Americas, Russia, East Asia, Middle East, North/West Africa); Blue = Left-Hand Traffic (driving on the left: UK, Ireland, Malta, Cyprus, Japan, Thailand, Malaysia, Indonesia, South Asia, Oceania, Southern & East Africa, Guyana, Suriname).",
-                "tags": ["左右行", "核心Meta", "全球地图"]
+                "tags": [
+                    "左右行",
+                    "核心Meta",
+                    "全球地图"
+                ]
             },
             {
                 "id": "world-markings",
@@ -1059,7 +1063,11 @@ db = {
                 "image": "assets/images/infographics/world_markings_map.png",
                 "descZh": "四大标线体系秒分大洲：①红色【白中线+白边线】：欧洲绝大多数国家（除挪威/爱尔兰/土耳其外）、俄罗斯、中亚、印度、孟加拉、斯里兰卡、澳洲、智利、塞内加尔、加纳、尼日利亚、突尼斯；②黄色【黄中线+白边线】：全北美与中美、南美（哥/厄/秘/玻/巴/巴拉圭）、挪威、肯尼亚、乌干达、泰/柬/马/韩/台；③绿色【白中线+黄边线】：南部非洲（南非/博茨瓦纳/纳米比亚/莱索托/斯威士兰）、爱尔兰、以色列、约旦、阿联酋、阿曼、尼泊尔、不丹；④紫色【混用/不固定】：阿根廷、乌拉圭、土耳其、日本、菲律宾、印尼、新西兰。",
                 "descEn": "Global road line colour rules: Red (White Centre + White Outer) = most of Europe, Russia, Central Asia, India, Australia, Chile, West Africa; Yellow (Yellow Centre + White Outer) = North/Central America, Andean & Northern South America, Brazil, Norway, Kenya/Uganda, Thailand/Malaysia/Korea/Taiwan; Green (White Centre + Yellow Outer) = Southern Africa, Ireland, Israel/Jordan/UAE/Oman, Nepal/Bhutan; Purple (Mixed) = Argentina, Uruguay, Turkey, Japan, Philippines, Indonesia, NZ.",
-                "tags": ["道路标线", "核心Meta", "全球地图"]
+                "tags": [
+                    "道路标线",
+                    "核心Meta",
+                    "全球地图"
+                ]
             },
             {
                 "id": "street-view-coverage",
@@ -1068,7 +1076,11 @@ db = {
                 "image": "assets/images/infographics/street_view_coverage_map.png",
                 "descZh": "标注全球官方 Google 街景道路网覆盖密度（红线为高频道路覆盖）。幻灯片特别点名五大典型无常规道路街景的国家：埃及（仅金字塔等景点步行街景）、白俄罗斯（仅明斯克零星景区）、沙特阿拉伯、缅甸、中国大陆（仅少量博物馆/景区），此外摩洛哥、阿尔及利亚、伊朗、古巴、委内瑞拉、巴拉圭等亦无官方道路街景，排位切忌误点盲区。",
                 "descEn": "Official Google Street View road coverage density map. Notable missing countries highlighted on the slide: Egypt, Belarus, Saudi Arabia, Myanmar, and mainland China (only isolated trekker/museum photospheres), as well as Morocco, Algeria, Iran, Cuba, Venezuela, and Paraguay.",
-                "tags": ["街景覆盖", "核心Meta", "全球地图"]
+                "tags": [
+                    "街景覆盖",
+                    "核心Meta",
+                    "全球地图"
+                ]
             },
             {
                 "id": "warning-signs-world",
@@ -1077,16 +1089,24 @@ db = {
                 "image": "assets/images/infographics/warning_signs_world_map.jpg",
                 "descZh": "五大警告牌样式秒锁区域：①黄底黑边菱形（Diamond）：全美洲、日本、泰国、菲律宾、印尼、马来西亚、澳大利亚、新西兰，以及欧洲唯一的爱尔兰；②白底红边三角形：欧洲主流、俄罗斯及前苏联、土耳其、以色列、印度、蒙古；③黄底红边三角形：瑞典、芬兰、冰岛（注意挪威是白底！）、波兰、希腊、北马其顿、越南、老挝、柬埔寨及西非/东非多国；④黄底黑边三角形：中国大陆、韩国；⑤蓝底红边三角形（历史遗留）：南非、博茨瓦纳、纳米比亚等南部非洲旧标。",
                 "descEn": "Global warning sign styles: Yellow Diamond = Americas, Japan, SE Asia, AU/NZ, and Ireland (unique in Europe); White/Red Triangle = most of Europe, former USSR, Turkey, Israel, India; Yellow/Red Triangle = Sweden, Finland, Iceland, Poland, Greece, North Macedonia, Indochina, East/West Africa; Yellow/Black Triangle = China, South Korea; Blue/Red Triangle (older signs) = Southern Africa.",
-                "tags": ["交通标志", "核心Meta", "全球地图"]
+                "tags": [
+                    "交通标志",
+                    "核心Meta",
+                    "全球地图"
+                ]
             },
             {
                 "id": "poles-distribution",
                 "titleZh": "全球各国标志性电线杆图鉴 (Pole Types Around the World)",
                 "titleEn": "Pole Types Around the World (Materials, Tops & Holes)",
                 "image": "assets/images/infographics/poles_distribution.png",
-                "descZh": "无路牌农村局最强锁国利器：法国（蓝标贴牌与带孔水泥杆）、西班牙与葡萄牙（经典梯子杆 Ladder Poles）、匈牙利（密集横孔水泥杆与木杆A字撑）、波兰（A字双杆与弯钩单绝缘子）、罗马尼亚（通透梯形方孔杆，底部常刷白漆）、波罗的海三国（单侧小弯钩横担）、巴西与智利（南美梯子镂空水泥杆）、阿德莱德（南澳专属钢夹水泥 Stobie 杆）、日本（垂直辅撑与黄黑拉线套）、台湾（螺旋黄黑防撞杆）、泰国（带方孔黑底白字编码水泥杆）。",
-                "descEn": "Comprehensive visual guide to utility poles worldwide: Ladder poles (Spain, Portugal, France, Brazil, Chile), Holey concrete poles (Hungary, Poland, Romania, Thailand, Cambodia), Baltic hook crossarms, Australian Stobie poles, Japanese vertical struts & guy-wire guards, and Taiwanese spiral yellow-black stripes.",
-                "tags": ["电线杆", "基础设施", "全球速查"]
+                "descZh": "【全球电线杆材质分布图 (Pole Types)】按图例6色区分各国主导杆体材质：①棕色【Strong Majority Wood 绝大多数为木杆】：美、加、英、爱、挪、瑞、芬、爱沙尼亚、加纳、肯尼亚、乌干达、南非及周边、阿曼、澳大利亚；②深灰色【Strong Majority Concrete 绝大多数为水泥杆】：东欧与巴尔干大部（波/捷/斯/匈/罗/保/乌/俄/拉/立/塞/克）、墨、哥、厄、秘、智、巴、塞内加尔、尼日利亚、哈、吉、印、孟、斯、东南亚六国、日、韩、中国台湾；③深蓝色【Strong Majority Metal 绝大多数为金属杆】：格陵兰、突尼斯、阿联酋、不丹；④绿色【Mixed Wood + Concrete 木杆与水泥混用】：法、西、葡、奥、危、玻、巴拉圭、阿、乌拉圭、蒙古、新西兰；⑤黄色【Mixed Concrete + Metal 水泥与金属混用】：比、瑞、意、希、土、以、约、尼泊尔；⑥红色【Mostly Underground Wires 绝大多数电线入地/极少电线杆】：冰岛、荷兰、卢森堡、德国、丹麦、安道尔、摩纳哥、新加坡、中国香港。",
+                "descEn": "Global distribution of utility pole materials: (1) Brown [Strong Majority Wood]: USA, Canada, UK, Ireland, Nordic countries, Estonia, Ghana, Kenya, Uganda, Southern Africa, Oman, Australia; (2) Dark Grey [Strong Majority Concrete]: Eastern Europe & Balkans (PL/CZ/SK/HU/RO/BG/UA/RU/LV/LT/RS/HR), Mexico, Colombia, Ecuador, Peru, Chile, Brazil, Senegal, Nigeria, Central/South/Southeast/East Asia; (3) Dark Blue [Strong Majority Metal]: Greenland, Tunisia, UAE, Bhutan; (4) Green [Mixed Wood + Concrete]: France, Spain, Portugal, Austria, Guatemala, Bolivia, Paraguay, Argentina, Uruguay, Mongolia, New Zealand; (5) Yellow [Mixed Concrete + Metal]: Belgium, Switzerland, Italy, Greece, Turkey, Israel, Jordan, Nepal; (6) Red [Mostly Underground Wires]: Iceland, Netherlands, Luxembourg, Germany, Denmark, Andorra, Monaco, Singapore, Hong Kong.",
+                "tags": [
+                    "电线杆",
+                    "基础设施",
+                    "全球速查"
+                ]
             },
             {
                 "id": "gen4-opel-honda",
@@ -1095,7 +1115,11 @@ db = {
                 "image": "assets/images/infographics/gen4_opel_honda_map.jpg",
                 "descZh": "第四代高清蓝车（Gen 4）两大主力车型识别图解：①蓝色区域【OPEL 欧宝】：低头向车后方看，紧贴底部模糊圈边缘偶见蓝白相间的梯形翘起背板（Back Tab），分布于欧洲全境、南非、莱索托、斯威士兰、土耳其；②绿色区域【HONDA 本田】：低头向车前方看，偶见白色或深色隆起的发动机舱盖前缘（Car Hood），分布于美加墨、哥伦比亚、秘鲁、巴西、阿根廷、智利、澳新、泰/马/印/菲、阿联酋/约旦/以色列、韩/台。",
                 "descEn": "Gen 4 camera car comparison with close-up Street View crops: Blue = OPEL (visible blue-and-white rear 'Back Tab' behind the car) used across Europe, Turkey, and Southern Africa; Green = HONDA (visible rounded 'Car Hood' bulge in front) used across the Americas, Oceania, SE/East Asia, and the Middle East.",
-                "tags": ["街景车", "核心Meta", "全球地图"]
+                "tags": [
+                    "街景车",
+                    "核心Meta",
+                    "全球地图"
+                ]
             },
             {
                 "id": "gen4-prominent-forms",
@@ -1104,16 +1128,24 @@ db = {
                 "image": "assets/images/infographics/gen4_prominent_forms_map.png",
                 "descZh": "全球 Gen 4 拍摄载具六大形态全景：①蓝色【Opel 背板】欧洲、南非、土耳其；②绿色【Honda 车头】美洲、澳新、东南亚、中东；③黄色【Truck 皮卡/卡车】冰岛、塞尔维亚、北马其顿、格鲁吉亚、塞内加尔、加纳、尼日利亚、肯尼亚、纳米比亚、阿曼、巴拿马、厄瓜多尔、玻利维亚、乌拉圭；④红色【No Car 完全无车影】俄罗斯、比利时、卢森堡、奥地利、克罗地亚；⑤紫色【Lowcam 低机位】瑞士、日本、斯里兰卡；⑥橙色【Smallcam Only 小镜头】印度、孟加拉、柬埔寨、阿尔巴尼亚、波多黎各、多米尼加。",
                 "descEn": "Six prominent Gen 4 camera forms by country: Blue = Opel (Back Tab); Green = Honda (Car Hood); Yellow = Pickup Truck (Iceland, Balkans, West/East Africa, Namibia, Oman, Bolivia, Ecuador, Uruguay, Panama); Red = No Car visible (Russia, Belgium, Austria, Croatia); Purple = Lowcam (Switzerland, Japan, Sri Lanka); Orange = Smallcam Only (India, Bangladesh, Cambodia, Albania, PR, DR).",
-                "tags": ["街景车", "高阶Meta", "全球地图"]
+                "tags": [
+                    "街景车",
+                    "高阶Meta",
+                    "全球地图"
+                ]
             },
             {
                 "id": "gen3-car-meta",
                 "titleZh": "全球各国 Gen 3 街景车特征与天线形态全图解",
                 "titleEn": "Most Likely Gen 3 Google Car & Antenna Meta in Each Country",
                 "image": "assets/images/infographics/gen3_car_meta_map.png",
-                "descZh": "第三代街景（Gen 3）车尾颜色、天线长短与皮卡车顶架速查：①黑色/白色/银色车尾（Carback）：秘鲁、玻利维亚（多白尾）、智利（多白尾）、阿根廷與乌拉圭（多黑尾）；②粗短天线（Stubby Antenna）：西班牙、意大利、波兰、罗马尼亚、保加利亚、波罗的海三国、英国、澳洲、泰/马、墨西哥；③红/白/黑车配长天线：俄罗斯、乌克兰、瑞典、葡萄牙、法/德、美/巴、台湾；④皮卡/车顶架（Truck/Roof Rack）：蒙古、吉尔吉斯、危地马拉、多米尼加、尼日利亚、塞内加尔、加纳、肯尼亚、乌干达、孟加拉、斯里兰卡；⑤螺纹天线（Ribbed）：以色列与巴勒斯坦。",
-                "descEn": "Global Gen 3 car and antenna guide: Black/White/Silver carbacks (South America), Stubby Antenna (Spain, Italy, Eastern Europe, Baltics, UK, Australia, Thailand, Malaysia, Mexico), Long Antenna (Russia, Ukraine, Sweden, Portugal, France, Germany, US, Brazil, Taiwan), Truck/Roof Rack (Mongolia, Kyrgyzstan, Guatemala, West/East Africa, Bangladesh, Sri Lanka), Lowcam (Switzerland, Japan), and Ribbed Antenna (Israel).",
-                "tags": ["街景车", "高阶Meta", "全球地图"]
+                "descZh": "【三代车车身与天线全球速查 (Gen 3 Car Meta)】按图例13色精确对应：①黑色【Black Carback 黑车尾】：阿根廷、乌拉圭、约旦、韩国；②白色【White Carback 白车尾】：秘鲁、玻利维亚、智利、南非、博茨瓦纳、斯威士兰、莱索托、印尼；③灰色【Silver Carback 银灰车尾】：阿尔巴尼亚、黑山；④紫色【Stubby Antenna 粗短桩天线】：墨西哥、哥伦比亚、厄瓜多尔、巴西；⑤蓝色【Truck / Roof Rack 皮卡或车顶行李架】：危地马拉、多米尼加、波多黎各、塞内加尔、加纳、尼日利亚、肯尼亚、乌干达、吉尔吉斯、蒙古、孟加拉、老挝；⑥浅绿【No Car 完全无车身无天线】：美、加、挪、丹、德、塞尔维亚、北马其顿、土耳其、泰国；⑦红白格【White Carfront 白色车头】：斯里兰卡、柬埔寨；⑧红色【Red Car Long Antenna 红车长天线】：乌克兰；⑨米白【White Car Long Antenna 白车长天线】：瑞典、冰岛、澳大利亚；⑩棕色【Black Car Long Antenna 黑车长天线】：俄罗斯、西班牙、葡萄牙、以色列/巴勒斯坦、中国台湾；⑪深绿【Short Antenna 标准短天线】：英、爱、法、荷比卢、意、奥、捷、斯、波、波罗的海、芬、匈、罗、保、克、斯洛文尼亚、希、突尼斯、马、新、菲；⑫黄色【Lowcam 低视角】：瑞士、日本；⑬浅青【Ribbed Antenna 螺纹天线】：新西兰。",
+                "descEn": "Global Gen 3 Google Car & Antenna distribution across 13 categories: (1) Black [Black Carback]: Argentina, Uruguay, Jordan, South Korea; (2) White [White Carback]: Peru, Bolivia, Chile, South Africa, Botswana, Eswatini, Lesotho, Indonesia; (3) Grey [Silver Carback]: Albania, Montenegro; (4) Purple [Stubby Antenna]: Mexico, Colombia, Ecuador, Brazil; (5) Blue [Truck / Roof Rack]: Guatemala, DR, PR, Senegal, Ghana, Nigeria, Kenya, Uganda, Kyrgyzstan, Mongolia, Bangladesh, Laos; (6) Light Green [No Car]: USA, Canada, Norway, Denmark, Germany, Serbia, North Macedonia, Turkey, Thailand; (7) Red-White Checkered [White Carfront]: Sri Lanka, Cambodia; (8) Red [Red Car Long Antenna]: Ukraine; (9) Cream [White Car Long Antenna]: Sweden, Iceland, Australia; (10) Brown [Black Car Long Antenna]: Russia, Spain, Portugal, Israel/West Bank, Taiwan; (11) Dark Green [Short Antenna]: UK, Ireland, France, Benelux, Italy, Central/Eastern Europe, Baltics, Finland, Balkans, Tunisia, Malaysia, Singapore, Philippines; (12) Yellow [Lowcam]: Switzerland, Japan; (13) Light Teal [Ribbed Antenna]: New Zealand.",
+                "tags": [
+                    "街景车",
+                    "高阶Meta",
+                    "全球地图"
+                ]
             },
             {
                 "id": "yellow-license-plates",
@@ -1122,16 +1154,24 @@ db = {
                 "image": "assets/images/infographics/yellow_license_plates_map.png",
                 "descZh": "按五档频率归纳全球黄色车牌：①黄色【Normally 常规标配前后黄牌】：荷兰、卢森堡（全欧唯二全黄牌国家！）、以色列、阿曼、哥伦比亚、纳米比亚，以及老挝（幻灯片备注：老挝私家车亦标配黄牌）；②紫色【Rears Only 前白后黄】：英国、博茨瓦纳、肯尼亚、乌干达、斯里兰卡；③浅橙【Sometimes 常见】：美国阿拉斯加/新墨西哥/纽约/新泽西、印度、孟加拉、日本（轻自动车 K-car 黄牌）；④红色【Occasionally 偶见商用/旧版】：法国（2009年前旧牌后黄）、丹麦（商用黄牌）、秘鲁、印尼、澳洲、韩国；⑤深绿【Taxi 出租车黄牌】：瑞典、加纳、不丹、越南、智利。",
                 "descEn": "Global guide to yellow license plates: Yellow (Normally) = Netherlands, Luxembourg, Israel, Oman, Colombia, Namibia (+ Laos per slide note); Purple (Rears Only, white front / yellow rear) = UK, Botswana, Kenya, Uganda, Sri Lanka; Orange (Sometimes) = NY, NJ, NM, Alaska, India, Bangladesh, Japan (Kei cars); Red (Occasionally) = France, Denmark, Peru, Indonesia, Australia, South Korea; Dark Green (Taxi) = Sweden, Ghana, Bhutan, Vietnam, Chile.",
-                "tags": ["车牌", "核心Meta", "全球地图"]
+                "tags": [
+                    "车牌",
+                    "核心Meta",
+                    "全球地图"
+                ]
             },
             {
                 "id": "license-plate-proportions",
                 "titleZh": "全球车牌长宽比例分布图（欧式细长牌 vs 美式短宽牌）",
                 "titleEn": "World License Plate Proportions Map (Long vs Short vs Tall-Short)",
                 "image": "assets/images/infographics/license_plate_proportions_map.png",
-                "descZh": "即便车牌打码模糊，长宽外框比例依旧清晰：①蓝色【Long 欧式细长牌】：全欧洲、俄罗斯、土耳其、哈萨克/吉尔吉斯、蒙古、中国大陆、韩国（新款长牌）、印度、东南亚（越/马/新/印）、南非/莱索托/斯威士兰、塞内加尔/加纳/突尼斯，以及南美南方共同市场四国（巴西、阿根廷、乌拉圭、巴拉圭）；②黄色【Short 美式短宽牌】：美加墨、中美洲、加勒比、厄瓜多尔、秘鲁、玻利维亚、智利、澳新、菲/台/泰/柬；③红色【Tall Short 偏方高短牌】：哥伦比亚与日本；④绿色【Mixed 长短混用】：肯尼亚、乌干达、尼日利亚、博茨瓦纳、纳米比亚、阿联酋、约旦、斯里兰卡、老挝。",
-                "descEn": "License plate aspect ratios worldwide: Blue (Long European-style) = All of Europe, Russia, Central Asia, Mongolia, China, South Korea, India, Indonesia/Malaysia, South Africa, and Mercosur South America (Brazil, Argentina, Uruguay); Yellow (Short American-style) = North & Central America, Andean South America (Ecuador, Peru, Bolivia, Chile), AU/NZ, Thailand/Taiwan/Philippines; Red (Tall-Short boxy) = Colombia and Japan; Green (Mixed) = East/Southern Africa, UAE, Jordan, Sri Lanka.",
-                "tags": ["车牌", "核心Meta", "全球地图"]
+                "descZh": "【车牌长宽比例秒判】即便车牌被打码模糊，长宽比例依然清晰可见：①黄色【Long 欧式细长牌】：欧洲大陆绝大多数国家（除意/瑞/安道尔）、俄、土、突尼斯、埃及、塞内加尔、南非及周边四国、哈萨克、吉尔吉斯、印、不丹、马、印尼、菲、巴西、乌拉圭；②大红色【Short 美式短宽牌】：美、加、墨、危、哥斯达黎加、巴拿马、波多黎各、多米尼加、秘鲁、玻利维亚、智利、尼日利亚、孟加拉国、泰、老、澳、新；③深褐红色【Tall Short 偏高方短牌】：哥伦比亚、日本、中国台湾、安道尔；④橙色【Mixed 长短混用或前短后长】：意大利（前车牌明显比普通欧牌短小！）、瑞士、厄瓜多尔、阿根廷、巴拉圭、加纳、肯尼亚、乌干达、约旦、阿联酋、蒙古、韩国、柬埔寨、斯里兰卡。",
+                "descEn": "Even through heavy blurring, plate aspect ratio is unmistakable: (1) Yellow [Long European-style]: Most of Europe (except IT/CH/AD), Russia, Turkey, Tunisia, Egypt, Senegal, Southern Africa, Kazakhstan, Kyrgyzstan, India, Bhutan, Malaysia, Indonesia, Philippines, Brazil, Uruguay; (2) Red [Short American-style]: USA, Canada, Mexico, Central America, PR, DR, Peru, Bolivia, Chile, Nigeria, Bangladesh, Thailand, Laos, Australia, New Zealand; (3) Dark Red/Maroon [Tall Short]: Colombia, Japan, Taiwan, Andorra; (4) Orange [Mixed / Shorter Front Plate]: Italy (distinctly shorter front plate!), Switzerland, Ecuador, Argentina, Paraguay, Ghana, Kenya, Uganda, Jordan, UAE, Mongolia, South Korea, Cambodia, Sri Lanka.",
+                "tags": [
+                    "车牌",
+                    "核心Meta",
+                    "全球地图"
+                ]
             },
             {
                 "id": "us-license-plates",
@@ -1140,7 +1180,11 @@ db = {
                 "image": "assets/images/infographics/us_license_plates.png",
                 "descZh": "美国全 50 州车牌在街景模糊后的色块渐变特征（如纽约金黄牌、佛州中橘绿果、怀俄明牛仔、新墨西哥绿松石/黄底、佛蒙特纯绿牌、爱达荷红蓝白三色带）及只挂后牌区域红圈标注。美洲排位分州大杀器！",
                 "descEn": "Visual chart of blurred license plate designs across all 50 US states, highlighting distinctive color gradients and the states that only require rear plates.",
-                "tags": ["车牌", "美国", "大国地区"]
+                "tags": [
+                    "车牌",
+                    "美国",
+                    "大国地区"
+                ]
             },
             {
                 "id": "us-front-rear-plates",
@@ -1149,25 +1193,37 @@ db = {
                 "image": "assets/images/infographics/us_front_rear_plates_map.png",
                 "descZh": "观察路边车辆车头是否挂前牌，秒砍全美一半州：①蓝色【Rear Only 仅需挂后车牌，共19州（占全美人口35.1%）】：集中在美国东南部、阿巴拉契亚与西南部——宾州(PA)、特拉华(DE)、西弗吉尼亚(WV)、印第安纳(IN)、密歇根(MI)、肯塔基(KY)、北卡(NC)、南卡(SC)、佐治亚(GA)、佛罗里达(FL)、亚拉巴马(AL)、密西西比(MS)、田纳西(TN)、阿肯色(AR)、路易斯安那(LA)、俄克拉荷马(OK)、堪萨斯(KS)、新墨西哥(NM)、亚利桑那(AZ)（注：俄亥俄州 OH 亦于2020年7月起取消前牌）；②绿色【Front + Rear 前后双牌，共31州+DC】：加州、德州、纽约、新英格兰、西北及中西部北部各州。",
                 "descEn": "US state laws on front license plates: Blue (Rear Only, 19 states / 35.1% of population) = Southeastern US, Appalachia, Michigan, Indiana, Kansas, Oklahoma, New Mexico, Arizona (plus Ohio since July 2020); Green (Front + Rear, 31 states + DC / 64.9% of population) = West Coast, Texas, Northeast, and Upper Midwest (with minor conditional exemptions in NE, SD, ND, WY, NV).",
-                "tags": ["车牌", "美国", "大国地区"]
+                "tags": [
+                    "车牌",
+                    "美国",
+                    "大国地区"
+                ]
             },
             {
                 "id": "canada-license-plates",
                 "titleZh": "加拿大各省与地区前后车牌悬挂法规分布图",
                 "titleEn": "Canadian Provincial & Territorial Licence Plate Requirements",
                 "image": "assets/images/infographics/canada_license_plates_map.jpg",
-                "descZh": "加拿大分省极简铁律——全国大部分省区均只挂后车牌：①蓝色【Rear & Front 前后双车牌】：仅有不列颠哥伦比亚省（BC）、马尼托巴省（Manitoba）、安大略省（Ontario）（注：图中新不伦瑞克省 NB 标蓝为2019年7月前旧规，现已取消前车牌！）；②红色【Rear Only 仅挂后车牌】：艾伯塔省（Alberta，在落基山脉秒分 BC 与 AB 的核心铁证）、萨斯喀彻温省（Saskatchewan）、魁北克省（Quebec 全境无前牌！）、大西洋三省（NS/PEI/NL）及北方三大地区（YT/NT/NU）。",
-                "descEn": "Canadian front vs rear license plate requirements: Blue (Rear & Front required) = British Columbia (BC), Manitoba (MB), and Ontario (ON) (Note: New Brunswick abolished front plates in July 2019, so newer Gen 4 coverage in NB is rear-only); Red (Rear Only) = Alberta, Saskatchewan, Quebec, Nova Scotia, PEI, Newfoundland & Labrador, and all 3 northern territories.",
-                "tags": ["车牌", "加拿大", "大国地区"]
+                "descZh": "【北美省州二级定位】加拿大各省车头挂牌规定严格区分：①绿色【Rear & Front 前后双车牌】：不列颠哥伦比亚省 (BC)、曼尼托巴省 (MB)、安大略省 (ON)，以及新不伦瑞克省 (NB，注：2019年7月前旧街景有前车牌，2019年7月起废除前牌）；②浅蓝色【Rear Only 仅挂后车牌，车头无牌】：阿尔伯塔省 (AB)、萨斯喀彻温省 (SK)、魁北克省 (QC)、新斯科舍省 (NS)、爱德华王子岛 (PE)、纽芬兰与拉布拉多 (NL) 以及三大北方领地 (YT/NT/NU)。",
+                "descEn": "Canadian provincial license plate laws: (1) Green [Rear & Front Plates]: British Columbia (BC), Manitoba (MB), Ontario (ON), and New Brunswick (NB prior to July 2019; front plate abolished after July 2019); (2) Light Blue [Rear Plate Only]: Alberta (AB), Saskatchewan (SK), Quebec (QC), Nova Scotia (NS), PEI, Newfoundland & Labrador (NL), and all 3 territories (YT, NT, NU).",
+                "tags": [
+                    "车牌",
+                    "加拿大",
+                    "大国地区"
+                ]
             },
             {
                 "id": "stop-signs-world",
                 "titleZh": "全球停车让行标志 (STOP Sign) 文字与样式分布图",
                 "titleEn": "STOP Signs Around the (Guessable) World",
                 "image": "assets/images/infographics/stop_signs_world_map.png",
-                "descZh": "八角形停车牌文字全球分流：①西语美洲一字定乾坤：【ALTO】= 墨西哥与中美洲（危地马拉、哥斯达黎加、巴拿马）；【PARE】= 南美洲全境（哥伦比亚、厄瓜多尔、秘鲁、玻利维亚、智利、阿根廷、乌拉圭、巴西）+ 波多黎各与多米尼加！②北美法语区：【ARRÊT】仅出现在加拿大魁北克省与新不伦瑞克省（法国本土用英文 STOP！）；③亚非欧特色文字：土耳其【DUR】、蒙古【ЗОГС】、阿拉伯国家【قف】、以色列【黄色五指手掌图案】、日本【止まれ 红色倒三角形】、韩国【정지 / STOP】、中国与台湾【停】、泰国【หยุด】、老挝【ຢຸດ】、柬埔寨【ឈប់】、马/印/文莱【BERHENTI】、孟加拉【থামুন】。",
-                "descEn": "Global STOP sign text variations: ALTO = Mexico & Central America; PARE = All of South America + Puerto Rico & Dominican Republic; ARRÊT = Quebec & French New Brunswick (France itself uses STOP); DUR = Turkey; ЗОГС = Mongolia; Hand symbol = Israel; Red downward triangle '止まれ' = Japan; '정지' = South Korea; '停' = China/Taiwan; 'หยุด' = Thailand; 'ຢຸດ' = Laos; 'ឈប់' = Cambodia; 'BERHENTI' = Malaysia/Indonesia.",
-                "tags": ["交通标志", "语言", "全球速查"]
+                "descZh": "【全球停车牌 (STOP Sign) 文字与样式全集】一图区分全球易混地区：①拉美三大流派：`ALTO`（墨西哥、危地马拉、哥斯达黎加、巴拿马等中美洲）、`PARE`（哥伦比亚、厄瓜多尔、秘鲁、智利、玻利维亚、阿根廷、巴西、乌拉圭、波多黎各、多米尼加）、`ARRÊT`（加拿大魁北克及新不伦瑞克双语区）；②亚洲特色文字：`止まれ`（日本，倒三角形红牌！）、`정지 / STOP`（韩国）、`หยุด`（泰国）、`ឈប់`（柬埔寨）、`ຢຸດ`（老挝）、`BERHENTI`（马来西亚、文莱；注意印尼使用英文 `STOP`）、`停`（中国大陆）、`STOP / 停`（中国香港双语八角牌）、`থামুন`（孟加拉国，三角套红圆牌）、`قف`（阿拉伯国家）、`DUR`（土耳其）、`СТОП`（蒙古、保加利亚部分）。",
+                "descEn": "Global STOP sign text & shapes: (1) Americas: `ALTO` (Mexico, Guatemala, Costa Rica, Panama), `PARE` (South America, Puerto Rico, Dominican Republic), `ARRÊT` (Quebec & bilingual New Brunswick); (2) Asia & Mideast: `止まれ` (Japan — red inverted triangle!), `정지 / STOP` (South Korea), `หยุด` (Thailand), `ឈប់` (Cambodia), `ຢຸດ` (Laos), `BERHENTI` (Malaysia & Brunei; whereas Indonesia uses `STOP`), `停` (Mainland China), `STOP / 停` (Hong Kong bilingual octagon), `থামুন` (Bangladesh — red circle inside triangle), `قف` (Arabic nations), `DUR` (Turkey), `СТОП` (Mongolia).",
+                "tags": [
+                    "交通标志",
+                    "语言",
+                    "全球速查"
+                ]
             },
             {
                 "id": "europe-street-words",
@@ -1176,7 +1232,11 @@ db = {
                 "image": "assets/images/infographics/europe_street_words_map.png",
                 "descZh": "欧洲城镇路名牌“街/路”后缀词典：瑞典【Gata】、挪威【Gate】、丹麦【Gade】、冰岛【Gata/Stræti】、芬兰【Katu/Tie】、爱沙尼亚【Tänav/tn】、拉脱维亚【Iela】、立陶宛【Gatvė/g.】、荷/比弗拉芒【Straat】、德/奥【Straße】、瑞士德语区【Strasse（无ß）】、法/比瓦隆【Rue】、西班牙【Calle】、加泰罗尼亚/安道尔【Carrer】、巴斯克【Kalea】、葡萄牙【Rua】、意大利【Via】、马耳他【Triq】、波兰/斯洛伐克/斯洛文尼亚/巴尔干【Ulica】、捷克【Ulice】、乌克兰【Вулиця】、俄罗斯/保加利亚【Улица】、匈牙利【Utca】、罗马尼亚【Strada】、阿尔巴尼亚【Rrugë】、希腊【Οδός】、土耳其【Sokak/Caddesi】。",
                 "descEn": "Words for 'Street' on European road signs with national and regional flags: Gata (SE), Gate (NO), Gade (DK), Katu (FI), Tänav (EE), Iela (LV), Gatvė (LT), Straat (NL/Flanders), Straße (DE/AT), Strasse (CH), Rue (FR/Wallonia), Calle (ES), Carrer (Catalonia/Andorra), Kalea (Basque), Rua (PT), Via (IT), Triq (Malta), Ulica (PL/SK/Balkans), Ulice (CZ), Вулиця (Ukraine), Улица (RU/BG), Utca (HU), Strada (RO/MD), Rrugë (AL/XK), Οδός (GR/CY), Sokak/Caddesi (TR).",
-                "tags": ["路牌", "语言", "欧洲"]
+                "tags": [
+                    "路牌",
+                    "语言",
+                    "欧洲"
+                ]
             },
             {
                 "id": "europe-pedestrian-stripes",
@@ -1185,7 +1245,11 @@ db = {
                 "image": "assets/images/infographics/europe_pedestrian_stripes_map.png",
                 "descZh": "数蓝底人行横道牌上的白条纹根数秒锁欧洲国家（bullfrogggy 整理）：①【8条】西班牙、安道尔（极密集细白条，秒杀5条的葡萄牙与法国）；②【7条】瑞士（小人下方7根细条）；③【5条】欧洲最主流（法/意/捷/罗/土/丹/芬/波罗的海，其中德/葡/匈/克小人系腰带，斯洛伐克中间条纹极近，斯洛文尼亚条纹触碰白三角底边）；④【4条】瑞典与冰岛（前脚踩在1-2条之间）、挪威（常为4条，北部偶见5条）、保加利亚（双脚直接踩在白条上）；⑤【3条】俄罗斯、乌克兰、白俄罗斯、爱沙尼亚（瘦小人）；⑥【2条虚线】比利时、奥地利、希腊、塞浦路斯及前南巴尔干（黑山/阿尔巴尼亚/塞尔维亚/北马其顿）；⑦【1条粗实心带】波兰独占；⑧【无此蓝牌】英国与爱尔兰。",
                 "descEn": "Number of white stripes on European blue pedestrian crossing signs: 8 = Spain & Andorra; 7 = Switzerland; 5 = France, Germany, Italy, Portugal, Denmark, Finland, Czechia, Slovakia, Hungary, Romania, Croatia, Slovenia, Lithuania, Latvia, Turkey (with belt/spacing sub-variants); 4 = Sweden, Iceland, Norway, Bulgaria; 3 = Russia, Ukraine, Belarus, Estonia; 2 dashed lines = Belgium, Austria, Greece, Albania, Montenegro, Serbia, North Macedonia; 1 solid bar = Poland only; No blue sign = UK & Ireland.",
-                "tags": ["交通标志", "欧洲", "高阶Meta"]
+                "tags": [
+                    "交通标志",
+                    "欧洲",
+                    "高阶Meta"
+                ]
             },
             {
                 "id": "chevrons-europe",
@@ -1194,7 +1258,11 @@ db = {
                 "image": "assets/images/infographics/chevrons_europe.png",
                 "descZh": "欧洲弯道 V 形导向牌配色体系：白底红箭（德国、波兰、匈牙利、罗马尼亚、斯洛伐克、塞尔维亚、保加利亚等）、黑底白箭（意大利、西班牙、法国、葡萄牙、英国、瑞士、捷克、克罗地亚、希腊）、蓝底白箭（法国主推、西班牙与巴斯克常见）、黑底黄箭（挪威、冰岛、爱尔兰、卢森堡、黑山）、蓝底黄箭（瑞典全国独占！）、红底白箭（丹麦、立陶宛、芬兰、捷克）、黄底黑箭（芬兰）、黄底红箭（奥地利与西葡常见）。",
                 "descEn": "European curve chevron color schemes: White/Red (DE, PL, HU, RO, SK, RS, BG), Black/White (IT, ES, FR, PT, UK, CH, CZ, HR, GR), Blue/White (France, Spain), Black/Yellow (NO, IS, IE, LU, ME), Blue/Yellow (Sweden exclusive!), Red/White (DK, LT, FI, CZ), Yellow/Black (Finland), Yellow/Red (Austria, Spain, Portugal).",
-                "tags": ["交通标志", "V形导向牌", "欧洲"]
+                "tags": [
+                    "交通标志",
+                    "V形导向牌",
+                    "欧洲"
+                ]
             },
             {
                 "id": "europe-directional-signs",
@@ -1203,7 +1271,11 @@ db = {
                 "image": "assets/images/infographics/europe_directional_signs.png",
                 "descZh": "欧洲各国指路牌中箭头的绘制方式：整块涂黑镂空箭头（挪威）、黑线勾勒空心箭头（瑞典）、黑实心箭头（芬兰），以及法、德、西、意、波兰、捷克等国独特的箭头折角与边框设计。",
                 "descEn": "Distinct arrow silhouettes across European directional signs: cut-out arrows (Norway), thin outline (Sweden), solid black (Finland), and country-specific shaft/head geometry.",
-                "tags": ["路牌", "欧洲", "标志设计"]
+                "tags": [
+                    "路牌",
+                    "欧洲",
+                    "标志设计"
+                ]
             },
             {
                 "id": "euro-road-numbering",
@@ -1212,16 +1284,24 @@ db = {
                 "image": "assets/images/infographics/euro_road_numbering_map.png",
                 "descZh": "欧洲各国高速公路与干线公路牌底色及编号前缀速查（u/Melongated 制）：①高速路牌底色分流：【绿底高速牌】意大利、瑞士、丹麦、瑞典、立陶宛、捷克、斯洛伐克、斯洛文尼亚、克罗地亚、波黑、塞尔维亚、北马其顿、罗马尼亚、保加利亚、希腊、土耳其 vs 【蓝底高速牌】英、爱、法、西、葡、比、荷、卢、德、奥、波、匈；②特征前缀：法国（A/N/D/C）、德国（蓝八角形A + 黄矩形B）、英国（M/A/B）、爱尔兰（M/N/R/L）、西班牙（AP/A/N + 省区双字母前缀）、捷克与斯洛伐克（红底D + 蓝底数字）、北欧与波罗的海（无字母纯数字彩盾）。",
                 "descEn": "Comprehensive chart of European highway and road numbering badges by u/Melongated: Green vs. Blue motorway sign countries, German blue autobahn hexagons & yellow Bundesstraße rectangles, French A/N/D/C hierarchy, UK M/A/B vs. Irish M/N/R/L, Spanish regional prefixes, and Nordic/Baltic pure-number shields.",
-                "tags": ["路牌", "欧洲", "高阶Meta"]
+                "tags": [
+                    "路牌",
+                    "欧洲",
+                    "高阶Meta"
+                ]
             },
             {
                 "id": "bollard-probability",
                 "titleZh": "全球路缘标/护柱 (Bollards) 出现概率分布图",
                 "titleEn": "World Probability of Encountering Roadside Bollards Map",
                 "image": "assets/images/infographics/bollard_probability_map.png",
-                "descZh": "了解各国路边护柱（Bollards）密度，判断“有/无护柱”本身传递的信息：①绿色【Likely 极高概率见到】：欧洲大陆绝大多数国家（冰岛、丹麦、德/波/捷/斯/奥/瑞/斯洛文尼亚/克罗地亚/匈牙利/罗马尼亚/法/西/意/波罗的海三国/黑山/塞尔维亚）、土耳其、日本、台湾、泰国、柬埔寨、马来西亚、澳大利亚、新西兰；②橙色【Sometimes 偶见】：英/爱、挪/瑞/芬、俄/乌、哈萨克/吉尔吉斯/蒙古、韩/菲/印/孟/斯、突尼斯、美/加/墨、厄/秘/智/乌拉圭；③红色【Rarely 极少见到】：撒哈拉以南非洲全境、印度、中东、巴西、阿根廷、哥伦比亚、玻利维亚。",
-                "descEn": "Global probability of seeing roadside bollards: Green (Likely) = Continental Europe, Turkey, Japan, Taiwan, Thailand, Cambodia, Malaysia, Australia, New Zealand; Orange (Sometimes) = UK/Ireland, Nordics (NO/SE/FI), Russia/Ukraine, Central Asia/Mongolia, South Korea, Indonesia/Philippines, North America, Peru/Chile/Ecuador/Uruguay; Red (Rarely) = Sub-Saharan Africa, India, Middle East, Brazil, Argentina, Colombia, Bolivia.",
-                "tags": ["路缘标", "基础设施", "全球地图"]
+                "descZh": "【路缘标出现概率地图】并非所有国家都建设公路护柱：①红色【Likely 极高概率见到】：欧洲大陆绝大多数国家（冰岛、瑞典、芬兰、波罗的海三国、波兰、德、丹、荷比卢、法、西、葡、意、瑞、奥、捷、斯、匈、斯洛文尼亚、克罗地亚、塞尔维亚、黑山、阿尔巴尼亚、北马其顿）、俄罗斯、土耳其、日本、中国台湾、澳大利亚、新西兰、厄瓜多尔、秘鲁；②橙色【Sometimes 偶见/部分干道有】：英国、挪威、乌克兰、哈萨克、吉尔吉斯、蒙古、美、加、墨、乌拉圭、塞内加尔、泰、柬、老、马、印尼、斯里兰卡、孟加拉国；③黄色【Rarely 极少见到】：爱尔兰、罗马尼亚、保加利亚、希腊、以色列、约旦、阿联酋、阿曼、加纳、尼日利亚、肯尼亚、乌干达、南部非洲五国、印度、不丹、韩国、菲律宾、中美洲、哥伦比亚、玻利维亚、巴西、阿根廷、智利。",
+                "descEn": "Roadside bollard frequency by country: (1) Red [Likely]: Most of Continental Europe (except RO/BG/GR/NO), Iceland, Russia, Turkey, Japan, Taiwan, Australia, New Zealand, Ecuador, Peru; (2) Orange [Sometimes]: UK, Norway, Ukraine, Kazakhstan, Kyrgyzstan, Mongolia, USA, Canada, Mexico, Uruguay, Senegal, Thailand, Cambodia, Laos, Malaysia, Indonesia, Sri Lanka, Bangladesh; (3) Yellow [Rarely]: Ireland, Romania, Bulgaria, Greece, Israel, Jordan, UAE, Oman, Ghana, Nigeria, Kenya, Uganda, Southern Africa, India, Bhutan, South Korea, Philippines, Central America, Colombia, Bolivia, Brazil, Argentina, Chile.",
+                "tags": [
+                    "路缘标",
+                    "基础设施",
+                    "全球地图"
+                ]
             },
             {
                 "id": "world-bollards-visual",
@@ -1230,16 +1310,24 @@ db = {
                 "image": "assets/images/infographics/world_bollards_visual_map.png",
                 "descZh": "将各国最具代表性的路边护柱实拍图直接标注在世界地图对应位置上：丹麦（黄顶红带）、冰岛（黄柱白反光片）、波兰与立陶宛（红白宽带斜顶）、捷克与斯洛伐克（黑斜顶配双橙色圆点）、奥地利与斯洛文尼亚（黑斜顶配红/白反光片，斯洛文尼亚黑帽全包顶）、德国（黑斜顶配白色窄竖条）、卢森堡（三颗黑螺丝钉）、法国（白圆柱配红/银灰环带）、西班牙（黑斜顶配黄色反光块）、意大利（黑顶白身配红白竖条）、土耳其（白扁柱配正中大红块）、澳大利亚（白扁柱红长条）、新西兰（全红宽带包裹白柱）、泰国（黑白圆顶水泥桩）。",
                 "descEn": "Visual world map placing actual Street View photos of each country's roadside bollards onto its territory—covering all classic European, Oceanian (AU vs NZ red wrap), Asian (Thailand, Malaysia, Japan, Taiwan), and Latin American bollard designs.",
-                "tags": ["路缘标", "基础设施", "全球速查"]
+                "tags": [
+                    "路缘标",
+                    "基础设施",
+                    "全球速查"
+                ]
             },
             {
                 "id": "flat-landscape-map",
                 "titleZh": "全球平坦地形 (Flat Landscape) 遭遇概率分布图",
                 "titleEn": "World Flat Landscape Probability Map",
                 "image": "assets/images/infographics/flat_landscape_map.png",
-                "descZh": "开局若四周一望无际全为绝对平坦平原（无任何山丘起伏），可对照此图秒排山地国：①深绿【Almost Always 几乎总是平坦】：丹麦、荷兰、芬兰、爱沙尼亚、拉脱维亚、立陶宛、匈牙利、乌克兰、乌拉圭、塞内加尔、尼日利亚、加纳、博茨瓦纳、卡塔尔、阿联酋、孟加拉国、柬埔寨；②浅绿【Likely 大概率平坦】：俄罗斯、波兰、比利时、英国、美加墨（大平原）、阿根廷、巴西、澳大利亚、印度、泰国；③橙色【Unlikely 较少平坦】：法/德/西/葡/意/捷/罗/保/希/土、挪/瑞、南非、肯尼亚、印尼、菲律宾、韩国；④红色【Almost Never 几乎从不平坦（必见山脉或丘陵）】：瑞士、奥地利、斯洛伐克、斯洛文尼亚、黑山、阿尔巴尼亚、北马其顿、冰岛、吉尔吉斯斯坦、不丹、日本、中国台湾、香港、新西兰、秘鲁、玻利维亚、厄瓜多尔、哥伦比亚、危地马拉、卢旺达、莱索托、斯威士兰。",
-                "descEn": "How likely you are to encounter a completely flat landscape: Dark Green (Almost Always) = Denmark, Netherlands, Finland, Baltics, Hungary, Ukraine, Uruguay, Senegal, Botswana, Qatar, UAE, Bangladesh, Cambodia; Light Green (Likely) = Russia, Poland, UK, US/Canada, Argentina, Brazil, Australia, India, Thailand; Orange (Unlikely) = Spain, Italy, Greece, Turkey, Norway, Sweden, South Africa, Kenya, Indonesia, Korea; Red (Almost Never) = Switzerland, Austria, Slovakia, Slovenia, Montenegro, Albania, Iceland, Kyrgyzstan, Bhutan, Japan, Taiwan, NZ, Andean South America, Rwanda, Lesotho.",
-                "tags": ["自然地理", "核心Meta", "全球地图"]
+                "descZh": "【自然地形平坦度概率图】当你出生在一望无际、毫无山丘起伏的纯平地形时：①浅米黄色【Almost Always 几乎总是平坦】：丹麦、荷兰、芬兰、波罗的海三国（爱/拉/立）、波兰、哈萨克斯坦、塞内加尔、博茨瓦纳、卡塔尔、阿联酋、孟加拉国、巴拉圭；②金黄色【Likely 大概率平坦】：美、加、巴西、阿根廷、乌拉圭、英、爱、法、比、德、捷、匈、乌、俄、瑞典、突尼斯、加纳、尼日利亚、肯尼亚、乌干达、南非、纳米比亚、蒙古、泰、柬、老、马、澳大利亚；③橙色【Unlikely 较少平坦/多山丘】：挪威、冰岛、西、葡、意、瑞、奥、斯洛伐克、罗、保、塞、波黑、希、土、格鲁吉亚、吉尔吉斯、印、斯、印尼、菲、中国台湾、新西兰、墨、中美洲、哥、厄、秘、玻、智；④红色【Almost Never 几乎从不平坦/全境多山】：安道尔、斯洛文尼亚、克罗地亚、黑山、阿尔巴尼亚、北马其顿、尼泊尔、不丹、韩国、日本、卢旺达、莱索托、斯威士兰。",
+                "descEn": "Probability of encountering completely flat terrain: (1) Pale Cream [Almost Always Flat]: Denmark, Netherlands, Finland, Baltics (EE/LV/LT), Poland, Kazakhstan, Senegal, Botswana, Qatar, UAE, Bangladesh, Paraguay; (2) Gold/Yellow [Likely Flat]: USA, Canada, Brazil, Argentina, Uruguay, UK, Ireland, France, Belgium, Germany, Czechia, Hungary, Ukraine, Russia, Sweden, Tunisia, West/East/Southern Africa, Mongolia, Mainland SEA, Australia; (3) Orange [Unlikely Flat]: Norway, Iceland, Iberia, Italy, Alpine & Balkan Europe, Turkey, Caucasus, Kyrgyzstan, India, Maritime SEA, Taiwan, New Zealand, Mexico, Andean South America; (4) Red [Almost Never Flat]: Andorra, Slovenia, Croatia, Montenegro, Albania, North Macedonia, Nepal, Bhutan, South Korea, Japan, Rwanda, Lesotho, Eswatini.",
+                "tags": [
+                    "自然地理",
+                    "核心Meta",
+                    "全球地图"
+                ]
             },
             {
                 "id": "water-tank-colours",
@@ -1248,7 +1336,11 @@ db = {
                 "image": "assets/images/infographics/water_tank_colours_map.png",
                 "descZh": "绿色底色代表屋顶高频出现储水箱的国家，图标展示水箱颜色与造型（双色分割代表多色并存）：①拉丁美洲：巴西（标志性浅蓝/深蓝飞碟盆状水箱）、墨西哥与危地马拉（黑色与米白色 Rotoplas 圆桶水箱）、秘鲁（黑白双色或全黑圆桶）、哥伦比亚/厄瓜多尔/巴拿马（蓝桶与黑桶）、阿根廷/乌拉圭/智利（黑色、白色或水泥灰立桶）；②地中海与中东：希腊/塞浦路斯/土耳其（横向卧式银白太阳能热水桶）、以色列与巴勒斯坦（巴勒斯坦区多黑色立桶，以色列多白色水箱）、约旦/阿联酋/阿曼（白色方桶或立桶）；③亚非地区：中国台湾（全岛密集的亮银色不锈钢圆筒水塔！）、印尼（醒目的橙红色与蓝色立桶）、泰国（棕色大水缸与银/蓝水塔）、南非/莱索托（绿色波纹塑料桶）、西非与东非（黑色立桶）。",
                 "descEn": "Global rooftop water tank guide (Green = common rooftop water tanks; Brown = rare): Brazil (blue bowl/saucer tanks), Mexico & Guatemala (black/white Rotoplas cylinders), Colombia/Peru/Argentina (blue, black, or white tanks), Greece/Turkey (horizontal solar water heaters), Israel/West Bank (white vs. black tanks), South Africa (green tanks), Indonesia (bright orange/red & blue tanks), Taiwan (ubiquitous shiny silver stainless-steel cylinders).",
-                "tags": ["建筑与水箱", "高阶Meta", "全球地图"]
+                "tags": [
+                    "建筑与水箱",
+                    "高阶Meta",
+                    "全球地图"
+                ]
             },
             {
                 "id": "writing-systems",
@@ -1257,25 +1349,37 @@ db = {
                 "image": "assets/images/infographics/writing_systems_map.png",
                 "descZh": "直观标注全球各国文字系统（拉丁字母、西里尔字母、希腊字母、阿拉伯字母、希伯来字母、韩文字母、汉字与日本假名、天城文、孟加拉文、泰米尔文、泰卢固文、僧伽罗文、泰文、老挝文、高棉文、缅甸文、格鲁吉亚文、亚美尼亚文、吉兹字母等）。看懂文字体系秒锁大洲和大区！",
                 "descEn": "Global distribution of writing systems (Latin, Cyrillic, Greek, Arabic, Hebrew, Hangul, Hanzi/Kana, Devanagari, Bengali, Tamil, Telugu, Sinhala, Thai, Lao, Khmer, Burmese, Georgian, Armenian, Ge'ez). Instantly narrow down continents and countries.",
-                "tags": ["语言", "文字", "全球地图"]
+                "tags": [
+                    "语言",
+                    "文字",
+                    "全球地图"
+                ]
             },
             {
                 "id": "cyrillic-matrix",
                 "titleZh": "俄语与乌克兰语西里尔字母核心特征对照表",
                 "titleEn": "Russian vs. Ukrainian Cyrillic Script & Street Suffix Guide",
                 "image": "assets/images/infographics/cyrillic_matrix.png",
-                "descZh": "直观对比俄罗斯与乌克兰西里尔字母核心差异：乌克兰语独占字母【І і, Ї ї（带两点）, Є є（正向开口）, Ґ ґ】且常见撇号 ’；俄语独占字母【Ы ы, Э э（反向开口）, Ъ ъ, Ё ё】。同时对比街道词【Вулиця】（乌）vs【Улица】（俄）及常见地名词尾【-ський】（乌）vs【-ский】（俄）。",
-                "descEn": "Direct comparison between Russian and Ukrainian Cyrillic: Ukrainian unique letters (І, Ї, Є, Ґ) and street word 'Вулиця' (-ський suffix) vs. Russian unique letters (Ы, Э, Ъ, Ё) and street word 'Улица' (-ский suffix).",
-                "tags": ["语言", "西里尔字母", "东欧"]
+                "descZh": "【俄乌及西里尔语种终极辨识矩阵】高清重制版四合一速查表：①乌克兰语4大独有字母：`І і`（对应俄语И）、`Ї ї`（乌语100%专属双点I）、`Є є`（开口朝右）、`Ґ ґ`（带翘钩G）；②俄语4大独有特征字母：`Ы ы`（乌语绝无）、`Э э`（开口朝左）、`Ъ ъ`（硬音符号）、`Ё ё`；③路牌高频词与后缀对比：街道 `Улица (ул.)` [俄] vs `Вулиця (вул.)` [乌]、城市 `Город (г.)` [俄] vs `Місто (м.)` [乌]、后缀 `-ский` [俄] vs `-ський` [乌]、基辅 `Киев` vs `Київ`；④其他西里尔语种秒判：白俄罗斯 `Ў ў`、塞尔维亚/黑山 `Ј, Љ, Њ, Ђ, Ћ, Џ`、北马其顿 `Ѓ, Ќ, Ѕ`、保加利亚词中元音 `Ъ`、哈萨克 `Ә, Ғ, Қ, Ң, Ө, Ұ, Ү, І`、吉尔吉斯/蒙古 `Ө, Ү, Ң`。",
+                "descEn": "High-resolution Cyrillic Identification Matrix: (1) Ukrainian Exclusive Letters: `І і`, `Ї ї` (100% exclusive to Ukrainian), `Є є` (faces right), `Ґ ґ` (upturned hook); (2) Russian Exclusive Letters: `Ы ы`, `Э э` (faces left), `Ъ ъ`, `Ё ё`; (3) Road Sign Vocabulary & Suffixes: Street `Улица (ул.)` [RU] vs `Вулиця (вул.)` [UA], City `Город (г.)` [RU] vs `Місто (м.)` [UA], Suffixes `-ский` [RU] vs `-ський` [UA], Kyiv `Киев` vs `Київ`; (4) Other Cyrillic Scripts: Belarusian `Ў ў`, Serbian/Montenegrin `Ј, Љ, Њ, Ђ, Ћ, Џ`, Macedonian `Ѓ, Ќ, Ѕ`, Bulgarian vocalic `Ъ`, Kazakh `Ә, Ғ, Қ, Ң, Ө, Ұ, Ү, І`, Kyrgyz/Mongolian `Ө, Ү, Ң`.",
+                "tags": [
+                    "语言",
+                    "西里尔字母",
+                    "东欧"
+                ]
             },
             {
                 "id": "greek-cyrillic-chart",
                 "titleZh": "非俄语西里尔字母识别指南（乌/白俄/保/塞/马其顿/哈/吉/蒙）",
                 "titleEn": "Know Your Cyrillic: Field Guide for Non-Russian Cyrillic Scripts",
                 "image": "assets/images/infographics/greek_cyrillic_chart.png",
-                "descZh": "当看到西里尔字母但需判断是否为俄语以外国家时的实战图鉴：①乌克兰语（І, Ї, Є, Ґ，常见 її, ії, ьо）；②白俄罗斯语（独占 Ў ў 与 І，常将 о 写作 а）；③保加利亚语（无 ы/э，但将 Ъ ъ 作为高频元音字母使用，词尾常见 -ът/-та）；④塞尔维亚/黑山与北马其顿（共用 Ј, Љ, Њ, Џ；塞黑独占 Ђ, Ћ；北马其顿独占 Ѓ, Ќ, Ѕ）；⑤哈萨克语（Ә, Ғ, Қ, Ң, Ө, Ұ, Ү, Һ, І）、吉尔吉斯语（常见双写元音 оо, уу, ээ）、蒙古语（Ө, Ү）。",
-                "descEn": "Field guide for letter combinations and unique characters indicating a Cyrillic text is NOT Russian: Ukrainian (І, Ї, Є, Ґ), Belarusian (Ў, І), Bulgarian (vowel Ъ, suffixes -ът/-та), Serbian (Ј, Љ, Њ, Џ, Ђ, Ћ), Macedonian (Ѓ, Ќ, Ѕ), Kazakh (Ә, Ғ, Қ, Ң, Ө, Ұ, Ү, Һ), Kyrgyz (double vowels оо/уу/ээ), and Mongolian (Ө, Ү).",
-                "tags": ["语言", "西里尔字母", "字母辨识"]
+                "descZh": "【10国西里尔字母横向对比总表】涵盖图中全部10面国旗的专属识别字母：①俄罗斯 `Ё, Ъ, Ы, Э`；②乌克兰 `Ґ, Є, І, Ї`；③白俄罗斯 `І, Ў`（带弯钩的短音У）；④塞尔维亚/黑山 `Ђ, Ј, Љ, Њ, Ћ, Џ`；⑤北马其顿 `Ѓ, Ѕ, Ј, Љ, Њ, Ќ, Џ`（注意带尖音符的 `Ѓ, Ќ`）；⑥保加利亚（无特殊衍生字母，词中高频使用 `Ъ` 作元音，如 `България`）；⑦吉尔吉斯与蒙古共用 `Ң, Ө, Ү`；⑧哈萨克斯坦在此基础上额外多出 `Ә, Ғ, Қ, Ұ, Һ, І`；⑨塔吉克斯坦 `Ғ, Й, Қ, Ӯ, Ҳ, Ҷ`（独有带横杠 `Ӯ`）；⑩乌兹别克斯坦（旧西里尔拼写）`Ў, Ғ, Қ, Ҳ`。",
+                "descEn": "Comprehensive 10-flag Cyrillic comparison chart: (1) Russian `Ё, Ъ, Ы, Э`; (2) Ukrainian `Ґ, Є, І, Ї`; (3) Belarusian `І, Ў`; (4) Serbian/Montenegrin `Ђ, Ј, Љ, Њ, Ћ, Џ`; (5) Macedonian `Ѓ, Ѕ, Ј, Љ, Њ, Ќ, Џ`; (6) Bulgarian (uses standard 30 letters with frequent internal vowel `Ъ` as in `България`); (7) Kyrgyz & Mongolian `Ң, Ө, Ү`; (8) Kazakh adds `Ә, Ғ, Қ, Ұ, Һ, І`; (9) Tajik `Ғ, Й, Қ, Ӯ, Ҳ, Ҷ` (unique macron `Ӯ`); (10) Uzbek Cyrillic `Ў, Ғ, Қ, Ҳ`.",
+                "tags": [
+                    "语言",
+                    "西里尔字母",
+                    "字母辨识"
+                ]
             },
             {
                 "id": "se-asian-scripts",
@@ -1284,7 +1388,11 @@ db = {
                 "image": "assets/images/infographics/se_asian_scripts.png",
                 "descZh": "东南亚五国文字高分辨率视觉对比：①缅甸文（Burmese）：由大量完整的纯圆圈与C形半圆拼接；②泰文（Thai）：字体方正挺拔，笔画末端带封闭小圆圈（圈头），转折多硬角；③老挝文（Lao）：与泰文同源但笔画更圆润弯曲、圆圈偏大、无刚硬直线；④高棉文/柬埔寨文（Khmer）：字母顶部有极具辨识度的波浪锯齿状冠头，下方常挂小脚字；⑤越南文（Vietnamese）：唯一使用拉丁字母叠加双重变音符号（Đ, Ă, Â, Ê, Ô, Ơ, Ư）。",
                 "descEn": "High-res visual comparison of 5 Southeast Asian scripts: Burmese (circular bubble letters), Thai (upright with tiny terminal loops and sharp corners), Lao (curvier, looser loops than Thai), Khmer (wavy/zig-zag top crowns and subscript characters), and Vietnamese (Latin script with stacked diacritics).",
-                "tags": ["语言", "东南亚", "文字"]
+                "tags": [
+                    "语言",
+                    "东南亚",
+                    "文字"
+                ]
             },
             {
                 "id": "india-scripts-map",
@@ -1293,7 +1401,11 @@ db = {
                 "image": "assets/images/infographics/india_scripts_map.jpg",
                 "descZh": "印度分邦（Region-guessing India）第一性原理——看头顶横线与字形圆润度：①北方天城文区（Devanagari，带连续平直顶线）：印地语（北方诸邦）与马拉地语（马哈拉施特拉邦，常见特色字母 ळ）；②东部：孟加拉-阿萨姆文（西孟加拉与阿萨姆邦，带顶线且多三角形折角）、奥里亚文（Odia，奥里萨邦，无平顶线但每个字母头顶有圆弧雨伞盖！）；③西部：古吉拉特文（Gujarati，酷似天城文但完全去掉了头顶横线！）、古木基文（旁遮普邦）；④南部达罗毗荼四大圆圈文字（无连续顶线）：泰卢固文（安得拉/特伦甘纳，圆肚配小对勾 ✓）、卡纳达文（卡纳塔克邦，圆肚配横眉 T）、马拉雅拉姆文（喀拉拉邦，密集双环花生圈）、泰米尔文（泰米尔纳德邦，方圆结合最简练）。",
                 "descEn": "Regional guide to India's writing scripts: North/Central Devanagari (continuous top bar) vs. Gujarati (looks like Devanagari without the top bar) vs. Bengali/Assamese (top bar + angular triangles) vs. Odia (curved umbrella roofs) vs. South Indian rounded Dravidian scripts: Telugu (checkmarks), Kannada (T-shaped top bars), Malayalam (double loops), and Tamil (clean boxy-loop mix).",
-                "tags": ["语言", "文字", "大国地区"]
+                "tags": [
+                    "语言",
+                    "文字",
+                    "大国地区"
+                ]
             },
             {
                 "id": "geoguessr-map-of-references",
@@ -1302,7 +1414,11 @@ db = {
                 "image": "assets/images/infographics/geoguessr_map_of_references.jpg",
                 "descZh": "社区画师 Choekaas 创作的殿堂级《GeoGuessr 全球梗图百科》，将 100+ 国家的灵魂 Meta 浓缩为趣味手绘插画标注在地图上：如肯尼亚涉水喉（Snorkel）、尼日利亚警车护航（Follow Car）、塞内加尔与黑山天空裂痕（Rift）、加纳车顶架黑胶带（Black Tape）、蒙古车顶行李包与蒙古包、危地马拉车顶架、瑞士与日本低机位（Lowcam）、冰岛黄护柱、法罗群岛羊背街景等，兼具视觉记忆与实战复盘价值。",
                 "descEn": "Iconic community artwork by Choekaas illustrating 100+ signature country metas directly on the world map—including Kenya's snorkel, Nigeria's follow car, Ghana's black tape, Senegal & Montenegro sky rifts, Mongolia's roof tent & yurts, Switzerland/Japan lowcam, and Faroe Islands sheep view.",
-                "tags": ["核心Meta", "全球速查", "全球地图"]
+                "tags": [
+                    "核心Meta",
+                    "全球速查",
+                    "全球地图"
+                ]
             },
             {
                 "id": "world-flags-map",
@@ -1311,7 +1427,11 @@ db = {
                 "image": "assets/images/infographics/world_flags_map.png",
                 "descZh": "将全球各国国旗直接镶嵌在其地理疆域轮廓内的高清世界地图。配合本页“全球国旗口诀 (114面)”视图一起使用，可快速建立“国旗色块构图 ↔ 地理疆域与邻国色系圈”（如北欧十字旗圈、泛斯拉夫红白蓝圈、泛非红黄绿圈、中美洲蓝白蓝圈、阿拉伯红白黑绿圈）的空间直觉。",
                 "descEn": "World map overlaying national flags onto country borders. Ideal for pairing with the 114 Flag Mnemonics view to build spatial memory of regional flag families (Nordic crosses, Pan-Slavic red-white-blue, Pan-African red-yellow-green, Central American blue-white-blue, and Pan-Arab colors).",
-                "tags": ["国旗", "全球地图", "全球速查"]
+                "tags": [
+                    "国旗",
+                    "全球地图",
+                    "全球速查"
+                ]
             }
         ]
     },

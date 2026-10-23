@@ -1931,7 +1931,7 @@
 
     const flagRegions = [
       { id: 'ALL', labelZh: '全部大区', labelEn: 'All Regions' },
-      { id: 'Europe', labelZh: '欧洲 (41)', labelEn: 'Europe (41)' },
+      { id: 'Europe', labelZh: '欧洲 (43)', labelEn: 'Europe (43)' },
       { id: 'Americas', labelZh: '美洲 (27)', labelEn: 'Americas (27)' },
       { id: 'Asia', labelZh: '亚洲 (24)', labelEn: 'Asia (24)' },
       { id: 'Africa', labelZh: '非洲 (11)', labelEn: 'Africa (11)' },

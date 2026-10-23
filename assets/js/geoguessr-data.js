@@ -1,4 +1,3 @@
-// GeoGuessr 核心数据源
 window.GEOGUESSR_DATA = {
   "siteConfig": {
     "titleZh": "GeoGuessr 知识宝典与速查工具",
@@ -419,8 +418,8 @@ window.GEOGUESSR_DATA = {
         "titleZh": "全球各国标志性电线杆图鉴 (Pole Types Around the World)",
         "titleEn": "Pole Types Around the World (Materials, Tops & Holes)",
         "image": "assets/images/infographics/poles_distribution.png",
-        "descZh": "无路牌农村局最强锁国利器：法国（蓝标贴牌与带孔水泥杆）、西班牙与葡萄牙（经典梯子杆 Ladder Poles）、匈牙利（密集横孔水泥杆与木杆A字撑）、波兰（A字双杆与弯钩单绝缘子）、罗马尼亚（通透梯形方孔杆，底部常刷白漆）、波罗的海三国（单侧小弯钩横担）、巴西与智利（南美梯子镂空水泥杆）、阿德莱德（南澳专属钢夹水泥 Stobie 杆）、日本（垂直辅撑与黄黑拉线套）、台湾（螺旋黄黑防撞杆）、泰国（带方孔黑底白字编码水泥杆）。",
-        "descEn": "Comprehensive visual guide to utility poles worldwide: Ladder poles (Spain, Portugal, France, Brazil, Chile), Holey concrete poles (Hungary, Poland, Romania, Thailand, Cambodia), Baltic hook crossarms, Australian Stobie poles, Japanese vertical struts & guy-wire guards, and Taiwanese spiral yellow-black stripes.",
+        "descZh": "【全球电线杆材质分布图 (Pole Types)】按图例6色区分各国主导杆体材质：①棕色【Strong Majority Wood 绝大多数为木杆】：美、加、英、爱、挪、瑞、芬、爱沙尼亚、加纳、肯尼亚、乌干达、南非及周边、阿曼、澳大利亚；②深灰色【Strong Majority Concrete 绝大多数为水泥杆】：东欧与巴尔干大部（波/捷/斯/匈/罗/保/乌/俄/拉/立/塞/克）、墨、哥、厄、秘、智、巴、塞内加尔、尼日利亚、哈、吉、印、孟、斯、东南亚六国、日、韩、中国台湾；③深蓝色【Strong Majority Metal 绝大多数为金属杆】：格陵兰、突尼斯、阿联酋、不丹；④绿色【Mixed Wood + Concrete 木杆与水泥混用】：法、西、葡、奥、危、玻、巴拉圭、阿、乌拉圭、蒙古、新西兰；⑤黄色【Mixed Concrete + Metal 水泥与金属混用】：比、瑞、意、希、土、以、约、尼泊尔；⑥红色【Mostly Underground Wires 绝大多数电线入地/极少电线杆】：冰岛、荷兰、卢森堡、德国、丹麦、安道尔、摩纳哥、新加坡、中国香港。",
+        "descEn": "Global distribution of utility pole materials: (1) Brown [Strong Majority Wood]: USA, Canada, UK, Ireland, Nordic countries, Estonia, Ghana, Kenya, Uganda, Southern Africa, Oman, Australia; (2) Dark Grey [Strong Majority Concrete]: Eastern Europe & Balkans (PL/CZ/SK/HU/RO/BG/UA/RU/LV/LT/RS/HR), Mexico, Colombia, Ecuador, Peru, Chile, Brazil, Senegal, Nigeria, Central/South/Southeast/East Asia; (3) Dark Blue [Strong Majority Metal]: Greenland, Tunisia, UAE, Bhutan; (4) Green [Mixed Wood + Concrete]: France, Spain, Portugal, Austria, Guatemala, Bolivia, Paraguay, Argentina, Uruguay, Mongolia, New Zealand; (5) Yellow [Mixed Concrete + Metal]: Belgium, Switzerland, Italy, Greece, Turkey, Israel, Jordan, Nepal; (6) Red [Mostly Underground Wires]: Iceland, Netherlands, Luxembourg, Germany, Denmark, Andorra, Monaco, Singapore, Hong Kong.",
         "tags": [
           "电线杆",
           "基础设施",
@@ -458,8 +457,8 @@ window.GEOGUESSR_DATA = {
         "titleZh": "全球各国 Gen 3 街景车特征与天线形态全图解",
         "titleEn": "Most Likely Gen 3 Google Car & Antenna Meta in Each Country",
         "image": "assets/images/infographics/gen3_car_meta_map.png",
-        "descZh": "第三代街景（Gen 3）车尾颜色、天线长短与皮卡车顶架速查：①黑色/白色/银色车尾（Carback）：秘鲁、玻利维亚（多白尾）、智利（多白尾）、阿根廷与乌拉圭（多黑尾）；②粗短天线（Stubby Antenna）：西班牙、意大利、波兰、罗马尼亚、保加利亚、波罗的海三国、英国、澳洲、泰/马、墨西哥；③红/白/黑车配长天线：俄罗斯、乌克兰、瑞典、葡萄牙、法/德、美/巴、台湾；④皮卡/车顶架（Truck/Roof Rack）：蒙古、吉尔吉斯、危地马拉、多米尼加、尼日利亚、塞内加尔、加纳、肯尼亚、乌干达、孟加拉、斯里兰卡；⑤螺纹天线（Ribbed）：以色列与巴勒斯坦。",
-        "descEn": "Global Gen 3 car and antenna guide: Black/White/Silver carbacks (South America), Stubby Antenna (Spain, Italy, Eastern Europe, Baltics, UK, Australia, Thailand, Malaysia, Mexico), Long Antenna (Russia, Ukraine, Sweden, Portugal, France, Germany, US, Brazil, Taiwan), Truck/Roof Rack (Mongolia, Kyrgyzstan, Guatemala, West/East Africa, Bangladesh, Sri Lanka), Lowcam (Switzerland, Japan), and Ribbed Antenna (Israel).",
+        "descZh": "【三代车车身与天线全球速查 (Gen 3 Car Meta)】按图例13色精确对应：①黑色【Black Carback 黑车尾】：阿根廷、乌拉圭、约旦、韩国；②白色【White Carback 白车尾】：秘鲁、玻利维亚、智利、南非、博茨瓦纳、斯威士兰、莱索托、印尼；③灰色【Silver Carback 银灰车尾】：阿尔巴尼亚、黑山；④紫色【Stubby Antenna 粗短桩天线】：墨西哥、哥伦比亚、厄瓜多尔、巴西；⑤蓝色【Truck / Roof Rack 皮卡或车顶行李架】：危地马拉、多米尼加、波多黎各、塞内加尔、加纳、尼日利亚、肯尼亚、乌干达、吉尔吉斯、蒙古、孟加拉、老挝；⑥浅绿【No Car 完全无车身无天线】：美、加、挪、丹、德、塞尔维亚、北马其顿、土耳其、泰国；⑦红白格【White Carfront 白色车头】：斯里兰卡、柬埔寨；⑧红色【Red Car Long Antenna 红车长天线】：乌克兰；⑨米白【White Car Long Antenna 白车长天线】：瑞典、冰岛、澳大利亚；⑩棕色【Black Car Long Antenna 黑车长天线】：俄罗斯、西班牙、葡萄牙、以色列/巴勒斯坦、中国台湾；⑪深绿【Short Antenna 标准短天线】：英、爱、法、荷比卢、意、奥、捷、斯、波、波罗的海、芬、匈、罗、保、克、斯洛文尼亚、希、突尼斯、马、新、菲；⑫黄色【Lowcam 低视角】：瑞士、日本；⑬浅青【Ribbed Antenna 螺纹天线】：新西兰。",
+        "descEn": "Global Gen 3 Google Car & Antenna distribution across 13 categories: (1) Black [Black Carback]: Argentina, Uruguay, Jordan, South Korea; (2) White [White Carback]: Peru, Bolivia, Chile, South Africa, Botswana, Eswatini, Lesotho, Indonesia; (3) Grey [Silver Carback]: Albania, Montenegro; (4) Purple [Stubby Antenna]: Mexico, Colombia, Ecuador, Brazil; (5) Blue [Truck / Roof Rack]: Guatemala, DR, PR, Senegal, Ghana, Nigeria, Kenya, Uganda, Kyrgyzstan, Mongolia, Bangladesh, Laos; (6) Light Green [No Car]: USA, Canada, Norway, Denmark, Germany, Serbia, North Macedonia, Turkey, Thailand; (7) Red-White Checkered [White Carfront]: Sri Lanka, Cambodia; (8) Red [Red Car Long Antenna]: Ukraine; (9) Cream [White Car Long Antenna]: Sweden, Iceland, Australia; (10) Brown [Black Car Long Antenna]: Russia, Spain, Portugal, Israel/West Bank, Taiwan; (11) Dark Green [Short Antenna]: UK, Ireland, France, Benelux, Italy, Central/Eastern Europe, Baltics, Finland, Balkans, Tunisia, Malaysia, Singapore, Philippines; (12) Yellow [Lowcam]: Switzerland, Japan; (13) Light Teal [Ribbed Antenna]: New Zealand.",
         "tags": [
           "街景车",
           "高阶Meta",
@@ -484,8 +483,8 @@ window.GEOGUESSR_DATA = {
         "titleZh": "全球车牌长宽比例分布图（欧式细长牌 vs 美式短宽牌）",
         "titleEn": "World License Plate Proportions Map (Long vs Short vs Tall-Short)",
         "image": "assets/images/infographics/license_plate_proportions_map.png",
-        "descZh": "即便车牌打码模糊，长宽外框比例依旧清晰：①蓝色【Long 欧式细长牌】：全欧洲、俄罗斯、土耳其、哈萨克/吉尔吉斯、蒙古、中国大陆、韩国（新款长牌）、印度、东南亚（越/马/新/印）、南非/莱索托/斯威士兰、塞内加尔/加纳/突尼斯，以及南美南方共同市场四国（巴西、阿根廷、乌拉圭、巴拉圭）；②黄色【Short 美式短宽牌】：美加墨、中美洲、加勒比、厄瓜多尔、秘鲁、玻利维亚、智利、澳新、菲/台/泰/柬；③红色【Tall Short 偏方高短牌】：哥伦比亚与日本；④绿色【Mixed 长短混用】：肯尼亚、乌干达、尼日利亚、博茨瓦纳、纳米比亚、阿联酋、约旦、斯里兰卡、老挝。",
-        "descEn": "License plate aspect ratios worldwide: Blue (Long European-style) = All of Europe, Russia, Central Asia, Mongolia, China, South Korea, India, Indonesia/Malaysia, South Africa, and Mercosur South America (Brazil, Argentina, Uruguay); Yellow (Short American-style) = North & Central America, Andean South America (Ecuador, Peru, Bolivia, Chile), AU/NZ, Thailand/Taiwan/Philippines; Red (Tall-Short boxy) = Colombia and Japan; Green (Mixed) = East/Southern Africa, UAE, Jordan, Sri Lanka.",
+        "descZh": "【车牌长宽比例秒判】即便车牌被打码模糊，长宽比例依然清晰可见：①黄色【Long 欧式细长牌】：欧洲大陆绝大多数国家（除意/瑞/安道尔）、俄、土、突尼斯、埃及、塞内加尔、南非及周边四国、哈萨克、吉尔吉斯、印、不丹、马、印尼、菲、巴西、乌拉圭；②大红色【Short 美式短宽牌】：美、加、墨、危、哥斯达黎加、巴拿马、波多黎各、多米尼加、秘鲁、玻利维亚、智利、尼日利亚、孟加拉国、泰、老、澳、新；③深褐红色【Tall Short 偏高方短牌】：哥伦比亚、日本、中国台湾、安道尔；④橙色【Mixed 长短混用或前短后长】：意大利（前车牌明显比普通欧牌短小！）、瑞士、厄瓜多尔、阿根廷、巴拉圭、加纳、肯尼亚、乌干达、约旦、阿联酋、蒙古、韩国、柬埔寨、斯里兰卡。",
+        "descEn": "Even through heavy blurring, plate aspect ratio is unmistakable: (1) Yellow [Long European-style]: Most of Europe (except IT/CH/AD), Russia, Turkey, Tunisia, Egypt, Senegal, Southern Africa, Kazakhstan, Kyrgyzstan, India, Bhutan, Malaysia, Indonesia, Philippines, Brazil, Uruguay; (2) Red [Short American-style]: USA, Canada, Mexico, Central America, PR, DR, Peru, Bolivia, Chile, Nigeria, Bangladesh, Thailand, Laos, Australia, New Zealand; (3) Dark Red/Maroon [Tall Short]: Colombia, Japan, Taiwan, Andorra; (4) Orange [Mixed / Shorter Front Plate]: Italy (distinctly shorter front plate!), Switzerland, Ecuador, Argentina, Paraguay, Ghana, Kenya, Uganda, Jordan, UAE, Mongolia, South Korea, Cambodia, Sri Lanka.",
         "tags": [
           "车牌",
           "核心Meta",
@@ -523,8 +522,8 @@ window.GEOGUESSR_DATA = {
         "titleZh": "加拿大各省与地区前后车牌悬挂法规分布图",
         "titleEn": "Canadian Provincial & Territorial Licence Plate Requirements",
         "image": "assets/images/infographics/canada_license_plates_map.jpg",
-        "descZh": "加拿大分省极简铁律——全国大部分省区均只挂后车牌：①蓝色【Rear & Front 前后双车牌】：仅有不列颠哥伦比亚省（BC）、马尼托巴省（Manitoba）、安大略省（Ontario）（注：图中新不伦瑞克省 NB 标蓝为2019年7月前旧规，现已取消前车牌！）；②红色【Rear Only 仅挂后车牌】：艾伯塔省（Alberta，在落基山脉秒分 BC 与 AB 的核心铁证）、萨斯喀彻温省（Saskatchewan）、魁北克省（Quebec 全境无前牌！）、大西洋三省（NS/PEI/NL）及北方三大地区（YT/NT/NU）。",
-        "descEn": "Canadian front vs rear license plate requirements: Blue (Rear & Front required) = British Columbia (BC), Manitoba (MB), and Ontario (ON) (Note: New Brunswick abolished front plates in July 2019, so newer Gen 4 coverage in NB is rear-only); Red (Rear Only) = Alberta, Saskatchewan, Quebec, Nova Scotia, PEI, Newfoundland & Labrador, and all 3 northern territories.",
+        "descZh": "【北美省州二级定位】加拿大各省车头挂牌规定严格区分：①绿色【Rear & Front 前后双车牌】：不列颠哥伦比亚省 (BC)、曼尼托巴省 (MB)、安大略省 (ON)，以及新不伦瑞克省 (NB，注：2019年7月前旧街景有前车牌，2019年7月起废除前牌）；②浅蓝色【Rear Only 仅挂后车牌，车头无牌】：阿尔伯塔省 (AB)、萨斯喀彻温省 (SK)、魁北克省 (QC)、新斯科舍省 (NS)、爱德华王子岛 (PE)、纽芬兰与拉布拉多 (NL) 以及三大北方领地 (YT/NT/NU)。",
+        "descEn": "Canadian provincial license plate laws: (1) Green [Rear & Front Plates]: British Columbia (BC), Manitoba (MB), Ontario (ON), and New Brunswick (NB prior to July 2019; front plate abolished after July 2019); (2) Light Blue [Rear Plate Only]: Alberta (AB), Saskatchewan (SK), Quebec (QC), Nova Scotia (NS), PEI, Newfoundland & Labrador (NL), and all 3 territories (YT, NT, NU).",
         "tags": [
           "车牌",
           "加拿大",
@@ -536,8 +535,8 @@ window.GEOGUESSR_DATA = {
         "titleZh": "全球停车让行标志 (STOP Sign) 文字与样式分布图",
         "titleEn": "STOP Signs Around the (Guessable) World",
         "image": "assets/images/infographics/stop_signs_world_map.png",
-        "descZh": "八角形停车牌文字全球分流：①西语美洲一字定乾坤：【ALTO】= 墨西哥与中美洲（危地马拉、哥斯达黎加、巴拿马）；【PARE】= 南美洲全境（哥伦比亚、厄瓜多尔、秘鲁、玻利维亚、智利、阿根廷、乌拉圭、巴西）+ 波多黎各与多米尼加！②北美法语区：【ARRÊT】仅出现在加拿大魁北克省与新不伦瑞克省（法国本土用英文 STOP！）；③亚非欧特色文字：土耳其【DUR】、蒙古【ЗОГС】、阿拉伯国家【قف】、以色列【黄色五指手掌图案】、日本【止まれ 红色倒三角形】、韩国【정지 / STOP】、中国与台湾【停】、泰国【หยุด】、老挝【ຢຸດ】、柬埔寨【ឈប់】、马/印/文莱【BERHENTI】、孟加拉【থামুন】。",
-        "descEn": "Global STOP sign text variations: ALTO = Mexico & Central America; PARE = All of South America + Puerto Rico & Dominican Republic; ARRÊT = Quebec & French New Brunswick (France itself uses STOP); DUR = Turkey; ЗОГС = Mongolia; Hand symbol = Israel; Red downward triangle '止まれ' = Japan; '정지' = South Korea; '停' = China/Taiwan; 'หยุด' = Thailand; 'ຢຸດ' = Laos; 'ឈប់' = Cambodia; 'BERHENTI' = Malaysia/Indonesia.",
+        "descZh": "【全球停车牌 (STOP Sign) 文字与样式全集】一图区分全球易混地区：①拉美三大流派：`ALTO`（墨西哥、危地马拉、哥斯达黎加、巴拿马等中美洲）、`PARE`（哥伦比亚、厄瓜多尔、秘鲁、智利、玻利维亚、阿根廷、巴西、乌拉圭、波多黎各、多米尼加）、`ARRÊT`（加拿大魁北克及新不伦瑞克双语区）；②亚洲特色文字：`止まれ`（日本，倒三角形红牌！）、`정지 / STOP`（韩国）、`หยุด`（泰国）、`ឈប់`（柬埔寨）、`ຢຸດ`（老挝）、`BERHENTI`（马来西亚、文莱；注意印尼使用英文 `STOP`）、`停`（中国大陆）、`STOP / 停`（中国香港双语八角牌）、`থামুন`（孟加拉国，三角套红圆牌）、`قف`（阿拉伯国家）、`DUR`（土耳其）、`СТОП`（蒙古、保加利亚部分）。",
+        "descEn": "Global STOP sign text & shapes: (1) Americas: `ALTO` (Mexico, Guatemala, Costa Rica, Panama), `PARE` (South America, Puerto Rico, Dominican Republic), `ARRÊT` (Quebec & bilingual New Brunswick); (2) Asia & Mideast: `止まれ` (Japan — red inverted triangle!), `정지 / STOP` (South Korea), `หยุด` (Thailand), `ឈប់` (Cambodia), `ຢຸດ` (Laos), `BERHENTI` (Malaysia & Brunei; whereas Indonesia uses `STOP`), `停` (Mainland China), `STOP / 停` (Hong Kong bilingual octagon), `থামুন` (Bangladesh — red circle inside triangle), `قف` (Arabic nations), `DUR` (Turkey), `СТОП` (Mongolia).",
         "tags": [
           "交通标志",
           "语言",
@@ -614,8 +613,8 @@ window.GEOGUESSR_DATA = {
         "titleZh": "全球路缘标/护柱 (Bollards) 出现概率分布图",
         "titleEn": "World Probability of Encountering Roadside Bollards Map",
         "image": "assets/images/infographics/bollard_probability_map.png",
-        "descZh": "了解各国路边护柱（Bollards）密度，判断“有/无护柱”本身传递的信息：①绿色【Likely 极高概率见到】：欧洲大陆绝大多数国家（冰岛、丹麦、德/波/捷/斯/奥/瑞/斯洛文尼亚/克罗地亚/匈牙利/罗马尼亚/法/西/意/波罗的海三国/黑山/塞尔维亚）、土耳其、日本、台湾、泰国、柬埔寨、马来西亚、澳大利亚、新西兰；②橙色【Sometimes 偶见】：英/爱、挪/瑞/芬、俄/乌、哈萨克/吉尔吉斯/蒙古、韩/菲/印/孟/斯、突尼斯、美/加/墨、厄/秘/智/乌拉圭；③红色【Rarely 极少见到】：撒哈拉以南非洲全境、印度、中东、巴西、阿根廷、哥伦比亚、玻利维亚。",
-        "descEn": "Global probability of seeing roadside bollards: Green (Likely) = Continental Europe, Turkey, Japan, Taiwan, Thailand, Cambodia, Malaysia, Australia, New Zealand; Orange (Sometimes) = UK/Ireland, Nordics (NO/SE/FI), Russia/Ukraine, Central Asia/Mongolia, South Korea, Indonesia/Philippines, North America, Peru/Chile/Ecuador/Uruguay; Red (Rarely) = Sub-Saharan Africa, India, Middle East, Brazil, Argentina, Colombia, Bolivia.",
+        "descZh": "【路缘标出现概率地图】并非所有国家都建设公路护柱：①红色【Likely 极高概率见到】：欧洲大陆绝大多数国家（冰岛、瑞典、芬兰、波罗的海三国、波兰、德、丹、荷比卢、法、西、葡、意、瑞、奥、捷、斯、匈、斯洛文尼亚、克罗地亚、塞尔维亚、黑山、阿尔巴尼亚、北马其顿）、俄罗斯、土耳其、日本、中国台湾、澳大利亚、新西兰、厄瓜多尔、秘鲁；②橙色【Sometimes 偶见/部分干道有】：英国、挪威、乌克兰、哈萨克、吉尔吉斯、蒙古、美、加、墨、乌拉圭、塞内加尔、泰、柬、老、马、印尼、斯里兰卡、孟加拉国；③黄色【Rarely 极少见到】：爱尔兰、罗马尼亚、保加利亚、希腊、以色列、约旦、阿联酋、阿曼、加纳、尼日利亚、肯尼亚、乌干达、南部非洲五国、印度、不丹、韩国、菲律宾、中美洲、哥伦比亚、玻利维亚、巴西、阿根廷、智利。",
+        "descEn": "Roadside bollard frequency by country: (1) Red [Likely]: Most of Continental Europe (except RO/BG/GR/NO), Iceland, Russia, Turkey, Japan, Taiwan, Australia, New Zealand, Ecuador, Peru; (2) Orange [Sometimes]: UK, Norway, Ukraine, Kazakhstan, Kyrgyzstan, Mongolia, USA, Canada, Mexico, Uruguay, Senegal, Thailand, Cambodia, Laos, Malaysia, Indonesia, Sri Lanka, Bangladesh; (3) Yellow [Rarely]: Ireland, Romania, Bulgaria, Greece, Israel, Jordan, UAE, Oman, Ghana, Nigeria, Kenya, Uganda, Southern Africa, India, Bhutan, South Korea, Philippines, Central America, Colombia, Bolivia, Brazil, Argentina, Chile.",
         "tags": [
           "路缘标",
           "基础设施",
@@ -640,8 +639,8 @@ window.GEOGUESSR_DATA = {
         "titleZh": "全球平坦地形 (Flat Landscape) 遭遇概率分布图",
         "titleEn": "World Flat Landscape Probability Map",
         "image": "assets/images/infographics/flat_landscape_map.png",
-        "descZh": "开局若四周一望无际全为绝对平坦平原（无任何山丘起伏），可对照此图秒排山地国：①深绿【Almost Always 几乎总是平坦】：丹麦、荷兰、芬兰、爱沙尼亚、拉脱维亚、立陶宛、匈牙利、乌克兰、乌拉圭、塞内加尔、尼日利亚、加纳、博茨瓦纳、卡塔尔、阿联酋、孟加拉国、柬埔寨；②浅绿【Likely 大概率平坦】：俄罗斯、波兰、比利时、英国、美加墨（大平原）、阿根廷、巴西、澳大利亚、印度、泰国；③橙色【Unlikely 较少平坦】：法/德/西/葡/意/捷/罗/保/希/土、挪/瑞、南非、肯尼亚、印尼、菲律宾、韩国；④红色【Almost Never 几乎从不平坦（必见山脉或丘陵）】：瑞士、奥地利、斯洛伐克、斯洛文尼亚、黑山、阿尔巴尼亚、北马其顿、冰岛、吉尔吉斯斯坦、不丹、日本、中国台湾、香港、新西兰、秘鲁、玻利维亚、厄瓜多尔、哥伦比亚、危地马拉、卢旺达、莱索托、斯威士兰。",
-        "descEn": "How likely you are to encounter a completely flat landscape: Dark Green (Almost Always) = Denmark, Netherlands, Finland, Baltics, Hungary, Ukraine, Uruguay, Senegal, Botswana, Qatar, UAE, Bangladesh, Cambodia; Light Green (Likely) = Russia, Poland, UK, US/Canada, Argentina, Brazil, Australia, India, Thailand; Orange (Unlikely) = Spain, Italy, Greece, Turkey, Norway, Sweden, South Africa, Kenya, Indonesia, Korea; Red (Almost Never) = Switzerland, Austria, Slovakia, Slovenia, Montenegro, Albania, Iceland, Kyrgyzstan, Bhutan, Japan, Taiwan, NZ, Andean South America, Rwanda, Lesotho.",
+        "descZh": "【自然地形平坦度概率图】当你出生在一望无际、毫无山丘起伏的纯平地形时：①浅米黄色【Almost Always 几乎总是平坦】：丹麦、荷兰、芬兰、波罗的海三国（爱/拉/立）、波兰、哈萨克斯坦、塞内加尔、博茨瓦纳、卡塔尔、阿联酋、孟加拉国、巴拉圭；②金黄色【Likely 大概率平坦】：美、加、巴西、阿根廷、乌拉圭、英、爱、法、比、德、捷、匈、乌、俄、瑞典、突尼斯、加纳、尼日利亚、肯尼亚、乌干达、南非、纳米比亚、蒙古、泰、柬、老、马、澳大利亚；③橙色【Unlikely 较少平坦/多山丘】：挪威、冰岛、西、葡、意、瑞、奥、斯洛伐克、罗、保、塞、波黑、希、土、格鲁吉亚、吉尔吉斯、印、斯、印尼、菲、中国台湾、新西兰、墨、中美洲、哥、厄、秘、玻、智；④红色【Almost Never 几乎从不平坦/全境多山】：安道尔、斯洛文尼亚、克罗地亚、黑山、阿尔巴尼亚、北马其顿、尼泊尔、不丹、韩国、日本、卢旺达、莱索托、斯威士兰。",
+        "descEn": "Probability of encountering completely flat terrain: (1) Pale Cream [Almost Always Flat]: Denmark, Netherlands, Finland, Baltics (EE/LV/LT), Poland, Kazakhstan, Senegal, Botswana, Qatar, UAE, Bangladesh, Paraguay; (2) Gold/Yellow [Likely Flat]: USA, Canada, Brazil, Argentina, Uruguay, UK, Ireland, France, Belgium, Germany, Czechia, Hungary, Ukraine, Russia, Sweden, Tunisia, West/East/Southern Africa, Mongolia, Mainland SEA, Australia; (3) Orange [Unlikely Flat]: Norway, Iceland, Iberia, Italy, Alpine & Balkan Europe, Turkey, Caucasus, Kyrgyzstan, India, Maritime SEA, Taiwan, New Zealand, Mexico, Andean South America; (4) Red [Almost Never Flat]: Andorra, Slovenia, Croatia, Montenegro, Albania, North Macedonia, Nepal, Bhutan, South Korea, Japan, Rwanda, Lesotho, Eswatini.",
         "tags": [
           "自然地理",
           "核心Meta",
@@ -679,8 +678,8 @@ window.GEOGUESSR_DATA = {
         "titleZh": "俄语与乌克兰语西里尔字母核心特征对照表",
         "titleEn": "Russian vs. Ukrainian Cyrillic Script & Street Suffix Guide",
         "image": "assets/images/infographics/cyrillic_matrix.png",
-        "descZh": "直观对比俄罗斯与乌克兰西里尔字母核心差异：乌克兰语独占字母【І і, Ї ї（带两点）, Є є（正向开口）, Ґ ґ】且常见撇号 ’；俄语独占字母【Ы ы, Э э（反向开口）, Ъ ъ, Ё ё】。同时对比街道词【Вулиця】（乌）vs【Улица】（俄）及常见地名词尾【-ський】（乌）vs【-ский】（俄）。",
-        "descEn": "Direct comparison between Russian and Ukrainian Cyrillic: Ukrainian unique letters (І, Ї, Є, Ґ) and street word 'Вулиця' (-ський suffix) vs. Russian unique letters (Ы, Э, Ъ, Ё) and street word 'Улица' (-ский suffix).",
+        "descZh": "【俄乌及西里尔语种终极辨识矩阵】高清重制版四合一速查表：①乌克兰语4大独有字母：`І і`（对应俄语И）、`Ї ї`（乌语100%专属双点I）、`Є є`（开口朝右）、`Ґ ґ`（带翘钩G）；②俄语4大独有特征字母：`Ы ы`（乌语绝无）、`Э э`（开口朝左）、`Ъ ъ`（硬音符号）、`Ё ё`；③路牌高频词与后缀对比：街道 `Улица (ул.)` [俄] vs `Вулиця (вул.)` [乌]、城市 `Город (г.)` [俄] vs `Місто (м.)` [乌]、后缀 `-ский` [俄] vs `-ський` [乌]、基辅 `Киев` vs `Київ`；④其他西里尔语种秒判：白俄罗斯 `Ў ў`、塞尔维亚/黑山 `Ј, Љ, Њ, Ђ, Ћ, Џ`、北马其顿 `Ѓ, Ќ, Ѕ`、保加利亚词中元音 `Ъ`、哈萨克 `Ә, Ғ, Қ, Ң, Ө, Ұ, Ү, І`、吉尔吉斯/蒙古 `Ө, Ү, Ң`。",
+        "descEn": "High-resolution Cyrillic Identification Matrix: (1) Ukrainian Exclusive Letters: `І і`, `Ї ї` (100% exclusive to Ukrainian), `Є є` (faces right), `Ґ ґ` (upturned hook); (2) Russian Exclusive Letters: `Ы ы`, `Э э` (faces left), `Ъ ъ`, `Ё ё`; (3) Road Sign Vocabulary & Suffixes: Street `Улица (ул.)` [RU] vs `Вулиця (вул.)` [UA], City `Город (г.)` [RU] vs `Місто (м.)` [UA], Suffixes `-ский` [RU] vs `-ський` [UA], Kyiv `Киев` vs `Київ`; (4) Other Cyrillic Scripts: Belarusian `Ў ў`, Serbian/Montenegrin `Ј, Љ, Њ, Ђ, Ћ, Џ`, Macedonian `Ѓ, Ќ, Ѕ`, Bulgarian vocalic `Ъ`, Kazakh `Ә, Ғ, Қ, Ң, Ө, Ұ, Ү, І`, Kyrgyz/Mongolian `Ө, Ү, Ң`.",
         "tags": [
           "语言",
           "西里尔字母",
@@ -692,8 +691,8 @@ window.GEOGUESSR_DATA = {
         "titleZh": "非俄语西里尔字母识别指南（乌/白俄/保/塞/马其顿/哈/吉/蒙）",
         "titleEn": "Know Your Cyrillic: Field Guide for Non-Russian Cyrillic Scripts",
         "image": "assets/images/infographics/greek_cyrillic_chart.png",
-        "descZh": "当看到西里尔字母但需判断是否为俄语以外国家时的实战图鉴：①乌克兰语（І, Ї, Є, Ґ，常见 її, ії, ьо）；②白俄罗斯语（独占 Ў ў 与 І，常将 о 写作 а）；③保加利亚语（无 ы/э，但将 Ъ ъ 作为高频元音字母使用，词尾常见 -ът/-та）；④塞尔维亚/黑山与北马其顿（共用 Ј, Љ, Њ, Џ；塞黑独占 Ђ, Ћ；北马其顿独占 Ѓ, Ќ, Ѕ）；⑤哈萨克语（Ә, Ғ, Қ, Ң, Ө, Ұ, Ү, Һ, І）、吉尔吉斯语（常见双写元音 оо, уу, ээ）、蒙古语（Ө, Ү）。",
-        "descEn": "Field guide for letter combinations and unique characters indicating a Cyrillic text is NOT Russian: Ukrainian (І, Ї, Є, Ґ), Belarusian (Ў, І), Bulgarian (vowel Ъ, suffixes -ът/-та), Serbian (Ј, Љ, Њ, Џ, Ђ, Ћ), Macedonian (Ѓ, Ќ, Ѕ), Kazakh (Ә, Ғ, Қ, Ң, Ө, Ұ, Ү, Һ), Kyrgyz (double vowels оо/уу/ээ), and Mongolian (Ө, Ү).",
+        "descZh": "【10国西里尔字母横向对比总表】涵盖图中全部10面国旗的专属识别字母：①俄罗斯 `Ё, Ъ, Ы, Э`；②乌克兰 `Ґ, Є, І, Ї`；③白俄罗斯 `І, Ў`（带弯钩的短音У）；④塞尔维亚/黑山 `Ђ, Ј, Љ, Њ, Ћ, Џ`；⑤北马其顿 `Ѓ, Ѕ, Ј, Љ, Њ, Ќ, Џ`（注意带尖音符的 `Ѓ, Ќ`）；⑥保加利亚（无特殊衍生字母，词中高频使用 `Ъ` 作元音，如 `България`）；⑦吉尔吉斯与蒙古共用 `Ң, Ө, Ү`；⑧哈萨克斯坦在此基础上额外多出 `Ә, Ғ, Қ, Ұ, Һ, І`；⑨塔吉克斯坦 `Ғ, Й, Қ, Ӯ, Ҳ, Ҷ`（独有带横杠 `Ӯ`）；⑩乌兹别克斯坦（旧西里尔拼写）`Ў, Ғ, Қ, Ҳ`。",
+        "descEn": "Comprehensive 10-flag Cyrillic comparison chart: (1) Russian `Ё, Ъ, Ы, Э`; (2) Ukrainian `Ґ, Є, І, Ї`; (3) Belarusian `І, Ў`; (4) Serbian/Montenegrin `Ђ, Ј, Љ, Њ, Ћ, Џ`; (5) Macedonian `Ѓ, Ѕ, Ј, Љ, Њ, Ќ, Џ`; (6) Bulgarian (uses standard 30 letters with frequent internal vowel `Ъ` as in `България`); (7) Kyrgyz & Mongolian `Ң, Ө, Ү`; (8) Kazakh adds `Ә, Ғ, Қ, Ұ, Һ, І`; (9) Tajik `Ғ, Й, Қ, Ӯ, Ҳ, Ҷ` (unique macron `Ӯ`); (10) Uzbek Cyrillic `Ў, Ғ, Қ, Ҳ`.",
         "tags": [
           "语言",
           "西里尔字母",
@@ -867,7 +866,7 @@ window.GEOGUESSR_DATA = {
       "link": "",
       "desc": "车辆左侧行驶；路缘标为白色圆柱带红色长方块反光片（红块不包边整圈）；全线使用纯白道路标线；电话号码为 10 位，以 0 或 04（手机）开头；常见桉树与袋鼠警示牌，西澳和北领地有大面积红土地貌；南澳特有 Stobie 水泥夹钢杆。",
       "tags": [
-        "左行 / LHD",
+        "左行 / LHT",
         "路缘标 / Bollard",
         "红土 / Red Soil",
         "道路标线 / Lines"
@@ -881,7 +880,7 @@ window.GEOGUESSR_DATA = {
         "道路标线"
       ],
       "tagsEn": [
-        "Left-Hand Drive",
+        "Drives on Left (LHT)",
         "Bollards",
         "Red Soil",
         "Road Markings"
@@ -960,7 +959,7 @@ window.GEOGUESSR_DATA = {
       "link": "",
       "desc": "街景车为黑色方形皮卡，车身前部和后视镜可见；车辆左行；普通车牌白底黑字；房屋多为标志性阶梯状白屋顶（集雨功能）；热带整洁海岛风情；路中单黄实线，无外侧边线。",
       "tags": [
-        "左行 / LHD",
+        "左行 / LHT",
         "车牌 / Plate",
         "街景车 / Car Meta",
         "道路标线 / Lines"
@@ -974,7 +973,7 @@ window.GEOGUESSR_DATA = {
         "道路标线"
       ],
       "tagsEn": [
-        "Left-Hand Drive",
+        "Drives on Left (LHT)",
         "License Plates",
         "Camera Car",
         "Road Markings"
@@ -1248,9 +1247,9 @@ window.GEOGUESSR_DATA = {
       "id": "christmas-island",
       "nameEn": "Christmas Island",
       "nameZh": "圣诞岛",
-      "continentEn": "Other",
-      "continentZh": "其他",
-      "flag": "🌍",
+      "continentEn": "Oceania",
+      "continentZh": "大洋洲",
+      "flag": "🇨🇽",
       "link": "",
       "desc": "澳大利亚印度洋外部领地；道路两旁随处可见保护红蟹大迁徙的金属围挡及红蟹警示牌；热带季风雨林中蜿蜒的单车道水泥或柏油小路。",
       "tags": [],
@@ -1407,9 +1406,9 @@ window.GEOGUESSR_DATA = {
       "id": "eswatini",
       "nameEn": "Eswatini",
       "nameZh": "斯威士兰",
-      "continentEn": "Other",
-      "continentZh": "其他",
-      "flag": "🌍",
+      "continentEn": "Africa",
+      "continentZh": "非洲",
+      "flag": "🇸🇿",
       "link": "",
       "desc": "南部非洲左行小国内陆国；路边草地在旱季呈现纯正灿烂的金黄色；电线杆带木质 A 构架；起伏的草甸山丘与平顶金合欢树；车牌多为白底蓝字带国徽。",
       "tags": [],
@@ -1497,9 +1496,9 @@ window.GEOGUESSR_DATA = {
       "id": "georgia",
       "nameEn": "Georgia",
       "nameZh": "格鲁吉亚",
-      "continentEn": "Other",
-      "continentZh": "其他",
-      "flag": "🌍",
+      "continentEn": "Europe",
+      "continentZh": "欧洲",
+      "flag": "🇬🇪",
       "link": "",
       "desc": "独一无二的格鲁吉亚圆形字母（mkhedruli）；空中随处可见架设的黄色或银色民用天然气管道；方形水泥电线杆配蜡烛状圆立绝缘子；红底白箭头方形 Chevron；平缓的积雪高加索山脉；第比利斯多见黑色皮卡街景车，东部为带长天线的小车，西部为无天线小车。",
       "tags": [
@@ -1577,9 +1576,9 @@ window.GEOGUESSR_DATA = {
       "id": "gibraltar",
       "nameEn": "Gibraltar",
       "nameZh": "直布罗陀",
-      "continentEn": "Other",
-      "continentZh": "其他",
-      "flag": "🌍",
+      "continentEn": "Europe",
+      "continentZh": "欧洲",
+      "flag": "🇬🇮",
       "link": "",
       "desc": "英国海外领地；车辆靠右侧行驶；直布罗陀巨岩（Rock of Gibraltar）在视线中巍然耸立；英式红黄色车牌与双黄线路沿标线；英式红色邮筒与电话亭。",
       "tags": [
@@ -1724,7 +1723,7 @@ window.GEOGUESSR_DATA = {
       "link": "",
       "desc": "车辆靠左侧行驶；大部分地区仍保留一代低清晰度镜头 (Crap Cam)；印地语等天城文字母顶部有笔直平整的贯穿横线；街头随处可见黄绿相间机动三轮车、身披沙丽的行人及圣牛。",
       "tags": [
-        "左行 / LHD",
+        "左行 / LHT",
         "语言 / Script"
       ],
       "descZh": "车辆靠左侧行驶；大部分地区仍保留一代低清晰度镜头 (Crap Cam)；印地语等天城文字母顶部有笔直平整的贯穿横线；街头随处可见黄绿相间机动三轮车、身披沙丽的行人及圣牛。",
@@ -1734,7 +1733,7 @@ window.GEOGUESSR_DATA = {
         "语言文字"
       ],
       "tagsEn": [
-        "Left-Hand Drive",
+        "Drives on Left (LHT)",
         "Language & Script"
       ]
     },
@@ -1748,7 +1747,7 @@ window.GEOGUESSR_DATA = {
       "link": "",
       "desc": "车辆靠左侧行驶；机动车必须悬挂黑色底白字车牌（白字分为三组数字字母）；摩托车前车头也必须挂牌；街道简称为 'Jl.' (Jalan) 或 'Gg.' (Gang)；电线杆多为带凹坑冲压孔的方形混凝土柱；印尼语词尾极高频出现 '-kan'，元音 'a' 密度极高。",
       "tags": [
-        "左行 / LHD",
+        "左行 / LHT",
         "车牌 / Plate",
         "电线杆 / Pole",
         "语言 / Script"
@@ -1762,7 +1761,7 @@ window.GEOGUESSR_DATA = {
         "语言文字"
       ],
       "tagsEn": [
-        "Left-Hand Drive",
+        "Drives on Left (LHT)",
         "License Plates",
         "Utility Poles",
         "Language & Script"
@@ -1778,7 +1777,7 @@ window.GEOGUESSR_DATA = {
       "link": "",
       "desc": "车辆靠左行驶；道路外侧边线通常为黄色虚线，中央为白色虚线；路牌普遍采用英爱双语（爱尔兰语采用黄色斜体小写）；欧洲唯一的黄色菱形转向警告牌；电线杆上的高压危险警告图标里只有闪电而没有被击倒的小人；农场铁丝网大门转角为圆弧形弯管；路缘标顶部带有绿色反光片。",
       "tags": [
-        "左行 / LHD",
+        "左行 / LHT",
         "电线杆 / Pole",
         "路缘标 / Bollard",
         "道路标线 / Lines"
@@ -1792,7 +1791,7 @@ window.GEOGUESSR_DATA = {
         "道路标线"
       ],
       "tagsEn": [
-        "Left-Hand Drive",
+        "Drives on Left (LHT)",
         "Utility Poles",
         "Bollards",
         "Road Markings"
@@ -1880,7 +1879,7 @@ window.GEOGUESSR_DATA = {
       "link": "",
       "desc": "车辆靠左侧行驶；街景相机高度明显低于普通汽车 (Lowcam)，车身周围有一圈紧凑的大模糊圆盘；电线杆上变压器极其沉重且电线网密布，柱身缠绕黄黑螺旋反光带；电线杆与路口挂有长条垂直书写的汉字街区牌；车牌分为白底（普通车）和黄底（轻型 K-Car）。",
       "tags": [
-        "左行 / LHD",
+        "左行 / LHT",
         "电线杆 / Pole"
       ],
       "descZh": "车辆靠左侧行驶；街景相机高度明显低于普通汽车 (Lowcam)，车身周围有一圈紧凑的大模糊圆盘；电线杆上变压器极其沉重且电线网密布，柱身缠绕黄黑螺旋反光带；电线杆与路口挂有长条垂直书写的汉字街区牌；车牌分为白底（普通车）和黄底（轻型 K-Car）。",
@@ -1890,7 +1889,7 @@ window.GEOGUESSR_DATA = {
         "电线杆"
       ],
       "tagsEn": [
-        "Left-Hand Drive",
+        "Drives on Left (LHT)",
         "Utility Poles"
       ]
     },
@@ -1952,7 +1951,7 @@ window.GEOGUESSR_DATA = {
       "link": "",
       "desc": "车辆靠左行驶；街景车右前方立有一根粗大黑色的涉水喉 (Snorkel)；车牌采用英国标准（前白后黄）；典型的东非高原红土，伴随金合欢树平顶稀树草原。",
       "tags": [
-        "左行 / LHD",
+        "左行 / LHT",
         "车牌 / Plate",
         "街景车 / Car Meta",
         "红土 / Red Soil"
@@ -1966,7 +1965,7 @@ window.GEOGUESSR_DATA = {
         "红土壤"
       ],
       "tagsEn": [
-        "Left-Hand Drive",
+        "Drives on Left (LHT)",
         "License Plates",
         "Camera Car",
         "Red Soil"
@@ -1976,9 +1975,9 @@ window.GEOGUESSR_DATA = {
       "id": "kosovo",
       "nameEn": "Kosovo",
       "nameZh": "科索沃",
-      "continentEn": "Other",
-      "continentZh": "其他",
-      "flag": "🌍",
+      "continentEn": "Europe",
+      "continentZh": "欧洲",
+      "flag": "🇽🇰",
       "link": "",
       "desc": "公路多使用 A 型波形护栏；深蓝色底白字街道牌标有 'R.' (Rruga) 或 'Ul.' (Ulica)；门牌为蓝底白框配大号白色数字；路缘标一部分类似塞尔维亚，一部分类似匈牙利；巴尔干群山环绕。",
       "tags": [],
@@ -2072,7 +2071,7 @@ window.GEOGUESSR_DATA = {
       "link": "",
       "desc": "车辆靠左行驶；全境海拔极高，拥有连绵起伏、几乎完全无树的秃石山脉与高寒荒原；传统圆顶石头草房（Mokhoro）与身披毛毯、头戴巴索托草帽的牧民。",
       "tags": [
-        "左行 / LHD"
+        "左行 / LHT"
       ],
       "descZh": "车辆靠左行驶；全境海拔极高，拥有连绵起伏、几乎完全无树的秃石山脉与高寒荒原；传统圆顶石头草房（Mokhoro）与身披毛毯、头戴巴索托草帽的牧民。",
       "descEn": "Left-hand drive; extremely high altitude landlocked kingdom with endless treeless basalt peaks and alpine grasslands; traditional circular stone thatch huts (Rondavels) and shepherds wrapped in colorful Basotho wool blankets.",
@@ -2080,7 +2079,7 @@ window.GEOGUESSR_DATA = {
         "左侧行驶"
       ],
       "tagsEn": [
-        "Left-Hand Drive"
+        "Drives on Left (LHT)"
       ]
     },
     {
@@ -2162,7 +2161,7 @@ window.GEOGUESSR_DATA = {
       "link": "",
       "desc": "车辆靠左行驶；道路中央常画有双白实线；电线杆下半段常贴有长方形黑色铁皮编码标牌；路牙石常涂刷成整齐的黑白或黑黄相间条纹；车牌为黑底白字（分为两段或一段，较短）；大路编号通常装在一个橙黄色六边形边框内；路名前缀多为 'Jln' (Jalan)。",
       "tags": [
-        "左行 / LHD",
+        "左行 / LHT",
         "车牌 / Plate",
         "电线杆 / Pole",
         "道路标线 / Lines"
@@ -2176,7 +2175,7 @@ window.GEOGUESSR_DATA = {
         "道路标线"
       ],
       "tagsEn": [
-        "Left-Hand Drive",
+        "Drives on Left (LHT)",
         "License Plates",
         "Utility Poles",
         "Road Markings"
@@ -2192,7 +2191,7 @@ window.GEOGUESSR_DATA = {
       "link": "",
       "desc": "车辆靠左侧行驶；建筑物全境普遍采用金黄色暖调石灰岩（Globigerina）砌筑；乡村公路两侧砌有密集低矮的石灰岩干砌石墙；路名后缀普遍为马耳他语 'Triq'（街道）；典型的无高大树木干旱地中海岛屿风光。",
       "tags": [
-        "左行 / LHD"
+        "左行 / LHT"
       ],
       "descZh": "车辆靠左侧行驶；建筑物全境普遍采用金黄色暖调石灰岩（Globigerina）砌筑；乡村公路两侧砌有密集低矮的石灰岩干砌石墙；路名后缀普遍为马耳他语 'Triq'（街道）；典型的无高大树木干旱地中海岛屿风光。",
       "descEn": "Left-hand drive; buildings universally constructed from warm honey-golden Globigerina limestone blocks; narrow rural lanes flanked by dry limestone rubblestone walls (Hajt tas-sejjieh); street names prefixed with Maltese 'Triq' (Street); arid Mediterranean island landscape without native forests.",
@@ -2200,7 +2199,7 @@ window.GEOGUESSR_DATA = {
         "左侧行驶"
       ],
       "tagsEn": [
-        "Left-Hand Drive"
+        "Drives on Left (LHT)"
       ]
     },
     {
@@ -2242,10 +2241,10 @@ window.GEOGUESSR_DATA = {
     {
       "id": "mongolia",
       "nameEn": "Mongolia",
-      "nameZh": "Mongolia (蒙古)",
-      "continentEn": "Other",
-      "continentZh": "其他",
-      "flag": "🌍",
+      "nameZh": "蒙古",
+      "continentEn": "Asia",
+      "continentZh": "亚洲",
+      "flag": "🇲🇳",
       "link": "https://docs.google.com/document/d/1W_QK69BXMHUZXI5VdNH93_aLhTd9SQzNYhRLrh_-ZVA/edit?tab=t.0",
       "desc": "街景车车顶明显安装有圆筒状露营帐篷、五金备胎与金属车架；语言为西里尔蒙古文；苍茫无垠的蒙古高原草原，远处可见圆顶白色蒙古包（Ger）与成群牲畜。",
       "tags": [
@@ -2339,7 +2338,7 @@ window.GEOGUESSR_DATA = {
       "link": "",
       "desc": "车辆靠左侧行驶；路缘标为白色方柱，中间贴有一圈完整的红色反光胶带（360度整圈包边）；道路边缘多为白色短虚线；丘陵连绵起伏、草场极其翠绿丰美，山坡上散布着密集的绵羊群；木横木电线杆带有长条穿孔。",
       "tags": [
-        "左行 / LHD",
+        "左行 / LHT",
         "路缘标 / Bollard",
         "道路标线 / Lines"
       ],
@@ -2351,7 +2350,7 @@ window.GEOGUESSR_DATA = {
         "道路标线"
       ],
       "tagsEn": [
-        "Left-Hand Drive",
+        "Drives on Left (LHT)",
         "Bollards",
         "Road Markings"
       ]
@@ -2690,7 +2689,7 @@ window.GEOGUESSR_DATA = {
       "link": "",
       "desc": "车辆靠左侧行驶；四代街景车为白色丰田皮卡，后斗露出高位红色刹车灯；街道极其干净整洁，民居与院墙常带有几何花纹通风红砖孔与高耸围墙；街头骑摩托车人员一律按法规佩戴红黄色反光背心与头盔。",
       "tags": [
-        "左行 / LHD",
+        "左行 / LHT",
         "街景车 / Car Meta"
       ],
       "descZh": "车辆靠左侧行驶；四代街景车为白色丰田皮卡，后斗露出高位红色刹车灯；街道极其干净整洁，民居与院墙常带有几何花纹通风红砖孔与高耸围墙；街头骑摩托车人员一律按法规佩戴红黄色反光背心与头盔。",
@@ -2700,7 +2699,7 @@ window.GEOGUESSR_DATA = {
         "街景车"
       ],
       "tagsEn": [
-        "Left-Hand Drive",
+        "Drives on Left (LHT)",
         "Camera Car"
       ]
     },
@@ -2780,7 +2779,7 @@ window.GEOGUESSR_DATA = {
       "link": "",
       "desc": "车辆靠左侧行驶；路牌统一为墨绿色背景配纯白色无衬线粗体字（宽体字体）；路面上经常用极大号粗体白色英文喷写标线（如 'HUMP'、'SLOW'）；极其整洁的热带花园城市与现代化组屋 (HDB)。",
       "tags": [
-        "左行 / LHD"
+        "左行 / LHT"
       ],
       "descZh": "车辆靠左侧行驶；路牌统一为墨绿色背景配纯白色无衬线粗体字（宽体字体）；路面上经常用极大号粗体白色英文喷写标线（如 'HUMP'、'SLOW'）；极其整洁的热带花园城市与现代化组屋 (HDB)。",
       "descEn": "Left-hand drive; dark green street name signs in bold clean white lettering; large white road pavement warnings ('HUMP', 'SLOW', 'BUS LANE'); exceptionally manicured tropical garden city with distinctive HDB public housing blocks.",
@@ -2788,7 +2787,7 @@ window.GEOGUESSR_DATA = {
         "左侧行驶"
       ],
       "tagsEn": [
-        "Left-Hand Drive"
+        "Drives on Left (LHT)"
       ]
     },
     {
@@ -2843,7 +2842,7 @@ window.GEOGUESSR_DATA = {
       "link": "",
       "desc": "车辆靠左侧行驶；道路外侧边线为明亮的黄色实线，中央分道线为白色虚线；木制电线杆上常安装有大量瓷绝缘子串；四代超高清街景普及度极高；地貌丰富，从开普敦灌木林到德拉肯斯堡山脉。",
       "tags": [
-        "左行 / LHD",
+        "左行 / LHT",
         "电线杆 / Pole",
         "道路标线 / Lines"
       ],
@@ -2855,7 +2854,7 @@ window.GEOGUESSR_DATA = {
         "道路标线"
       ],
       "tagsEn": [
-        "Left-Hand Drive",
+        "Drives on Left (LHT)",
         "Utility Poles",
         "Road Markings"
       ]
@@ -2912,7 +2911,7 @@ window.GEOGUESSR_DATA = {
       "link": "",
       "desc": "车辆靠左行驶；使用极其圆润如圆圈花环的僧伽罗文 (Sinhala) 及直曲结合的泰米尔文 (Tamil)；街景车为低视角相机 (Lowcam)，车尾有时露出蓝白红三色遮挡物；车牌前长白、后方黄；方形混凝土电线杆，上方带有凹坑孔，下方带方形孔；路桩为短粗白底黑顶石桩；街头充斥着黑篷机动三轮车、红土壤与高耸椰林。",
       "tags": [
-        "左行 / LHD",
+        "左行 / LHT",
         "车牌 / Plate",
         "电线杆 / Pole",
         "街景车 / Car Meta",
@@ -2930,7 +2929,7 @@ window.GEOGUESSR_DATA = {
         "语言文字"
       ],
       "tagsEn": [
-        "Left-Hand Drive",
+        "Drives on Left (LHT)",
         "License Plates",
         "Utility Poles",
         "Camera Car",
@@ -3020,7 +3019,7 @@ window.GEOGUESSR_DATA = {
       "link": "",
       "desc": "车辆靠左侧行驶；方形打孔混凝土电线杆（整齐圆孔排成一列）；泰文字母方正规整，折角处带有鲜明硬角；道路中心线为亮黄色实线或虚线；路旁民居院落前普遍立有雕梁画栋的小型佛龛神台（土地庙）；随处可见黄色出租车、双条车与皮卡。",
       "tags": [
-        "左行 / LHD",
+        "左行 / LHT",
         "电线杆 / Pole",
         "道路标线 / Lines",
         "语言 / Script"
@@ -3034,7 +3033,7 @@ window.GEOGUESSR_DATA = {
         "语言文字"
       ],
       "tagsEn": [
-        "Left-Hand Drive",
+        "Drives on Left (LHT)",
         "Utility Poles",
         "Road Markings",
         "Language & Script"
@@ -3089,9 +3088,9 @@ window.GEOGUESSR_DATA = {
       "id": "united-arab-emirates",
       "nameEn": "United Arab Emirates",
       "nameZh": "阿联酋",
-      "continentEn": "Other",
-      "continentZh": "其他",
-      "flag": "🌍",
+      "continentEn": "Asia",
+      "continentZh": "亚洲",
+      "flag": "🇦🇪",
       "link": "",
       "desc": "街景车为银灰色或白色豪华轿车；超现代化的八车道平整公路；路旁修剪整齐的绿化椰枣树与巨型立交桥；阿拉伯语与英语双语路牌；车牌多为白底黑字短牌，带有各个酋长国英文缩写。",
       "tags": [
@@ -3116,7 +3115,7 @@ window.GEOGUESSR_DATA = {
       "link": "",
       "desc": "车辆靠左侧行驶；街景车为白色方形丰田海拉克斯皮卡，车顶没有行李架；典型的热带东非维多利亚湖盆地深红土地貌；茂盛的香蕉林、木瓜树与赤道湿润草原。",
       "tags": [
-        "左行 / LHD",
+        "左行 / LHT",
         "街景车 / Car Meta",
         "红土 / Red Soil"
       ],
@@ -3128,7 +3127,7 @@ window.GEOGUESSR_DATA = {
         "红土壤"
       ],
       "tagsEn": [
-        "Left-Hand Drive",
+        "Drives on Left (LHT)",
         "Camera Car",
         "Red Soil"
       ]
@@ -3167,7 +3166,7 @@ window.GEOGUESSR_DATA = {
       "link": "",
       "desc": "车辆靠左侧行驶；车牌严格采用前白后黄长条标准；电话区号以 01、02（固定座机）或 07（手机）开头；道路分道线上密集嵌入猫眼反光道钉 (Cat's eyes)；电线杆上常贴有闪电击倒行人的黄色危险警告三角牌；农场铁丝网金属栏杆大门转角一律为利落的直角焊接（区别于爱尔兰圆弧角）。",
       "tags": [
-        "左行 / LHD",
+        "左行 / LHT",
         "车牌 / Plate",
         "电线杆 / Pole",
         "道路标线 / Lines"
@@ -3181,7 +3180,7 @@ window.GEOGUESSR_DATA = {
         "道路标线"
       ],
       "tagsEn": [
-        "Left-Hand Drive",
+        "Drives on Left (LHT)",
         "License Plates",
         "Utility Poles",
         "Road Markings"
@@ -5457,14 +5456,14 @@ window.GEOGUESSR_DATA = {
         {
           "headingZh": "☎️ 电话区号南北递增法则与车牌地籍",
           "headingEn": "Area Code North-South Gradient & License Plate Hubs",
-          "contentZh": "- **电话区号遵循由北向南递增铁律 (数字越小越偏北，越大越偏南)**：\n    - **011-016**：北海道 (札幌 011，旭川 0166)\n    - **02x**：东北地方及北关东 (仙台 022，青森 017/02x)\n    - **03**：东京都核心 23 区 (周围卫星城市多为 **04x**，如横滨 045，千叶 043，埼玉 048)\n    - **05x**：中部地方及东海地区 (名古屋 052，静冈 054)\n    - **06**：大阪市中心 (周围关西诸府县多为 **07x**，如京都 075，神户 078，奈良 074)\n    - **08x**：中国地方与四国地方 (广岛 082，冈山 086，高松 087，松山 089)\n    - **09x**：九州地方及冲绳 (福冈 092，熊本 096，冲绳本岛及离岛 098)\n- **车牌汉字地名秒杀地籍**：\n    - **东京都核心**：“品川”、“世田谷”、“练马”、“足立”、“杉并”\n    - **富士山周边**：“富士山” (由山梨县与静冈县两县辖区共享)\n    - **关西核心**：“浪速 (なにわ)”、“大阪”、“京都”、“神户”\n    - **九州与冲绳**：“福冈”、“北九州”、“久留米”、“熊本”、“鹿儿岛”、“冲绳”",
-          "contentEn": "- **Strict North-to-South Ascending Area Code Rule**:\n    - **011–016**: Hokkaido (Sapporo 011, Asahikawa 0166)\n    - **02x**: Tohoku and Northern Kanto (Sendai 022, Aomori 017/02x)\n    - **03**: Central Tokyo 23 Wards (suburban prefectures use **04x**, e.g. Yokohama 045, Chiba 043, Saitama 048)\n    - **05x**: Chubu & Tokai (Nagoya 052, Shizuoka 054)\n    - **06**: Central Osaka City (surrounding Kansai prefectures use **07x**, e.g. Kyoto 075, Kobe 078, Nara 074)\n    - **08x**: Chugoku & Shikoku (Hiroshima 082, Okayama 086, Takamatsu 087, Matsuyama 089)\n    - **09x**: Kyushu & Okinawa (Fukuoka 092, Kumamoto 096, Okinawa 098)\n- **Kanji Place Names on License Plates**:\n    - **Tokyo Metro**: \"Shinagawa\" (品川), \"Setagaya\" (世田谷), \"Nerima\" (练马), \"Adachi\" (足立)\n    - **Mount Fuji**: \"Fujisan\" (富士山, shared between Yamanashi and Shizuoka prefectures)\n    - **Kansai Region**: \"Naniwa\" (なにわ), \"Osaka\" (大阪), \"Kyoto\" (京都), \"Kobe\" (神戸)\n    - **Kyushu & Okinawa**: \"Fukuoka\" (福冈), \"Kumamoto\" (熊本), \"Okinawa\" (冲绳)"
+          "contentZh": "- **电话区号遵循由北向南递增铁律 (数字越小越偏北，越大越偏南)**：\n    - **011-016**：北海道 (札幌 011，旭川 0166)\n    - **02x**：东北地方及北关东 (仙台 022，青森 017/02x)\n    - **03**：东京都核心 23 区 (周围卫星城市多为 **04x**，如横滨 045，千叶 043，埼玉 048)\n    - **05x**：中部地方及东海地区 (名古屋 052，静冈 054)\n    - **06**：大阪市中心 (周围关西诸府县多为 **07x**，如京都 075，神户 078，奈良 074)\n    - **08x**：中国地方与四国地方 (广岛 082，冈山 086，高松 087，松山 089)\n    - **09x**：九州地方及沖縄 (冲绳) (福岡 (福冈) 092，熊本 096，沖縄 (冲绳)本岛及离岛 098)\n- **车牌汉字地名秒杀地籍**：\n    - **东京都核心**：“品川”、“世田谷”、“練馬 (练马)”、“足立”、“杉并”\n    - **富士山周边**：“富士山” (由山梨县与静冈县两县辖区共享)\n    - **关西核心**：“浪速 (なにわ)”、“大阪”、“京都”、“神户”\n    - **九州与沖縄 (冲绳)**：“福岡 (福冈)”、“北九州”、“久留米”、“熊本”、“鹿儿岛”、“沖縄 (冲绳)”",
+          "contentEn": "- **Strict North-to-South Ascending Area Code Rule**:\n    - **011–016**: Hokkaido (Sapporo 011, Asahikawa 0166)\n    - **02x**: Tohoku and Northern Kanto (Sendai 022, Aomori 017/02x)\n    - **03**: Central Tokyo 23 Wards (suburban prefectures use **04x**, e.g. Yokohama 045, Chiba 043, Saitama 048)\n    - **05x**: Chubu & Tokai (Nagoya 052, Shizuoka 054)\n    - **06**: Central Osaka City (surrounding Kansai prefectures use **07x**, e.g. Kyoto 075, Kobe 078, Nara 074)\n    - **08x**: Chugoku & Shikoku (Hiroshima 082, Okayama 086, Takamatsu 087, Matsuyama 089)\n    - **09x**: Kyushu & Okinawa (Fukuoka 092, Kumamoto 096, Okinawa 098)\n- **Kanji Place Names on License Plates**:\n    - **Tokyo Metro**: \"Shinagawa\" (品川), \"Setagaya\" (世田谷), \"Nerima\" (練馬), \"Adachi\" (足立)\n    - **Mount Fuji**: \"Fujisan\" (富士山, shared between Yamanashi and Shizuoka prefectures)\n    - **Kansai Region**: \"Naniwa\" (なにわ), \"Osaka\" (大阪), \"Kyoto\" (京都), \"Kobe\" (神戸)\n    - **Kyushu & Okinawa**: \"Fukuoka\" (福岡), \"Kumamoto\" (熊本), \"Okinawa\" (沖縄)"
         },
         {
           "headingZh": "⚡ 全国九大电力区电线杆标牌与变压器结构",
           "headingEn": "Nine Regional Power Company Pole Plates & Transformers",
           "contentZh": "- **双牌识别体系**：日本电杆通常悬挂上下两块标牌：上方为地区电力公司牌 (通常为竖牌)，下方为国家牌 (NTT 电信竖牌，上面公司名 NTT，中间竖排汉字地籍，下方数字)。[参考图解](https://www.plonkit.net/japan)\n- **各大电力区具体特征**：\n    - **北海道电力**：地区牌比国家牌明显更长，有三道竖列 (其中两竖密布数字)，部分为橙色牌；电杆顶端变压器下方有金属十字形横向摆放的支撑架\n    - **东北电力**：地区牌为**横牌** (国家牌仍为竖牌)，常为银色极简设计，印有接近圆形的电力 logo，下方带一个大数字；杆身常贴灰白反光片；变压器侧边有提手状把手，或下部装有圆盘托底\n    - **关东电力 (东京周边)**：地区牌为竖牌，形状尺寸与国家牌相近，内部横向汉字名与竖向数字构成 T 形，logo 与东北类似；或为深灰色竖牌；变压器下方固定大木板托底，下部伸出两根平行金属支撑杆\n    - **北陆电力 (富山/石川/福井)**：地区牌与国家牌**均为横向安装**；杆身反光警示贴片亦为罕见的横向贴装\n    - **中部电力 (名古屋/爱知/静冈)**：地区牌为圆角竖牌，清晰印有“中部电力”字样与贝壳形徽标；反光贴片带有斜向交替条纹，上下黑边印有微小字符；变压器侧边装有黑色夹具组件。**长野县特例**：国家 NTT 牌为横牌\n    - **关西电力 (大阪/京都)**：地区牌与九州类似，通常不带公司 logo，版式较杂，牌面底部印有微小数字；反光贴片为很长的连续细竖线，颜色偏旧褪色\n    - **中国电力 (广岛/冈山)**：国家牌有时尺寸很大，logo 印有英文字符；电杆身有时印有醒目的**朝上黄色箭头**；反光贴片为 4 条短竖线且黑边带小字；变压器上有时印有红色大数字，铁杆连接处为全三角\n    - **四国电力**：电杆黄黑警示反光条中间有两条短横线相连，构成**“口”字形**；地区牌 logo 为 4 个圆点构成的菱形；电杆上方有时缠绕一条黑边黄带；反光片为 6 条竖短线；变压器常贴白贴纸，下部角铁连接处为半三角形\n    - **九州电力**：地区牌印有 **7 个圆点**组成的独特徽标，横向排列 3 位数字，竖向 4 个汉字通常排在右侧；反光板中间几道条纹颜色较深且带有立体凸点纹理；电线杆下半部常包裹类似美国的黄色塑料防撞护套\n    - **冲绳电力**：通常悬挂 2 至 3 块大小相近的竖向标牌，常印有**“冲电”**字样；柱身常用数道扁平细金属箍条缠绕紧固",
-          "contentEn": "- **Dual-Placard Identification System**: Japanese poles mount two plates: the upper is the regional power company plate (usually vertical), and the lower is the national NTT telecommunications plate (vertical, marked NTT on top, vertical Kanji in middle, digits below). [Plonkit Guide](https://www.plonkit.net/japan)\n- **Regional Power Company Breakdown**:\n    - **Hokkaido Electric**: Regional plate is much longer than NTT plate, featuring three vertical columns (two filled with dense digits); occasional orange plates; transformer mounted above a horizontal metal cross-brace\n    - **Tohoku Electric**: Regional plate is **horizontal** (NTT plate remains vertical), silver minimal design with circular logo and large digits; pale grey/white reflector strips; transformer with handles or resting on round bottom disc\n    - **Kanto Electric (Tokyo area)**: Vertical plate resembling NTT dimensions; horizontal Kanji and vertical digits form a T-shape; logo resembles Tohoku; or dark grey vertical plate; transformer mounted on large wood board with dual parallel steel braces\n    - **Hokuriku Electric (Toyama/Ishikawa)**: Both regional and NTT plates are **horizontal**; reflector strips are uniquely mounted horizontally\n    - **Chubu Electric (Nagoya/Aichi)**: Rounded vertical plate reading \"Chubu Electric\" with shell-shaped logo; diagonal alternating color reflector stripes with tiny text on black borders; black clamps on transformer sides. **Nagano exception**: NTT plate is mounted horizontally\n    - **Kansai Electric (Osaka/Kyoto)**: Similar to Kyushu, mostly lacks company logo, varied layouts, tiny digits at bottom; very long faded vertical reflector strips\n    - **Chugoku Electric (Hiroshima/Okayama)**: Large NTT plate with English letters; **yellow upward arrows** on poles; reflector has 4 short vertical lines; red numbers on transformers; full-triangle mounting iron bracket\n    - **Shikoku Electric**: Yellow/black pole wrap has horizontal connectors forming a **square (\"口\") shape**; regional logo is a 4-dot diamond; occasional yellow stripe with black border on upper pole; 6 vertical reflector lines; half-triangle bracket beneath transformer\n    - **Kyushu Electric**: Regional plate stamped with a unique **7-dot emblem**, 3 horizontal digits, and 4 vertical Kanji on the right; center reflector bars are darker with tactile raised bumps; yellow protective plastic wire sleeves wrapped around lower pole\n    - **Okinawa Electric**: Typically displays 2 to 3 similar-sized vertical plates reading **\"沖電\"** (Okiden); secured with thin metallic straps around the shaft"
+          "contentEn": "- **Dual-Placard Identification System**: Japanese poles mount two plates: the upper is the regional power company plate (usually vertical), and the lower is the national NTT telecommunications plate (vertical, marked NTT on top, vertical Kanji in middle, digits below). [Plonkit Guide](https://www.plonkit.net/japan)\n- **Regional Power Company Breakdown**:\n    - **Hokkaido Electric**: Regional plate is much longer than NTT plate, featuring three vertical columns (two filled with dense digits); occasional orange plates; transformer mounted above a horizontal metal cross-brace\n    - **Tohoku Electric**: Regional plate is **horizontal** (NTT plate remains vertical), silver minimal design with circular logo and large digits; pale grey/white reflector strips; transformer with handles or resting on round bottom disc\n    - **Kanto Electric (Tokyo area)**: Vertical plate resembling NTT dimensions; horizontal Kanji and vertical digits form a T-shape; logo resembles Tohoku; or dark grey vertical plate; transformer mounted on large wood board with dual parallel steel braces\n    - **Hokuriku Electric (Toyama/Ishikawa)**: Both regional and NTT plates are **horizontal**; reflector strips are uniquely mounted horizontally\n    - **Chubu Electric (Nagoya/Aichi)**: Rounded vertical plate reading \"Chubu Electric\" with shell-shaped logo; diagonal alternating color reflector stripes with tiny text on black borders; black clamps on transformer sides. **Nagano exception**: NTT plate is mounted horizontally\n    - **Kansai Electric (Osaka/Kyoto)**: Similar to Kyushu, mostly lacks company logo, varied layouts, tiny digits at bottom; very long faded vertical reflector strips\n    - **Chugoku Electric (Hiroshima/Okayama)**: Large NTT plate with English letters; **yellow upward arrows** on poles; reflector has 4 short vertical lines; red numbers on transformers; full-triangle mounting iron bracket\n    - **Shikoku Electric**: Yellow/black pole wrap has horizontal connectors forming a **square (box-like) shape**; regional logo is a 4-dot diamond; occasional yellow stripe with black border on upper pole; 6 vertical reflector lines; half-triangle bracket beneath transformer\n    - **Kyushu Electric**: Regional plate stamped with a unique **7-dot emblem**, 3 horizontal digits, and 4 vertical Kanji on the right; center reflector bars are darker with tactile raised bumps; yellow protective plastic wire sleeves wrapped around lower pole\n    - **Okinawa Electric**: Typically displays 2 to 3 similar-sized vertical plates reading **\"沖電\"** (*Okiden*, Okinawa Electric); secured with thin metallic straps around the shaft"
         },
         {
           "headingZh": "🗾 区域景观、地貌与独家秒杀特征",
@@ -6117,10 +6116,11 @@ window.GEOGUESSR_DATA = {
           "textEn": "**Faroe Islands 🇫🇴:** White field + red cross with blue fimbriation. Mnemonic: \"Inverted Norway color scheme\"."
         },
         {
-          "subgroup": "“十字”阵营（北欧与英伦）",
-          "subgroupEn": "Nordic & British Crosses",
-          "textZh": "**Georgia：** 🇬🇪：白底+红十字，四边各有一小红十字",
-          "textEn": "**:** Georgia:🇬🇪：白底+红十字，四边各有一小红十字"
+          "text": "**Georgia (格鲁吉亚) 🇬🇪：** 白底 + 圣乔治大红十字 + 四角各有一小红十字（五十字旗）。记忆点：**“白底五个红十字”**。",
+          "textZh": "**Georgia (格鲁吉亚) 🇬🇪：** 白底 + 圣乔治大红十字 + 四角各有一小红十字（五十字旗）。记忆点：**“白底五个红十字”**。",
+          "textEn": "**Georgia 🇬🇪:** White field + large red St. George's cross + four smaller red Bolnisi crosses in each quadrant. Mnemonic: \"White Field with Five Red Crosses\".",
+          "subgroup": "十字旗家族 (Nordic & Crosses)",
+          "subgroupEn": "Cross Flags (Nordic & Crosses)"
         },
         {
           "subgroup": "“十字”阵营（北欧与英伦）",
@@ -6189,10 +6189,11 @@ window.GEOGUESSR_DATA = {
           "textEn": "**Andorra 🇦🇩:** Blue-yellow-red vertical tricolor + centered national coat of arms."
         },
         {
-          "subgroup": "“水平三色”阵营（中欧、东欧与波罗的海）",
-          "subgroupEn": "Horizontal Tricolors (Central & Eastern Europe)",
-          "textZh": "**经典红白蓝系列：** **",
-          "textEn": "**经典红白蓝系列：:** **经典红白蓝系列：**"
+          "text": "**North Macedonia (北马其顿) 🇲🇰：** 红底 + 中心黄色太阳向四周射出八道金色光芒。记忆点：**“巴尔干红底八道金日芒”**。",
+          "textZh": "**North Macedonia (北马其顿) 🇲🇰：** 红底 + 中心黄色太阳向四周射出八道金色光芒。记忆点：**“巴尔干红底八道金日芒”**。",
+          "textEn": "**North Macedonia 🇲🇰:** Red field + yellow sun with eight broadening rays extending to the edges. Mnemonic: \"Balkan Red Field with Eight Golden Sunbeams\".",
+          "subgroup": "带有国徽或复杂图案",
+          "subgroupEn": "Flags with Coats of Arms"
         },
         {
           "subgroup": "“水平三色”阵营（中欧、东欧与波罗的海）",
@@ -6213,10 +6214,11 @@ window.GEOGUESSR_DATA = {
           "textEn": "**Russia 🇷🇺:** White-blue-red horizontal tricolor. Mnemonic: \"Source of Pan-Slavic colors\"."
         },
         {
-          "subgroup": "“水平三色”阵营（中欧、东欧与波罗的海）",
-          "subgroupEn": "Horizontal Tricolors (Central & Eastern Europe)",
-          "textZh": "**泛斯拉夫/东欧变体：** **",
-          "textEn": "**泛斯拉夫/东欧变体：:** **泛斯拉夫/东欧变体：**"
+          "text": "**Montenegro (黑山) 🇲🇪：** 红底配金色边框 + 中心金色双头鹰国徽。记忆点：**“金边红旗配金色双头鹰”**。",
+          "textZh": "**Montenegro (黑山) 🇲🇪：** 红底配金色边框 + 中心金色双头鹰国徽。记忆点：**“金边红旗配金色双头鹰”**。",
+          "textEn": "**Montenegro 🇲🇪:** Red field surrounded by golden border + central golden double-headed eagle coat of arms. Mnemonic: \"Gold-Bordered Red Flag with Golden Eagle\".",
+          "subgroup": "带有国徽或复杂图案",
+          "subgroupEn": "Flags with Coats of Arms"
         },
         {
           "subgroup": "“水平三色”阵营（中欧、东欧与波罗的海）",
@@ -6327,10 +6329,11 @@ window.GEOGUESSR_DATA = {
           "textEn": "**Albania 🇦🇱:** Red field + centered black double-headed eagle. Mnemonic: \"Land of the Eagles\"."
         },
         {
-          "subgroup": "4. “带纹章/特殊构图”阵营",
-          "subgroupEn": "Coat of Arms & Special Compositions",
-          "textZh": "**Malta🇲🇹 (马耳他)：** ** 左白右红 + 左上角灰色小十字。",
-          "textEn": "**Malta 🇲🇹:** Left white, right red vertical bicolour + grey George Cross in top left canton. Mnemonic: \"Silver badge on white & red\"."
+          "text": "**San Marino (圣马力诺) 🇸🇲：** 上白下浅蓝横向双色 + 中心三座山峰古塔与桂冠国徽。记忆点：**“白浅蓝双色配三塔国徽”**。",
+          "textZh": "**San Marino (圣马力诺) 🇸🇲：** 上白下浅蓝横向双色 + 中心三座山峰古塔与桂冠国徽。记忆点：**“白浅蓝双色配三塔国徽”**。",
+          "textEn": "**San Marino 🇸🇲:** Horizontal white and light blue bicolor + central coat of arms featuring three towers on three peaks. Mnemonic: \"White & Light Blue with Three-Tower Crest\".",
+          "subgroup": "带有国徽或复杂图案",
+          "subgroupEn": "Flags with Coats of Arms"
         },
         {
           "subgroup": "4. “带纹章/特殊构图”阵营",
@@ -6902,8 +6905,8 @@ window.GEOGUESSR_DATA = {
         {
           "titleZh": "左右行驶、减速带与路面材质",
           "titleEn": "Driving Side, Speed Bumps & Pavements",
-          "textZh": "- **全球靠左行驶 (LHD) 国家速查：**\n    - **欧洲（4国）：** 英国、爱尔兰、马耳他、塞浦路斯。\n    - **亚太地区：** 日本、中国香港、中国澳门、印度、孟加拉国、斯里兰卡、泰国、马来西亚、新加坡、印度尼西亚。\n    - **大洋洲：** 澳大利亚、新西兰。\n    - **南部与东部非洲：** 南非、博茨瓦纳、纳米比亚、斯威士兰、莱索托、肯尼亚、乌干达。\n    - **美洲特例：** 美属维尔京群岛（美国领地唯一左行）、圭亚那、苏里南。\n- **减速带设计：**\n    - **荷兰：** 路面有长短交替的白色短横线，路边常伴有特殊拼花砖石。\n    - **马来西亚：** 路面上刷有平行粗黄线作为减速预警。\n    - **日本：** 黄黑相间倾斜斜条纹减速带。\n    - **英国与爱尔兰：** 3D 视觉立体白色减速块。\n    - **美国：** 路面边缘有机械开槽横向凹陷减速带 (Rumble Strips，加拿大少见)。\n    - **澳大利亚与新西兰：** 路肩白线上有物理凸起小方块。\n- **水泥混凝土路面分布：**\n    - **日本：** 农村和山区道路大量采用混凝土路面，路侧必带深排水沟槽（両側に側溝），核心判定特征。\n    - **菲律宾：** 混凝土路面极度普遍（涵盖主干道），路面带有明显的膨胀伸缩缝。\n    - **多米尼加：** 城镇内部大量铺设混凝土路，加勒比地区强特征。\n    - **哥伦比亚 / 危地马拉 / 洪都拉斯 / 不丹：** 山区险峻陡坡路段强制采用混凝土路面以增强抓地力。\n    - **德国：** 极高品质的农用单车道硬化小路，无路肩石，边缘直接齐平嵌入修剪整齐的草坪中。\n    - **法国：** 双向乡村路沥青偏宽，边缘多修补痕迹，或为白垩碎石土路。",
-          "textEn": "- **Left-Hand Drive (LHD) Nations:**\n    - **Europe (4):** United Kingdom, Ireland, Malta, Cyprus.\n    - **Asia-Pacific:** Japan, Hong Kong, Macau, India, Bangladesh, Sri Lanka, Thailand, Malaysia, Singapore, Indonesia.\n    - **Oceania:** Australia, New Zealand.\n    - **Southern & Eastern Africa:** South Africa, Botswana, Namibia, Eswatini, Lesotho, Kenya, Uganda.\n    - **Americas:** U.S. Virgin Islands (sole US left-drive territory), Guyana, Suriname.\n- **Speed Bumps & Rumble Strips:**\n    - **Netherlands:** Alternating long-and-short white transverse bar markings; patterned brick road borders.\n    - **Malaysia:** Thick yellow parallel transverse rumble stripes across lanes.\n    - **Japan:** Black-and-yellow diagonal zebra speed bumps.\n    - **UK & Ireland:** Painted 3D trompe-l'œil chevron speed bumps.\n    - **United States:** Milled transverse shoulder rumble strip indentations (rare in Canada).\n    - **Australia & New Zealand:** Raised reflective edge pavement bumps.\n- **Concrete Road Slab Distribution:**\n    - **Japan:** Rural and mountain roads paved with concrete slabs accompanied by deep roadside concrete drainage ditches (両側に側溝).\n    - **Philippines:** Concrete pavement is dominant even on primary arteries, featuring visible tar expansion joints.\n    - **Dominican Republic:** Urban town streets heavily paved with concrete (Caribbean tell).\n    - **Colombia / Guatemala / Honduras / Bhutan:** Steep mountain inclines paved with concrete for traction.\n    - **Germany:** High-quality single-lane agricultural asphalt roads with zero shoulders embedded directly into immaculate turf.\n    - **France:** Wide rural asphalt with patched worn edges or chalky unpaved gravel."
+          "textZh": "- **全球靠左行驶 (LHT / 右舵左行) 国家速查：**\n    - **欧洲（4国）：** 英国、爱尔兰、马耳他、塞浦路斯。\n    - **亚太地区：** 日本、中国香港、中国澳门、印度、孟加拉国、斯里兰卡、泰国、马来西亚、新加坡、印度尼西亚。\n    - **大洋洲：** 澳大利亚、新西兰。\n    - **南部与东部非洲：** 南非、博茨瓦纳、纳米比亚、斯威士兰、莱索托、肯尼亚、乌干达。\n    - **美洲特例：** 美属维尔京群岛（美国领地唯一左行）、圭亚那、苏里南。\n- **减速带设计：**\n    - **荷兰：** 路面有长短交替的白色短横线，路边常伴有特殊拼花砖石。\n    - **马来西亚：** 路面上刷有平行粗黄线作为减速预警。\n    - **日本：** 黄黑相间倾斜斜条纹减速带。\n    - **英国与爱尔兰：** 3D 视觉立体白色减速块。\n    - **美国：** 路面边缘有机械开槽横向凹陷减速带 (Rumble Strips，加拿大少见)。\n    - **澳大利亚与新西兰：** 路肩白线上有物理凸起小方块。\n- **水泥混凝土路面分布：**\n    - **日本：** 农村和山区道路大量采用混凝土路面，路侧必带深排水沟槽（両側に側溝），核心判定特征。\n    - **菲律宾：** 混凝土路面极度普遍（涵盖主干道），路面带有明显的膨胀伸缩缝。\n    - **多米尼加：** 城镇内部大量铺设混凝土路，加勒比地区强特征。\n    - **哥伦比亚 / 危地马拉 / 洪都拉斯 / 不丹：** 山区险峻陡坡路段强制采用混凝土路面以增强抓地力。\n    - **德国：** 极高品质的农用单车道硬化小路，无路肩石，边缘直接齐平嵌入修剪整齐的草坪中。\n    - **法国：** 双向乡村路沥青偏宽，边缘多修补痕迹，或为白垩碎石土路。",
+          "textEn": "- **Left-Hand Traffic (LHT / Drives on Left) Nations:**\n    - **Europe (4):** United Kingdom, Ireland, Malta, Cyprus.\n    - **Asia-Pacific:** Japan, Hong Kong, Macau, India, Bangladesh, Sri Lanka, Thailand, Malaysia, Singapore, Indonesia.\n    - **Oceania:** Australia, New Zealand.\n    - **Southern & Eastern Africa:** South Africa, Botswana, Namibia, Eswatini, Lesotho, Kenya, Uganda.\n    - **Americas:** U.S. Virgin Islands (sole US left-drive territory), Guyana, Suriname.\n- **Speed Bumps & Rumble Strips:**\n    - **Netherlands:** Alternating long-and-short white transverse bar markings; patterned brick road borders.\n    - **Malaysia:** Thick yellow parallel transverse rumble stripes across lanes.\n    - **Japan:** Black-and-yellow diagonal zebra speed bumps.\n    - **UK & Ireland:** Painted 3D trompe-l'œil chevron speed bumps.\n    - **United States:** Milled transverse shoulder rumble strip indentations (rare in Canada).\n    - **Australia & New Zealand:** Raised reflective edge pavement bumps.\n- **Concrete Road Slab Distribution:**\n    - **Japan:** Rural and mountain roads paved with concrete slabs accompanied by deep roadside concrete drainage ditches (deep concrete side ditches on both sides).\n    - **Philippines:** Concrete pavement is dominant even on primary arteries, featuring visible tar expansion joints.\n    - **Dominican Republic:** Urban town streets heavily paved with concrete (Caribbean tell).\n    - **Colombia / Guatemala / Honduras / Bhutan:** Steep mountain inclines paved with concrete for traction.\n    - **Germany:** High-quality single-lane agricultural asphalt roads with zero shoulders embedded directly into immaculate turf.\n    - **France:** Wide rural asphalt with patched worn edges or chalky unpaved gravel."
         },
         {
           "titleZh": "护栏形态、反光板色彩与路沿石彩绘",
@@ -7050,7 +7053,7 @@ window.GEOGUESSR_DATA = {
         {
           "titleZh": "全球石墙地貌全解析",
           "titleEn": "Global Stone Walls Field Guide",
-          "textZh": "- **爱沙尼亚诸岛 (萨雷马/穆胡岛)：**\n    - 灰白色石灰岩，长满青苔或地衣，高度齐腰，呈自然粗糙堆砌（*Kiviaed*）。\n    - 伴生：平坦地貌 + 低矮刺柏（Juniper）、松树与白桦；波罗的海灰暗阴天。\n- **瑞典 (厄兰/哥特兰岛)：**\n    - 规整平整的石灰岩薄板堆砌（*Stengärdsgård*）。\n    - 伴生：极开阔的阿尔瓦（Alvar）草原地貌、风车、典型北欧红色木屋（Falun red）。\n- **马耳他 / 戈佐岛：**\n    - 明显的暖黄/金黄色石灰岩（Globigerina），规整方正，风化孔隙明显。\n    - 伴生：无树干旱、仙人掌/刺山柑、左舵行车（左行标志）。\n- **墨西哥尤卡坦半岛 (坎昆/梅里达周边)：**\n    - 粗糙带孔的灰白/黄色石灰岩石块，常作为庭院矮墙（*Albarrada*）。\n    - 伴生：热带干热灌木林（Selva baja）、极度平坦、白水泥平顶房、烈日顶光。\n- **英国与爱尔兰 (尤以爱尔兰西部为甚)：**\n    - 灰黑色花岗岩或页岩，缝隙透光（如康尼马拉/阿伦群岛的透光石墙）。\n    - 伴生：极绿草丘、起伏地形、阴雨潮湿感、左行红尾灯、黄色菱形标牌。\n- **克罗地亚 / 达尔马提亚：**\n    - 浅白灰岩在沿海梯田与山坡蜿蜒（*Suhozid*），纵横交错。\n    - 伴生：喀斯特山地、橄榄树丛、地中海灌木、波光粼粼的亚得里亚海。\n- **意大利 (普利亚/西西里)：**\n    - 浅色石灰岩，普利亚常见于橄榄园与圆顶石屋（*Trulli*）之间。\n    - 伴生：红土壤、百岁粗壮橄榄树、南欧强烈阳光、前排短白牌。\n- **秘鲁 / 玻利维亚高原：**\n    - 泥土与深色圆砾石混筑，或印加风格巨石基座。\n    - 伴生：极高海拔安第斯荒漠草甸（Puna）、羊驼、土坯房（Adobe）。",
+          "textZh": "- **爱沙尼亚诸岛 (萨雷马/穆胡岛)：**\n    - 灰白色石灰岩，长满青苔或地衣，高度齐腰，呈自然粗糙堆砌（*Kiviaed*）。\n    - 伴生：平坦地貌 + 低矮刺柏（Juniper）、松树与白桦；波罗的海灰暗阴天。\n- **瑞典 (厄兰/哥特兰岛)：**\n    - 规整平整的石灰岩薄板堆砌（*Stengärdsgård*）。\n    - 伴生：极开阔的阿尔瓦（Alvar）草原地貌、风车、典型北欧红色木屋（Falun red）。\n- **马耳他 / 戈佐岛：**\n    - 明显的暖黄/金黄色石灰岩（Globigerina），规整方正，风化孔隙明显。\n    - 伴生：无树干旱、仙人掌/刺山柑、右舵左行（英式靠左行驶）。\n- **墨西哥尤卡坦半岛 (坎昆/梅里达周边)：**\n    - 粗糙带孔的灰白/黄色石灰岩石块，常作为庭院矮墙（*Albarrada*）。\n    - 伴生：热带干热灌木林（Selva baja）、极度平坦、白水泥平顶房、烈日顶光。\n- **英国与爱尔兰 (尤以爱尔兰西部为甚)：**\n    - 灰黑色花岗岩或页岩，缝隙透光（如康尼马拉/阿伦群岛的透光石墙）。\n    - 伴生：极绿草丘、起伏地形、阴雨潮湿感、左行红尾灯、黄色菱形标牌。\n- **克罗地亚 / 达尔马提亚：**\n    - 浅白灰岩在沿海梯田与山坡蜿蜒（*Suhozid*），纵横交错。\n    - 伴生：喀斯特山地、橄榄树丛、地中海灌木、波光粼粼的亚得里亚海。\n- **意大利 (普利亚/西西里)：**\n    - 浅色石灰岩，普利亚常见于橄榄园与圆顶石屋（*Trulli*）之间。\n    - 伴生：红土壤、百岁粗壮橄榄树、南欧强烈阳光、前排短白牌。\n- **秘鲁 / 玻利维亚高原：**\n    - 泥土与深色圆砾石混筑，或印加风格巨石基座。\n    - 伴生：极高海拔安第斯荒漠草甸（Puna）、羊驼、土坯房（Adobe）。",
           "textEn": "- **Estonian Islands (Saaremaa / Muhu):**\n    - Waist-high rough-stacked mossy gray limestone (*Kiviaed*).\n    - Companions: Flat terrain + low juniper bushes, birches, Baltic overcast skies.\n- **Sweden (Öland / Gotland):**\n    - Flat, thin, slab-like limestone stacked dry walls (*Stengärdsgård*).\n    - Companions: Expansive Alvar barren limestone plains, wooden windmills, Falun red houses.\n- **Malta & Gozo:**\n    - Golden Globigerina limestone blocks, porous and rectangular.\n    - Companions: Arid treeless scrub, prickly pears, left-hand drive road signs.\n- **Yucatán Peninsula (Mexico):**\n    - Rough, pitted yellowish-white limestone garden boundary walls (*Albarrada*).\n    - Companions: Low dry tropical scrub, flat plain, white flat-roof cement houses, harsh noon sun.\n- **Ireland & United Kingdom (Western Ireland):**\n    - Dark gray granite or slate dry-stone walls with see-through light gaps (Connemara/Aran Islands).\n    - Companions: Brilliant emerald rolling pastures, damp overcast mist, yellow diamond signs.\n- **Croatia & Dalmatian Coast:**\n    - White limestone terrace and boundary dry walls (*Suhozid*) winding along slopes.\n    - Companions: Karst scrub, ancient olive orchards, shimmering Adriatic Sea.\n- **Italy (Puglia & Sicily):**\n    - Dry limestone walls encircling olive groves and conical *Trulli* huts.\n    - Companions: Terra rossa red dirt, gnarled ancient olive trees, Italian front short white plates.\n- **Peru & Bolivia Altiplano:**\n    - Earth mortar mixed with dark rounded river boulders, or Incan stonework bases.\n    - Companions: Extreme altitude Andean Puna tussock grass, llamas, adobe brick huts."
         },
         {
