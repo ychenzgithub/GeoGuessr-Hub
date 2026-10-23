@@ -25,3 +25,7 @@ venv/
 
 # Logs & Temp
 *.log
+
+# Raw Notion backup & local data-processing scripts
+notion_backup/
+scripts/

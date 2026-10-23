@@ -33,7 +33,7 @@
    - 提炼关键差异记忆点与共性特征，助你在决斗模式中快速作出决断。
 
 5. **📊 核心图表与国旗 (Infographics & Flags)**
-   - **核心 Meta 图解 (9张)**：全尺寸高清信息图（欧洲路缘标、东南亚文字地图、美国车牌地图、全球书写系统分布等），支持点击灯箱放大（Lightbox）。
+   - **核心 Meta 图解 (30张)**：全尺寸高清信息图（欧洲路缘标、东南亚文字地图、美国/加拿大车牌地图、欧洲街道词源与V形导向牌、全球书写系统与行车方向分布等），支持点击灯箱放大（Lightbox）。
    - **全球国旗口诀 (114面)**：全套国旗速记口诀与构图特征卡片，支持按大区与构图类型快速筛选。
 
 6. **🌐 网络资源与游戏 (Web Resources & Games)**
@@ -55,20 +55,9 @@
 
 ## 🛠️ 技术架构 (Tech Stack)
 
-```
-Notion Notes (Raw Markdown)
-           │
-           ▼  (Python Parsing & Enrichment Scripts)
-scripts/*.py ───► assets/js/geoguessr-data.js (Optimized JSON Engine)
-           │
-           ▼
-index.html + assets/js/app.js + assets/css/style.css (Tailwind CDN + ES6+)
-```
-
 - **前端架构**：原生 HTML5 + Vanilla ES6+（轻量、零打包依赖、毫秒级首屏加载）
 - **UI 框架**：Tailwind CSS (CDN) + 自定义玻璃拟态（Glassmorphism）设计系统
-- **数据管线**：Python 3 数据清洗与补全工具链（位于 `scripts/`）
-- **源笔记备份**：位于 `notion_backup/`
+- **数据引擎**：结构化双语 JSON 知识库（位于 `assets/js/geoguessr-data.js`）
 
 ---
 
@@ -99,8 +88,6 @@ python3 -m http.server 8000
 │   │   └── geoguessr-data.js    # 结构化核心 Meta 数据库
 │   └── images/
 │       └── infographics/        # 核心信息图与高分辨率图解
-├── notion_backup/               # 原始 Notion Markdown 笔记备份
-├── scripts/                     # 数据解析、清洗与补全脚本
 └── .gitignore                   # Git 忽略配置
 ```
 
