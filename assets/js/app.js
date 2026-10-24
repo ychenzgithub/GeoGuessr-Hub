@@ -43,14 +43,14 @@
       navResources: "网络资源与游戏",
       navKnowledge: "知识笔记",
       navInfographics: "核心图表与国旗",
-      subCountries: "各国特征 (105国)",
-      subComparisons: "国家对决 (20组)",
+      subCountries: "各国特征 (106国)",
+      subComparisons: "国家对决 (22组)",
       subRegions: "大国精要 (21国)",
       subTopics: "专项知识 (14大类)",
-      subIslands: "偏远离岛速查 (31处)",
+      subIslands: "偏远离岛速查 (32处)",
       subFlags: "国旗口诀与构图 (114面)",
-      countryModeCountries: "🌐 主权国家 (105国)",
-      countryModeIslands: "🏝️ 偏远离岛速查 (31处)",
+      countryModeCountries: "🌐 主权国家 (106国)",
+      countryModeIslands: "🏝️ 偏远离岛速查 (32处)",
       infoModeCharts: "📊 核心 Meta 图解 (30张)",
       infoModeFlags: "🚩 全球国旗口诀 (114面)",
       flagMnemonicPrefix: "速记口诀",
@@ -79,7 +79,7 @@
       islandColSov: "归属 / 宗主国",
       islandColMeta: "核心 Meta / 识别特征",
       imageEnlarge: "点击查看原尺寸高清大图",
-      statsBadge: "⚡ 覆盖 14 大专项 Meta · 21 个大国地区 · 105+ 街景国家 · 31 处偏远离岛 · 30 张高清图解 · 114 面国旗口诀",
+      statsBadge: "⚡ 覆盖 14 大专项 Meta · 21 个大国地区 · 106+ 街景国家 · 32 处偏远离岛 · 30 张高清图解 · 114 面国旗口诀",
       discussionLink: "Reddit 讨论 ↗",
       keyClue: "关键记忆点:",
       commonLabel: "共性:",
@@ -111,14 +111,14 @@
       navResources: "Resources & Games",
       navKnowledge: "Knowledge Notes",
       navInfographics: "Infographics & Flags",
-      subCountries: "Country Index (105)",
-      subComparisons: "Head-to-Head (20)",
+      subCountries: "Country Index (106)",
+      subComparisons: "Head-to-Head (22)",
       subRegions: "Regional Guides (21)",
       subTopics: "Topic Metas (14)",
-      subIslands: "Remote Islands (31)",
+      subIslands: "Remote Islands (32)",
       subFlags: "Flag Mnemonics (114)",
-      countryModeCountries: "🌐 Sovereign Countries (105)",
-      countryModeIslands: "🏝️ Remote Islands (31)",
+      countryModeCountries: "🌐 Sovereign Countries (106)",
+      countryModeIslands: "🏝️ Remote Islands (32)",
       infoModeCharts: "📊 Core Meta Charts (30)",
       infoModeFlags: "🚩 Flag Mnemonics (114)",
       flagMnemonicPrefix: "Mnemonic",
@@ -147,7 +147,7 @@
       islandColSov: "Sovereignty",
       islandColMeta: "Key Meta & Identification Clues",
       imageEnlarge: "Click to view full-resolution image",
-      statsBadge: "⚡ 14 Specialized Metas · 21 Regional Guides · 105+ Countries · 31 Remote Islands · 30 Infographics · 114 Flag Mnemonics",
+      statsBadge: "⚡ 14 Specialized Metas · 21 Regional Guides · 106+ Countries · 32 Remote Islands · 30 Infographics · 114 Flag Mnemonics",
       discussionLink: "Reddit Thread ↗",
       keyClue: "Key Clue:",
       commonLabel: "Common:",
@@ -476,8 +476,8 @@
     const knowledgeTabs = [
       { id: 'topics', labelZh: '专项知识', labelEn: 'Topic Metas', icon: '🧩', count: '14类', color: 'purple' },
       { id: 'regions', labelZh: '大国精要', labelEn: 'Regional Guides', icon: '🗺️', count: '21国', color: 'sky' },
-      { id: 'countries', labelZh: '各国特征与离岛', labelEn: 'Countries & Islands', icon: '🌐', count: '105+31', color: 'emerald' },
-      { id: 'comparisons', labelZh: '国家对决', labelEn: 'Head-to-Head', icon: '⚔️', count: '20组', color: 'amber' }
+      { id: 'countries', labelZh: '各国特征与离岛', labelEn: 'Countries & Islands', icon: '🌐', count: '106+32', color: 'emerald' },
+      { id: 'comparisons', labelZh: '国家对决', labelEn: 'Head-to-Head', icon: '⚔️', count: '22组', color: 'amber' }
     ];
 
     const toolTabs = [
@@ -1103,7 +1103,7 @@
         ${showHeader ? `
         <div class="mb-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
           <p class="text-xs text-slate-500 dark:text-slate-400 font-medium">
-            ${state.lang === 'zh' ? '全球 31 处偏远离岛与海外领地专属街景车与基础设施速查' : 'Directory of 31 remote islands and overseas territories with distinctive metas'}
+            ${state.lang === 'zh' ? '全球 32 处偏远离岛与海外领地专属街景车与基础设施速查' : 'Directory of 32 remote islands and overseas territories with distinctive metas'}
           </p>
 
           <div class="flex items-center gap-2">
@@ -1194,7 +1194,7 @@
             <span>🌐</span> ${t('navCountries')}
           </h2>
           <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-1 font-medium">
-            ${state.lang === 'zh' ? '涵盖全球 105 个街景覆盖国主权特征 + 31 处偏远离岛与海外领地专属街景车与基础设施' : 'Comprehensive directory of 105 official street-view countries and 31 remote overseas territories & islands'}
+            ${state.lang === 'zh' ? '涵盖全球 106 个街景覆盖国主权特征 + 32 处偏远离岛与海外领地专属街景车与基础设施' : 'Comprehensive directory of 106 official street-view countries and 32 remote overseas territories & islands'}
           </p>
         </div>
 

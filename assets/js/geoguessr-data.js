@@ -358,6 +358,19 @@ window.GEOGUESSR_DATA = {
           "顶尖攻略",
           "全球电网"
         ]
+      },
+      {
+        "titleZh": "GeoDucky 2026 欧洲 48 国/地区全境实战指南 (视频)",
+        "titleEn": "A Small Guide for EVERY Country on GeoGuessr | Europe Edition 2026",
+        "url": "https://www.youtube.com/watch?v=WFQzRyISZLg",
+        "author": "GeoDucky",
+        "descZh": "长达 2 小时的 2026 最新欧洲全境 48 个国家与属地逐国实战精讲视频，涵盖巴尔干新街景、波罗的海/北欧细节对比及高阶路牌螺栓与标线冷门技巧。",
+        "descEn": "Comprehensive 2-hour 2026 video guide covering all 48 European countries and territories on GeoGuessr, packed with new coverage metas and niche sign/bollard/marking tips.",
+        "tags": [
+          "欧洲全境",
+          "视频指南",
+          "2026最新"
+        ]
       }
     ],
     "infographics": [
@@ -762,15 +775,15 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇦🇱",
       "link": "https://www.reddit.com/r/geoguessr/comments/1heub3m/albania_basics/#lightbox",
-      "desc": "断裂天空 (Sky Rift)；道路名前缀 Rruga；车牌两侧蓝条或左侧红条；意大利型路缘标；电线杆上倒立三角支撑；屋顶经常看到巨大的白色水箱。",
+      "desc": "天空常有明显的图像拼接裂缝 (Sky Rift)；道路名称前缀为 Rruga；车牌左右双蓝条或早期左侧红条；意大利型路缘标；电线杆横木下带有倒立三角形支撑架；房屋平顶上经常看到巨大的白色或蓝色储水箱；阿尔巴尼亚语包含 ë 和 ç；详见 [Albania Basics](https://www.reddit.com/r/geoguessr/comments/1heub3m/albania_basics/#lightbox)；路牌背面常为黑色（类似意大利与罗马尼亚）；山坡与路侧裸土呈现比黑山、波黑更明显的干涸红褐色/黄褐色调。",
       "tags": [
         "车牌 / Plate",
         "电线杆 / Pole",
         "路缘标 / Bollard",
         "街景车 / Car Meta"
       ],
-      "descZh": "天空常有明显的图像拼接裂缝 (Sky Rift)；道路名称前缀为 Rruga；车牌左右双蓝条或早期左侧红条；意大利型路缘标；电线杆横木下带有倒立三角形支撑架；房屋平顶上经常看到巨大的白色或蓝色储水箱；阿尔巴尼亚语包含 ë 和 ç；详见 [Albania Basics](https://www.reddit.com/r/geoguessr/comments/1heub3m/albania_basics/#lightbox)。",
-      "descEn": "Frequent Sky Rift stitching tears in the sky; road names prefixed with 'Rruga'; license plates feature dual blue strips or legacy red left band; Italian-style bollards; utility poles with inverted triangular braces under crossarms; large horizontal water tanks on flat roofs; Albanian script features ë and ç; see [Albania Basics](https://www.reddit.com/r/geoguessr/comments/1heub3m/albania_basics/#lightbox).",
+      "descZh": "天空常有明显的图像拼接裂缝 (Sky Rift)；道路名称前缀为 Rruga；车牌左右双蓝条或早期左侧红条；意大利型路缘标；电线杆横木下带有倒立三角形支撑架；房屋平顶上经常看到巨大的白色或蓝色储水箱；阿尔巴尼亚语包含 ë 和 ç；详见 [Albania Basics](https://www.reddit.com/r/geoguessr/comments/1heub3m/albania_basics/#lightbox)；路牌背面常为黑色（类似意大利与罗马尼亚）；山坡与路侧裸土呈现比黑山、波黑更明显的干涸红褐色/黄褐色调。",
+      "descEn": "Frequent Sky Rift stitching tears in the sky; road names prefixed with 'Rruga'; license plates feature dual blue strips or legacy red left band; Italian-style bollards; utility poles with inverted triangular braces under crossarms; large horizontal water tanks on flat roofs; Albanian script features ë and ç; see [Albania Basics](https://www.reddit.com/r/geoguessr/comments/1heub3m/albania_basics/#lightbox); Road signs frequently have black backs (like Italy and Romania); mountain slopes and roadside dirt exhibit a drier brownish-yellow to reddish soil tone than neighboring Balkan countries.",
       "tagsZh": [
         "车牌特征",
         "电线杆",
@@ -813,12 +826,12 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇦🇩",
       "link": "",
-      "desc": "建筑多采用深色、带橙色调的砖石结构（Andorran Brick）；地处高山峡谷；路边有很高、带红黄白相间线段的雪迹杆；车牌短小带红徽。",
+      "desc": "建筑多采用深色、带橙色调的砖石结构（Andorran Brick）；地处高山峡谷；路边有很高、带红黄白相间线段的雪迹杆；车牌短小带红徽；全境街景几乎均为秋季金黄红叶景色，且仅有三代（Gen 3）与二代（Gen 2）镜头；与西班牙同为全欧唯一使用 8 道斑马线人行道标牌的两个国家；街名牌使用加泰罗尼亚语“Carrer”；电线杆上贴有类似法国款式但颜色为绿松石色（青蓝色）或黄色的贴纸；城区道路外侧常见黄色边线，路缘标为法/安道尔式红橙反光斜顶桩。",
       "tags": [
         "路缘标 / Bollard"
       ],
-      "descZh": "建筑多采用深色、带橙色调的砖石结构（Andorran Brick）；地处高山峡谷；路边有很高、带红黄白相间线段的雪迹杆；车牌短小带红徽。",
-      "descEn": "Distinctive dark orange-tinted stone architecture (Andorran Brick); deep Pyrenean valley terrain; tall snow poles with alternating red, yellow, and white segments; short license plates.",
+      "descZh": "建筑多采用深色、带橙色调的砖石结构（Andorran Brick）；地处高山峡谷；路边有很高、带红黄白相间线段的雪迹杆；车牌短小带红徽；全境街景几乎均为秋季金黄红叶景色，且仅有三代（Gen 3）与二代（Gen 2）镜头；与西班牙同为全欧唯一使用 8 道斑马线人行道标牌的两个国家；街名牌使用加泰罗尼亚语“Carrer”；电线杆上贴有类似法国款式但颜色为绿松石色（青蓝色）或黄色的贴纸；城区道路外侧常见黄色边线，路缘标为法/安道尔式红橙反光斜顶桩。",
+      "descEn": "Distinctive dark orange-tinted stone architecture (Andorran Brick); deep Pyrenean valley terrain; tall snow poles with alternating red, yellow, and white segments; short license plates; Coverage is almost entirely in autumn foliage using Gen 3 or Gen 2 cameras; shares the 8-stripe pedestrian crossing sign exclusively with Spain; street signs use Catalan 'Carrer'; utility poles feature French-style stickers in turquoise or yellow instead of blue; yellow outer road markings in towns and French/Andorran-style bollards.",
       "tagsZh": [
         "路缘标"
       ],
@@ -894,12 +907,12 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇦🇹",
       "link": "",
-      "desc": "路牌使用 Einbahn / Gasse / Anfang 字样；前车窗上部角落常有白色盾牌高速贴纸 (Pickerl)；路缘标顶部为黑色倾斜削角配红色反光带；属于红底白箭头 Chevron “AH UBER” 国家；人行道告示牌小人脚下为两条横虚线；山地为壮丽的阿尔卑斯雪山木屋。",
+      "desc": "路牌使用 Einbahn / Gasse / Anfang 字样；前车窗上部角落常有白色盾牌高速贴纸 (Pickerl)；路缘标顶部为黑色倾斜削角配红色反光带；属于红底白箭头 Chevron “AH UBER” 国家；人行道告示牌小人脚下为两条横虚线；山地为壮丽的阿尔卑斯雪山木屋；街景以色彩较平淡的 Gen 3 三代镜头为主（借此快速区分德国的 2023 四代高清街景与瑞士的低机位 Lowcam）；全境普遍使用圆形木电线杆；民居为典型的浅色外墙配深褐色木构件阿尔卑斯建筑；车牌上下边缘带有细红条（呈现微红边框质感）。",
       "tags": [
         "路缘标 / Bollard"
       ],
-      "descZh": "路牌使用 Einbahn / Gasse / Anfang 字样；前车窗上部角落常有白色盾牌高速贴纸 (Pickerl)；路缘标顶部为黑色倾斜削角配红色反光带；属于红底白箭头 Chevron “AH UBER” 国家；人行道告示牌小人脚下为两条横虚线；山地为壮丽的阿尔卑斯雪山木屋。",
-      "descEn": "Road signs feature 'Einbahn', 'Gasse', or 'Anfang'; windshield corners often have white highway vignette stickers; bollards have slanted black tops with red reflectors; red-and-white curve chevrons; pedestrian crossing signs have two dashed lines beneath feet; majestic Alpine peaks with wooden chalets.",
+      "descZh": "路牌使用 Einbahn / Gasse / Anfang 字样；前车窗上部角落常有白色盾牌高速贴纸 (Pickerl)；路缘标顶部为黑色倾斜削角配红色反光带；属于红底白箭头 Chevron “AH UBER” 国家；人行道告示牌小人脚下为两条横虚线；山地为壮丽的阿尔卑斯雪山木屋；街景以色彩较平淡的 Gen 3 三代镜头为主（借此快速区分德国的 2023 四代高清街景与瑞士的低机位 Lowcam）；全境普遍使用圆形木电线杆；民居为典型的浅色外墙配深褐色木构件阿尔卑斯建筑；车牌上下边缘带有细红条（呈现微红边框质感）。",
+      "descEn": "Road signs feature 'Einbahn', 'Gasse', or 'Anfang'; windshield corners often have white highway vignette stickers; bollards have slanted black tops with red reflectors; red-and-white curve chevrons; pedestrian crossing signs have two dashed lines beneath feet; majestic Alpine peaks with wooden chalets; Predominantly covered in less-saturated Gen 3 imagery (distinguishing it from Germany's vibrant 2023 Gen 4 and Switzerland's Lowcam); widespread round wooden utility poles; light-walled Alpine chalets with dark timber balconies; license plates feature thin red top and bottom border stripes.",
       "tagsZh": [
         "路缘标"
       ],
@@ -936,12 +949,12 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇧🇪",
       "link": "",
-      "desc": "车牌多为白底暗红字（模糊后呈现粉红色调）；人行道告示牌底下为两条横虚线；西欧红砖排屋风格，路灯多悬挂于电线中央。",
+      "desc": "车牌多为白底暗红字（模糊后呈现粉红色调）；人行道告示牌底下为两条横虚线；西欧红砖排屋风格，路灯多悬挂于电线中央；全境路牌背面极其普遍地涂刷成醒目的亮橙色（城区常搭配深绿色立柱，100% 锁定比利时）；混凝土电线杆的椭圆形穿孔仅分布在杆身中段（顶部与底部实心无孔，且孔洞比波兰更圆润密集）；路面常见由密集小圆点组成的白色虚线边线；北部佛兰德斯为荷兰语及荷式红砖房（地势平坦），南部瓦隆区为法语及法式石墙浅色房（东南部阿登高地多丘陵）。",
       "tags": [
         "车牌 / Plate"
       ],
-      "descZh": "车牌多为白底暗红字（模糊后呈现粉红色调）；人行道告示牌底下为两条横虚线；西欧红砖排屋风格，路灯多悬挂于电线中央。",
-      "descEn": "License plates feature distinctive dark red lettering on white (appears pinkish when blurred); pedestrian signs have two dashed lines beneath feet; Western European red-brick row houses; motorway lighting on tall central catenary masts.",
+      "descZh": "车牌多为白底暗红字（模糊后呈现粉红色调）；人行道告示牌底下为两条横虚线；西欧红砖排屋风格，路灯多悬挂于电线中央；全境路牌背面极其普遍地涂刷成醒目的亮橙色（城区常搭配深绿色立柱，100% 锁定比利时）；混凝土电线杆的椭圆形穿孔仅分布在杆身中段（顶部与底部实心无孔，且孔洞比波兰更圆润密集）；路面常见由密集小圆点组成的白色虚线边线；北部佛兰德斯为荷兰语及荷式红砖房（地势平坦），南部瓦隆区为法语及法式石墙浅色房（东南部阿登高地多丘陵）。",
+      "descEn": "License plates feature distinctive dark red lettering on white (appears pinkish when blurred); pedestrian signs have two dashed lines beneath feet; Western European red-brick row houses; motorway lighting on tall central catenary masts; Road signs across the country pervasively feature bright orange backs (often mounted on dark green poles in urban areas—100% unique to Belgium); concrete utility poles have closely spaced oval holes only in the middle section (solid top and bottom); roads often use tiny dotted white edge lines; North (Flanders) uses Dutch with flat Dutch-style brick housing, while South (Wallonia) uses French with hillier SE terrain.",
       "tagsZh": [
         "车牌特征"
       ],
@@ -1035,13 +1048,13 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇧🇦",
       "link": "",
-      "desc": "2024 年官方街景新增国家；车牌为全白色长牌，没有欧盟蓝色左条；木电线杆或水泥杆上常钉有带编号的蓝色小铁牌；建筑立面上偶尔仍能看到战争历史遗留的弹孔痕迹；波斯尼亚丘陵山地。",
+      "desc": "2024 年官方街景新增国家；车牌为全白色长牌，没有欧盟蓝色左条；木电线杆或水泥杆上常钉有带编号的蓝色小铁牌；建筑立面上偶尔仍能看到战争历史遗留的弹孔痕迹；波斯尼亚丘陵山地；整体山林植被比黑山和科索沃更加翠绿茂密；遍布顶部或横担上装有直立绝缘子的圆柱形混凝土电线杆；街景车通常能看到前端天线（区别于北马其顿与塞尔维亚）；路边常见中间带“+”加号的独特里程牌（如 12 + 500）；人行横道标牌小人带有腰带（5 条斑马线）。",
       "tags": [
         "车牌 / Plate",
         "电线杆 / Pole"
       ],
-      "descZh": "2024 年官方街景新增国家；车牌为全白色长牌，没有欧盟蓝色左条；木电线杆或水泥杆上常钉有带编号的蓝色小铁牌；建筑立面上偶尔仍能看到战争历史遗留的弹孔痕迹；波斯尼亚丘陵山地。",
-      "descEn": "Official coverage added in 2024; plain white license plates without EU blue strips; small blue metal numbering plates nailed to wooden and concrete poles; occasional bullet holes preserved on older building facades; hilly Balkan landscape.",
+      "descZh": "2024 年官方街景新增国家；车牌为全白色长牌，没有欧盟蓝色左条；木电线杆或水泥杆上常钉有带编号的蓝色小铁牌；建筑立面上偶尔仍能看到战争历史遗留的弹孔痕迹；波斯尼亚丘陵山地；整体山林植被比黑山和科索沃更加翠绿茂密；遍布顶部或横担上装有直立绝缘子的圆柱形混凝土电线杆；街景车通常能看到前端天线（区别于北马其顿与塞尔维亚）；路边常见中间带“+”加号的独特里程牌（如 12 + 500）；人行横道标牌小人带有腰带（5 条斑马线）。",
+      "descEn": "Official coverage added in 2024; plain white license plates without EU blue strips; small blue metal numbering plates nailed to wooden and concrete poles; occasional bullet holes preserved on older building facades; hilly Balkan landscape; Greener, more densely forested terrain than Montenegro or Kosovo; round concrete poles topped with upright insulators; Google car often shows a front antenna (unlike North Macedonia/Serbia); unique roadside kilometer markers with a '+' sign in the middle; 5-stripe belted pedestrian sign.",
       "tagsZh": [
         "车牌特征",
         "电线杆"
@@ -1110,13 +1123,13 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇧🇬",
       "link": "",
-      "desc": "唯一使用西里尔字母的欧盟成员国（车牌左侧带蓝条）；字母 ъ 作为极高频的常规元音；电线杆上常见上下交错排列的金属弯钩绝缘子（无横木）；民居瓦片屋顶通常显得凹凸不平、斑驳陈旧；巴尔干山地植被。",
+      "desc": "唯一使用西里尔字母的欧盟成员国（车牌左侧带蓝条）；字母 ъ 作为极高频的常规元音；电线杆上常见上下交错排列的金属弯钩绝缘子（无横木）；民居瓦片屋顶通常显得凹凸不平、斑驳陈旧；巴尔干山地植被；几乎所有民居瓦片屋顶的屋脊与转角接缝处都涂抹有明显的灰白色砂浆（Mortar，亦见于塞尔维亚）。",
       "tags": [
         "电线杆 / Pole",
         "语言 / Script"
       ],
-      "descZh": "唯一使用西里尔字母的欧盟成员国（车牌左侧带蓝条）；字母 ъ 作为极高频的常规元音；电线杆上常见上下交错排列的金属弯钩绝缘子（无横木）；民居瓦片屋顶通常显得凹凸不平、斑驳陈旧；巴尔干山地植被。",
-      "descEn": "The only EU nation using Cyrillic script (plates feature EU blue strips); the letter 'ъ' is a very common regular vowel; concrete poles feature hook insulators arranged alternately up and down without crossarms; rustic, weathered undulating tile roofs.",
+      "descZh": "唯一使用西里尔字母的欧盟成员国（车牌左侧带蓝条）；字母 ъ 作为极高频的常规元音；电线杆上常见上下交错排列的金属弯钩绝缘子（无横木）；民居瓦片屋顶通常显得凹凸不平、斑驳陈旧；巴尔干山地植被；几乎所有民居瓦片屋顶的屋脊与转角接缝处都涂抹有明显的灰白色砂浆（Mortar，亦见于塞尔维亚）。",
+      "descEn": "The only EU nation using Cyrillic script (plates feature EU blue strips); the letter 'ъ' is a very common regular vowel; concrete poles feature hook insulators arranged alternately up and down without crossarms; rustic, weathered undulating tile roofs; Almost all tiled house roofs feature thick white/grey mortar sealing the corner ridges between roof tiles (also seen in Serbia).",
       "tagsZh": [
         "电线杆",
         "语言文字"
@@ -1266,17 +1279,50 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇭🇷",
       "link": "",
-      "desc": "车辆后窗或尾部有时能看到 'HR' 国别椭圆贴纸；路缘标顶部为黑色斜切，内部带有垂直白色反光片；亚得里亚海沿岸有极其壮丽的石灰岩喀斯特海岸线与地中海松林。",
+      "desc": "车辆后窗或尾部有时能看到 'HR' 国别椭圆贴纸；路缘标顶部为黑色斜切，内部带有垂直白色反光片；亚得里亚海沿岸有极其壮丽的石灰岩喀斯特海岸线与地中海松林；STOP 牌及各类路牌背面外缘有一圈带间断缺口的金属包边（区别于丹麦的连续包边）；广泛使用带交错挂钩的圆柱形水泥杆；不少存量旧车牌无欧盟蓝条；人行横道牌为 5 条线且小人带腰带；常见类似法国的深海军蓝底白框门牌；民居多为浅米白墙配红瓦屋顶（北部平原平坦、南部沿海多山），域名为 .hr（切勿与匈牙利 .hu 混淆）。",
       "tags": [
         "路缘标 / Bollard"
       ],
-      "descZh": "车辆后窗或尾部有时能看到 'HR' 国别椭圆贴纸；路缘标顶部为黑色斜切，内部带有垂直白色反光片；亚得里亚海沿岸有极其壮丽的石灰岩喀斯特海岸线与地中海松林。",
-      "descEn": "Occasional 'HR' oval country sticker; bollards feature black slanted tops with vertical white rectangular reflectors; spectacular Dalmatian limestone karst coastline along the turquoise Adriatic Sea with Mediterranean cypress and stone walls.",
+      "descZh": "车辆后窗或尾部有时能看到 'HR' 国别椭圆贴纸；路缘标顶部为黑色斜切，内部带有垂直白色反光片；亚得里亚海沿岸有极其壮丽的石灰岩喀斯特海岸线与地中海松林；STOP 牌及各类路牌背面外缘有一圈带间断缺口的金属包边（区别于丹麦的连续包边）；广泛使用带交错挂钩的圆柱形水泥杆；不少存量旧车牌无欧盟蓝条；人行横道牌为 5 条线且小人带腰带；常见类似法国的深海军蓝底白框门牌；民居多为浅米白墙配红瓦屋顶（北部平原平坦、南部沿海多山），域名为 .hr（切勿与匈牙利 .hu 混淆）。",
+      "descEn": "Occasional 'HR' oval country sticker; bollards feature black slanted tops with vertical white rectangular reflectors; spectacular Dalmatian limestone karst coastline along the turquoise Adriatic Sea with Mediterranean cypress and stone walls; Stop signs and road signs feature gapped/interrupted metal rim wrapping around the back edge; cylindrical concrete poles with alternating hooks; many older plates lack the EU blue strip; 5-stripe belted pedestrian sign; dark navy-blue house number plaques; cream/white houses with red roofs (flat north vs. mountainous south coast); .hr domain (not Hungary .hu).",
       "tagsZh": [
         "路缘标"
       ],
       "tagsEn": [
         "Bollards"
+      ]
+    },
+    {
+      "id": "cyprus",
+      "nameEn": "Cyprus",
+      "nameZh": "塞浦路斯",
+      "continentEn": "Europe",
+      "continentZh": "欧洲",
+      "flag": "🇨🇾",
+      "link": "https://www.plonkit.net/cyprus",
+      "desc": "车辆靠左行驶；新覆盖采用 Small Cam（前部模糊较小）；车牌混用白牌、黄牌及租车专用红底车牌；西北部特罗多斯山林神似美国加州，遍布红褐色木电线杆（常贴黄/白竖条贴纸）；路缘标顶部嵌有红色正方形反光块；希腊语路牌与地中海浅色建筑。",
+      "tags": [
+        "车牌 / Plate",
+        "路缘标 / Bollard",
+        "电线杆 / Pole",
+        "街景车 / Car Meta",
+        "道路标线 / Marking"
+      ],
+      "descZh": "车辆靠左行驶（区分于希腊的核心特征）；近期新增官方街景采用 Small Cam（车头方向模糊较窄）；车牌混用白底、黄底以及租车专用的纯红底车牌；西北部特罗多斯（Troodos）松林山区神似美国加州，遍布红褐色木制电线杆且常贴有黄色或白色贴纸；白色路缘标顶部嵌有醒目的红色正方形反光块（出现频率甚至高于希腊）；使用希腊语路牌，南北低地较干旱沙化，沿海城镇多粉彩浅色地中海建筑。",
+      "descEn": "Left-hand traffic (key distinction from Greece); recent official coverage uses Small Cam (smaller blur towards the front); license plates mix white, yellow, and bright red rental-vehicle plates; NW Troodos mountain forests strongly resemble California with reddish-tinted wooden utility poles bearing yellow or white stickers; white bollards with a red square reflector at the top (even more common than in Greece); Greek signage, sandy lowland coasts, and pastel Mediterranean urban buildings.",
+      "tagsZh": [
+        "车牌",
+        "路缘标",
+        "电线杆",
+        "街景车",
+        "道路标线"
+      ],
+      "tagsEn": [
+        "Plate",
+        "Bollard",
+        "Pole",
+        "Car Meta",
+        "Marking"
       ]
     },
     {
@@ -1287,14 +1333,14 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇨🇿",
       "link": "",
-      "desc": "捷克语包含特有重音字母 ř 和 ů；门牌号多为红底白字或蓝底白字长方形；路灯柱底部有明显的加粗圆座；电线杆采用双圆杆倒三角形结构（通常两根连体）；路缘标带有两块并排的橙色反光方块。",
+      "desc": "捷克语包含特有重音字母 ř 和 ů；门牌号多为红底白字或蓝底白字长方形；路灯柱底部有明显的加粗圆座；电线杆采用双圆杆倒三角形结构（通常两根连体）；路缘标带有两块并排的橙色反光方块；全境地形几乎处处伴随平缓起伏的波状丘陵（极少绝对死平）；乡间小路极常出现仅有两侧粗白实线边线而无中心线的布局；几乎每座桥梁护栏旁都立有一块黑底白框、印有 6 位数字编号的窄长方形桥梁标牌（100% 锁定捷克）。",
       "tags": [
         "电线杆 / Pole",
         "路缘标 / Bollard",
         "语言 / Script"
       ],
-      "descZh": "捷克语包含特有重音字母 ř 和 ů；门牌号多为红底白字或蓝底白字长方形；路灯柱底部有明显的加粗圆座；电线杆采用双圆杆倒三角形结构（通常两根连体）；路缘标带有两块并排的橙色反光方块。",
-      "descEn": "Czech language contains unique letters 'ř' and 'ů'; house numbers in rectangular red or blue plates with white digits; streetlight bases distinctly thicker at the bottom; utility poles feature twin rounded concrete posts joined in an inverted triangle; bollards have two orange rectangular reflectors.",
+      "descZh": "捷克语包含特有重音字母 ř 和 ů；门牌号多为红底白字或蓝底白字长方形；路灯柱底部有明显的加粗圆座；电线杆采用双圆杆倒三角形结构（通常两根连体）；路缘标带有两块并排的橙色反光方块；全境地形几乎处处伴随平缓起伏的波状丘陵（极少绝对死平）；乡间小路极常出现仅有两侧粗白实线边线而无中心线的布局；几乎每座桥梁护栏旁都立有一块黑底白框、印有 6 位数字编号的窄长方形桥梁标牌（100% 锁定捷克）。",
+      "descEn": "Czech language contains unique letters 'ř' and 'ů'; house numbers in rectangular red or blue plates with white digits; streetlight bases distinctly thicker at the bottom; utility poles feature twin rounded concrete posts joined in an inverted triangle; bollards have two orange rectangular reflectors; Almost everywhere features gentle rolling hills (rarely dead flat); narrow rural roads commonly have thick solid white outer edge lines with no center line; bridges almost universally display a small black rectangular bridge number sign with a white border and 6-digit code (100% unique to Czechia).",
       "tagsZh": [
         "电线杆",
         "路缘标",
@@ -1314,13 +1360,13 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇩🇰",
       "link": "",
-      "desc": "丹麦语特有字母 Æ/æ 和 Ø/ø，路名普遍以 'vej' 结尾；路牌带有细金属边框，字体为类似 Roboto Mono 的工整无衬线体；路缘标反光块为黄色梯形；道路两侧常有密集的白色短虚线（自行车道分界）。",
+      "desc": "丹麦语特有字母 Æ/æ 和 Ø/ø，路名普遍以 'vej' 结尾；路牌带有细金属边框，字体为类似 Roboto Mono 的工整无衬线体；路缘标反光块为黄色梯形；道路两侧常有密集的白色短虚线（自行车道分界）；除双白实线中线外，还常见长短交替的白色虚中线以及路口极细密的正方形小圆点标线；商用货车普遍悬挂黄色车牌；路牌与禁停牌等几乎全部包裹连续金属外框；广泛使用不带任何反光片的 B 型平直双波护栏。",
       "tags": [
         "路缘标 / Bollard",
         "语言 / Script"
       ],
-      "descZh": "丹麦语特有字母 Æ/æ 和 Ø/ø，路名普遍以 'vej' 结尾；路牌带有细金属边框，字体为类似 Roboto Mono 的工整无衬线体；路缘标反光块为黄色梯形；道路两侧常有密集的白色短虚线（自行车道分界）。",
-      "descEn": "Danish alphabet uses 'æ' and 'ø', with road names ending in 'vej'; street signs enclosed in thin metal frames with clean monospaced font; bollards feature yellow trapezoidal reflectors; dashed white edge lines indicating cycle lanes; perfectly flat rolling farmland with wind turbines.",
+      "descZh": "丹麦语特有字母 Æ/æ 和 Ø/ø，路名普遍以 'vej' 结尾；路牌带有细金属边框，字体为类似 Roboto Mono 的工整无衬线体；路缘标反光块为黄色梯形；道路两侧常有密集的白色短虚线（自行车道分界）；除双白实线中线外，还常见长短交替的白色虚中线以及路口极细密的正方形小圆点标线；商用货车普遍悬挂黄色车牌；路牌与禁停牌等几乎全部包裹连续金属外框；广泛使用不带任何反光片的 B 型平直双波护栏。",
+      "descEn": "Danish alphabet uses 'æ' and 'ø', with road names ending in 'vej'; street signs enclosed in thin metal frames with clean monospaced font; bollards feature yellow trapezoidal reflectors; dashed white edge lines indicating cycle lanes; perfectly flat rolling farmland with wind turbines; Alongside double solid white centerlines, roads often feature alternating long-and-short white center dashes and tiny square dotted edge/intersection lines; commercial vans and trucks use yellow license plates; almost all road signs have continuous metal rim wrapping; uses B-type guardrails without reflectors.",
       "tagsZh": [
         "路缘标",
         "语言文字"
@@ -1386,13 +1432,13 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇪🇪",
       "link": "",
-      "desc": "爱沙尼亚语常用特有带波浪号元音 õ，街道后缀为 'tn' (tänav) 或 'tee'；电线杆呈三叉戟型，有木横木但水泥杆身上无任何钻孔；人行道告示牌上的小人有明显的细脖子；初夏路边开满盛大的白色野花丛；偶尔伴随微绿的天空偏色。",
+      "desc": "爱沙尼亚语常用特有带波浪号元音 õ，街道后缀为 'tn' (tänav) 或 'tee'；电线杆呈三叉戟型，有木横木但水泥杆身上无任何钻孔；人行道告示牌上的小人有明显的细脖子；初夏路边开满盛大的白色野花丛；偶尔伴随微绿的天空偏色；电线杆下半部常缠绕蓝白相间的竖条反光贴（类似芬兰/瑞典，波罗的海三国中仅爱沙尼亚拥有）；三角警告牌红边较细、限速牌红圈外几乎无白边；弯道 Chevron 为红底白箭头（与拉脱维亚/立陶宛相反）；金属里程牌与道路呈 90° 垂直设立（正对驾驶员）；人行道牌为 3 条线，道路外侧较常出现白色虚线边线。",
       "tags": [
         "电线杆 / Pole",
         "语言 / Script"
       ],
-      "descZh": "爱沙尼亚语常用特有带波浪号元音 õ，街道后缀为 'tn' (tänav) 或 'tee'；电线杆呈三叉戟型，有木横木但水泥杆身上无任何钻孔；人行道告示牌上的小人有明显的细脖子；初夏路边开满盛大的白色野花丛；偶尔伴随微绿的天空偏色。",
-      "descEn": "Estonian language frequently uses 'õ', with streets ending in 'tn' or 'tee'; utility poles have trident-like wooden crossarms on hole-free solid concrete poles; pedestrian crossing figure has a distinct visible neck; roadsides blanketed with white cow parsley wildflowers in summer.",
+      "descZh": "爱沙尼亚语常用特有带波浪号元音 õ，街道后缀为 'tn' (tänav) 或 'tee'；电线杆呈三叉戟型，有木横木但水泥杆身上无任何钻孔；人行道告示牌上的小人有明显的细脖子；初夏路边开满盛大的白色野花丛；偶尔伴随微绿的天空偏色；电线杆下半部常缠绕蓝白相间的竖条反光贴（类似芬兰/瑞典，波罗的海三国中仅爱沙尼亚拥有）；三角警告牌红边较细、限速牌红圈外几乎无白边；弯道 Chevron 为红底白箭头（与拉脱维亚/立陶宛相反）；金属里程牌与道路呈 90° 垂直设立（正对驾驶员）；人行道牌为 3 条线，道路外侧较常出现白色虚线边线。",
+      "descEn": "Estonian language frequently uses 'õ', with streets ending in 'tn' or 'tee'; utility poles have trident-like wooden crossarms on hole-free solid concrete poles; pedestrian crossing figure has a distinct visible neck; roadsides blanketed with white cow parsley wildflowers in summer; Utility poles frequently feature blue-and-white vertical striped reflector wraps (unique among the Baltics to Estonia, shared with Finland/Sweden); warning signs have thin red borders and speed signs lack a white outer outline; red-background white-arrow chevrons; metal kilometer markers stand perpendicular (90°) to the road; 3-stripe pedestrian signs and frequent dashed outer road lines.",
       "tagsZh": [
         "电线杆",
         "语言文字"
@@ -1425,12 +1471,12 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇫🇴",
       "link": "",
-      "desc": "北大西洋丹麦自治群岛；街景车车顶可见三根粗横杆；地貌为完全没有树木的苍翠陡峭玄武岩峡湾山峦，终年阴雨云雾缭绕；草皮屋顶传统房屋与黑漆木屋；黄色单线羊群警告牌。",
+      "desc": "北大西洋丹麦自治群岛；街景车车顶可见三根粗横杆；地貌为完全没有树木的苍翠陡峭玄武岩峡湾山峦，终年阴雨云雾缭绕；草皮屋顶传统房屋与黑漆木屋；黄色单线羊群警告牌；街景车常露出大型皮卡模糊轮廓及一根带螺纹凸起的长天线；道路外侧采用类似挪威的白色长虚线边线，路边偶见不同于冰岛款式的黄色路缘标；公路几乎始终沿着峡湾或西北—东南走向的河谷穿行。",
       "tags": [
         "街景车 / Car Meta"
       ],
-      "descZh": "北大西洋丹麦自治群岛；街景车车顶可见三根粗横杆；地貌为完全没有树木的苍翠陡峭玄武岩峡湾山峦，终年阴雨云雾缭绕；草皮屋顶传统房屋与黑漆木屋；黄色单线羊群警告牌。",
-      "descEn": "North Atlantic Danish archipelago; camera car roof shows three black horizontal roof bars; dramatic emerald-green, treeless volcanic slopes dropping directly into the ocean; turf-roofed cottages; yellow sheep warning signs.",
+      "descZh": "北大西洋丹麦自治群岛；街景车车顶可见三根粗横杆；地貌为完全没有树木的苍翠陡峭玄武岩峡湾山峦，终年阴雨云雾缭绕；草皮屋顶传统房屋与黑漆木屋；黄色单线羊群警告牌；街景车常露出大型皮卡模糊轮廓及一根带螺纹凸起的长天线；道路外侧采用类似挪威的白色长虚线边线，路边偶见不同于冰岛款式的黄色路缘标；公路几乎始终沿着峡湾或西北—东南走向的河谷穿行。",
+      "descEn": "North Atlantic Danish archipelago; camera car roof shows three black horizontal roof bars; dramatic emerald-green, treeless volcanic slopes dropping directly into the ocean; turf-roofed cottages; yellow sheep warning signs; Camera blur often reveals a large pickup truck with an exposed ridged long antenna; roads feature Norwegian-style long dashed white outer lines and occasional yellow bollards (distinct from Iceland's); roads almost always run alongside fjords or NW–SE river valleys.",
       "tagsZh": [
         "街景车"
       ],
@@ -1446,12 +1492,12 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇫🇮",
       "link": "",
-      "desc": "公路名称以 'tie' 结尾（双语西南沿海带可见 'vägen'）；道路边缘标线为实线；限速牌与警告牌采用醒目的黄色背景粗红边；Chevron 弯道标为黑底黄箭头；路灯常通过两枚铝制抱箍固定在柱顶；路旁密集出现 K-Market 和 S-Market 超市；红色法伦木屋与白桦针叶林。",
+      "desc": "公路名称以 'tie' 结尾（双语西南沿海带可见 'vägen'）；道路边缘标线为实线；限速牌与警告牌采用醒目的黄色背景粗红边；Chevron 弯道标为黑底黄箭头；路灯常通过两枚铝制抱箍固定在柱顶；路旁密集出现 K-Market 和 S-Market 超市；红色法伦木屋与白桦针叶林；拥有欧洲独一无二的“一条黄实线并排一条白虚线”复合道路中心线；乡村常见无中心线但两侧画有连续白实线边线的道路；全境保留大量秋季拍摄的二代街景（底部大圆圈模糊配顶部光晕）；雪迹杆顶部的白色反光条极靠近最顶端；全部使用木制电线杆（常带斜撑木杆）。",
       "tags": [
         "道路标线 / Lines"
       ],
-      "descZh": "公路名称以 'tie' 结尾（双语西南沿海带可见 'vägen'）；道路边缘标线为实线；限速牌与警告牌采用醒目的黄色背景粗红边；Chevron 弯道标为黑底黄箭头；路灯常通过两枚铝制抱箍固定在柱顶；路旁密集出现 K-Market 和 S-Market 超市；红色法伦木屋与白桦针叶林。",
-      "descEn": "Road names end in 'tie' (Swedish bilingual areas use 'vägen'); continuous solid white road edge lines; warning and speed limit signs have bright yellow centers with red borders; black-and-yellow curve chevrons; twin aluminum brackets fastening streetlights atop wooden poles; K-Market and S-Market grocery chains; red Falun wooden cottages amidst endless birch and spruce forests.",
+      "descZh": "公路名称以 'tie' 结尾（双语西南沿海带可见 'vägen'）；道路边缘标线为实线；限速牌与警告牌采用醒目的黄色背景粗红边；Chevron 弯道标为黑底黄箭头；路灯常通过两枚铝制抱箍固定在柱顶；路旁密集出现 K-Market 和 S-Market 超市；红色法伦木屋与白桦针叶林；拥有欧洲独一无二的“一条黄实线并排一条白虚线”复合道路中心线；乡村常见无中心线但两侧画有连续白实线边线的道路；全境保留大量秋季拍摄的二代街景（底部大圆圈模糊配顶部光晕）；雪迹杆顶部的白色反光条极靠近最顶端；全部使用木制电线杆（常带斜撑木杆）。",
+      "descEn": "Road names end in 'tie' (Swedish bilingual areas use 'vägen'); continuous solid white road edge lines; warning and speed limit signs have bright yellow centers with red borders; black-and-yellow curve chevrons; twin aluminum brackets fastening streetlights atop wooden poles; K-Market and S-Market grocery chains; red Falun wooden cottages amidst endless birch and spruce forests; Features a unique European centerline combining one solid yellow line alongside a dashed white line; rural roads without centerlines still keep solid white outer edge lines; abundant autumn Gen 2 coverage (large bottom circle blur and sky halo); snow poles have a small white reflector band very close to the top; exclusively wooden utility poles (often with angled support beams).",
       "tagsZh": [
         "道路标线"
       ],
@@ -1467,7 +1513,7 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇫🇷",
       "link": "",
-      "desc": "路缘标为光滑白色圆柱配红色（或反光白）环形凹槽包边；道路中心线为不对齐的短方块虚线（条纹比空隙长）；路肩外侧线为长虚线；三代街景车尾部带有长天线，四代带有短蓝天线；车牌左右两端皆有蓝色条带；黄色方形路编号牌前缀常为 'D'（省道）；蓝色搪瓷街道牌固定于建筑转角。",
+      "desc": "路缘标为光滑白色圆柱配红色（或反光白）环形凹槽包边；道路中心线为不对齐的短方块虚线（条纹比空隙长）；路肩外侧线为长虚线；三代街景车尾部带有长天线，四代带有短蓝天线；车牌左右两端皆有蓝色条带；黄色方形路编号牌前缀常为 'D'（省道）；蓝色搪瓷街道牌固定于建筑转角；电线杆上常见独特的蓝色长方形贴纸；混凝土电线杆分两类主力：孔洞不穿透背面的方形凹槽水泥杆，以及顶部带弧形弯钩/箭头顶横担的法式杆（Sweeper pole）；指路牌带黑框与粗壮的黑色三角形箭头尖端；狭窄乡道中央常画有两小段左右错开的白色短方框标线（提醒减速缩窄，100% 锁定法国）；城区常见带两道白色反光环的深色挡车柱及海军蓝白框门牌；地名常以 -eux 或 -ois 结尾。",
       "tags": [
         "车牌 / Plate",
         "电线杆 / Pole",
@@ -1475,8 +1521,8 @@ window.GEOGUESSR_DATA = {
         "街景车 / Car Meta",
         "道路标线 / Lines"
       ],
-      "descZh": "路缘标为光滑白色圆柱配红色（或反光白）环形凹槽包边；道路中心线为不对齐的短方块虚线（条纹比空隙长）；路肩外侧线为长虚线；三代街景车尾部带有长天线，四代带有短蓝天线；车牌左右两端皆有蓝色条带；黄色方形路编号牌前缀常为 'D'（省道）；蓝色搪瓷街道牌固定于建筑转角。",
-      "descEn": "Bollards are rounded white cylindrical posts with a recessed red reflector ring; center lines feature short, closely spaced dashed blocks (T1 marking); dashed line road shoulders; Gen 3 car features a long antenna at the back; European plates have dual blue bands on both left and right; yellow road number shields prefixed with 'D' (Departmental routes); dark blue street plaques fixed to building corners.",
+      "descZh": "路缘标为光滑白色圆柱配红色（或反光白）环形凹槽包边；道路中心线为不对齐的短方块虚线（条纹比空隙长）；路肩外侧线为长虚线；三代街景车尾部带有长天线，四代带有短蓝天线；车牌左右两端皆有蓝色条带；黄色方形路编号牌前缀常为 'D'（省道）；蓝色搪瓷街道牌固定于建筑转角；电线杆上常见独特的蓝色长方形贴纸；混凝土电线杆分两类主力：孔洞不穿透背面的方形凹槽水泥杆，以及顶部带弧形弯钩/箭头顶横担的法式杆（Sweeper pole）；指路牌带黑框与粗壮的黑色三角形箭头尖端；狭窄乡道中央常画有两小段左右错开的白色短方框标线（提醒减速缩窄，100% 锁定法国）；城区常见带两道白色反光环的深色挡车柱及海军蓝白框门牌；地名常以 -eux 或 -ois 结尾。",
+      "descEn": "Bollards are rounded white cylindrical posts with a recessed red reflector ring; center lines feature short, closely spaced dashed blocks (T1 marking); dashed line road shoulders; Gen 3 car features a long antenna at the back; European plates have dual blue bands on both left and right; yellow road number shields prefixed with 'D' (Departmental routes); dark blue street plaques fixed to building corners; Utility poles frequently bear distinctive blue stickers; two signature concrete poles: poles with non-through square indentations (closed back) and French sweeper poles; directional signs feature a black border forming a bold black triangular arrowhead; narrow rural roads often have pairs of small offset white rectangular dashes in the center (100% unique to France); urban parking bollards have two white reflective rings; place names often end in -eux or -ois.",
       "tagsZh": [
         "车牌特征",
         "电线杆",
@@ -1500,15 +1546,15 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇬🇪",
       "link": "",
-      "desc": "独一无二的格鲁吉亚圆形字母（mkhedruli）；空中随处可见架设的黄色或银色民用天然气管道；方形水泥电线杆配蜡烛状圆立绝缘子；红底白箭头方形 Chevron；平缓的积雪高加索山脉；第比利斯多见黑色皮卡街景车，东部为带长天线的小车，西部为无天线小车。",
+      "desc": "格鲁吉亚圆形字母（Mkhedruli）；空中随处可见架设的民用天然气管道；方形水泥电线杆配蜡烛状圆立绝缘子；圆白杆带蓝绿条光纤桩；红底白箭头方形 Chevron；平缓雪山在中南部；偶见类似菲律宾的水泥路；六大街景车绝杀：(a) Small Cam 右前方竖长天线顶端有小白点（东部）；(b) Small Cam 无天线（西部）；(c) 黑色卡车右前方竖长天线带红色刹车灯（首都第比利斯）；(d) 短天线偏向左（西部沿海或西北山区）；(e) 仅见黑色皮卡后部（中部横向一线）；(f) 黑色皮卡几乎完全可见短天线偏左（各大城市附近）；虽然不是欧盟成员国（绝大多数车牌无蓝条），但作为候选国部分新车或跨国车带有左侧蓝条；公路标线多仿效俄罗斯采用双白实线中线（偶见外侧黄线）；森林群山街景涵盖夏季绿叶与秋季金黄林相。",
       "tags": [
         "车牌 / Plate",
         "电线杆 / Pole",
         "街景车 / Car Meta",
         "语言 / Script"
       ],
-      "descZh": "格鲁吉亚圆形字母（Mkhedruli）；空中随处可见架设的民用天然气管道；方形水泥电线杆配蜡烛状圆立绝缘子；圆白杆带蓝绿条光纤桩；红底白箭头方形 Chevron；平缓雪山在中南部；偶见类似菲律宾的水泥路；六大街景车绝杀：(a) Small Cam 右前方竖长天线顶端有小白点（东部）；(b) Small Cam 无天线（西部）；(c) 黑色卡车右前方竖长天线带红色刹车灯（首都第比利斯）；(d) 短天线偏向左（西部沿海或西北山区）；(e) 仅见黑色皮卡后部（中部横向一线）；(f) 黑色皮卡几乎完全可见短天线偏左（各大城市附近）。",
-      "descEn": "Unique Georgian Mkhedruli script; ubiquitous elevated overhead natural gas pipelines; square concrete poles with candle-like upright insulators; round white marker posts with blue/green optical fiber bands; square red-and-white chevrons; rolling snow mountains in south-central; occasional Philippine-like concrete roads. Six camera car metas: (a) Small Cam with right-front tall antenna and white tip (East); (b) Small Cam without antenna (West); (c) Black truck with right-front antenna and red brake lights (Tbilisi); (d) Short left-tilted antenna (West coast/NW mountains); (e) Black pickup rear only (Central corridor); (f) Full black pickup with short left antenna (major cities).",
+      "descZh": "格鲁吉亚圆形字母（Mkhedruli）；空中随处可见架设的民用天然气管道；方形水泥电线杆配蜡烛状圆立绝缘子；圆白杆带蓝绿条光纤桩；红底白箭头方形 Chevron；平缓雪山在中南部；偶见类似菲律宾的水泥路；六大街景车绝杀：(a) Small Cam 右前方竖长天线顶端有小白点（东部）；(b) Small Cam 无天线（西部）；(c) 黑色卡车右前方竖长天线带红色刹车灯（首都第比利斯）；(d) 短天线偏向左（西部沿海或西北山区）；(e) 仅见黑色皮卡后部（中部横向一线）；(f) 黑色皮卡几乎完全可见短天线偏左（各大城市附近）；虽然不是欧盟成员国（绝大多数车牌无蓝条），但作为候选国部分新车或跨国车带有左侧蓝条；公路标线多仿效俄罗斯采用双白实线中线（偶见外侧黄线）；森林群山街景涵盖夏季绿叶与秋季金黄林相。",
+      "descEn": "Unique Georgian Mkhedruli script; ubiquitous elevated overhead natural gas pipelines; square concrete poles with candle-like upright insulators; round white marker posts with blue/green optical fiber bands; square red-and-white chevrons; rolling snow mountains in south-central; occasional Philippine-like concrete roads. Six camera car metas: (a) Small Cam with right-front tall antenna and white tip (East); (b) Small Cam without antenna (West); (c) Black truck with right-front antenna and red brake lights (Tbilisi); (d) Short left-tilted antenna (West coast/NW mountains); (e) Black pickup rear only (Central corridor); (f) Full black pickup with short left antenna (major cities); Non-EU country (most plates lack blue strips, though some newer plates carry a blue left band); road markings predominantly use Russian-style double solid white center lines; heavily forested mountain coverage spans both summer and autumn foliage.",
       "tagsZh": [
         "车牌特征",
         "电线杆",
@@ -1532,13 +1578,13 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇩🇪",
       "link": "",
-      "desc": "路缘标数量极多，上方反光条通常由两枚垂直圆孔（如双铆钉）固定；路名牌多为白底黑边长方形衬线字体；标志背面为深灰色贴有质检标签；前挡风玻璃右下角贴有圆形绿色环保排气贴纸 (Umweltplakette)；公交车站为黄色圆牌绿 'H'；黄色德国邮政邮箱；大面积模糊马赛克房屋以保护隐私。",
+      "desc": "路缘标反光板通常由两个垂直排列的小圆孔（如铆钉）固定；路牌通常为白底黑边长方形，背面为灰黑色且常贴贴纸；木质电线杆上常有白色正方形贴纸；挡风玻璃角常贴圆形环保排放贴纸；公交车站牌标志为黄底绿字圆形 H 标；黄色特殊邮筒；城镇入口标志为黄底黑字金属框；圆角蓝方块白字里程碑；禁停标志带白色指向箭头；因严格隐私法规街景多打码模糊；城镇随处可见写有“Einbahnstraße”（含德语独占字母 ß）、带细距四螺栓的蓝底白箭头单行道标牌；人行道标牌小人带腰带且四角有 4 颗固定螺栓（借此区分无四角螺栓的卢森堡）；护栏呈区域分布：东北（柏林周边）与西南（法兰克福以南）多 B 型护栏，西北与莱茵河左岸多 A 型护栏，东南巴伐利亚混用；弯道使用白底红箭头 Chevron。",
       "tags": [
         "电线杆 / Pole",
         "路缘标 / Bollard"
       ],
-      "descZh": "路缘标反光板通常由两个垂直排列的小圆孔（如铆钉）固定；路牌通常为白底黑边长方形，背面为灰黑色且常贴贴纸；木质电线杆上常有白色正方形贴纸；挡风玻璃角常贴圆形环保排放贴纸；公交车站牌标志为黄底绿字圆形 H 标；黄色特殊邮筒；城镇入口标志为黄底黑字金属框；圆角蓝方块白字里程碑；禁停标志带白色指向箭头；因严格隐私法规街景多打码模糊。",
-      "descEn": "Bollard reflectors secured by two vertically aligned circular holes/rivets; rectangular white road signs with thin black borders, dark grey backing often with stickers; wooden poles feature white square stickers; windshields bear round environmental emission badges; bus stops marked by yellow circles with green 'H'; iconic yellow mailboxes; town entrance signs feature yellow background with black letters; rounded blue milestone squares; No Parking signs with white arrows; heavy street view blur due to privacy laws.",
+      "descZh": "路缘标反光板通常由两个垂直排列的小圆孔（如铆钉）固定；路牌通常为白底黑边长方形，背面为灰黑色且常贴贴纸；木质电线杆上常有白色正方形贴纸；挡风玻璃角常贴圆形环保排放贴纸；公交车站牌标志为黄底绿字圆形 H 标；黄色特殊邮筒；城镇入口标志为黄底黑字金属框；圆角蓝方块白字里程碑；禁停标志带白色指向箭头；因严格隐私法规街景多打码模糊；城镇随处可见写有“Einbahnstraße”（含德语独占字母 ß）、带细距四螺栓的蓝底白箭头单行道标牌；人行道标牌小人带腰带且四角有 4 颗固定螺栓（借此区分无四角螺栓的卢森堡）；护栏呈区域分布：东北（柏林周边）与西南（法兰克福以南）多 B 型护栏，西北与莱茵河左岸多 A 型护栏，东南巴伐利亚混用；弯道使用白底红箭头 Chevron。",
+      "descEn": "Bollard reflectors secured by two vertically aligned circular holes/rivets; rectangular white road signs with thin black borders, dark grey backing often with stickers; wooden poles feature white square stickers; windshields bear round environmental emission badges; bus stops marked by yellow circles with green 'H'; iconic yellow mailboxes; town entrance signs feature yellow background with black letters; rounded blue milestone squares; No Parking signs with white arrows; heavy street view blur due to privacy laws; Ubiquitous blue 'Einbahnstraße' (featuring German 'ß') one-way street signs with narrow 4-bolt fastening; belted 5-stripe pedestrian signs have 4 corner bolts (distinguishing them from Luxembourg's unbolted signs); regional guardrail split: B-type dominates NE (Berlin) and SW, A-type dominates NW and far-west, SE is mixed; white-background red-arrow chevrons.",
       "tagsZh": [
         "电线杆",
         "路缘标"
@@ -1601,15 +1647,15 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇬🇷",
       "link": "",
-      "desc": "使用独特的希腊字母（Ω, Ψ, Ξ, Δ, Λ 等）；木制电线杆高大且常挂有多达 5 到 8 个陶瓷绝缘子；道路中央极常出现双白实线；路缘标与意大利款式相似但略有不同；地中海石灰岩山地与橄榄树种植园；路边有纪念逝者的小神龛铁皮箱。",
+      "desc": "使用独特的希腊字母（Ω, Ψ, Ξ, Δ, Λ 等）；木制电线杆高大且常挂有多达 5 到 8 个陶瓷绝缘子；道路中央极常出现双白实线；路缘标与意大利款式相似但略有不同；地中海石灰岩山地与橄榄树种植园；路边有纪念逝者的小神龛铁皮箱；全白标线公路中央极常出现因暴晒褪色泛白的双白实线中线（少数干道为双黄中线）。",
       "tags": [
         "电线杆 / Pole",
         "路缘标 / Bollard",
         "道路标线 / Lines",
         "语言 / Script"
       ],
-      "descZh": "使用独特的希腊字母（Ω, Ψ, Ξ, Δ, Λ 等）；木制电线杆高大且常挂有多达 5 到 8 个陶瓷绝缘子；道路中央极常出现双白实线；路缘标与意大利款式相似但略有不同；地中海石灰岩山地与橄榄树种植园；路边有纪念逝者的小神龛铁皮箱。",
-      "descEn": "Distinctive Greek alphabet (Ω, Ψ, Ξ, Δ, Λ); tall wooden utility poles frequently fitted with five or more tiered ceramic insulators; double solid white center lines; Mediterranean arid limestone topography with olive groves; small roadside memorial shrines (Kandylakia) on poles.",
+      "descZh": "使用独特的希腊字母（Ω, Ψ, Ξ, Δ, Λ 等）；木制电线杆高大且常挂有多达 5 到 8 个陶瓷绝缘子；道路中央极常出现双白实线；路缘标与意大利款式相似但略有不同；地中海石灰岩山地与橄榄树种植园；路边有纪念逝者的小神龛铁皮箱；全白标线公路中央极常出现因暴晒褪色泛白的双白实线中线（少数干道为双黄中线）。",
+      "descEn": "Distinctive Greek alphabet (Ω, Ψ, Ξ, Δ, Λ); tall wooden utility poles frequently fitted with five or more tiered ceramic insulators; double solid white center lines; Mediterranean arid limestone topography with olive groves; small roadside memorial shrines (Kandylakia) on poles; All-white road markings very frequently feature faded double solid white center lines (with occasional double yellow center lines).",
       "tagsZh": [
         "电线杆",
         "路缘标",
@@ -1673,13 +1719,13 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇭🇺",
       "link": "",
-      "desc": "混凝土电线杆通体带有长方形通孔（从最底层一直通到顶部，区别于波兰）；语言中包含独特的双锐音符 ő 和 ű；街道名称后缀为 'utca' 或 'út'；属于红底白箭头 Chevron “AH UBER” 国家；绿底反光公路里程牌。",
+      "desc": "混凝土电线杆通体带有长方形通孔（从最底层一直通到顶部，区别于波兰）；语言中包含独特的双锐音符 ő 和 ű；街道名称后缀为 'utca' 或 'út'；属于红底白箭头 Chevron “AH UBER” 国家；绿底反光公路里程牌；公路旁常见绿底白框白字的方形公里牌；全境路牌正面均由排列成对称长方形的四颗平行螺栓固定在立柱上（“螺栓长方形”绝杀特征）；除最北部外全境极度平坦，乡间常见泛白浅色沥青路配单白虚中线与蓝色四代街景车。",
       "tags": [
         "电线杆 / Pole",
         "语言 / Script"
       ],
-      "descZh": "混凝土电线杆通体带有长方形通孔（从最底层一直通到顶部，区别于波兰）；语言中包含独特的双锐音符 ő 和 ű；街道名称后缀为 'utca' 或 'út'；属于红底白箭头 Chevron “AH UBER” 国家；绿底反光公路里程牌。",
-      "descEn": "Concrete utility poles feature hollow rectangular rungs from bottom to top (unlike Poland's solid base); Hungarian language uses unique double acute accents 'ő' and 'ű'; street suffix 'utca' or 'út'; red-and-white curve chevrons; green highway milestone boards.",
+      "descZh": "混凝土电线杆通体带有长方形通孔（从最底层一直通到顶部，区别于波兰）；语言中包含独特的双锐音符 ő 和 ű；街道名称后缀为 'utca' 或 'út'；属于红底白箭头 Chevron “AH UBER” 国家；绿底反光公路里程牌；公路旁常见绿底白框白字的方形公里牌；全境路牌正面均由排列成对称长方形的四颗平行螺栓固定在立柱上（“螺栓长方形”绝杀特征）；除最北部外全境极度平坦，乡间常见泛白浅色沥青路配单白虚中线与蓝色四代街景车。",
+      "descEn": "Concrete utility poles feature hollow rectangular rungs from bottom to top (unlike Poland's solid base); Hungarian language uses unique double acute accents 'ő' and 'ű'; street suffix 'utca' or 'út'; red-and-white curve chevrons; green highway milestone boards; Green square kilometer signs with white border and digits; road signs across the country are fastened by four symmetrical bolts arranged in a parallel rectangle ('bolt rectangle'); ultra-flat grassy plains with pale/white-tinted asphalt, single dashed centerline, and blue Gen 4 car.",
       "tagsZh": [
         "电线杆",
         "语言文字"
@@ -1697,13 +1743,13 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇮🇸",
       "link": "",
-      "desc": "路缘标为亮丽的纯明黄色柱子；限速标志采用黄色底色；冰岛语特有字母 ð 和 þ；地貌极度辽阔荒凉，完全没有高大树木，到处是苔原、黑色火山熔岩与积雪火山；人行横道标牌为蓝底黄色三角形底纹。",
+      "desc": "路缘标为亮丽的纯明黄色柱子；限速标志采用黄色底色；冰岛语特有字母 ð 和 þ；地貌极度辽阔荒凉，完全没有高大树木，到处是苔原、黑色火山熔岩与积雪火山；人行横道标牌为蓝底黄色三角形底纹；公路编号按顺时针环岛分区排列：1 号为环岛主干道，二/三位数公路从西南部 2x/2xx 起顺时针依次为西部/西峡湾 3x/4x、北部 5x/6x、东部 7x/8x 至东南部 9x；西北角西峡湾区（Westfjords）特征为夹在两侧高耸平顶峡湾峭壁与水面之间的狭窄岸线公路。",
       "tags": [
         "路缘标 / Bollard",
         "语言 / Script"
       ],
-      "descZh": "路缘标为亮丽的纯明黄色柱子；限速标志采用黄色底色；冰岛语特有字母 ð 和 þ；地貌极度辽阔荒凉，完全没有高大树木，到处是苔原、黑色火山熔岩与积雪火山；人行横道标牌为蓝底黄色三角形底纹。",
-      "descEn": "Bright canary-yellow rectangular bollards; speed limit signs have bright yellow backing; Icelandic letters 'ð' and 'þ'; vast treeless arctic landscape dominated by black basalt lava fields, mossy tundra, and glacial peaks; yellow triangle backing on pedestrian crossing signs.",
+      "descZh": "路缘标为亮丽的纯明黄色柱子；限速标志采用黄色底色；冰岛语特有字母 ð 和 þ；地貌极度辽阔荒凉，完全没有高大树木，到处是苔原、黑色火山熔岩与积雪火山；人行横道标牌为蓝底黄色三角形底纹；公路编号按顺时针环岛分区排列：1 号为环岛主干道，二/三位数公路从西南部 2x/2xx 起顺时针依次为西部/西峡湾 3x/4x、北部 5x/6x、东部 7x/8x 至东南部 9x；西北角西峡湾区（Westfjords）特征为夹在两侧高耸平顶峡湾峭壁与水面之间的狭窄岸线公路。",
+      "descEn": "Bright canary-yellow rectangular bollards; speed limit signs have bright yellow backing; Icelandic letters 'ð' and 'þ'; vast treeless arctic landscape dominated by black basalt lava fields, mossy tundra, and glacial peaks; yellow triangle backing on pedestrian crossing signs; Road numbers follow a clockwise loop around the island: Route 1 is the Ring Road, while regional 2- and 3-digit routes progress clockwise from 2x/2xx (SW) to 3x/4x (West/Westfjords), 5x/6x (North), 7x/8x (East), and 9x (SE); the NW Westfjords peninsula features narrow roads wedged between steep fjord walls and water.",
       "tagsZh": [
         "路缘标",
         "语言文字"
@@ -1775,15 +1821,15 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇮🇪",
       "link": "",
-      "desc": "车辆靠左行驶；道路外侧边线通常为黄色虚线，中央为白色虚线；路牌普遍采用英爱双语（爱尔兰语采用黄色斜体小写）；欧洲唯一的黄色菱形转向警告牌；电线杆上的高压危险警告图标里只有闪电而没有被击倒的小人；农场铁丝网大门转角为圆弧形弯管；路缘标顶部带有绿色反光片。",
+      "desc": "车辆靠左行驶；道路外侧边线通常为黄色虚线，中央为白色虚线；路牌普遍采用英爱双语（爱尔兰语采用黄色斜体小写）；欧洲唯一的黄色菱形转向警告牌；电线杆上的高压危险警告图标里只有闪电而没有被击倒的小人；农场铁丝网大门转角为圆弧形弯管；路缘标顶部带有绿色反光片；虽与英国同样靠左行驶，但车尾悬挂带欧盟蓝条的白色后车牌（非英国黄牌）；狭窄乡间小路中央极常长有一道绿色草带（两侧仅留车轮压出的沥青轨）；木电线杆同样带有交错凸出的金属攀爬脚钉；民居以白墙或灰墙配黑色石板屋顶为主（红砖房远少于英国），西海岸与北海岸多荒凉山地。",
       "tags": [
         "左行 / LHT",
         "电线杆 / Pole",
         "路缘标 / Bollard",
         "道路标线 / Lines"
       ],
-      "descZh": "车辆靠左行驶；道路外侧边线通常为黄色虚线，中央为白色虚线；路牌普遍采用英爱双语（爱尔兰语采用黄色斜体小写）；欧洲唯一的黄色菱形转向警告牌；电线杆上的高压危险警告图标里只有闪电而没有被击倒的小人；农场铁丝网大门转角为圆弧形弯管；路缘标顶部带有绿色反光片。",
-      "descEn": "Left-hand drive; yellow dashed outer road edge lines; bilingual signs with Irish Gaelic in yellow italics above English in white; European outlier using diamond yellow warning signs; electric hazard signs on poles feature lightning bolt only (no falling man); rounded tubular metal farm gates; bollards often have green reflectors.",
+      "descZh": "车辆靠左行驶；道路外侧边线通常为黄色虚线，中央为白色虚线；路牌普遍采用英爱双语（爱尔兰语采用黄色斜体小写）；欧洲唯一的黄色菱形转向警告牌；电线杆上的高压危险警告图标里只有闪电而没有被击倒的小人；农场铁丝网大门转角为圆弧形弯管；路缘标顶部带有绿色反光片；虽与英国同样靠左行驶，但车尾悬挂带欧盟蓝条的白色后车牌（非英国黄牌）；狭窄乡间小路中央极常长有一道绿色草带（两侧仅留车轮压出的沥青轨）；木电线杆同样带有交错凸出的金属攀爬脚钉；民居以白墙或灰墙配黑色石板屋顶为主（红砖房远少于英国），西海岸与北海岸多荒凉山地。",
+      "descEn": "Left-hand drive; yellow dashed outer road edge lines; bilingual signs with Irish Gaelic in yellow italics above English in white; European outlier using diamond yellow warning signs; electric hazard signs on poles feature lightning bolt only (no falling man); rounded tubular metal farm gates; bollards often have green reflectors; Drives on the left like the UK but uses white rear license plates with an EU blue strip (not yellow rear plates); narrow rural lanes frequently have a strip of green grass growing down the middle between tire tracks; wooden poles share the UK's alternating metal climbing steps; architecture favors white/grey rendered walls with black roofs over red brick.",
       "tagsZh": [
         "左侧行驶",
         "电线杆",
@@ -1829,14 +1875,14 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇮🇹",
       "link": "",
-      "desc": "车辆前车牌格外短小，且车牌左右两端皆有蓝色条带；路缘标顶部黑色帽子部分直接延伸至最顶端；混凝土电线杆为光滑圆柱体，顶部常为向上展开的三叉戟金属支架；里程碑标有罗马数字；公路外侧多为双层镀锌护栏，末端向上翘起变粗。",
+      "desc": "车辆前车牌格外短小，且车牌左右两端皆有蓝色条带；路缘标顶部黑色帽子部分直接延伸至最顶端；混凝土电线杆为光滑圆柱体，顶部常为向上展开的三叉戟金属支架；里程碑标有罗马数字；公路外侧多为双层镀锌护栏，末端向上翘起变粗；城镇街名牌为白底深蓝边框、以“Via”开头且右下角常带小数字；路牌背面多为黑色，木电线杆上普遍贴有横向白色长方形贴纸；山地与乡村公路常仅有两侧粗白实线边线而无中心线，阿尔卑斯山区常见红白/黑白条纹边框的圆形凸面反光镜；东南部普利亚（巴里周边）干旱平坦、遍布灰绿叶深色树干的橄榄树林，北部波河平原更为翠绿。",
       "tags": [
         "车牌 / Plate",
         "电线杆 / Pole",
         "路缘标 / Bollard"
       ],
-      "descZh": "车辆前车牌格外短小，且车牌左右两端皆有蓝色条带；路缘标顶部黑色帽子部分直接延伸至最顶端；混凝土电线杆为光滑圆柱体，顶部常为向上展开的三叉戟金属支架；里程碑标有罗马数字；公路外侧多为双层镀锌护栏，末端向上翘起变粗。",
-      "descEn": "Front license plates are uniquely short, featuring blue stripes on both left and right; bollards have black caps covering the very top edge; smooth round concrete poles topped with trident-like metal armatures; milestone posts marked with Roman numerals; double-tier highway guardrails with flared bulbous ends.",
+      "descZh": "车辆前车牌格外短小，且车牌左右两端皆有蓝色条带；路缘标顶部黑色帽子部分直接延伸至最顶端；混凝土电线杆为光滑圆柱体，顶部常为向上展开的三叉戟金属支架；里程碑标有罗马数字；公路外侧多为双层镀锌护栏，末端向上翘起变粗；城镇街名牌为白底深蓝边框、以“Via”开头且右下角常带小数字；路牌背面多为黑色，木电线杆上普遍贴有横向白色长方形贴纸；山地与乡村公路常仅有两侧粗白实线边线而无中心线，阿尔卑斯山区常见红白/黑白条纹边框的圆形凸面反光镜；东南部普利亚（巴里周边）干旱平坦、遍布灰绿叶深色树干的橄榄树林，北部波河平原更为翠绿。",
+      "descEn": "Front license plates are uniquely short, featuring blue stripes on both left and right; bollards have black caps covering the very top edge; smooth round concrete poles topped with trident-like metal armatures; milestone posts marked with Roman numerals; double-tier highway guardrails with flared bulbous ends; Urban street signs are white with dark blue borders starting with 'Via' and a small bottom-right number; black-backed traffic signs; white horizontal rectangular stickers on wooden poles; rural mountain roads often have thick solid white outer lines with no centerline and circular Alpine mirrors; SE Puglia plains are arid with endless olive groves whereas the northern Po Valley is greener.",
       "tagsZh": [
         "车牌特征",
         "电线杆",
@@ -1979,10 +2025,10 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇽🇰",
       "link": "",
-      "desc": "公路多使用 A 型波形护栏；深蓝色底白字街道牌标有 'R.' (Rruga) 或 'Ul.' (Ulica)；门牌为蓝底白框配大号白色数字；路缘标一部分类似塞尔维亚，一部分类似匈牙利；巴尔干群山环绕。",
+      "desc": "公路普遍安装 A 型波形护栏；路牌背面为深色；街道名牌为蓝底白字，常带有 R. (Rruga) 或 UL.；门牌号为深蓝底带白边框，上面印有超大白色数字；路缘柱有两种样式（一种类似塞尔维亚，另一种类似匈牙利圆形柱）；路边多战后重建红砖建筑；最具代表性的路牌顶部横栏印有斜杠分隔的双语前缀“Rruga / Ulica”，下方书写街名（100% 锁定科索沃）；新增四代街景包含夏季与秋季黄叶景色；A 型护栏常嵌有红色梯形反光片。",
       "tags": [],
-      "descZh": "公路普遍安装 A 型波形护栏；路牌背面为深色；街道名牌为蓝底白字，常带有 R. (Rruga) 或 UL.；门牌号为深蓝底带白边框，上面印有超大白色数字；路缘柱有两种样式（一种类似塞尔维亚，另一种类似匈牙利圆形柱）；路边多战后重建红砖建筑。",
-      "descEn": "Widespread A-profile highway guardrails; dark backs on road signs; blue street nameplates reading R. (Rruga) or Ul.; house numbers are deep blue with white border and oversized white digits; bollards resemble either Serbian or Hungarian styles; postwar red-brick housing.",
+      "descZh": "公路普遍安装 A 型波形护栏；路牌背面为深色；街道名牌为蓝底白字，常带有 R. (Rruga) 或 UL.；门牌号为深蓝底带白边框，上面印有超大白色数字；路缘柱有两种样式（一种类似塞尔维亚，另一种类似匈牙利圆形柱）；路边多战后重建红砖建筑；最具代表性的路牌顶部横栏印有斜杠分隔的双语前缀“Rruga / Ulica”，下方书写街名（100% 锁定科索沃）；新增四代街景包含夏季与秋季黄叶景色；A 型护栏常嵌有红色梯形反光片。",
+      "descEn": "Widespread A-profile highway guardrails; dark backs on road signs; blue street nameplates reading R. (Rruga) or Ul.; house numbers are deep blue with white border and oversized white digits; bollards resemble either Serbian or Hungarian styles; postwar red-brick housing; Signature street signs display 'Rruga / Ulica' separated by a slash along the top header above the street name (100% unique to Kosovo); new Gen 4 coverage includes both summer and autumn foliage; A-type guardrails feature red trapezoidal reflectors.",
       "tagsZh": [],
       "tagsEn": []
     },
@@ -2045,13 +2091,13 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇱🇻",
       "link": "",
-      "desc": "电线杆上部装有上下交错排列的弧形金属绝缘挂钩（类似于保加利亚），但柱身通常没有横木；拉脱维亚语长元音上方带有长横音标（ā, ē, ī, ū）；人行横道指示牌上的黑色小人腿部极其修长；波罗的海沿岸针叶林与草甸。",
+      "desc": "电线杆上部装有上下交错排列的弧形金属绝缘挂钩（类似于保加利亚），但柱身通常没有横木；拉脱维亚语长元音上方带有长横音标（ā, ē, ī, ū）；人行横道指示牌上的黑色小人腿部极其修长；波罗的海沿岸针叶林与草甸；蓝底公交站牌上的巴士图标有 5 扇车窗（立陶宛与爱沙尼亚为 4 扇）；指路牌箭头与长方形牌身交界处呈微微向内弯曲的圆弧过渡（爱沙尼亚与立陶宛为平直折角）；扁薄白色路缘标反光块下方通常印有数字，金属里程牌与道路平行设立；限速牌与警告牌红边较粗且外围有明显白边；护栏安装红色反光片；常见带短天线（偶露红/黑车边）的街景车。",
       "tags": [
         "电线杆 / Pole",
         "语言 / Script"
       ],
-      "descZh": "电线杆上部装有上下交错排列的弧形金属绝缘挂钩（类似于保加利亚），但柱身通常没有横木；拉脱维亚语长元音上方带有长横音标（ā, ē, ī, ū）；人行横道指示牌上的黑色小人腿部极其修长；波罗的海沿岸针叶林与草甸。",
-      "descEn": "Utility poles feature alternating curved metal insulator hooks mounted directly onto solid concrete posts (no crossarms); Latvian language uses macrons over long vowels (ā, ē, ī, ū); pedestrian crossing sign silhouette has disproportionately long legs; Baltic pine forests.",
+      "descZh": "电线杆上部装有上下交错排列的弧形金属绝缘挂钩（类似于保加利亚），但柱身通常没有横木；拉脱维亚语长元音上方带有长横音标（ā, ē, ī, ū）；人行横道指示牌上的黑色小人腿部极其修长；波罗的海沿岸针叶林与草甸；蓝底公交站牌上的巴士图标有 5 扇车窗（立陶宛与爱沙尼亚为 4 扇）；指路牌箭头与长方形牌身交界处呈微微向内弯曲的圆弧过渡（爱沙尼亚与立陶宛为平直折角）；扁薄白色路缘标反光块下方通常印有数字，金属里程牌与道路平行设立；限速牌与警告牌红边较粗且外围有明显白边；护栏安装红色反光片；常见带短天线（偶露红/黑车边）的街景车。",
+      "descEn": "Utility poles feature alternating curved metal insulator hooks mounted directly onto solid concrete posts (no crossarms); Latvian language uses macrons over long vowels (ā, ē, ī, ū); pedestrian crossing sign silhouette has disproportionately long legs; Baltic pine forests; Blue bus stop signs depict a bus with 5 windows (vs. 4 in Lithuania/Estonia); directional sign arrow heads curve inward where they meet the rectangle (flat in Estonia/Lithuania); paper-thin bollards with a number below the reflector; kilometer plates face parallel to the road; thick red warning borders and white outer outlines on speed signs; red guardrail reflectors; small-antenna Google car.",
       "tagsZh": [
         "电线杆",
         "语言文字"
@@ -2090,13 +2136,13 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇱🇹",
       "link": "",
-      "desc": "街道名称简写为 'G.' (Gatvė)；电线杆上带有短木横木，且水泥杆身中部带有一条长方形狭长开孔；立陶宛语特有顶部带点的字母 'ė'，以及下带鼻音钩的字母 'ą, ę, į, ų'；平坦东欧平原与白桦林。",
+      "desc": "街道名称简写为 'G.' (Gatvė)；电线杆上带有短木横木，且水泥杆身中部带有一条长方形狭长开孔；立陶宛语特有顶部带点的字母 'ė'，以及下带鼻音钩的字母 'ą, ę, į, ų'；平坦东欧平原与白桦林；蓝底公交站牌上的巴士图标为 4 扇车窗；大量使用带斜撑杆（A-frame）的水泥电线杆；德国式斜黑块路缘标正面为橙黄色反光片（背面白色），金属里程牌与道路呈 45° 斜角设立；白底红箭头 Chevron 边缘带有一圈细红框；三角警告牌内部白色三角极大且红边外有宽白边；金属护栏上嵌有橙黄色反光片（爱沙尼亚无反光片、拉脱维亚为红色）。",
       "tags": [
         "电线杆 / Pole",
         "语言 / Script"
       ],
-      "descZh": "街道名称简写为 'G.' (Gatvė)；电线杆上带有短木横木，且水泥杆身中部带有一条长方形狭长开孔；立陶宛语特有顶部带点的字母 'ė'，以及下带鼻音钩的字母 'ą, ę, į, ų'；平坦东欧平原与白桦林。",
-      "descEn": "Street signs abbreviated with 'G.' (Gatvė); concrete utility poles feature short wooden crossarms and long narrow vertical rectangular slots in the pole body; Lithuanian alphabet uses 'ė' (dot above) and ogoneks (ą, ę, į, ų); flat agricultural Baltic landscape.",
+      "descZh": "街道名称简写为 'G.' (Gatvė)；电线杆上带有短木横木，且水泥杆身中部带有一条长方形狭长开孔；立陶宛语特有顶部带点的字母 'ė'，以及下带鼻音钩的字母 'ą, ę, į, ų'；平坦东欧平原与白桦林；蓝底公交站牌上的巴士图标为 4 扇车窗；大量使用带斜撑杆（A-frame）的水泥电线杆；德国式斜黑块路缘标正面为橙黄色反光片（背面白色），金属里程牌与道路呈 45° 斜角设立；白底红箭头 Chevron 边缘带有一圈细红框；三角警告牌内部白色三角极大且红边外有宽白边；金属护栏上嵌有橙黄色反光片（爱沙尼亚无反光片、拉脱维亚为红色）。",
+      "descEn": "Street signs abbreviated with 'G.' (Gatvė); concrete utility poles feature short wooden crossarms and long narrow vertical rectangular slots in the pole body; Lithuanian alphabet uses 'ė' (dot above) and ogoneks (ą, ę, į, ų); flat agricultural Baltic landscape; Bus stop signs depict 4 windows on the bus icon; abundant concrete poles with diagonal A-frame support posts; German-style bollards with an orange front reflector; kilometer markers angled at 45° to the road; white-background red-arrow chevrons with a thin red outer border; warning signs have a large white inner triangle and thick white outer rim; orange guardrail reflectors (vs. red in Latvia, none in Estonia).",
       "tagsZh": [
         "电线杆",
         "语言文字"
@@ -2114,12 +2160,12 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇱🇮",
       "link": "",
-      "desc": "欧洲唯一全境使用黑底白字车牌的德语国家；街景使用极低视角的相机 (Lowcam)；夹在瑞士与奥地利阿尔卑斯山谷之间的富裕小国，整洁的德式民居与陡峭雪山。",
+      "desc": "全欧洲唯一常态化使用**纯黑底白字车牌**的国家（格式为 FL 12345）；街景车机位极低（Lowcam）；被瑞士与奥地利高耸的阿尔卑斯雪山包围，地势陡峭，德语环境，极具欧陆富庶山国风貌；除蓝底路名牌外，常见独特的棕底或黑底、内嵌白色长方细框与细体字的街道名牌（非蓝底版本在瑞列地区 100% 锁定列支敦士登）；路面常见与瑞士相同的黄色人行横道斑马线。",
       "tags": [
         "车牌 / Plate"
       ],
-      "descZh": "全欧洲唯一常态化使用**纯黑底白字车牌**的国家（格式为 FL 12345）；街景车机位极低（Lowcam）；被瑞士与奥地利高耸的阿尔卑斯雪山包围，地势陡峭，德语环境，极具欧陆富庶山国风貌。",
-      "descEn": "The only European nation using **solid black license plates with white characters** (FL 12345 format); camera car uses Lowcam low-height perspective; surrounded by towering Swiss and Austrian alpine peaks, wealthy Liechtenstein principality.",
+      "descZh": "全欧洲唯一常态化使用**纯黑底白字车牌**的国家（格式为 FL 12345）；街景车机位极低（Lowcam）；被瑞士与奥地利高耸的阿尔卑斯雪山包围，地势陡峭，德语环境，极具欧陆富庶山国风貌；除蓝底路名牌外，常见独特的棕底或黑底、内嵌白色长方细框与细体字的街道名牌（非蓝底版本在瑞列地区 100% 锁定列支敦士登）；路面常见与瑞士相同的黄色人行横道斑马线。",
+      "descEn": "The only European nation using **solid black license plates with white characters** (FL 12345 format); camera car uses Lowcam low-height perspective; surrounded by towering Swiss and Austrian alpine peaks, wealthy Liechtenstein principality; Frequently uses distinctive brown- or black-background street name signs with a white rectangular inner border and thin typography (unique to Liechtenstein when not blue); shares yellow pedestrian crosswalk markings with Switzerland.",
       "tagsZh": [
         "车牌特征"
       ],
@@ -2135,13 +2181,13 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇱🇺",
       "link": "",
-      "desc": "车辆前后均悬挂黄色长条车牌；路牌背景为黄色，且路名使用全大写字母书写；路缘标黑色反光条由三枚螺丝钉固定（德国为两枚）；西欧古典精致石板屋顶建筑；标志牌常配有圆润的银色金属管状包边外框。",
+      "desc": "车辆前后均悬挂黄色长条车牌；路牌背景为黄色，且路名使用全大写字母书写；路缘标黑色反光条由三枚螺丝钉固定（德国为两枚）；西欧古典精致石板屋顶建筑；标志牌常配有圆润的银色金属管状包边外框；人行横道牌为 5 条斑马线且小人带腰带，但牌面四角没有德国式的固定螺栓；全境街景几乎仅由四代高清（Gen 4）或二代老镜头（Gen 2，带顶部与底部大光晕）组成，几乎没有三代街景；常见法式弯钩顶电线杆（Sweeper poles），偶见黑底黄箭头路标。",
       "tags": [
         "车牌 / Plate",
         "路缘标 / Bollard"
       ],
-      "descZh": "车辆前后均悬挂黄色长条车牌；路牌背景为黄色，且路名使用全大写字母书写；路缘标黑色反光条由三枚螺丝钉固定（德国为两枚）；西欧古典精致石板屋顶建筑；标志牌常配有圆润的银色金属管状包边外框。",
-      "descEn": "Yellow license plates front and rear; street name signs feature yellow backgrounds with all-caps typography; bollards feature black reflector caps secured with three screws (Germany uses two); affluent Western European slate-roofed stone architecture; tubular metal border frames on traffic signs.",
+      "descZh": "车辆前后均悬挂黄色长条车牌；路牌背景为黄色，且路名使用全大写字母书写；路缘标黑色反光条由三枚螺丝钉固定（德国为两枚）；西欧古典精致石板屋顶建筑；标志牌常配有圆润的银色金属管状包边外框；人行横道牌为 5 条斑马线且小人带腰带，但牌面四角没有德国式的固定螺栓；全境街景几乎仅由四代高清（Gen 4）或二代老镜头（Gen 2，带顶部与底部大光晕）组成，几乎没有三代街景；常见法式弯钩顶电线杆（Sweeper poles），偶见黑底黄箭头路标。",
+      "descEn": "Yellow license plates front and rear; street name signs feature yellow backgrounds with all-caps typography; bollards feature black reflector caps secured with three screws (Germany uses two); affluent Western European slate-roofed stone architecture; tubular metal border frames on traffic signs; Pedestrian crossing signs have 5 stripes and a belt but lack Germany's 4 corner bolts; street view coverage consists almost exclusively of vibrant Gen 4 or old Gen 2 (with top/bottom halos), with virtually no Gen 3; frequent French-style sweeper poles and occasional black-and-yellow chevrons.",
       "tagsZh": [
         "车牌特征",
         "路缘标"
@@ -2189,12 +2235,12 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇲🇹",
       "link": "",
-      "desc": "车辆靠左侧行驶；建筑物全境普遍采用金黄色暖调石灰岩（Globigerina）砌筑；乡村公路两侧砌有密集低矮的石灰岩干砌石墙；路名后缀普遍为马耳他语 'Triq'（街道）；典型的无高大树木干旱地中海岛屿风光。",
+      "desc": "车辆靠左侧行驶；建筑物全境普遍采用金黄色暖调石灰岩（Globigerina）砌筑；乡村公路两侧砌有密集低矮的石灰岩干砌石墙；路名后缀普遍为马耳他语 'Triq'（街道）；典型的无高大树木干旱地中海岛屿风光；城镇与窄路外侧普遍画有黄色实线或黄色虚线边线，主干道则常为单条粗白实线中线；干砌石灰岩石墙旁随处可见椭圆形叶片的仙人掌（Prickly pear cacti）；弯道统一使用黑底白箭头 Chevron；除主岛外还包括北部农田更开阔干旱的戈佐岛（Gozo / Victoria）。",
       "tags": [
         "左行 / LHT"
       ],
-      "descZh": "车辆靠左侧行驶；建筑物全境普遍采用金黄色暖调石灰岩（Globigerina）砌筑；乡村公路两侧砌有密集低矮的石灰岩干砌石墙；路名后缀普遍为马耳他语 'Triq'（街道）；典型的无高大树木干旱地中海岛屿风光。",
-      "descEn": "Left-hand drive; buildings universally constructed from warm honey-golden Globigerina limestone blocks; narrow rural lanes flanked by dry limestone rubblestone walls (Hajt tas-sejjieh); street names prefixed with Maltese 'Triq' (Street); arid Mediterranean island landscape without native forests.",
+      "descZh": "车辆靠左侧行驶；建筑物全境普遍采用金黄色暖调石灰岩（Globigerina）砌筑；乡村公路两侧砌有密集低矮的石灰岩干砌石墙；路名后缀普遍为马耳他语 'Triq'（街道）；典型的无高大树木干旱地中海岛屿风光；城镇与窄路外侧普遍画有黄色实线或黄色虚线边线，主干道则常为单条粗白实线中线；干砌石灰岩石墙旁随处可见椭圆形叶片的仙人掌（Prickly pear cacti）；弯道统一使用黑底白箭头 Chevron；除主岛外还包括北部农田更开阔干旱的戈佐岛（Gozo / Victoria）。",
+      "descEn": "Left-hand drive; buildings universally constructed from warm honey-golden Globigerina limestone blocks; narrow rural lanes flanked by dry limestone rubblestone walls (Hajt tas-sejjieh); street names prefixed with Maltese 'Triq' (Street); arid Mediterranean island landscape without native forests; Town and narrow roads consistently feature outer yellow solid or dashed edge lines, while main roads use a single solid white centerline; oval-paddled prickly pear cacti grow abundantly along honey limestone walls; uses black-and-white chevrons across both mainland Malta and agricultural Gozo (Victoria).",
       "tagsZh": [
         "左侧行驶"
       ],
@@ -2231,10 +2277,10 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇲🇨",
       "link": "",
-      "desc": "富裕地中海公国；路缘石整齐涂刷成摩纳哥国旗红白相间条纹；满街奢华跑车、游艇码头与开凿穿山的双向隧道；路牌使用独特的法文与摩纳哥语双语标识。",
+      "desc": "富裕地中海公国；路缘石整齐涂刷成摩纳哥国旗红白相间条纹；满街奢华跑车、游艇码头与开凿穿山的双向隧道；路牌使用独特的法文与摩纳哥语双语标识；车牌为无欧盟蓝条的纯白短小车牌；除港口密集的超级游艇码头外，依山而建的高层公寓普遍涂刷成鲜亮的粉红、米黄、赭红等柔和粉彩色调；狭窄街道遍布黄色边缘标线，公交站亭上通常直接印有“Monaco”字样。",
       "tags": [],
-      "descZh": "富裕地中海公国；路缘石整齐涂刷成摩纳哥国旗红白相间条纹；满街奢华跑车、游艇码头与开凿穿山的双向隧道；路牌使用独特的法文与摩纳哥语双语标识。",
-      "descEn": "Ultra-affluent Mediterranean microstate; curbs painted in crisp red-and-white stripes; luxury sports cars, yacht harbors, and curved multi-lane rock tunnels; bilingual French and Monégasque street signage.",
+      "descZh": "富裕地中海公国；路缘石整齐涂刷成摩纳哥国旗红白相间条纹；满街奢华跑车、游艇码头与开凿穿山的双向隧道；路牌使用独特的法文与摩纳哥语双语标识；车牌为无欧盟蓝条的纯白短小车牌；除港口密集的超级游艇码头外，依山而建的高层公寓普遍涂刷成鲜亮的粉红、米黄、赭红等柔和粉彩色调；狭窄街道遍布黄色边缘标线，公交站亭上通常直接印有“Monaco”字样。",
+      "descEn": "Ultra-affluent Mediterranean microstate; curbs painted in crisp red-and-white stripes; luxury sports cars, yacht harbors, and curved multi-lane rock tunnels; bilingual French and Monégasque street signage; Uses short plain-white non-EU license plates without blue strips; beyond the superyacht marina, steep hillside apartment blocks are painted in bright pink, cream, and terracotta pastels; narrow winding lanes with yellow edge markings and bus stops explicitly labeled 'Monaco'.",
       "tagsZh": [],
       "tagsEn": []
     },
@@ -2270,12 +2316,12 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇲🇪",
       "link": "",
-      "desc": "天空中央带有明显的图像拼接错位裂缝 (Sky Rift)；车牌左侧带有欧盟式深蓝条带，中央常带有红色圆形国徽图样；壮丽险峻的亚得里亚海沿海峡湾（科托尔湾）与巴尔干岩石荒山。",
+      "desc": "天空中央带有明显的图像拼接错位裂缝 (Sky Rift)；车牌左侧带有欧盟式深蓝条带，中央常带有红色圆形国徽图样；壮丽险峻的亚得里亚海沿海峡湾（科托尔湾）与巴尔干岩石荒山；全境常见植被茂密的高山陡坡上裸露大片灰白色喀斯特岩壁，公路边坡亦到处是裸露岩石切面、碎石堆与石墙；同时混用 A 型与 B 型护栏（常配红色梯形反光片）。",
       "tags": [
         "车牌 / Plate"
       ],
-      "descZh": "天空中央带有明显的图像拼接错位裂缝 (Sky Rift)；车牌左侧带有欧盟式深蓝条带，中央常带有红色圆形国徽图样；壮丽险峻的亚得里亚海沿海峡湾（科托尔湾）与巴尔干岩石荒山。",
-      "descEn": "Visible Sky Rift stitch artifact overhead; license plates have an EU-like deep blue strip on the left with a small red national crest in the center; dramatic limestone canyons and coastal fjords (Bay of Kotor).",
+      "descZh": "天空中央带有明显的图像拼接错位裂缝 (Sky Rift)；车牌左侧带有欧盟式深蓝条带，中央常带有红色圆形国徽图样；壮丽险峻的亚得里亚海沿海峡湾（科托尔湾）与巴尔干岩石荒山；全境常见植被茂密的高山陡坡上裸露大片灰白色喀斯特岩壁，公路边坡亦到处是裸露岩石切面、碎石堆与石墙；同时混用 A 型与 B 型护栏（常配红色梯形反光片）。",
+      "descEn": "Visible Sky Rift stitch artifact overhead; license plates have an EU-like deep blue strip on the left with a small red national crest in the center; dramatic limestone canyons and coastal fjords (Bay of Kotor); Heavily forested/shrubby mountains consistently expose bare grey limestone rock faces, paired with exposed rock cuts, dirt piles, and stone walls right along roadsides; uses both A-type and B-type guardrails with red trapezoidal reflectors.",
       "tagsZh": [
         "车牌特征"
       ],
@@ -2312,13 +2358,13 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇳🇱",
       "link": "",
-      "desc": "车辆前后均悬挂黄色长条车牌（左侧带蓝条）；路缘标顶部带有独特的红色环形横圈；减速带前后路面绘制有长短交替排列的白色标线带；地势平坦至极，运河纵横交错，红砖房搭配高耸宽大的玻璃窗；红褐色沥青专用自行车道遍布全国。",
+      "desc": "车辆前后均悬挂黄色长条车牌（左侧带蓝条）；路缘标顶部带有独特的红色环形横圈；减速带前后路面绘制有长短交替排列的白色标线带；地势平坦至极，运河纵横交错，红砖房搭配高耸宽大的玻璃窗；红褐色沥青专用自行车道遍布全国；城镇住宅区街道极其普遍地铺设深红与亮红色烧结砖（Clinker bricks）；路名常以 -straat（含双 a）或 -weg 结尾；乡村公路常见法式长虚线外侧边线（有时配双白实线中线）；圆形交通牌边缘有银色金属包边并透出正面色彩；部分三代街景可见独特的荷兰黑色街景车尾。",
       "tags": [
         "车牌 / Plate",
         "路缘标 / Bollard"
       ],
-      "descZh": "车辆前后均悬挂黄色长条车牌（左侧带蓝条）；路缘标顶部带有独特的红色环形横圈；减速带前后路面绘制有长短交替排列的白色标线带；地势平坦至极，运河纵横交错，红砖房搭配高耸宽大的玻璃窗；红褐色沥青专用自行车道遍布全国。",
-      "descEn": "Yellow license plates front and rear with blue EU bands; bollards feature a wrap-around red band at the very top; unique piano-key style speed bump markings; impeccably flat landscape with canals, brick row houses, and separate reddish-brown asphalt cycle tracks.",
+      "descZh": "车辆前后均悬挂黄色长条车牌（左侧带蓝条）；路缘标顶部带有独特的红色环形横圈；减速带前后路面绘制有长短交替排列的白色标线带；地势平坦至极，运河纵横交错，红砖房搭配高耸宽大的玻璃窗；红褐色沥青专用自行车道遍布全国；城镇住宅区街道极其普遍地铺设深红与亮红色烧结砖（Clinker bricks）；路名常以 -straat（含双 a）或 -weg 结尾；乡村公路常见法式长虚线外侧边线（有时配双白实线中线）；圆形交通牌边缘有银色金属包边并透出正面色彩；部分三代街景可见独特的荷兰黑色街景车尾。",
+      "descEn": "Yellow license plates front and rear with blue EU bands; bollards feature a wrap-around red band at the very top; unique piano-key style speed bump markings; impeccably flat landscape with canals, brick row houses, and separate reddish-brown asphalt cycle tracks; Urban residential streets are pervasively paved with dark and bright red clinker bricks; street names commonly end in -straat or -weg; rural roads often use French-style long outer white dashes; circular signs have a silver metal rim showing the front border color; occasional Gen 3 black Google car rear.",
       "tagsZh": [
         "车牌特征",
         "路缘标"
@@ -2384,12 +2430,12 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇲🇰",
       "link": "",
-      "desc": "若为第三代高清街景，街景车车尾通常没有任何天线；典型的巴尔干群山丘陵与干燥农田；车牌两端没有蓝色 EU 条带；城镇道路边缘常有红白相间的刷漆路沿。",
+      "desc": "若为第三代高清街景，街景车车尾通常没有任何天线；典型的巴尔干群山丘陵与干燥农田；车牌两端没有蓝色 EU 条带；城镇道路边缘常有红白相间的刷漆路沿；近期新增大量四代街景，无论新旧街景车均完全不露天线；指路牌普遍采用马其顿西里尔文与英文/拉丁文上下对照（左侧常带路线字母编号）；广泛使用带红色反光片的 A 型圆弧护栏及克罗地亚式红白反光路缘标。",
       "tags": [
         "街景车 / Car Meta"
       ],
-      "descZh": "若为第三代高清街景，街景车车尾通常没有任何天线；典型的巴尔干群山丘陵与干燥农田；车牌两端没有蓝色 EU 条带；城镇道路边缘常有红白相间的刷漆路沿。",
-      "descEn": "Gen 3 camera car typically has no antenna; dry Balkan rolling hills and tobacco farming; license plates lack EU blue strips; red-and-white painted curb stones in urban centers.",
+      "descZh": "若为第三代高清街景，街景车车尾通常没有任何天线；典型的巴尔干群山丘陵与干燥农田；车牌两端没有蓝色 EU 条带；城镇道路边缘常有红白相间的刷漆路沿；近期新增大量四代街景，无论新旧街景车均完全不露天线；指路牌普遍采用马其顿西里尔文与英文/拉丁文上下对照（左侧常带路线字母编号）；广泛使用带红色反光片的 A 型圆弧护栏及克罗地亚式红白反光路缘标。",
+      "descEn": "Gen 3 camera car typically has no antenna; dry Balkan rolling hills and tobacco farming; license plates lack EU blue strips; red-and-white painted curb stones in urban centers; Recent Gen 4 expansion alongside Gen 3 never shows a visible car antenna; directional signs pair Macedonian Cyrillic with English/Latin (often with route letters on the left); widespread A-type guardrails with red reflectors and Croatian-style bollards.",
       "tagsZh": [
         "街景车"
       ],
@@ -2405,13 +2451,13 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇳🇴",
       "link": "",
-      "desc": "道路两侧边线通常为长条白色虚线，中心线多为黄色；商用营运货车车牌为绿色背景；路名以 'gate' 或 'vei' 结尾；人行横道指示牌上的小人脚下踩着四条坚实的白色竖线；乡间窄路旁常设有蓝底白字带衬线的 'M' 会车指示牌（M字母中间向下延伸触底）。",
+      "desc": "道路边线通常为长虚线，中线为单/双黄色实虚线；商用车悬挂独特的纯绿色车牌；路名以 gate/vei 结尾；人行横道标牌上的行人走在 4 条竖线上且无明显脖子；乡间路边常立有蓝底白“M”字牌（M字中间尖角一直接触到底部，代表避车处 Møteplass）；遍布峡湾、隧道与密集雪迹杆；路牌与独特的蓝底公交站牌背面常由一根仅延伸到牌身一半高度的副金属圆管托举，并由中下部 3 颗垂直螺栓或上下各 4 颗窄距螺栓固定；有黄色中心线时两侧配白色实线边线，无中心线时两侧配白色长虚线边线；雪迹杆白色反光条位于中部；路名常见 gate、gata、vei、veien 后缀。",
       "tags": [
         "车牌 / Plate",
         "道路标线 / Lines"
       ],
-      "descZh": "道路边线通常为长虚线，中线为单/双黄色实虚线；商用车悬挂独特的纯绿色车牌；路名以 gate/vei 结尾；人行横道标牌上的行人走在 4 条竖线上且无明显脖子；乡间路边常立有蓝底白“M”字牌（M字中间尖角一直接触到底部，代表避车处 Møteplass）；遍布峡湾、隧道与密集雪迹杆。",
-      "descEn": "Road shoulders marked with long dashed white lines, centerlines yellow; commercial vehicles display solid green license plates; street names end in gate/vei; pedestrian signs feature four vertical stripes under a neckless pedestrian; rural roads feature blue-and-white 'M' passing place signs (the center vertex of M touches the bottom line); fjords, tunnels, and snow poles.",
+      "descZh": "道路边线通常为长虚线，中线为单/双黄色实虚线；商用车悬挂独特的纯绿色车牌；路名以 gate/vei 结尾；人行横道标牌上的行人走在 4 条竖线上且无明显脖子；乡间路边常立有蓝底白“M”字牌（M字中间尖角一直接触到底部，代表避车处 Møteplass）；遍布峡湾、隧道与密集雪迹杆；路牌与独特的蓝底公交站牌背面常由一根仅延伸到牌身一半高度的副金属圆管托举，并由中下部 3 颗垂直螺栓或上下各 4 颗窄距螺栓固定；有黄色中心线时两侧配白色实线边线，无中心线时两侧配白色长虚线边线；雪迹杆白色反光条位于中部；路名常见 gate、gata、vei、veien 后缀。",
+      "descEn": "Road shoulders marked with long dashed white lines, centerlines yellow; commercial vehicles display solid green license plates; street names end in gate/vei; pedestrian signs feature four vertical stripes under a neckless pedestrian; rural roads feature blue-and-white 'M' passing place signs (the center vertex of M touches the bottom line); fjords, tunnels, and snow poles; Road signs and distinctive Norwegian bus stop signs are characteristically held up by a secondary round metal pipe clamp that stops halfway up the back of the sign (secured with 3 vertical bolts or narrow 4-bolt clusters); roads with yellow centerlines have solid white outer lines, while roads without centerlines have long dashed white outer lines; snow poles have a middle white reflector; street names end in gate, gata, vei, or veien.",
       "tagsZh": [
         "车牌特征",
         "道路标线"
@@ -2546,13 +2592,13 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇵🇱",
       "link": "",
-      "desc": "广泛使用带冲压孔洞的水泥电线杆，但杆身最底端通常是一段不打孔的实心水泥基座（区别于匈牙利全打孔）；人行横道指示牌底部有一条加粗的黑色横实线；警示牌多为黄色背景细红边三角形；路缘标体型较粗，中央嵌有一块长条形红色反光斜块。",
+      "desc": "广泛使用带冲压孔洞的水泥电线杆，但杆身最底端通常是一段不打孔的实心水泥基座（区别于匈牙利全打孔）；人行横道指示牌底部有一条加粗的黑色横实线；警示牌多为黄色背景细红边三角形；路缘标体型较粗，中央嵌有一块长条形红色反光斜块；在欧盟国家中罕见地广泛使用双白实线道路中线（与丹麦、希腊并列）；城镇入口使用欧洲独树一帜的亮绿底白字长方形镇名牌；平坦农田旷野间遍布树干上部呈红棕色的欧洲赤松（俗称“波兰松”）。",
       "tags": [
         "电线杆 / Pole",
         "路缘标 / Bollard"
       ],
-      "descZh": "广泛使用带冲压孔洞的水泥电线杆，但杆身最底端通常是一段不打孔的实心水泥基座（区别于匈牙利全打孔）；人行横道指示牌底部有一条加粗的黑色横实线；警示牌多为黄色背景细红边三角形；路缘标体型较粗，中央嵌有一块长条形红色反光斜块。",
-      "descEn": "Concrete utility poles feature punched rungs, but the bottom section is completely solid concrete without holes (unlike Hungary); pedestrian crossing signs have a solid black ground line beneath the feet; warning signs feature yellow centers with thin red borders; chunky bollards with an angled red reflector strip.",
+      "descZh": "广泛使用带冲压孔洞的水泥电线杆，但杆身最底端通常是一段不打孔的实心水泥基座（区别于匈牙利全打孔）；人行横道指示牌底部有一条加粗的黑色横实线；警示牌多为黄色背景细红边三角形；路缘标体型较粗，中央嵌有一块长条形红色反光斜块；在欧盟国家中罕见地广泛使用双白实线道路中线（与丹麦、希腊并列）；城镇入口使用欧洲独树一帜的亮绿底白字长方形镇名牌；平坦农田旷野间遍布树干上部呈红棕色的欧洲赤松（俗称“波兰松”）。",
+      "descEn": "Concrete utility poles feature punched rungs, but the bottom section is completely solid concrete without holes (unlike Hungary); pedestrian crossing signs have a solid black ground line beneath the feet; warning signs feature yellow centers with thin red borders; chunky bollards with an angled red reflector strip; One of the very few EU countries (alongside Denmark and Greece) that widely uses double solid white center lines; bright green town entrance signs with white text; flat agricultural plains dotted with red-barked Scots pines ('Polish trees').",
       "tagsZh": [
         "电线杆",
         "路缘标"
@@ -2570,14 +2616,14 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇵🇹",
       "link": "",
-      "desc": "旧版车牌右侧带有一条独特的黄色竖条（新版车牌取消但仍满街可见）；葡萄牙语特有字母 'ç' 以及带有波浪音符的元音 'ã' 和 'õ'；街道后缀为 'Rua'；混凝土梯子型电线杆；伊比利亚半岛丘陵与成片桉树林。",
+      "desc": "旧版车牌右侧带有一条独特的黄色竖条（新版车牌取消但仍满街可见）；葡萄牙语特有字母 'ç' 以及带有波浪音符的元音 'ã' 和 'õ'；街道后缀为 'Rua'；混凝土梯子型电线杆；伊比利亚半岛丘陵与成片桉树林；城乡随处可见极具辨识度的亮白色碎石拼花人行道（Calçada portuguesa）与鹅卵石路面；混凝土梯子杆背面或侧面打有圆形通孔；限速与警告牌红圈外留有明显的白边与银色金属框（区别于西班牙包边红框）；钢板直接裁切成箭头形状的粗黑体字指路牌；农村常见红底方框内嵌白色圆圈的禁猎区标志；超车区末端路面画有弧形导向白箭头（全欧仅葡、法、罗常见）；护栏装有红色反光片，人行道牌为 5 条线配高腰带小人。",
       "tags": [
         "车牌 / Plate",
         "电线杆 / Pole",
         "语言 / Script"
       ],
-      "descZh": "旧版车牌右侧带有一条独特的黄色竖条（新版车牌取消但仍满街可见）；葡萄牙语特有字母 'ç' 以及带有波浪音符的元音 'ã' 和 'õ'；街道后缀为 'Rua'；混凝土梯子型电线杆；伊比利亚半岛丘陵与成片桉树林。",
-      "descEn": "Older license plates carry a distinctive yellow vertical band on the right edge; Portuguese script features 'ç' and nasal vowels 'ã' and 'õ'; street names end in 'Rua'; concrete ladder poles; rolling Iberian hills with abundant eucalyptus and cork oak trees.",
+      "descZh": "旧版车牌右侧带有一条独特的黄色竖条（新版车牌取消但仍满街可见）；葡萄牙语特有字母 'ç' 以及带有波浪音符的元音 'ã' 和 'õ'；街道后缀为 'Rua'；混凝土梯子型电线杆；伊比利亚半岛丘陵与成片桉树林；城乡随处可见极具辨识度的亮白色碎石拼花人行道（Calçada portuguesa）与鹅卵石路面；混凝土梯子杆背面或侧面打有圆形通孔；限速与警告牌红圈外留有明显的白边与银色金属框（区别于西班牙包边红框）；钢板直接裁切成箭头形状的粗黑体字指路牌；农村常见红底方框内嵌白色圆圈的禁猎区标志；超车区末端路面画有弧形导向白箭头（全欧仅葡、法、罗常见）；护栏装有红色反光片，人行道牌为 5 条线配高腰带小人。",
+      "descEn": "Older license plates carry a distinctive yellow vertical band on the right edge; Portuguese script features 'ç' and nasal vowels 'ã' and 'õ'; street names end in 'Rua'; concrete ladder poles; rolling Iberian hills with abundant eucalyptus and cork oak trees; Widespread bright white limestone cobblestone sidewalks (calçada portuguesa) and cobbled streets; concrete ladder poles have circular holes punched through the back; speed and warning signs leave a clear white outer border inside a silver rim (unlike Spain's edge-wrapping red border); steel-edged arrow-shaped directional signs; hunting signs feature a white circle inside a red square; curved centerline deflection arrows (shared with France & Romania); red guardrail reflectors and high-belt 5-stripe pedestrian signs.",
       "tagsZh": [
         "车牌特征",
         "电线杆",
@@ -2642,12 +2688,12 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇷🇴",
       "link": "",
-      "desc": "混凝土电线杆带有长方形孔洞，底部通常刷有一圈整齐的白色石灰漆；公路里程碑为类似拱形墓碑的圆顶石墩；危险警告标志的红色外边框极其粗厚；街道名称后缀为 'Strada'；乡村路边常有传统的精美木雕大门与水井。",
+      "desc": "混凝土电线杆带有长方形孔洞，底部通常刷有一圈整齐的白色石灰漆；公路里程碑为类似拱形墓碑的圆顶石墩；危险警告标志的红色外边框极其粗厚；街道名称后缀为 'Strada'；乡村路边常有传统的精美木雕大门与水井；路边拱顶盒状里程碑有红、蓝、白三种顶色版本；道路外侧常画有白色虚线边线（且标线整体比保加利亚更粗）；路牌背面常为黑色；通孔到底的厚重水泥杆上常贴黄色贴纸。",
       "tags": [
         "电线杆 / Pole"
       ],
-      "descZh": "混凝土电线杆带有长方形孔洞，底部通常刷有一圈整齐的白色石灰漆；公路里程碑为类似拱形墓碑的圆顶石墩；危险警告标志的红色外边框极其粗厚；街道名称后缀为 'Strada'；乡村路边常有传统的精美木雕大门与水井。",
-      "descEn": "Holey concrete poles with whitewashed bases; milestone posts shaped like curved tombstone blocks; warning signs feature extraordinarily thick red outer borders; street suffix 'Strada'; ornate carved wooden gates and covered water wells in rural villages.",
+      "descZh": "混凝土电线杆带有长方形孔洞，底部通常刷有一圈整齐的白色石灰漆；公路里程碑为类似拱形墓碑的圆顶石墩；危险警告标志的红色外边框极其粗厚；街道名称后缀为 'Strada'；乡村路边常有传统的精美木雕大门与水井；路边拱顶盒状里程碑有红、蓝、白三种顶色版本；道路外侧常画有白色虚线边线（且标线整体比保加利亚更粗）；路牌背面常为黑色；通孔到底的厚重水泥杆上常贴黄色贴纸。",
+      "descEn": "Holey concrete poles with whitewashed bases; milestone posts shaped like curved tombstone blocks; warning signs feature extraordinarily thick red outer borders; street suffix 'Strada'; ornate carved wooden gates and covered water wells in rural villages; Roadside 3D milestone boxes appear in red, blue, and white color variants; roads often feature outer dashed white edge lines (and noticeably thicker road lines than Bulgaria); black-backed road signs; thick bottom-to-top holey poles with yellow warning stickers.",
       "tagsZh": [
         "电线杆"
       ],
@@ -2663,13 +2709,13 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇷🇺",
       "link": "",
-      "desc": "路牌底部或立柱常涂刷成黑色；电线杆下半段通常刷成白石灰漆，最底端有时保留一截黑色泥漆（称为“黑袜子”）；属于红底白箭头 Chevron “AH UBER” 国家；弯道处白色木质或塑料路缘桩极其密集；广阔的白桦林针叶林与西里尔文字街区。",
+      "desc": "路牌底部或立柱常涂刷成黑色；电线杆下半段通常刷成白石灰漆，最底端有时保留一截黑色泥漆（称为“黑袜子”）；属于红底白箭头 Chevron “AH UBER” 国家；弯道处白色木质或塑料路缘桩极其密集；广阔的白桦林针叶林与西里尔文字街区；最常见的专属街景车为黑色车尾配长天线（处于阴暗平坦的三代街景中）；西伯利亚与远东常见单根细木棍路桩及薄如纸片的扁平路缘标；西南部邻近哈萨克斯坦的深色农田平原极常出现冬季街景。",
       "tags": [
         "电线杆 / Pole",
         "路缘标 / Bollard"
       ],
-      "descZh": "路牌底部或立柱常涂刷成黑色；电线杆下半段通常刷成白石灰漆，最底端有时保留一截黑色泥漆（称为“黑袜子”）；属于红底白箭头 Chevron “AH UBER” 国家；弯道处白色木质或塑料路缘桩极其密集；广阔的白桦林针叶林与西里尔文字街区。",
-      "descEn": "Road sign backs and poles often painted black; utility pole bottoms painted white with occasional black base collars ('black socks'); red-and-white curve chevrons; dense clusters of white bollards on highway bends; endless birch and taiga forests with Cyrillic signs.",
+      "descZh": "路牌底部或立柱常涂刷成黑色；电线杆下半段通常刷成白石灰漆，最底端有时保留一截黑色泥漆（称为“黑袜子”）；属于红底白箭头 Chevron “AH UBER” 国家；弯道处白色木质或塑料路缘桩极其密集；广阔的白桦林针叶林与西里尔文字街区；最常见的专属街景车为黑色车尾配长天线（处于阴暗平坦的三代街景中）；西伯利亚与远东常见单根细木棍路桩及薄如纸片的扁平路缘标；西南部邻近哈萨克斯坦的深色农田平原极常出现冬季街景。",
+      "descEn": "Road sign backs and poles often painted black; utility pole bottoms painted white with occasional black base collars ('black socks'); red-and-white curve chevrons; dense clusters of white bollards on highway bends; endless birch and taiga forests with Cyrillic signs; Most iconic camera car shows a black rear body with a long antenna in gloomy Gen 3 flatlands; Siberia and the Far East frequently use single thin stick posts or paper-thin flat bollards; southwestern dark agricultural steppes near Kazakhstan are very often in winter coverage.",
       "tagsZh": [
         "电线杆",
         "路缘标"
@@ -2711,12 +2757,12 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇸🇲",
       "link": "",
-      "desc": "被意大利完全包围的高山城邦；车牌尺寸极小且左侧带有浅蓝色蒂塔诺山国徽；依附在悬崖峭壁上的蒂塔诺山（Monte Titano）与标志性的三座中世纪城堡塔楼；人行横道路面铺有鲜亮蓝色底漆。",
+      "desc": "被意大利完全包围的高山城邦；车牌尺寸极小且左侧带有浅蓝色蒂塔诺山国徽；依附在悬崖峭壁上的蒂塔诺山（Monte Titano）与标志性的三座中世纪城堡塔楼；人行横道路面铺有鲜亮蓝色底漆；从境内几乎任何角度朝蒂塔诺山方向眺望，都能看到山脊上标志性的三座城堡塔楼；弯道 Chevron 采用亮黄底红箭头（与意大利的黑底白箭头截然不同）；道路两侧极度密集地排列意大利式路缘标；部分“Via”街名牌带有金属外框，路牌背面为黑色。",
       "tags": [
         "车牌 / Plate"
       ],
-      "descZh": "被意大利完全包围的高山城邦；车牌尺寸极小且左侧带有浅蓝色蒂塔诺山国徽；依附在悬崖峭壁上的蒂塔诺山（Monte Titano）与标志性的三座中世纪城堡塔楼；人行横道路面铺有鲜亮蓝色底漆。",
-      "descEn": "Microstate surrounded by Italy; tiny white front license plates with light blue San Marino coat of arms on the left; dramatic Mount Titano cliff fortress with medieval stone battlements; bright blue painted pedestrian crosswalks.",
+      "descZh": "被意大利完全包围的高山城邦；车牌尺寸极小且左侧带有浅蓝色蒂塔诺山国徽；依附在悬崖峭壁上的蒂塔诺山（Monte Titano）与标志性的三座中世纪城堡塔楼；人行横道路面铺有鲜亮蓝色底漆；从境内几乎任何角度朝蒂塔诺山方向眺望，都能看到山脊上标志性的三座城堡塔楼；弯道 Chevron 采用亮黄底红箭头（与意大利的黑底白箭头截然不同）；道路两侧极度密集地排列意大利式路缘标；部分“Via”街名牌带有金属外框，路牌背面为黑色。",
+      "descEn": "Microstate surrounded by Italy; tiny white front license plates with light blue San Marino coat of arms on the left; dramatic Mount Titano cliff fortress with medieval stone battlements; bright blue painted pedestrian crosswalks; Looking toward Mount Titano from almost anywhere reveals the iconic three-towered mountain peak; curve chevrons are bright yellow with red arrows (unlike Italy's black-and-white); roadsides are heavily spammed with Italian-style bollards; occasional metal-wrapped 'Via' street signs and black sign backs.",
       "tagsZh": [
         "车牌特征"
       ],
@@ -2753,13 +2799,13 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇷🇸",
       "link": "",
-      "desc": "同时并行使用拉丁字母与西里尔字母，文字常带有特有字母 'ђ' 或 'ћ'；第三代街景车尾部通常没有任何天线；多瑙河与萨瓦河流域巴尔干平原丘陵。",
+      "desc": "同时并行使用拉丁字母与西里尔字母，文字常带有特有字母 'ђ' 或 'ћ'；第三代街景车尾部通常没有任何天线；多瑙河与萨瓦河流域巴尔干平原丘陵；拥有独特的黄底黑字城镇入口牌；虽非欧盟国（许多旧车牌无蓝条），但不少新版车牌左侧同样带有无欧盟星标的蓝色竖条；路缘标黑色斜顶仅在朝向道路的一侧嵌有细长红反光条；民居屋顶瓦片转角处亦常见灰白砂浆封边。",
       "tags": [
         "街景车 / Car Meta",
         "语言 / Script"
       ],
-      "descZh": "同时并行使用拉丁字母与西里尔字母，文字常带有特有字母 'ђ' 或 'ћ'；第三代街景车尾部通常没有任何天线；多瑙河与萨瓦河流域巴尔干平原丘陵。",
-      "descEn": "Digraphia using both Latin and Serbian Cyrillic scripts, featuring unique letters 'ђ' and 'ћ'; Gen 3 camera cars generally have no visible antenna; gentle rolling Balkan terrain around the Danube and Sava river basins.",
+      "descZh": "同时并行使用拉丁字母与西里尔字母，文字常带有特有字母 'ђ' 或 'ћ'；第三代街景车尾部通常没有任何天线；多瑙河与萨瓦河流域巴尔干平原丘陵；拥有独特的黄底黑字城镇入口牌；虽非欧盟国（许多旧车牌无蓝条），但不少新版车牌左侧同样带有无欧盟星标的蓝色竖条；路缘标黑色斜顶仅在朝向道路的一侧嵌有细长红反光条；民居屋顶瓦片转角处亦常见灰白砂浆封边。",
+      "descEn": "Digraphia using both Latin and Serbian Cyrillic scripts, featuring unique letters 'ђ' and 'ћ'; Gen 3 camera cars generally have no visible antenna; gentle rolling Balkan terrain around the Danube and Sava river basins; Distinctive yellow town entrance signs; non-EU plates often lack blue strips, though many modern Serbian plates feature a blue left band without EU stars; bollards have a single-sided red reflector strip on the road-facing half; tiled roof corners often sealed with mortar.",
       "tagsZh": [
         "街景车",
         "语言文字"
@@ -2798,12 +2844,12 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇸🇰",
       "link": "",
-      "desc": "民居门牌通常为白底红框或白底黑字；混凝土电线杆为双圆杆倒三角结构，路灯底座较粗；路牌多为规整矩形，通常没有突出伸出的方向箭头角（以此与捷克区分）；斯洛伐克语常用带有扬抑符的字母 'ô'。",
+      "desc": "民居门牌通常为白底红框或白底黑字；混凝土电线杆为双圆杆倒三角结构，路灯底座较粗；路牌多为规整矩形，通常没有突出伸出的方向箭头角（以此与捷克区分）；斯洛伐克语常用带有扬抑符的字母 'ô'；相比捷克山势更高耸陡峭；城镇街道旁密集排列笔直的圆柱形水泥杆或木杆，且极常出现两根电线杆紧挨并立的现象；城镇入口白底镇名牌四周留白更大、字体更小且更粗。",
       "tags": [
         "电线杆 / Pole"
       ],
-      "descZh": "民居门牌通常为白底红框或白底黑字；混凝土电线杆为双圆杆倒三角结构，路灯底座较粗；路牌多为规整矩形，通常没有突出伸出的方向箭头角（以此与捷克区分）；斯洛伐克语常用带有扬抑符的字母 'ô'。",
-      "descEn": "House numbers are white plates with red borders; concrete poles use twin round posts in an inverted triangle; directional street signs are rectangular without pointed arrow tails (unlike Czechia); Slovak language uses letter 'ô' with circumflex.",
+      "descZh": "民居门牌通常为白底红框或白底黑字；混凝土电线杆为双圆杆倒三角结构，路灯底座较粗；路牌多为规整矩形，通常没有突出伸出的方向箭头角（以此与捷克区分）；斯洛伐克语常用带有扬抑符的字母 'ô'；相比捷克山势更高耸陡峭；城镇街道旁密集排列笔直的圆柱形水泥杆或木杆，且极常出现两根电线杆紧挨并立的现象；城镇入口白底镇名牌四周留白更大、字体更小且更粗。",
+      "descEn": "House numbers are white plates with red borders; concrete poles use twin round posts in an inverted triangle; directional street signs are rectangular without pointed arrow tails (unlike Czechia); Slovak language uses letter 'ô' with circumflex; More mountainous than Czechia; towns are packed with straight cylindrical concrete or wooden poles that very frequently stand in tight side-by-side pairs; white town entrance signs have wider white margins with smaller, bolder lettering.",
       "tagsZh": [
         "电线杆"
       ],
@@ -2819,12 +2865,12 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇸🇮",
       "link": "",
-      "desc": "地名中极高频出现介词 'pri'（如 ... pri ...）；处于阿尔卑斯高山向巴尔干喀斯特过渡的葱翠森林地貌；公路里程桩为扁平白铁板，左上角带有黄色小色块；路缘标带有黑色平顶塑料盖，背面为长方形白色反光板。",
+      "desc": "地名中极高频出现 ‘pri’ 词缀（如 Pri Cerkvi）；属于典型的阿尔卑斯山脉与巴尔干喀斯特过渡地貌；里程牌为白色方板，左上角带有黄色小方块；Bollard 柱帽为黑色，背面带有白色反光板；路牌常为白底黑字；STOP 牌与路牌背面边缘有一圈凸起的金属卷边；斯洛文尼亚路缘标顶端常有一个小凹坑（Dimple）且红色反光片比奥地利更浅亮；公交站点与辅助车道广泛涂刷黄色路面标线；绝大部分街景穿行于茂密森林与阿尔卑斯浅色斜顶民居之间。",
       "tags": [
         "路缘标 / Bollard"
       ],
-      "descZh": "地名中极高频出现 ‘pri’ 词缀（如 Pri Cerkvi）；属于典型的阿尔卑斯山脉与巴尔干喀斯特过渡地貌；里程牌为白色方板，左上角带有黄色小方块；Bollard 柱帽为黑色，背面带有白色反光板；路牌常为白底黑字。",
-      "descEn": "Place names frequently contain the word 'pri' (meaning 'at/near'); transitional topography between Julian Alps and Balkan karst; milestone markers are white plates with a small yellow square in the upper-left corner; bollards feature black caps with white rear reflectors; white road signs.",
+      "descZh": "地名中极高频出现 ‘pri’ 词缀（如 Pri Cerkvi）；属于典型的阿尔卑斯山脉与巴尔干喀斯特过渡地貌；里程牌为白色方板，左上角带有黄色小方块；Bollard 柱帽为黑色，背面带有白色反光板；路牌常为白底黑字；STOP 牌与路牌背面边缘有一圈凸起的金属卷边；斯洛文尼亚路缘标顶端常有一个小凹坑（Dimple）且红色反光片比奥地利更浅亮；公交站点与辅助车道广泛涂刷黄色路面标线；绝大部分街景穿行于茂密森林与阿尔卑斯浅色斜顶民居之间。",
+      "descEn": "Place names frequently contain the word 'pri' (meaning 'at/near'); transitional topography between Julian Alps and Balkan karst; milestone markers are white plates with a small yellow square in the upper-left corner; bollards feature black caps with white rear reflectors; white road signs; Stop and traffic signs feature a bulged metal rim around the back edge; Slovenian bollards often have a small top dimple and a brighter/lighter red reflector than Austrian ones; yellow road markings commonly highlight bus stops and auxiliary lanes; heavily forested Alpine coverage.",
       "tagsZh": [
         "路缘标"
       ],
@@ -2888,12 +2934,12 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇪🇸",
       "link": "",
-      "desc": "车牌左侧带有标准欧盟蓝色条带；停止牌标注西语 'STOP'；公路编号牌丰富规范（A-高速、N-国道、C-大区公路等）；使用标志性的平头三角切角“鲨鱼鳍”状混凝土路缘标；路牌背面通常喷涂黑色；田野间常矗立着巨大的黑色奥斯本公牛铁板剪影。",
+      "desc": "车牌左侧带欧盟蓝条；停止牌部分地区使用 Pare；路名后缀常为 Carretera；道路编号格式如 N-322；路侧广泛使用独特的白色“鲨鱼鳍”弧形路桩；警示标牌的红色边框颜色延伸涂刷到侧面厚度；乡村常见黑白对角线“禁止狩猎 (Coto de Caza)”警示小标牌；人行横道标牌拥有独特的 8 道斑马线（全欧仅西班牙与安道尔使用 8 道线）；限速牌与警告牌的粗红边框一直延伸包裹到标牌外缘侧面，且常采用长方形截面金属立柱；拥有欧洲大陆唯一的荒漠半干旱地貌，南部与内陆旱地遍布成排种植的灰绿色橄榄树林。",
       "tags": [
         "车牌 / Plate"
       ],
-      "descZh": "车牌左侧带欧盟蓝条；停止牌部分地区使用 Pare；路名后缀常为 Carretera；道路编号格式如 N-322；路侧广泛使用独特的白色“鲨鱼鳍”弧形路桩；警示标牌的红色边框颜色延伸涂刷到侧面厚度；乡村常见黑白对角线“禁止狩猎 (Coto de Caza)”警示小标牌。",
-      "descEn": "EU blue strip on left of plates; stop signs occasionally read Pare in local regions; road names suffixed with Carretera; national road format N-322; distinctive 'shark-fin' curved white roadside bollards; warning sign red borders wrap around the outer side edges; rural areas feature diagonal black-and-white 'No Hunting' (Coto de Caza) signs.",
+      "descZh": "车牌左侧带欧盟蓝条；停止牌部分地区使用 Pare；路名后缀常为 Carretera；道路编号格式如 N-322；路侧广泛使用独特的白色“鲨鱼鳍”弧形路桩；警示标牌的红色边框颜色延伸涂刷到侧面厚度；乡村常见黑白对角线“禁止狩猎 (Coto de Caza)”警示小标牌；人行横道标牌拥有独特的 8 道斑马线（全欧仅西班牙与安道尔使用 8 道线）；限速牌与警告牌的粗红边框一直延伸包裹到标牌外缘侧面，且常采用长方形截面金属立柱；拥有欧洲大陆唯一的荒漠半干旱地貌，南部与内陆旱地遍布成排种植的灰绿色橄榄树林。",
+      "descEn": "EU blue strip on left of plates; stop signs occasionally read Pare in local regions; road names suffixed with Carretera; national road format N-322; distinctive 'shark-fin' curved white roadside bollards; warning sign red borders wrap around the outer side edges; rural areas feature diagonal black-and-white 'No Hunting' (Coto de Caza) signs; Pedestrian crossing signs feature 8 stripes (shared in Europe only with Andorra); warning and speed signs have thick red borders that wrap all the way around the outer edge onto the back, mounted on rectangular metal posts; contains continental Europe's only desert terrain and vast rows of greyish-green olive groves.",
       "tagsZh": [
         "车牌特征"
       ],
@@ -2945,14 +2991,14 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇸🇪",
       "link": "",
-      "desc": "道路两侧边线为极其紧密短小的白色虚线（比挪威更短密，有时像轮胎印压痕）；限速与警告牌为黄色底色细红边；路标指示牌以线条描绘箭头轮廓；人行横道牌小人踩在 4 条白色竖线上；乡村窄路旁带有蓝底白字衬线大写 'M' 会车牌（M中间向上悬空，不触底，区别于挪威）；随处可见红色的法伦木屋 (Falu rödfärg) 与沃尔沃汽车。",
+      "desc": "道路边线为短虚线（比挪威更短密）或连续虚槽轮胎印；采用黄色背景红边的限速与警示牌；指路标志用细线勾勒出箭头轮廓；白黑双色柱身路缘标，配灰色反光板；人行标牌 4 条竖线且行人有明显脖子；乡间路边偶见蓝底白“M”字牌（M字中间不接触底部）；沃尔沃车极多；文字常用 Ä/ä, Ö/ö, å；全球唯一使用蓝底黄箭头（宜家/瑞典国旗配色）Chevron 弯道牌的国家；雪迹杆白色反光带位于杆身中部；路缘标有三种常见款式（细扁黑框白反光款、正面白色方块背面无反光的德国款、类似爱沙尼亚的圆顶款）；中部沿海及奥兰群岛常见微粉红色的花岗岩沥青路面；电线杆常见蓝白反光贴，路旁有低矮的电力标记小立柱；路名常以 -vägen 或 -gatan（简写 v./g.）结尾；旧街景常见红色或白色三代街景车。",
       "tags": [
         "路缘标 / Bollard",
         "道路标线 / Lines",
         "语言 / Script"
       ],
-      "descZh": "道路边线为短虚线（比挪威更短密）或连续虚槽轮胎印；采用黄色背景红边的限速与警示牌；指路标志用细线勾勒出箭头轮廓；白黑双色柱身路缘标，配灰色反光板；人行标牌 4 条竖线且行人有明显脖子；乡间路边偶见蓝底白“M”字牌（M字中间不接触底部）；沃尔沃车极多；文字常用 Ä/ä, Ö/ö, å。",
-      "descEn": "Road shoulders marked with short dashed white lines (shorter than Norway) or closely spaced rumble slots; speed and warning signs feature yellow background with red border; directional signs use thin outline arrows; white/black bollards with grey reflectors; pedestrian signs with 4 vertical lines and pedestrian with a visible neck; rural blue 'M' passing signs (M vertex does NOT touch the bottom); abundant Volvos; Swedish letters Ä/ä, Ö/ö, å.",
+      "descZh": "道路边线为短虚线（比挪威更短密）或连续虚槽轮胎印；采用黄色背景红边的限速与警示牌；指路标志用细线勾勒出箭头轮廓；白黑双色柱身路缘标，配灰色反光板；人行标牌 4 条竖线且行人有明显脖子；乡间路边偶见蓝底白“M”字牌（M字中间不接触底部）；沃尔沃车极多；文字常用 Ä/ä, Ö/ö, å；全球唯一使用蓝底黄箭头（宜家/瑞典国旗配色）Chevron 弯道牌的国家；雪迹杆白色反光带位于杆身中部；路缘标有三种常见款式（细扁黑框白反光款、正面白色方块背面无反光的德国款、类似爱沙尼亚的圆顶款）；中部沿海及奥兰群岛常见微粉红色的花岗岩沥青路面；电线杆常见蓝白反光贴，路旁有低矮的电力标记小立柱；路名常以 -vägen 或 -gatan（简写 v./g.）结尾；旧街景常见红色或白色三代街景车。",
+      "descEn": "Road shoulders marked with short dashed white lines (shorter than Norway) or closely spaced rumble slots; speed and warning signs feature yellow background with red border; directional signs use thin outline arrows; white/black bollards with grey reflectors; pedestrian signs with 4 vertical lines and pedestrian with a visible neck; rural blue 'M' passing signs (M vertex does NOT touch the bottom); abundant Volvos; Swedish letters Ä/ä, Ö/ö, å; The only country in the world using blue-background yellow-arrow (IKEA/flag color) chevrons; snow poles have their white reflector band in the middle; uses three bollard styles (thin flat black-box, German-style with a white square on one side only, and Estonian-like cylindrical); pinkish granite-tinted roads along the central coast and Åland; blue-and-white pole stickers and small roadside electricity marker posts; street names end in -vägen or -gatan; older Gen 3 coverage often shows a red or white Google car.",
       "tagsZh": [
         "路缘标",
         "道路标线",
@@ -2972,12 +3018,12 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇨🇭",
       "link": "",
-      "desc": "全境强制采用极低视角相机 (Lowcam)，车头正下方模糊圈极其紧凑小巧；车牌没有任何欧盟蓝色条带（前牌极短，后牌带有瑞士红盾十字国徽及州徽）；德语区一律使用 'ss' 代替字母 'ß'；公路以高山隧道、雪山峡谷与极为精致的深色百叶窗木屋著称。",
+      "desc": "全境强制采用极低视角相机 (Lowcam)，车头正下方模糊圈极其紧凑小巧；车牌没有任何欧盟蓝色条带（前牌极短，后牌带有瑞士红盾十字国徽及州徽）；德语区一律使用 'ss' 代替字母 'ß'；公路以高山隧道、雪山峡谷与极为精致的深色百叶窗木屋著称；国家顶级域名为 .ch（拉丁名 Confoederatio Helvetica，切勿误认为捷克 .cz）；路缘标为独特的圆顶白色圆柱配宽厚灰白反光环（仅瑞士与列支敦士登共有）；弯道常见中欧罕见的黑底白箭头 Chevron 导向牌；常见带金属外框的蓝底街名牌。",
       "tags": [
         "车牌 / Plate"
       ],
-      "descZh": "全境强制采用极低视角相机 (Lowcam)，车头正下方模糊圈极其紧凑小巧；车牌没有任何欧盟蓝色条带（前牌极短，后牌带有瑞士红盾十字国徽及州徽）；德语区一律使用 'ss' 代替字母 'ß'；公路以高山隧道、雪山峡谷与极为精致的深色百叶窗木屋著称。",
-      "descEn": "Universal low camera height (Lowcam) with small blur footprint; clean license plates without EU blue strips (short front plate, rear plate carries the Swiss red cross shield and canton crest); German spelling uses 'ss' instead of 'ß'; immaculate Alpine roads with avalanche sheds, turquoise glacial lakes, and chalet shutters.",
+      "descZh": "全境强制采用极低视角相机 (Lowcam)，车头正下方模糊圈极其紧凑小巧；车牌没有任何欧盟蓝色条带（前牌极短，后牌带有瑞士红盾十字国徽及州徽）；德语区一律使用 'ss' 代替字母 'ß'；公路以高山隧道、雪山峡谷与极为精致的深色百叶窗木屋著称；国家顶级域名为 .ch（拉丁名 Confoederatio Helvetica，切勿误认为捷克 .cz）；路缘标为独特的圆顶白色圆柱配宽厚灰白反光环（仅瑞士与列支敦士登共有）；弯道常见中欧罕见的黑底白箭头 Chevron 导向牌；常见带金属外框的蓝底街名牌。",
+      "descEn": "Universal low camera height (Lowcam) with small blur footprint; clean license plates without EU blue strips (short front plate, rear plate carries the Swiss red cross shield and canton crest); German spelling uses 'ss' instead of 'ß'; immaculate Alpine roads with avalanche sheds, turquoise glacial lakes, and chalet shutters; Country domain is .ch (Confoederatio Helvetica—do not confuse with Czechia .cz); cylindrical round-topped white bollards with a thick grey/white reflector band (shared only with Liechtenstein); black-background white-arrow chevrons; blue street signs often enclosed in metal frames.",
       "tagsZh": [
         "车牌特征"
       ],
@@ -3071,12 +3117,12 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇹🇷",
       "link": "",
-      "desc": "停止牌使用土耳其语 'DUR'；路缘标顶部有一圈极其鲜明的红色圆形塑料顶盖；Chevron 弯道指示牌为红底白箭头，但白色箭头线条在上下两端并不触及边缘（留有红色边空）；高速公路沥青表面常有一颗颗细碎反光的黑点碎石；清真寺宣礼塔林立。",
+      "desc": "停止牌使用土耳其语 'DUR'；路缘标顶部有一圈极其鲜明的红色圆形塑料顶盖；Chevron 弯道指示牌为红底白箭头，但白色箭头线条在上下两端并不触及边缘（留有红色边空）；高速公路沥青表面常有一颗颗细碎反光的黑点碎石；清真寺宣礼塔林立；路口常见酷似北美风格的黄底黑边菱形/方形交叉口警告牌（内绘黑色向上箭头）。",
       "tags": [
         "路缘标 / Bollard"
       ],
-      "descZh": "停止牌使用土耳其语 'DUR'；路缘标顶部有一圈极其鲜明的红色圆形塑料顶盖；Chevron 弯道指示牌为红底白箭头，但白色箭头线条在上下两端并不触及边缘（留有红色边空）；高速公路沥青表面常有一颗颗细碎反光的黑点碎石；清真寺宣礼塔林立。",
-      "descEn": "Octagonal 'DUR' stop signs; bollards feature a prominent red plastic top cap; curve chevrons are red with white arrowheads that do not touch the outer borders; highways often show mottled 'salt-and-pepper' asphalt; minarets visible across rolling Anatolian plains.",
+      "descZh": "停止牌使用土耳其语 'DUR'；路缘标顶部有一圈极其鲜明的红色圆形塑料顶盖；Chevron 弯道指示牌为红底白箭头，但白色箭头线条在上下两端并不触及边缘（留有红色边空）；高速公路沥青表面常有一颗颗细碎反光的黑点碎石；清真寺宣礼塔林立；路口常见酷似北美风格的黄底黑边菱形/方形交叉口警告牌（内绘黑色向上箭头）。",
+      "descEn": "Octagonal 'DUR' stop signs; bollards feature a prominent red plastic top cap; curve chevrons are red with white arrowheads that do not touch the outer borders; highways often show mottled 'salt-and-pepper' asphalt; minarets visible across rolling Anatolian plains; Intersections frequently feature North American-looking yellow-and-black diamond warning signs with black upward-pointing arrows.",
       "tagsZh": [
         "路缘标"
       ],
@@ -3140,13 +3186,13 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇺🇦",
       "link": "",
-      "desc": "欧洲唯一在西里尔字母中使用带点字母 'і' 和双点字母 'ї' 以及 'є, ґ' 的国家；街景车尾部常能瞥见红色车身；属于红底白箭头 Chevron “AH UBER” 国家；路边栏杆、桥头或电线杆偶尔涂刷有乌克兰国旗蓝黄双色；街道简写为 'вул.' (vulytsia)。",
+      "desc": "欧洲唯一在西里尔字母中使用带点字母 'і' 和双点字母 'ї' 以及 'є, ґ' 的国家；街景车尾部常能瞥见红色车身；属于红底白箭头 Chevron “AH UBER” 国家；路边栏杆、桥头或电线杆偶尔涂刷有乌克兰国旗蓝黄双色；街道简写为 'вул.' (vulytsia)；全境道路质量普遍极差，路面布满密集的黑色沥青修补裂缝（Tar snakes）；除最西部喀尔巴阡山外全境极度平坦，且因全部为 2015–2019 年三代老街景，画面整体色调阴暗低沉、镜头上常带模糊污渍斑点。",
       "tags": [
         "街景车 / Car Meta",
         "语言 / Script"
       ],
-      "descZh": "欧洲唯一在西里尔字母中使用带点字母 'і' 和双点字母 'ї' 以及 'є, ґ' 的国家；街景车尾部常能瞥见红色车身；属于红底白箭头 Chevron “AH UBER” 国家；路边栏杆、桥头或电线杆偶尔涂刷有乌克兰国旗蓝黄双色；街道简写为 'вул.' (vulytsia)。",
-      "descEn": "The only European Cyrillic country using letters 'і', 'ї', 'є', and 'ґ'; red camera car body visible at the bottom; red-and-white curve chevrons; roadside guardrails, bridge railings, or poles occasionally painted in national sky-blue and yellow; street abbreviated 'вул.' (vulytsia).",
+      "descZh": "欧洲唯一在西里尔字母中使用带点字母 'і' 和双点字母 'ї' 以及 'є, ґ' 的国家；街景车尾部常能瞥见红色车身；属于红底白箭头 Chevron “AH UBER” 国家；路边栏杆、桥头或电线杆偶尔涂刷有乌克兰国旗蓝黄双色；街道简写为 'вул.' (vulytsia)；全境道路质量普遍极差，路面布满密集的黑色沥青修补裂缝（Tar snakes）；除最西部喀尔巴阡山外全境极度平坦，且因全部为 2015–2019 年三代老街景，画面整体色调阴暗低沉、镜头上常带模糊污渍斑点。",
+      "descEn": "The only European Cyrillic country using letters 'і', 'ї', 'є', and 'ґ'; red camera car body visible at the bottom; red-and-white curve chevrons; roadside guardrails, bridge railings, or poles occasionally painted in national sky-blue and yellow; street abbreviated 'вул.' (vulytsia); Consistently rough, heavily cracked road surfaces covered in black tar patches; outside the far-west mountains, terrain is relentlessly flat with dark, gloomy 2015–2019 Gen 3 imagery and frequent camera lens smudges.",
       "tagsZh": [
         "街景车",
         "语言文字"
@@ -3164,15 +3210,15 @@ window.GEOGUESSR_DATA = {
       "continentZh": "欧洲",
       "flag": "🇬🇧",
       "link": "",
-      "desc": "车辆靠左侧行驶；车牌严格采用前白后黄长条标准；电话区号以 01、02（固定座机）或 07（手机）开头；道路分道线上密集嵌入猫眼反光道钉 (Cat's eyes)；电线杆上常贴有闪电击倒行人的黄色危险警告三角牌；农场铁丝网金属栏杆大门转角一律为利落的直角焊接（区别于爱尔兰圆弧角）。",
+      "desc": "车辆靠左侧行驶；车牌严格采用前白后黄长条标准；电话区号以 01、02（固定座机）或 07（手机）开头；道路分道线上密集嵌入猫眼反光道钉 (Cat's eyes)；电线杆上常贴有闪电击倒行人的黄色危险警告三角牌；农场铁丝网金属栏杆大门转角一律为利落的直角焊接（区别于爱尔兰圆弧角）；人行横道旁不挂蓝底行人牌，而是竖立黑白相间条纹立柱配顶部黄色圆球灯（Belisha beacon）；木制电线杆两侧有交错凸出的金属攀爬脚钉（形成小三角空隙）；街道名牌通过两根方形金属矮柱低矮地安装在地面上；房屋两侧常有对称凸出的烟囱（英格兰中南部多红砖房，越往北/苏格兰白墙石屋越多）；弯道使用黑底白箭头 Chevron；威尔士（常见 ll、ff、dd）与苏格兰高地使用双语路牌。",
       "tags": [
         "左行 / LHT",
         "车牌 / Plate",
         "电线杆 / Pole",
         "道路标线 / Lines"
       ],
-      "descZh": "车辆靠左侧行驶；车牌严格采用前白后黄长条标准；电话区号以 01、02（固定座机）或 07（手机）开头；道路分道线上密集嵌入猫眼反光道钉 (Cat's eyes)；电线杆上常贴有闪电击倒行人的黄色危险警告三角牌；农场铁丝网金属栏杆大门转角一律为利落的直角焊接（区别于爱尔兰圆弧角）。",
-      "descEn": "Left-hand drive; mandatory front-white, rear-yellow rectangular plates; telephone area codes start with 01/02 (landlines) or 07 (mobiles); reflective Cat's eyes embedded in road centerlines; hazard signs on poles feature a lightning bolt striking a stick figure; metal farm gates welded with crisp right angles (unlike Ireland's curved pipes).",
+      "descZh": "车辆靠左侧行驶；车牌严格采用前白后黄长条标准；电话区号以 01、02（固定座机）或 07（手机）开头；道路分道线上密集嵌入猫眼反光道钉 (Cat's eyes)；电线杆上常贴有闪电击倒行人的黄色危险警告三角牌；农场铁丝网金属栏杆大门转角一律为利落的直角焊接（区别于爱尔兰圆弧角）；人行横道旁不挂蓝底行人牌，而是竖立黑白相间条纹立柱配顶部黄色圆球灯（Belisha beacon）；木制电线杆两侧有交错凸出的金属攀爬脚钉（形成小三角空隙）；街道名牌通过两根方形金属矮柱低矮地安装在地面上；房屋两侧常有对称凸出的烟囱（英格兰中南部多红砖房，越往北/苏格兰白墙石屋越多）；弯道使用黑底白箭头 Chevron；威尔士（常见 ll、ff、dd）与苏格兰高地使用双语路牌。",
+      "descEn": "Left-hand drive; mandatory front-white, rear-yellow rectangular plates; telephone area codes start with 01/02 (landlines) or 07 (mobiles); reflective Cat's eyes embedded in road centerlines; hazard signs on poles feature a lightning bolt striking a stick figure; metal farm gates welded with crisp right angles (unlike Ireland's curved pipes); Pedestrian crossings are marked by black-and-white striped posts topped with a glowing yellow globe (Belisha beacons) rather than blue crosswalk signs; wooden telegraph poles have alternating protruding metal climbing steps; street signs are mounted low to the ground on two square posts; houses feature side chimneys (red brick in central/south England, white/stone further north); black-and-white chevrons; bilingual Welsh (ll, ff, dd) and Scottish Gaelic signs.",
       "tagsZh": [
         "左侧行驶",
         "车牌特征",
@@ -3741,6 +3787,18 @@ window.GEOGUESSR_DATA = {
             "Czechia: Retains older Gen 2 coverage; more winter bare-tree coverage.",
             "Slovakia: No Gen 2 camera; 2023 red car coverage."
           ]
+        },
+        {
+          "nameZh": "桥梁标牌与镇名牌排版",
+          "nameEn": "Bridge Number Signs & Town Signs",
+          "detailsZh": [
+            "捷克：几乎每座桥头都有黑底白框、印有 6 位数字的窄长方形桥梁编号牌；镇名牌文字较大、占满版面。",
+            "斯洛伐克：无黑底桥梁牌；镇名牌四周留白极宽，文字更小但字体更粗；城镇内常有两根圆柱电线杆紧挨并立。"
+          ],
+          "detailsEn": [
+            "Czechia: Almost every bridge displays a small black rectangular sign with a white border and 6-digit bridge number; town signs have larger text filling the board.",
+            "Slovakia: No black bridge number plaques; town entrance signs have much wider white margins with smaller, bolder text; towns frequently feature paired cylindrical poles standing side-by-side."
+          ]
         }
       ],
       "similaritiesZh": [
@@ -3850,6 +3908,18 @@ window.GEOGUESSR_DATA = {
           "detailsEn": [
             "Spain: Yellow guardrail reflectors.",
             "Portugal: Red guardrail reflectors."
+          ]
+        },
+        {
+          "nameZh": "路牌红边包边与碎石人行道",
+          "nameEn": "Sign Borders & Cobblestone Sidewalks",
+          "detailsZh": [
+            "西班牙：限速与警告牌的粗红边直接延伸包裹到标牌外侧边缘；人行道牌为 8 条竖线（与安道尔共享）。",
+            "葡萄牙：限速与警告牌红圈外留有白边与银色金属边；城乡遍布亮白色碎石拼花人行道（Calçada portuguesa）；梯子水泥杆背面有圆孔；禁猎牌为红底方框内嵌白色圆圈。"
+          ],
+          "detailsEn": [
+            "Spain: Thick red borders on speed/warning signs wrap all the way over the outer edge; pedestrian signs have 8 stripes (shared only with Andorra).",
+            "Portugal: Speed/warning signs have a distinct white outer border inside a silver rim; ubiquitous bright white limestone cobblestone sidewalks (calçada portuguesa); circular holes on the back of ladder poles; hunting signs show a white circle inside a red square."
           ]
         }
       ],
@@ -4118,6 +4188,20 @@ window.GEOGUESSR_DATA = {
             "Estonia: Trident-like wooden crossarm on hole-free solid concrete pole.",
             "Latvia: Alternating curved metal hooks directly on solid pole without crossarms.",
             "Lithuania: Short wooden crossarm on concrete pole with vertical slot holes."
+          ]
+        },
+        {
+          "nameZh": "公交站牌车窗数与护栏反光片",
+          "nameEn": "Bus Stop Windows & Guardrail Reflectors",
+          "detailsZh": [
+            "爱沙尼亚：公交站牌巴士为 4 扇窗；金属护栏无反光片；电线杆常缠绕蓝白竖条反光贴；指路牌箭头平直。",
+            "拉脱维亚：公交站牌巴士有 5 扇窗（独家秒杀）；金属护栏装红色反光片；指路牌箭头与牌身交界处向内弯曲。",
+            "立陶宛：公交站牌巴士为 4 扇窗；金属护栏装橙黄色反光片；金属里程牌与道路呈 45° 斜角；白底红箭头 Chevron 外有细红框。"
+          ],
+          "detailsEn": [
+            "Estonia: Bus stop icon has 4 windows; guardrails have no reflectors; utility poles often have blue-and-white vertical reflector wraps; flat directional arrow angles.",
+            "Latvia: Bus stop icon has 5 windows (unique Baltic tell); guardrails have red reflectors; directional sign arrow heads curve inward.",
+            "Lithuania: Bus stop icon has 4 windows; guardrails have orange reflectors; kilometer markers angled at 45° to the road; white-and-red chevrons have a thin red outer border."
           ]
         }
       ],
@@ -5057,6 +5141,180 @@ window.GEOGUESSR_DATA = {
       "similaritiesEn": [
         "Central American neighbors, Spanish, green rainforests"
       ]
+    },
+    {
+      "id": "comp-21",
+      "titleZh": "英国 VS 爱尔兰",
+      "titleEn": "United Kingdom vs. Ireland",
+      "similarities": [
+        "欧洲靠左行驶（LHT）、石墙与绿篱牧场、带攀爬脚钉的木电线杆、路面猫眼反光道钉（Cat's eyes）与中间长草的单车窄道"
+      ],
+      "similaritiesZh": [
+        "欧洲靠左行驶（LHT）、石墙与绿篱牧场、带攀爬脚钉的木电线杆、路面猫眼反光道钉（Cat's eyes）与中间长草的单车窄道"
+      ],
+      "similaritiesEn": [
+        "Left-hand traffic (LHT), stone walls & hedgerow pastures, wooden poles with alternating climbing steps, reflective road Cat's eyes, and narrow country lanes with grass down the middle"
+      ],
+      "features": [
+        {
+          "nameZh": "后车牌颜色",
+          "nameEn": "Rear License Plates",
+          "detailsZh": [
+            "英国：前白后黄（车尾一律悬挂亮黄色长牌，脱欧后大多无蓝条）。",
+            "爱尔兰：前后均为白底长牌，且左侧带有欧盟蓝条。"
+          ],
+          "detailsEn": [
+            "United Kingdom: White front plates and bright yellow rear plates (mostly without EU strip).",
+            "Ireland: White plates on both front and rear, featuring the blue EU strip on the left."
+          ]
+        },
+        {
+          "nameZh": "道路边缘标线",
+          "nameEn": "Road Edge Markings",
+          "detailsZh": [
+            "英国：道路外侧为白色边线（黄线仅出现在城区路沿代表禁停）；中线常为细长且间距窄的白虚线。",
+            "爱尔兰：公路外侧广泛使用极具辨识度的黄色虚线边线。"
+          ],
+          "detailsEn": [
+            "United Kingdom: White outer edge lines (yellow curb lines only indicate no-parking zones); long, thin center dashes.",
+            "Ireland: Widespread yellow dashed outer road edge lines."
+          ]
+        },
+        {
+          "nameZh": "电线杆高压警告贴纸",
+          "nameEn": "Pole Electric Hazard Sign",
+          "detailsZh": [
+            "英国：黄色警告牌上画有“闪电击倒小人”的图案（Danger of Death）。",
+            "爱尔兰：黄色三角形警告牌内只有一道黑色闪电，没有任何小人图案。"
+          ],
+          "detailsEn": [
+            "United Kingdom: Yellow hazard sticker shows a lightning bolt striking a person.",
+            "Ireland: Yellow triangle sticker contains only a black lightning bolt with no stick figure."
+          ]
+        },
+        {
+          "nameZh": "农场金属铁门转角",
+          "nameEn": "Metal Farm Gate Corners",
+          "detailsZh": [
+            "英国：金属农场大门外框的四个转角为方正的直角焊接。",
+            "爱尔兰：金属农场大门顶部与底部外框转角呈圆弧形弯管过渡。"
+          ],
+          "detailsEn": [
+            "United Kingdom: Metal farm gates have squared-off right-angle corners.",
+            "Ireland: Metal farm gates have rounded, curved tubular corners."
+          ]
+        },
+        {
+          "nameZh": "人行横道与警告路牌",
+          "nameEn": "Crosswalks & Warning Signs",
+          "detailsZh": [
+            "英国：斑马线旁竖立黑白条纹立柱配顶部黄球灯（Belisha beacon）；使用红边白底三角警告牌。",
+            "爱尔兰：全欧唯一使用美式黄色菱形警告牌；路缘标为独特的绿白圆柱桩。"
+          ],
+          "detailsEn": [
+            "United Kingdom: Crosswalks marked by black-and-white striped posts with yellow globes (Belisha beacons); red-bordered triangle warning signs.",
+            "Ireland: Europe's sole user of yellow diamond warning signs; distinctive green-and-white cylindrical bollards."
+          ]
+        },
+        {
+          "nameZh": "建筑材质与双语路牌",
+          "nameEn": "Architecture & Bilingual Signs",
+          "detailsZh": [
+            "英国：英格兰中南部遍布红砖排屋（两侧带烟囱），苏格兰多白/石墙；威尔士（含 ll, ff, dd）与苏格兰高地可见双语路牌。",
+            "爱尔兰：红砖房极少，普遍为白墙或浅灰抹灰墙配黑色屋顶；全国路牌普遍采用英爱双语（上方黄色斜体爱尔兰盖尔语）。"
+          ],
+          "detailsEn": [
+            "United Kingdom: Red-brick housing dominates central/southern England (with side chimneys); bilingual signs in Wales (ll, ff, dd) and Scottish Highlands.",
+            "Ireland: Much less red brick, favoring white/grey rendered walls with black slate roofs; nationwide bilingual signs with Irish Gaelic in yellow italics."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comp-22",
+      "titleZh": "【北欧三国】挪威 VS 瑞典 VS 芬兰",
+      "titleEn": "[Nordic 3] Norway vs. Sweden vs. Finland",
+      "similarities": [
+        "北欧红木屋（法伦红）与白桦/欧洲赤松林、橙色冬季雪迹杆、黄底红边警告牌（瑞典/芬兰）及高纬度寒带风光"
+      ],
+      "similaritiesZh": [
+        "北欧红木屋（法伦红）与白桦/欧洲赤松林、橙色冬季雪迹杆、黄底红边警告牌（瑞典/芬兰）及高纬度寒带风光"
+      ],
+      "similaritiesEn": [
+        "Falun-red wooden cottages, birch & Scots pine boreal forests, orange winter snow poles, and high-latitude Nordic landscapes"
+      ],
+      "features": [
+        {
+          "nameZh": "道路外侧边线",
+          "nameEn": "Outer Road Edge Lines",
+          "detailsZh": [
+            "挪威：无中心线时外侧为白色长虚线；有黄色中心线时外侧为白色实线。",
+            "瑞典：外侧普遍为密集的白色短虚线（比挪威虚线更短）。",
+            "芬兰：外侧几乎一律为连续白色实线（即使是没有中心线的乡间小路）。"
+          ],
+          "detailsEn": [
+            "Norway: Long dashed white outer lines when there is no centerline; solid white outer lines when paired with a yellow centerline.",
+            "Sweden: Short dashed white outer edge lines (shorter dashes than Norway).",
+            "Finland: Continuous solid white outer edge lines (even on narrow roads without centerlines)."
+          ]
+        },
+        {
+          "nameZh": "道路中心线与车牌",
+          "nameEn": "Centerlines & License Plates",
+          "detailsZh": [
+            "挪威：广泛使用黄色实/虚中心线；轻型商用车悬挂欧洲独有的纯绿色车牌（非欧盟国）。",
+            "瑞典：纯白色中心线；欧盟蓝条白牌，中部沿海及奥兰群岛常见微粉红色花岗岩路面。",
+            "芬兰：纯白中心线为主，但独有“一条黄实线+一条白虚线”并排中心线；欧盟蓝条白牌。"
+          ],
+          "detailsEn": [
+            "Norway: Yellow centerlines are very common; commercial vans/pickups use solid green license plates.",
+            "Sweden: All-white centerlines; EU plates; pinkish granite road surfaces along the central coast and Åland.",
+            "Finland: Mostly white centerlines, plus a unique European 'one solid yellow line + one dashed white line' centerline."
+          ]
+        },
+        {
+          "nameZh": "弯道导向牌 (Chevrons)",
+          "nameEn": "Curve Chevrons",
+          "detailsZh": [
+            "挪威：黑底黄箭头。",
+            "瑞典：全球独一无二的蓝底黄箭头（宜家/瑞典国旗配色）。",
+            "芬兰：黑底黄箭头。"
+          ],
+          "detailsEn": [
+            "Norway: Black background with yellow arrows.",
+            "Sweden: World-exclusive blue background with yellow arrows (IKEA / Swedish flag colors).",
+            "Finland: Black background with yellow arrows."
+          ]
+        },
+        {
+          "nameZh": "路牌安装方式与限速牌",
+          "nameEn": "Sign Mounting & Speed Signs",
+          "detailsZh": [
+            "挪威：路牌与公交站牌背面常由一根仅伸到一半高度的副金属圆管托举（配 3 颗垂直螺栓或窄距 4 螺栓）；白底红圈限速牌。",
+            "瑞典：黄底红边警告牌与偶见黄底限速牌；蓝底白 M 避车牌中间尖角不触底。",
+            "芬兰：黄底红边限速牌与警告牌最为普遍；大量秋季拍摄的二代（Gen 2）街景。"
+          ],
+          "detailsEn": [
+            "Norway: Signs and bus stops are held up by a secondary round metal pipe clamp stopping halfway up the back; white speed limit signs.",
+            "Sweden: Yellow-fill warning signs; blue 'M' passing signs where the center vertex of M does not touch the bottom.",
+            "Finland: Bright yellow speed limit and warning signs are much more common; abundant autumn Gen 2 coverage."
+          ]
+        },
+        {
+          "nameZh": "雪迹杆与路名后缀",
+          "nameEn": "Snow Poles & Street Suffixes",
+          "detailsZh": [
+            "挪威：雪迹杆白色反光条位于中部；路名以 -gate / -gata / -vei / -veien 结尾（含字母 ø, æ, å）。",
+            "瑞典：雪迹杆白色反光条位于中部；路名以 -vägen / -gatan 结尾（含字母 ö, ä, å）。",
+            "芬兰：雪迹杆白色反光条极靠近最顶端；路名以 -tie / -katu 结尾（双元音/双辅音极长词）。"
+          ],
+          "detailsEn": [
+            "Norway: Snow pole white reflector in the middle; streets end in -gate / -gata / -vei / -veien (uses ø, æ, å).",
+            "Sweden: Snow pole white reflector in the middle; streets end in -vägen / -gatan (uses ö, ä, å).",
+            "Finland: Snow pole white reflector very close to the top; streets end in -tie / -katu (double vowels/consonants)."
+          ]
+        }
+      ]
     }
   ],
   "regionalGuides": [
@@ -5783,26 +6041,26 @@ window.GEOGUESSR_DATA = {
       "nameEn": "Greenland",
       "location": "北美东北角与北冰洋之间",
       "sovereign": "丹麦王国自治领地",
-      "meta": "极地峡湾风貌，完全没有树木；色彩极其鲜艳明快的小木屋（红、黄、蓝、绿木板房）；碎石砾与冰山海湾；三轮皮卡或徒步拍摄背包镜头；丹麦语和格陵兰语路牌。",
+      "meta": "极地峡湾风貌，完全没有树木；色彩极其鲜艳明快的小木屋（红、黄、蓝、绿木板房）；碎石砾与冰山海湾；三轮皮卡或徒步拍摄背包镜头；丹麦语和格陵兰语路牌；首府努克（Nuuk）街景由独特的灰色皮卡（露出黑色后视镜）拍摄；西西缪特（Sisimiut）及东南部小城常见带后视镜的全地形四轮越野车（ATV）街景，背景为巍峨雪山，且所有定居点均紧邻海岸。",
       "locationZh": "北美东北角与北冰洋之间",
       "locationEn": "North America / Arctic Ocean",
       "sovereignZh": "丹麦王国自治领地",
       "sovereignEn": "Autonomous Territory of Denmark",
-      "metaZh": "极地峡湾风貌，完全没有树木；色彩极其鲜艳明快的小木屋（红、黄、蓝、绿木板房）；碎石砾与冰山海湾；三轮皮卡或徒步拍摄背包镜头；丹麦语和格陵兰语路牌。",
-      "metaEn": "Arctic tundra landscape with zero trees; brightly painted colorful wooden houses (red, yellow, blue, green); gravel roads overlooking iceberg-strewn fjords; Danish and Greenlandic (Inuit) signage."
+      "metaZh": "极地峡湾风貌，完全没有树木；色彩极其鲜艳明快的小木屋（红、黄、蓝、绿木板房）；碎石砾与冰山海湾；三轮皮卡或徒步拍摄背包镜头；丹麦语和格陵兰语路牌；首府努克（Nuuk）街景由独特的灰色皮卡（露出黑色后视镜）拍摄；西西缪特（Sisimiut）及东南部小城常见带后视镜的全地形四轮越野车（ATV）街景，背景为巍峨雪山，且所有定居点均紧邻海岸。",
+      "metaEn": "Arctic tundra landscape with zero trees; brightly painted colorful wooden houses (red, yellow, blue, green); gravel roads overlooking iceberg-strewn fjords; Danish and Greenlandic (Inuit) signage Capital Nuuk is captured by a distinctive grey pickup truck with black side mirrors; smaller coastal towns like Sisimiut and SE settlements feature ATV/quad-bike coverage with visible mirrors, towering snow-capped peaks, and constant proximity to the coast."
     },
     {
       "nameZh": "法罗群岛",
       "nameEn": "Faroe Islands",
       "location": "北大西洋，冰岛与挪威之间",
       "sovereign": "丹麦自治领地",
-      "meta": "街景车车顶有三根黑色金属横杆；苍翠翠绿的陡峭无树火山群山与峡湾，终年多雨雾；传统黑色木屋配绿色草皮屋顶；黄色单线羊群警示牌；黄色中线加两侧白色虚线。",
+      "meta": "街景车车顶有三根黑色金属横杆；苍翠翠绿的陡峭无树火山群山与峡湾，终年多雨雾；传统黑色木屋配绿色草皮屋顶；黄色单线羊群警示牌；黄色中线加两侧白色虚线；常露出带螺纹的长天线与皮卡模糊轮廓，偶见不同于冰岛的黄色路缘桩。",
       "locationZh": "北大西洋，冰岛与挪威之间",
       "locationEn": "North Atlantic, between Iceland & Norway",
       "sovereignZh": "丹麦自治领地",
       "sovereignEn": "Autonomous Territory of Denmark",
-      "metaZh": "街景车车顶有三根黑色金属横杆；苍翠翠绿的陡峭无树火山群山与峡湾，终年多雨雾；传统黑色木屋配绿色草皮屋顶；黄色单线羊群警示牌；黄色中线加两侧白色虚线。",
-      "metaEn": "Camera car displays three black roof bars; dramatic emerald-green, treeless slopes dropping into ocean waters under moody clouds; turf-roofed traditional black timber homes; yellow sheep warning signs."
+      "metaZh": "街景车车顶有三根黑色金属横杆；苍翠翠绿的陡峭无树火山群山与峡湾，终年多雨雾；传统黑色木屋配绿色草皮屋顶；黄色单线羊群警示牌；黄色中线加两侧白色虚线；常露出带螺纹的长天线与皮卡模糊轮廓，偶见不同于冰岛的黄色路缘桩。",
+      "metaEn": "Camera car displays three black roof bars; dramatic emerald-green, treeless slopes dropping into ocean waters under moody clouds; turf-roofed traditional black timber homes; yellow sheep warning signs Often shows a large truck blur with an exposed ridged long antenna and occasional yellow bollards distinct from Iceland's."
     },
     {
       "nameZh": "斯瓦尔巴群岛",
@@ -5842,6 +6100,19 @@ window.GEOGUESSR_DATA = {
       "sovereignEn": "British Crown Dependency",
       "metaZh": "全境覆盖二代低画质镜头；车辆靠左行驶；车牌左侧带有独特的鲜红色条纹（三曲腿图腾）；起伏开阔的牧场丘陵石墙，路旁有山石与蕨类植物。",
       "metaEn": "Covered almost entirely in Gen 2 camera; left-hand drive; license plates feature a red band on the left with the Isle of Man triskelion emblem; coastal rolling hills and stone pastures."
+    },
+    {
+      "nameZh": "泽西岛与根西岛（海峡群岛）",
+      "nameEn": "Jersey & Guernsey (Channel Islands)",
+      "location": "英吉利海峡，法国诺曼底西北外海",
+      "sovereign": "英国王室属地",
+      "meta": "全境仅覆盖二代低画质街景（底部大圆圈模糊配顶部光晕）；车辆靠左行驶；最具排他性的绝杀特征是支路汇入主路的T字路口停止线处画有一条粗黄实线（全欧仅根西岛与泽西岛使用）；绿树灌木篱墙环绕的狭窄乡道，温润海岛气候。",
+      "locationZh": "英吉利海峡，法国诺曼底西北外海",
+      "locationEn": "English Channel, off the NW coast of Normandy, France",
+      "sovereignZh": "英国王室属地",
+      "sovereignEn": "British Crown Dependencies",
+      "metaZh": "全境仅覆盖二代低画质街景（Gen 2，底部巨大圆圈模糊配顶部光晕）；车辆靠左行驶；全欧独一无二的路口绝杀特征：支路汇入主路的路口横画一条连续粗黄实线作为让行线；气候比英国本土温和苍翠，遍布灌木绿篱与石墙窄路。",
+      "metaEn": "Covered exclusively in Gen 2 camera (large bottom circle blur and sky halo); left-hand traffic; 100% unique European road-marking meta: a continuous solid yellow transverse line painted across side-road intersections where one road meets another; lush green hedgerow lanes and mild coastal scenery."
     },
     {
       "nameZh": "亚速群岛",
@@ -6756,8 +7027,8 @@ window.GEOGUESSR_DATA = {
         {
           "titleZh": "特殊底色与区域识别",
           "titleEn": "Special Plate Colors & Regional Metas",
-          "textZh": "- **黑底白字车牌：**\n    - **印度尼西亚：** 白字分为三段（摩托车同样强制挂前车牌）。\n    - **马来西亚：** 白字分为一段或两段，车牌相对短小。\n    - **列支敦士登：** 整体呈深黑/深灰质感，中间偏左带有黄红双色皇冠小国徽。\n    - **突尼斯：** 军警车辆为纯黑底车牌，左侧带有醒目的红色标记。\n    - **阿根廷：** 旧车牌模糊后中间呈现明显的大黑圆点（新式车牌上方带浅蓝横条）。\n- **白底红字车牌：**\n    - **比利时：** 独特的酒红色字体，在街景模糊算法下整体呈现偏粉红色调。\n- **红底与橙底车牌：**\n    - **不丹：** 标志性的深暗红底白字车牌。\n    - **阿曼：** 商用营运车辆为红底车牌（普通私家车为黄底）。\n    - **厄瓜多尔：** 商用车辆为亮橙色牌（私家车为白底，顶部带橙色细条）。\n    - **智利：** 商用运营车辆采用橙色车牌。\n- **绿底与特殊色车牌：**\n    - **挪威：** 双座商业轻卡与皮卡采用绿色车牌。\n    - **匈牙利：** 新能源电动车使用浅绿色车牌。\n    - **塞尔维亚：** 农用拖拉机与机械使用绿色车牌。\n    - **印度：** 电动汽车专用绿色长牌。\n    - **巴拿马：** 上绿下白双色拼接车牌。\n    - **丹麦：** 商用车有时使用独特的“鹦鹉车牌”（左蓝、中黄、右白混拼）。\n- **左侧红边车牌：**\n    - **吉尔吉斯斯坦：** 车牌左侧有醒目的红色长方形竖条（内嵌国旗）。\n    - **卡塔尔：** 车牌左端带有暗红色马龙纹垂直条带。\n    - **摩纳哥：** 极细红边短车牌。\n    - **阿尔巴尼亚：** 部分旧式或特殊车辆左侧带有细红条。",
-          "textEn": "- **Black Plates with White Characters:**\n    - **Indonesia:** Characters split into 3 distinct segments (motorcycles mandate front plates).\n    - **Malaysia:** Characters in 1 or 2 blocks, shorter plate dimensions.\n    - **Liechtenstein:** Charcoal black background (looks grayish blurred), gold/red royal crest.\n    - **Tunisia:** Police and military vehicles carry black plates with bold red badges on left.\n    - **Argentina:** Older plates blur into a distinctive centered black dot (newer Mercosur plates have blue top bar).\n- **White Plates with Red Characters:**\n    - **Belgium:** Maroon red characters cause blurred plates to glow soft pink.\n- **Red & Orange Plates:**\n    - **Bhutan:** Iconic dark red plates with white characters.\n    - **Oman:** Commercial transport plates have solid red background.\n    - **Ecuador:** Commercial plates are bright orange (civilian plates white with orange top line).\n    - **Chile:** Commercial transport vehicles carry orange plates.\n- **Green & Multi-color Plates:**\n    - **Norway:** Commercial utility vans and 2-seater pickups carry bright green plates.\n    - **Hungary:** Electric vehicles carry mint-green plates.\n    - **Serbia:** Agricultural tractors carry dark green plates.\n    - **India:** EV vehicles carry green rectangular plates.\n    - **Panama:** Distinctive green-top, white-bottom two-tone plate.\n    - **Denmark:** Commercial 'parrot plates' feature yellow left body and white right strip with blue EU band.\n- **Red Left Stripe Plates:**\n    - **Kyrgyzstan:** Bold red rectangular strip on the left containing flag and 'KG'.\n    - **Qatar:** Dark maroon vertical chevron band on left side.\n    - **Monaco:** Very narrow red left border on short plates.\n    - **Albania:** Certain older or special plates show red vertical left accents."
+          "textZh": "- **黑底白字车牌：**\n    - **印度尼西亚：** 白字分为三段（摩托车同样强制挂前车牌）。\n    - **马来西亚：** 白字分为一段或两段，车牌相对短小。\n    - **列支敦士登：** 整体呈深黑/深灰质感，中间偏左带有黄红双色皇冠小国徽。\n    - **突尼斯：** 军警车辆为纯黑底车牌，左侧带有醒目的红色标记。\n    - **阿根廷：** 旧车牌模糊后中间呈现明显的大黑圆点（新式车牌上方带浅蓝横条）。\n- **白底红字车牌：**\n    - **比利时：** 独特的酒红色字体，在街景模糊算法下整体呈现偏粉红色调。\n- **红底与橙底车牌：**\n    - **不丹：** 标志性的深暗红底白字车牌。\n    - **阿曼：** 商用营运车辆为红底车牌（普通私家车为黄底）。\n    - **厄瓜多尔：** 商用车辆为亮橙色牌（私家车为白底，顶部带橙色细条）。\n    - **智利：** 商用运营车辆采用橙色车牌。\n- **绿底与特殊色车牌：**\n    - **挪威：** 双座商业轻卡与皮卡采用绿色车牌。\n    - **匈牙利：** 新能源电动车使用浅绿色车牌。\n    - **塞尔维亚：** 农用拖拉机与机械使用绿色车牌。\n    - **印度：** 电动汽车专用绿色长牌。\n    - **巴拿马：** 上绿下白双色拼接车牌。\n    - **丹麦：** 商用车有时使用独特的“鹦鹉车牌”（左蓝、中黄、右白混拼）。\n- **左侧红边车牌：**\n    - **吉尔吉斯斯坦：** 车牌左侧有醒目的红色长方形竖条（内嵌国旗）。\n    - **卡塔尔：** 车牌左端带有暗红色马龙纹垂直条带。\n    - **摩纳哥：** 极细红边短车牌。\n    - **阿尔巴尼亚：** 部分旧式或特殊车辆左侧带有细红条。\n    - **塞浦路斯：** 租车（Rental vehicles）使用醒目的纯红底车牌（普通车混用白底与黄底车牌）。\n    - **丹麦：** 商用货车除“鹦鹉牌”外，亦广泛悬挂纯黄底商用车牌。\n    - **奥地利：** 白底车牌上下边缘各有一条细红线，远看略带微红边框感。",
+          "textEn": "- **Black Plates with White Characters:**\n    - **Indonesia:** Characters split into 3 distinct segments (motorcycles mandate front plates).\n    - **Malaysia:** Characters in 1 or 2 blocks, shorter plate dimensions.\n    - **Liechtenstein:** Charcoal black background (looks grayish blurred), gold/red royal crest.\n    - **Tunisia:** Police and military vehicles carry black plates with bold red badges on left.\n    - **Argentina:** Older plates blur into a distinctive centered black dot (newer Mercosur plates have blue top bar).\n- **White Plates with Red Characters:**\n    - **Belgium:** Maroon red characters cause blurred plates to glow soft pink.\n- **Red & Orange Plates:**\n    - **Bhutan:** Iconic dark red plates with white characters.\n    - **Oman:** Commercial transport plates have solid red background.\n    - **Ecuador:** Commercial plates are bright orange (civilian plates white with orange top line).\n    - **Chile:** Commercial transport vehicles carry orange plates.\n- **Green & Multi-color Plates:**\n    - **Norway:** Commercial utility vans and 2-seater pickups carry bright green plates.\n    - **Hungary:** Electric vehicles carry mint-green plates.\n    - **Serbia:** Agricultural tractors carry dark green plates.\n    - **India:** EV vehicles carry green rectangular plates.\n    - **Panama:** Distinctive green-top, white-bottom two-tone plate.\n    - **Denmark:** Commercial 'parrot plates' feature yellow left body and white right strip with blue EU band.\n- **Red Left Stripe Plates:**\n    - **Kyrgyzstan:** Bold red rectangular strip on the left containing flag and 'KG'.\n    - **Qatar:** Dark maroon vertical chevron band on left side.\n    - **Monaco:** Very narrow red left border on short plates.\n    - **Albania:** Certain older or special plates show red vertical left accents.\n    - **Cyprus:** Rental vehicles use distinctive bright red license plates (standard cars mix white and yellow plates).\n    - **Denmark:** Commercial vans and trucks widely use solid yellow plates (in addition to blue/yellow/white 'parrot' plates).\n    - **Austria:** White plates feature thin red horizontal stripes along the top and bottom edges."
         }
       ],
       "rawContent": "# 车牌\n\n### **欧洲蓝条系列**\n\n- **双蓝条（左+右）：**\n    - **意大利：**前牌极短，后牌长\n    - **法国：只有**2009年后有双蓝条，其它车单蓝条，（长天线）\n    - **阿尔巴尼亚：蓝条更粗更深，（**伴随断裂天空）\n- **单左蓝条：**\n    - 大多数欧盟国家\n    - **葡萄牙：**右侧常带黄色年份条\n    - 比利时：红字造成白色部分偏红\n    - **以色列：**虽非欧盟但格式极似\n- **欧洲无蓝条国家：**\n    - **瑞士：**前短(上方左侧红色，右侧红橙色)；后长(左侧带红盾国徽)\n    - **圣马力诺：白底短车**牌，最左边徽章(模糊后浅黄色)，右边一点红色字（模糊后大红点），右半边蓝色字体（模糊后蓝色一片）\n    - **摩纳哥：短车**牌，左上红色徽章（模糊后红色一片），右边蓝色字体（模糊后蓝色一片）\n    - 列士敦士登：长车牌，黑底白字（模糊后灰白一片），中间偏左有红黄徽章\n    - 冰岛: 长车牌，纯白/银色，蓝字（模糊后灰白一片）\n    - **波黑：**全白无条\n    - **俄罗斯/乌克兰/白俄罗斯: 通常没有蓝条**\n\n### **黄橙色背景系列**\n\n- 全黄（前后皆黄）：\n    - 荷兰：左侧蓝条，长车牌\n    - 卢森堡：左侧蓝条，车牌较荷兰短（全大写路牌）\n    - 以色列：左侧蓝条，长车牌\n    - 哥伦比亚：南美唯一，明亮短车牌\n    - 老挝：东南亚唯一\n    - 阿曼：阿拉伯国家唯一\n    - 纳米比亚：非洲唯一\n- 前白后黄：\n    - **英国：**左侧蓝条\n    - 马恩岛：左侧红色条纹\n    - 直布罗陀：左侧蓝条\n    - 塞浦路斯\n    - 香港：没有蓝条\n    - 博茨瓦纳：南部非洲唯一\n    - 肯尼亚：前面长白车牌，后面近正方形黄车牌\n    - 卢旺达：前后均为长车牌\n    - 斯里兰卡：前面长白车牌，后面短黄车牌\n    - 加纳\n- 商用车黄牌：\n    - 秘鲁：出租车黄色牌照\n    - 印度：商用车黄色长牌照\n    - 日本：货运或快递业务的小排量轻型车辆，黄底黑字\n    - 泰国：巴士，卡车黄牌\n    - 土耳其：黄底黑字\n    - 印尼\n\n### **特殊**\n\n- 黑底白字\n    - **印度尼西亚：**白字分三段\n    - **马来西亚：**白字分两段或一段，车牌短\n    - **列支敦士登：因为白字显得整体呈灰色，中间**带黄红小国徽\n    - **突尼斯：**军警车为黑拍照，左侧带明显红色标记\n    - 阿根廷：旧车牌模糊后中间看似大黑点（新车牌上面蓝横条）\n- 白底红字：\n    - **比利时：模糊下偏粉红**\n- 红底/橙底：\n    - **不丹：深红底**\n    - 阿曼：商用车红底车牌（普通车黄底）\n    - 厄瓜多尔：商用车橙色（普通车白底，有时上面有橙色横条）\n    - 智利：商用车橙色\n- 上绿下白\n    - 巴拿马\n- 绿底：\n    - **挪威：**商用车为绿色牌\n    - 匈牙利：电动车牌浅绿牌\n    - 塞尔维亚：农用车绿色牌\n    - 印度：电动车绿色长牌照\n- 左侧红边：\n    - **吉尔吉斯斯坦**\n    - 卡塔尔：暗红竖条\n    - 摩纳哥：极细红边，短车牌\n    - 阿尔巴尼亚（部分车）\n\n### **其它**\n\n- 摩托车：印尼要求有前车牌\n- 丹麦：有些商用车为鹦鹉车牌（蓝黄白）",
@@ -6831,8 +7102,8 @@ window.GEOGUESSR_DATA = {
         {
           "titleZh": "混凝土方孔杆与梯子杆",
           "titleEn": "Holey & Ladder Concrete Poles",
-          "textZh": "- **方孔型水泥杆 (Holey Poles)：**\n    - **匈牙利 (H-holes)：** H 型，从头到脚通体分布长方形通孔。\n    - **波兰 (P-holes)：** P 型，底部约 1.5 米为实心纯混凝土无孔，上方才开始开孔。\n    - **罗马尼亚 (R-holes)：** R 型，带通孔，底部常涂刷白色油漆防护圈，常带有黄色警示贴纸，无 A-frame 支撑。\n    - **比利时：** 方孔边缘偏圆润平滑。\n    - **斯里兰卡：** 巨大矩形通孔。\n- **梯子型电线杆 (Ladder Poles)：**\n    - **巴西：** 下部梯子型，隔板数大约为 3，上部有小孔，方形截面。\n    - **厄瓜多尔：** 下部梯子型，隔板数明显偏多，上部带小孔。\n    - **智利：** 下部梯子型，最下方的横档隔板间距极大，上部收窄。\n    - **葡萄牙 / 北马其顿：** 梯子较瘦，隔板较少，有时后面有圆孔，上方有凹点。\n    - **西班牙 / 法国：** 梯子较瘦，隔板密集。\n    - **土耳其：** 金属梯子电线杆。\n    - **柬埔寨：** 类似法国梯子杆。\n    - **越南：** 四个面全部有镂空梯子横档。\n    - **尼日利亚：** 类似巴西梯子杆。\n    - **塞内加尔：** 类似法国梯子杆。\n    - **澳大利亚 (北领地 NT)：** 红色荒漠中常见生锈带孔金属电线杆。\n    - **新西兰：** 梯子极少甚至完全没有，类似智利风格。",
-          "textEn": "- **Holey Concrete Poles:**\n    - **Hungary (H-holes):** Rectangular holes running continuously from bottom to very top.\n    - **Poland (P-holes):** Bottom base section (approx 1.5m) is solid concrete without holes.\n    - **Romania (R-holes):** Rectangular holes with white-painted base collar and yellow warning stickers; no A-frame.\n    - **Belgium:** Rectangular holes with rounded curved corners.\n    - **Sri Lanka:** Very large rectangular openings.\n- **Ladder Concrete Poles:**\n    - **Brazil:** Ladder design with around 3 rungs on lower half, square cross-section.\n    - **Ecuador:** Ladder design with significantly more rungs.\n    - **Chile:** Very wide spacing between bottom rungs, tapering upwards.\n    - **Portugal / North Macedonia:** Slender ladder poles with fewer rungs, indented dots above.\n    - **Spain / France:** Slender ladder poles with densely spaced rungs.\n    - **Turkey:** Metal ladder utility poles.\n    - **Cambodia:** Similar to French ladder style.\n    - **Vietnam:** Four-sided hollow ladder rungs.\n    - **Nigeria:** Similar to Brazilian ladder design.\n    - **Senegal:** Similar to French ladder design.\n    - **Australia (Northern Territory):** Rusty metal poles with punched holes across desert outback.\n    - **New Zealand:** Extremely sparse ladder rungs, tapering up."
+          "textZh": "- **方孔型水泥杆 (Holey Poles)：**\n    - **匈牙利 (H-holes)：** H 型，从头到脚通体分布长方形通孔。\n    - **波兰 (P-holes)：** P 型，底部约 1.5 米为实心纯混凝土无孔，上方才开始开孔。\n    - **罗马尼亚 (R-holes)：** R 型，带通孔，底部常涂刷白色油漆防护圈，常带有黄色警示贴纸，无 A-frame 支撑。\n    - **比利时：** 方孔边缘偏圆润平滑。\n    - **斯里兰卡：** 巨大矩形通孔。\n- **梯子型电线杆 (Ladder Poles)：**\n    - **巴西：** 下部梯子型，隔板数大约为 3，上部有小孔，方形截面。\n    - **厄瓜多尔：** 下部梯子型，隔板数明显偏多，上部带小孔。\n    - **智利：** 下部梯子型，最下方的横档隔板间距极大，上部收窄。\n    - **葡萄牙 / 北马其顿：** 梯子较瘦，隔板较少，有时后面有圆孔，上方有凹点。\n    - **西班牙 / 法国：** 梯子较瘦，隔板密集。\n    - **土耳其：** 金属梯子电线杆。\n    - **柬埔寨：** 类似法国梯子杆。\n    - **越南：** 四个面全部有镂空梯子横档。\n    - **尼日利亚：** 类似巴西梯子杆。\n    - **塞内加尔：** 类似法国梯子杆。\n    - **澳大利亚 (北领地 NT)：** 红色荒漠中常见生锈带孔金属电线杆。\n    - **新西兰：** 梯子极少甚至完全没有，类似智利风格。\n    - **法国（方形盲孔杆）：** 水泥杆身带有排列整齐的方形/长方形凹槽，但**不穿透背面**（有实心背板，借此区分匈牙利/罗马尼亚/比利时的通孔杆）。",
+          "textEn": "- **Holey Concrete Poles:**\n    - **Hungary (H-holes):** Rectangular holes running continuously from bottom to very top.\n    - **Poland (P-holes):** Bottom base section (approx 1.5m) is solid concrete without holes.\n    - **Romania (R-holes):** Rectangular holes with white-painted base collar and yellow warning stickers; no A-frame.\n    - **Belgium:** Rectangular holes with rounded curved corners.\n    - **Sri Lanka:** Very large rectangular openings.\n- **Ladder Concrete Poles:**\n    - **Brazil:** Ladder design with around 3 rungs on lower half, square cross-section.\n    - **Ecuador:** Ladder design with significantly more rungs.\n    - **Chile:** Very wide spacing between bottom rungs, tapering upwards.\n    - **Portugal / North Macedonia:** Slender ladder poles with fewer rungs, indented dots above.\n    - **Spain / France:** Slender ladder poles with densely spaced rungs.\n    - **Turkey:** Metal ladder utility poles.\n    - **Cambodia:** Similar to French ladder style.\n    - **Vietnam:** Four-sided hollow ladder rungs.\n    - **Nigeria:** Similar to Brazilian ladder design.\n    - **Senegal:** Similar to French ladder design.\n    - **Australia (Northern Territory):** Rusty metal poles with punched holes across desert outback.\n    - **New Zealand:** Extremely sparse ladder rungs, tapering up.\n    - **France (Recessed square dimples):** Concrete poles feature neat square/rectangular indentations that **do NOT go all the way through** (closed solid back, unlike Hungary/Romania/Belgium)."
         },
         {
           "titleZh": "八边形杆、圆杆与特殊结构",
@@ -6849,8 +7120,8 @@ window.GEOGUESSR_DATA = {
         {
           "titleZh": "底部涂装、金属环、贴纸与变电箱",
           "titleEn": "Base Markings, Decals & Substations",
-          "textZh": "- **底部条纹涂装：**\n    - **中国台湾：** 黄黑斜条纹一直涂刷延伸到地面。\n    - **韩国：** 黄黑斜条纹离地面有数十厘米空白，不接触地面。\n    - **日本：** 竖向黑黄/黑色条纹，通常不接触地面。\n- **黑袜子（底部一圈黑色上方刷白）：** **俄罗斯**与前苏联地区。\n- **色段与底部刷色：**\n    - 印尼（红白相间段）；以色列（黑白相间段）；哥伦比亚 / 秘鲁（黄黑相间段）。\n    - 多米尼加（底部一人高涂刷各种鲜艳颜色）；西澳大利亚（底部刷绿漆）。\n    - 斯洛伐克（木杆底部用混凝土柱加固支撑）；北美（拉线贴地处带黄色塑料套管）。\n- **金属环与贴纸：**\n    - **新西兰：** 杆身中间有一圈金属环包裹电线杆四周（防负鼠攀爬）。\n    - **澳大利亚塔斯马尼亚：** 杆身有一圈橄榄绿色的金属环。\n    - **美国加州：** 木杆上常有三条黄色金属箍；夏威夷一条。\n    - **贴纸：** 法国蓝贴纸；德国白色正方形贴纸；意大利横长方形白贴纸；马来西亚/澳洲QSL黑色贴纸；英国黄色贴纸（有人形图案）、爱尔兰黄色贴纸（无人形图案）；罗马尼亚黄贴纸；秘鲁各色贴纸。\n    - **支架：** 木杆两侧金属架，英国顶端平整，爱尔兰顶端倾斜。\n- **变电箱警告标识：**\n    - **拉脱维亚：** 黄色三角黑色闪电标志，变电箱编码（`KS-xxxx` 或 `ST-xxxx` 格式）。\n    - **意大利：** Enel（国家电力公司）标志与红色多重折线闪电。\n    - **波兰：** `ST` 开头代码配合波兰语黄色或白色警告标牌。\n    - **墨西哥：** CFE 绿色圆形标志，中心带白色闪电。\n    - **哥伦比亚：** 大面积亮黄底黑字贴纸，波哥大常喷印 `CODENSA`。\n- **进阶文献与实战训练**：\n    - [Notable Poles Document by Zig8zag](https://docs.google.com/document/d/1_H5ignyvO42ACFfr7n02o0x2EyPYUhD-vgMNbnQANe4/edit?tab=t.0)\n    - [欧洲电线杆专项排位对决地图 (Learnable Meta)](https://www.geoguessr.com/game/PV8znvPnYXhdy31D)",
-          "textEn": "- **Base Hazard Stripes:**\n    - **Taiwan:** Yellow and black diagonal stripes reach all the way down to the ground.\n    - **South Korea:** Diagonal hazard stripes stop short of the ground.\n    - **Japan:** Vertical black/yellow hazard stripes that generally do not touch the ground.\n- **Black Socks (Black base collar with white trunk above):** **Russia** and former Soviet territories.\n- **Color Blocks:**\n    - Indonesia (red-white), Israel (black-white), Colombia / Peru (yellow-black).\n    - Dominican Republic (man-height brightly painted base); Western Australia (green base).\n    - Slovakia (wooden poles reinforced by concrete base pillar); North America (yellow plastic guy wire guards).\n- **Metal Bands & Decals:**\n    - **New Zealand:** Wide metal band wrapping fully around the pole trunk (possum guard).\n    - **Tasmania (Australia):** Olive-green metal collar around the trunk.\n    - **California (US):** Three yellow metal bands around wooden poles; Hawaii has one.\n    - **Stickers:** France blue; Germany square white; Italy horizontal white; Malaysia black; UK yellow (with stickman); Ireland yellow (no stickman); Romania yellow; Peru multi-color.\n    - **Struts:** Wood pole metal side brackets have flat top in UK vs slanted top in Ireland.\n- **Substation Box Logos:**\n    - **Latvia:** Yellow triangle lightning with 'KS-xxxx' or 'ST-xxxx' serials.\n    - **Italy:** Enel logo with multi-kinked red lightning bolt.\n    - **Poland:** 'ST' code on Polish warning plaques.\n    - **Mexico:** CFE green round seal with white lightning bolt.\n    - **Colombia:** Bright yellow warning placards; Bogotá shows 'CODENSA' stencils.\n- **Advanced Documents & Practice Maps**:\n    - [Notable Poles Document by Zig8zag](https://docs.google.com/document/d/1_H5ignyvO42ACFfr7n02o0x2EyPYUhD-vgMNbnQANe4/edit?tab=t.0)\n    - [European Poles Dedicated Practice Map (Learnable Meta)](https://www.geoguessr.com/game/PV8znvPnYXhdy31D)"
+          "textZh": "- **底部条纹涂装：**\n    - **中国台湾：** 黄黑斜条纹一直涂刷延伸到地面。\n    - **韩国：** 黄黑斜条纹离地面有数十厘米空白，不接触地面。\n    - **日本：** 竖向黑黄/黑色条纹，通常不接触地面。\n- **黑袜子（底部一圈黑色上方刷白）：** **俄罗斯**与前苏联地区。\n- **色段与底部刷色：**\n    - 印尼（红白相间段）；以色列（黑白相间段）；哥伦比亚 / 秘鲁（黄黑相间段）。\n    - 多米尼加（底部一人高涂刷各种鲜艳颜色）；西澳大利亚（底部刷绿漆）。\n    - 斯洛伐克（木杆底部用混凝土柱加固支撑）；北美（拉线贴地处带黄色塑料套管）。\n- **金属环与贴纸：**\n    - **新西兰：** 杆身中间有一圈金属环包裹电线杆四周（防负鼠攀爬）。\n    - **澳大利亚塔斯马尼亚：** 杆身有一圈橄榄绿色的金属环。\n    - **美国加州：** 木杆上常有三条黄色金属箍；夏威夷一条。\n    - **贴纸：** 法国蓝贴纸；德国白色正方形贴纸；意大利横长方形白贴纸；马来西亚/澳洲QSL黑色贴纸；英国黄色贴纸（有人形图案）、爱尔兰黄色贴纸（无人形图案）；罗马尼亚黄贴纸；秘鲁各色贴纸。\n    - **支架：** 木杆两侧金属架，英国顶端平整，爱尔兰顶端倾斜。\n- **变电箱警告标识：**\n    - **拉脱维亚：** 黄色三角黑色闪电标志，变电箱编码（`KS-xxxx` 或 `ST-xxxx` 格式）。\n    - **意大利：** Enel（国家电力公司）标志与红色多重折线闪电。\n    - **波兰：** `ST` 开头代码配合波兰语黄色或白色警告标牌。\n    - **墨西哥：** CFE 绿色圆形标志，中心带白色闪电。\n    - **哥伦比亚：** 大面积亮黄底黑字贴纸，波哥大常喷印 `CODENSA`。\n- **进阶文献与实战训练**：\n    - [Notable Poles Document by Zig8zag](https://docs.google.com/document/d/1_H5ignyvO42ACFfr7n02o0x2EyPYUhD-vgMNbnQANe4/edit?tab=t.0)\n    - [欧洲电线杆专项排位对决地图 (Learnable Meta)](https://www.geoguessr.com/game/PV8znvPnYXhdy31D)\n    - **安道尔贴纸：** 贴有类似法国款式但颜色为**绿松石色（青蓝色）或黄色**的电线杆贴纸。\n    - **爱沙尼亚 / 瑞典反光带：** 电线杆下半部常缠绕**蓝白相间**的竖向反光贴条（波罗的海三国中仅爱沙尼亚有此特征）。\n    - **塞浦路斯木杆：** 西北部特罗多斯山林遍布神似美国加州的红褐色木电线杆，常贴有黄色或白色竖贴纸。",
+          "textEn": "- **Base Hazard Stripes:**\n    - **Taiwan:** Yellow and black diagonal stripes reach all the way down to the ground.\n    - **South Korea:** Diagonal hazard stripes stop short of the ground.\n    - **Japan:** Vertical black/yellow hazard stripes that generally do not touch the ground.\n- **Black Socks (Black base collar with white trunk above):** **Russia** and former Soviet territories.\n- **Color Blocks:**\n    - Indonesia (red-white), Israel (black-white), Colombia / Peru (yellow-black).\n    - Dominican Republic (man-height brightly painted base); Western Australia (green base).\n    - Slovakia (wooden poles reinforced by concrete base pillar); North America (yellow plastic guy wire guards).\n- **Metal Bands & Decals:**\n    - **New Zealand:** Wide metal band wrapping fully around the pole trunk (possum guard).\n    - **Tasmania (Australia):** Olive-green metal collar around the trunk.\n    - **California (US):** Three yellow metal bands around wooden poles; Hawaii has one.\n    - **Stickers:** France blue; Germany square white; Italy horizontal white; Malaysia black; UK yellow (with stickman); Ireland yellow (no stickman); Romania yellow; Peru multi-color.\n    - **Struts:** Wood pole metal side brackets have flat top in UK vs slanted top in Ireland.\n- **Substation Box Logos:**\n    - **Latvia:** Yellow triangle lightning with 'KS-xxxx' or 'ST-xxxx' serials.\n    - **Italy:** Enel logo with multi-kinked red lightning bolt.\n    - **Poland:** 'ST' code on Polish warning plaques.\n    - **Mexico:** CFE green round seal with white lightning bolt.\n    - **Colombia:** Bright yellow warning placards; Bogotá shows 'CODENSA' stencils.\n- **Advanced Documents & Practice Maps**:\n    - [Notable Poles Document by Zig8zag](https://docs.google.com/document/d/1_H5ignyvO42ACFfr7n02o0x2EyPYUhD-vgMNbnQANe4/edit?tab=t.0)\n    - [European Poles Dedicated Practice Map (Learnable Meta)](https://www.geoguessr.com/game/PV8znvPnYXhdy31D)\n    - **Andorra Stickers:** Features French-style pole stickers in **turquoise/cyan or yellow** instead of blue.\n    - **Estonia / Sweden Reflector Wraps:** Utility poles frequently feature **blue-and-white vertical striped** reflector bands (unique to Estonia among the Baltics).\n    - **Cyprus Wooden Poles:** NW Troodos forest features California-like reddish-tinted wooden poles with yellow or white vertical stickers."
         }
       ],
       "rawContent": "# 电线杆\n\n[Notable Poles Document by Zig8zag](https://docs.google.com/document/d/1_H5ignyvO42ACFfr7n02o0x2EyPYUhD-vgMNbnQANe4/edit?tab=t.0)\n\n## 杆子质地\n\n![image.png](%E7%94%B5%E7%BA%BF%E6%9D%86/image.png)\n\n- 南美木杆：玻利维亚，阿根廷，乌拉圭\n- 非洲混凝土杆：塞内加尔，尼日利亚\n- 北欧混凝土杆：俄罗斯，立陶宛，爱沙尼亚（木杆，混凝土杆都有）\n- 南欧木杆：\n    - 只有木杆：希腊，塞浦路斯\n    - 木杆混凝土杆都有：北马其顿，克罗地亚，葡萄牙\n- 亚洲木杆：蒙古\n\n## 杆子类型\n\n- **方孔型**\n    - [匈牙利]()：H 型，从头到脚都有孔。\n    - [波兰]()：P 型，底部通常无孔。\n    - [罗马尼亚]()：R 型，带孔，底部常有白漆，常有黄贴纸，没有A-frame。\n    - 比利时：方孔偏圆弧形\n    - 斯里兰卡：大孔\n- **梯子型**\n    - **巴西：下部梯子型，**隔板数大约为3，上部有小孔。\n    - 厄瓜多尔**：下部梯子型，**隔板数比较多，上部有小孔。\n    - 智利：**下部梯子型，最下面的梯子间距很大**，上部有小孔\n    - 葡萄牙，北马其顿：梯子较瘦，隔板较少，后面有时有圆孔，上方有凹点\n    - 西班牙，法国：梯子较瘦，隔板很多\n    - 土耳其：金属梯子\n    - 柬埔寨：类似法国\n    - 越南：四面都是梯子\n    - 尼日利亚：类似巴西\n    - 塞内加尔：类似法国\n    - 澳大利亚：Northern Territory 有生锈带孔金属电线杆\n    - 新西兰：类似智利，梯子极少，甚至没有\n- **八边形：**\n    - [**墨西哥**]()\n    - [**厄瓜多尔**]()\n    - [**哥伦比亚**]()\n- **方形带凹点**\n    - [**泰国]()，**老挝，斯里兰卡，[**印度尼西亚**]()\n    - 比利时：很多凹点\n    - 法国：凹点很少，仅在最上\n    - 多米尼加：底部会刷成其它颜色\n- 金属网状：西班牙，意大利，保加利亚，塞尔维亚，土耳其，以色列，等等\n- 特殊型\n    - 双圆柱：捷克，斯洛伐克\n    - A-frame（另一根斜向支撑）：波罗的海地区特别多\n    - A字形（A-frame+横杆）：奥地利\n    - 四面方形金属网状，顶端法式：西班牙东南\n    - 极度弯曲木杆： [玻利维亚]()，尤其东部地区。\n    - 特别高的电线杆：希腊\n    - 铁轨中间夹混凝土（Stobie）：澳大利亚SA地区\n\n## 顶部结构\n\n- 横杆下倒三角支撑： 捷克、斯洛伐克，阿尔巴尼亚\n- 竖琴状：希腊\n- 简单短横杠：爱沙尼亚，立陶宛，俄罗斯\n- 上下交错钩：拉脱维亚，保加利亚(混凝土杆)，克罗地亚\n- 向下弯弓型：法国，塞内加尔，比利时，西班牙，罗马尼亚，突尼斯，马达加斯加\n- 拿破仑帽型：法国\n- 密集绝缘子： 南非， 希腊\n- 单独一个绝缘体：北美更常见\n- 变压器：加拿大NB，BC面对路方向，其它省平行于路方向\n- 三根胳膊在同一面：秘鲁\n- 三根胳膊分两边：阿根廷\n- 三叉戟：乌拉圭，欧洲很多国家（捷克，斯洛伐克）\n- 横杠锐角交叉成横向A型：南非，澳大利亚，阿根廷，巴西\n- 金属横杠组成竖向A型：南非开普敦附近\n- 电线杆顶端变细：韩国，法国\n\n## **底部涂装**\n\n- 黄黑条纹\n    - [台湾]()：斜条纹直达地面\n    - 韩国：斜条纹不达地面\n    - [日本]()：竖条纹通常不接触地面\n- 黑袜子（杆子最底部有一圈黑色，上方刷白） ： [俄罗斯]()\n- 红白色段：印尼\n- 黑白色段：以色列\n- 黄黑色段：哥伦比亚，秘鲁\n- 底部一人高涂色：多米尼加\n- 底部绿色：澳大利亚西部\n- 木杆底部有混凝柱支撑：斯洛伐克\n- 支撑铁丝接近地面处黄色塑胶套：北美\n\n## **杆子环绕或贴纸**\n\n- 贴纸\n    - 蓝色贴纸：法国\n    - 白色贴纸：德国（正方形），意大利（横长方形）\n    - 黑色贴纸：马来西亚西部，澳大利亚QSL布里斯班\n    - 黄色贴纸：英国（有人），爱尔兰（没有人），罗马尼亚，斯洛伐克西部（圆形贴纸）\n    - 各色贴纸：秘鲁\n- 金属环\n    - 中间有一块金属环绕整个电线杆四周：新西兰\n    - 四周有一圈橄榄色的金属环绕：澳大利亚塔斯马尼亚\n    - 混凝方柱上很多条横向金属箍：法国，比利时\n    - 混凝圆柱上很多横向金属箍：捷克，斯洛伐克，塞尔维亚\n    - 黄色金属箍：美国加州三条，夏威夷一条\n- 木杆左右两侧有金属架子分布：\n    - 英国: 顶端是平的\n    - 爱尔兰：顶端是斜的\n\n## 变电箱\n\n- 拉脱维亚: 黄色三角黑色闪电标志；变电箱编码（如 KS-xxxx 或 ST-xxxx 格式）\n- 意大利：Enel（意大利国家电力公司）的标志；带有红色多重折线的闪电警告图案。\n- 波兰：一系列字母组合（如 ST，但与拉脱维亚格式不同，多伴随波兰语）的黄色或白色警告标牌\n- 墨西哥：CFE的绿色圆形标志，中心带有一个白色的闪电图案\n- 哥伦比亚：大面积亮黄色带黑字的警告贴纸；波哥大变压器上还常能看到 CODENSA 的喷漆字样\n\n## **杆子环绕或贴纸**\n\n- [欧洲电线杆Learnable Meta](https://www.geoguessr.com/game/PV8znvPnYXhdy31D)",
@@ -6868,7 +7139,7 @@ window.GEOGUESSR_DATA = {
         {
           "titleZh": "欧洲各大路缘标家族体系",
           "titleEn": "European Bollard Families Guide",
-          "textZh": "- **奥地利型 (Austrian style)：** 白色三角柱，配短黑色顶部。\n    - **奥地利：** 有时顶部带小盖子；深红或深灰色反光片，背面为黑色反光片。\n    - **斯洛文尼亚 / 黑山 / 塞尔维亚：** 正面鲜红色，背面白色反光片；黑山与塞尔维亚反光片更为细长。\n- **意大利型 (Italian style)：** 白色三角截面柱，顶部黑色帽子向下延伸较长（相当于奥地利型黑色部分下移并包裹至顶端边缘）。\n    - **意大利：** 典型配置。\n    - **阿尔巴尼亚：** 伴随断裂天空辅助判断。\n    - **圣马力诺：** 出现密度极高。\n- **南欧型 (South European style)：** 白色三角柱，中间黑色块，上端留白较少。\n    - **克罗地亚 / 北马其顿：** 前深红后白反光板。\n    - **葡萄牙：** 白色反光板带两颗螺丝；或斜黑块配白色/橙色长方反光板。\n    - **安道尔：** 短方块橙色反光板。\n    - **希腊：** 斜黑块配接近正方形红橙色反光板；柱身常为空心。\n- **德国型 (German style)：** 白色三角柱，中间黑色斜块，上端留白较多。\n    - **德国：** 前面白色反光板（路口用黄色），反光板上有**两颗**螺丝，后面两个大圆钉。\n    - **卢森堡：** 前面白色反光板带**三颗**螺丝，后面两个大圆钉；下方有时带靠外侧红反光条。\n    - **西班牙：** 通常为空心，内嵌鲜黄色反光板；西南埃斯特雷马杜拉顶部有绿色细条。\n    - **立陶宛：** 前橙后白反光板。\n    - **匈牙利：** 前红后白反光板。\n    - **乌克兰：** 类似匈牙利，红色反光板更宽。\n- **北欧型 (Nordic style)：** 圆形或圆弧形平顶白杆，中间黑块，上端留白少。\n    - **爱沙尼亚：** 圆形空心平顶白杆，前白方块，后两个橙色圆点反光板。\n    - **芬兰：** 类似爱沙尼亚，后为白色圆点反光板（很少出现，多用雪迹杆）。\n    - **拉脱维亚：** 半圆或扁形平顶白杆，前有方块反光板（可能有数字），后两个圆点。\n    - **挪威：** 圆弧形白杆，黑色部分呈明显平行四边形状，中间灰色方块。\n- **无黑块型 (No Black Band)：** 纯白杆无黑色方块。\n    - **土耳其：** 圆弧片状，红色方块不接触边缘；反面没有反光板。\n    - **罗马尼亚：** 圆弧片状，红方块更长（类似澳大利亚），较少出现。\n    - **波兰：** 三角形粗白杆，红方块包裹正反面，前红后白。\n    - **荷兰：** 圆润白杆，细长红色反光板。\n    - **比利时：** 三角形圆润白杆，前黄后白正方形反光板。\n    - **丹麦：** 三角形白杆，前黄后白反光板，顶部有橙色细条。\n- **圆柱型与彩色线段型：**\n    - **爱尔兰：** 绿白圆柱形。\n    - **英国：** 圆头，从上至下为黑白黑，上方黑块内嵌红/白反光片。\n    - **法国：** 白色铅笔型圆柱，带红色或灰色环绕带。\n    - **苏格兰：** 类似法国，但白杆上有凹进去的条纹。\n    - **瑞士：** 圆柱形，灰圈配白色反光板。\n    - **安道尔：** 细长杆子，顶端一段为红色。\n- **显著特征国家：**\n    - **冰岛：** 全杆鲜黄色扁平长方形柱体，极其醒目。\n    - **捷克 & 斯洛伐克：** 很短矮粗，通常有**两块平行**的橙色反光块。\n    - **塞尔维亚：** 深红反光板仅在靠近道路的半边。",
+          "textZh": "- **奥地利型 (Austrian style)：** 白色三角柱，配短黑色顶部。\n    - **奥地利：** 有时顶部带小盖子；深红或深灰色反光片，背面为黑色反光片。\n    - **斯洛文尼亚 / 黑山 / 塞尔维亚：** 正面鲜红色（斯洛文尼亚柱顶常有一个小凹坑 Dimple 且红片比奥地利更浅亮），背面白色反光片；黑山与塞尔维亚反光片更为细长。\n- **意大利型 (Italian style)：** 白色三角截面柱，顶部黑色帽子向下延伸较长（相当于奥地利型黑色部分下移并包裹至顶端边缘）。\n    - **意大利：** 典型配置。\n    - **阿尔巴尼亚：** 伴随断裂天空辅助判断。\n    - **圣马力诺：** 出现密度极高。\n- **南欧型 (South European style)：** 白色三角柱，中间黑色块，上端留白较少。\n    - **克罗地亚 / 北马其顿：** 前深红后白反光板。\n    - **葡萄牙：** 白色反光板带两颗螺丝；或斜黑块配白色/橙色长方反光板。\n    - **安道尔：** 短方块橙色反光板。\n    - **希腊：** 斜黑块配接近正方形红橙色反光板；柱身常为空心。\n- **德国型 (German style)：** 白色三角柱，中间黑色斜块，上端留白较多。\n    - **德国：** 前面白色反光板（路口用黄色），反光板上有**两颗**螺丝，后面两个大圆钉。\n    - **卢森堡：** 前面白色反光板带**三颗**螺丝，后面两个大圆钉；下方有时带靠外侧红反光条。\n    - **西班牙：** 通常为空心，内嵌鲜黄色反光板；西南埃斯特雷马杜拉顶部有绿色细条。\n    - **立陶宛：** 前橙后白反光板。\n    - **匈牙利：** 前红后白反光板。\n    - **乌克兰：** 类似匈牙利，红色反光板更宽。\n- **北欧型 (Nordic style)：** 圆形或圆弧形平顶白杆，中间黑块，上端留白少。\n    - **爱沙尼亚：** 圆形空心平顶白杆，前白方块，后两个橙色圆点反光板。\n    - **芬兰：** 类似爱沙尼亚，后为白色圆点反光板（很少出现，多用雪迹杆）。\n    - **拉脱维亚：** 半圆或扁形平顶白杆，前有方块反光板（可能有数字），后两个圆点。\n    - **挪威：** 圆弧形白杆，黑色部分呈明显平行四边形状，中间灰色方块。\n- **无黑块型 (No Black Band)：** 纯白杆无黑色方块。\n    - **土耳其：** 圆弧片状，红色方块不接触边缘；反面没有反光板。\n    - **罗马尼亚：** 圆弧片状，红方块更长（类似澳大利亚），较少出现。\n    - **波兰：** 三角形粗白杆，红方块包裹正反面，前红后白。\n    - **荷兰：** 圆润白杆，细长红色反光板。\n    - **比利时：** 三角形圆润白杆，前黄后白正方形反光板。\n    - **丹麦：** 三角形白杆，前黄后白反光板，顶部有橙色细条。\n- **圆柱型与彩色线段型：**\n    - **爱尔兰：** 绿白圆柱形。\n    - **英国：** 圆头，从上至下为黑白黑，上方黑块内嵌红/白反光片。\n    - **法国：** 白色铅笔型圆柱，带红色或灰色环绕带。\n    - **苏格兰：** 类似法国，但白杆上有凹进去的条纹。\n    - **瑞士：** 圆柱形，灰圈配白色反光板。\n    - **安道尔：** 细长杆子，顶端一段为红色。\n- **显著特征国家：**\n    - **冰岛：** 全杆鲜黄色扁平长方形柱体，极其醒目。\n    - **捷克 & 斯洛伐克：** 很短矮粗，通常有**两块平行**的橙色反光块。\n    - **塞尔维亚：** 深红反光板仅在靠近道路的半边。",
           "textEn": "- **Austrian Style:** White triangular post with short black top.\n    - **Austria:** Dark red reflector, black on rear, optional cap.\n    - **Slovenia / Montenegro / Serbia:** Bright red front, white rear; Montenegro/Serbia reflector is thinner.\n- **Italian Style:** White triangular post with long black cap extending downwards over the top rim.\n    - **Italy:** Classic standard.\n    - **Albania:** Paired with Sky Rift.\n    - **San Marino:** Exceptionally high density.\n- **South European Style:** White triangular post with black band, narrow white space above.\n    - **Croatia / North Macedonia:** Dark red front, white rear.\n    - **Portugal:** White reflector with two screws, or angled black patch with white/orange rectangle.\n    - **Andorra:** Short square orange reflector.\n    - **Greece:** Slanted black block with square reddish-orange reflector; often hollow.\n- **German Style:** White triangular post with slanted black band, generous white space above.\n    - **Germany:** White reflector front (yellow at junctions) with **two screws**, two round studs behind.\n    - **Luxembourg:** White reflector with **three screws**, two round studs behind; optional lower red strip.\n    - **Spain:** Hollow post with bright yellow reflector; Extremadura has green top rim.\n    - **Lithuania:** Orange front, white rear.\n    - **Hungary:** Red front, white rear.\n    - **Ukraine:** Similar to Hungary but red block is wider.\n- **Nordic Style:** Rounded/cylindrical flat-top white post with black band.\n    - **Estonia:** Hollow flat-top, white front square, two orange rear dots.\n    - **Finland:** Two white rear dots (rare; snow poles preferred).\n    - **Latvia:** Semi-circle flat top with front square (often numbered) and two rear dots.\n    - **Norway:** Curved white post, parallelogram black patch with gray square inside.\n- **No Black Band Style:** Plain white post without black bands.\n    - **Turkey:** Curved blade post, red square not touching edges; no rear reflector.\n    - **Romania:** Longer red block (resembles Australian).\n    - **Poland:** Chunky triangular white post, red band wraps both sides (red front, white rear).\n    - **Netherlands:** Rounded white post, thin vertical red reflector.\n    - **Belgium:** Rounded triangular post, square yellow front / white rear reflector.\n    - **Denmark:** Triangular white post, yellow front / white rear with orange top rim.\n- **Cylindrical & Banded Types:**\n    - **Ireland:** Green and white cylinder.\n    - **United Kingdom:** Rounded top, black-white-black segments with red/white reflector.\n    - **France:** White pencil cylinder with red or gray circular ring.\n    - **Scotland:** Similar to France but with indented vertical grooves.\n    - **Switzerland:** Cylinder with gray band and white reflector.\n    - **Andorra:** Thin pole with red painted top section.\n- **Prominent National Signatures:**\n    - **Iceland:** Bright canary-yellow flat rectangular post.\n    - **Czechia & Slovakia:** Very short, featuring **two parallel** orange reflector bars.\n    - **Serbia:** Dark red reflector restricted to the half-side facing the road."
         },
         {
@@ -6899,8 +7170,8 @@ window.GEOGUESSR_DATA = {
         {
           "titleZh": "道路标线色彩与虚实系统",
           "titleEn": "Road Marking Colors & Dash Systems",
-          "textZh": "- **标线颜色三大阵营：**\n    - **全白线（白中线 + 白边线）：**\n        - **欧洲：** 绝大多数国家（挪威黄中线、芬兰淘汰中黄虚线、爱尔兰黄虚边线、希腊单黄中线除外）。\n        - **智利：** **南美唯一边线与中线均可为纯白色的国家**！\n        - **大洋洲：** 澳大利亚全境统一使用全白线（雪地路段极少数为黄色）。\n        - **亚洲与非洲：** 印度及其周边、老挝、马来西亚；西非与北非国家。\n    - **黄中白边（黄色中线 + 白色边缘线）：**\n        - **美洲：** 美国、加拿大、墨西哥及拉美绝大部分国家（除智利外）。\n        - **亚洲：** 东亚、东南亚国家（除老挝）。\n        - **欧洲：** 挪威（中线单双虚实均有黄线）、芬兰（中线黄色虚线，逐步淘汰改白）、希腊（中线可为单黄线或双白线）。\n        - **非洲：** 肯尼亚、乌干达、加纳。\n    - **白中黄边（白色中线 + 黄色边缘线）：**\n        - **欧洲：** 爱尔兰（路肩黄色虚线，欧洲异类）；英国（路边黄线代表禁停）；冰岛（引道或交叉口附近为黄色边线）。\n        - **非洲：** 南非及其周边邻国（博茨瓦纳、莱索托、斯威士兰）。\n        - **西亚与东亚：** 阿曼、以色列、约旦、阿联酋；尼泊尔、新加坡、中国香港；墨西哥瓜纳华托 (Guanajuato)。\n    - **全黄线：** 智利极少数特殊路段。\n- **虚线形态特征：**\n    - **黄色虚边线：** 爱尔兰（瑞士某些城镇内也有）。\n    - **黄色虚中线：** 泰国、越南（实线与虚线均常见）。\n    - **白色虚边线：**\n        - 挪威：长虚边线。\n        - 瑞典、爱沙尼亚：短虚边线。\n        - 法国、卢森堡：很长的白色虚线外路肩线（科西嘉岛虚线相对更短）。\n        - 丹麦：由密集正方形组成的白色短虚边线。\n        - 罗马尼亚：有时有三条虚线，中线较粗。\n    - **白色虚中线：**\n        - 法国：没对齐的长方块白色中线。\n        - 英格兰：中间虚线间隔极长，路面嵌有猫眼反光道钉 (Cat's Eyes)。\n        - 摩纳哥：城市内常见极粗的白色虚中线。\n- **多条线与复杂组合：**\n    - **双白实线中线：** 波兰、丹麦（有时中间有微小断开）、希腊（常因暴晒较淡）、智利、阿根廷、马来西亚。\n    - **双黄实线中线：** 北美全境、巴西、墨西哥、哥伦比亚、中国台湾。注意：哥伦比亚常有白色边缘线，而巴西通常无白色外侧边缘线。\n    - **双白实线夹黄线/白虚线：** 南非及其周边国家。\n    - **双黄夹一白中线：** 乌拉圭；菲律宾（中间夹白虚线）。\n    - **黄实线 + 白虚线复合中线：** 阿根廷公路极度常见。\n    - **城市中线与边线对比：** 美国以双黄中线为主，加拿大以单黄中线为主；澳大利亚城市边线为白色，新西兰偶尔出现黄色边线。",
-          "textEn": "- **Road Marking Color Triad:**\n    - **All-White Markings (White Center + White Edges):**\n        - **Europe:** Vast majority of countries (exceptions: Norway, Finland legacy yellow dash, Ireland yellow dash edge, Greece).\n        - **Chile:** **Sole South American country using all-white road markings**!\n        - **Oceania:** Australia uses all-white nationwide (snow areas rare yellow).\n        - **Asia & Africa:** India and neighbors, Laos, Malaysia; West & North Africa.\n    - **Yellow Center + White Edges:**\n        - **Americas:** USA, Canada, Mexico, and virtually all Latin America (except Chile).\n        - **Asia:** East & Southeast Asia (except Laos).\n        - **Europe:** Norway (yellow centerlines solid/dashed), Finland (legacy dashed yellow), Greece (single yellow or double white).\n        - **Africa:** Kenya, Uganda, Ghana.\n    - **White Center + Yellow Edges:**\n        - **Europe:** Ireland (dashed yellow outer edge line); UK (yellow curbs indicate no parking); Iceland (yellow edge near bridges/intersections).\n        - **Africa:** South Africa and neighbors (Botswana, Lesotho, Eswatini).\n        - **Middle East & Asia:** Oman, Israel, Jordan, UAE; Nepal, Singapore, Hong Kong; Guanajuato (Mexico).\n    - **All-Yellow Markings:** Chile (rare mountainous sections).\n- **Dashed Line Patterns:**\n    - **Yellow Dashed Edges:** Ireland (occasional Swiss towns).\n    - **Yellow Dashed Centers:** Thailand, Vietnam.\n    - **White Dashed Edges:**\n        - Norway: Long dashed edge line.\n        - Sweden & Estonia: Short dashed edge lines.\n        - France & Luxembourg: Very long white dashed shoulder edge lines (shorter in Corsica).\n        - Denmark: Dense square dashed white edge markings.\n        - Romania: Occasionally three dashed lines with thicker center.\n    - **White Dashed Centerlines:**\n        - France: Staggered non-aligned rectangular white dashes.\n        - England: Long dash spacing embedded with reflective Cat's Eyes studs.\n        - Monaco: Extra-thick white dashed city centerlines.\n- **Multi-line Combinations:**\n    - **Double White Solid Center:** Poland, Denmark (slight periodic gap), Greece (faded), Chile, Argentina, Malaysia.\n    - **Double Yellow Center:** North America, Brazil, Mexico, Colombia, Taiwan. Pro tip: Colombia frequently has white edge lines, whereas Brazil typically lacks outer white edge lines.\n    - **Double White Flanking Yellow/Dashed:** South Africa and neighbors.\n    - **Double Yellow Flanking White Dash:** Uruguay; Philippines.\n    - **Solid Yellow + Dashed White:** Argentina classic signature.\n    - **Urban Comparison:** US predominantly uses double yellow centers, Canada uses single yellow; Australia uses white edge lines, New Zealand occasionally uses yellow."
+          "textZh": "- **标线颜色三大阵营：**\n    - **全白线（白中线 + 白边线）：**\n        - **欧洲：** 绝大多数国家（挪威黄中线、芬兰淘汰中黄虚线、爱尔兰黄虚边线、希腊单黄中线除外）。\n        - **智利：** **南美唯一边线与中线均可为纯白色的国家**！\n        - **大洋洲：** 澳大利亚全境统一使用全白线（雪地路段极少数为黄色）。\n        - **亚洲与非洲：** 印度及其周边、老挝、马来西亚；西非与北非国家。\n    - **黄中白边（黄色中线 + 白色边缘线）：**\n        - **美洲：** 美国、加拿大、墨西哥及拉美绝大部分国家（除智利外）。\n        - **亚洲：** 东亚、东南亚国家（除老挝）。\n        - **欧洲：** 挪威（中线单双虚实均有黄线）、芬兰（中线黄色虚线，逐步淘汰改白）、希腊（中线可为单黄线或双白线）。\n        - **非洲：** 肯尼亚、乌干达、加纳。\n    - **白中黄边（白色中线 + 黄色边缘线）：**\n        - **欧洲：** 爱尔兰（路肩黄色虚线，欧洲异类）；英国（路边黄线代表禁停）；冰岛（引道或交叉口附近为黄色边线）。\n        - **非洲：** 南非及其周边邻国（博茨瓦纳、莱索托、斯威士兰）。\n        - **西亚与东亚：** 阿曼、以色列、约旦、阿联酋；尼泊尔、新加坡、中国香港；墨西哥瓜纳华托 (Guanajuato)。\n    - **全黄线：** 智利极少数特殊路段。\n- **虚线形态特征：**\n    - **黄色虚边线：** 爱尔兰（瑞士某些城镇内也有）。\n    - **黄色虚中线：** 泰国、越南（实线与虚线均常见）。\n    - **白色虚边线：**\n        - 挪威：长虚边线。\n        - 瑞典、爱沙尼亚：短虚边线。\n        - 法国、卢森堡：很长的白色虚线外路肩线（科西嘉岛虚线相对更短）。\n        - 丹麦：由密集正方形组成的白色短虚边线。\n        - 罗马尼亚：有时有三条虚线，中线较粗。\n    - **白色虚中线：**\n        - 法国：没对齐的长方块白色中线。\n        - 英格兰：中间虚线间隔极长，路面嵌有猫眼反光道钉 (Cat's Eyes)。\n        - 摩纳哥：城市内常见极粗的白色虚中线。\n- **多条线与复杂组合：**\n    - **双白实线中线：** 波兰、丹麦（有时中间有微小断开）、希腊（常因暴晒较淡）、智利、阿根廷、马来西亚。\n    - **双黄实线中线：** 北美全境、巴西、墨西哥、哥伦比亚、中国台湾。注意：哥伦比亚常有白色边缘线，而巴西通常无白色外侧边缘线。\n    - **双白实线夹黄线/白虚线：** 南非及其周边国家。\n    - **双黄夹一白中线：** 乌拉圭；菲律宾（中间夹白虚线）。\n    - **黄实线 + 白虚线复合中线：** 阿根廷公路极度常见。\n    - **城市中线与边线对比：** 美国以双黄中线为主，加拿大以单黄中线为主；澳大利亚城市边线为白色，新西兰偶尔出现黄色边线。\n    - **芬兰独特复合中线：** 一条黄色实线并排搭配一条白色虚线（欧洲唯芬兰独有）。\n    - **法国乡道中央错位短虚线：** 狭窄道路中央画有两小段左右错开的白色短方框（提醒减速缩窄，100% 锁定法国）。\n    - **超车区末端弧形导向白箭头：** 路面中央画有彎曲指向本车道的白色箭头，全欧主要见于**葡萄牙、法国、罗马尼亚**。\n    - **泽西岛与根西岛（海峡群岛）：** 支路汇入主路的路口横画一条连续**粗黄实线**（全欧独一无二）。",
+          "textEn": "- **Road Marking Color Triad:**\n    - **All-White Markings (White Center + White Edges):**\n        - **Europe:** Vast majority of countries (exceptions: Norway, Finland legacy yellow dash, Ireland yellow dash edge, Greece).\n        - **Chile:** **Sole South American country using all-white road markings**!\n        - **Oceania:** Australia uses all-white nationwide (snow areas rare yellow).\n        - **Asia & Africa:** India and neighbors, Laos, Malaysia; West & North Africa.\n    - **Yellow Center + White Edges:**\n        - **Americas:** USA, Canada, Mexico, and virtually all Latin America (except Chile).\n        - **Asia:** East & Southeast Asia (except Laos).\n        - **Europe:** Norway (yellow centerlines solid/dashed), Finland (legacy dashed yellow), Greece (single yellow or double white).\n        - **Africa:** Kenya, Uganda, Ghana.\n    - **White Center + Yellow Edges:**\n        - **Europe:** Ireland (dashed yellow outer edge line); UK (yellow curbs indicate no parking); Iceland (yellow edge near bridges/intersections).\n        - **Africa:** South Africa and neighbors (Botswana, Lesotho, Eswatini).\n        - **Middle East & Asia:** Oman, Israel, Jordan, UAE; Nepal, Singapore, Hong Kong; Guanajuato (Mexico).\n    - **All-Yellow Markings:** Chile (rare mountainous sections).\n- **Dashed Line Patterns:**\n    - **Yellow Dashed Edges:** Ireland (occasional Swiss towns).\n    - **Yellow Dashed Centers:** Thailand, Vietnam.\n    - **White Dashed Edges:**\n        - Norway: Long dashed edge line.\n        - Sweden & Estonia: Short dashed edge lines.\n        - France & Luxembourg: Very long white dashed shoulder edge lines (shorter in Corsica).\n        - Denmark: Dense square dashed white edge markings.\n        - Romania: Occasionally three dashed lines with thicker center.\n    - **White Dashed Centerlines:**\n        - France: Staggered non-aligned rectangular white dashes.\n        - England: Long dash spacing embedded with reflective Cat's Eyes studs.\n        - Monaco: Extra-thick white dashed city centerlines.\n- **Multi-line Combinations:**\n    - **Double White Solid Center:** Poland, Denmark (slight periodic gap), Greece (faded), Chile, Argentina, Malaysia.\n    - **Double Yellow Center:** North America, Brazil, Mexico, Colombia, Taiwan. Pro tip: Colombia frequently has white edge lines, whereas Brazil typically lacks outer white edge lines.\n    - **Double White Flanking Yellow/Dashed:** South Africa and neighbors.\n    - **Double Yellow Flanking White Dash:** Uruguay; Philippines.\n    - **Solid Yellow + Dashed White:** Argentina classic signature.\n    - **Urban Comparison:** US predominantly uses double yellow centers, Canada uses single yellow; Australia uses white edge lines, New Zealand occasionally uses yellow.\n    - **Finland Composite Centerline:** One solid yellow line paired alongside a dashed white line (unique in Europe to Finland).\n    - **France Offset Center Dashes:** Narrow rural roads feature pairs of small offset white rectangular dashes in the middle of the road (100% unique to France).\n    - **Curved Lane-Merge Deflection Arrows:** Curved white arrows on the centerline indicating the end of a passing zone—found in Europe primarily in **Portugal, France, and Romania**.\n    - **Jersey & Guernsey (Channel Islands):** A continuous **solid yellow transverse line** painted across side-road intersections (unique in Europe)."
         },
         {
           "titleZh": "左右行驶、减速带与路面材质",
@@ -6930,20 +7201,20 @@ window.GEOGUESSR_DATA = {
         {
           "titleZh": "欧洲人行横道告示牌底部线条与形态",
           "titleEn": "Pedestrian Crossing Signs: European & Diamond",
-          "textZh": "- **欧洲蓝底方牌小人脚下的斑马线条数与造型：**\n    - **无此类告示牌：** 英国、爱尔兰（爱尔兰采用黄色菱形，英国采用地面斑马线标牌）。\n    - **1 条横实线：** **波兰**。\n    - **2 根横虚线：** 比利时（小人为方脑袋）、奥地利、希腊、黑山。\n    - **3 条竖线：** 俄罗斯、乌克兰、爱沙尼亚（小人身材纤瘦）、立陶宛。\n    - **4 条竖线：**\n        - **瑞典：** 小人有明显的脖子。\n        - **挪威：** 小人没有明显的脖子。\n        - **冰岛：** 蓝底带黄色三角形内衬。\n        - **保加利亚：** 小人头上戴着帽子。\n    - **5 条竖线：**\n        - **丹麦：** 竖线向上触碰到三角边框。\n        - **斯洛伐克：** 竖线集中在中间，两条几乎被双脚遮挡。\n        - **德国 / 克罗地亚 / 匈牙利 / 葡萄牙：** 小人腰间带有腰带/皮带。\n    - **7 条竖线：** 瑞士。\n    - **8 条竖线：** 西班牙。\n- **黄色菱形告示牌阵营 (Yellow Diamond Pedestrian Signs)：**\n    - **北美洲（美、加）：** 典型黄色菱形，美国下方常附带“PED XING”说明牌。\n    - **拉美地区：** 墨西哥、危地马拉、巴西、哥伦比亚、阿根廷、智利、秘鲁普遍采用黄色菱形。\n    - **大洋洲：** 澳大利亚、新西兰标志性黄色菱形。\n    - **亚洲：** 日本及东南亚（泰国、马来西亚）普遍使用黄色菱形行人警告牌。\n    - **欧洲特例 - 爱尔兰：** 欧洲极少数不使用蓝底方牌的国家，而是使用黄色菱形（“被困在黄色菱形里的行人”）。",
-          "textEn": "- **European Blue Square Pedestrian Sign Markings:**\n    - **No such blue sign:** United Kingdom, Ireland.\n    - **1 solid horizontal line:** **Poland**.\n    - **2 dashed horizontal lines:** Belgium (square-headed figure), Austria, Greece, Montenegro.\n    - **3 vertical stripes:** Russia, Ukraine, Estonia (slender figure), Lithuania.\n    - **4 vertical stripes:**\n        - **Sweden:** Figure has a distinct neck.\n        - **Norway:** Figure has no visible neck.\n        - **Iceland:** Yellow inner triangle frame.\n        - **Bulgaria:** Figure wears a hat.\n    - **5 vertical stripes:**\n        - **Denmark:** Stripes touch the outer triangle rim.\n        - **Slovakia:** Stripes clustered tightly beneath feet.\n        - **Germany / Croatia / Hungary / Portugal:** Figure wears a visible waist belt.\n    - **7 vertical stripes:** Switzerland.\n    - **8 vertical stripes:** Spain.\n- **Yellow Diamond Pedestrian Sign Realm:**\n    - **North America (US, Canada):** Standard yellow diamond, often with 'PED XING' sub-plaque.\n    - **Latin America:** Mexico, Guatemala, Brazil, Colombia, Argentina, Chile, Peru.\n    - **Oceania:** Australia, New Zealand yellow diamond with walking silhouette.\n    - **Asia:** Japan, Thailand, Malaysia.\n    - **European Exception - Ireland:** Sole EU member employing yellow diamond pedestrian warning signs."
+          "textZh": "- **欧洲蓝底方牌小人脚下的斑马线条数与造型：**\n    - **无此类告示牌：** 英国、爱尔兰（爱尔兰采用黄色菱形，英国采用地面斑马线标牌）。\n    - **1 条横实线：** **波兰**。\n    - **2 根横虚线：** 比利时（小人为方脑袋）、奥地利、希腊、黑山。\n    - **3 条竖线：** 俄罗斯、乌克兰、爱沙尼亚（小人身材纤瘦）、立陶宛。\n    - **4 条竖线：**\n        - **瑞典：** 小人有明显的脖子。\n        - **挪威：** 小人没有明显的脖子。\n        - **冰岛：** 蓝底带黄色三角形内衬。\n        - **保加利亚：** 小人头上戴着帽子。\n    - **5 条竖线：**\n        - **丹麦：** 竖线向上触碰到三角边框。\n        - **斯洛伐克：** 竖线集中在中间，两条几乎被双脚遮挡。\n        - **德国 / 卢森堡 / 克罗地亚 / 波黑 / 匈牙利 / 葡萄牙：** 小人腰间带有腰带/皮带（德国标牌四角有 4 颗固定螺栓，卢森堡无四角螺栓；葡萄牙为高腰带）。\n    - **7 条竖线：** 瑞士。\n    - **8 条竖线：** **西班牙、安道尔**（全欧仅此两国使用 8 条线）。\n    - **英国斑马线立柱（Belisha beacon）：** 不挂蓝底方牌，而是在人行横道两侧竖立**黑白条纹柱配顶部黄色圆球灯**。\n- **黄色菱形告示牌阵营 (Yellow Diamond Pedestrian Signs)：**\n    - **北美洲（美、加）：** 典型黄色菱形，美国下方常附带“PED XING”说明牌。\n    - **拉美地区：** 墨西哥、危地马拉、巴西、哥伦比亚、阿根廷、智利、秘鲁普遍采用黄色菱形。\n    - **大洋洲：** 澳大利亚、新西兰标志性黄色菱形。\n    - **亚洲：** 日本及东南亚（泰国、马来西亚）普遍使用黄色菱形行人警告牌。\n    - **欧洲特例 - 爱尔兰：** 欧洲极少数不使用蓝底方牌的国家，而是使用黄色菱形（“被困在黄色菱形里的行人”）。",
+          "textEn": "- **European Blue Square Pedestrian Sign Markings:**\n    - **No such blue sign:** United Kingdom, Ireland.\n    - **1 solid horizontal line:** **Poland**.\n    - **2 dashed horizontal lines:** Belgium (square-headed figure), Austria, Greece, Montenegro.\n    - **3 vertical stripes:** Russia, Ukraine, Estonia (slender figure), Lithuania.\n    - **4 vertical stripes:**\n        - **Sweden:** Figure has a distinct neck.\n        - **Norway:** Figure has no visible neck.\n        - **Iceland:** Yellow inner triangle frame.\n        - **Bulgaria:** Figure wears a hat.\n    - **5 vertical stripes:**\n        - **Denmark:** Stripes touch the outer triangle rim.\n        - **Slovakia:** Stripes clustered tightly beneath feet.\n        - **Germany / Croatia / Hungary / Portugal:** Figure wears a visible waist belt.\n    - **7 vertical stripes:** Switzerland.\n    - **5 vertical stripes with belt:** Germany (has 4 corner bolts), Luxembourg (no corner bolts), Croatia, Bosnia, Hungary, and Portugal (high belt).\n    - **8 vertical stripes:** **Spain and Andorra** (the only two in Europe).\n    - **UK Belisha Beacons:** Uses **black-and-white striped posts topped with a glowing yellow globe** at crosswalks instead of blue pedestrian signs.\n- **Yellow Diamond Pedestrian Sign Realm:**\n    - **North America (US, Canada):** Standard yellow diamond, often with 'PED XING' sub-plaque.\n    - **Latin America:** Mexico, Guatemala, Brazil, Colombia, Argentina, Chile, Peru.\n    - **Oceania:** Australia, New Zealand yellow diamond with walking silhouette.\n    - **Asia:** Japan, Thailand, Malaysia.\n    - **European Exception - Ireland:** Sole EU member employing yellow diamond pedestrian warning signs."
         },
         {
           "titleZh": "全球路牌设计、字体与背面特征",
           "titleEn": "Road Signs Design, Backs & Typography",
-          "textZh": "- **黄色背景路牌：**\n    - **卢森堡：** 全大写文字（ALL CAPS）。\n    - **前南斯拉夫国家：** 塞尔维亚、克罗地亚，醒目的黄色背景路牌。\n- **深色背面路牌：**\n    - **欧洲：** 德国、丹麦、芬兰、意大利（部分）、西班牙（部分）、葡萄牙（部分）、瑞士（部分）。\n    - **南美洲：** 巴西、巴拉圭、智利、哥伦比亚、厄瓜多尔（青色背面）。\n    - **亚洲：** 印度尼西亚、泰国、马来西亚。\n    - **墨西哥：** 黄色警告牌背面多为深黑色。\n- **路牌支柱细节：**\n    - **俄罗斯：** 路牌底部常有一圈黑色涂漆。\n    - **秘鲁：** 路牌支柱上常刷黑白斜向斑马纹。\n    - **哥伦比亚：** 路牌背面带有独特的钢制十字形支撑架 (Colombian Cross)。\n- **精细设计与箭头风格：**\n    - **丹麦：** 路牌带有精致外包金属框，字体为规整的 *Roboto Mono*。\n    - **德国：** 标志性的白色长方形配细黑边框设计。\n    - **土耳其：** 字间距极大；安卡拉车牌或标牌上缘中间有向上的小弧线。\n    - **塞内加尔：** 路牌常带粉色外边框；偶尔出现红顶白色墓碑状石质路牌。\n    - **新加坡：** 采用 Rotis 字体，字间距宽大。\n    - **北欧箭头风格对比：**\n        - **挪威：** 涂黑背景、留出白色形成箭头。\n        - **瑞典：** 用简单的黑线勾勒箭头轮廓。\n        - **芬兰：** 直接涂黑箭头本身。",
-          "textEn": "- **Yellow Background Road Signs:**\n    - **Luxembourg:** Text printed in ALL CAPS.\n    - **Former Yugoslavia:** Serbia, Croatia use prominent bright yellow direction signs.\n    - **Dark-Backed Signs:**\n    - **Europe:** Germany, Denmark, Finland, Italy (parts), Spain, Portugal, Switzerland.\n    - **South America:** Brazil, Paraguay, Chile, Colombia, Ecuador (cyan backing).\n    - **Asia:** Indonesia, Thailand, Malaysia.\n    - **Mexico:** Yellow warning signs feature dark painted backs.\n- **Signpost Stanchion Details:**\n    - **Russia:** Signposts feature a black-painted collar at the bottom base.\n    - **Peru:** Signposts painted with alternating black-and-white diagonal stripes.\n    - **Colombia:** Backs of road signs feature steel cross-braces (Colombian Cross).\n- **Typography & Arrow Aesthetics:**\n    - **Denmark:** Signs framed in metal borders with *Roboto Mono* font.\n    - **Germany:** Thin black outer border on crisp white signs.\n    - **Turkey:** Wide kerning / letter-spacing; Ankara signs have upward arched top edge.\n    - **Senegal:** Signs framed with pink borders; white stone milestone markers with red rounded tops.\n    - **Singapore:** Wide-spaced Rotis font.\n    - **Nordic Arrowhead Styles:**\n        - **Norway:** Negative white space carved out of solid black background block.\n        - **Sweden:** Simple black outline stroke drawing the arrow.\n        - **Finland:** Solid black painted arrow glyph."
+          "textZh": "- **黄色背景路牌：**\n    - **卢森堡：** 全大写文字（ALL CAPS）。\n    - **前南斯拉夫国家：** 塞尔维亚、克罗地亚，醒目的黄色背景路牌。\n- **深色背面路牌：**\n    - **欧洲：** 德国、丹麦、芬兰、意大利（部分）、西班牙（部分）、葡萄牙（部分）、瑞士（部分）。\n    - **南美洲：** 巴西、巴拉圭、智利、哥伦比亚、厄瓜多尔（青色背面）。\n    - **亚洲：** 印度尼西亚、泰国、马来西亚。\n    - **墨西哥：** 黄色警告牌背面多为深黑色。\n- **路牌支柱细节：**\n    - **俄罗斯：** 路牌底部常有一圈黑色涂漆。\n    - **秘鲁：** 路牌支柱上常刷黑白斜向斑马纹。\n    - **哥伦比亚：** 路牌背面带有独特的钢制十字形支撑架 (Colombian Cross)。\n- **精细设计与箭头风格：**\n    - **丹麦：** 路牌带有精致外包金属框，字体为规整的 *Roboto Mono*。\n    - **德国：** 标志性的白色长方形配细黑边框设计。\n    - **土耳其：** 字间距极大；安卡拉车牌或标牌上缘中间有向上的小弧线。\n    - **塞内加尔：** 路牌常带粉色外边框；偶尔出现红顶白色墓碑状石质路牌。\n    - **新加坡：** 采用 Rotis 字体，字间距宽大。\n    - **北欧箭头风格对比：**\n        - **挪威：** 涂黑背景、留出白色形成箭头。\n        - **瑞典：** 用简单的黑线勾勒箭头轮廓。\n        - **芬兰：** 直接涂黑箭头本身。\n- **橙色背面路牌：** **比利时**全境路牌背面极具辨识度地涂刷成亮橙色（城区常配深绿色立柱，100% 锁定比利时）。\n- **背面金属包边与固定螺栓绝杀：**\n    - **克罗地亚：** STOP 牌与路牌背面外缘有一圈**带间断缺口**的金属包边。\n    - **斯洛文尼亚：** 路牌背面外缘有一圈凸起的圆润金属包边。\n    - **匈牙利（四螺栓长方形）：** 路牌正面均由排列成对称长方形的**四颗平行螺栓**固定。\n    - **挪威（半截圆管托举）：** 路牌与公交站牌背面由一根仅延伸至牌身**一半高度**的副金属圆管托举（配 3 颗竖排螺栓或窄距 4 螺栓）。\n- **欧洲特殊标牌秒杀：**\n    - **捷克黑底桥梁编号牌：** 几乎每座桥头都有一块**黑底白框、印有 6 位数字**的小长方形桥梁牌（100% 捷克）。\n    - **波兰绿底镇名牌：** 欧洲罕见的**亮绿底白字**城镇入口牌。\n    - **拉脱维亚 5 窗公交牌：** 波罗的海三国中，拉脱维亚公交牌上的巴士有 **5 扇窗**，而立陶宛与爱沙尼亚为 **4 扇窗**。\n    - **土耳其美式路口牌：** 黄底黑边菱形/方形交叉口警告牌（内绘黑色向上箭头）。",
+          "textEn": "- **Yellow Background Road Signs:**\n    - **Luxembourg:** Text printed in ALL CAPS.\n    - **Former Yugoslavia:** Serbia, Croatia use prominent bright yellow direction signs.\n    - **Dark-Backed Signs:**\n    - **Europe:** Germany, Denmark, Finland, Italy (parts), Spain, Portugal, Switzerland.\n    - **South America:** Brazil, Paraguay, Chile, Colombia, Ecuador (cyan backing).\n    - **Asia:** Indonesia, Thailand, Malaysia.\n    - **Mexico:** Yellow warning signs feature dark painted backs.\n- **Signpost Stanchion Details:**\n    - **Russia:** Signposts feature a black-painted collar at the bottom base.\n    - **Peru:** Signposts painted with alternating black-and-white diagonal stripes.\n    - **Colombia:** Backs of road signs feature steel cross-braces (Colombian Cross).\n- **Typography & Arrow Aesthetics:**\n    - **Denmark:** Signs framed in metal borders with *Roboto Mono* font.\n    - **Germany:** Thin black outer border on crisp white signs.\n    - **Turkey:** Wide kerning / letter-spacing; Ankara signs have upward arched top edge.\n    - **Senegal:** Signs framed with pink borders; white stone milestone markers with red rounded tops.\n    - **Singapore:** Wide-spaced Rotis font.\n    - **Nordic Arrowhead Styles:**\n        - **Norway:** Negative white space carved out of solid black background block.\n        - **Sweden:** Simple black outline stroke drawing the arrow.\n        - **Finland:** Solid black painted arrow glyph.\n- **Bright Orange Sign Backs:** **Belgium** uniquely uses bright orange sign backs across the country (often mounted on dark green poles in urban areas).\n- **Sign Rim Wrapping & Bolt Fastening Metas:**\n    - **Croatia:** Gapped/interrupted metal rim wrapping around the back edge of stop and traffic signs.\n    - **Slovenia:** Bulged continuous metal rim around the back edge of signs.\n    - **Hungary (4-Bolt Rectangle):** Signs are fastened on the front by **four symmetrical bolts** forming a parallel rectangle.\n    - **Norway (Half-Height Pipe Clamp):** Signs and bus stops are held up by a secondary round metal pipe that stops **halfway up** the back of the sign (with 3 vertical bolts or narrow 4-bolt clusters).\n- **Unique European Specialty Signs:**\n    - **Czechia Black Bridge Signs:** Small **black rectangular plaque with a white border and 6-digit number** on almost every bridge (100% Czechia).\n    - **Poland Green Town Signs:** Bright **green background with white text** town entrance signs.\n    - **Latvia 5-Window Bus Sign:** Latvian bus stop signs show **5 windows** on the bus icon (vs. **4 windows** in Lithuania and Estonia).\n    - **Turkey Intersection Sign:** North American-style yellow-and-black intersection warning sign with black upward arrows."
         },
         {
           "titleZh": "让路牌、警告牌与护栏/里程碑",
           "titleEn": "Yield, Warning Signs, Guardrails & Milestones",
-          "textZh": "- **让路标志 (Yield / Give Way)：**\n    - `GIVE WAY`：英联邦国家（英国、澳大利亚黑字、新西兰红字、南非）。\n    - `YIELD`：美国、加拿大、爱尔兰。\n    - `CEDA EL PASO`：拉美西语国家、西班牙。\n    - `CEDA`：波多黎各。\n    - **博茨瓦纳：** 倒红边三角内部为深蓝色填充。\n- **警告标牌外框色彩：**\n    - **黄心细红边：** 波兰（仅警示牌黄心，限速与禁止牌均为白底）、芬兰（带明显黄色细边）。\n    - **白心红边无黄边：** 瑞典（金属外框）、冰岛（常带4颗固定螺钉）、希腊。\n    - **越南：** 无边框，中间常见黑色大 T 字路口标。\n    - **白心厚红边：** 加拿大、巴西、罗马尼亚。\n    - **新加坡：** 警告三角外带有白色方框。\n- **欧洲护栏类型 (Guardrails)：**\n    - **B型（平直双波）：** 克罗地亚、丹麦、波兰、塞尔维亚、波黑（CDPS：Croatia, Denmark, Poland, Serbia）。\n    - **细B型（平直较窄）：** 捷克、斯洛伐克。\n    - **AB混合：** 德国、土耳其、爱尔兰。\n    - **A型（圆弧双波）：** 其余绝大多数欧洲国家。\n    - **特殊护栏：** 意大利护栏尾端明显变粗；厄瓜多尔常见上下双层双轨护栏；罗马尼亚护栏有时涂刷黄黑条纹。\n- **里程碑 (Milestones)：**\n    - **罗马尼亚：** 独特的白色墓碑形里程碑，带有极粗的红色边缘。\n    - **匈牙利：** 绿底白框里程碑。\n    - **意大利：** 里程牌上广泛使用罗马数字。\n    - **墨西哥：** 里程数字呈垂直上下排列。\n    - **斯洛文尼亚：** 白色方板，左上角有黄色小方块。\n    - **菲律宾：** 黄色方形水泥柱，上下带凹槽白牌（如 `K 100` 表示距基准点100km，`ST 35` 表示距下个城镇35km）。",
-          "textEn": "- **Yield Signs Wording:**\n    - `GIVE WAY`: Commonwealth (UK, Australia black font, New Zealand red font, South Africa).\n    - `YIELD`: USA, Canada, Ireland.\n    - `CEDA EL PASO`: Latin America, Spain.\n    - `CEDA`: Puerto Rico.\n    - **Botswana:** Inverted red triangle filled with dark navy blue.\n- **Warning Sign Color Borders:**\n    - **Yellow with Thin Red Rim:** Poland (warning signs yellow, speed limits white), Finland (thin yellow rim).\n    - **White with Red Rim:** Sweden (metal frame), Iceland (4 visible mounting bolts), Greece.\n    - **Vietnam:** Frameless with bold black T-intersection mark.\n    - **White with Thick Red Border:** Canada, Brazil, Romania.\n    - **Singapore:** Warning triangle mounted inside a white rectangular backplate.\n- **European Guardrails:**\n    - **Type B (Flat profile):** Croatia, Denmark, Poland, Serbia, Bosnia (CDPS: Croatia, Denmark, Poland, Serbia).\n    - **Thin Type B:** Czechia, Slovakia.\n    - **Type A & B Mixed:** Germany, Turkey, Ireland.\n    - **Type A (Curved W-beam):** Rest of Europe.\n    - **Special Guardrails:** Italy guardrail terminals flare outward and thicken; Ecuador frequently uses double-tier stacked guardrails; Romania guardrails painted in yellow-and-black stripes.\n- **Milestone Markers:**\n    - **Romania:** Tombstone-shaped white stone pillars with thick red border.\n    - **Hungary:** Green background with white border.\n    - **Italy:** Frequently displays Roman numerals on small roadside markers.\n    - **Mexico:** Kilometer numerals stacked vertically.\n    - **Slovenia:** White plaque with yellow square in upper-left corner.\n    - **Philippines:** Yellow concrete post with recessed white markers ('K 100' distance to capital datum, 'ST 35' distance to next town)."
+          "textZh": "- **让路标志 (Yield / Give Way)：**\n    - `GIVE WAY`：英联邦国家（英国、澳大利亚黑字、新西兰红字、南非）。\n    - `YIELD`：美国、加拿大、爱尔兰。\n    - `CEDA EL PASO`：拉美西语国家、西班牙。\n    - `CEDA`：波多黎各。\n    - **博茨瓦纳：** 倒红边三角内部为深蓝色填充。\n- **警告标牌外框色彩：**\n    - **黄心细红边：** 波兰（仅警示牌黄心，限速与禁止牌均为白底）、芬兰（带明显黄色细边）。\n    - **白心红边无黄边：** 瑞典（金属外框）、冰岛（常带4颗固定螺钉）、希腊。\n    - **越南：** 无边框，中间常见黑色大 T 字路口标。\n    - **白心厚红边：** 加拿大、巴西、罗马尼亚。\n    - **新加坡：** 警告三角外带有白色方框。\n- **欧洲护栏类型 (Guardrails)：**\n    - **B型（平直双波）：** 克罗地亚、丹麦、波兰、塞尔维亚、波黑（CDPS：Croatia, Denmark, Poland, Serbia）。\n    - **细B型（平直较窄）：** 捷克、斯洛伐克。\n    - **AB混合：** 德国、土耳其、爱尔兰。\n    - **A型（圆弧双波）：** 其余绝大多数欧洲国家。\n    - **特殊护栏：** 意大利护栏尾端明显变粗；厄瓜多尔常见上下双层双轨护栏；罗马尼亚护栏有时涂刷黄黑条纹。\n- **里程碑 (Milestones)：**\n    - **罗马尼亚：** 独特的白色墓碑形里程碑，带有极粗的红色边缘。\n    - **匈牙利：** 绿底白框里程碑。\n    - **意大利：** 里程牌上广泛使用罗马数字。\n    - **墨西哥：** 里程数字呈垂直上下排列。\n    - **斯洛文尼亚：** 白色方板，左上角有黄色小方块。\n    - **菲律宾：** 黄色方形水泥柱，上下带凹槽白牌（如 `K 100` 表示距基准点100km，`ST 35` 表示距下个城镇35km）。\n    - **波黑：** 路边常见中间带 **`+` 加号**的独特里程标志（如 `12 + 500`）。\n    - **波罗的海三国里程碑朝向：** **爱沙尼亚**金属里程牌与道路呈 **90° 垂直**（正对司机）；**拉脱维亚**与道路**平行**；**立陶宛**与道路呈 **45° 斜角**。",
+          "textEn": "- **Yield Signs Wording:**\n    - `GIVE WAY`: Commonwealth (UK, Australia black font, New Zealand red font, South Africa).\n    - `YIELD`: USA, Canada, Ireland.\n    - `CEDA EL PASO`: Latin America, Spain.\n    - `CEDA`: Puerto Rico.\n    - **Botswana:** Inverted red triangle filled with dark navy blue.\n- **Warning Sign Color Borders:**\n    - **Yellow with Thin Red Rim:** Poland (warning signs yellow, speed limits white), Finland (thin yellow rim).\n    - **White with Red Rim:** Sweden (metal frame), Iceland (4 visible mounting bolts), Greece.\n    - **Vietnam:** Frameless with bold black T-intersection mark.\n    - **White with Thick Red Border:** Canada, Brazil, Romania.\n    - **Singapore:** Warning triangle mounted inside a white rectangular backplate.\n- **European Guardrails:**\n    - **Type B (Flat profile):** Croatia, Denmark, Poland, Serbia, Bosnia (CDPS: Croatia, Denmark, Poland, Serbia).\n    - **Thin Type B:** Czechia, Slovakia.\n    - **Type A & B Mixed:** Germany, Turkey, Ireland.\n    - **Type A (Curved W-beam):** Rest of Europe.\n    - **Special Guardrails:** Italy guardrail terminals flare outward and thicken; Ecuador frequently uses double-tier stacked guardrails; Romania guardrails painted in yellow-and-black stripes.\n- **Milestone Markers:**\n    - **Romania:** Tombstone-shaped white stone pillars with thick red border.\n    - **Hungary:** Green background with white border.\n    - **Italy:** Frequently displays Roman numerals on small roadside markers.\n    - **Mexico:** Kilometer numerals stacked vertically.\n    - **Slovenia:** White plaque with yellow square in upper-left corner.\n    - **Philippines:** Yellow concrete post with recessed white markers ('K 100' distance to capital datum, 'ST 35' distance to next town).\n    - **Bosnia:** Unique roadside distance markers featuring a **`+` (plus) sign** in the middle.\n    - **Baltic Milestone Angles:** **Estonia** mounts metal kilometer markers **perpendicular (90°)** to the road; **Latvia** mounts them **parallel** to the road; **Lithuania** mounts them at a **45° angle**."
         }
       ],
       "rawContent": "# 人行道告示牌\n\n# 欧洲底部标线\n\n- 常规： 欧洲大部分国家，蓝底白背景告示牌中的黑色小人下方伴有斑马线。\n- 没有此类告示牌：英国、爱尔兰\n- 一条横实线： 波兰\n- 两根横虚线： 比利时(方脑袋)、奥地利、希腊、黑山\n- 三条竖线：俄罗斯、乌克兰、爱沙尼亚（人瘦一些）、立陶宛\n- 四条竖线：\n    - 瑞典：有脖子\n    - 挪威：没有明显的脖子\n    - 冰岛：蓝底黄三角\n    - 保加利亚：带帽子\n- 五条竖线\n    - 其他大部分欧洲国家\n    - 竖线碰到三角框：丹麦\n    - 竖线很靠中间（有两条几乎被脚遮住）：斯洛伐克\n    - 有皮带：德国、克罗地亚、匈牙利、葡萄牙\n- 七条竖线：瑞士\n- 八条竖线：西班牙\n\n# 黄色菱形阵营\n\n在这些地区，人行道告示牌通常采用**黄色背景、菱形形状**，黑色图案被包围在黄色框内 。\n\n- **北美洲（美国、加拿大）**： 典型的黄色菱形告示牌 。美国有时会在下方配有写着“PED XING”的辅助说明牌。\n- **拉美地区（墨西哥、危地马拉、巴西、哥伦比亚、阿根廷、智利、秘鲁）**： 同样广泛使用黄色菱形警告标志 。\n- **大洋洲（澳大利亚、新西兰）**： 标志性的黄色菱形，图案通常是一个正在行走的人影 。\n- **亚洲（日本、大部分东南亚国家如泰国、马来西亚）**： 日本和东南亚地区也普遍采用黄色菱形作为行人警告标志 。\n- **欧洲特例 - 爱尔兰**： 它是欧洲极少数不使用蓝底告示牌的国家，而是使用**黄色菱形**，资料中形象地描述为“被困在黄色菱形里的行人” 。\n\n# 减速牌和警告牌\n\n- Give Way: 英联邦国家\n- Yield：美，加，爱尔兰\n- Ceda El Paso: 拉美，西班牙\n- CEDA: 波多黎各\n- 黄心红边\n    - 波兰：只有警示牌是黄底细红边，限速牌禁止牌都是白底\n    - 芬兰：明显黄色细边。\n    - 瑞典：没有黄边，但有金属边框\n    - 冰岛：没有黄边，金属边框不明显；牌上常有四个钉子\n    - 希腊：没有黄边，金属边框不明显\n    - 越南：没有边框，中间可能有黑色大T\n- 白心厚红边：加拿大、巴西、罗马尼亚\n- 外有白色方框：新加坡\n\n# 路牌\n\n- **黄色背景**\n    - [**卢森堡**]()：全大写文字。\n    - [**前南斯拉夫国家**]()：如塞尔维亚、克罗地亚，通常有醒目的黄色背景路牌。\n- 深色背面\n    - 欧洲：德国，丹麦，芬兰，意大利（部分），西班牙（部分），葡萄牙（部分），瑞士（部分）\n    - 南美：巴西，巴拉圭，智利，哥伦比亚，厄瓜多尔（青色）\n    - 亚洲：印尼，泰国，马来西亚\n    - 其它：墨西哥（黄色警告牌）\n- 支柱\n    - [**俄罗斯**]()：路牌底部常有一圈**黑色涂漆**。\n    - [**秘鲁**]()：路牌支柱上常有黑白斜向斑马纹。\n- **精细设计**\n    - [**丹麦**]()：路牌带有**金属外框**，字体为规整的 *Roboto Mono*。\n    - [**德国**]()：标志性的白色长方形配细黑边设计。\n    - 土耳其：安卡拉车牌上缘中间有向上的弧线\n    - 塞内加尔：粉色边框\n- **箭头绘制风格**\n    - [**挪威**]()：通过涂黑背景留白形成箭头。\n    - [**瑞典**]()：用简单的黑线勾勒箭头。\n    - [**芬兰**]()：直接涂黑箭头本身。\n- 石头路牌\n    - 塞内加尔：偶尔有红顶白色墓碑状\n- 字体\n    - 土耳其：字间距很大\n    - 新加坡：Rotis字体，间距大\n\n# 里程牌\n\n- **里程牌形状：**\n    - [**罗马尼亚**]()：独特的“墓碑形”里程牌，红色边缘非常粗。\n    - [**匈牙利**]()：绿色背景白框里程牌。\n    - [**意大利**]()：里程牌上常使用**罗马数字**。\n    - 墨西哥：里程牌km数字上下垂直排列\n    - 斯洛文尼亚：白色板，左上角有黄色小块\n    - 菲律宾：黄色方形水泥柱，上有两块凹进去的白牌，上面一块格式为K 100 （离本岛基准点100km），下面一块格式为ST 35 （离下一个城镇ST还有35km）\n\n# 护栏\n\n- **类型**\n    - [欧洲护栏总结图](https://www.plonkit.net/images/andorra/europeguardrail.png)\n    - A型（圆弧），B型（平），细B型（平，两横杠较细）\n    - B型：克罗地亚，塞尔维亚，波兰，丹麦，波黑 （CDPS: Croatia, Denmark, Poland, Serbia）\n    - 细B型：捷克，斯洛伐克\n    - AB都有：德国，土耳其，爱尔兰\n    - A型：其它欧洲国家\n- 形态\n    - [意大利]()：道路护栏的尾端通常会明显变粗。\n    - [厄瓜多尔]()：经常见到上下双层护栏。\n    - 罗马尼亚：有时有黄黑条纹\n- 反光板\n    - 黄色：西班牙，安道尔，比利时，以色列\n    - 橙色：立陶宛\n    - 白色：法国，卢森堡，瑞典，冰岛，意大利（部分），拉脱维亚（部分）\n    - 无反光板：英国，爱尔兰，荷兰，德国，丹麦，奥地利，挪威，芬兰，爱沙尼亚，葡萄牙（有时有红色）\n    - 红色：其它欧洲国家\n- 支架\n    - 黑色：意大利，罗马尼亚，阿尔巴尼亚，黑山",
@@ -6961,8 +7232,8 @@ window.GEOGUESSR_DATA = {
         {
           "titleZh": "欧洲弯道导向标配色全览",
           "titleEn": "European Chevrons Color Schemes",
-          "textZh": "- **白红配色（白底红箭头 或 红底白箭头）：**\n    - 绝大部分东欧国家（波兰、捷克、斯洛伐克、罗马尼亚、保加利亚、爱沙尼亚、乌克兰、俄罗斯）。\n    - 荷兰、比利时、丹麦、德国、奥地利（部分地区）。\n    - **土耳其：** 也是白红配色，但箭头尖端那一侧**不到边框**（留有白隙）。\n- **黑白配色：**\n    - **黑底白箭头：** 英国、意大利、阿尔巴尼亚、希腊、塞浦路斯、西班牙（部分地区）。\n    - **白底黑箭头：** 塞尔维亚、黑山、北马其顿。\n- **蓝白配色：**\n    - **蓝底白箭头：** 法国、西班牙（部分地区）。\n- **黑黄配色：**\n    - **黑底黄箭头：** 挪威、芬兰、冰岛、爱尔兰、葡萄牙。\n- **独占国旗国色：**\n    - **蓝底黄箭头：** **瑞典独占**（象征瑞典国旗蓝黄双色）。\n    - **黄底红箭头：** **奥地利**部分阿尔卑斯山区公路独占。",
-          "textEn": "- **White & Red (Red Arrow on White / White on Red):**\n    - Vast majority of Eastern Europe (Poland, Czechia, Slovakia, Romania, Bulgaria, Estonia, Ukraine, Russia).\n    - Netherlands, Belgium, Denmark, Germany, Austria (partial).\n    - **Turkey:** White and red, but the arrow points do NOT reach the outer border (floating arrow).\n- **Black & White:**\n    - **Black with white arrows:** United Kingdom, Italy, Albania, Greece, Cyprus, Spain (partial).\n    - **White with black arrows:** Serbia, Montenegro, North Macedonia.\n- **Blue & White:**\n    - **Blue with white arrows:** France, Spain (partial).\n- **Black & Yellow:**\n    - **Black with yellow arrows:** Norway, Finland, Iceland, Ireland, Portugal.\n- **Exclusive National Schemes:**\n    - **Blue with yellow arrows:** **Sweden exclusive** (matching Swedish national flag).\n    - **Yellow with red arrows:** **Austria** alpine highway sections."
+          "textZh": "- **白红配色（白底红箭头 或 红底白箭头）：**\n    - 绝大部分东欧国家（波兰、捷克、斯洛伐克、罗马尼亚、保加利亚、爱沙尼亚、乌克兰、俄罗斯）。\n    - 荷兰、比利时、丹麦、德国、奥地利（部分地区）。\n    - **土耳其：** 也是白红配色，但箭头尖端那一侧**不到边框**（留有白隙）。\n- **黑白配色：**\n    - **黑底白箭头：** 英国、意大利、阿尔巴尼亚、希腊、塞浦路斯、西班牙（部分地区）。\n    - **白底黑箭头：** 塞尔维亚、黑山、北马其顿。\n- **蓝白配色：**\n    - **蓝底白箭头：** 法国、西班牙（部分地区）。\n- **黑黄配色：**\n    - **黑底黄箭头：** 挪威、芬兰、冰岛、爱尔兰、葡萄牙。\n- **独占国旗国色：**\n    - **蓝底黄箭头：** **瑞典独占**（象征瑞典国旗蓝黄双色）。\n    - **黄底红箭头：** **奥地利**部分阿尔卑斯山区公路独占。\n    - **圣马力诺：** 亮黄底红箭头（与周围意大利的黑底白箭头截然不同）。\n    - **立陶宛 vs 拉脱维亚/爱沙尼亚：** 爱沙尼亚为红底白箭头；拉脱维亚与立陶宛为白底红箭头，但**立陶宛外缘多一圈细红框**。",
+          "textEn": "- **White & Red (Red Arrow on White / White on Red):**\n    - Vast majority of Eastern Europe (Poland, Czechia, Slovakia, Romania, Bulgaria, Estonia, Ukraine, Russia).\n    - Netherlands, Belgium, Denmark, Germany, Austria (partial).\n    - **Turkey:** White and red, but the arrow points do NOT reach the outer border (floating arrow).\n- **Black & White:**\n    - **Black with white arrows:** United Kingdom, Italy, Albania, Greece, Cyprus, Spain (partial).\n    - **White with black arrows:** Serbia, Montenegro, North Macedonia.\n- **Blue & White:**\n    - **Blue with white arrows:** France, Spain (partial).\n- **Black & Yellow:**\n    - **Black with yellow arrows:** Norway, Finland, Iceland, Ireland, Portugal.\n- **Exclusive National Schemes:**\n    - **Blue with yellow arrows:** **Sweden exclusive** (matching Swedish national flag).\n    - **Yellow with red arrows:** **Austria** alpine highway sections.\n    - **San Marino:** Bright yellow background with red arrows (distinct from surrounding Italy's black-and-white chevrons).\n    - **Lithuania vs. Latvia/Estonia:** Estonia uses red background with white arrows; Latvia and Lithuania use white background with red arrows, but **Lithuania adds a thin red outer border**."
         },
         {
           "titleZh": "美洲与其它大洲特殊导向标",
@@ -7047,7 +7318,7 @@ window.GEOGUESSR_DATA = {
         {
           "titleZh": "全球特色民居与街景风貌",
           "titleEn": "Vernacular Architecture & Urban Landscapes",
-          "textZh": "- **欧洲特色民居与街道：**\n    - **安道尔：** 纯天然深灰色花岗岩砖石砌筑外墙，深邃高山峡谷排屋。\n    - **马耳他：** 地中海金黄色石灰岩厚重平顶石屋，配凸出式木制彩色封闭阳台（Gallarija）。\n    - **保加利亚：** 凹凸不平的粗糙深红色陶瓦屋顶。\n    - **瑞士：** 住宅窗户外侧百叶窗数量极多、规整整齐。\n    - **百慕大：** 标志性阶梯状白色防风暴石灰屋顶（收集雨水）。\n- **美洲特色风貌：**\n    - **厄瓜多尔：** 城区街道地面经常铺设六边形地砖。\n    - **玻利维亚：** 城区多鹅卵石路；墙体满是 MAS、EVO 等政治性涂鸦；常见蓝色 Tigo 广告牌。\n    - **秘鲁：** 街道大量三轮机动摩托车；沿海沙漠城镇多用编织芦苇席作为简易围栏。\n    - **乌拉圭：** 沿海城镇常见 Chivito（国宝级牛肉汉堡）招牌。\n    - **智利：** 郊区公路常见亭子状木质/铁质特色公交车站。\n- **亚非特色景观：**\n    - **尼日利亚：** 屋顶经常为五脊歇山顶形镀锌铁皮瓦。\n    - **卢旺达：** 砖混建筑上常有几何花纹镂空通风孔；街面极为干净；摩托车手必须佩戴红色背心与头盔。\n    - **菲律宾：** 满街边三轮摩托车 (Tricycle)，宽阔的白色水泥路面。\n    - **泰国：** 住宅与商铺外常供奉微缩庙宇形状的神龛。\n    - **不丹：** 传统藏式彩绘木窗，路边立有带彩绘的混凝土方块护墩。\n    - **土耳其：** 人行道广泛铺设哑铃形连锁彩色地砖。\n    - **柬埔寨：** 农村多高脚防汛木屋。\n    - **孟加拉国：** 茂密竹林中分布大量绿色铁皮简易平房与细河沙。",
+          "textZh": "- **欧洲特色民居与街道：**\n    - **安道尔：** 纯天然深灰色花岗岩砖石砌筑外墙，深邃高山峡谷排屋。\n    - **马耳他：** 地中海金黄色石灰岩厚重平顶石屋，配凸出式木制彩色封闭阳台（Gallarija）。\n    - **保加利亚（及塞尔维亚）：** 凹凸不平的深红色陶瓦屋顶，且**屋脊与转角瓦片接缝处普遍涂有厚重的灰白色砂浆（Mortar）**。\n    - **葡萄牙：** 城乡人行道广泛铺设亮白色碎石拼花路面（Calçada portuguesa）。\n    - **荷兰：** 城镇住宅街道普遍铺设红褐色烧结砖（Clinker bricks）。\n    - **瑞士：** 住宅窗户外侧百叶窗数量极多、规整整齐。\n    - **百慕大：** 标志性阶梯状白色防风暴石灰屋顶（收集雨水）。\n- **美洲特色风貌：**\n    - **厄瓜多尔：** 城区街道地面经常铺设六边形地砖。\n    - **玻利维亚：** 城区多鹅卵石路；墙体满是 MAS、EVO 等政治性涂鸦；常见蓝色 Tigo 广告牌。\n    - **秘鲁：** 街道大量三轮机动摩托车；沿海沙漠城镇多用编织芦苇席作为简易围栏。\n    - **乌拉圭：** 沿海城镇常见 Chivito（国宝级牛肉汉堡）招牌。\n    - **智利：** 郊区公路常见亭子状木质/铁质特色公交车站。\n- **亚非特色景观：**\n    - **尼日利亚：** 屋顶经常为五脊歇山顶形镀锌铁皮瓦。\n    - **卢旺达：** 砖混建筑上常有几何花纹镂空通风孔；街面极为干净；摩托车手必须佩戴红色背心与头盔。\n    - **菲律宾：** 满街边三轮摩托车 (Tricycle)，宽阔的白色水泥路面。\n    - **泰国：** 住宅与商铺外常供奉微缩庙宇形状的神龛。\n    - **不丹：** 传统藏式彩绘木窗，路边立有带彩绘的混凝土方块护墩。\n    - **土耳其：** 人行道广泛铺设哑铃形连锁彩色地砖。\n    - **柬埔寨：** 农村多高脚防汛木屋。\n    - **孟加拉国：** 茂密竹林中分布大量绿色铁皮简易平房与细河沙。",
           "textEn": "- **European Vernacular Elements:**\n    - **Andorra:** Natural dark gray unrendered stacked granite walls in deep alpine valleys.\n    - **Malta:** Warm golden limestone sand-colored flat-roof houses with closed wooden balconies (Gallarija).\n    - **Bulgaria:** Wavy, uneven, rough terracotta red roof tiles.\n    - **Switzerland:** Extensive, uniform external window shutters.\n    - **Bermuda:** White stepped limestone roofs engineered for rainwater catchment.\n- **Americas Vernacular Elements:**\n    - **Ecuador:** Urban sidewalks frequently paved with hexagonal interlock tiles.\n    - **Bolivia:** Cobblestone streets, dense political graffiti (MAS, EVO), blue Tigo billboards.\n    - **Peru:** Mototaxis throughout, woven reed mats used as boundary fences in coastal deserts.\n    - **Uruguay:** Frequent signs advertising 'Chivito' steak sandwiches.\n    - **Chile:** Suburban highway bus stops resemble wooden gazebos.\n- **Asia & Africa Vernacular Elements:**\n    - **Nigeria:** Prominent 5-ridge hipped tin corrugated metal roofs.\n    - **Rwanda:** Brick/mortar homes with decorative lattice ventilation perforations, remarkably spotless streets, motorcycle riders wearing red vests and helmets.\n    - **Philippines:** Ubiquitous passenger tricycles, pale concrete roadway slabs.\n    - **Thailand:** Spirit houses resembling miniature ornate temples outside homes and businesses.\n    - **Bhutan:** Traditional painted timber window frames, roadside painted concrete bollards.\n    - **Turkey:** Dumbbell-shaped interlocking paving bricks.\n    - **Cambodia:** Traditional stilt wooden houses in rural floodplains.\n    - **Bangladesh:** Green corrugated tin shacks tucked inside dense tropical bamboo groves with fine river sand."
         },
         {
@@ -7065,8 +7336,8 @@ window.GEOGUESSR_DATA = {
         {
           "titleZh": "城市门牌、路名牌与街道设施",
           "titleEn": "House Numbers & Street Signs",
-          "textZh": "- **欧洲城市门牌系统：**\n    - **捷克 vs 斯洛伐克：** 捷克门牌以红色或蓝色为底色；斯洛伐克门牌多为纯白底色。\n    - **法国巴黎：** 标志性深蓝底白字搪瓷牌，带有绿色或白色精致滚边。\n    - **奥地利维也纳：** 椭圆形深蓝底白字门牌，开头标注行政区编号（如 `9., Berggasse`，直接定位维也纳 1–23 区）。\n    - **波兰华沙：** MSI 城市导向系统：上部蓝色标注门牌与路名，底部红色横条标注所在社区名称；其他波兰城市多为简单蓝白金属牌。\n    - **匈牙利：** 常见黑白箭头指向牌标注门牌增减方向，带 `u.` (utca)、`út`、`tér` 词缀。\n    - **瑞士：** 蓝底白字长条金属板，街名与门牌号压制一体，极具现代 Helvetica 无衬线风格。\n    - **西班牙马德里：** 手绘彩色瓷砖 (Azulejos) 门牌，描绘与该街道历史典故相关的插画；安达卢西亚等南部地区为白墙嵌黄蓝陶瓷拼贴单字门牌。\n    - **英国与爱尔兰：** 门牌常以房屋名称命名，刻于木牌、石雕或铸铁牌上。\n    - **克罗地亚 vs 塞尔维亚：** 克罗地亚标准化蓝底白字左侧印国徽棋盘盾；塞尔维亚为西里尔字母且不带盾徽。\n- **亚洲门牌系统：**\n    - **韩国：** 蓝底五边形房顶盾牌（尖角朝上），中间为大号数字，上方标有 `-ro` 或 `-gil` 路名。\n    - **日本：** “丁目-番-号”街区制；电线杆或墙角带有深蓝/墨绿色垂直金属长条纵向书写；独栋住宅门口必有住户姓氏的小型“表札”。\n    - **中国台湾：** 绿底白字长方形金属牌为主，中间为醒目大字门牌号；新北市为橘白拼色，台北市为绿白凸字。\n- **美洲门牌与路沿喷漆：**\n    - **巴西：** 许多城市（如圣保罗）门牌直接标注 8 位 CEP 邮政编码（`XXXXX-XXX`），可直接依前几位定位到具体州或城市。\n    - **美国与加拿大：**\n        - **路沿石喷漆 (Curb Numbers)：** 郊区住宅车道入口旁的路沿石上喷印黑色/白色数字（有时带反光底色或大学/球队 Logo）。\n        - **超大四至五位数门牌：** 网格化编排导致郊区住宅门牌动辄 4–5 位数（如 18452），欧洲绝大多数为 1–3 位数。\n- **路沿石涂装颜色：**\n    - 黑白相间：马来西亚、卡塔尔、卢旺达、博茨瓦纳。\n    - 黄黑/红白相间：马来西亚、印尼、泰国转弯或路口处。\n    - 红白相间：突尼斯、摩纳哥。",
-          "textEn": "- **European House Number Systems:**\n    - **Czechia vs Slovakia:** Czech house numbers have red or blue backgrounds; Slovak numbers have white backgrounds.\n    - **Paris (France):** Navy blue enamel plaques with crisp white lettering and ornamental green/white borders.\n    - **Vienna (Austria):** Oval navy blue plaques prefixed by municipal district numbers (e.g. `9., Berggasse` identifying districts 1–23).\n    - **Warsaw (Poland):** MSI system: blue upper section with house number & street, red lower band indicating neighborhood name.\n    - **Hungary:** Directional arrow-shaped plates showing house number numbering order with suffixes `u.` (utca), `út`, `tér`.\n    - **Switzerland:** Sleek navy blue metal strip integrating street name and house number in clean Helvetica font.\n    - **Madrid (Spain):** Hand-painted ceramic tile murals (Azulejos) illustrating historical street events; Andalusia features colorful yellow-blue tile numbers.\n    - **United Kingdom & Ireland:** Houses frequently named rather than numbered, engraved on slate, timber, or brass.\n    - **Croatia vs Serbia:** Croatia standard blue plaque features Croatian checkerboard shield on left; Serbia uses Cyrillic script without shield.\n- **Asian House Number Systems:**\n    - **South Korea:** Pentagonal house-shaped blue plates (pointing up) with large white numbers and `-ro` or `-gil` street designations.\n    - **Japan:** Chome-ban-go block numbering system; narrow vertical dark blue/green metal strips stenciled vertically; individual detached homes almost always display family surname plaques (Hyosatsu).\n    - **Taiwan:** Green metal plates with white numbers; New Taipei uses orange-white, Taipei City uses green-white embossed plates.\n- **Americas Numbers & Curb Stencils:**\n    - **Brazil:** House plaques often display the 8-digit postal code CEP (`XXXXX-XXX`), allowing state/city pinpointing.\n    - **United States & Canada:**\n        - **Curb Numbers:** Suburban driveways feature stenciled black-and-white numbers directly on roadside concrete curbs.\n        - **Massive 4–5 Digit Numbers:** Grid-based numbering produces 5-digit addresses (e.g. 18452), contrasting 1–3 digit European numbers.\n- **Painted Curb Markings:**\n    - Black-and-white alternating: Malaysia, Qatar, Rwanda, Botswana.\n    - Red-and-white / Yellow-and-black: Malaysia, Indonesia, Thailand road junctions.\n    - Red-and-white: Tunisia, Monaco."
+          "textZh": "- **欧洲城市门牌系统：**\n    - **捷克 vs 斯洛伐克：** 捷克门牌以红色或蓝色为底色；斯洛伐克门牌多为纯白底色。\n    - **法国巴黎：** 标志性深蓝底白字搪瓷牌，带有绿色或白色精致滚边。\n    - **奥地利维也纳：** 椭圆形深蓝底白字门牌，开头标注行政区编号（如 `9., Berggasse`，直接定位维也纳 1–23 区）。\n    - **波兰华沙：** MSI 城市导向系统：上部蓝色标注门牌与路名，底部红色横条标注所在社区名称；其他波兰城市多为简单蓝白金属牌。\n    - **匈牙利：** 常见黑白箭头指向牌标注门牌增减方向，带 `u.` (utca)、`út`、`tér` 词缀。\n    - **瑞士：** 蓝底白字长条金属板，街名与门牌号压制一体，极具现代 Helvetica 无衬线风格。\n    - **西班牙马德里：** 手绘彩色瓷砖 (Azulejos) 门牌，描绘与该街道历史典故相关的插画；安达卢西亚等南部地区为白墙嵌黄蓝陶瓷拼贴单字门牌。\n    - **英国与爱尔兰：** 门牌常以房屋名称命名，刻于木牌、石雕或铸铁牌上。\n    - **克罗地亚 vs 塞尔维亚：** 克罗地亚标准化蓝底白字左侧印国徽棋盘盾；塞尔维亚为西里尔字母且不带盾徽。\n- **亚洲门牌系统：**\n    - **韩国：** 蓝底五边形房顶盾牌（尖角朝上），中间为大号数字，上方标有 `-ro` 或 `-gil` 路名。\n    - **日本：** “丁目-番-号”街区制；电线杆或墙角带有深蓝/墨绿色垂直金属长条纵向书写；独栋住宅门口必有住户姓氏的小型“表札”。\n    - **中国台湾：** 绿底白字长方形金属牌为主，中间为醒目大字门牌号；新北市为橘白拼色，台北市为绿白凸字。\n- **美洲门牌与路沿喷漆：**\n    - **巴西：** 许多城市（如圣保罗）门牌直接标注 8 位 CEP 邮政编码（`XXXXX-XXX`），可直接依前几位定位到具体州或城市。\n    - **美国与加拿大：**\n        - **路沿石喷漆 (Curb Numbers)：** 郊区住宅车道入口旁的路沿石上喷印黑色/白色数字（有时带反光底色或大学/球队 Logo）。\n        - **超大四至五位数门牌：** 网格化编排导致郊区住宅门牌动辄 4–5 位数（如 18452），欧洲绝大多数为 1–3 位数。\n- **路沿石涂装颜色：**\n    - 黑白相间：马来西亚、卡塔尔、卢旺达、博茨瓦纳。\n    - 黄黑/红白相间：马来西亚、印尼、泰国转弯或路口处。\n    - 红白相间：突尼斯、摩纳哥。\n    - **科索沃：** 蓝底街名牌顶部横栏印有斜杠分隔的双语 **`Rruga / Ulica`**，下方书写街名（100% 锁定科索沃）。\n    - **列支敦士登：** 常见棕底或黑底、内嵌白色长方细框与细体字的街道名牌（区别于瑞士的蓝底牌）。\n    - **克罗地亚：** 常见类似法国的深海军蓝底、白框白字方形门牌。",
+          "textEn": "- **European House Number Systems:**\n    - **Czechia vs Slovakia:** Czech house numbers have red or blue backgrounds; Slovak numbers have white backgrounds.\n    - **Paris (France):** Navy blue enamel plaques with crisp white lettering and ornamental green/white borders.\n    - **Vienna (Austria):** Oval navy blue plaques prefixed by municipal district numbers (e.g. `9., Berggasse` identifying districts 1–23).\n    - **Warsaw (Poland):** MSI system: blue upper section with house number & street, red lower band indicating neighborhood name.\n    - **Hungary:** Directional arrow-shaped plates showing house number numbering order with suffixes `u.` (utca), `út`, `tér`.\n    - **Switzerland:** Sleek navy blue metal strip integrating street name and house number in clean Helvetica font.\n    - **Madrid (Spain):** Hand-painted ceramic tile murals (Azulejos) illustrating historical street events; Andalusia features colorful yellow-blue tile numbers.\n    - **United Kingdom & Ireland:** Houses frequently named rather than numbered, engraved on slate, timber, or brass.\n    - **Croatia vs Serbia:** Croatia standard blue plaque features Croatian checkerboard shield on left; Serbia uses Cyrillic script without shield.\n- **Asian House Number Systems:**\n    - **South Korea:** Pentagonal house-shaped blue plates (pointing up) with large white numbers and `-ro` or `-gil` street designations.\n    - **Japan:** Chome-ban-go block numbering system; narrow vertical dark blue/green metal strips stenciled vertically; individual detached homes almost always display family surname plaques (Hyosatsu).\n    - **Taiwan:** Green metal plates with white numbers; New Taipei uses orange-white, Taipei City uses green-white embossed plates.\n- **Americas Numbers & Curb Stencils:**\n    - **Brazil:** House plaques often display the 8-digit postal code CEP (`XXXXX-XXX`), allowing state/city pinpointing.\n    - **United States & Canada:**\n        - **Curb Numbers:** Suburban driveways feature stenciled black-and-white numbers directly on roadside concrete curbs.\n        - **Massive 4–5 Digit Numbers:** Grid-based numbering produces 5-digit addresses (e.g. 18452), contrasting 1–3 digit European numbers.\n- **Painted Curb Markings:**\n    - Black-and-white alternating: Malaysia, Qatar, Rwanda, Botswana.\n    - Red-and-white / Yellow-and-black: Malaysia, Indonesia, Thailand road junctions.\n    - Red-and-white: Tunisia, Monaco.\n    - **Kosovo:** Street signs display **`Rruga / Ulica`** separated by a slash along the top header above the street name (100% unique to Kosovo).\n    - **Liechtenstein:** Distinctive brown- or black-background street signs with a white rectangular inner border and thin font.\n    - **Croatia:** Frequently uses French-like dark navy-blue house number plaques with white borders and white digits."
         }
       ],
       "rawContent": "# 建筑街景\n\n- 安道尔：砖石墙\n- 马耳他：黄色沙石墙\n- 保加利亚：不平的瓦片\n- 阿尔巴尼亚：屋顶白色圆筒状大水箱\n- 尼日利亚：屋顶经常为五脊歇山形\n- 卢旺达：砖混建筑上常有花纹通风口；街面很干净；经常有栏杆或高墙；摩托车手需带红色背心头盔\n- 菲律宾：三轮车,混凝土道路\n- 泰国：经常有类似小庙宇的神龛\n- 不丹：路边混凝土方块护墩\n- 厄瓜多尔：城区可能有六边形地砖\n- 玻利维亚：城区可能有鹅卵石路；多MAS, EVO等政治性涂鸦；蓝色TIgo 广告\n- 巴西：透明卫星天线，深蓝色水箱\n- 墨西哥：大黑色水箱，墙外圆形电表\n- 秘鲁：街道上多三轮车; 有时有编织芦苇席做围栏\n- 乌拉圭：有时有Chivito（乌拉圭国家美食）标志\n- 土耳其：哑铃形地砖贴铺\n- 百慕大：白色屋顶\n- 瑞士：百叶窗数量多\n- 智利：有像亭子一样的公交车站\n- 柬埔寨：有高脚屋子\n- 孟加拉：竹编木栅栏，透明塑料细网，细河沙\n\n石墙\n\n| **区域 / 国家** | **石墙特征与材质** | **伴生景观与快速区分 Meta** |\n| --- | --- | --- |\n| **爱沙尼亚诸岛**\n\n*(萨雷马/穆胡岛)* | 灰白色石灰岩，长满青苔或地衣，高度齐腰，呈自然粗糙堆砌（*Kiviaed*）。 | **平坦地貌 + 低矮刺柏（Juniper）**、松树与白桦；波罗的海灰暗阴天或Gen 3/4夏景。 |\n| **瑞典 (厄兰/哥特兰岛)** | 规整平整的石灰岩薄板堆砌（*Stengärdsgård*）。 | 极开阔的阿尔瓦（Alvar）草原地貌、风车、典型北欧红色木屋（Falun red）。 |\n| **马耳他 / 戈佐岛** | 明显的**暖黄/金黄色石灰岩（Globigerina）**，规整方正，风化孔隙明显。 | **无树干旱**、仙人掌/刺山柑、左舵行车（左行标志）、黄色白牌或长条车牌。 |\n| **尤卡坦半岛 (墨西哥)**\n\n*(坎昆/梅里达周边)* | 粗糙带孔的灰白/黄色石灰岩石块，常作为庭院矮墙（*Albarrada*）。 | **热带干热灌木林（Selva baja）**、极度平坦、白水泥平顶房、烈日顶光。 |\n| **爱尔兰 / 英国**\n\n*(尤以爱尔兰西部为甚)* | 灰黑色花岗岩或页岩，缝隙透光（如康尼马拉/阿伦群岛的透光石墙）。 | **极绿草丘**、起伏地形、阴雨潮湿感、左行红尾灯、黄色菱形标牌（爱尔兰）。 |\n| **克罗地亚 / 达尔马提亚** | 浅白灰岩在沿海梯田与山坡蜿蜒（*Suhozid*），纵横交错。 | **喀斯特山地**、橄榄树丛、地中海灌木、波光粼粼的亚得里亚海。 |\n| **意大利 (普利亚/西西里)** | 浅色石灰岩，普利亚常见于橄榄园与圆顶石屋（*Trulli*）之间。 | **红土壤**、百岁粗壮橄榄树、南欧强烈阳光、前排短白牌。 |\n| **秘鲁 / 玻利维亚高原** | 泥土与深色圆砾石混筑，或印加风格巨石基座。 | **极高海拔安第斯荒漠草甸（Puna）**、羊驼、土坯房（Adobe）、黑白横纹反光柱。 |\n\n# 水箱\n\n# 美洲\n\n- 墨西哥：特别常见，黑色水箱(有时白色)，Rotoplas\n- 巴西：特别常见，蓝色水箱\n- 玻利维亚：白色标签，上面写着“Tank-Burg”\n- 哥伦比亚：黑色桶形水箱，或巴西式蓝色水箱\n- 多米尼加：比墨西哥更宽的黑色桶状水箱\n- 厄瓜多尔：蓝色水箱，比巴西更高些，上面写着“Piestigama”\n\n# 中东\n\n- 以色列：白色圆柱水桶（也是太阳能热水器）\n- 巴勒斯坦：屋顶可能有大量黑色和白色水箱\n- 约旦/阿联酋：白色水箱 （注意突尼斯没有水箱）\n\n# 非洲\n\n- 加纳/尼日利亚/乌干达/肯尼亚: 比美洲大的黑色水箱，通常放在建筑物的一侧或专门建造的塔楼\n- 博茨瓦纳/斯威士兰/莱索托/南非: 绿色大水箱\n\n# 亚洲\n\n- 斯里兰卡：特别常见，黑色水箱\n- 印尼：水箱比马来西亚更常见，有黄/橙色水箱\n\n# 欧洲\n\n- 希腊：金属水箱\n- 土耳其：特别常见，太阳能热水器，通常带两个小水箱\n- 意大利：西西里岛有各种浅色水箱\n\nhttps://www.yuque.com/chaofun/tuxun/water_tank\n\n# 门牌\n\n- 捷克斯洛伐克\n    - 捷克：红或蓝背景颜色\n    - 斯洛伐克: 一般为白色背景颜色门牌\n- 法国:\n    - 巴黎：标志性的深蓝底白字/带白/绿边框搪瓷门牌，字体圆润工整。\n    - 其他省份：蓝底白字很常见，但样式多样；部分老街区有手绘或黑底白字。\n- 奥地利\n    - 维也纳：深蓝底白字椭圆形或长方形牌，门牌号码上方通常写有区号+街名（例如：9., Berggasse），区号能直接精确定位维也纳的具体行政区（1–23区）。\n- **波兰**\n    - [**华沙**](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSymVBUQfXARP8dHZ7rJuDoWzKccHAb9HivB4xQMU2WEw&s)：拥有标准化的城市导向系统（MSI）。主体为蓝色背景（标注门牌号与街名），底部为一条红色横条（标注所属区域/社区名）。\n    - 其他波兰城市：常见简单的白底蓝字或蓝底白字金属牌。\n- [**匈牙利**](https://monkeywalker.com/wp-content/uploads/2025/04/3-4.jpg)\n    - 常见黑白箭头/指向牌样式的街名牌或门牌，牌面通常带指向箭头，标注门牌号增减方向，或者带有 `u.`（utca，街）/ `út`（大道）/ `tér`（广场）等字样。\n- **瑞士**\n    - 常见蓝底白字长条形金属门牌，通常直接将“街道名 + 门牌号”压制在同一块牌子上，字体极具现代无衬线风格（如 Helvetica / Frutiger 风格）。\n- **西班牙**\n    - [马德里](https://www.streetsigns.co.il/Images/signs/c5970.jpg)：街名门牌极具特色，顶部或整块为手绘彩色瓷砖（Azulejos），上面绘制有与该街道名称历史相关的图画。\n    - [**安达卢西亚](https://i.etsystatic.com/34533733/r/il/167d00/8119251267/il_300x300.8119251267_rxvk.jpg)等南部地区**：常见白墙配黄/蓝镶边的彩色陶瓷小方块拼成的单字门牌号。\n- **英国与爱尔兰**\n    - 门牌常以房屋名称代替纯数字，通常刻在木牌、石雕或铸铁牌上。\n- **克罗地亚 vs 塞尔维亚**\n    - 克罗地亚：全国标准化蓝底白字，左侧通常印有小型的克罗地亚国徽（棋盘盾徽）。\n    - 塞尔维亚：蓝底白字常见，但通常使用西里尔字母标注街名，且不带克罗地亚国徽。\n- 韩国\n    - 外观呈五边形/房型盾牌状（尖角朝上），蓝底白字，中间为大号数字，上方写有路名（含韩文和英文罗马拼音，如 ...-ro 或 ...-gil）。\n- **日本**\n    - 使用的是“街区方式”（丁目-番-号）。住宅门前或电线杆下常有深蓝/墨绿色细长垂直金属条，纵向书写汉字地名及街区号（如 〇〇町三丁目 5-12）。个人独栋住宅入口处几乎 100% 挂有标注住户姓氏的小型表札（姓名牌）。\n- **台湾**\n    - 门牌多为长方形金属牌，绿底白字或白底绿字最为普遍，上方标注行政区与路街名，中间为醒目大字门牌号。各县市近年有局部特色改版（如新北市橘白相间、台北市绿白凸字）。\n- **巴西（库里蒂巴、圣保罗等）**\n    - 许多巴西城市（如圣保罗）的门牌会直接标出 CEP（8 位邮政编码），格式为 XXXXX-XXX，遇到可直接根据邮编前几位定位到具体州或城市。\n- **美国 & 加拿大**\n    - **路沿石喷漆（Curb Numbers）**：北美郊区住宅区极常见在车道入口旁的路沿石上喷印黑色/白色数字（有时带反光底色或当地大学/体育队 Logo）。\n    - **超大四至五位数门牌**：北美网格状编排系统导致郊区住宅门牌动辄为 4–5 位数（如 18452），而在欧洲绝大多数为从 1 开始递增的 1–3 位数。\n\n# 路沿\n\n- 黑白交替路沿：马来西亚，卡塔尔，卢旺达，博茨瓦纳（各种颜色）\n- **红白/黄黑刷漆：** [**马来西亚**]()、[**印尼**]()、[**泰国**]() 常见在转弯或路口处刷有彩色路缘。\n- 红白路沿：突尼斯\n\n# 路灯\n\n- 捷克/斯洛伐克：路灯下面很粗\n- 希腊：圆形路灯",
@@ -7115,8 +7386,8 @@ window.GEOGUESSR_DATA = {
         {
           "titleZh": "欧洲国际公路系统 E-Roads",
           "titleEn": "European E-Roads Network",
-          "textZh": "- **两位数 E+数字 公路规律：**\n    - **奇数（E1, E5, E15, E75...）：** 南北走向主干道。数字越小越偏西，数字越大越往东。\n        - 极小号（E1、E5）：位于最西侧的葡萄牙、西班牙、法国。\n        - 中间号（E25、E35、E45）：贯穿西欧与中欧（荷兰–德国–意大利–瑞士）。\n        - 较大号（E75、E85）：贯穿偏东的芬兰、波罗的海、中东欧、巴尔干、希腊、土耳其。\n    - **偶数（E20、E40、E80...）：** 东西走向主干道。数字越小越靠北，数字越大越靠南。\n        - 小号（E10、E20）：靠北横穿北欧三国、波罗的海与德国北部。\n        - 中号（E40、E50）：中纬度横穿法国、德国、中东欧至乌克兰。\n        - 大号（E80）：南部横贯西班牙、意大利、巴尔干、希腊与土耳其。\n- **三位数 E 路网格规律：**\n    - 第 1 位数字 ≈ 北侧最近参考 A 级主干的十位数。\n    - 第 2 位数字 ≈ 西侧最近参考 A 级主干的十位数。\n    - 第 3 位数字为顺序编号（例如 E7xx 大致位于 E70 东西干线以南的保加利亚、罗马尼亚、土耳其一带）。",
-          "textEn": "- **2-Digit European E-Road Numbering Logic:**\n    - **Odd Numbers (E1, E5, E15, E75...):** North-South corridors. Numbers increase from West to East.\n        - Low numbers (E1, E5): Far west corridors (Portugal, Spain, France).\n        - Mid numbers (E25, E35, E45): Central corridors (Netherlands, Germany, Switzerland, Italy).\n        - High numbers (E75, E85): Eastern corridors (Finland, Baltic States, Balkans, Greece, Turkey).\n    - **Even Numbers (E20, E40, E80...):** East-West corridors. Numbers increase from North to South.\n        - Low numbers (E10, E20): Northern corridors (Norway, Sweden, Finland, Baltic coast).\n        - Mid numbers (E40, E50): Mid-latitude corridors (France, Germany, Czechia, Ukraine).\n        - High numbers (E80): Southern corridors (Spain, Italy, Balkans, Greece, Turkey).\n- **3-Digit E-Road Grid Logic:**\n    - 1st digit ≈ Tens digit of the reference E-corridor to the north.\n    - 2nd digit ≈ Tens digit of the reference E-corridor to the west.\n    - 3rd digit is a sequential route number (e.g. E7xx sits south of E70 in Romania, Bulgaria, Turkey)."
+          "textZh": "- **两位数 E+数字 公路规律：**\n    - **奇数（E1, E5, E15, E75...）：** 南北走向主干道。数字越小越偏西，数字越大越往东。\n        - 极小号（E1、E5）：位于最西侧的葡萄牙、西班牙、法国。\n        - 中间号（E25、E35、E45）：贯穿西欧与中欧（荷兰–德国–意大利–瑞士）。\n        - 较大号（E75、E85）：贯穿偏东的芬兰、波罗的海、中东欧、巴尔干、希腊、土耳其。\n    - **偶数（E20、E40、E80...）：** 东西走向主干道。数字越小越靠北，数字越大越靠南。\n        - 小号（E10、E20）：靠北横穿北欧三国、波罗的海与德国北部。\n        - 中号（E40、E50）：中纬度横穿法国、德国、中东欧至乌克兰。\n        - 大号（E80）：南部横贯西班牙、意大利、巴尔干、希腊与土耳其。\n- **三位数 E 路网格规律：**\n    - 第 1 位数字 ≈ 北侧最近参考 A 级主干的十位数。\n    - 第 2 位数字 ≈ 西侧最近参考 A 级主干的十位数。\n    - 第 3 位数字为顺序编号（例如 E7xx 大致位于 E70 东西干线以南的保加利亚、罗马尼亚、土耳其一带）。\n- **冰岛顺时针环岛公路编号系统：**\n    - **1 号公路（Ring Road）：** 环绕冰岛全境的唯一主干道。\n    - **区域公路（2–9 开头，含两位数与三位数）：** 从首都雷克雅未克所在的西南部起按**顺时针方向**递增：`2x/2xx`（南部/西南）→ `3x/4x`（西部/西峡湾）→ `5x/6x`（北部）→ `7x/8x`（东部）→ `9x`（东部/东南）。\n- **法国省道系统（D-Roads）：** 几乎所有地方支线公路均使用黄/橙底黑字的 **`D` + 数字**（Départementale，如 D12 至 D9xx）标识。",
+          "textEn": "- **2-Digit European E-Road Numbering Logic:**\n    - **Odd Numbers (E1, E5, E15, E75...):** North-South corridors. Numbers increase from West to East.\n        - Low numbers (E1, E5): Far west corridors (Portugal, Spain, France).\n        - Mid numbers (E25, E35, E45): Central corridors (Netherlands, Germany, Switzerland, Italy).\n        - High numbers (E75, E85): Eastern corridors (Finland, Baltic States, Balkans, Greece, Turkey).\n    - **Even Numbers (E20, E40, E80...):** East-West corridors. Numbers increase from North to South.\n        - Low numbers (E10, E20): Northern corridors (Norway, Sweden, Finland, Baltic coast).\n        - Mid numbers (E40, E50): Mid-latitude corridors (France, Germany, Czechia, Ukraine).\n        - High numbers (E80): Southern corridors (Spain, Italy, Balkans, Greece, Turkey).\n- **3-Digit E-Road Grid Logic:**\n    - 1st digit ≈ Tens digit of the reference E-corridor to the north.\n    - 2nd digit ≈ Tens digit of the reference E-corridor to the west.\n    - 3rd digit is a sequential route number (e.g. E7xx sits south of E70 in Romania, Bulgaria, Turkey).\n- **Iceland Clockwise Road Numbering System:**\n    - **Route 1 (Ring Road):** Primary national highway looping around the entire island.\n    - **Regional Routes (starting with 2–9, 2- and 3-digit numbers):** Organized **clockwise** starting from the southwest: `2x/2xx` (South/SW) → `3x/4x` (West/Westfjords) → `5x/6x` (North) → `7x/8x` (East) → `9x` (East/SE).\n- **France Departmental Roads (D-Roads):** Nearly all secondary and rural roads are marked by yellow/orange badges prefixed with **`D`** (`D1` to `D999`)."
         },
         {
           "titleZh": "突尼斯、俄罗斯、巴西与美国公路网络",
