@@ -5,6 +5,7 @@
   'use strict';
 
   const data = window.GEOGUESSR_DATA || {};
+  const REGION_COUNT = (data.regionalGuides || []).length;
 
   // Application State
   const state = {
@@ -45,7 +46,7 @@
       navInfographics: "核心图表与国旗",
       subCountries: "各国特征 (106国)",
       subComparisons: "国家对决 (22组)",
-      subRegions: "大国精要 (21国)",
+      subRegions: "大国精要 ({count}国)",
       subTopics: "专项知识 (14大类)",
       subIslands: "偏远离岛速查 (32处)",
       subFlags: "国旗口诀与构图 (114面)",
@@ -79,7 +80,7 @@
       islandColSov: "归属 / 宗主国",
       islandColMeta: "核心 Meta / 识别特征",
       imageEnlarge: "点击查看原尺寸高清大图",
-      statsBadge: "⚡ 覆盖 14 大专项 Meta · 21 个大国地区 · 106+ 街景国家 · 32 处偏远离岛 · 30 张高清图解 · 114 面国旗口诀",
+      statsBadge: "⚡ 覆盖 14 大专项 Meta · {regions} 个大国地区 · 106+ 街景国家 · 32 处偏远离岛 · 30 张高清图解 · 114 面国旗口诀",
       discussionLink: "Reddit 讨论 ↗",
       keyClue: "关键记忆点:",
       commonLabel: "共性:",
@@ -113,7 +114,7 @@
       navInfographics: "Infographics & Flags",
       subCountries: "Country Index (106)",
       subComparisons: "Head-to-Head (22)",
-      subRegions: "Regional Guides (21)",
+      subRegions: "Regional Guides ({count})",
       subTopics: "Topic Metas (14)",
       subIslands: "Remote Islands (32)",
       subFlags: "Flag Mnemonics (114)",
@@ -147,7 +148,7 @@
       islandColSov: "Sovereignty",
       islandColMeta: "Key Meta & Identification Clues",
       imageEnlarge: "Click to view full-resolution image",
-      statsBadge: "⚡ 14 Specialized Metas · 21 Regional Guides · 106+ Countries · 32 Remote Islands · 30 Infographics · 114 Flag Mnemonics",
+      statsBadge: "⚡ 14 Specialized Metas · {regions} Regional Guides · 106+ Countries · 32 Remote Islands · 30 Infographics · 114 Flag Mnemonics",
       discussionLink: "Reddit Thread ↗",
       keyClue: "Key Clue:",
       commonLabel: "Common:",
@@ -377,7 +378,8 @@
       const content = state.lang === 'zh' ? (s.contentZh || s.content) : (s.contentEn || s.content);
       return `### ${heading}\n${content}`;
     }).join('\n\n');
-    copyText(text, btnElem);
+    const sources = (current.sources || []).map(src => `- ${src.title}: ${src.url}`).join('\n');
+    copyText(sources ? `${text}\n\n### ${state.lang === 'zh' ? '参考来源' : 'Sources'}\n${sources}` : text, btnElem);
   };
 
   // Keyboard navigation shortcuts
@@ -421,7 +423,7 @@
 
     if (titleElem) titleElem.textContent = t('siteTitle');
     if (subtitleElem) subtitleElem.textContent = t('siteSubtitle');
-    if (statsBadge) statsBadge.textContent = t('statsBadge');
+    if (statsBadge) statsBadge.textContent = t('statsBadge', { regions: REGION_COUNT });
     if (langBtn) {
       langBtn.innerHTML = state.lang === 'zh'
         ? `<span class="flex items-center gap-1.5 font-medium"><span class="text-base">🇬🇧</span> English</span>`
@@ -475,7 +477,7 @@
 
     const knowledgeTabs = [
       { id: 'topics', labelZh: '专项知识', labelEn: 'Topic Metas', icon: '🧩', count: '14类', color: 'purple' },
-      { id: 'regions', labelZh: '大国精要', labelEn: 'Regional Guides', icon: '🗺️', count: '21国', color: 'sky' },
+      { id: 'regions', labelZh: '大国精要', labelEn: 'Regional Guides', icon: '🗺️', count: state.lang === 'zh' ? `${REGION_COUNT}国` : `${REGION_COUNT}`, color: 'sky' },
       { id: 'countries', labelZh: '各国特征与离岛', labelEn: 'Countries & Islands', icon: '🌐', count: '106+32', color: 'emerald' },
       { id: 'comparisons', labelZh: '国家对决', labelEn: 'Head-to-Head', icon: '⚔️', count: '22组', color: 'amber' }
     ];
@@ -834,7 +836,7 @@
     const subTabs = [
       { id: 'countries', label: t('subCountries'), icon: '🌐' },
       { id: 'comparisons', label: t('subComparisons'), icon: '⚔️' },
-      { id: 'regions', label: t('subRegions'), icon: '🗺️' },
+      { id: 'regions', label: t('subRegions', { count: REGION_COUNT }), icon: '🗺️' },
       { id: 'topics', label: t('subTopics'), icon: '🧩' },
       { id: 'islands', label: t('subIslands'), icon: '🏝️' },
       { id: 'flags', label: t('subFlags'), icon: '🚩' }
@@ -1345,25 +1347,24 @@
     const query = state.searchQuery;
     const cont = state.regionContinentFilter || 'ALL';
 
+    // Map display labels such as "Europe / Asia" or "South America" onto filter keys
+    const continentKeys = (r) => (r.continent || '').split('/').map(c => {
+      const name = c.trim();
+      return /America/.test(name) ? 'Americas' : name;
+    });
+    const countFor = (key) => regions.filter(r => continentKeys(r).includes(key)).length;
+
     const regionContinents = [
-      { id: 'ALL', labelZh: '全部大洲 (21国)', labelEn: 'All Continents (21)' },
-      { id: 'Europe', labelZh: '欧洲 (7国)', labelEn: 'Europe (7)' },
-      { id: 'Americas', labelZh: '美洲 (5国)', labelEn: 'Americas (5)' },
-      { id: 'Asia', labelZh: '亚洲 (5国)', labelEn: 'Asia (5)' },
-      { id: 'Oceania', labelZh: '大洋洲 (2国)', labelEn: 'Oceania (2)' },
-      { id: 'Africa', labelZh: '非洲 (1国)', labelEn: 'Africa (1)' }
+      { id: 'ALL', labelZh: `全部大洲 (${regions.length}国)`, labelEn: `All Continents (${regions.length})` },
+      { id: 'Europe', labelZh: `欧洲 (${countFor('Europe')}国)`, labelEn: `Europe (${countFor('Europe')})` },
+      { id: 'Asia', labelZh: `亚洲 (${countFor('Asia')}国)`, labelEn: `Asia (${countFor('Asia')})` },
+      { id: 'Americas', labelZh: `美洲 (${countFor('Americas')}国)`, labelEn: `Americas (${countFor('Americas')})` },
+      { id: 'Oceania', labelZh: `大洋洲 (${countFor('Oceania')}国)`, labelEn: `Oceania (${countFor('Oceania')})` },
+      { id: 'Africa', labelZh: `非洲 (${countFor('Africa')}国)`, labelEn: `Africa (${countFor('Africa')})` }
     ];
 
     const filtered = regions.filter(r => {
-      if (cont !== 'ALL') {
-        if (r.continent !== cont) {
-          if (r.id === 'russia' && (cont === 'Europe' || cont === 'Asia')) {
-            // Russia bridges both
-          } else {
-            return false;
-          }
-        }
-      }
+      if (cont !== 'ALL' && !continentKeys(r).includes(cont)) return false;
       if (!query) return true;
       const secText = (r.sections || []).map(s => `${s.headingZh||''} ${s.headingEn||''} ${s.contentZh||''} ${s.contentEn||''}`).join(' ');
       const text = `${r.nameZh} ${r.nameEn} ${r.rawContent || ''} ${secText}`.toLowerCase();
@@ -1376,10 +1377,10 @@
       <div class="mb-6 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
         <div>
           <h3 class="text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white flex items-center gap-2 tracking-tight">
-            <span>🗺️</span> ${state.lang === 'zh' ? '大国地区深度细分 (21国)' : 'Regional Deep-Dive Guides (21 Major Countries)'}
+            <span>🗺️</span> ${state.lang === 'zh' ? `大国地区深度细分 (${regions.length}国)` : `Regional Deep-Dive Guides (${regions.length} Countries)`}
           </h3>
           <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-1 font-medium">
-            ${state.lang === 'zh' ? '俄罗斯公路网/植被、美国50州车牌/区号、巴西DDD/CEP、印尼各岛电线杆、澳洲各州路缘标等' : 'Russia highway numbering, US 50 state plates, Brazil DDD codes, Indonesia island poles, Australia states, etc.'}
+            ${state.lang === 'zh' ? '提炼自职业选手 YouTube 区域教学视频：俄罗斯天线、日本电力杆牌、巴西区号、印尼杆顶、澳洲各州、美国各州等' : 'Distilled from pro YouTube regionguessing guides: Russia antennas, Japan pole plates, Brazil DDD codes, Indonesia pole tops, Australian & US states, etc.'}
           </p>
         </div>
         <span class="text-xs text-slate-500 dark:text-slate-400 font-mono">${t('searchCount', { count: filtered.length })}</span>
@@ -1479,6 +1480,21 @@
               `;
             }).join('')}
           </div>
+
+          ${(current.sources || []).length ? `
+            <div class="mt-6 p-4 rounded-2xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200/90 dark:border-slate-800/80">
+              <div class="text-xs font-bold text-slate-700 dark:text-slate-300 mb-2 flex items-center gap-1.5">
+                <span>📺</span> ${state.lang === 'zh' ? '参考来源（YouTube 区域教学视频与对应文字攻略）' : 'Sources (YouTube regionguessing videos & the written guides they use)'}
+              </div>
+              <ul class="space-y-1">
+                ${current.sources.map(src => `
+                  <li class="text-xs leading-relaxed">
+                    <a href="${src.url}" target="_blank" rel="noopener noreferrer" class="text-blue-600 dark:text-blue-400 hover:underline font-medium">${src.title} ↗</a>
+                  </li>
+                `).join('')}
+              </ul>
+            </div>
+          ` : ''}
 
           <!-- Prev / Next Country Navigation Footer -->
           ${prevReg && nextReg ? `

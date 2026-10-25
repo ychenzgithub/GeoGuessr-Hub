@@ -5326,43 +5326,91 @@ window.GEOGUESSR_DATA = {
       "continent": "Europe / Asia",
       "sections": [
         {
-          "headingZh": "🚗 街景车镜头与车身涂装 Meta",
-          "headingEn": "Street View Camera Generations & Car Metas",
-          "contentZh": "- **三代车特征**：\n    - **短天线**：绝大部分分布在俄罗斯西部欧洲区\n    - **左倾短天线**：主要分布在圣彼得堡至伏尔加格勒 (Volgograd) 一线走廊\n    - **模糊长天线**：多分布在东部远东地区，尤其是萨哈林岛 (库页岛)\n    - **秋景覆盖**：集中于飞地加里宁格勒 (Kaliningrad)\n- **四代车特征**：\n    - **冬景萧条**：集中在南部高加索山脉一带\n    - **黑色车身**：莫斯科首都圈及近郊走廊\n    - **红色车身**：乌拉尔山脉南端或俄蒙边境一带\n    - **白色车身**：远东及西伯利亚东部中纬度公路",
-          "contentEn": "- **Gen 3 Metas**:\n    - **Short antenna**: Mostly in western European Russia\n    - **Left-tilted short antenna**: Corridor from St. Petersburg down to Volgograd\n    - **Blurry long antenna**: Eastern Russia and especially Sakhalin Island\n    - **Late autumn foliage**: Distinctive to Kaliningrad exclave\n- **Gen 4 Metas**:\n    - **Winter bare trees**: South Caucasus mountain border regions\n    - **Black car**: Moscow metropolitan area and immediate radial highways\n    - **Red car**: Southern Urals and the Mongolian border zone\n    - **White car**: Far East and central-southern Siberian highway corridors"
+          "headingZh": "🚗 三代街景车天线：俄罗斯第一大区域线索",
+          "headingEn": "Gen 3 Car & Antenna Meta: The #1 Regional Tool",
+          "contentZh": "> 俄罗斯短期内不会再更新街景，因此车况 Meta 在这里的价值几乎是其他国家的两倍。三代最常见，先看天线。\n- **黑车长天线**：全国最常见、最难分辨的形态；若未模糊则不在赤塔以东\n- **白车长天线**：车里雅宾斯克、萨哈林岛南半部、犹太自治州至滨海边疆区；偏银色版本 → 堪察加；新西伯利亚周边也有\n- **A 型短天线（凸起在右侧）**：奥伦堡、萨马拉（哈萨克边境）及莫斯科以西\n- **B 型短天线（凸起在左侧，天空常有污点）**：分布最广——莫斯科周边、莫斯科以东、下诺夫哥罗德、南部；不会出现在哈萨克斯坦中部经度以东\n- **Very B 型（无天空污点）**：莫斯科、西南部、克拉斯诺达尔、库尔干\n- **C 型（下半段才出现凸起）**：仅莫斯科以北与以东的欧俄西部\n- **模糊短天线**：喀山—伊热夫斯克—彼尔姆一带，以及南部\n- **A 型长天线**：圣彼得堡与卡累利阿\n- **模糊长天线**：赤塔/贝加尔湖以东全部 + 整个萨哈林岛；科米（瑟克特夫卡尔）一带也有\n- **左倾模糊天线**：圣彼得堡 → 莫斯科 → 哈萨克边境一线，以及伏尔加格勒/南部\n- **加里宁格勒**：几乎全是秋景三代 + 巨大红色刹车灯 + 路边成排橡树",
+          "contentEn": "> Russia is unlikely to get new coverage, so car meta matters here roughly twice as much as anywhere else. Gen 3 is most common — check the antenna first.\n- **Black car, long antenna**: The most common and hardest form; if it is NOT blurred you are west of Chita\n- **White car, long antenna**: Chelyabinsk, southern Sakhalin, Jewish AO → Primorsky Krai; a silver variant on Kamchatka; also around Novosibirsk\n- **A-type short antenna (bump on the right)**: Orenburg & Samara (Kazakh border) and west of Moscow\n- **B-type short antenna (bump on the left, often a smudge in the sky)**: Most widespread — around/east of Moscow, Nizhny Novgorod, the south; never east of mid-Kazakhstan longitude\n- **\"Very B\" (no sky smudges)**: Moscow, the deep southwest, Krasnodar, Kurgan\n- **C-type (no bumps until halfway down)**: Only western Russia north & east of Moscow\n- **Blurred short antenna**: Kazan–Izhevsk–Perm region plus the south\n- **A-type long antenna**: St Petersburg & Karelia\n- **Blurred long antenna**: Everything east of Chita/Lake Baikal and all of Sakhalin; also around Syktyvkar (Komi)\n- **Left-tilted blurred antenna**: A line St Petersburg → Moscow → Kazakh border, plus Volgograd/the south\n- **Kaliningrad**: Almost always autumn Gen 3, a large red brake light and rows of roadside oaks"
         },
         {
-          "headingZh": "🛣️ 联邦与区域道路编号系统",
-          "headingEn": "Highway Numbering: M, P, A & European vs. Asian Rules",
-          "contentZh": "- **道路前缀法则**：\n    - **M- 开头**：代表连接莫斯科与其他主要大城市的国家级联邦干线公路\n    - **P- 开头**：代表区域级联邦干线道路 (Regional Federal)\n    - **A- 开头**：代表各联邦主体之间的主要互通干线\n- **编号数值分布**：\n    - **100 号以下**：多集中在俄罗斯欧洲部分\n    - **200 号以上**：多集中在西伯利亚及远东地区",
-          "contentEn": "- **Highway Prefix Classification**:\n    - **M- series**: Primary federal highways directly linking Moscow with regional hubs\n    - **P- series**: Regional federal highways connecting major provincial centers\n    - **A- series**: Strategic inter-regional arterial highways\n- **Number Range Geographic Grid**:\n    - **Numbers < 100**: Heavily concentrated in European Russia west of the Urals\n    - **Numbers > 200**: Concentrated across Siberia and the Far East"
+          "headingZh": "📸 四代街景：季节与车色分区",
+          "headingEn": "Gen 4 Coverage: Season & Car-Colour Zones",
+          "contentZh": "- **整体分布**：四代较稀疏，集中在南部和北部，中部带较少；远东（萨哈林、堪察加）完全没有\n- **冬季四代**：只在南部（莫斯科—喀山纬度以南，萨拉托夫、伏尔加格勒、高加索），落叶光秃\n- **夏季四代**：北方遍地都是；鄂木斯克州极平极绿，布里亚特山地常见\n- **红车（可见车头）**：呈“L”形——沿中部干线北上再折向贝加尔湖\n- **白车（车头极淡）**：远东通往雅库茨克的道路\n- **黑车车头**：莫斯科及南部，罕见\n- **带天线的四代**：只有一条路——基洛夫—科斯特罗马—莫斯科\n- **棕榈树**：索契（格鲁吉亚边境）",
+          "contentEn": "- **Overall**: Gen 4 is sparse — mostly the south and the north, little in the central belt, none in the Far East (Sakhalin, Kamchatka)\n- **Winter Gen 4**: Only the south (below the Moscow–Kazan latitude: Saratov, Volgograd, Caucasus), bare trees\n- **Summer Gen 4**: Everywhere in the north; Omsk Oblast is dead flat and very green; common in mountainous Buryatia\n- **Red car (front visible)**: Forms an \"L\" — up the central trunk road then east toward Lake Baikal\n- **White car (very faint front)**: Far East road to Yakutsk\n- **Black car front**: Near Moscow and in the south, rare\n- **Gen 4 with antenna**: Only one road — Kirov–Kostroma–Moscow\n- **Palm trees**: Sochi (Georgian border)"
         },
         {
-          "headingZh": "🌲 树种、农作物与草原生态分布",
-          "headingEn": "Tree Species, Agricultural Crops & Steppe Distribution",
-          "contentZh": "- **主要树种生态**：\n    - **瘦高黑杨 (Black Poplar)**：乌克兰与西部邻哈萨克斯坦的边境地区\n    - **白皮桦树 (Birch)**：偏南方分布，在乌拉尔山脉东侧平原地区极其密集连绵\n    - **密集云杉 (Spruce)**：圣诞树形态，密集分布于俄罗斯欧洲区北部针叶林带\n    - **落叶松 (Larch)**：枝条向上伸展、树冠稀疏，西伯利亚极寒泰加林典型树种\n    - **成排橡树 (Oak)**：飞地加里宁格勒，以及俄罗斯最南部温带平原\n    - **橄榄树与果树**：橄榄树多见于靠近哈萨克斯坦边境干燥地带；成片果树多在南部温暖农业区\n- **地被植物与农作物**：\n    - **粉红柳兰 (Fireweed)**：俄罗斯北部高纬度地区常见粉红野生花卉\n    - **巨型大圆叶野生白菜**：萨哈林岛 (Sakhalin / 库页岛) 标志性巨型叶片植物\n    - **农田伴桦树林**：绿油油连绵作物中点缀稀疏桦树林斑块 (四代高画质) → 鄂木斯克 (Omsk) 农业走廊\n- **开阔草原与草地**：\n    - **开阔高山草原**：布里亚特共和国 (Buryatia，贝加尔湖以东及南侧周边)\n    - **极干极平草地**：里海 (Caspian Sea) 西侧低洼平原 (卡尔梅克/达吉斯坦平原)",
-          "contentEn": "- **Signature Tree Species**:\n    - **Black Poplar (tall & slender)**: Ukraine and western border region adjacent to Kazakhstan\n    - **White Birch (Birch)**: More southern; extraordinarily dense forests east of the Ural Mountains\n    - **Dense Spruce (Christmas-tree style)**: Dense boreal taiga in northern European Russia\n    - **Larch (sparse, upturned branches)**: Typical of harsh Siberian taiga permafrost zones\n    - **Rows of Oaks**: Kaliningrad exclave and the southernmost European plains\n    - **Olive & Fruit Trees**: Olive trees near the arid Kazakh border; fruit orchards in the warm south\n- **Flora & Agriculture**:\n    - **Pink Fireweed**: Widespread bright pink ground cover across northern high latitudes\n    - **Giant Wild Cabbage**: Huge round leaves endemic to Sakhalin Island\n    - **Lush Crops with Birch Copses**: Emerald green fields dotted with birch stands (Gen 4) → Omsk agricultural corridor\n- **Steppes & Grasslands**:\n    - **Open Steppe**: Republic of Buryatia (around and south/east of Lake Baikal)\n    - **Flat, Hyper-Arid Grasslands**: Western coastal depression of the Caspian Sea"
+          "headingZh": "🌲 植被、地貌与生态带",
+          "headingEn": "Vegetation, Landscape & Ecological Zones",
+          "contentZh": "- **白桦树**：全国都有，本身没有区分度；但沃罗涅日以南明显减少\n- **密集“白桦丛”**：西伯利亚南部、哈萨克斯坦以北（车里雅宾斯克、库尔干、秋明、鄂木斯克、新西伯利亚）\n- **西伯利亚落叶松（枝条向上伸展）**：东部/西伯利亚；稀疏种植的欧洲落叶松 → 鞑靼斯坦（喀山）\n- **杨树**：偏南，靠近高加索；**沙枣（Russian olive）**：哈萨克边境\n- **向日葵**：西南部靠乌克兰；**紫色羽扇豆**：莫斯科周边；**柳兰（Fireweed）**：北方\n- **巨型叶子“北海道白菜”（款冬）**：萨哈林岛南半部；**白花大猪草**：欧俄西部\n- **沙质路肩**：科米（瑟克特夫卡尔）；**路边大石块**：卡累利阿/摩尔曼斯克（芬兰边境）\n- **火山 + 灰色火山土**：堪察加（彼得罗巴甫洛夫斯克—米利科沃—埃索标志性土路）\n- **乌克兰般茂盛植被**：滨海边疆区（符拉迪沃斯托克）\n- **雾霾/烟雾天空**：雅库特境内通往马加丹的科雷马公路，苏苏曼一带大雾\n- **干燥荒漠感**：南部靠近高加索；高加索山区常为冬季四代\n- **开阔草原**：布里亚特（贝加尔湖以南/以东）；图瓦为高山草原，紧邻蒙古\n- **混凝土板路**：北方（尤其西伯利亚北部油气区）\n- **路边随意架设的电线**：托木斯克\n- **乌拉尔**：三条主要覆盖道路中，中间那条没有道路标线",
+          "contentEn": "- **Birch**: Everywhere, so not useful on its own — but rare south of Voronezh\n- **Dense \"birch clusters\"**: Southern Siberia above Kazakhstan (Chelyabinsk, Kurgan, Tyumen, Omsk, Novosibirsk)\n- **Siberian larch (upward-reaching branches)**: The east/Siberia; sparsely planted European larches → Tatarstan (Kazan)\n- **Poplars**: Lean south toward the Caucasus; **Russian olive**: Kazakh border\n- **Sunflowers**: Southwest toward Ukraine; **purple lupins**: around Moscow; **fireweed**: the north\n- **Giant \"Hokkaido cabbage\" (butterbur)**: Southern Sakhalin; **hogweed with white flowers**: western Russia\n- **Sandy roadsides**: Komi (Syktyvkar); **big boulders by the road**: Karelia/Murmansk near Finland\n- **Volcanoes + grey volcanic soil**: Kamchatka (iconic Petropavlovsk–Milkovo–Esso dirt road)\n- **Lush, Ukraine-like vegetation**: Primorsky Krai (Vladivostok)\n- **Smoky/hazy sky**: Kolyma road to Magadan inside Yakutia; heavy fog around Susuman\n- **Dry, desert feel**: The south toward the Caucasus; Caucasus mountains are often wintry Gen 4\n- **Open steppe**: Buryatia (south/east of Baikal); Tuva is high mountain steppe bordering Mongolia\n- **Concrete-slab roads**: The north (especially northern Siberian oil & gas regions)\n- **Random power lines running along the road**: Tomsk\n- **Urals**: Of the three main covered roads, the middle one has no road lines"
         },
         {
-          "headingZh": "🪨 特殊地质路况与路面铺装",
-          "headingEn": "Pavement Types, Kamchatka Gravel & Concrete Slabs",
-          "contentZh": "- **未铺装灰色砂石路**：堪察加半岛 (Kamchatka) 典型未铺装碎石公路，周围多火山疏林\n- **路肩散落巨型岩石**：俄罗斯欧洲区最北部极寒荒原 (摩尔曼斯克及科拉半岛一带)\n- **混凝土方块板结路**：亚洲部分西北部森林原野间的网格拼装水泥预制板路",
-          "contentEn": "- **Gray Gravel Roads**: Hallmark of unpaved volcanic highways in the Kamchatka Peninsula\n- **Large Boulders by Roads**: Extreme northern European tundra (Murmansk / Kola Peninsula)\n- **Concrete Slab Highways**: Interlocking precast concrete slab roads in the northwestern Asian forests"
+          "headingZh": "🛣️ 道路编号、文字与区号",
+          "headingEn": "Road Numbers, Text & Codes",
+          "contentZh": "- **联邦公路前缀**：\n    - **М-**：从莫斯科放射出的干线（М-1 至 М-12）\n    - **Р-**：西里尔字母“R”（不是拉丁 P），连接各大区域中心；编号大致自西向东递增（Р-21 科拉 → Р-255 西伯利亚 → Р-258 贝加尔 → Р-504 科雷马）\n    - **А-**：其他联邦干线/联络线（А-100 以上）\n- **“г.”**：город（城市）缩写，后跟城市名（如 г. Томск）；乌克兰语用“м.”（місто）\n- **俄语 vs 乌克兰语**：俄语有 ы、э、ъ，没有 і、ї、є\n- **民族共和国文字**（双语路牌）：\n    - **鞑靼斯坦**：街道 = урамы（常缩写在末尾 “ур.”），字母 Ә Ө Ү Җ Ң Һ\n    - **巴什科尔托斯坦**：урамы 通常完整书写，字母 Ҙ Ҫ Ғ Ҡ\n    - **楚瓦什**：урамĕ；**马里埃尔**：урем；**科米**：улича\n    - **萨哈（雅库特）**：Һ Ө Ү Ҕ Ҥ；**图瓦**：Ң Ө Ү\n- **区号与车牌区码**：路牌/广告常写区号，卡车车身常写车牌地区码——想玩 Moving 必学\n- **右舵日本进口车**：西伯利亚与远东，基本在新西伯利亚以东\n- **拉丁字母双语牌**：靠近爱沙尼亚；**棕色旅游牌**：莫斯科\n- **路牌立柱底部粗黑漆**：斯塔夫罗波尔与赤塔",
+          "contentEn": "- **Federal highway prefixes**:\n    - **М-**: Trunk roads radiating from Moscow (M-1 to M-12)\n    - **Р-**: Cyrillic \"R\" (not a Latin P) — links regional centres; numbers rise roughly west → east (R-21 Kola → R-255 Siberia → R-258 Baikal → R-504 Kolyma)\n    - **А-**: Other federal arterials/connectors (A-100+)\n- **\"г.\"**: Abbreviation of город (city), followed by the town name (e.g. г. Томск); Ukrainian uses \"м.\" (місто)\n- **Russian vs Ukrainian**: Russian has ы, э, ъ and lacks і, ї, є\n- **Republic languages on bilingual signs**:\n    - **Tatarstan**: street = урамы (often abbreviated \"ур.\" at the end); letters Ә Ө Ү Җ Ң Һ\n    - **Bashkortostan**: урамы usually written out; letters Ҙ Ҫ Ғ Ҡ\n    - **Chuvashia**: урамĕ; **Mari El**: урем; **Komi**: улича\n    - **Sakha (Yakutia)**: Һ Ө Ү Ҕ Ҥ; **Tuva**: Ң Ө Ү\n- **Area codes & plate region codes**: Area codes appear on signs/ads and plate codes are painted on trucks — essential if you play moving\n- **Right-hand-drive Japanese imports**: Siberia & the Far East, mostly east of Novosibirsk\n- **Latin-script bilingual signs**: Near Estonia; **brown tourist signs**: Moscow\n- **Thick black bottoms on sign posts**: Stavropol and Chita"
         },
         {
-          "headingZh": "🏛️ 建筑材质、路牌缩写与道路标线",
-          "headingEn": "Building Materials, Signage Abbreviations & Road Markings",
-          "contentZh": "- **城市缩写**：招牌与路牌上的 “г.” 是 город (城市) 的缩写，后跟地名 (例如 “г. Томск” 即托木斯克市)\n- **扁平旗帜状路缘标 (Bollard)**：主要分布在俄罗斯东部及西伯利亚地区\n- **建筑外观**：白色石灰方砖砌体多在北高加索一带；深红砖砌体建筑主要分布在西南部\n- **双向黄色边缘线**：路面两侧画鲜明黄色实线，基本直奔西西伯利亚南部到中西伯利亚干线走廊",
-          "contentEn": "- **City Abbreviation**: The letter \"г.\" on signs stands for город (Gorod / City), followed by the town name (e.g. \"г. Томск\" = Tomsk)\n- **Flat Flag-Style Bollards**: Predominantly encountered across Eastern Russia and Siberia\n- **Architecture Materials**: White limestone block buildings in the North Caucasus; red brick structures in the southwest\n- **Double Yellow Outer Edge Lines**: Solid yellow lines painted on both road shoulders lead directly to the South to Central Siberian corridor"
-        },
-        {
-          "headingZh": "🏔️ 图瓦共和国独家绝杀特征",
-          "headingEn": "Republic of Tuva Regional Metas",
-          "contentZh": "- **地貌环境**：雄浑开阔的高山高寒草甸，四顾无树，远山层叠\n- **路牌立杆**：路牌立杆下半部涂刷黑色漆，上半部安装红色反光片\n- **专属街景车**：红色街景皮卡带有伸出的长天线 (Tuva 独家 Meta)",
-          "contentEn": "- **Topography**: Dramatic high alpine meadow landscapes surrounded by treeless barren ridges\n- **Signpost Design**: Road sign poles painted black on the bottom half with red reflectors mounted on the upper portion\n- **Signature Camera Car**: Red pickup truck with a long visible antenna (Exclusive Tuva Meta)"
+          "headingZh": "🏙️ 城市与州份独家秒杀线索",
+          "headingEn": "City & Oblast Signature Clues",
+          "contentZh": "- **车里雅宾斯克**：人行横道标志由“U 形下挂钩”从底部托住\n- **公交站（各州样式不同）**：\n    - **克拉斯诺亚尔斯克**：蓝底白顶的椭圆“滑板槽”形\n    - **奥伦堡**：金属拱形“彩虹”顶\n    - **马里埃尔**：内外两侧都有苏联马赛克壁画\n    - **鞑靼斯坦**：铁皮站亭，侧面有“打蛋器”状图案（常为红/黄）\n    - **弗拉基米尔**：中间隔墙分成两半的 T 形站亭（底部常为绿色）\n- **彼尔姆**：路灯/电线杆底部刷成红色\n- **莫斯科**：带英文与步行分钟数的指示牌\n- **圣彼得堡**：黑底街名牌，带拉丁转写，顶部有小圆钮\n- **萨兰斯克**：椭圆形街名牌，四种语言（俄语、埃尔齐亚语、莫克沙语、英语）\n- **普斯科夫**：人行横道标志支架为圆环 + 两根斜撑的装饰款\n- **通用俄罗斯线索**：雕花木窗框的木屋（наличники）、黄白相间人行横道、立柱底部黑漆、宽阔路口",
+          "contentEn": "- **Chelyabinsk**: Pedestrian-crossing signs held from below by U-shaped under-hooks\n- **Bus stops (styles vary by oblast)**:\n    - **Krasnoyarsk**: Blue-bottomed, white-topped oval \"half-pipe\"\n    - **Orenburg**: Metal arch/\"rainbow\" roof\n    - **Mari El**: Soviet mosaics on the inside and outside\n    - **Tatarstan**: Sheet-metal shelter with a \"whisk\" motif on the sides (often red/yellow)\n    - **Vladimir**: T-shaped shelter split in two by a middle wall (often green base)\n- **Perm**: Red-painted bottoms on lamp and utility poles\n- **Moscow**: Direction signs with English text and walking minutes\n- **St Petersburg**: Black street-name signs with a Latin transliteration and a small knob on top\n- **Saransk**: Oval street signs in four languages (Russian, Erzya, Moksha, English)\n- **Pskov**: Decorative pedestrian-sign bracket with a loop and two diagonal struts\n- **Generic Russia clues**: Timber houses with ornate carved window frames (наличники), yellow-white zebra crossings, black-painted post bases, huge intersections"
         }
       ],
-      "rawContent": "俄罗斯街景车、道路编号、植被、地貌、其它建筑与图瓦地区完整笔记"
+      "rawContent": "俄罗斯三代街景车天线、四代季节与车色、植被分区、道路编号、城市与共和国特色",
+      "sources": [
+        {
+          "title": "zi8gzag 2 – How to Guess Russia on Geoguessr",
+          "url": "https://youtu.be/icPXMHreXE0"
+        },
+        {
+          "title": "Daiiono – 5 Metas Every Pro Should Know Ep.12 (Russia)",
+          "url": "https://youtu.be/stOCU_tj9oY"
+        }
+      ]
+    },
+    {
+      "id": "turkey",
+      "nameZh": "土耳其",
+      "nameEn": "Turkey",
+      "flag": "🇹🇷",
+      "continent": "Europe / Asia",
+      "sections": [
+        {
+          "headingZh": "🔢 省道编号、车牌代码与电话区号",
+          "headingEn": "Provincial Road Numbers, Plate Codes & Area Codes",
+          "contentZh": "- **省道编号前两位 = 省份车牌代码**：01–67 按字母顺序排列（01 阿达纳、06 安卡拉、18 昌克勒、34 伊斯坦布尔、35 伊兹密尔、42 科尼亚、67 宗古尔达克），68–81 为后设省份（68 阿克萨赖 … 74 巴尔腾 … 78 卡拉比克 … 81 迪兹杰）；哪怕只知道各字母大致位置也能排除大片区域\n- **路缘标上印着市政缩写**：ABB = 安卡拉、KBB = 科尼亚、İBB = 伊斯坦布尔\n- **电话区号**：\n    - **2xx**：马尔马拉、爱琴海与湖区（212/216 伊斯坦布尔、232 伊兹密尔、224 布尔萨、242 安塔利亚、282 泰基尔达）\n    - **3xx**：中安纳托利亚、地中海东段与黑海西段（312 安卡拉、332 科尼亚、352 开塞利、322 阿达纳、324 梅尔辛、362 萨姆松）\n    - **4xx**：东部、东南部与黑海东段（412 迪亚巴克尔、414 尚勒乌尔法、432 凡城、442 埃尔祖鲁姆、462 特拉布宗、464 里泽）",
+          "contentEn": "- **First two digits of provincial road numbers = the province plate code**: 01–67 are alphabetical (01 Adana, 06 Ankara, 18 Çankırı, 34 İstanbul, 35 İzmir, 42 Konya, 67 Zonguldak); 68–81 are later provinces (68 Aksaray … 74 Bartın … 78 Karabük … 81 Düzce); even knowing roughly where each letter falls rules out a lot\n- **Bollards printed with the municipality**: ABB = Ankara, KBB = Konya, İBB = Istanbul\n- **Area codes**:\n    - **2xx**: Marmara, Aegean and the Lakes (212/216 Istanbul, 232 Izmir, 224 Bursa, 242 Antalya, 282 Tekirdağ)\n    - **3xx**: Central Anatolia, the eastern Mediterranean and western Black Sea (312 Ankara, 332 Konya, 352 Kayseri, 322 Adana, 324 Mersin, 362 Samsun)\n    - **4xx**: The east, southeast and eastern Black Sea (412 Diyarbakır, 414 Şanlıurfa, 432 Van, 442 Erzurum, 462 Trabzon, 464 Rize)"
+        },
+        {
+          "headingZh": "🏠 建筑、电线杆与覆盖类型",
+          "headingEn": "Architecture, Poles & Coverage Types",
+          "contentZh": "- **屋顶**：红陶瓦 → 西部（爱琴海、马尔马拉、地中海城镇）；灰色金属人字坡顶 → 东部凡湖/埃尔祖鲁姆/卡尔斯一带；坡度陡的金属屋顶 → 多雨雪的黑海东部山区；平顶 → 干旱的东南部\n- **金属电线杆**：欧洲部分（色雷斯）和东部（安卡拉/开塞利以东）；网格金属杆 + 中间只画线分隔的四车道公路 → 东部\n- **四代“无车”覆盖（2023/24）**：几乎都在安卡拉以西（2024 年乔鲁姆、卡斯塔莫努例外）；有没有天线是随机的，别用\n- **皮卡覆盖**：东北部深峡谷山路、伊兹密尔卡拉布伦半岛等\n- **冬季深雪三代** → 西南湖区（伊斯帕尔塔）；早春覆盖 → 安卡拉、比莱吉克、萨卡里亚常见",
+          "contentEn": "- **Roofs**: Red clay tiles → the west (Aegean, Marmara, Mediterranean towns); grey metal gable roofs → the east around Lake Van/Erzurum/Kars; steep metal roofs → the rainy, snowy eastern Black Sea mountains; flat roofs → the arid southeast\n- **Metal poles**: European Turkey (Thrace) and the east (east of Ankara/Kayseri); mesh metal poles + a 4-lane highway divided only by paint → the east\n- **Gen 4 \"no car\" coverage (2023/24)**: Almost always west of Ankara (2024 exceptions: Çorum, Kastamonu); whether there's an antenna is random — don't use it\n- **Pickup-truck coverage**: Deep canyon mountain roads in the northeast, the Karaburun peninsula near Izmir, etc.\n- **Deep-winter snowy Gen 3** → the southwestern Lakes region (Isparta); early-spring coverage is common in Ankara, Bilecik, Sakarya"
+        },
+        {
+          "headingZh": "🏙️ 城市与省份秒杀线索",
+          "headingEn": "City & Province Signature Clues",
+          "contentZh": "- **代尼兹利**：重叠菱形的“鱼鳞”铺地砖\n- **内夫谢希尔（卡帕多奇亚）**：多彩砂岩外墙建筑\n- **梅尔辛—锡利夫凯沿海**：路边铺设的生锈金属管道（阿兰亚有一处例外）\n- **宗古尔达克与巴尔腾**：护栏端头反光板只有普通宽度的一半（宾格尔以西有一段例外）\n- **尚勒乌尔法以南 E99**：薄雾天；往南开太阳在东、往北开太阳在西\n- **里泽**：茶园；黑海沿岸其他地方彼此很像\n- **安卡拉**：起伏甚至多山的地形 + 高楼林立；**科尼亚**：泥砖房，城市西侧极平、山在西南\n- **萨卡里亚/迪兹杰/伊兹密特/博卢**：最“欧洲”的土耳其（像克罗地亚/意大利），绿色谷地\n- **伊兹密尔切什梅/卡拉布伦**：地中海风情、旅游小镇",
+          "contentEn": "- **Denizli**: Overlapping-diamond \"fish-scale\" pavement\n- **Nevşehir (Cappadocia)**: Multi-coloured sandstone building facades\n- **Mersin–Silifke coast**: Rusty metal pipes running alongside roads (one exception near Alanya)\n- **Zonguldak & Bartın**: Guardrail-end reflectors only half the normal width (one exception stretch west of Bingöl)\n- **E99 south of Şanlıurfa**: Hazy; sun in the east driving south, in the west driving north\n- **Rize**: Tea plantations; the rest of the Black Sea coast looks very similar\n- **Ankara**: Rolling to semi-mountainous terrain + lots of high-rises; **Konya**: mud-brick, dead flat west of the city with mountains to the southwest\n- **Sakarya/Düzce/İzmit/Bolu**: The most \"European\" Turkey (Croatia/Italy vibes), green valleys\n- **Izmir's Çeşme/Karaburun**: Mediterranean, touristy towns"
+        },
+        {
+          "headingZh": "🌲 植被与地貌：从黑海到安纳托利亚",
+          "headingEn": "Vegetation & Landscape: Black Sea to Anatolia",
+          "contentZh": "- **黑海北岸**：茂密的落叶林与针叶林，多雨，茶园（里泽）\n- **东北卡尔斯高地**：起伏的高山草原牧场；凡湖以北几乎无植被的草原\n- **西部与南部地中海**：干燥灌丛、土耳其松林、成片橄榄园；**托罗斯雪松** → 梅尔辛以北、伊斯帕尔塔至卡赫拉曼马拉什\n- **色雷斯平原**：夏季金黄的向日葵田\n- **东南部平原**：灌溉棉田（哈兰平原）；平顶多岩山脊、偏红土壤、果树/开心果（加济安泰普、阿德亚曼、尚勒乌尔法）\n- **中安纳托利亚**：干燥与绿色斑块交错的独特山丘（安卡拉、昌克勒周边），白杨树多",
+          "contentEn": "- **Black Sea coast**: Dense deciduous and conifer forest, heavy rain, tea plantations (Rize)\n- **Northeast Kars highlands**: Rolling alpine pastures; nearly vegetation-free steppe north of Lake Van\n- **West & south Mediterranean**: Dry scrub, Turkish pine woods, sprawling olive groves; **Taurus cedars** → north of Mersin, Isparta to Kahramanmaraş\n- **Thrace plains**: Golden sunflower fields in summer\n- **Southeast plains**: Irrigated cotton (Harran plain); flat-topped rocky ridges, reddish soil, fruit/pistachio trees (Gaziantep, Adıyaman, Şanlıurfa)\n- **Central Anatolia**: Distinctive hills mixing dry and green patches (around Ankara and Çankırı), many poplars"
+        }
+      ],
+      "rawContent": "土耳其省道编号与车牌代码、电话区号、屋顶建筑、城市特征、黑海与东南部地貌",
+      "sources": [
+        {
+          "title": "GeoClement – Turkey Gameplay with tips and explanations",
+          "url": "https://youtu.be/1JwCCNbcj80"
+        },
+        {
+          "title": "Daiiono – 5 Metas Every Pro Should Know Ep.15 (Turkey, ft. metas from Gelos)",
+          "url": "https://youtu.be/8HvBRzFAVp0"
+        }
+      ]
     },
     {
       "id": "norway",
@@ -5372,53 +5420,617 @@ window.GEOGUESSR_DATA = {
       "continent": "Europe",
       "sections": [
         {
-          "headingZh": "🏔️ 挪威六大自然地理与植被带划分",
-          "headingEn": "Six Geographic & Ecological Zones from Finnmark to South Coast",
-          "contentZh": "- **极北部地区 (Finnmark)**：树木极其稀少，以开阔荒原冻土为主，地表覆盖黄绿色低矮苔原草地\n- **北部峡湾区 (Troms)**：白桦树 (Birch) 广布，容易看到带积雪的峻峭峡湾山脉，道路两侧雪迹杆极其密集\n- **西部峡湾区 (Vestlandet)**：公路隧道密集，年降水量丰富，路边湿润岩石长满青苔，陡峭山体直插深邃峡湾，瀑布连绵\n- **南部高山内陆带 (Highland Plateau)**：极其高耸裸露的巍峨雪峰与冰原高原，但视野中全无海水峡湾\n- **东部与内陆森林区 (奥斯陆以北)**：成片连绵的平缓针叶泰加林 (以云杉和松树为主)\n- **南部海岸走廊 (奥斯陆至克里斯蒂安桑 Kristiansand)**：平缓低矮丘陵，道路更宽更直，农田规整，散布经典白色木屋",
-          "contentEn": "- **Far North (Finnmark)**: Almost completely treeless barren tundra plains with pale yellowish-green alpine ground cover\n- **North (Troms)**: Abundant birch forests, prominent snow-capped coastal mountains, extremely dense roadside snow poles\n- **Western Fjords (Vestlandet)**: Countless tunnels, high precipitation, moss-covered roadside cliffs plunging into deep sea fjords, waterfalls\n- **Southern High Alpine Zone**: Jagged towering barren peaks and tundra plateaus with complete absence of sea fjords\n- **Eastern & Inland Forest (North of Oslo)**: Rolling, continuous dark coniferous taiga forests (dense spruce and pine)\n- **Southern Coast (Oslo to Kristiansand)**: Gentle undulating hills, straighter roads, open farmland pastures, and iconic white wooden cottages"
+          "headingZh": "🏔️ 挪威六大自然地理与植被带",
+          "headingEn": "Six Geographic & Ecological Zones",
+          "contentZh": "> 经验法则：越往北树越矮；真正平坦的地方只有奥斯陆东南一带。\n- **极北部（芬马克 Finnmark）**：芬兰以北的缓丘“草原”，几乎无高山；矮小白桦像灌木、草地斑驳；最北端沿海只有草地没有树\n- **北部（特罗姆斯 Troms / 诺尔兰）**：白桦遍布，雪山峡湾，雪杆密集；**罗弗敦群岛**：尖锐、裸露、锯齿状的山峰直插海面\n- **西部峡湾区（Vestlandet）**：隧道极多，降水丰富，岩壁长满青苔，瀑布与深邃峡湾；**生锈护栏**多见于潮湿西海岸\n- **南部高山带**：裸露雪峰与冰原高原，看不到海湾；**亮白/浅色苔藓** → 尤通黑门（Jotunheimen）一带高海拔\n- **东部内陆森林（奥斯陆以北）**：连绵的云杉、松树针叶林\n- **南部海岸（奥斯陆—克里斯蒂安桑）**：低缓丘陵、道路更直；**裸露花岗岩 + 整村白色木屋配橙色瓦顶** → 最南端 Sørlandet；橡树几乎只在南海岸，枫树多在奥斯陆周边",
+          "contentEn": "> Rule of thumb: trees get shorter the further north you go; genuinely flat land exists only southeast of Oslo.\n- **Far North (Finnmark)**: Rolling, steppe-like land above Finland with no tall mountains; tiny bush-like birches and patchy grass; the very northern coast is just grassland with no trees\n- **North (Troms / Nordland)**: Birch everywhere, snowy fjord mountains, dense snow poles; **Lofoten**: pointy, bare, jagged peaks rising straight from the sea\n- **Western Fjords (Vestlandet)**: Countless tunnels, heavy rain, mossy rock faces, waterfalls and deep fjords; **rusty guardrails** are typical of the humid west coast\n- **Southern High Alpine Zone**: Bare snowy peaks and plateaus with no fjords in sight; **bright pale/white moss** → high areas around Jotunheimen\n- **Eastern Inland Forest (north of Oslo)**: Endless spruce and pine taiga\n- **South Coast (Oslo → Kristiansand)**: Gentle hills, straighter roads; **exposed granite + whole villages of white houses with orange tile roofs** → far south (Sørlandet); oaks are almost only on the south coast, maples around Oslo"
+        },
+        {
+          "headingZh": "🔢 道路编号首位数字（三位数省道最可靠）",
+          "headingEn": "Road Number First Digit (3-Digit County Roads Are Reliable)",
+          "contentZh": "- **1xx**：奥斯陆及东南至瑞典边境（如 120、168）\n- **2xx**：奥斯陆以北内陆（利勒哈默尔一带，如 212、218）\n- **3xx**：奥斯陆西南（布斯克吕、韦斯特福尔、泰勒马克，如 38）\n- **4xx**：阿格德尔 / 克里斯蒂安桑一带（如 42、450、460 通往林讷斯）\n- **5xx**：罗加兰与卑尔根一带（斯塔万格、卑尔根以东/以南，如 520）\n- **6xx**：松恩—菲尤拉讷与默勒—鲁姆斯达尔（弗洛勒东北，如 61、63）\n- **7xx**：特伦德拉格（特隆赫姆至摩城附近，如 74、757）\n- **8xx**：诺尔兰、特罗姆斯、芬马克（摩城以北，如 827 纳尔维克、890）\n- **9 号公路**：从克里斯蒂安桑向北穿过塞特斯达尔山谷；远北芬马克另有零星 9x\n> 两位数国道存在例外（如 40 号），三位数省道基本稳定一致。",
+          "contentEn": "- **1xx**: Oslo and the southeast to the Swedish border (e.g. 120, 168)\n- **2xx**: Inland north of Oslo (Lillehammer area, e.g. 212, 218)\n- **3xx**: Southwest of Oslo (Buskerud, Vestfold, Telemark, e.g. 38)\n- **4xx**: Agder / Kristiansand area (e.g. 42, 450, 460 to Lindesnes)\n- **5xx**: Rogaland & Bergen area (Stavanger, east/south of Bergen, e.g. 520)\n- **6xx**: Sogn og Fjordane & Møre og Romsdal (northeast of Florø, e.g. 61, 63)\n- **7xx**: Trøndelag (Trondheim up to about Mo i Rana, e.g. 74, 757)\n- **8xx**: Nordland, Troms, Finnmark (north of Mo i Rana, e.g. 827 Narvik, 890)\n- **Road 9**: Runs north from Kristiansand through Setesdal; a few 9x roads also in far-north Finnmark\n> Two-digit national roads have exceptions (e.g. road 40); three-digit county roads stay consistent."
+        },
+        {
+          "headingZh": "🌾 三大农田区与城市秒杀线索",
+          "headingEn": "Three Farmland Areas & City Signatures",
+          "contentZh": "- **大片农田只在三处**：\n    - **奥斯陆周边**：平坦或缓丘，最大的一片\n    - **特隆赫姆周边**：起伏丘陵农田，背后常有群山\n    - **斯塔万格以南（Jæren）**：极平、极开阔，石墙分隔，田里往往只有牧草\n- **黑色雪杆**：主要在卑尔根和特隆赫姆的沿海道路（中部狭长地带偶见）；其余地区为橙色细雪杆\n- **奥斯陆郊区**：电线杆缠黑红相间的包带；木杆上黑底白字贴纸 / 长条黑色编号牌 → 奥斯陆及东南部\n- **斯塔万格**：路灯与电线杆缠红色（多为双道）条纹\n- **卑尔根**：造型独特的绿色消防栓\n- **勒罗斯（Røros，特隆赫姆东南）**：老矿业小镇，密集的传统木屋\n- **萨米语双语牌**（连续多个元音、á、đ、ŧ 等字母）→ 芬马克/北部；**俄语地名** → 希尔克内斯（俄罗斯边境）",
+          "contentEn": "- **Large farmland exists in only three places**:\n    - **Around Oslo**: Flat or gently rolling, the largest area\n    - **Around Trondheim**: Hilly fields, often with mountains behind\n    - **South of Stavanger (Jæren)**: Dead flat and wide open, stone walls, fields often just grass\n- **Black snow poles**: Mainly coastal roads around Bergen and Trondheim (occasionally the skinny middle section); elsewhere snow poles are thin and orange\n- **Oslo suburbs**: Black-and-red wraps on poles; black stickers with white text / long black number plates on wooden poles → Oslo & the southeast\n- **Stavanger**: Red (usually double) stripes wrapped around lamp and utility poles\n- **Bergen**: Distinctive green fire hydrants\n- **Røros (SE of Trondheim)**: Old mining town with densely packed traditional wooden houses\n- **Sami bilingual signs** (several vowels in a row, á, đ, ŧ) → Finnmark/the north; **Russian place names** → Kirkenes (Russian border)"
+        },
+        {
+          "headingZh": "🇳🇴 挪威国家识别速记（区分北欧三国）",
+          "headingEn": "Recognising Norway (vs Sweden & Finland)",
+          "contentZh": "- **道路边线 N/S/F 记忆法**：挪威 **N**ormal 正常长度虚线、瑞典 **S**hort 短虚线、芬兰 **F**ull 实线\n- **黄色中线**：北欧风景 + 黄色中线几乎就是挪威\n- **黄底黑边方向牌**，路号标在侧边；**绿色车牌** = 商用车（注意他国电动车也可能是绿牌）\n- **雪杆**：挪威细橙杆，白色反光片略高于中部；瑞典反光片更宽更高；芬兰反光片在最顶端\n- **“M” 会车点方牌**；道路用 vei/veg（丹麦 vej、瑞典 väg）\n- **黑黄 V 形导向牌**（芬兰同样，丹麦/瑞典不同）；草皮屋顶 → 挪威",
+          "contentEn": "- **Edge-line mnemonic N/S/F**: Norway **N**ormal-length dashes, Sweden **S**hort dashes, Finland **F**ull solid lines\n- **Yellow centre line**: Nordic scenery + yellow centre line is almost always Norway\n- **Yellow directional signs with black borders**, road number on the side; **green number plates** = commercial vans (other countries' EVs can be green too)\n- **Snow poles**: Norway thin orange with a white reflector slightly above the middle; Sweden wider reflector, higher up; Finland reflector at the very top\n- **Square \"M\" meeting-place signs**; roads are vei/veg (Denmark vej, Sweden väg)\n- **Black-yellow chevrons** (shared with Finland, not Denmark/Sweden); grass roofs → Norway"
         }
       ],
-      "rawContent": "挪威六大区域地貌与自然带特征"
+      "rawContent": "挪威六大地理分区、道路编号首位数字、雪杆与电线杆城市特征、萨米语",
+      "sources": [
+        {
+          "title": "EideticX – Master Norway in Geoguessr: All Metas Explained",
+          "url": "https://youtu.be/OHXiQwR70rg"
+        },
+        {
+          "title": "Daiiono – 5 Metas Every Pro Should Know Ep.27 (Norway)",
+          "url": "https://youtu.be/SWYyvYjb7cU"
+        }
+      ]
+    },
+    {
+      "id": "sweden",
+      "nameZh": "瑞典",
+      "nameEn": "Sweden",
+      "flag": "🇸🇪",
+      "continent": "Europe",
+      "sections": [
+        {
+          "headingZh": "🔢 区号、道路编号与铁路道口编号",
+          "headingEn": "Area Codes, Road Numbers & Rail-Crossing IDs",
+          "contentZh": "- **座机区号**（07 开头为手机）：08 斯德哥尔摩；01x 东中部（018 乌普萨拉、013 林雪平、011 北雪平、019 厄勒布鲁）；02x 梅拉伦西部—达拉纳—耶夫勒（021 韦斯特罗斯、023 法伦、026 耶夫勒）；03x 西部（031 哥德堡、033 布罗斯、035 哈尔姆斯塔德、036 延雪平）；04x 南部（040 马尔默、042 赫尔辛堡、0470 韦克舍、0480 卡尔马、0498 哥得兰）；05x 韦姆兰与斯卡拉堡（054 卡尔斯塔德）；06x 中诺尔兰（060 松兹瓦尔、063 厄斯特松德）；09x 上诺尔兰（090 于默奥、0920 吕勒奥、0980 基律纳）；同一区内第三四位大致向东北递增\n- **道路编号**：国道 9–99、区域道路 100–404，数字大致越往东北越大\n- **铁路道口标志背面**：黄色贴纸上的 5 位编号，**首位数字代表地区**，大致向东北递增（首位 6 全国随机出现）——Daiiono 首个 Meta\n- **各省公交站牌**：每个省至少有一种独有站牌，很多还有独特的候车亭（值得对照图表记忆）；**霓虹黄校车站牌** → 林雪平、北雪平、延雪平（Daiiono）；西约塔兰站牌 + 三道蓝条 → 孔斯巴卡（整个哈兰都有蓝条）\n- **地名后缀**有地区性（-by、-torp、-ryd、-hult 等分布不同）；**萨米语双语牌** → 北部内陆；**梅安基利语**（河名以 -väylä 结尾）与芬兰式地名 → 芬兰边境\n- **国家识别**：路边外侧短虚线（N/S/F 记忆法中的 Short）；限速牌黄底；雪杆反光片较宽且偏高；**西海岸与斯科讷的白色街景车尾部带蓝条**（几乎只在瑞典）",
+          "contentEn": "- **Landline area codes** (07 = mobile): 08 Stockholm; 01x east-central (018 Uppsala, 013 Linköping, 011 Norrköping, 019 Örebro); 02x western Mälaren–Dalarna–Gävle (021 Västerås, 023 Falun, 026 Gävle); 03x the west (031 Gothenburg, 033 Borås, 035 Halmstad, 036 Jönköping); 04x the south (040 Malmö, 042 Helsingborg, 0470 Växjö, 0480 Kalmar, 0498 Gotland); 05x Värmland & Skaraborg (054 Karlstad); 06x central Norrland (060 Sundsvall, 063 Östersund); 09x upper Norrland (090 Umeå, 0920 Luleå, 0980 Kiruna); within a region the 3rd/4th digits generally rise to the northeast\n- **Road numbers**: National roads 9–99, regional roads 100–404, generally increasing toward the northeast\n- **Back of railway-crossing signs**: A yellow sticker with a 5-digit ID whose **first digit is the region**, mostly rising toward the northeast (a first digit of 6 appears randomly) — Daiiono's first meta\n- **Bus stop signs by county**: Every county has at least one unique sign, many also unique shelters (worth learning from a chart); **neon-yellow school bus stop signs** → Linköping, Norrköping, Jönköping (Daiiono); Västra Götaland signs + three blue stripes → Kungsbacka (all of Halland has the stripes)\n- **Place-name endings** are regional (-by, -torp, -ryd, -hult etc. have different ranges); **Sámi bilingual signs** → the northern interior; **Meänkieli** (river names ending -väylä) and Finnish-sounding names → the Finnish border\n- **Country ID**: Short dashed edge lines (the \"Short\" in the N/S/F mnemonic); yellow-backed speed signs; wide, high-mounted snow-pole reflectors; **a white Google car with a blue stripe on the back on the west coast and in Skåne** (almost never outside Sweden)"
+        },
+        {
+          "headingZh": "🌲 南北景观与农田类型",
+          "headingEn": "North–South Landscapes & Farmland Types",
+          "contentZh": "- **阔叶树（白桦以外）**：只在南半部自然生长，越往南越多；**蕨类** → 南部与中部；**山毛榉林**（满地棕色落叶）→ 最南端\n- **山顶无树的山** → 只在西北；**稀疏瘦弱的北方林 + 沙质土** → 最北部\n- **斯科讷**：瑞典最开阔的农田，只有零星小片树林，作物更多样；**梅拉伦湖周边**：平坦中等农田 + 远处森林 + 田中“灌木小岛”\n- **西/东约塔兰**：平坦且更开阔，风车很多；**哈兰/西海岸**：平坦农田 + 远处圆润的森林小丘，非常翠绿；**西海岸**：裸露的圆形岩石上长矮灌木（斯德哥尔摩的岩石更尖锐、长厚苔藓）\n- **北半部平坦小块农田** → 于默奥—吕勒奥之间沿海；**耶姆特兰（斯图尔湖周边）**：陡坡上的大片草地农田；**高海岸（西诺尔兰）**：森林岩山环绕弯曲的农业谷地；**南曼兰**：小山谷中的田地\n- **红色土路** → 达拉纳为主（卡尔马、北博滕/西博滕内陆交界也有）；**西达拉纳红色沥青路 + 细松林**；**深灰色土路 + 两侧低矮绿草** → 耶姆特兰北部\n- **厄兰岛**：极其平坦，南半荒凉多小灌丛、大量矮石墙、木风车最多；**哥得兰**：路边白沙（北部与法罗岛）、楔形劈木栅栏、石灰岩房屋与独特教堂；法罗岛 = 干石田 + 杜松\n- **石墙** → 南部（沿海、厄兰岛、哥得兰南北端）；**槲寄生** → 梅拉伦湖（韦斯特罗斯尤其多）；**果园** → 斯科讷东岸基维克\n- **北方雪地摩托道**：小红十字标记",
+          "contentEn": "- **Broadleaf trees (other than birch)**: Only grow naturally in the southern half, more common the further south; **ferns** → south & centre; **beech forests** (ground carpeted with brown leaves) → the far south\n- **Mountains with treeless tops** → only the northwest; **thin, weak boreal trees + sandy soil** → the far north\n- **Skåne**: Sweden's most open farmland with only scattered tree patches and more varied crops; **around Lake Mälaren**: flat medium fields, forest beyond, \"islands\" of bushes in the fields\n- **Västergötland/Östergötland**: Flat and more open with many wind turbines; **Halland/west coast**: flat fields + round forested hills in the distance, very lush; **west coast**: exposed rounded rocks with low bushes (Stockholm's rocks are sharper and mossier)\n- **Small flat fields in the north** → the coast between Umeå and Luleå; **Jämtland (around Storsjön)**: grassy farmland on steep hills; **High Coast (Västernorrland)**: forested rocky mountains around winding farm valleys; **Södermanland**: fields running through small valleys\n- **Red dirt roads** → mainly Dalarna (also Kalmar and the inland Norrbotten/Västerbotten border); **red asphalt + thin pines in western Dalarna**; **dark grey dirt roads with low green grass** → northern Jämtland\n- **Öland**: Extremely flat, barren southern half with small bushes, lots of low stone walls and the most wooden windmills; **Gotland**: white sand by roads (north and Fårö), sharp wedge-split wooden fences, limestone houses and distinctive churches; Fårö = dry stony fields + juniper\n- **Stone walls** → the south (coasts, Öland, Gotland's tips); **mistletoe** → Lake Mälaren (especially Västerås); **orchards** → Kivik on Skåne's east coast\n- **Northern snowmobile trails**: Small red crosses"
+        },
+        {
+          "headingZh": "🛡️ 路缘标、雪杆与特色道路",
+          "headingEn": "Bollards, Snow Poles & Signature Roads",
+          "contentZh": "- **楔形路缘标**（类似德国）→ 南部；**顶部附近有水平黑段的圆柱路缘标** → 西海岸、韦姆兰、达拉纳南部；**扁平路缘标或黑色长方形内嵌反光片** → 北半部主干道；**白色小路缘标带蓝/红条** → 斯科讷乡村\n- **雪杆**：绿色 → 于默奥周边；橙色杆两块宽反光片紧挨 → 挪威边境 E12；黄色杆两块白反光片 → 挪威边境 95 号公路；橙黄混合 → 挪威边境 E10\n- **特色道路**（Daiiono 的“独特瑞典道路”）：\n    - **E10 基律纳—挪威边境**：小白桦、远处雪山，西段北侧有大湖\n    - **99 号公路北段**：灰色沙地 + 棕绿苔藓、路边深沟、低矮混交林\n    - **通往 Ritsem 的路**：南侧大湖 + 瑞典最壮观的山，无标线小路\n    - **耶姆特兰/西博滕边境**：瑞典唯一高于林线、看不到树的铺装路（秋景）；法尔克沃伦：最高的无树高原土路\n    - **95 号公路阿尔耶普卢格以西**：四代融雪山地；**于默奥**：几乎每条路都有脏雪堆的春季覆盖\n    - **E45 奥尔萨—埃尔夫罗斯**：棕红色湿路面 + 细松与白桦；**E4 于默奥至芬兰边境**：北部少有的带中央沟/护栏的大路\n- **霍尔门岛**：三代长天线白车，有明显的画面故障（Daiiono）",
+          "contentEn": "- **Wedge bollards** (German-like) → the south; **cylindrical bollards with a horizontal black band near the top** → the west coast, Värmland, southern Dalarna; **flat bollards or a black rectangle holding the reflector** → main roads in the northern half; **small white bollards with a blue/red stripe** → rural Skåne\n- **Snow poles**: Green → around Umeå; orange with two wide reflectors close together → E12 near Norway; yellow with two white reflectors → road 95 near Norway; a mix of orange and yellow → E10 near Norway\n- **Signature roads** (Daiiono's \"unique Swedish roads\"):\n    - **E10 Kiruna – Norwegian border**: Small birches, distant snowy mountains, a big lake to the north on the western half\n    - **Northern road 99**: Grey sandy ground with brown-green moss, a deep roadside ditch, low mixed forest\n    - **Road to Ritsem**: A big lake to the south + Sweden's most dramatic mountains, a small road without lines\n    - **Jämtland/Västerbotten border**: Sweden's only paved road above the tree line (autumn); Falkvålen: the highest treeless plateau dirt road\n    - **Road 95 west of Arjeplog**: Gen 4 thawing snow in the mountains; **Umeå**: spring coverage with dirty snow piles on nearly every road\n    - **E45 Orsa – Älvros**: Brown-red wet pavement with thin pines and birches; **E4 Umeå – Finnish border**: one of few northern roads with a ditch/barrier between carriageways\n- **Holmön island**: Gen 3 white car with long antenna and a distinctive visual glitch (Daiiono)"
+        },
+        {
+          "headingZh": "🏠 建筑与城市路牌",
+          "headingEn": "Architecture & City Street Signs",
+          "contentZh": "- **灰色金属屋顶**：住宅越往北越多\n- **斯科讷**：白石墙或红砖墙 + 山墙下彩色木三角；南部半木结构房；较旧的红砖独栋房（丹麦也很多）；陡峭长满苔藓的方形波纹金属仓顶；灰色菱形瓦顶（斯科讷、布莱金厄、厄兰岛）\n- **西海岸**：房子颜色明显更浅——哥德堡至挪威边境大量白色、浅黄色房屋（Daiiono 的“西海岸白房子”）；北西海岸沿海小镇成排红色小棚屋\n- **达拉纳中部**：红色原木房、原木大门、独特谷仓（härbre）；锡利扬湖附近皇冠状红砖烟囱；“gattu/gatu”结尾的街名；**埃尔夫达伦语**街名（-ween/-weg）\n- **海尔辛兰**：窗户很多、两三层的宏伟红色农舍；**北部沿海**：外墙向外倾斜的八角形或长方形红原木农棚；北部城镇整齐的白桦行道树\n- **城市路牌**：斯德哥尔摩 = 两行、黑线分隔、无黑边；哥德堡 = 全市蓝色两行路牌；马尔默 = 黑角老式白牌；于斯塔德 = 黄底版；费尔雪平 = 纯黄路牌；雪平 = 细黑边蓝牌；韦林厄 = 单行蓝牌；卡尔斯塔德 = 标志杆与路灯上三道黄条\n- **其他**：哥德堡电车最多；松兹瓦尔“龙城”雕塑；维斯比汉萨古城（鹅卵石、彩色石屋、玫瑰）；斯德哥尔摩老城窄巷；乌普萨拉以北沿海的瓦隆工业小镇；伯格斯拉根的蓝/绿色矿渣石建筑",
+          "contentEn": "- **Grey metal roofs**: On houses, more common the further north\n- **Skåne**: White stone or red-brick walls + a coloured wooden triangle under the gable; half-timbered houses in the south; older red-brick detached houses (also very Danish); steep, mossy corrugated square metal barn roofs; grey diamond-tile roofs (Skåne, Blekinge, Öland)\n- **West coast**: Noticeably lighter houses — lots of white and pale-yellow houses from Gothenburg to the Norwegian border (Daiiono's \"west coast white houses\"); rows of small red sheds in northern west-coast towns\n- **Central Dalarna**: Red log houses, log portals, distinctive storehouses (härbre); crown-topped red-brick chimneys near Lake Siljan; street names ending \"gattu/gatu\"; **Elfdalian** street names (-ween/-weg)\n- **Hälsingland**: Grand red farmhouses with many windows, 2–3 storeys; **north coast**: octagonal or rectangular red log sheds with outward-leaning walls; neat rows of birches in northern towns\n- **City street signs**: Stockholm = two rows split by a black line, no black border; Gothenburg = blue two-line signs citywide; Malmö = old-style white with black corners; Ystad = a yellow version; Falköping = plain yellow; Köping = blue with a thin black outline; Vellinge = one-line blue; Karlstad = three yellow stripes on signposts and lamps\n- **Other**: Most trams in Gothenburg; Sundsvall's \"Dragon City\" statues; Hanseatic Visby (cobbles, colourful stone houses, roses); Stockholm's narrow Old Town alleys; Walloon mill towns on the coast north of Uppsala; blue/green slag-stone buildings in Bergslagen"
+        }
+      ],
+      "rawContent": "瑞典区号、道路编号、铁路道口编号、各省公交站、路缘标与雪杆、南北植被农田、建筑、城市路牌",
+      "sources": [
+        {
+          "title": "Daiiono – 5 Metas Every Pro Should Know Ep.26 (Sweden)",
+          "url": "https://youtu.be/__Ztf98dk44"
+        },
+        {
+          "title": "Frenchmanilla – Learning Sweden Metas In Geoguessr",
+          "url": "https://youtu.be/gtOcR3UxxL4"
+        },
+        {
+          "title": "Plonk It – Sweden guide",
+          "url": "https://www.plonkit.net/sweden"
+        }
+      ]
+    },
+    {
+      "id": "finland",
+      "nameZh": "芬兰",
+      "nameEn": "Finland",
+      "flag": "🇫🇮",
+      "continent": "Europe",
+      "sections": [
+        {
+          "headingZh": "🔢 道路编号与电话区号",
+          "headingEn": "Road Numbers & Area Codes",
+          "contentZh": "> oh2mp：1–39 为主干道、40–99 为基础干道，**三位与四位数的区域道路最有用**——首位数字就是地区。\n- **区域道路首位数字（大致自南向北 1 → 9）**：\n    - **1** 新地区（赫尔辛基所在南部）；**2** 西南芬兰与萨塔昆塔（图尔库、波里）；**3** 皮尔卡区与海门（坦佩雷、哈米纳林纳、拉赫蒂）\n    - **4** 东南（屈米、南卡累利阿、南萨沃）；**5** 萨沃与北卡累利阿；**6** 中芬兰与南博滕区\n    - **7** 博滕区沿海（瓦萨—科科拉）；**8** 北博滕与凯努（奥卢）；**9** 拉普兰（如 970 号公路）\n    - 两位数主干道不遵循这个规律；赫尔辛基有环路编号\n- **电话区号**：09 赫尔辛基；019 新地区西部；02 西南（图尔库、波里）；03 坦佩雷、海门、拉赫蒂；05 屈米与南卡累利阿（科特卡、拉彭兰塔）；06 博滕区（瓦萨、塞伊奈约基、科科拉）；08 奥卢与凯努；013 北卡累利阿（约恩苏）；014 中芬兰（于韦斯屈莱）；015 米凯利；016 拉普兰（罗瓦涅米）；017 库奥皮奥；018 奥兰\n- **国家识别**：外侧实线（N/S/F 记忆法中的 Full）；雪杆反光片在最顶端；黑黄 V 形牌（与挪威相同）；芬兰语长单词与双写元音/辅音（ää、kk）",
+          "contentEn": "> oh2mp: roads 1–39 are main roads and 40–99 base roads, but **3- and 4-digit regional roads are the most useful** — their first digit is the region.\n- **Regional road first digit (roughly south → north, 1 → 9)**:\n    - **1** Uusimaa (the Helsinki south); **2** Southwest Finland & Satakunta (Turku, Pori); **3** Pirkanmaa & Häme (Tampere, Hämeenlinna, Lahti)\n    - **4** the southeast (Kymenlaakso, South Karelia, South Savo); **5** Savo & North Karelia; **6** Central Finland & South Ostrobothnia\n    - **7** coastal Ostrobothnia (Vaasa–Kokkola); **8** North Ostrobothnia & Kainuu (Oulu); **9** Lapland (e.g. road 970)\n    - Two-digit main roads don't follow the pattern; Helsinki has its own ring-road numbers\n- **Area codes**: 09 Helsinki; 019 western Uusimaa; 02 the southwest (Turku, Pori); 03 Tampere, Häme, Lahti; 05 Kymenlaakso & South Karelia (Kotka, Lappeenranta); 06 Ostrobothnia (Vaasa, Seinäjoki, Kokkola); 08 Oulu & Kainuu; 013 North Karelia (Joensuu); 014 Central Finland (Jyväskylä); 015 Mikkeli; 016 Lapland (Rovaniemi); 017 Kuopio; 018 Åland\n- **Country ID**: Solid edge lines (the \"Full\" in the N/S/F mnemonic); snow-pole reflectors at the very top; black-yellow chevrons (same as Norway); long Finnish words with doubled vowels/consonants (ää, kk)"
+        },
+        {
+          "headingZh": "🌲 地区景观、语言与三代车",
+          "headingEn": "Regional Landscape, Languages & Gen 3 Car",
+          "contentZh": "- **三代天线**：\n    - **微微倾斜的长天线** → 芬兰西南部（Daiiono 首个 Meta，别和笔直长天线混淆）\n    - **完全没有天线的三代** → 芬兰中南部\n- **三代雪景**：普通三代的雪地覆盖只在拉普兰西北端（二代、四代、摄像点雪景别处也有）\n- **拉普兰**：大路上带两条长反光片的雪杆（2023 年起的覆盖）；矮小细弱的树；**970 号公路**（挪威边境）= 河谷两侧丘陵、河在西北、矮小白桦、三代秋景；**基尔皮斯耶尔维**一带靠近斯堪的纳维亚山脉，丘陵 + 低矮植被\n- **农田**：主要集中在西海岸与南海岸；**风电** → 西海岸最多\n- **瑞典语**：南部与西部部分沿海地区双语牌常见——看到瑞典语不要往内陆点\n- **萨米语**：最北部双语地名牌，字母中有 c（芬兰语没有）\n- **奥兰群岛**：只说瑞典语；路面偏红、外侧虚线像瑞典；短白车牌、无欧盟蓝条；部分人行横道牌为瑞典式四条纹；公交站有 4 位数字白牌；没有四代覆盖",
+          "contentEn": "- **Gen 3 antennas**:\n    - **Slightly tilted long antenna** → southwestern Finland (Daiiono's first meta — don't confuse it with the straight long antenna)\n    - **Gen 3 with no antenna at all** → south-central Finland\n- **Gen 3 snow**: Regular Gen 3 snow coverage exists only in far northwestern Lapland (Gen 2, Gen 4 and trekker snow exists elsewhere)\n- **Lapland**: Snow poles with two long reflectors on bigger roads (2023+ coverage); small, stunted spindly trees; **road 970** (Norwegian border) = a river valley with hills both sides, the river usually to the northwest, stunted birches, autumn Gen 3; **Kilpisjärvi** near the Scandinavian Mountains = hills + low vegetation\n- **Farmland**: Concentrated near the west and south coasts; **wind turbines** → mostly the west coast\n- **Swedish**: Bilingual signs common in parts of the southern and western coast — if you see Swedish, don't guess inland\n- **Sámi**: Bilingual place names in the far north, using the letter c (absent in Finnish)\n- **Åland**: Swedish only; reddish pavement and Swedish-style dashed edge lines; short white plates without the EU strip; some Swedish-style four-stripe pedestrian signs; bus stops with a white 4-digit plate; no Gen 4"
+        },
+        {
+          "headingZh": "🚌 城市公交、电车与路牌",
+          "headingEn": "City Buses, Trams & Street Signs",
+          "contentZh": "- **赫尔辛基**：绿黄色电车；蓝白竖分公交（看车身 logo）；市中心大量四代人行道摄像点\n- **坦佩雷**：红色电车（芬兰唯二有电车的城市）；下蓝上白的“NYSSE”公交；房屋、路灯与标志杆上带 7 个金色/深红色凸点、呈圆角六边形的红色金属牌\n- **图尔库**：黄色公交、白色车尾；**于韦斯屈莱**：几乎全绿的公交；**奥卢**：粉色车头公交\n- **独特路牌**（Daiiono 的“独特芬兰路牌”）：\n    - **塞伊奈约基与伊索屈勒**：蓝底白字路牌\n    - **拉赫蒂**：黑边、全大写字母（库奥皮奥有字体更粗更紧凑的类似款）\n    - **克拉瓦**：左上角蓝黄色市徽；**耶尔文佩**：左上角蓝灰色市徽 + 路名上方写街区名\n    - 看到未列出的市徽路牌 → 大概率在克拉瓦或拉赫蒂附近",
+          "contentEn": "- **Helsinki**: Green-and-yellow trams; blue-and-white vertically split buses (check the logo); lots of Gen 4 sidewalk trekker downtown\n- **Tampere**: Red trams (one of only two Finnish tram cities); \"NYSSE\" buses blue below, white above; red metal plates with 7 golden/dark-red studs in a rounded hexagon on houses, lamps and signposts\n- **Turku**: Yellow buses with a white rear; **Jyväskylä**: almost all-green buses; **Oulu**: buses with a pink front\n- **Unique street signs** (Daiiono's \"unique Finnish street signs\"):\n    - **Seinäjoki & Isokyrö**: Blue signs with white text\n    - **Lahti**: Black border and all-caps letters (Kuopio has a similar version with a thicker, more compact font)\n    - **Kerava**: A blue-and-yellow coat of arms top-left; **Järvenpää**: a blue-and-grey coat of arms top-left + the neighbourhood name above the street\n    - A street sign with any other coat of arms → you are probably near Kerava or Lahti"
+        }
+      ],
+      "rawContent": "芬兰区域道路首位数字、电话区号、三代天线、瑞典语与萨米语、拉普兰、奥兰群岛、城市公交与路牌",
+      "sources": [
+        {
+          "title": "Daiiono – 5 Metas Every Pro Should Know Ep.25 (Finland)",
+          "url": "https://youtu.be/BJEIFk5XOr4"
+        },
+        {
+          "title": "oh2mp – Mastering Finland in GeoGuessr: Road numbering system and signs",
+          "url": "https://youtu.be/wRSzx_I9WN8"
+        },
+        {
+          "title": "Plonk It – Finland guide",
+          "url": "https://www.plonkit.net/finland"
+        }
+      ]
+    },
+    {
+      "id": "united-kingdom",
+      "nameZh": "英国",
+      "nameEn": "United Kingdom",
+      "flag": "🇬🇧",
+      "continent": "Europe",
+      "sections": [
+        {
+          "headingZh": "🔢 道路编号分区与城市区号",
+          "headingEn": "Road-Number Zones & City Area Codes",
+          "contentZh": "- **A/B 道路首位数字 = 分区**（从伦敦放射、顺时针）：\n    - **1** 英格兰东部（东英吉利、林肯郡、东北英格兰）；**2** 东南（肯特、苏塞克斯）；**3** 南部与西南（汉普郡、德文、康沃尔）\n    - **4** 泰晤士河谷、布里斯托、南威尔士；**5** 西米德兰兹、北威尔士、柴郡、兰开夏；**6** 东米德兰兹、约克郡、坎布里亚\n    - **7** 苏格兰南部；**8** 苏格兰中西部；**9** 苏格兰北部与东北\n    - 例：A380、B3217 → 西南；北爱尔兰也有 1–8 开头的道路，需注意\n- **座机区号**（整体无规律，但大城市值得背）：020 伦敦、0121 伯明翰、0161 曼彻斯特、0151 利物浦、0113 利兹、0114 谢菲尔德、0115 诺丁汉、0116 莱斯特、0117 布里斯托、0118 雷丁、023 南安普顿/朴次茅斯、024 考文垂、029 加的夫、0131 爱丁堡、0141 格拉斯哥、**028 = 整个北爱尔兰**\n- **四地旗帜**：英格兰、苏格兰、威尔士、北爱尔兰旗偶尔出现\n- **城市垃圾桶**常印城市名或市政标志（UK 社区视频专门讲了垃圾桶 Logo）",
+          "contentEn": "- **First digit of A/B roads = zone** (radiating clockwise from London):\n    - **1** eastern England (East Anglia, Lincolnshire, NE England); **2** the southeast (Kent, Sussex); **3** the south & southwest (Hampshire, Devon, Cornwall)\n    - **4** Thames Valley, Bristol, South Wales; **5** West Midlands, North Wales, Cheshire, Lancashire; **6** East Midlands, Yorkshire, Cumbria\n    - **7** southern Scotland; **8** central & western Scotland; **9** northern & NE Scotland\n    - e.g. A380, B3217 → the southwest; Northern Ireland also has roads starting 1–8, so be careful\n- **Landline area codes** (no overall pattern, but learn the big cities): 020 London, 0121 Birmingham, 0161 Manchester, 0151 Liverpool, 0113 Leeds, 0114 Sheffield, 0115 Nottingham, 0116 Leicester, 0117 Bristol, 0118 Reading, 023 Southampton/Portsmouth, 024 Coventry, 029 Cardiff, 0131 Edinburgh, 0141 Glasgow, **028 = all of Northern Ireland**\n- **The four flags**: England, Scotland, Wales and Northern Ireland flags appear occasionally\n- **Urban bins** often carry the city name or council logo (the UK community video covers bin logos)"
+        },
+        {
+          "headingZh": "🏴 四地区分：北爱尔兰、苏格兰、威尔士、英格兰",
+          "headingEn": "The Four Nations: NI, Scotland, Wales & England",
+          "contentZh": "- **北爱尔兰**：\n    - 爱尔兰式金属农场大门 + 圆形门柱（UK 社区首个 Tip）\n    - 电线杆上**整圈缠绕**的警示贴纸（北爱独有）；路灯杆上黑底黄字贴纸\n    - 西部路牌在路名下用**绿色字**写 townland（北部常有金属分隔条）\n    - 区号 028；道路编号也有 1–8 开头\n- **苏格兰**：\n    - **红白圆顶粗路缘标**（反光带绕一圈，类似法国但顶部圆而非尖）\n    - **菱形“Passing Place”会车点标志**：苏格兰最常见\n    - **苏格兰盖尔语**（bh、dh、fh、mh、ai、ea、eo、ui 字母组合，重音符号多），路牌上常为绿/黄色字，几乎都在格拉斯哥以北\n    - **石材建筑**：阿伯丁 = 花岗岩；格拉斯哥、邓弗里斯 = 红砂岩；爱丁堡 = 黄砂岩\n    - **高地**：半荒芜的崇山，四代多为早春（植被棕黄）\n    - **阿伯丁/阿伯丁郡**：蓝底白字路牌（阿伯丁市中心为黑黄）；**格拉斯哥**：绿边“Twenty's Plenty”限速牌\n- **威尔士**：\n    - 英语 + 威尔士语双语路牌；威尔士语 D、W、Y 多，双 LL 很有辨识度\n    - 路面标字双语——“**ARAF**”（= Slow）只在威尔士\n    - 最高的山区可能像苏格兰高地\n- **英格兰**：\n    - **伦敦**：黑色路名 + 红色邮编与行政区；部分四代为白色电动车（都柏林、德国也有）\n    - **伯明翰**：多数电杆与标志杆缠黄色胶带或刷黄漆，路灯有黄色贴纸\n    - **韦克菲尔德**：黑底白边白字路牌，Rockwell Nova 字体\n    - **湖区**：丘陵起伏、大量裸岩和石墙（像苏格兰高地但更多岩石）\n    - **康沃尔棕榈（新西兰朱蕉）** → 西南沿海与泽西（西海岸偶见至苏格兰）",
+          "contentEn": "- **Northern Ireland**:\n    - Irish-style metal farm gates with round pillars (the UK community's first tip)\n    - Warning stickers **wrapped all the way around** utility poles (NI only); black stickers with yellow text on lamp posts\n    - In the west, street signs show the townland in **green text** under the street name (often with a metal divider in the north)\n    - Area code 028; road numbers starting 1–8 also exist here\n- **Scotland**:\n    - **Bulky red-and-white round-topped bollards** (wrap-around reflector; like the French one but rounded, not pointed)\n    - **Diamond \"Passing Place\" signs**: most common in Scotland\n    - **Scottish Gaelic** (letter clusters bh, dh, fh, mh, ai, ea, eo, ui; lots of accents), often in green/yellow text on signs, almost always north of Glasgow\n    - **Stone buildings**: Aberdeen = granite; Glasgow, Dumfries = red sandstone; Edinburgh = yellow sandstone\n    - **Highlands**: Semi-barren big mountains; Gen 4 is often early spring (brown-yellow vegetation)\n    - **Aberdeen/Aberdeenshire**: Blue street signs with white text (black-and-yellow in central Aberdeen); **Glasgow**: green-bordered \"Twenty's Plenty\" speed signs\n- **Wales**:\n    - English + Welsh bilingual signs; Welsh uses lots of D, W, Y and the distinctive double LL\n    - Bilingual road markings — \"**ARAF**\" (= Slow) only in Wales\n    - The highest mountains can look like the Scottish Highlands\n- **England**:\n    - **London**: Street name in black + postcode and borough in red; some Gen 4 shot by a white electric car (also Dublin and Germany)\n    - **Birmingham**: Most poles and signposts wrapped in yellow tape or yellow paint, yellow stickers on lamp posts\n    - **Wakefield**: Black street signs with white border and text in the Rockwell Nova font\n    - **Lake District**: Very hilly with lots of exposed rock and stone walls (like the Highlands, but rockier)\n    - **Cornish palms (cabbage trees)** → the southwest coast and Jersey (occasionally up the west coast to Scotland)"
+        },
+        {
+          "headingZh": "🏝️ 王室属地与海外领地",
+          "headingEn": "Crown Dependencies & Overseas Territories",
+          "contentZh": "- **马恩岛**：只有二代覆盖，爱尔兰海中间（zi8gzag 有专门视频）\n- **泽西岛**：只有二代覆盖，英吉利海峡（国家连胜时算英国）\n- **直布罗陀**：伊比利亚半岛南端，紧邻西班牙\n- **其他海外领地**：百慕大、福克兰群岛、南乔治亚、皮特凯恩群岛、英属印度洋领地——都有各自的 Plonk It 指南\n- **国家识别复习**：左侧通行；黄色后车牌、白色前车牌；中线虚线比常见更长；黑白方块路缘标；英格兰乡村常见高篱夹道",
+          "contentEn": "- **Isle of Man**: Only Gen 2 coverage, in the Irish Sea (zi8gzag has a dedicated video)\n- **Jersey**: Only Gen 2, in the English Channel (counts as the UK for country streaks)\n- **Gibraltar**: At the southern tip of Iberia, bordering Spain\n- **Other overseas territories**: Bermuda, the Falklands, South Georgia, Pitcairn, the British Indian Ocean Territory — each has its own Plonk It guide\n- **Country ID refresher**: Left-hand traffic; yellow rear plates, white front plates; longer-than-usual centre dashes; black-and-white block bollards; tall hedges lining rural English lanes"
+        }
+      ],
+      "rawContent": "英国道路编号分区、城市区号、北爱尔兰/苏格兰/威尔士/英格兰区分、凯尔特语言、建筑石材、城市路牌",
+      "sources": [
+        {
+          "title": "Popguy – UK Regionguessing Tips for GeoGuessr",
+          "url": "https://youtu.be/h-YPrU9ScBU"
+        },
+        {
+          "title": "UK GeoGuessr Community – Important UK GeoGuessr Tips For Beginners!",
+          "url": "https://youtu.be/geJOhu7JCJ0"
+        },
+        {
+          "title": "Plonk It – United Kingdom guide",
+          "url": "https://www.plonkit.net/united-kingdom"
+        }
+      ]
+    },
+    {
+      "id": "france",
+      "nameZh": "法国",
+      "nameEn": "France",
+      "flag": "🇫🇷",
+      "continent": "Europe",
+      "sections": [
+        {
+          "headingZh": "☎️ 区号、省份编号与地名后缀",
+          "headingEn": "Area Codes, Department Numbers & Place-Name Suffixes",
+          "contentZh": "- **电话区号首两位**：01 = 法兰西岛（巴黎）；02 西北 → 03 东北 → 04 东南 → 05 西南（从西北开始**顺时针**）；06–09 开头不分区\n- **省份编号（96 个，大致按字母顺序）**：邮编前两位 = 省号（75 巴黎、13 罗讷河口、69 罗讷、33 吉伦特、59 北部、67 下莱茵、2A/2B 科西嘉）；车牌右侧蓝条也印省号\n- **省份徽标**：公交站、里程碑、步道横幅、指路牌和标志背面上常印省徽（新手不必背，但扫图时知道它代表省份）\n- **地名后缀（法国区域判断的关键）**：\n    - **-ac** → 西南（奥克语区，阿基坦、利穆赞、奥弗涅）\n    - **Plou- / Ker- / Tré- / -ec** → 布列塔尼（Plou- 集中在布列塔尼西北，Daiiono 重点讲解）\n    - **-heim / -willer / -bach** → 阿尔萨斯与摩泽尔\n    - **-ville / -court** → 北部与东北；**-ieu / -ieux** → 罗讷-阿尔卑斯；**-argues** → 朗格多克\n- **“-sur-[河名]”**：城市名带所在河流（常缩写为 s/），卢瓦尔、塞纳、马恩、罗讷等长河最常见；**-sur-Mer / -Plage** 只在海岸\n- **国家识别**：两侧蓝条的长白车牌；尖顶白色圆柱路缘标（灰/红反光带）；梯形“华夫”水泥杆 + 菱形三线“法式杆顶”；木杆/金属杆上的小蓝牌（法国独有）；黄色小路号牌（D 开头）；红边带细白边的标志；扁平矩形标志杆、很矮的标志杆；蓝底白箭头 V 形牌（1–5 个箭头）；五条纹、头部断开的人行横道标志；黄/红半圆顶里程碑；一节节由两段错位短块组成的中线（法国独有）",
+          "contentEn": "- **First two digits of area codes**: 01 = Île-de-France (Paris); 02 northwest → 03 northeast → 04 southeast → 05 southwest (going **clockwise** from the northwest); numbers starting 06–09 aren't regional\n- **Department numbers (96, roughly alphabetical)**: The first two digits of postcodes = the department (75 Paris, 13 Bouches-du-Rhône, 69 Rhône, 33 Gironde, 59 Nord, 67 Bas-Rhin, 2A/2B Corsica); the right blue strip on plates shows it too\n- **Department logos**: Printed on bus stops, km markers, trail banners, direction signs and sign backs (not worth memorising as a beginner, but know that they identify the department)\n- **Place-name suffixes (key to French regionguessing)**:\n    - **-ac** → the southwest (Occitan area: Aquitaine, Limousin, Auvergne)\n    - **Plou- / Ker- / Tré- / -ec** → Brittany (Plou- concentrated in NW Brittany, a Daiiono highlight)\n    - **-heim / -willer / -bach** → Alsace & Moselle\n    - **-ville / -court** → the north & northeast; **-ieu / -ieux** → Rhône-Alpes; **-argues** → Languedoc\n- **\"-sur-[river]\"**: Town names include their river (often shortened to s/), most often the long rivers like the Loire, Seine, Marne, Rhône; **-sur-Mer / -Plage** only on the coast\n- **Country ID**: Long white plates with blue strips on both sides; pointed white cylindrical bollards (grey/red band); stepped \"waffle/ladder\" concrete poles + diamond three-wire \"French pole tops\"; small blue plates on wooden/metal poles (unique to France); small yellow road-number signs (starting with D); red-bordered signs with a thin white outline; flat rectangular and very short signposts; blue chevrons with white arrows (1–5 arrows); five-stripe pedestrian signs with a detached head; yellow/red semicircle-topped km markers; centre-line dashes made of two offset blocks (unique to France)"
+        },
+        {
+          "headingZh": "🎨 标志杆与标志背面颜色",
+          "headingEn": "Signpost & Sign-Back Colours",
+          "contentZh": "> 法国的标志杆与标志背面常被涂成各种“非常规”颜色，很多带有地区性（Daiiono 专门讲了“标志与标志背面”）。\n- **深绿色立柱与背面** → 布列塔尼与巴黎周边，南部若干地区也有\n- **灰绿色背面 + 深绿立柱** → 布列塔尼（阿摩尔滨海省与伊勒-维莱讷东半部）、比利牛斯-大西洋省，阿尔卑斯附近偶见\n- **深绿立柱 + 浅绿（抹茶绿到青绿）背面** → 加来海峡省（背面偶有绿蓝三角省徽）\n- **厄尔-卢瓦尔省**：深绿背面上贴绿色省徽贴纸；路号带上标小数字（地图显示为 D134.10）\n- **立柱与背面全棕色** → 塞纳-马恩省（方形立柱更可靠）\n- **上加龙省**：指路牌用酒红色配件与装饰，有时配黄色立柱\n- **马恩省**：进出镇标志合并成一块明显更厚的牌子\n- **波尔多郊区**：波尔多酒红色方形立柱；**蔚蓝海岸**：天蓝色立柱（滨海卡涅为更浅的粉蓝）\n- **偏红/紫/酒红色路面** → 巴黎与第戎之间（勃艮第），诺曼底例外",
+          "contentEn": "> French signposts and sign backs are often painted in unusual colours, many of them regional (Daiiono covers \"signs and signbacks\").\n- **Dark green posts and backs** → Brittany and around Paris, also several southern regions\n- **Greyish-green back + darker green post** → Brittany (Côtes-d'Armor, eastern Ille-et-Vilaine), Pyrénées-Atlantiques, rarely near the Alps\n- **Dark green post + lighter green (matcha to turquoise) back** → Pas-de-Calais (sometimes with the green-blue triangle logo)\n- **Eure-et-Loir**: Green department-logo sticker on a dark green back; D-roads with superscript numbers (shown as D134.10 on the map)\n- **Brown post and back** → Seine-et-Marne (more reliable with square posts)\n- **Haute-Garonne**: Direction signs with burgundy-red fittings and ornaments, sometimes yellow posts\n- **Marne**: Town entry and exit signs combined into one noticeably thicker block\n- **Bordeaux suburbs**: Claret-red square posts; **French Riviera**: azure-blue posts (powder blue in Cagnes-sur-Mer)\n- **Red/purple/burgundy-tinted roads** → between Paris and Dijon (Burgundy), except Normandy"
+        },
+        {
+          "headingZh": "🏠 地区建筑、语言与景观",
+          "headingEn": "Regional Architecture, Languages & Landscape",
+          "contentZh": "- **黑色石板屋顶** → 西北部（大致以卢瓦尔河为界），以及比利时边境、中南部、比利牛斯（阿尔卑斯 vs 比利牛斯时很有用）\n- **布列塔尼**：黑屋顶、山墙端烟囱、黑色石板墙、门窗周围石材框；**布列塔尼语**双语牌（d、k、w、ñ，街道 = straed），东到雷恩\n- **南部**：相互叠压、颜色深浅不一的圆筒瓦；**比利时边境**：深红砖排屋（白色灰缝）；**图卢兹**：明亮橙色砖房 + 木百叶窗\n- **巴黎周边小镇**：奶油到橙色的不规则石墙 + 红砖装饰；**巴黎**：带老虎窗的黑色孟莎式屋顶\n- **巴斯克**：白墙 + 彩色木构架（红色居多），巴斯克语双语牌（K、X、Z，细体字，街道 = karrika）→ 比利牛斯-大西洋省西部\n- **阿尔卑斯**：浅色底座 + 大量木结构；**阿尔萨斯**：木构架、半坡顶、鱼鳞瓦，阿尔萨斯语（gasse/strasse）\n- **东比利牛斯省（北加泰罗尼亚）**：红黄条纹旗/省徽（普罗旺斯旗为竖条纹），加泰罗尼亚语（街道 = carrer）——Daiiono 列为必知\n- **科西嘉**：科西嘉语（-u/-iu/-ju 结尾）、石头砌成的方块护墙；**奥克语**（图卢兹 carrièra、阿维尼翁 carriero）\n- **蔚蓝海岸**：棕榈 + 浅色多层楼宽阳台，类似摩纳哥\n- **景观**：诺曼底树篱夹道；南部海岸伞松；朗德/吉伦特平坦的海岸松林；向日葵 → 西南（图卢兹周边）；薰衣草 → 东南；葡萄园 → 波尔多、南部海岸、香槟区、卢瓦尔河谷、阿尔萨斯；风电 → 北部；盐田 → 大西洋沿岸（盖朗德、雷岛、奥莱龙岛）；最高山在东南和西班牙边境，北部与西海岸平坦",
+          "contentEn": "- **Black slate roofs** → the northwest (roughly north of the Loire), plus near Belgium, the south-centre and the Pyrenees (handy for Alps-vs-Pyrenees)\n- **Brittany**: Black roofs, gable-end chimneys, black slate walls, stone frames around doors and windows; **Breton** bilingual signs (d, k, w, ñ; street = straed) as far east as Rennes\n- **The south**: Overlapping round tiles in varied shades; **Belgian border**: dark red-brick rows with white mortar; **Toulouse**: bright orange brick with wooden shutters\n- **Towns around Paris**: Irregular cream-to-orange stone walls with red-brick details; **Paris**: black mansard roofs with dormers\n- **Basque Country**: White walls + colourful (often red) timber framing, Basque bilingual signs (K, X, Z, thin font; street = karrika) → western Pyrénées-Atlantiques\n- **Alps**: Light base + lots of wood; **Alsace**: timber framing, half-hip roofs, fish-scale tiles, Alsatian (gasse/strasse)\n- **Pyrénées-Orientales (Northern Catalonia)**: Red-yellow striped flag/logo (Provence's flag has vertical stripes), Catalan (street = carrer) — a Daiiono must-know\n- **Corsica**: Corsican (endings -u/-iu/-ju), stone-and-mortar block barriers; **Occitan** (Toulouse carrièra, Avignon carriero)\n- **French Riviera**: Palms + light multi-storey buildings with wide balconies, like Monaco\n- **Landscape**: Hedge-lined lanes in Normandy; stone pines on the south coast; flat maritime-pine forest in Landes/Gironde; sunflowers → the southwest (around Toulouse); lavender → the southeast; vineyards → Bordeaux, the south coast, Champagne, Loire, Alsace; wind turbines → the north; salt pans → Atlantic coast (Guérande, Île de Ré, Oléron); the highest mountains are in the southeast and on the Spanish border, while the north and west coast are flat"
+        },
+        {
+          "headingZh": "🏙️ 城市路牌与特殊覆盖",
+          "headingEn": "City Street Signs & Special Coverage",
+          "contentZh": "- **巴黎、里昂、马赛**：唯三设有区（Arrᵗ）的城市，区号在谷歌地图上显示，找到路牌即可精确定位\n    - **巴黎**：标志性的绿 + 普鲁士蓝拱顶路牌；巴黎都会区路牌常写城市名（多以塞纳、马恩等河流命名）\n    - **里昂**：四角螺栓 + 连续白色内框，在区号与螺栓处留缺口\n    - **马赛**：带城市徽章（希腊十字），白框顶部断开\n- **波尔多**：路牌附小牌写“Arrᵗ”（虽然没有区）；**蒙彼利埃**：左上角蓝色“M”；**里尔**：红色斜置鸢尾花\n- **薄型 B 式护栏**（捷克/斯洛伐克标准）→ 北半部高速（勒芒、图尔、巴黎、兰斯、梅斯出发）\n- **三代天线上的彩色小旗**：法国独有，分布可学\n- **美丽岛**：只有过饱和的二代覆盖，布列塔尼房屋配葡萄牙式彩色外墙",
+          "contentEn": "- **Paris, Lyon, Marseille**: The only cities with arrondissements (Arrᵗ), which show on Google Maps — find a street sign and pinpoint\n    - **Paris**: The iconic green + Prussian-blue arched street sign; signs in the metro area often name the town (often river-based names like Seine, Marne)\n    - **Lyon**: Four corner bolts + a continuous inner white border notched for the arrondissement and bolts\n    - **Marseille**: The city emblem (a Greek cross), white border interrupted at the top\n- **Bordeaux**: A small \"Arrᵗ\" plate (despite having no arrondissements); **Montpellier**: a blue \"M\" in the top-left corner; **Lille**: a red slanted fleur-de-lis\n- **Thin B-type guardrail** (the Czech/Slovak standard) → highways in the northern half (radiating from Le Mans, Tours, Paris, Reims, Metz)\n- **Coloured flags on the Gen 3 antenna**: Unique to France with a learnable distribution\n- **Belle-Île-en-Mer**: Only oversaturated Gen 2, Breton houses with Portuguese-style colourful facades"
+        }
+      ],
+      "rawContent": "法国电话区号、省份编号与邮编、地名后缀、标志杆与标志背面颜色、地区建筑、少数民族语言、城市路牌",
+      "sources": [
+        {
+          "title": "zi8gzag 2 – France Explained (Geoguessr World Cup Training)",
+          "url": "https://youtu.be/BswGCUotJFU"
+        },
+        {
+          "title": "Daiiono – 5 Metas Every Pro Should Know Ep.28 (France)",
+          "url": "https://youtu.be/GC9LX6BSaZ4"
+        },
+        {
+          "title": "GeoClement – Regionguessing France with explanations",
+          "url": "https://youtu.be/kJAchRv_Etg"
+        },
+        {
+          "title": "Plonk It – France guide",
+          "url": "https://www.plonkit.net/france"
+        }
+      ]
+    },
+    {
+      "id": "spain",
+      "nameZh": "西班牙",
+      "nameEn": "Spain",
+      "flag": "🇪🇸",
+      "continent": "Europe",
+      "sections": [
+        {
+          "headingZh": "🔢 区号、道路代码与里程碑",
+          "headingEn": "Area Codes, Road Codes & Km Markers",
+          "contentZh": "- **座机区号（9 开头，两位即可精确）**：91 马德里；93 巴塞罗那；94 巴斯克（943 吉普斯夸、945 阿拉瓦）及坎塔布里亚 942、拉里奥哈 941、纳瓦拉 948；95 安达卢西亚（954 塞维利亚、952 马拉加、958 格拉纳达、957 科尔多瓦）；96 瓦伦西亚、阿利坎特、穆尔西亚（968）；97 加泰罗尼亚其余（972 赫罗纳、973 莱里达、977 塔拉戈纳）、阿拉贡（974/976/978）、巴利阿里 971；98 西北（981 拉科鲁尼亚、986 庞特韦德拉、985 阿斯图里亚斯、987 莱昂、983 巴利亚多利德）；92 加那利（922/928）、埃斯特雷马杜拉（924/927）及卡斯蒂利亚若干省；6 开头为手机\n- **区域道路代码**：里程碑与指路牌上的字母即省/自治区代码（如 SG = 塞哥维亚）；E、AP、A、R、N 为国道代码（但安达卢西亚和阿拉贡的区域道路也用 A）；阿斯图里亚斯有大量本地代码；梅利利亚用 ML\n- **里程碑**：长方形或方形可排除一半国家；边框颜色从大路到小路为橙、绿、黄；国道总是红色长方形；**安达卢西亚**特别高、多一条写管理机构的条带；**马德里**方形顶部带区旗；**比斯开**更大、半圆顶（Daiiono 专门讲了里程碑）\n- **乡村小路标线**：各省对外边线实线/虚线有偏好（阿拉瓦常见长虚中线、吉普斯夸常见长外虚线），加泰罗尼亚常有非典型标线",
+          "contentEn": "- **Landline area codes (start with 9; two digits are enough)**: 91 Madrid; 93 Barcelona; 94 Basque Country (943 Gipuzkoa, 945 Álava) plus 942 Cantabria, 941 La Rioja, 948 Navarra; 95 Andalusia (954 Seville, 952 Málaga, 958 Granada, 957 Córdoba); 96 Valencia, Alicante, Murcia (968); 97 rest of Catalonia (972 Girona, 973 Lleida, 977 Tarragona), Aragón (974/976/978), Balearics 971; 98 the northwest (981 A Coruña, 986 Pontevedra, 985 Asturias, 987 León, 983 Valladolid); 92 Canaries (922/928), Extremadura (924/927) and several Castilian provinces; numbers starting with 6 are mobiles\n- **Regional road codes**: The letters on km markers and direction signs are province/region codes (e.g. SG = Segovia); E, AP, A, R, N are national codes (but Andalusia and Aragón also use A for regional roads); Asturias has many local codes; Melilla uses ML\n- **Km markers**: Rectangular vs square rules out half the country; border colours go orange, green, yellow from big to small roads; national roads always have red rectangles; **Andalusia** is extra tall with a strip naming the authority; **Madrid** square with the regional flag on top; **Biscay** larger with a semicircle top (Daiiono covers km markers)\n- **Small-road lines**: Provinces prefer solid vs dashed edge lines (Álava often long dashed centre lines, Gipuzkoa long dashed edges); Catalonia often has atypical lines"
+        },
+        {
+          "headingZh": "🗣️ 地方语言、旗帜与城市细节",
+          "headingEn": "Regional Languages, Flags & City Details",
+          "contentZh": "- **加泰罗尼亚语**（加泰罗尼亚、瓦伦西亚、巴利阿里）：“和” = i，à/è/ò 与 ç 为西班牙境内独有；街道 = carrer；禁停牌写“Gual permanent”；狩猎牌“Àrea privada de Caça”；加泰罗尼亚与巴利阿里的使用远多于西语\n- **巴斯克语**（巴斯克与纳瓦拉北部）：Z、K 多；街道 = kalea；标志下方粗黑边双语小牌（巴斯克区巴语在上，纳瓦拉多为西语在上）\n- **加利西亚语**：与葡语相似但有 ñ、没有 ç；街道 = Rúa；地名常以 A、O、As、Os 开头（如 A Pena、O Burgo）；“Concello”（市政）+ 顶部绿/蓝条的城镇牌\n- **自治区区旗**很常见，值得记；红黄条纹 Senyera 与加泰罗尼亚独立旗 → 加泰罗尼亚语区\n- **巴塞罗那**：黑色出租车配黄色车门；**毕尔巴鄂**：装饰繁复边框的独特路牌；**马德里**：圆顶红色公交站 + 绿色巴士（市中心蓝色）；**阿斯图里亚斯**：带 CTA 标志的红色公交站柱、COGERSA 垃圾桶标志（Daiiono 的“阿斯图里亚斯 Metas”）",
+          "contentEn": "- **Catalan** (Catalonia, Valencia, Balearics): \"and\" = i; à/è/ò and ç are unique to Catalan within Spain; street = carrer; no-parking signs read \"Gual permanent\"; hunting signs \"Àrea privada de Caça\"; far more common than Spanish in Catalonia and the Balearics\n- **Basque** (Basque Country & northern Navarre): Lots of Z and K; street = kalea; bilingual sub-signs with a thick black border (Basque on top in the Basque Country, Spanish usually on top in Navarre)\n- **Galician**: Like Portuguese but with ñ and no ç; street = Rúa; town names often start with A, O, As, Os (A Pena, O Burgo); \"Concello\" (municipality) on town signs with a green/blue top strip\n- **Regional flags** are common and worth learning; the red-yellow Senyera and Catalan independence flag → Catalan-speaking areas\n- **Barcelona**: Black taxis with yellow doors; **Bilbao**: unique street signs with elaborate frames; **Madrid**: round-topped red bus stops + green buses (blue in the centre); **Asturias**: red bus-stop posts with the CTA logo, COGERSA logos on bins (Daiiono's \"Asturias metas\")"
+        },
+        {
+          "headingZh": "🛡️ 路缘标、雪杆、电杆与 V 形牌",
+          "headingEn": "Bollards, Snow Poles, Poles & Chevrons",
+          "contentZh": "- **AP-15（纳瓦拉）**：扁平简洁的路缘标配方形红色反光片，护栏也是红色反光片（西班牙其他地方为黄色）——Daiiono 首个 Meta\n- **方形橙色前反光片 + 背面白反光片的路缘标** → 莱里达、塔拉戈纳（AP-6 等收费路也有），以及加那利拉斯帕尔马斯省\n- **绿顶路缘标** → 埃斯特雷马杜拉独有；**白色扁短杆 + 两侧灰反光片** → 阿拉贡区域道路\n- **雪杆**：黄色单/双反光片 → 阿斯图里亚斯（南部）；蓝黄色 → 安达卢西亚独有\n- **V 形牌**：大方形单箭头 → 加泰罗尼亚；白底红箭头小方形 → 穆尔西亚独有\n- **圆形波纹标志杆** → 加泰罗尼亚（巴斯克、巴利阿里也有）；**左侧绿条的政府标志牌、绿色立柱** → 安达卢西亚\n- **矩形网格钢电杆**（而非三角形）→ 南半部，穆尔西亚与阿利坎特南部尤其多\n- **卡斯蒂利亚-拉曼恰**：田边带区徽的石桩，左侧刷蓝、右侧未涂\n- **街景车**：阿斯图里亚斯有无天线、可见刹车灯的黑车；白顶特殊三代天线 → 安达卢西亚东半部与韦斯卡、莱里达；多尼亚纳国家公园有独特车况",
+          "contentEn": "- **AP-15 (Navarre)**: Simple flat bollards with square red reflectors, plus red reflectors on guardrails (yellow elsewhere in Spain) — Daiiono's first meta\n- **Bollard with a square orange front reflector + white back reflector** → Lleida, Tarragona (also toll roads like the AP-6), and Las Palmas province in the Canaries\n- **Green-topped bollards** → Extremadura only; **short flat white stick with grey reflectors on both sides** → Aragón regional roads\n- **Snow poles**: Yellow with one or two reflectors → Asturias (south); blue-and-yellow → Andalusia only\n- **Chevrons**: Big square single-arrow chevrons → Catalonia; small square red-arrow-on-white chevrons → Murcia only\n- **Round corrugated signposts** → Catalonia (also Basque Country, Balearics); **government signs with a green left stripe, green posts** → Andalusia\n- **Steel-mesh poles with rectangles** (instead of triangles) → the southern half, especially Murcia and southern Alicante\n- **Castilla-La Mancha**: Field boundary stones with the regional arms, blue on the left side and unpainted on the right\n- **Cars**: A black car with no antenna and a visible brake light in Asturias; a special white-topped Gen 3 antenna → eastern Andalusia, Huesca and Lleida; a unique car in Doñana NP"
+        },
+        {
+          "headingZh": "🏔️ 地形、植被与作物",
+          "headingEn": "Terrain, Vegetation & Crops",
+          "contentZh": "- **北部沿海**：远比其他地区翠绿湿润，丘陵、树篱、绿草地，像爱尔兰/英国/法国；大片桉树人工林（加利西亚最多）；玉米\n- **比利牛斯**：浅灰岩石 + 大量松树 + 石墙；耕地间的小山出现高大松林 → 巴斯克或纳瓦拉\n- **卡斯蒂利亚-莱昂中部**：基本平坦的谷物农田（小麦、大麦）与向日葵；**拉里奥哈**：南北都有山的葡萄园\n- **埃布罗河谷（纳瓦拉至阿拉贡中部）**：浅色沙土、小山丘上的小灌木；阿拉贡中南部极干燥平坦（北部白色多石，特鲁埃尔多红土）；**埃布罗三角洲**：极平的稻田与水渠，南西北三面有山\n- **卡斯蒂利亚-拉曼恰**：完全平坦；全国一半葡萄酒产于此；西部雷阿尔城、托莱多多平地橄榄园；早春时节红土上的光秃葡萄园 + 绿草土路\n- **埃斯特雷马杜拉**：稀疏的冬青栎与栓皮栎牧场（别与橄榄树混淆）；卡塞雷斯以北更绿\n- **穆尔西亚与阿利坎特南部**：干旱沙土、中等高度的崎岖光秃山，常带雾霾；**内华达山脉**：南部唯一 11–5 月积雪的山\n- **橄榄**：科尔多瓦、哈恩起伏丘陵上一望无际（偏远大片多为二代）；马德里以南为平地中小块 + 红土；东海岸多围栏或石墙、总能看到山\n- **橙子**：东海岸小山谷（平地时西北南三面有山）；瓜达尔基维尔河谷更开阔平坦——Daiiono 列入必知\n- **桉树 + 干燥环境** → 韦尔瓦（埃斯特雷马杜拉、科尔多瓦偶见）\n- **松树**：伞松（树冠宽于高）→ 巴利亚多利德、韦尔瓦平地纯林、巴塞罗那周边山地住宅区；阿勒颇松 → 东海岸与巴利阿里；欧洲赤松（上部树皮橙红）→ 比利牛斯、瓜达拉马、伊比利亚山系；海岸松 → 大西洋沿岸与中南部山地（塞哥维亚以北平地成片）\n- **阿尔梅里亚—莫特里尔沿海**：大片白顶温室（埃尔埃希多）",
+          "contentEn": "- **North coast**: Far greener and wetter than the rest, hilly, hedges and meadows, like Ireland/UK/France; huge eucalyptus plantations (most in Galicia); corn\n- **Pyrenees**: Light grey rock + lots of pines + stone walls; tall pine forest on small hills between fields → Basque Country or Navarre\n- **Central Castilla y León**: Mostly flat cereal farmland (wheat, barley) and sunflowers; **La Rioja**: vineyards with mountains to the north and south\n- **Ebro valley (Navarre to central Aragón)**: Light sandy soil, small shrubs on small hills; central/south Aragón very arid and flat (white rocky soil in the north, red soil in Teruel); **Ebro Delta**: dead-flat rice fields and canals with mountains south, west and north\n- **Castilla-La Mancha**: Completely flat; half of Spain's wine comes from here; olive groves on flat land in Ciudad Real and Toledo; early-spring Gen 3 dirt roads with green fields and bare vineyards on red soil\n- **Extremadura**: Open pasture dotted with holm and cork oaks (don't confuse with olives); greener north of Cáceres\n- **Murcia & southern Alicante**: Arid sandy soil, medium rugged bare mountains, often hazy; **Sierra Nevada**: the only southern range with snow from November to May\n- **Olives**: Endless plantations on rolling hills around Córdoba and Jaén (remote ones often Gen 2); south of Madrid in small/medium flat fields with red soil; on the east coast often fenced or behind stone walls, always with mountains in view\n- **Oranges**: Small valleys on the east coast (mountains to the west, north or south on flat ground); more open, flat orchards in the Guadalquivir valley — a Daiiono must-know\n- **Eucalyptus in a dry environment** → Huelva (occasionally Extremadura, Córdoba)\n- **Pines**: Stone pines (crown wider than tall) → pure flat forests around Valladolid and Huelva, residential hills near Barcelona; Aleppo pines → east coast & Balearics; Scots pines (orange-red upper bark) → Pyrenees, Guadarrama, Iberian System; maritime pines → the Atlantic coast and central/southern ranges (flat plantations north of Segovia)\n- **Almería–Motril coast**: Vast white-roofed greenhouses (El Ejido)"
+        },
+        {
+          "headingZh": "🏠 建筑与岛屿/飞地",
+          "headingEn": "Architecture, Islands & Enclaves",
+          "contentZh": "- **黑色石板屋顶** → 西北大片区域（向东突然终止），以及安道尔附近比利牛斯、马德里东北山区\n- **加利西亚**：大混凝土砌块房（有时仿石纹）；独特的“horreo”谷仓；**阿斯图里亚斯**：更大的方形 hórreo（四柱），长方形 panera（六/八柱）；石板顶 hórreo → 阿斯图里亚斯西部\n- **巴斯克、纳瓦拉巴斯克区、坎塔布里亚**：带木构架的大白房；**加泰罗尼亚、阿拉贡东部、瓦伦西亚**：石砌农舍“masía”\n- **全白小镇** → 安达卢西亚与埃斯特雷马杜拉（卡斯蒂利亚-拉曼恰白房多但不会整条街全白）；马拉加周边建在山坡上的白色村镇\n- **巴利阿里**：阿勒颇松覆盖的山丘、果树橄榄小田、低矮石墙（巴里周边也像）、全白缓坡瓦顶房；牧场几乎只在梅诺卡；马略卡西北有高大山脉；福门特拉岛低矮海岸灌丛、北岸可望伊维萨的山\n- **加那利**：景观极其多样——符合西班牙 Meta 但“感觉不对”时考虑加那利；兰萨罗特 = 黑色火山土（月球感）+ 半圆石墙葡萄园；富埃特文图拉 = 极干燥 + 橙色土壤；拉格拉西奥萨 = 荒芜 + 全阴天\n- **休达**：北非风格暖色平顶房、湛蓝晴空、地中海山地（桉树 + 松树），黑白护栏（西班牙独有）；**梅利利亚**：雾蒙蒙、多云\n- **圣地亚哥朝圣之路**：蓝底黄色扇贝标志，越靠近圣地亚哥（加利西亚）越多",
+          "contentEn": "- **Black slate roofs** → a large area of the northwest (ending abruptly to the east), plus the Pyrenees near Andorra and the mountains NE of Madrid\n- **Galicia**: Houses of big concrete blocks (sometimes stone-textured); distinctive \"hórreo\" granaries; **Asturias**: bigger square hórreos on four pillars, rectangular \"paneras\" on six/eight; slate-roofed hórreos → western Asturias\n- **Basque Country, Basque Navarre, Cantabria**: Large white houses with timber frames; **Catalonia, eastern Aragón, Valencia**: stone farmhouses (\"masías\")\n- **All-white towns** → Andalusia and Extremadura (Castilla-La Mancha has white houses but rarely entire white streets); white villages on mountainsides around Málaga\n- **Balearics**: Aleppo-pine hills, small fruit/olive plots, low stone walls (Bari, Italy looks similar), all-white houses with gently sloped tile roofs; pastures almost only on Menorca; a tall range in NW Mallorca; Formentera has low coastal scrub with Ibiza's mountains visible from the north coast\n- **Canary Islands**: Extremely diverse — if the meta says Spain but the vibe feels \"off\", consider the Canaries; Lanzarote = black volcanic soil (moon-like) + semicircular stone-walled vineyards; Fuerteventura = extremely arid with orange soil; La Graciosa = barren and fully overcast\n- **Ceuta**: North African warm-coloured flat roofs, bright blue skies, Mediterranean mountains (eucalyptus + pine), black-and-white guardrails (unique within Spain); **Melilla**: hazy, cloudy\n- **Camino de Santiago**: Yellow scallop on blue markers, more frequent the closer you get to Santiago (Galicia)"
+        }
+      ],
+      "rawContent": "西班牙电话区号、省级道路代码、地方语言、里程碑颜色、路缘标与雪杆、地形植被作物、建筑与岛屿",
+      "sources": [
+        {
+          "title": "Daiiono – 5 Metas Every Pro Should Know Ep.40 (Spain)",
+          "url": "https://youtu.be/QJg5KniV4Zw"
+        },
+        {
+          "title": "Melkemokka – How to correctly guess SPAIN!",
+          "url": "https://youtu.be/RIVgvEE6v7o"
+        },
+        {
+          "title": "Kenneth3748 – Geoguessr Tips and Tricks: Spain",
+          "url": "https://youtu.be/B01ryaOOIbk"
+        },
+        {
+          "title": "Plonk It – Spain guide",
+          "url": "https://www.plonkit.net/spain"
+        }
+      ]
+    },
+    {
+      "id": "portugal",
+      "nameZh": "葡萄牙",
+      "nameEn": "Portugal",
+      "flag": "🇵🇹",
+      "continent": "Europe",
+      "sections": [
+        {
+          "headingZh": "☎️ 电话区号：前三位即可定位",
+          "headingEn": "Area Codes: Three Digits Pin You Down",
+          "contentZh": "- **2 开头为座机**（其他开头不分区；29x = 亚速尔或马德拉）：\n    - **21** 里斯本；**22** 波尔图\n    - **25x 北部**：253 布拉加、258 维亚纳堡、259 维拉雷亚尔、254 雷瓜、255 佩纳菲耶尔\n    - **27x 内陆北部与中部**：273 布拉干萨、276 沙维什、271 瓜达、272 布朗库堡、275 科维良\n    - **23x 中部沿海与中部**：239 科英布拉、234 阿威罗、232 维塞乌\n    - **24x 中部（大里斯本以北）**：244 莱里亚、243 圣塔伦、245 波塔莱格雷\n    - **26x 阿连特茹与里斯本周边**：265 塞图巴尔、266 埃武拉、261 托雷斯韦德拉什\n    - **28x 南部**：289 法鲁、282 波蒂芒、284 贝雅\n- **国家识别**：黑黄 V 形牌（与巴西相同）；扁平标志杆；车牌右侧黄色条（年份标记）；葡萄牙语 ç、ã、õ；街道 = Rua（加利西亚为 Rúa）",
+          "contentEn": "- **Landlines start with 2** (other prefixes aren't regional; 29x = Azores or Madeira):\n    - **21** Lisbon; **22** Porto\n    - **25x the north**: 253 Braga, 258 Viana do Castelo, 259 Vila Real, 254 Régua, 255 Penafiel\n    - **27x the inland north & centre**: 273 Bragança, 276 Chaves, 271 Guarda, 272 Castelo Branco, 275 Covilhã\n    - **23x the central coast & centre**: 239 Coimbra, 234 Aveiro, 232 Viseu\n    - **24x the centre (north of Greater Lisbon)**: 244 Leiria, 243 Santarém, 245 Portalegre\n    - **26x Alentejo & around Lisbon**: 265 Setúbal, 266 Évora, 261 Torres Vedras\n    - **28x the south**: 289 Faro, 282 Portimão, 284 Beja\n- **Country ID**: Black-yellow chevrons (like Brazil); flat signposts; a yellow strip on the right of plates (year marker); Portuguese ç, ã, õ; street = Rua (Galicia uses Rúa)"
+        },
+        {
+          "headingZh": "🌳 南北景观、建筑与地标",
+          "headingEn": "North–South Landscape, Architecture & Landmarks",
+          "contentZh": "- **西北**：茂密桉树林；**北半部**：海岸松林/人工林（灰色树皮带红调、枝条向上）\n- **北部建筑**：方形混凝土砌块房，常用白色灰缝（加利西亚类似但通常没有白灰缝）\n- **杜罗河葡萄酒产区**（波尔图正东）：陡峭的梯田葡萄园\n- **东南**：稀疏的冬青栎与栓皮栎牧场（夏秋干黄、春季翠绿）；**橄榄园**：东半部，尤其最东北与东南（成排密植，栎树则稀疏无规律）\n- **南部海岸**：柑橘园；**法鲁区（阿尔加维）**：带小尖顶的圆形或方形装饰烟囱，圆形烟囱尤其可靠\n- **埃斯特雷拉山脉**：多岩高原山地 + 黄黑条纹雪杆\n- **塞图巴尔—锡尼什沿海**：松林配极白的沙土；**西南端**：平坦未开垦、几乎无树的低矮灌丛草地\n- **波尔图**：酸橙绿色路牌\n- **离岛**：马德拉与亚速尔（各有独立 Plonk It 指南）",
+          "contentEn": "- **Northwest**: Dense eucalyptus forest; **northern half**: maritime pine forests/plantations (grey bark with red tones, upward-pointing branches)\n- **Northern architecture**: Square concrete-block houses, often with white mortar (Galicia is similar but usually without the white mortar)\n- **Douro wine region** (due east of Porto): Steep terraced vineyards\n- **Southeast**: Sparse holm/cork-oak pastures (dry yellow in summer/autumn, lush in spring); **olive groves**: the eastern half, especially the far northeast and southeast (planted in dense rows, whereas oaks are sparse and random)\n- **South coast**: Citrus groves; **Faro district (Algarve)**: decorative round or square chimneys with small spires — round ones are especially reliable\n- **Serra da Estrela**: Rocky mountain highlands + yellow-black striped snow poles\n- **Setúbal – Sines coast**: Pine forest on extremely white sand; **far southwest**: flat, uncultivated, almost treeless scrub and grass\n- **Porto**: Lime-green street signs\n- **Islands**: Madeira and the Azores (each has its own Plonk It guide)"
+        }
+      ],
+      "rawContent": "葡萄牙电话区号、南北植被（桉树/海岸松 vs 栓皮栎/橄榄）、北部混凝土砌块房、阿尔加维烟囱、杜罗河梯田",
+      "sources": [
+        {
+          "title": "Salvado – THE GEOGUESSR PORTUGAL GUIDE IS HERE: Learn everything to regionguess",
+          "url": "https://youtu.be/Q9fqD4irGnE"
+        },
+        {
+          "title": "Plonk It – Portugal guide",
+          "url": "https://www.plonkit.net/portugal"
+        }
+      ]
+    },
+    {
+      "id": "italy",
+      "nameZh": "意大利",
+      "nameEn": "Italy",
+      "flag": "🇮🇹",
+      "continent": "Europe",
+      "sections": [
+        {
+          "headingZh": "🔢 区号、道路编号与语言",
+          "headingEn": "Area Codes, Road Numbers & Languages",
+          "contentZh": "- **电话区号首位先往东、再往南递增**：\n    - **01** 西北（011 都灵、010 热那亚、0165 奥斯塔）；**02** 米兰；**03** 伦巴第其余（030 布雷西亚、035 贝加莫）\n    - **04** 东北（041 威尼斯、045 维罗纳、049 帕多瓦、040 的里雅斯特、0461 特伦托、0471 博尔扎诺）\n    - **05** 艾米利亚-罗马涅与托斯卡纳（051 博洛尼亚、055 佛罗伦萨、050 比萨）；**06** 罗马\n    - **07** 中部（071 安科纳、075 佩鲁贾）及撒丁岛（070 卡利亚里、079 萨萨里）\n    - **08** 南部（081 那不勒斯、080 巴里、089 萨莱诺）；**09** 卡拉布里亚与西西里（091 巴勒莫、095 卡塔尼亚、090 墨西拿）\n- **道路编号**：SS = 国道（全国唯一）、SR = 大区道路（大区内唯一）、SP = 省道（省内唯一）\n- **地方语言**：南蒂罗尔 = 德语双语牌；奥斯塔谷 = 法语（路牌同时写 via 与 rue）；斯洛文尼亚边境 = 斯洛文尼亚语双语牌\n- **地名词尾**（Frenchmanilla 重点学习）：-ate、-ago、-engo → 伦巴第；-asco/-asca → 利古里亚/皮埃蒙特\n- **各大区区旗**都不同，值得记\n- **国家识别**：黑底白箭头 V 形牌；细蓝边白底黑字路牌；五条纹人行横道标志；“passo carrabile”禁停牌（顶部写市镇名）；短前车牌、两侧等宽蓝条；四代“小镜头”",
+          "contentEn": "- **Area codes rise first eastward, then southward**:\n    - **01** the northwest (011 Turin, 010 Genoa, 0165 Aosta); **02** Milan; **03** rest of Lombardy (030 Brescia, 035 Bergamo)\n    - **04** the northeast (041 Venice, 045 Verona, 049 Padua, 040 Trieste, 0461 Trento, 0471 Bolzano)\n    - **05** Emilia-Romagna & Tuscany (051 Bologna, 055 Florence, 050 Pisa); **06** Rome\n    - **07** the centre (071 Ancona, 075 Perugia) and Sardinia (070 Cagliari, 079 Sassari)\n    - **08** the south (081 Naples, 080 Bari, 089 Salerno); **09** Calabria & Sicily (091 Palermo, 095 Catania, 090 Messina)\n- **Road numbers**: SS = state road (unique nationwide), SR = regional road (unique in the region), SP = provincial road (unique in the province)\n- **Minority languages**: South Tyrol = German bilingual signs; Aosta Valley = French (street signs say both via and rue); Slovenian border = Slovene bilingual signs\n- **Town-name endings** (a Frenchmanilla highlight): -ate, -ago, -engo → Lombardy; -asco/-asca → Liguria/Piedmont\n- **Each region has its own flag**, worth learning\n- **Country ID**: White-on-black chevrons; white street signs with a thin blue border and black text; five-stripe pedestrian signs; \"passo carrabile\" no-parking signs (with the comune name on top); short front plates with equal blue strips both sides; Gen 4 \"smallcam\""
+        },
+        {
+          "headingZh": "🌄 地貌、作物与地标",
+          "headingEn": "Landscape, Crops & Landmarks",
+          "contentZh": "- **波河平原**：完全平坦，欧洲空气最差的地区之一，覆盖常带明显雾霾；水稻 → 波河平原西部与中部（撒丁岛偶见）\n- **阿尔卑斯**：高大宽阔的山脉、深谷\n- **巴里周边（普利亚东南）**：大片橄榄园 + 明亮的石墙，土壤明显偏红（西西里东南也相似）；**加尔加诺国家公园**：普利亚北部突出的山脊（Daiiono）\n- **西西里**：干旱的丘陵农田 + 岩石山；**埃特纳火山**远远高出东西西里的地平线；柑橘园 → 西西里东部与卡拉布里亚南端\n- **撒丁岛**：地面突出的灰色岩石，东北部最多（Daiiono 专门讲解；西西里也有但更干燥）\n- **仙人掌** → 南部（西西里、撒丁岛南部、普利亚南部）\n- **富齐诺平原（阿布鲁佐）**：意大利中部被群山环绕的小平原，道路网格完全正南北（Daiiono 首个 Meta）\n- **维苏威火山**：在那不勒斯周边平原常位于南或东方\n- **威尼斯**：运河遍布全城",
+          "contentEn": "- **Po Valley**: Completely flat and among the worst air in Europe, so coverage often has a visible haze; rice → western and central Po Valley (occasionally Sardinia)\n- **Alps**: Tall, wide ranges and deep valleys\n- **Around Bari (SE Apulia)**: Lots of olive groves + bright stone walls, noticeably red soil (similar in SE Sicily); **Gargano NP**: the prominent ridge of northern Apulia (Daiiono)\n- **Sicily**: Arid hilly farmland + rocky mountains; **Etna** rises above the eastern Sicilian horizon from far away; citrus groves → eastern Sicily and the tip of Calabria\n- **Sardinia**: Grey rocks sticking out of the ground, especially in the northeast (a Daiiono segment; Sicily has them too but drier)\n- **Cacti** → the south (Sicily, southern Sardinia, southern Apulia)\n- **Piana del Fùcino (Abruzzo)**: A small plain ringed by mountains in central Italy with a perfectly north–south road grid (Daiiono's first meta)\n- **Vesuvius**: Often visible to the south or east from the plains around Naples\n- **Venice**: Canals throughout the city"
+        },
+        {
+          "headingZh": "🏠 建筑与小岛",
+          "headingEn": "Architecture & Small Islands",
+          "contentZh": "- **托斯卡纳及周边**：不规则、未粉刷的棕灰色砖石房（西班牙东北也有类似）\n- **阿尔卑斯建筑**：白色石墙 + 木质细节的大房子；**奥斯塔谷**：灰色不规则石块、阿尔卑斯风（像安道尔）\n- **东北（威尼托）**：带黑色铁铰链的实木百叶窗\n- **普利亚**：浅色平顶房，两三层，有中东感；**特鲁利（trullo）圆锥石顶屋** → 伊特里亚谷（阿尔贝罗贝洛）独有\n- **小岛**：\n    - **潘泰莱里亚**：黑色火山岩石墙与房屋、岩石上的黄色地衣、大量仙人掌\n    - **伊奥利亚群岛**：火山土 + 地中海植被、山上白色度假别墅；萨利纳 = 双火山形成的谷地；武尔卡诺 = 火山侧面一道近白色的土带\n    - **法维尼亚纳**：南北走向的山把岛一分为二，两侧平地石墙（非火山岛）\n    - **圣多米诺**：只有阴沉的二代覆盖\n    - **坎皮奥内迪塔利亚**（瑞士境内飞地）：低机位、长天线带小旗，西侧有湖",
+          "contentEn": "- **Tuscany and around**: Irregular, unpainted brown-grey brick/stone buildings (similar in NE Spain)\n- **Alpine architecture**: Big buildings with white stone walls and wooden details; **Aosta Valley**: grey uneven stones, Alpine look (like Andorra)\n- **The northeast (Veneto)**: Solid wooden shutters with black metal hinges\n- **Apulia**: Light-coloured flat-roofed houses of two or three storeys, a Middle Eastern feel; **trulli (conical stone roofs)** → only the Itria valley (Alberobello)\n- **Small islands**:\n    - **Pantelleria**: Black volcanic stone walls and houses, yellow lichen on rocks, lots of cacti\n    - **Aeolian Islands**: Volcanic soil + Mediterranean vegetation, white tourist villas in the hills; Salina = a valley between twin volcanoes; Vulcano = a nearly white dirt stripe along the volcano's side\n    - **Favignana**: A north–south ridge splitting the island, flat stone-walled land both sides (not volcanic)\n    - **San Domino**: Only gloomy, overcast Gen 2\n    - **Campione d'Italia** (exclave in Switzerland): Low camera, long antenna with a flag, a lake to the west"
+        }
+      ],
+      "rawContent": "意大利电话区号、道路编号、双语地区、波河平原与南部景观、作物、建筑、火山与岛屿",
+      "sources": [
+        {
+          "title": "Daiiono – 5 Metas Every Pro Should Know Ep.30 (Italy)",
+          "url": "https://youtu.be/5JU9tDKnBqM"
+        },
+        {
+          "title": "Frenchmanilla – Learning Italy Metas In Geoguessr",
+          "url": "https://youtu.be/fioalQ2JdcE"
+        },
+        {
+          "title": "Plonk It – Italy guide",
+          "url": "https://www.plonkit.net/italy"
+        }
+      ]
+    },
+    {
+      "id": "germany",
+      "nameZh": "德国",
+      "nameEn": "Germany",
+      "flag": "🇩🇪",
+      "continent": "Europe",
+      "sections": [
+        {
+          "headingZh": "🔢 区号、邮编与地名后缀",
+          "headingEn": "Area Codes, Postcodes & Place-Name Suffixes",
+          "contentZh": "- **电话区号按首位分组**：\n    - **03x** 东部（030 柏林、0351 德累斯顿、0341 莱比锡、0391 马格德堡、0381 罗斯托克、0361 爱尔福特）\n    - **04x** 北部（040 汉堡、0421 不来梅、0431 基尔、0441 奥尔登堡）；**05x** 下萨克森与东威斯特法伦（0511 汉诺威、0521 比勒费尔德、0541 奥斯纳布吕克）\n    - **02x** 北威州西部与莱茵兰（0221 科隆、0211 杜塞尔多夫、0201 埃森、0231 多特蒙德、0261 科布伦茨）\n    - **06x** 黑森、莱法、萨尔（069 法兰克福、06131 美因茨、0681 萨尔布吕肯、0621 曼海姆）；**07x** 巴登-符腾堡（0711 斯图加特、0761 弗莱堡）\n    - **08x** 巴伐利亚南部（089 慕尼黑、0821 奥格斯堡）；**09x** 巴伐利亚北部（0911 纽伦堡、0941 雷根斯堡、0931 维尔茨堡）\n- **邮编从萨克森（0）开始逆时针**：0 萨克森/图林根、1 柏林/勃兰登堡/梅前州、2 汉堡/石荷州/不来梅、3 下萨克森南部/黑森北部、4 北威州北部、5 莱茵兰（科隆、波恩、特里尔）、6 黑森南部/萨尔/莱法、7 巴符州、8 巴伐利亚南部、9 巴伐利亚北部与图林根\n- **地名后缀**：-ow、-itz（斯拉夫来源）→ 东部；-weiler、-ach → 南半部；-ingen、-hausen 等较普遍（Harrier 专门讲了后缀）\n- **少数语言**：**索布语**（斯拉夫语）双语牌 → 波兰/捷克边境的卢萨蒂亚；**弗里斯兰语** → 北弗里斯兰\n- **州旗与州徽**：车牌未打码时可看到州徽；奥乐齐南北分治：Aldi Süd（南）vs Aldi Nord（北）",
+          "contentEn": "- **Area codes grouped by first digit**:\n    - **03x** the east (030 Berlin, 0351 Dresden, 0341 Leipzig, 0391 Magdeburg, 0381 Rostock, 0361 Erfurt)\n    - **04x** the north (040 Hamburg, 0421 Bremen, 0431 Kiel, 0441 Oldenburg); **05x** Lower Saxony & East Westphalia (0511 Hanover, 0521 Bielefeld, 0541 Osnabrück)\n    - **02x** western NRW & the Rhineland (0221 Cologne, 0211 Düsseldorf, 0201 Essen, 0231 Dortmund, 0261 Koblenz)\n    - **06x** Hesse, Rhineland-Palatinate, Saarland (069 Frankfurt, 06131 Mainz, 0681 Saarbrücken, 0621 Mannheim); **07x** Baden-Württemberg (0711 Stuttgart, 0761 Freiburg)\n    - **08x** southern Bavaria (089 Munich, 0821 Augsburg); **09x** northern Bavaria (0911 Nuremberg, 0941 Regensburg, 0931 Würzburg)\n- **Postcodes run counter-clockwise from Saxony (0)**: 0 Saxony/Thuringia, 1 Berlin/Brandenburg/Mecklenburg, 2 Hamburg/Schleswig-Holstein/Bremen, 3 southern Lower Saxony/northern Hesse, 4 northern NRW, 5 the Rhineland (Cologne, Bonn, Trier), 6 southern Hesse/Saarland/Rhineland-Palatinate, 7 Baden-Württemberg, 8 southern Bavaria, 9 northern Bavaria & Thuringia\n- **Place-name suffixes**: -ow, -itz (Slavic origin) → the east; -weiler, -ach → the southern half; -ingen, -hausen etc. are widespread (Harrier has a segment on suffixes)\n- **Minority languages**: **Sorbian** (Slavic) bilingual signs → Lusatia near the Polish/Czech border; **Frisian** → North Frisia\n- **State flags and arms**: State arms visible on unblurred plates; Aldi is split: Aldi Süd (south) vs Aldi Nord (north)"
+        },
+        {
+          "headingZh": "🛡️ 各州路缘标、里程桩与护栏",
+          "headingEn": "Bollards, Road Markers & Guardrails by State",
+          "contentZh": "- **护栏**（Daiiono 专门讲解）：德国大多为 B 型；**A 型**常见于西北部、莱法与巴伐利亚部分地区\n- **路缘标**：\n    - **深色反光片**：部分地区；**北威州**：顶部带绿色（或其他颜色）小帽；印有“LVR”+ 小徽章的绿帽 → 北威州南部\n    - **圆木路缘标、顶部上漆** → 巴伐利亚；**简单橙色桩** → 巴伐利亚为主\n    - **下萨克森部分地区 K 级道路**：底部没有白色外壳、形状不规则的路缘标（该区域 K 道只用这种）\n    - **黑色圆盘底座** → 整个东部；**白桩红帽** → 前东德（萨安州最多）；**全黄桩** → 勃兰登堡；**黄桩 + 白牌** → 萨克森-安哈尔特\n    - **路缘标上的牌子**：橙色 → 莱法独有；灰色 → 巴符州独有\n- **里程/道路标桩**：\n    - **巴伐利亚**：白色长方形分成三格，左格写所在道路\n    - **下萨克森**：简单的圆角长方形；**石荷州与下萨克森**：带金属边框（下萨克森逗号后数字较小）\n    - **三角形桩**：莱法与萨克森 = 未上漆、粗糙石质 + 两侧白牌；萨尔、图林根、巴符 = 白桩 + 白牌（巴符较矮，也有灰色）；北威州 = 不带白牌的白桩；黑森几乎不用\n- **自行车指路牌**：白底绿字；汉堡、北威州及相邻下萨克森为红字；萨尔为深绿底白字\n- **路牌背面与连接件**：折边/平板背面、连接件样式可用于区分地区\n- **东北部**：树干底部刷白、勃兰登堡与梅前州树上的绿色小标记",
+          "contentEn": "- **Guardrails** (a Daiiono segment): Mostly B-type in Germany; **A-type** is common in the northwest, Rhineland-Palatinate and parts of Bavaria\n- **Bollards**:\n    - **Darker reflectors**: some regions; **NRW**: a small green (or other colour) cap; green caps printed \"LVR\" + a small coat of arms → southern NRW\n    - **Round wooden bollards with a painted top** → Bavaria; **simple orange posts** → mostly Bavaria\n    - **K-roads in part of Lower Saxony**: irregular bollards without the white lower casing (the only type on those K-roads)\n    - **Black disc bases** → the whole east; **white post with a red cap** → former East Germany (most in Saxony-Anhalt); **fully yellow posts** → Brandenburg; **yellow post + white plate** → Saxony-Anhalt\n    - **Plates on bollards**: orange → Rhineland-Palatinate only; grey → Baden-Württemberg only\n- **Road markers**:\n    - **Bavaria**: White rectangle split into three sections, the left showing your road\n    - **Lower Saxony**: Simple rounded rectangles; **Schleswig-Holstein & Lower Saxony**: with a metal border (Lower Saxony has smaller numbers after the comma)\n    - **Triangular posts**: Rhineland-Palatinate & Saxony = unpainted rough stone with white plates; Saarland, Thuringia, BW = white posts with white plates (shorter in BW, also grey); NRW = white posts without plates; Hesse barely uses them\n- **Bicycle direction signs**: White with green text; red text in Hamburg, NRW and adjacent Lower Saxony; Saarland white on dark green\n- **Sign backs & connectors**: Folded vs flat backs and connector styles help regionguess\n- **The northeast**: White-painted tree trunks; small green markers on trees in Brandenburg and Mecklenburg"
+        },
+        {
+          "headingZh": "🏘️ 东西德差异、电杆与建筑",
+          "headingEn": "East vs West, Poles & Architecture",
+          "contentZh": "- **前东德**：圆形水泥电杆（几乎独有）、横担中间加厚的杆顶、社会主义时期大型预制板楼（Plattenbau）、路况较差（Harrier）\n- **西德**：类似捷克/斯洛伐克的三角形杆顶；**三叉戟杆顶** → 巴伐利亚、萨安州、巴符；**弯曲横担** → 巴伐利亚（少见）\n- **红砖房** → 西北部；**茅草屋顶 + 石墙** → 北弗里斯兰群岛与石荷州本土，梅前州海滨度假镇也有；**锡尔特岛**：灌木与沙覆盖的山丘\n- **黑色石板（鱼鳞状）外墙** → 德国中部大片地区；**拱形底层的半木结构房** → 萨克森部分地区\n- **欧洲赤松（橙色树干）** → 东北部（Harrier 的“东部针叶林”）\n- **城市路牌**：柏林 = 白底灰边、门牌号单独一栏（注意 ß 写法）；慕尼黑 = 蓝底、白色装饰边框不碰角、独特字体；斯图加特 = 无边框黑牌；杜塞尔多夫 = 白边黑牌 + 金属框；多特蒙德 = 蓝牌白边灰框 + 门牌栏；埃森 = 很厚的金属框；汉诺威 = 白牌与框之间缝隙更宽；纽伦堡、德累斯顿 = 独特字体蓝牌；美因茨 = 独特的红色款；法兰克福 = 金属边框 + 门牌栏\n- **城市州**：柏林 = 分段式公交站 + 黄色站牌杆、亮橙色垃圾桶；汉堡 = 红色站牌杆 + 六边形线路号、亮红色垃圾桶带白色对话框；不来梅 = 站名在红色区块、绿灰垃圾桶带橙色对话框；科隆 = 路灯杆上黑底黄数字",
+          "contentEn": "- **Former East Germany**: Round concrete poles (almost unique), pole tops with a thicker middle bar, socialist-era prefab blocks (Plattenbau), poorer road quality (Harrier)\n- **West Germany**: Triangle pole tops like Czechia/Slovakia; **trident pole tops** → Bavaria, Saxony-Anhalt, BW; **curved crossbars** → Bavaria (rare)\n- **Red-brick houses** → the northwest; **thatched roofs + stone walls** → the North Frisian Islands and mainland Schleswig-Holstein, also Mecklenburg's seaside resorts; **Sylt**: shrub- and sand-covered hills\n- **Black slate \"fish-scale\" walls** → a large area of central Germany; **half-timbered houses with ground-floor arches** → part of Saxony\n- **Scots pine (orange trunks)** → the northeast (Harrier's \"eastern conifers\")\n- **City street signs**: Berlin = white with a grey border and a separate house-number row (note the ß); Munich = blue with a white decorative border that doesn't touch the corners, unique font; Stuttgart = borderless black; Düsseldorf = black with white border + metal frame; Dortmund = blue, white border, grey frame + number row; Essen = very thick metal frame; Hanover = wider gap between sign and frame; Nuremberg, Dresden = blue with unique fonts; Mainz = a unique red variant; Frankfurt = metal border + number row\n- **City-states**: Berlin = segmented bus stops with yellow posts, bright orange bins; Hamburg = red posts with route numbers in hexagons, bright red bins with white speech bubbles; Bremen = stop name in a red section, green/grey bins with orange speech bubbles; Cologne = yellow numbers on black plastic on lamp posts"
+        },
+        {
+          "headingZh": "⛰️ 地形、作物与特殊覆盖",
+          "headingEn": "Terrain, Crops & Special Coverage",
+          "contentZh": "- **地形三分法**：北部尤其西北极平；中部多丘陵；最南端有大山（德国阿尔卑斯集中在奥地利边境——Harrier 的“巴伐利亚阿尔卑斯”）；南部虽海拔高但很多地方仍平坦\n- **雷根斯堡东南平原**：平坦农田，东北方常见一道低矮山脊（Daiiono 首个 Meta）\n- **葡萄园** → 主要在西南（莱茵、摩泽尔、巴登、法尔茨），东部也有少数产区\n- **啤酒花田** → 慕尼黑以北（哈勒陶）最常见（Daiiono）\n- **北部沿海**：堤坝与运河（Harrier）\n- **特殊车况**：汉堡和法兰克福周边罕见的黑白四代车（伦敦、爱尔兰也有）——Daiiono 的“德国电动车”；辛根及瑞士边境附近的低机位覆盖；比勒费尔德东南野生动物园的三代黑车（斑马纹越野车）；汉堡市中心带天线的三代覆盖\n- **覆盖背景**：德国长期只有旧三代，2023 年起大量四代更新（zi8gzag 实测“新德国”）",
+          "contentEn": "- **Terrain rule of three**: The north, especially the northwest, is dead flat; the centre is hilly; the far south has big mountains (the German Alps hug the Austrian border — Harrier's \"Bavarian Alps\"); much of the higher south is still flat\n- **Plains SE of Regensburg**: Flat farmland with a low ridge often visible to the northeast (Daiiono's first meta)\n- **Vineyards** → mainly the southwest (Rhine, Moselle, Baden, Palatinate), a few eastern regions\n- **Hop fields** → most common just north of Munich (Hallertau) (Daiiono)\n- **North coast**: Dikes and canals (Harrier)\n- **Special cars**: A rare black-and-white Gen 4 car around Hamburg and Frankfurt (also London and Ireland) — Daiiono's \"Germany electric car\"; low-cam coverage around Singen near Switzerland; a Gen 3 black car in a safari park SE of Bielefeld (zebra-painted 4x4s); Gen 3 with an antenna in central Hamburg\n- **Background**: Germany had only old Gen 3 for years; large Gen 4 updates arrived from 2023 (zi8gzag tests the \"new Germany\")"
+        }
+      ],
+      "rawContent": "德国电话区号、邮编逆时针、地名后缀、各州路缘标与里程桩、护栏、电杆杆顶、东西德差异、城市路牌",
+      "sources": [
+        {
+          "title": "Harrier – IMPORTANT GeoGuessr Tips for GERMANY!",
+          "url": "https://youtu.be/wfBQadowkUg"
+        },
+        {
+          "title": "Daiiono – 5 Metas Every Pro Should Know Ep.32 (Germany)",
+          "url": "https://youtu.be/9IZVYk071eU"
+        },
+        {
+          "title": "zi8gzag 2 – Trying the NEW Germany Update (Geoguessr Explained)",
+          "url": "https://youtu.be/3MS2VNHoDqk"
+        },
+        {
+          "title": "Plonk It – Germany guide",
+          "url": "https://www.plonkit.net/germany"
+        }
+      ]
+    },
+    {
+      "id": "ukraine",
+      "nameZh": "乌克兰",
+      "nameEn": "Ukraine",
+      "flag": "🇺🇦",
+      "continent": "Europe",
+      "sections": [
+        {
+          "headingZh": "🗺️ 覆盖、区号与车牌代码",
+          "headingEn": "Coverage, Area Codes & Plate Codes",
+          "contentZh": "- **覆盖分布**（Daiiono 首个讲解点）：城市间覆盖多在黄色道路；东南部几乎没有覆盖（只有顿涅茨克市），敖德萨以南近罗马尼亚处也没有\n- **座机区号（两位，每州一个；第三位为 2 = 州首府）**：\n    - **3x 西部**：32 利沃夫、31 乌日哥罗德（外喀尔巴阡）、33 卢茨克、34 伊万诺-弗兰科夫斯克、35 捷尔诺波尔、36 罗夫诺、37 切尔诺夫策、38 赫梅利尼茨基\n    - **4x 北部与中部**：44 基辅、41 日托米尔、43 文尼察、46 切尔尼戈夫、47 切尔卡瑟、48 敖德萨\n    - **5x 中南与东北**：51 尼古拉耶夫、52 克罗皮夫尼茨基、53 波尔塔瓦、54 苏梅、55 赫尔松、56 第聂伯、57 哈尔科夫\n    - **6x 东部**：61 扎波罗热、62 顿涅茨克、64 卢甘斯克\n- **新车牌（蓝黄条）前两个字母 = 州**：AA/KA 基辅市、AI/KI 基辅州、BC/HC 利沃夫、BH/HH 敖德萨、AX/KX 哈尔科夫、AE/KE 第聂伯、AO/KO 外喀尔巴阡、BO/HO 捷尔诺波尔、AT/KT 伊万诺-弗兰科夫斯克（老车牌用数字地区码）\n- **州级二级域名**（如 .te.ua = 捷尔诺波尔）大多可直观猜出\n- **俄语 vs 乌克兰语**：东部与南部更多俄语——Ы、Э 只在俄语；俄语街道 улица（ул.）、城市 город（г.）",
+          "contentEn": "- **Coverage** (Daiiono's opening breakdown): Inter-city coverage is mostly on yellow roads; almost none in the southeast (except Donetsk city) and none south of Odesa near Romania\n- **Landline area codes (two digits, one per oblast; a third digit of 2 = the oblast capital)**:\n    - **3x the west**: 32 Lviv, 31 Uzhhorod (Zakarpattia), 33 Lutsk, 34 Ivano-Frankivsk, 35 Ternopil, 36 Rivne, 37 Chernivtsi, 38 Khmelnytskyi\n    - **4x north & centre**: 44 Kyiv, 41 Zhytomyr, 43 Vinnytsia, 46 Chernihiv, 47 Cherkasy, 48 Odesa\n    - **5x centre-south & northeast**: 51 Mykolaiv, 52 Kropyvnytskyi, 53 Poltava, 54 Sumy, 55 Kherson, 56 Dnipro, 57 Kharkiv\n    - **6x the east**: 61 Zaporizhzhia, 62 Donetsk, 64 Luhansk\n- **New plates (blue-yellow strip): first two letters = oblast**: AA/KA Kyiv city, AI/KI Kyiv oblast, BC/HC Lviv, BH/HH Odesa, AX/KX Kharkiv, AE/KE Dnipro, AO/KO Zakarpattia, BO/HO Ternopil, AT/KT Ivano-Frankivsk (older plates use numeric region codes)\n- **Oblast second-level domains** (e.g. .te.ua = Ternopil) are mostly intuitive\n- **Russian vs Ukrainian**: More Russian in the east and south — Ы and Э are Russian-only; Russian street = улица (ул.), city = город (г.)"
+        },
+        {
+          "headingZh": "🍂 季节、地貌与地方线索",
+          "headingEn": "Seasons, Landscape & Local Clues",
+          "contentZh": "- **2011 年秋季城市覆盖**（Daiiono 的“晚秋城市覆盖”）：基辅、利沃夫、哈尔科夫、敖德萨、顿涅茨克早年拍摄，秋色明显、行人穿厚衣；顿涅茨克用黑车长天线且没有任何新覆盖（看到红车绝不点顿涅茨克）；利沃夫/基辅/哈尔科夫的白车长天线现已罕见；敖德萨旧覆盖为银色短天线车\n- **五月覆盖**（嫩叶带黄色调）→ 主要在西半部\n- **喀尔巴阡山**：明显多丘陵甚至山地、森林茂密、农田少、松树多、道路弯曲\n- **欧洲赤松林**（橙红色树皮）→ 北部白俄罗斯边境一带（喀尔巴阡也多松树，但那里有山）\n- **越往南越温暖干燥**：森林减少、灌丛与开阔田野增多；**盛开的向日葵田** → 赫尔松、尼古拉耶夫、敖德萨州（T0403 通往新卡霍夫卡尤其多）\n- **捷尔诺波尔叶子**：街景车尾部可见一片叶子——捷尔诺波尔—佐洛乔夫（H02）、捷尔诺波尔—布罗迪（P39）、布罗迪—杜布诺（E40）等路段\n- **克里维里赫**：铁矿周边的红色土路 + 巴西式电杆（诱饵，但有长天线）；带红色环带的电杆为克里维里赫独有\n- **外喀尔巴阡**：“波兰式”红色环绕反光路缘标；匈牙利边境大量匈牙利语双语/单语牌，村庄线性整齐、单层房临街、橙瓦或菱形石板瓦（匈牙利风格）\n- **其他**：尼古拉耶夫与赫尔松带向日葵图案的黄绿色公交候车亭（Оліс）；伊万诺-弗兰科夫斯克独有的画面故障；切尔诺贝利禁区摄像车（天线上有欧宝黄旗）直达普里皮亚季",
+          "contentEn": "- **2011 autumn city coverage** (Daiiono's \"late autumn urban coverage\"): Kyiv, Lviv, Kharkiv, Odesa and Donetsk were shot early with clear fall colours and people in warm clothes; Donetsk used a black long-antenna car and has no newer coverage at all (never guess Donetsk with the red car); the white long-antenna car in Lviv/Kyiv/Kharkiv is now rare; old Odesa used a silver short-antenna car\n- **May coverage** (young leaves with a yellowish tint) → mainly the western half\n- **Carpathians**: Clearly hillier to mountainous, heavily forested, little farmland, lots of pines, curvy roads\n- **Scots pine forests** (orange-red bark) → the north near Belarus (the Carpathians have pines too, but they're hilly)\n- **Warmer and drier toward the south**: Fewer forests, more shrubs and open fields; **sunflower fields in bloom** → Kherson, Mykolaiv, Odesa oblasts (especially the T0403 to Nova Kakhovka)\n- **Ternopil leaf**: A leaf visible on the back of the Google car — Ternopil–Zolochiv (H02), Ternopil–Brody (P39), Brody–Dubno (E40), etc.\n- **Kryvyi Rih**: Red dirt tracks around the iron mine + Brazil-style poles (bait, but there's a long antenna); poles with a red band are unique to Kryvyi Rih\n- **Zakarpattia**: \"Polish\" bollards with a wrap-around red reflector; lots of Hungarian bilingual/monolingual signs near Hungary, with tidy linear villages, single-storey houses close to the street, orange or diamond slate tiles (Hungarian style)\n- **Other**: Yellow-green sunflower-painted bus shelters (Оліс) in Mykolaiv and Kherson; a visual glitch unique to Ivano-Frankivsk; the Chernobyl Exclusion Zone car (yellow Opel flag on the antenna) driving to Pripyat"
+        }
+      ],
+      "rawContent": "乌克兰覆盖分布、区号与车牌州代码、2011 年秋季城市覆盖、喀尔巴阡与南部草原、外喀尔巴阡匈牙利语",
+      "sources": [
+        {
+          "title": "Daiiono – 5 Metas Every Pro Should Know Ep.29 (Ukraine)",
+          "url": "https://youtu.be/kzKRJAUbnNU"
+        },
+        {
+          "title": "Plonk It – Ukraine guide",
+          "url": "https://www.plonkit.net/ukraine"
+        }
+      ]
+    },
+    {
+      "id": "japan",
+      "nameZh": "日本",
+      "nameEn": "Japan",
+      "flag": "🇯🇵",
+      "continent": "Asia",
+      "sections": [
+        {
+          "headingZh": "⚡ 十大电力区杆牌：日本区域判断的核心",
+          "headingEn": "Ten Power-Company Pole Plates: The Core of Japan",
+          "contentZh": "> 职业选手的流程：先用电线杆标牌确定电力区（北海道、东北、关东、中部、北陆、关西、中国、四国、九州、冲绳），再用指南针和山的方向逼近具体位置。电杆通常挂两块牌：上方为地区电力牌，下方为全国统一的 NTT 竖牌。\n- **北海道**：数字和字母很多，其中一块明显**特别长**；黄色/橙色牌 → 北海道\n- **东北**：普通竖牌 + 一块带电力 logo 的**短横牌**（常为银色）；新潟 = 东北牌 + 北陆式横牌的组合\n- **关东（东京电力）**：**银色牌上手写数字** / 三个数字竖向叠放——只要看到就是关东\n- **中部**：**圆角/圆形牌**，日本其他地方没有——直接点\n- **北陆（富山、石川、福井）**：多块**横向**标牌（2–3 块，部分银色），右侧竖排数个字符\n- **关西**：最普通、最难认；牌底部有一行文字和数字、字母+数字组合\n- **中国地方**：唯一带英文的电力牌（“Energia”），标牌旁常有**橙/黄色箭头**；山口县多为粗横牌\n- **四国**：logo 为 4 个方块/圆点（代表四县）\n- **九州**：九州岛形 logo，一块牌右下角竖排 1–4 个字符、3 位横排数字\n- **冲绳**：数字被竖线隔开，每根杆常挂 3–4 块牌（常写“沖電”）",
+          "contentEn": "> The pro workflow: identify the power region from the pole plates first (Hokkaido, Tohoku, Kanto, Chubu, Hokuriku, Kansai, Chugoku, Shikoku, Kyushu, Okinawa), then use the compass and mountain directions to close in. Poles usually carry two plates: the regional power plate on top and the nationwide NTT vertical plate below.\n- **Hokkaido**: Lots of numbers and letters, one plate noticeably **extra long**; yellow/orange plates → Hokkaido\n- **Tohoku**: A generic vertical plate + a **short horizontal plate** with the power logo (often silver); Niigata = Tohoku plate + a Hokuriku-style horizontal plate\n- **Kanto (TEPCO)**: **Silver plate with handwritten numbers** / three numbers stacked vertically — a guarantee\n- **Chubu**: **Rounded plates** found nowhere else in Japan — just send it\n- **Hokuriku (Toyama, Ishikawa, Fukui)**: Several **horizontal** plates (2–3, some silver), characters stacked on the right edge\n- **Kansai**: The most generic and hardest; a line of text/numbers at the bottom, letter-digit combos\n- **Chugoku**: The only plate with English (\"Energia\"), often an **orange/yellow arrow** beside the plates; thick horizontal plates in Yamaguchi\n- **Shikoku**: A logo of four boxes/dots (the four prefectures)\n- **Kyushu**: A Kyushu-island logo, 1–4 characters stacked bottom-right, three horizontal digits\n- **Okinawa**: Numbers separated by bars; often 3–4 plates per pole (often reading 沖電)"
+        },
+        {
+          "headingZh": "🔧 拉线护套、杆顶、变压器与反光片",
+          "headingEn": "Guy-Wire Covers, Pole Tops, Transformers & Reflectors",
+          "contentZh": "- **拉线护套**：\n    - **黑黄条纹、底部变粗** → 中部与冲绳\n    - **极粗的瓶形护套 + 黑色连接件** → 九州与冲绳（远处也能看出，非常好用）\n    - **像连在一起的耳机（双套管 + 鼓包）** → 中国地方\n    - **斜向黑黄条纹** → 关西、北陆、四国\n- **杆顶**：\n    - **音叉形 + 中间连线** → 只在关西；音叉 + 短横杆 → 中部；音叉 + 长横杆 → 关东；向下斜伸的“机枪”双线 → 关西\n    - **“卫生纸架”**（两个支架间连线）→ 中国地方；**“打蛋器”** → 中国地方、北陆、中部；**“头盔”** → 中国地方；顶端立一根细杆 → 偏南\n    - **90° 附件** → 四国；**120° 附件** → 关西\n- **变压器**：放在金属板上 → 东北（木板托底 → 关东）；方框架托住变压器 → 东北；两个变压器 180° 背对背 → 九州；三根线竖直上下排列 → 九州\n- **反光片**：细长全灰色、带竖条 → 东北（远处可见）；很长的“砂纸”状反光片 → 关西（东北款只有两个不凸出的卡扣）；中间条纹异色且有凸点 → 九州/冲绳；绿白反光片 → 佐贺\n- **东京**：电杆很少有黄黑警示条；方形附件 → 东京",
+          "contentEn": "- **Guy-wire covers**:\n    - **Black-yellow stripes, thick at the bottom** → Chubu & Okinawa\n    - **Very thick bottle shape with a black attachment** → Kyushu & Okinawa (visible from far away, very useful)\n    - **\"Connected earphones\" (double sleeve with a bulge)** → Chugoku\n    - **Diagonal black-yellow stripes** → Kansai, Hokuriku, Shikoku\n- **Pole tops**:\n    - **Tuning fork with a wire between the prongs** → Kansai only; tuning fork + short top bar → Chubu; + long top bar → Kanto; angled \"chain gun\" double wires → Kansai\n    - **\"Toilet-paper roll\"** (wire strung between two holders) → Chugoku; **\"whisk\"** → Chugoku, Hokuriku, Chubu; **\"helmet\"** → Chugoku; a thin stick on top → leans south\n    - **90° attachment** → Shikoku; **120° attachment** → Kansai\n- **Transformers**: On metal plates → Tohoku (wooden boards → Kanto); square frame holding the transformer → Tohoku; two transformers 180° apart → Kyushu; three cords stacked vertically → Kyushu\n- **Reflectors**: Skinny all-grey with vertical stripes → Tohoku (visible from far); very long \"sandpaper\" reflector → Kansai (Tohoku's version has two non-protruding clips); different-coloured centre strips with bumps → Kyushu/Okinawa; green-white reflector → Saga\n- **Tokyo**: Poles rarely have the yellow-black stripe; square attachments → Tokyo"
+        },
+        {
+          "headingZh": "☎️ 电话区号与车牌地名",
+          "headingEn": "Area Codes & Plate Place Names",
+          "contentZh": "- **区号自北向南递增**（城市回合里的最强线索）：\n    - **01x**：北海道（札幌 011、旭川 0166；青森 017、秋田 018 也是 01x）\n    - **02x**：东北与北关东、长野（仙台 022、新潟 025、长野 026、宇都宫 028）\n    - **03**：东京 23 区；**04x**：关东卫星城（横滨 045、千叶 043、埼玉 048）\n    - **05x**：中部与东海（名古屋 052、静冈 054、岐阜 058）\n    - **06**：大阪市；**07x**：关西其他府县与北陆（京都 075、神户 078、奈良 074、金泽 076）\n    - **08x**：中国与四国（广岛 082、冈山 086、高松 087、松山 089）\n    - **09x**：九州与冲绳（福冈 092、熊本 096、鹿儿岛 099、冲绳 098）\n- **车牌汉字地名**：品川、世田谷、练马、足立 → 东京；富士山 → 山梨/静冈；なにわ、大阪、京都、神户 → 关西；福冈、北九州、熊本、鹿儿岛、冲绳 → 九州冲绳\n- **其他**：黄牌 = 轻型车，白牌 = 普通车；冲绳白牌带 Y/E/A 字母 = 驻日美军",
+          "contentEn": "- **Area codes rise from north to south** (the strongest urban clue):\n    - **01x**: Hokkaido (Sapporo 011, Asahikawa 0166; Aomori 017 and Akita 018 are also 01x)\n    - **02x**: Tohoku, northern Kanto and Nagano (Sendai 022, Niigata 025, Nagano 026, Utsunomiya 028)\n    - **03**: Tokyo's 23 wards; **04x**: Kanto satellite cities (Yokohama 045, Chiba 043, Saitama 048)\n    - **05x**: Chubu & Tokai (Nagoya 052, Shizuoka 054, Gifu 058)\n    - **06**: Osaka city; **07x**: the rest of Kansai plus Hokuriku (Kyoto 075, Kobe 078, Nara 074, Kanazawa 076)\n    - **08x**: Chugoku & Shikoku (Hiroshima 082, Okayama 086, Takamatsu 087, Matsuyama 089)\n    - **09x**: Kyushu & Okinawa (Fukuoka 092, Kumamoto 096, Kagoshima 099, Okinawa 098)\n- **Plate place names**: 品川, 世田谷, 練馬, 足立 → Tokyo; 富士山 → Yamanashi/Shizuoka; なにわ, 大阪, 京都, 神戸 → Kansai; 福岡, 北九州, 熊本, 鹿児島, 沖縄 → Kyushu/Okinawa\n- **Other**: Yellow plates = kei cars, white = regular cars; white plates with Y/E/A letters in Okinawa = US military"
+        },
+        {
+          "headingZh": "🗾 区域景观、建筑与独家秒杀特征",
+          "headingEn": "Regional Landscapes, Architecture & Signature Clues",
+          "contentZh": "- **北海道**：道路上方悬挂朝下的**红白雪地箭头**（本州北部偶见）；护栏上有小箭头；平坦开阔无明显理由；路面雪损多；蓝色/合成材料屋顶、没有瓦顶；巨大的“北海道白菜”（款冬）；Seicomart 便利店\n- **东北**：合成材料/金属屋顶（不用传统瓦）+ 稻田；八角形顶的大反光路缘标（两道条纹 → 秋田；红条纹 → 冈山例外）；秋田一带极粗的雪杆式路缘标\n- **多雪地区**：竖向红绿灯；日本海一侧道路中央有融雪金属板\n- **完全平坦、四周无山**：关东平原、浓尾平原、大阪平原、津轻（青森）、熊本/佐贺平原\n- **中国地方**：传统民居铺**石州红瓦**（橙红色琉璃瓦），广岛/岛根尤其多；山口县 = 全日本唯一的**黄色护栏**\n- **四国/和歌山/南海岸**：漫山遍野的人工柳杉林；黑带路缘标 → 四国\n- **九州**：一侧橙色一侧白色的路缘标（像乌拉圭）；东海岸绿色条纹路缘标\n- **茶园**：静冈、三重、宫崎、鹿儿岛；**竹子与芦苇** → 偏南；**甘蔗** → 靠近台湾的岛屿\n- **京都、奈良**：古街区的深棕/古铜色邮筒\n- **冲绳**：平顶混凝土方盒房（像台湾）、防盗窗、成对的风狮爷（Shisa）、珊瑚石墙\n- **国家识别**：低机位镜头（大片模糊）、竖条纹警示护套、三角形停车牌、白色护栏、实线黄/虚线白中线",
+          "contentEn": "- **Hokkaido**: Red-and-white **downward-pointing snow arrows** above the road (rarely northern Honshu); little arrows on guardrails; flat open land for no obvious reason; lots of snow-damaged roads; blue/synthetic roofs and no tiles; huge \"Hokkaido cabbage\" (butterbur); Seicomart convenience stores\n- **Tohoku**: Synthetic/metal roofs (no traditional tiles) + rice fields; big octagonal-topped reflector bollards (two bands → Akita; red stripe → the Okayama exception); very thick snow-pole bollards around Akita\n- **Snowy regions**: Vertical traffic lights; metal snow-melting plates in the road centre on the Sea of Japan side\n- **Dead flat with no mountains**: The Kanto, Nobi and Osaka plains, Tsugaru (Aomori), the Kumamoto/Saga plains\n- **Chugoku**: Traditional houses with **Sekishu red tiles** (orange-red glazed), especially Hiroshima/Shimane; Yamaguchi = the only prefecture with **yellow guardrails**\n- **Shikoku/Wakayama/south coast**: Hillsides of planted cedar forest; black-banded bollards → Shikoku\n- **Kyushu**: Bollards orange on one side, white on the other (Uruguay-like); green-banded bollards on the east coast\n- **Tea**: Shizuoka, Mie, Miyazaki, Kagoshima; **bamboo & reeds** → lean south; **sugarcane** → the islands toward Taiwan\n- **Kyoto & Nara**: Dark brown/bronze postboxes in historic districts\n- **Okinawa**: Flat-roofed concrete box houses (Taiwan-like), barred windows, pairs of shisa lions, coral-stone walls\n- **Country ID**: Low camera (big blur), vertical-striped pole sleeves, triangular stop signs, white guardrails, solid yellow / dashed white centre lines"
+        }
+      ],
+      "rawContent": "日本十大电力区杆牌、拉线护套、杆顶变压器反光片、电话区号、车牌地名、区域景观",
+      "sources": [
+        {
+          "title": "zi8gzag 2 – How to Guess Japan on Geoguessr",
+          "url": "https://youtu.be/s9yxa3wRD2I"
+        },
+        {
+          "title": "Kodiak – Japan Region Guessing (GeoGuessr Tutorial)",
+          "url": "https://youtu.be/kE9WMDImC1E"
+        },
+        {
+          "title": "Daiiono – 5 Metas Every Pro Should Know Ep.36 (Japan)",
+          "url": "https://youtu.be/E-JsGkpObBg"
+        }
+      ]
+    },
+    {
+      "id": "south-korea",
+      "nameZh": "韩国",
+      "nameEn": "South Korea",
+      "flag": "🇰🇷",
+      "continent": "Asia",
+      "sections": [
+        {
+          "headingZh": "☎️ 区号向南递增与覆盖分布",
+          "headingEn": "Area Codes Rising Southward & Coverage",
+          "contentZh": "- **区号从北往南递增**：02 首尔（全国唯一两位数区号）；031 京畿、032 仁川、033 江原；041 忠清南道、042 大田、043 忠清北道、044 世宗；051 釜山、052 蔚山、053 大邱、054 庆尚北道、055 庆尚南道；061 全罗南道、062 光州、063 全罗北道；064 济州\n- **覆盖很零散**：除大型高速外，主要集中在大城市及周边\n- **二代覆盖**：几乎只在首尔和釜山（城外少数高速的二代已被覆盖）\n- **刹车灯上方加装小摄像头的街景车** → 首尔东北方向与浦项周边\n- **济州岛**：火山岛，深色火山土、远处常见火山，大量深色火山石墙\n- **金堤周边**：韩国少有的完全平坦地区，几乎每条路旁都是黄绿色开阔田野\n- **咸平地区**：门牌顶部有一大块白色区域\n- **国家识别**：右侧通行；三代车无天线（黑/白/银色车尾）；秋冬覆盖多；韩文圆圈字母；电杆底部黄黑斜纹（不到底，台湾到底且偏橙）、杆顶尖刺；黄色中线；路面红色块标线；黄底三角警告牌；悬挂式箭头形蓝色路牌；五边形蓝色人行横道标志；房子形蓝色门牌（韩英双语地址）；几乎处处可见山",
+          "contentEn": "- **Area codes rise from north to south**: 02 Seoul (the only two-digit code); 031 Gyeonggi, 032 Incheon, 033 Gangwon; 041 South Chungcheong, 042 Daejeon, 043 North Chungcheong, 044 Sejong; 051 Busan, 052 Ulsan, 053 Daegu, 054 North Gyeongsang, 055 South Gyeongsang; 061 South Jeolla, 062 Gwangju, 063 North Jeolla; 064 Jeju\n- **Coverage is very spotty**: Apart from big highways it's concentrated in and around major cities\n- **Gen 2 coverage**: Almost only Seoul and Busan (the highway Gen 2 outside cities is mostly overwritten)\n- **A small camera mounted above the car's brake light** → northeast of Seoul and around Pohang\n- **Jeju**: A volcanic island with dark volcanic soil, volcanoes in the distance and lots of dark lava-stone walls\n- **Around Gimje**: One of Korea's only completely flat areas, open yellow-green fields along nearly every road\n- **Hampyeong**: House-number signs with a large white section on top\n- **Country ID**: Right-hand traffic; Gen 3 car with no antenna (black/white/silver rear); lots of autumn/winter coverage; Hangul with circles; black-yellow diagonal stripes near pole bottoms (not reaching the ground — Taiwan's reach the ground and are more orange) and spiked pole tops; yellow centre lines; red block road markings; yellow triangular warning signs; hanging blue arrow-shaped street signs; pentagonal blue pedestrian signs; house-shaped blue address plates (Hangul + Latin); mountains visible almost everywhere"
+        }
+      ],
+      "rawContent": "韩国电话区号南北递增、覆盖分布、二代覆盖、济州岛、门牌、街景车",
+      "sources": [
+        {
+          "title": "Frenchmanilla – Learning South Korea Metas In Geoguessr",
+          "url": "https://youtu.be/w-WYYMeRats"
+        },
+        {
+          "title": "Kenneth3748 – Geoguessr Tips and Tricks: South Korea",
+          "url": "https://youtu.be/a3uopRudO0g"
+        },
+        {
+          "title": "Plonk It – South Korea guide",
+          "url": "https://www.plonkit.net/south-korea"
+        }
+      ]
+    },
+    {
+      "id": "india",
+      "nameZh": "印度",
+      "nameEn": "India",
+      "flag": "🇮🇳",
+      "continent": "Asia",
+      "sections": [
+        {
+          "headingZh": "🔤 文字识别：城镇回合的最佳线索",
+          "headingEn": "Scripts: The Best Clue in Towns",
+          "contentZh": "- **印地语（天城文，字顶有一条横线）**：北部（北方邦、中央邦、比哈尔、拉贾斯坦、哈里亚纳、德里、北阿坎德、喜马偕尔、贾坎德、恰蒂斯加尔）\n- **马拉地语**：也是天城文，但有独特的“ळ”（像∞的字母）→ 马哈拉施特拉\n- **旁遮普语（古鲁穆奇文）**：弯曲的“坐着的人”形字母 → 旁遮普\n- **古吉拉特语**：像印地语但**没有顶横线** → 古吉拉特\n- **孟加拉语**：字母内部有三角形/小旗形 → 西孟加拉（特里普拉）；**阿萨姆语**：与孟加拉语相似但多了笔画 → 阿萨姆\n- **卡纳达语**：约三分之一字母右上方有向上翘的“小尾巴” → 卡纳塔克\n- **泰卢固语**：字顶有很多“对勾” → 特伦甘纳与安得拉\n- **泰米尔语**：无顶横线，向下的笔画多，圆与直线混合 → 泰米尔纳德\n- **奥里亚语**：像“骷髅头”的圆形字母 → 奥里萨（注意与僧伽罗文相似）\n- **马拉雅拉姆语**：极圆、卷曲的字母 → 喀拉拉\n- **曼尼普尔文（梅泰文）** 像罗马数字/日文；**米佐语** 用拉丁字母 → 米佐拉姆；**梅加拉亚** 几乎只用英语",
+          "contentEn": "- **Hindi (Devanagari with a line along the top)**: The north (UP, MP, Bihar, Rajasthan, Haryana, Delhi, Uttarakhand, Himachal, Jharkhand, Chhattisgarh)\n- **Marathi**: Also Devanagari, but with the distinctive \"ळ\" (an infinity-like letter) → Maharashtra\n- **Punjabi (Gurmukhi)**: Curvy \"seated person\" letters → Punjab\n- **Gujarati**: Like Hindi but **without the top line** → Gujarat\n- **Bengali**: Triangle/flag shapes inside letters → West Bengal (Tripura); **Assamese**: like Bengali with extra strokes → Assam\n- **Kannada**: An upward flourish at the top-right of about a third of the letters → Karnataka\n- **Telugu**: Lots of \"tick marks\" on top → Telangana & Andhra Pradesh\n- **Tamil**: No top line, many downward strokes, a mix of round and straight shapes → Tamil Nadu\n- **Odia**: \"Skull\"-shaped round letters → Odisha (similar to Sinhala)\n- **Malayalam**: Very round, curly letters → Kerala\n- **Meitei (Manipur)** looks like Roman numerals/Japanese; **Mizo** uses Latin script → Mizoram; **Meghalaya** uses almost only English"
+        },
+        {
+          "headingZh": "⚡ 电线杆、杆顶与杆身涂装",
+          "headingEn": "Poles, Pole Tops & Pole Paint",
+          "contentZh": "- **标准杆**：方形水泥杆，杆顶两侧抬高、中间三叉戟\n- **多孔杆（孔洞贯穿）**：古吉拉特（马哈拉施特拉、中央邦、恰蒂斯加尔也有）\n- **巴西/尼日利亚式带凹槽水泥杆**：特伦甘纳与安得拉；横担 2/3–1/3 偏置、绝缘子立于横担上 → 特伦甘纳/安得拉\n- **金属网格杆** → 锡金；**金属多孔杆** → 喀拉拉；**灰色素面金属杆** → 喜马拉雅（北阿坎德）及东北部\n- **窗形电表箱 + 杆顶窗形绝缘子支架**：旁遮普/哈里亚纳；**薄荷绿电表（常为四格窗）** → 旁遮普\n- **带刻痕的三叉戟** → 卡纳塔克（曼尼普尔有带两道刻痕的类似款）\n- **倒三角**：马哈拉施特拉、恰蒂斯加尔、中央邦；**横担内嵌倒三角** → 中央邦（非常稳定）\n- **倒梯形** → 恰蒂斯加尔（特里普拉、梅加拉亚也有）\n- **奇形怪状的金属杆顶** → 西孟加拉与东北部；**“老式电话”形杆顶** → 阿萨姆、梅加拉亚、米佐拉姆；**灰色金属杆顶端带弯钩** → 阿萨姆\n- **果阿杆顶**：第二横担 + 特定绝缘子\n- **杆/树身涂装**：白黑白 → 泰米尔纳德；黑黄交替 5 道以上 → 德里；黄黑（约 4 道、黄色起头）→ 比哈尔；红白条纹 → 比哈尔与贾坎德；黄色圆点/黄底黑字 → 喀拉拉",
+          "contentEn": "- **Standard pole**: Square concrete pole with raised sides and a central trident on top\n- **Holey poles (holes right through)**: Gujarat (also Maharashtra, MP, Chhattisgarh)\n- **Brazil/Nigeria-style indented concrete poles**: Telangana & Andhra; a crossbar offset 2/3–1/3 with an insulator sitting on the bar → Telangana/Andhra\n- **Metal mesh poles** → Sikkim; **metal holey poles** → Kerala; **plain grey metal poles** → the Himalayas (Uttarakhand) and the Northeast\n- **Window-shaped electricity box + window-shaped insulator bracket on top**: Punjab/Haryana; **mint-green meters (often with four windows)** → Punjab\n- **Trident with notches** → Karnataka (Manipur has a similar one with two notches)\n- **Upside-down triangles**: Maharashtra, Chhattisgarh, MP; **upside-down triangle inside the crossbar** → Madhya Pradesh (very consistent)\n- **Upside-down trapezoid** → Chhattisgarh (also Tripura, Meghalaya)\n- **Odd uneven metal pole tops** → West Bengal & the Northeast; **\"old telephone\" pole top** → Assam, Meghalaya, Mizoram; **grey metal pole with a crook on top** → Assam\n- **Goa pole top**: A second crossbar + specific insulators\n- **Pole/tree paint**: White-black-white → Tamil Nadu; 5+ alternating black/yellow bands → Delhi; yellow-black (~4 bands, starting yellow) → Bihar; red-white stripes → Bihar & Jharkhand; yellow circle / yellow paint with black text → Kerala"
+        },
+        {
+          "headingZh": "🛕 建筑、屋瓦与人文",
+          "headingEn": "Architecture, Roof Tiles & Culture",
+          "contentZh": "- **红砖房**：恒河平原，尤其北方邦；屋顶插印度国旗 → 北方邦常见\n- **圆弧筒瓦** → 东北/东部；**W 形瓦（印尼式）** → 南部；**带菱形的瓦** → 西孟加拉\n- **铁皮屋顶** → 孟加拉国边境；**带三角形的铁皮屋顶** → 东北部\n- **茅草屋顶** → 东海岸，尤其比哈尔；北方邦—比哈尔—北阿坎德交界有极小的茅草棚\n- **平板石片屋顶** → 卡纳塔克—特伦甘纳交界（几乎是送分题）\n- **锡克教谒师所 / Khanda 标志** → 旁遮普；**果阿与喀拉拉**最富裕，豪宅多\n- **佛教经幡** → 锡金、阿鲁纳恰尔；**木栅栏** → 东北部（顶级 Meta）\n- **三轮车**：黄色车身黑顶 → 泰米尔纳德、安得拉、特伦甘纳；黑色三轮车 → 北部与马哈拉施特拉\n- **街景车**：方盒形车 → 西北部；奥里萨 NH-326 有带天线、画质较好的特殊镜头；车牌白 = 私家、黄 = 商用、绿 = 电动",
+          "contentEn": "- **Red-brick houses**: The Gangetic plain, especially Uttar Pradesh; Indian flags planted on roofs → common in UP\n- **Rounded barrel tiles** → the Northeast/east; **W-shaped (Indonesian-style) tiles** → the South; **tiles with a diamond** → West Bengal\n- **Tin roofs** → the Bangladesh border; **tin roofs with a triangle** → the Northeast\n- **Thatched roofs** → the east coast, especially Bihar; tiny thatched huts on the UP–Bihar–Uttarakhand borders\n- **Flat slate-stone roofs** → the Karnataka–Telangana border (nearly a freebie)\n- **Gurdwaras / the Khanda symbol** → Punjab; **Goa & Kerala** are the richest states with many fancy houses\n- **Buddhist prayer flags** → Sikkim, Arunachal; **wooden fences** → the Northeast (top-tier meta)\n- **Auto-rickshaws**: Yellow with a black hood → Tamil Nadu, Andhra, Telangana; black ones → the north and Maharashtra\n- **Google car**: The box-shaped car → the Northwest; Odisha's NH-326 has an antenna and noticeably better camera quality; plates white = private, yellow = commercial, green = EV"
+        },
+        {
+          "headingZh": "🌾 植被、作物、土壤与地形",
+          "headingEn": "Vegetation, Crops, Soil & Terrain",
+          "contentZh": "- **松树**：整齐对称的长叶松 → 西北喜马拉雅；枝条杂乱的卡西松 → 梅加拉亚/曼尼普尔；日本柳杉 → 锡金/梅加拉亚；不丹松 → 不丹边境\n- **桉树**：沿喜马拉雅山麓与北部平原分布\n- **棕榈**：仙人掌 → 古吉拉特；扇叶糖棕 → 东部与南部（比哈尔也有）；**槟榔（叶少、样子滑稽）** → 西南沿海（卡纳塔克、喀拉拉）、阿萨姆（遍地都是）、孟加拉边境；椰枣 → 干燥的北方；油棕 → 安得拉；叉干棕 → 第乌/古吉拉特南岸\n- **作物**：茶 → 东北与喀拉拉；甘蔗 → 恒河平原、马哈拉施特拉、卡纳塔克；棉花 → 西部（拉贾斯坦、古吉拉特、马哈拉施特拉）；黄色芥菜/油菜花 → 拉贾斯坦\n- **土壤**：深褐/黑土 → 马哈拉施特拉（溢出到中央邦）；红土 → 贾坎德、恰蒂斯加尔、奥里萨西部（米佐拉姆也有红土）\n- **地形**：\n    - **雪山** → 只可能是北部；干燥高山 → 喜马偕尔、拉达克\n    - **北方大平原**：极平、稻田、人口密集；比哈尔、北方邦、哈里亚纳、旁遮普都平坦\n    - **拉贾斯坦/古吉拉特**：平坦中有零星孤山；拉贾斯坦西部近巴基斯坦为沙漠\n    - **马哈拉施特拉/卡纳塔克**：较平，西侧有山（西高止山脉的山脊，雨季转绿）\n    - **喀拉拉**：东侧是山、沿海平坦；**泰米尔纳德南部**：巨大的巨石孤山 + 风电场\n    - **曼尼普尔**：覆盖只在英帕尔谷地；锡金多山，往南进入西孟加拉北部立刻变平",
+          "contentEn": "- **Pines**: Neat, symmetrical chir pines → NW Himalaya; scraggly Khasi pines → Meghalaya/Manipur; Japanese cedars → Sikkim/Meghalaya; Bhutan pine → near the Bhutan border\n- **Eucalyptus**: Hugs the Himalayan foothills and northern plains\n- **Palms**: Cactus → Gujarat; palmyra palms → the east and south (also Bihar); **areca (few leaves, goofy-looking)** → SW coast (Karnataka, Kerala), Assam (spammed), the Bangladesh border; date palms → the dry north; oil palm → Andhra; doum palm → Diu / south Gujarat coast\n- **Crops**: Tea → the Northeast & Kerala; sugarcane → the Gangetic plain, Maharashtra, Karnataka; cotton → the west (Rajasthan, Gujarat, Maharashtra); yellow mustard/canola → Rajasthan\n- **Soil**: Dark brown/black soil → Maharashtra (spilling into MP); red soil → Jharkhand, Chhattisgarh, western Odisha (Mizoram also has red soil)\n- **Terrain**:\n    - **Snowy mountains** → only the north; dry high mountains → Himachal, Ladakh\n    - **Great Northern Plains**: Dead flat, rice, very populated; Bihar, UP, Haryana and Punjab are all flat\n    - **Rajasthan/Gujarat**: Flat with random hills; western Rajasthan near Pakistan is desert\n    - **Maharashtra/Karnataka**: Fairly flat with mountains to the west (Western Ghats ridges, green in the monsoon)\n    - **Kerala**: Mountains to the east, flat coast; **southern Tamil Nadu**: huge monolithic boulder hills + wind farms\n    - **Manipur**: Coverage only in the Imphal valley; Sikkim is mountainous, then northern West Bengal is instantly flat"
+        }
+      ],
+      "rawContent": "印度各邦文字识别、电线杆杆顶与涂装、屋瓦建筑、作物土壤地貌、三轮车",
+      "sources": [
+        {
+          "title": "zi8gzag 2 – How to Guess India on Geoguessr",
+          "url": "https://youtu.be/tcoOflz5yiw"
+        },
+        {
+          "title": "Daiiono – 5 Metas Every Pro Should Know Ep.20 (India)",
+          "url": "https://youtu.be/39BWDtMOSYs"
+        }
+      ]
     },
     {
       "id": "indonesia",
-      "nameZh": "印尼",
+      "nameZh": "印度尼西亚",
       "nameEn": "Indonesia",
       "flag": "🇮🇩",
       "continent": "Asia",
       "sections": [
         {
-          "headingZh": "🏝️ 八大群岛地理概貌与街景车特征",
-          "headingEn": "Island Regions & Camera Car Distribution",
-          "contentZh": "- **八大核心岛屿与地区**：\n    - 苏门答腊岛 (Sumatra)\n    - 加里曼丹岛 (Kalimantan / 婆罗洲)\n    - 爪哇岛 (Java)\n    - 苏拉威西岛 (Sulawesi)\n    - 北/南马鲁古群岛 (Maluku)\n    - 巴厘岛 (Bali)\n    - 小巽他群岛 (Nusas / Lesser Sunda Islands)\n    - 廖内省 (Riau)\n- **街景车 Meta 规律**：\n    - **三代短天线白色街景车**：绝大部分集中在爪哇岛\n    - **三代黑色街景车**：全印尼各地皆有分布，但在苏拉威西岛最为密集普及",
-          "contentEn": "- **Eight Major Island Regions**:\n    - Sumatra (Sumatera)\n    - Kalimantan (Indonesian Borneo)\n    - Java (Jawa)\n    - Sulawesi (Celebes)\n    - North & South Maluku (Moluccas)\n    - Bali\n    - Lesser Sunda Islands (Nusa Tenggara)\n    - Riau Province\n- **Camera Car Metas**:\n    - **Gen 3 White Car with Short Antenna**: Heavily concentrated on Java\n    - **Gen 3 Black Car**: Found across Indonesia, but overwhelmingly prevalent on Sulawesi"
+          "headingZh": "⚡ 电线杆顶部：印尼最核心的区域线索",
+          "headingEn": "Pole Tops: The Core Indonesian Regional Clue",
+          "contentZh": "> 先判断“对称/不对称”：对称 = 横担居中、两侧等长；不对称 = 横担偏向一侧，一边两个绝缘子、另一边一个。\n- **对称横担（Even）**：西加里曼丹（常配 90° 斜撑）、廖内、部分西苏门答腊、爪哇除东爪哇外（西爪哇、中爪哇、万丹）、苏拉威西北部（中苏、哥伦打洛、北苏）、努沙登加拉、马鲁古\n- **不对称横担（Uneven）**：东爪哇、中/南/东/北加里曼丹、西苏拉威西、东南苏拉威西、邦加—勿里洞、亚齐；南苏拉威西混合（不对称更多）；苏门答腊整体混合\n- **北苏门答腊杆**：横担对称，但一侧两个绝缘子、另一侧一个 → 北苏门答腊（偶见西苏、亚齐）\n- **横担下方三角形支架**：西爪哇与万丹（苏门答腊偶见）\n- **超长斜撑一直连到最外侧绝缘子**：巴厘岛与努沙登加拉（小巽他群岛）\n- **横担下方长方形/方框**：仅巴厘岛\n- **三叉戟（中间绝缘子抬高，有金属连接件）**：中爪哇与日惹\n- **横担上加一根短粗“第二横担”（台球三角架状）**：中苏拉威西、哥伦打洛、北苏拉威西\n- **黑色支撑杆上紫/黑/绿涂装**：中苏拉威西东部；**电线杆缠浅蓝/绿色胶带**：中苏拉威西东部半岛\n- **金属电线杆**：加里曼丹与努沙常见；金属杆 + 对称横担 → 西加里曼丹（马鲁古也有）",
+          "contentEn": "> First decide even vs uneven: even = crossbar centred and equal on both sides; uneven = crossbar offset, two insulators on one side and one on the other.\n- **Even (symmetrical) crossbar**: West Kalimantan (often with a 90° brace), Riau, parts of West Sumatra, Java EXCEPT East Java (West, Central, Banten), northern Sulawesi (Central, Gorontalo, North), Nusa Tenggara, Maluku\n- **Uneven (asymmetrical) crossbar**: East Java, Central/South/East/North Kalimantan, West & Southeast Sulawesi, Bangka-Belitung, Aceh; South Sulawesi is mixed (uneven more common); Sumatra overall is mixed\n- **\"North Sumatra pole\"**: Even crossbar but two insulators on one side and one on the other → North Sumatra (occasionally West Sumatra/Aceh)\n- **Triangle bracket under the crossbar**: West Java & Banten (occasionally Sumatra)\n- **Extra-long diagonal brace reaching the outer insulator**: Bali & Nusa Tenggara (Lesser Sundas)\n- **Rectangle/square frame under the crossbar**: Bali only\n- **Trident (raised middle insulator on a metal attachment)**: Central Java & Yogyakarta\n- **Short thick \"second crossbar\" (billiard-rack look)**: Central Sulawesi, Gorontalo, North Sulawesi\n- **Purple/black/green paint on black support poles**: Eastern Central Sulawesi; **light-blue/green tape on poles**: Central Sulawesi's east peninsula\n- **Metal poles**: Common on Kalimantan and Nusa; metal + even crossbar → West Kalimantan (also Maluku)"
         },
         {
-          "headingZh": "⚡ 各大岛电线杆结构与绝缘子对称性",
-          "headingEn": "Island-by-Island Utility Poles & Insulators",
-          "contentZh": "- **苏门答腊岛 (Sumatra)**：\n    - 采用空心圆孔水泥杆，或顶部带木质/金属长横担\n    - **北苏门答腊**：绝缘子呈不对称分布 (一侧 1 个，另一侧 2 个)\n    - **廖内省 (Riau) 与西苏门答腊**：非对称电杆且横担支撑杆位置极低；西苏门答腊电杆顶端或绝缘子常出现深红色或蓝色组件\n    - **南苏门答腊**：常见双斜向支撑杆结构\n- **加里曼丹岛 (Kalimantan)**：\n    - 巨大高耸的 A-Frame 铁架支撑杆\n    - **西加里曼丹**：绝缘子左右对称排列\n    - **东加里曼丹**：绝缘子左右不对称排列\n- **苏拉威西岛 (Sulawesi)**：\n    - 电杆顶部常带小型避雷针状突起，横杆上有孔洞，离地约一人高处涂刷红白相间警示条纹\n    - **南苏拉威西**：绝缘子左右对称\n    - **北苏拉威西**：绝缘子不对称，且横担呈上长下短的两根双横杠\n- **爪哇岛 (Java)**：\n    - 经典三层横梁 (三叉戟 Trident 杆)，或电杆顶部带明显金属架子\n    - **中爪哇**：经典三叉戟杆最为普及\n    - **西爪哇**：绝缘子左右对称\n    - **东爪哇**：绝缘子左右不对称 (不对称 A-Frame 主要分布在加里曼丹、苏拉威西与东爪哇相邻区域)\n- **巴厘岛 (Bali)**：\n    - 三叉戟横梁下方常有一块长方形底托，柱基常包裹黑色石材或精美宗教石雕，贴有蓝绿方形贴纸或油漆\n- **小巽他群岛 (Nusa Tenggara)**：\n    - 顶端单边斜向支撑杆超长 (绝缘子对称，但仅有单侧一根斜支撑杆)",
-          "contentEn": "- **Sumatra**:\n    - Hollow concrete poles with round perforations or long wood/metal top crossarms\n    - **North Sumatra**: Asymmetric insulators (1 on one side, 2 on the other)\n    - **Riau & West Sumatra**: Low diagonal support arms; dark red or blue components near insulators in West Sumatra\n    - **South Sumatra**: Dual diagonal support struts\n- **Kalimantan (Borneo)**:\n    - Massive soaring steel A-frame support poles\n    - **West Kalimantan**: Symmetric insulator arrangement\n    - **East Kalimantan**: Asymmetric insulator arrangement\n- **Sulawesi**:\n    - Small lightning rod spikes on top, perforated crossarms, red-and-white painted bands at head height\n    - **South Sulawesi**: Symmetric insulators\n    - **North Sulawesi**: Asymmetric insulators on dual crossarms (longer upper, shorter lower)\n- **Java**:\n    - Three-tier crossarms (Trident pole) or distinctive top steel cages\n    - **Central Java**: Trademark Trident poles everywhere\n    - **West Java**: Symmetric insulators\n    - **East Java**: Asymmetric insulators (asymmetric A-frames bridge Kalimantan, Sulawesi, and East Java)\n- **Bali**:\n    - Rectangular mounting plate beneath the trident; base clad in black volcanic stone or ornate carvings; blue/green square labels\n- **Lesser Sunda Islands (Nusa Tenggara)**:\n    - Extra-long single-sided diagonal support strut with symmetrical insulators"
+          "headingZh": "🏠 建筑屋顶、宗教与人文",
+          "headingEn": "Architecture, Roofs & Culture",
+          "contentZh": "- **红陶瓦屋顶**：爪哇的默认答案（若不确定且满眼瓦顶就点爪哇）；巴厘、龙目也很多，南苏门答腊（楠榜）、望加锡偶见；越往东越少\n- **铁皮/锌板屋顶**：外岛为主；**深红色铁皮** → 苏门答腊；**弧形塑料顶** → 苏门答腊/加里曼丹沿海及小岛\n- **西苏门答腊**：米南卡保“牛角屋顶”（Rumah Gadang）；**北苏门答腊**：角度较缓的巴塔克船形屋顶；**尼亚斯岛**：陡峭茅草屋顶\n- **南苏拉威西**：山墙为带缝隙的“半个星形”（布吉斯风格）；**塔纳托拉查**：船形 Tongkonan 屋（基督教聚居谷地）\n- **巴厘岛**：华丽屋顶、遍地印度教神龛与分体门；巴厘以外的印度教寺庙 → 楠榜或苏拉威西部分地区\n- **屋脊上的小“剑”饰**：廖内、南加里曼丹、南苏拉威西；**木片屋顶** → 南加里曼丹\n- **木板高脚屋 + 燕窝屋（Swiftlet 养殖楼）**：加里曼丹；**蓝色屋顶**：加里曼丹倾向（非 100%）\n- **松巴岛**：高耸尖顶茅草屋；**弗洛雷斯**：竹屋多\n- **白色砖墙建筑**：东部印尼（苏拉威西、努沙）\n- **基督教地区**：北苏拉威西（万鸦老）、东努沙登加拉、多巴湖周边（北苏门答腊）、西加里曼丹、托拉查、马鲁古/巴布亚\n- **人迹判断**：爪哇人口极度密集——空无一人的荒路通常不是爪哇",
+          "contentEn": "- **Red clay-tile roofs**: The default for Java (lots of tiles and unsure → click Java); also common on Bali and Lombok, sometimes Lampung (S Sumatra) and Makassar; rarer the further east you go\n- **Tin/zinc sheet roofs**: Outer islands; **dark red tin** → Sumatra; **curved plastic roofs** → coasts of Sumatra/Kalimantan and small islands\n- **West Sumatra**: Minangkabau buffalo-horn roofs (Rumah Gadang); **North Sumatra**: Batak boat roofs with gentler curves; **Nias**: steep thatched roofs\n- **South Sulawesi**: Gables shaped like half a star with slits (Bugis style); **Tana Toraja**: boat-shaped tongkonan houses (a Christian valley)\n- **Bali**: Ornate roofs, Hindu shrines and split gates everywhere; Hindu temples outside Bali → Lampung or parts of Sulawesi\n- **Small \"sword\" ornaments on the roof ridge**: Riau, South Kalimantan, South Sulawesi; **wood-shingle roofs** → southern Kalimantan\n- **Wooden-plank stilt houses + swiftlet (bird's-nest) buildings**: Kalimantan; **blue roofs**: lean Kalimantan (not 100%)\n- **Sumba**: Tall peaked thatched towers; **Flores**: many bamboo houses\n- **White brick architecture**: Eastern Indonesia (Sulawesi, Nusa)\n- **Christian areas**: North Sulawesi (Manado), East Nusa Tenggara, around Lake Toba (N Sumatra), West Kalimantan, Toraja, Maluku/Papua\n- **Population check**: Java is hyper-populated — an empty road with nobody around is usually NOT Java"
         },
         {
-          "headingZh": "🌿 植被景观、土壤与各岛特色建筑",
-          "headingEn": "Vegetation, Soils & Traditional Roof Architecture",
-          "contentZh": "- **植被与土壤分界**：\n    - **北苏门答腊**：房前屋后修剪整齐的绿茵草坪\n    - **西苏门答腊**：湿润多雨的苔藓状草地与山谷梯田\n    - **东苏门答腊**：鲜艳红土地貌\n    - **廖内省 (Riau)**：独特的灰白色砂质土壤\n    - **加里曼丹**：极茂密原始雨林，路况差泥泞颠簸，常遇运木重卡或运煤卡车；大桥路沿涂刷绿色\n    - **苏拉威西**：极其崎岖多山，因海湾深入狭长，在山路转弯处极易频繁瞥见海岸线\n    - **努沙登加拉群岛**：比爪哇和苏门答腊干燥得多，呈现类似澳大利亚北部的干旱稀树草原景观\n- **建筑风格与传统屋顶**：\n    - **西苏门答腊**：米南加保 (Minangkabau) 牛角屋顶，两端尖尖向上翘起 (Rumah Gadang)\n    - **北苏门答腊**：巴塔克 (Batak) 船型屋顶，两端微翘但起翘弧度较低\n    - **加里曼丹**：深色木质民居，木瓦片或铁皮屋顶\n    - **苏拉威西**：南苏拉威西托拉查 (Toraja) 房屋三角山墙内带有密集水平开槽；东南苏拉威西全岛密集覆盖亮蓝色铁皮屋顶\n    - **爪哇岛**：房屋密度极高，成片规整的红色砖瓦平房，院落木栅栏；东爪哇地面常铺设彩色地砖\n    - **巴厘岛**：印度教风格，遍地是红砖或黑火山石堆砌的精美善恶门 (Candi Bentar)，门口立守护神雕像，安山岩围墙，带巴厘特殊文字\n    - **小巽他群岛松巴岛 (Sumba)**：极其高耸直立的尖塔状茅草/铁皮大屋顶\n    - **屋顶剪刀交叉装饰**：多见于南苏拉威西、南加里曼丹及中苏门答腊 (含廖内)\n    - **卫星锅天线朝向**：卫星天线仰角高且指向正东方多位于印尼西部至中部走廊",
-          "contentEn": "- **Vegetation & Soils**:\n    - **North Sumatra**: Neatly manicured front lawns and gardens\n    - **West Sumatra**: Wet mossy pastures and lush rice terraces\n    - **East Sumatra**: Vivid red laterite soils\n    - **Riau Province**: Distinctive pale white sandy soils\n    - **Kalimantan**: Ultra-dense primary rainforest, rough potholed roads, logging and coal trucks; green painted bridge curbs\n    - **Sulawesi**: Dramatically rugged and mountainous; twisting roads frequently reveal immediate coastlines\n    - **Nusa Tenggara**: Significantly drier than Java/Sumatra, mimicking Australian dry savannah\n- **Architectural Traditions**:\n    - **West Sumatra**: Minangkabau buffalo-horn rooflines with soaring upturned peaks (Rumah Gadang)\n    - **North Sumatra**: Batak boat-shaped longhouses with shallower curved gables\n    - **Kalimantan**: Dark timber stilt houses with wood shingle or corrugated zinc roofs\n    - **Sulawesi**: Toraja triangular gables with horizontal wooden slats; Southeast Sulawesi densely clad in bright blue zinc roofs\n    - **Java**: Ultra-dense red-tile villages, uniform modern homesteads with wooden picket fences; East Java tiled front patios\n    - **Bali**: Balinese Hindu architecture, red-brick split gates (Candi Bentar), black volcanic shrines, guardian statues, Balinese script\n    - **Sumba Island**: Sky-high thatched and metal tower roofs\n    - **Scissor-X Roof Finials**: Hallmark of South Sulawesi, South Kalimantan, and Central Sumatra (including Riau)\n    - **Satellite Dish Azimuth**: Dishes tilted high and pointing due east denote Western to Central Indonesia"
+          "headingZh": "🌿 植被、土壤与地形",
+          "headingEn": "Vegetation, Soil & Terrain",
+          "contentZh": "- **油棕种植园**：首选苏门答腊，其次加里曼丹，西苏拉威西偶有；爪哇及南部岛屿罕见\n- **槟榔树（树冠很小）**：苏门答腊倾向；**椰子树**：苏拉威西多（北苏、哥伦打洛尤其多）\n- **水稻梯田/平原稻田**：爪哇（南苏拉威西、南苏门答腊、北苏门答腊棉兰平原也有）\n- **稀树草原**：松巴岛独有；帝汶、阿洛等东努沙干季像非洲/澳洲\n- **极红土壤**：邦加—勿里洞、西加里曼丹、南苏门答腊、楠榜；**白色高岭土** → 邦加—勿里洞；**白色沙土** → 中加里曼丹（帕朗卡拉亚）与廖内\n- **火山**：爪哇（东爪哇尤其明显，可从平坦稻田远眺）；松巴哇岛有海湾 + 火山\n- **地形**：苏门答腊东部与加里曼丹覆盖区大多平坦；苏拉威西、努沙几乎永远有山；弗洛雷斯崎岖多林\n- **巴淡/廖内群岛**：港口、公寓楼、靠近新加坡",
+          "contentEn": "- **Oil-palm plantations**: Sumatra first, Kalimantan second, occasionally West Sulawesi; rare on Java and the southern islands\n- **Areca palms (tiny canopy)**: Lean Sumatra; **coconut palms**: very common on Sulawesi (especially North Sulawesi/Gorontalo)\n- **Rice paddies**: Java (also South Sulawesi, South Sumatra and the Medan plains in North Sumatra)\n- **Savannah**: Only Sumba; dry East Nusa (Timor, Alor) can look African/Australian in the dry season\n- **Very red soil**: Bangka-Belitung, West Kalimantan, South Sumatra, Lampung; **whitish kaolin soil** → Bangka-Belitung; **white sandy soil** → Central Kalimantan (Palangkaraya) and Riau\n- **Volcanoes**: Java (especially East Java, visible from flat rice fields); Sumbawa combines inlets + volcanoes\n- **Terrain**: Eastern Sumatra and covered Kalimantan are mostly flat; Sulawesi and Nusa almost always show hills; Flores is rugged and forested\n- **Batam/Riau Islands**: Harbours, condos, close to Singapore"
         },
         {
-          "headingZh": "🛡️ 路缘标、石柱栅栏与车牌后缀代码",
-          "headingEn": "Bollards, Fences & License Plate Sub-Codes",
-          "contentZh": "- **路缘石与护柱**：\n    - **爪哇岛**：道路边缘刷有规整的黑白相间路缘石\n    - **加里曼丹**：英式圆形反光 Bollard\n    - **苏拉威西**：类似英式 Bollard 但刷有黄黑相间斜条纹；中部常见黄白黑三色方形石柱；民居栅栏常漆成白红或白蓝双色\n- **车牌地区代码速查 (牌照侧面或下方微缩字母)**：\n    - **DK**：巴厘岛 (Bali)\n    - **BL, BB, BK, BA, BM, BH, BD, BE, BG**：苏门答腊岛各省 (BL 亚齐, BK 棉兰/北苏, BA 西苏, BM 廖内, BG 巨港/南苏)\n    - **仅有一位单字母 (B, D, F, T, E, G, H, K, L, M, N, P)**：爪哇岛各省 (雅加达 B, 万隆 D, 茂物 F, 三宝垄 H, 泗水 L)\n    - **DA, KB, KH, KT, KU**：加里曼丹 / 婆罗洲各省 (DA 南加, KB 西加, KH 中加, KT 东加, KU 北加)",
-          "contentEn": "- **Bollards & Curbs**:\n    - **Java**: Crisp black-and-white painted curb stones along roads\n    - **Kalimantan**: British-style round-top bollards\n    - **Sulawesi**: British-style bollards painted with diagonal yellow-black stripes; yellow-white-black tricolor square posts in Central Sulawesi; colorful red-white or blue-white fences\n- **License Plate Area Prefixes**:\n    - **DK**: Bali\n    - **BL, BB, BK, BA, BM, BH, BD, BE, BG**: Sumatra (BL Aceh, BK North Sumatra/Medan, BA West Sumatra, BM Riau, BG South Sumatra)\n    - **Single-Letter Prefixes (B, D, F, T, E, G, H, K, L, M, N, P)**: Exclusively Java (Jakarta B, Bandung D, Bogor F, Semarang H, Surabaya L)\n    - **DA, KB, KH, KT, KU**: Kalimantan / Indonesian Borneo (DA South, KB West, KH Central, KT East, KU North)"
+          "headingZh": "🛡️ 路缘标、桥梁、围栏与街景车",
+          "headingEn": "Bollards, Bridges, Fences & Car Meta",
+          "contentZh": "- **黄—白—黑三色路缘标（多在桥头）**：中苏拉威西\n- **桥梁两侧刷绿色**：南加里曼丹与中加里曼丹（约 95% 的桥）\n- **非常整齐的小矮栅栏**：苏拉威西；**歪斜简陋的栅栏**：努沙\n- **爪哇**：黑白相间的路缘石；**泗水式人字形铺砖**：泗水/东爪哇城市\n- **卫星锅朝向**：卫星位于赤道上空约东经 108°–118°——锅朝北 = 赤道以南（爪哇、努沙），朝南 = 赤道以北（北苏门答腊、北加里曼丹、北苏拉威西）；朝东 = 西部（苏门答腊），朝西 = 东部（巴布亚）\n- **四代车**：马鲁古几乎全是 2023 年黑车（印尼最值得记的一条车况）；白车各岛常见但加里曼丹几乎没有；苏拉威西黑车多\n- **三代车**：平滑无凸起的天线 → 多为爪哇；黑车全国都有，苏拉威西最多",
+          "contentEn": "- **Yellow-white-black bollards (usually at bridges)**: Central Sulawesi\n- **Bridges painted green on the sides**: South & Central Kalimantan (~95% of bridges)\n- **Very neat, tiny fences**: Sulawesi; **shabby, crooked fences**: Nusa\n- **Java**: Black-and-white painted curb stones; **herringbone \"Surabaya pavement\"**: Surabaya/East Java cities\n- **Satellite dishes**: Satellites sit over the equator at ~108°–118°E — dishes facing north = south of the equator (Java, Nusa), facing south = north of it (N Sumatra, N Kalimantan, N Sulawesi); facing east = the west (Sumatra), facing west = the east (Papua)\n- **Gen 4 car**: Maluku is almost all 2023 black car (the single best Indonesian car meta); the white car is common everywhere EXCEPT Kalimantan; black car common on Sulawesi\n- **Gen 3**: Plain smooth antenna → mostly Java; black car everywhere, most common on Sulawesi"
         },
         {
-          "headingZh": "📋 路牌行政层级词汇、电话区号与邮政编码",
-          "headingEn": "Administrative Geography, Area Codes & Postal Digits",
-          "contentZh": "- **路牌行政缩写速查**：\n    - **Provinsi (Prov)**：省；**PEMERINTAH**：政府 (Government)\n    - **Kabupaten (Kab)**：县 (最核心的地图搜索级别)；**Kecamatan (Kec)**：区；**Desa**：村\n    - **方位词**：Utara (北), Timur (东), Selatan (南), Barat (西), Tengah (中)\n- **核心县名 (Kabupaten) 检索锚点**：\n    - **小巽他**：Lombok (龙目岛), Sumbawa (松巴哇), Sumba (松巴岛), Flores (弗洛勒斯), Alor (阿洛岛)\n    - **苏拉威西**：Minahasa (米纳哈萨-东北角), Toraja (塔纳托拉查-中央高山), Gorontalo (哥伦打洛-北部)\n    - **加里曼丹**：Kapuas (卡普阿斯-中部大河), Kutai (库泰-东部), Berau (布劳-东北)\n    - **苏门答腊**：Toba (托巴县-湖区), Bangka / Belitung (邦加与勿里洞两岛)\n    - **爪哇**：Banyuwangi (外南梦-最东), Badung / Gianyar / Buleleng (巴厘岛), Bogor / Garut / Cianjur (西爪哇)\n- **商铺招牌固话区号 (02x-07x)**：\n    - **02x**：爪哇西部 (雅加达 021, 万隆 022)\n    - **03x**：爪哇东部 (泗水 031)、巴厘岛 (036x)、努沙登加拉群岛\n    - **04x**：苏拉威西岛全境\n    - **05x**：加里曼丹岛全境\n    - **06x**：苏门答腊岛北部 (亚齐/棉兰)\n    - **07x**：苏门答腊岛中南部 (巴东/巨港)\n- **5位数邮政编码首位地理分布**：\n    - **1**：雅加达大都会区；**2**：北苏门答腊；**3**：南苏门答腊；**4**：西爪哇省\n    - **5, 6**：中爪哇省与东爪哇省；**7**：加里曼丹全境；**8**：巴厘岛及小巽他；**9**：苏拉威西及以东",
-          "contentEn": "- **Administrative Signage Hierarchy**:\n    - **Provinsi (Prov)**: Province; **PEMERINTAH**: Government\n    - **Kabupaten (Kab)**: Regency (Prime search level on map); **Kecamatan (Kec)**: District; **Desa**: Village\n    - **Cardinal Directions**: Utara (North), Timur (East), Selatan (South), Barat (West), Tengah (Central)\n- **Key Regencies (Kabupaten) to Memorize**:\n    - **Lesser Sundas**: Lombok, Sumbawa, Sumba, Flores, Alor\n    - **Sulawesi**: Minahasa (far NE), Toraja (central highlands), Gorontalo (north)\n    - **Kalimantan**: Kapuas (central basin), Kutai (east), Berau (northeast)\n    - **Sumatra**: Toba (Lake Toba), Bangka / Belitung (eastern offshore islands)\n    - **Java**: Banyuwangi (eastern tip), Badung/Gianyar (Bali), Bogor/Garut (West Java)\n- **Phone Area Codes (02x–07x)**:\n    - **02x**: West Java (Jakarta 021, Bandung 022)\n    - **03x**: East Java (Surabaya 031), Bali (036x), Nusa Tenggara\n    - **04x**: All of Sulawesi\n    - **05x**: All of Kalimantan (Borneo)\n    - **06x**: Northern Sumatra (Aceh, Medan)\n    - **07x**: Central & Southern Sumatra (Padang, Palembang)\n- **Postal Code Initial Digits (5 Digits)**:\n    - **1**: Greater Jakarta; **2**: Northern Sumatra; **3**: Southern Sumatra; **4**: West Java\n    - **5, 6**: Central & East Java; **7**: Kalimantan; **8**: Bali & Nusa Tenggara; **9**: Sulawesi and eastward"
+          "headingZh": "📋 行政词汇、加油站编号、区号、邮编与车牌",
+          "headingEn": "Admin Words, Petrol Codes, Area Codes, Postcodes & Plates",
+          "contentZh": "- **行政层级**：Provinsi（省）> Kabupaten / Kota（县/市）> Kecamatan（区）> Desa（村）；横幅与路牌常写 Kabupaten——全国约 500 个，背熟是高手必修\n- **方位词**：Utara 北、Timur 东、Selatan 南、Barat 西、Tengah 中、Tenggara 东南（如 Nusa Tenggara Timur）\n- **Pertamina 加油站编号首位**：1 北苏门答腊、2 南苏门答腊、3 雅加达/西爪哇/万丹、4 中爪哇/日惹、5 东爪哇（含巴厘/努沙）、6 加里曼丹、7 苏拉威西、8 马鲁古/巴布亚\n- **电话区号**：\n    - **02x**：西爪哇与中爪哇（021 雅加达、022 万隆、024 三宝垄、0274 日惹）\n    - **03x**：东爪哇（031 泗水）、巴厘（0361）、努沙登加拉（037x/038x）\n    - **04x**：苏拉威西；**05x**：加里曼丹；**06x**：北苏门答腊与亚齐（061 棉兰）\n    - **07x**：苏门答腊中南部及廖内、邦加（0751 巴东、0711 巨港、0778 巴淡）；**09x**：马鲁古与巴布亚\n- **邮编首位**：1 雅加达/大雅加达；2 苏门答腊北部（亚齐、北苏、西苏、廖内）；3 苏门答腊南部；4 西爪哇/万丹；5 中爪哇/日惹；6 东爪哇；7 加里曼丹；8 巴厘与努沙；9 苏拉威西、马鲁古、巴布亚\n- **车牌前缀**：\n    - **单字母及 AA/AB/AD/AE/AG**：爪哇（B 雅加达、D 万隆、F 茂物、H 三宝垄、AB 日惹、L 泗水、N 玛琅）\n    - **B 开头两字母**：苏门答腊（BL 亚齐、BK 棉兰、BA 西苏、BM 廖内、BG 南苏、BE 楠榜）\n    - **K 开头**：加里曼丹（KB 西、KH 中、KT 东、KU 北；DA 南加）\n    - **D 开头两字母**：DK 巴厘；DR/EA 西努沙；DH/EB 东努沙；DD 南苏拉威西、DB 北苏拉威西、DN 中苏拉威西、DT 东南苏拉威西",
+          "contentEn": "- **Admin hierarchy**: Provinsi > Kabupaten / Kota (regency/city) > Kecamatan > Desa; banners and signs constantly name the kabupaten — ~500 of them, learning them is the pro move\n- **Directions**: Utara N, Timur E, Selatan S, Barat W, Tengah Central, Tenggara SE (e.g. Nusa Tenggara Timur)\n- **Pertamina station ID first digit**: 1 N Sumatra, 2 S Sumatra, 3 Jakarta/W Java/Banten, 4 C Java/Yogyakarta, 5 E Java (incl. Bali/Nusa), 6 Kalimantan, 7 Sulawesi, 8 Maluku/Papua\n- **Phone area codes**:\n    - **02x**: West & Central Java (021 Jakarta, 022 Bandung, 024 Semarang, 0274 Yogyakarta)\n    - **03x**: East Java (031 Surabaya), Bali (0361), Nusa Tenggara (037x/038x)\n    - **04x**: Sulawesi; **05x**: Kalimantan; **06x**: North Sumatra & Aceh (061 Medan)\n    - **07x**: Central/South Sumatra, Riau, Bangka (0751 Padang, 0711 Palembang, 0778 Batam); **09x**: Maluku & Papua\n- **Postcode first digit**: 1 Greater Jakarta; 2 northern Sumatra (Aceh, N Sumatra, W Sumatra, Riau); 3 southern Sumatra; 4 West Java/Banten; 5 Central Java/Yogyakarta; 6 East Java; 7 Kalimantan; 8 Bali & Nusa; 9 Sulawesi, Maluku, Papua\n- **Plate prefixes**:\n    - **Single letters plus AA/AB/AD/AE/AG**: Java (B Jakarta, D Bandung, F Bogor, H Semarang, AB Yogyakarta, L Surabaya, N Malang)\n    - **Two letters starting with B**: Sumatra (BL Aceh, BK Medan, BA W Sumatra, BM Riau, BG S Sumatra, BE Lampung)\n    - **Starting with K**: Kalimantan (KB West, KH Central, KT East, KU North; DA South)\n    - **D + letter**: DK Bali; DR/EA West Nusa; DH/EB East Nusa; DD South Sulawesi, DB North Sulawesi, DN Central Sulawesi, DT Southeast Sulawesi"
         }
       ],
-      "rawContent": "印尼各岛街景车、电线杆绝缘子、建筑、车牌、行政区划、电话区号与邮编完整笔记"
+      "rawContent": "印尼各岛电线杆顶部对称性、建筑屋顶、植被土壤、车牌区号邮编、加油站编号",
+      "sources": [
+        {
+          "title": "zi8gzag 2 – How to Guess Indonesia on Geoguessr",
+          "url": "https://youtu.be/QMReewuriEw"
+        },
+        {
+          "title": "Radu Continued – Regionguessing Indonesia with VERY in-depth explanations",
+          "url": "https://youtu.be/FuAYLikyptQ"
+        },
+        {
+          "title": "Daiiono – 5 Metas Every Pro Should Know Ep.16 (Indonesia)",
+          "url": "https://youtu.be/0mnKUH3kT9w"
+        }
+      ]
     },
     {
       "id": "malaysia",
@@ -5428,25 +6040,43 @@ window.GEOGUESSR_DATA = {
       "continent": "Asia",
       "sections": [
         {
-          "headingZh": "🌴 西马 vs 东马（沙巴与砂拉越）区域划分",
-          "headingEn": "West Malaysia vs. East Malaysia / Sarawak & Sabah",
-          "contentZh": "- **西马 (马来半岛)**：涵盖北部槟城 (Penang)、玻璃市、霹雳；中部吉隆坡 (Kuala Lumpur)、雪兰莪、森美兰；南部柔佛 (Johor)；东海岸彭亨、登嘉楼、吉兰丹\n- **东马 (婆罗洲)**：涵盖西部**砂拉越 (Sarawak)**与东部**沙巴 (Sabah)**；东马地势更为原始多山，原始热带雨林覆盖率极高，荒野感显著强于西马",
-          "contentEn": "- **Peninsular (West) Malaysia**: Northern states (Penang, Perlis, Kedah, Perak), Central (Kuala Lumpur, Selangor, Negeri Sembilan), Southern (Johor), and East Coast (Pahang, Terengganu, Kelantan)\n- **East Malaysia (Borneo)**: Western state **Sarawak** and eastern state **Sabah**; noticeably wilder, rugged mountains, dense rainforest coverage, and greater frontier feel"
+          "headingZh": "🌴 西马 vs 东马（沙巴、砂拉越）",
+          "headingEn": "Peninsula vs Borneo (Sabah & Sarawak)",
+          "contentZh": "- **区域划分**：西马北部（玻璃市、吉打、槟城、霹雳）、中部（吉隆坡、雪兰莪、森美兰、马六甲）、南部（柔佛）、东海岸（彭亨、登嘉楼、吉兰丹）；东马为砂拉越与沙巴，覆盖稀疏（沙巴只有两条主干道）\n- **TNB 黑色小贴纸**：西马水泥杆上的黑色长方形贴纸 → 西马；东马没有黑贴纸，改用白色、绿色贴纸或直接黑字\n- **双圆环路灯**：几乎只在西马（东马仅见过一次）\n- **细水泥杆**：东马倾向\n- **单条白色中线**：约 95% 在婆罗洲（东马）；褪色标线也更常见于东马\n- **车牌首字母**：Q = 砂拉越；S = 沙巴；W/V 吉隆坡、F 布城、B 雪兰莪、P 槟城、J 柔佛、A 霹雳、C 彭亨、D 吉兰丹、T 登嘉楼、K 吉打、R 玻璃市、M 马六甲、N 森美兰、L 纳闽\n- **邮编（路牌上常写 Poskod）**：01–02 玻璃市、05–09 吉打、10–14 槟城、15–18 吉兰丹、20–24 登嘉楼、25–28 彭亨、30–36 霹雳、40–48 雪兰莪、50–60 吉隆坡、62 布城、70–73 森美兰、75–78 马六甲、79–86 柔佛、87 纳闽、88–91 沙巴、93–98 砂拉越",
+          "contentEn": "- **Regions**: Peninsula north (Perlis, Kedah, Penang, Perak), centre (KL, Selangor, Negeri Sembilan, Melaka), south (Johor), east coast (Pahang, Terengganu, Kelantan); Borneo = Sarawak & Sabah with sparse coverage (only two main roads in Sabah)\n- **TNB black sticker**: Small black rectangular stickers on concrete poles → Peninsula; Borneo has no black stickers — instead white or green stickers or plain black text\n- **Double-circle lamp post**: Almost only on the Peninsula (seen once on Borneo)\n- **Thin concrete poles**: Lean Borneo\n- **Single white centre line**: ~95% Borneo; faded lines are also more common there\n- **Plate prefixes**: Q = Sarawak; S = Sabah; W/V KL, F Putrajaya, B Selangor, P Penang, J Johor, A Perak, C Pahang, D Kelantan, T Terengganu, K Kedah, R Perlis, M Melaka, N Negeri Sembilan, L Labuan\n- **Postcodes (often on street signs as \"Poskod\")**: 01–02 Perlis, 05–09 Kedah, 10–14 Penang, 15–18 Kelantan, 20–24 Terengganu, 25–28 Pahang, 30–36 Perak, 40–48 Selangor, 50–60 KL, 62 Putrajaya, 70–73 Negeri Sembilan, 75–78 Melaka, 79–86 Johor, 87 Labuan, 88–91 Sabah, 93–98 Sarawak"
         },
         {
-          "headingZh": "⚡ 电线杆贴纸、顶部结构与车牌前缀",
-          "headingEn": "Pole Stickers, Pole Tops & License Plate Initials",
-          "contentZh": "- **电线杆贴纸特征**：\n    - **西马**：混凝土圆柱或方柱电杆上普遍贴有**黑色长方形小贴纸**\n    - **东马**：通常没有黑色贴纸；砂拉越电杆偶尔贴有白色小贴纸，电杆呈“干”字形结构\n- **电线杆顶部结构**：\n    - **西马**：横担中间有两个小圆环，下方呈长刀状支撑结构\n    - **砂拉越**：非对称绝缘子和电杆，路灯下方有回旋镖 (飞去来器) 状支撑臂\n    - **沙巴**：两根等长横杠，中间带有类似 “VI” 字样的细铁斜撑\n- **车牌首字母属地代码**：\n    - **以 Q 开头**：**砂拉越 (Sarawak)**\n    - **以 S 开头**：**沙巴 (Sabah)**\n    - **西马主要字母**：W 代表吉隆坡，P 代表槟城，J 代表柔佛，A 霹雳，B 雪兰莪，C 彭亨，D 吉兰丹，T 登嘉楼，K 吉打",
-          "contentEn": "- **Pole Sticker Markers**:\n    - **West Malaysia**: Concrete poles (round or square) feature a **small black rectangular sticker**\n    - **East Malaysia**: Lack black stickers; Sarawak poles occasionally have small white stickers on cross-shaped poles\n- **Pole Top Anatomy**:\n    - **West Malaysia**: Two small rings in the center of the crossarm, supported by a saber-like blade bracket\n    - **Sarawak**: Asymmetric insulators and poles; streetlight arm mounted on a boomerang-shaped bracket\n    - **Sabah**: Dual crossbars of identical length joined by thin \"VI\"-shaped diagonal struts\n- **License Plate Initial Letters**:\n    - **Prefix Q**: Exclusively **Sarawak**\n    - **Prefix S**: Exclusively **Sabah**\n    - **Peninsular Codes**: W for Kuala Lumpur, P for Penang, J for Johor, A for Perak, B for Selangor, C for Pahang, D for Kelantan, T for Terengganu, K for Kedah"
+          "headingZh": "🏷️ TNB 黑色贴纸细节（西马分州）",
+          "headingEn": "TNB Black-Sticker Details (Peninsular States)",
+          "contentZh": "- **贴纸内外的红蓝漆**：西海岸，尤其霹雳（邻州少见）；马六甲、吉隆坡也多\n- **贴纸下方写电话号码**：南部州（马六甲、柔佛几乎都有）——判断彭亨时很有用\n- **“TEL TNB” 而非 “TEL”**：柔佛\n- **灯泡图标**：马六甲、玻璃市、吉隆坡\n- **第二行出现字母**：北部/乡村州（玻璃市、吉打、吉兰丹等）；柔佛、吉隆坡、马六甲很少\n- **行数**：越往南越少；**首字母 J（Jalan，街道）**：大城市\n- **马六甲**：Times New Roman 字体、方形贴纸贴得更高；**吉兰丹**：小字体、字间无空隙；**玻璃市**：超长贴纸；**霹雳**：首行写“11 KV”，城市里有红蓝色小贴纸；**柔佛**：黑贴纸上方另有红色贴纸",
+          "contentEn": "- **Red & blue paint in/around the sticker**: West coast, especially Perak (rare in neighbours); also Melaka and KL\n- **Phone number written under the sticker**: Southern states (Melaka and Johor almost always) — useful for the Pahang toss-up\n- **\"TEL TNB\" instead of \"TEL\"**: Johor\n- **Light-bulb symbol**: Melaka, Perlis, KL\n- **Letters on the second line**: Northern/rural states (Perlis, Kedah, Kelantan…); rare in Johor, KL, Melaka\n- **Number of lines**: Fewer further south; **first letter J (Jalan = street)**: big cities\n- **Melaka**: Times New Roman font, square sticker placed higher; **Kelantan**: small font with no gaps; **Perlis**: very long stickers; **Perak**: \"11 KV\" on the first line, small red-blue stickers in cities; **Johor**: red sticker above the black one"
         },
         {
-          "headingZh": "🔤 爪夷文、中英文招牌与油棕林景观",
-          "headingEn": "Jawi Arabic Script, Signage & Palm Plantations",
-          "contentZh": "- **文字与招牌**：\n    - **爪夷文 (Jawi)**：类似阿拉伯字母的马来语书写体，在西马非常常见 (吉兰丹、登嘉楼、彭亨、吉打甚至用于官方双语路牌)\n    - **中文招牌**：东马市镇中中文双语招牌出现的频率显著高于西马农村\n    - **英文路牌**：东马的英文路牌和公共标识占比明显更高\n- **植被与市政设施**：\n    - **棕榈油种植园 (Oil Palm)**：全马广泛分布，但在东马沙巴内陆连绵无尽，极为壮观\n    - **Alam Flora 标志**：市政分类垃圾桶上的 [Alam Flora 标志](https://maps.app.goo.gl/n3CSZfspZKFSEHpCA) 通常只出现在西马吉隆坡、布城和彭亨州",
-          "contentEn": "- **Scripts & Signage**:\n    - **Jawi Script (Arabic-derived)**: Widely visible across Peninsular Malaysia (official street signage in Kelantan, Terengganu, Pahang, and Kedah)\n    - **Chinese Signage**: Significantly more prominent in East Malaysian Bornean towns than in peninsular rural areas\n    - **English Signage**: Considerably higher prevalence of English road markers in East Malaysia\n- **Ecosystems & Municipal Infrastructure**:\n    - **Oil Palm Plantations**: Found across Malaysia, but forms vast monoculture oceans in Sabah's interior\n    - **Alam Flora Bins**: Municipal garbage bins stamped with the [Alam Flora logo](https://maps.app.goo.gl/n3CSZfspZKFSEHpCA) are restricted to West Malaysia (Kuala Lumpur, Putrajaya, Pahang)"
+          "headingZh": "🚏 各州路牌、垃圾桶与红绿灯",
+          "headingEn": "Street Signs, Bins & Traffic Lights by State",
+          "contentZh": "- **柔佛**：标志性**黄色路牌** + 南部灰色垃圾桶（深绿盖）+ 州旗\n- **森美兰**：白色路牌配红字城市名 + 南部灰色垃圾桶\n- **马六甲**：白/蓝混合路牌 + 南部垃圾桶\n- **霹雳**：西马最典型的**绿色路牌**；亮绿色盖垃圾桶\n- **玻璃市/吉打**：常带爪夷文的花式路牌；亮绿盖 + 蝴蝶图案垃圾桶\n- **吉兰丹/登嘉楼**：黑色普通垃圾桶，路牌先写爪夷文、多为落地式；登嘉楼多蓝色路牌，红绿灯杆几乎都缠条纹\n- **彭亨**：亮绿盖 + 圆形图案垃圾桶；蓝色路牌；红绿灯常有彩色边框\n- **槟城**：绿色路牌带中文，电线杆刷蓝黄色，带支撑杆的折角路灯；区号 04\n- **雪兰莪/吉隆坡**：什么都可能出现；吉隆坡垃圾桶常为橙色\n- **黄/橙色边框红绿灯**：北部州",
+          "contentEn": "- **Johor**: Iconic **yellow street signs** + southern grey bins (dark green lid) + state flag\n- **Negeri Sembilan**: White street signs with the town name in red + southern grey bins\n- **Melaka**: Mixed white/blue signs + southern bins\n- **Perak**: The most iconic **green street signs** on the Peninsula; bright-green-lid bins\n- **Perlis/Kedah**: Fancy street signs often with Jawi; bright green lid + butterfly-design bins\n- **Kelantan/Terengganu**: Generic black bins, Jawi written first, ground-mounted signs; Terengganu uses blue signs and almost always striped traffic-light posts\n- **Pahang**: Bright green lid with a circular scene design; blue signs; coloured borders on traffic lights\n- **Penang**: Green signs with Chinese, blue-yellow painted poles, angled streetlights with support bars; area code 04\n- **Selangor/KL**: Anything goes; KL bins are often orange\n- **Yellow/orange-bordered traffic lights**: Northern states"
+        },
+        {
+          "headingZh": "🏝️ 砂拉越、沙巴与纳闽",
+          "headingEn": "Sarawak, Sabah & Labuan",
+          "contentZh": "- **砂拉越**：细方形“T 字”水泥杆 + 白色贴纸；贴纸上的 T 编号对应供电区（T2 最西古晋，T8 最东；中间顺序为 4、7、3、6、5，T4 在文莱以西）\n- **砂拉越城市**：回旋镖形路灯臂；背板带孔的红绿灯；路牌全为绿色；古晋 = 圆角路牌、标志杆无或两根撑杆；诗巫 = 低横档、绿色“SB”贴纸、落地式中文路牌；民都鲁 = 中间横档、“B”贴纸；美里 = 菱形标志背板\n- **沙巴**：三代街景 100% 白车（从无黑车）；双横担 + 斜撑的沙巴杆顶；三段粗细变化的电线杆；每座城市都有悬挂式绿色路牌；亚庇路灯带撑杆，标志杆背面浅蓝、两道条纹；**山打根** = 全马水泥路最多\n- **纳闽**：遍地蓝色塑料桶，中线特别粗，电线杆写“LBN”\n- **景观**：沙巴多山（东部油棕扩张），砂拉越北部油棕增多",
+          "contentEn": "- **Sarawak**: Thin square \"T\" concrete poles with white stickers; the T-number is a supply zone (T2 westernmost Kuching, T8 easternmost; in between the order is 4, 7, 3, 6, 5 — T4 is just west of Brunei)\n- **Sarawak cities**: Boomerang-shaped lamp arms; traffic lights with holes in the backplate; all street signs green; Kuching = rounded street signs, sign posts with none or two braces; Sibu = low crossbar, green \"SB\" stickers, ground-mounted signs with Chinese; Bintulu = middle crossbar, \"B\" stickers; Miri = diamond-shaped sign backs\n- **Sabah**: Gen 3 is 100% white car (never black); double crossbar + diagonal \"Sabah pole top\"; poles with three thickness levels; hanging green street signs in every city; Kota Kinabalu lamps with braces, light-blue sign backs with two stripes; **Sandakan** = the most concrete roads in Malaysia\n- **Labuan**: Blue plastic barrels everywhere, extra-thick centre lines, \"LBN\" on poles\n- **Landscape**: Sabah is mountainous (oil palm expanding in the east); Sarawak's north is increasingly oil palm"
+        },
+        {
+          "headingZh": "🚗 街景车颜色与地形",
+          "headingEn": "Car Colours & Terrain",
+          "contentZh": "- **三代**：北部白车多、南部黑车多；**马六甲约 95% 黑车**\n- **四代颜色**：黑、棕、白（两侧蓝白）、纯蓝四种；黑车偏北、蓝车偏南；玻璃市没有白车、棕车也少；西海岸四代比东海岸多；玻璃市四代很多而吉打很少\n- **较大的镜头裂缝**：吉打/西北部\n- **地形**：柔佛与西海岸平坦；内陆山区（怡保被山包围）；槟城多山；西北平原上突兀的喀斯特孤山 → 玻璃市/吉打（泰国风）\n- **作物**：油棕集中于柔佛、彭亨、霹雳西部；泰国边境多橡胶树；东海岸山脉（登嘉楼、吉兰丹、彭亨）+ 沙巴常见一种五裂小叶杂草",
+          "contentEn": "- **Gen 3**: White car more common in the north, black car in the south; **Melaka is ~95% black car**\n- **Gen 4 colours**: Black, brown, white (blue-white sides) and pure blue; black leans north, blue leans south; Perlis has no white and little brown car; the west coast has more Gen 4 than the east; Perlis has lots of Gen 4, Kedah very little\n- **Large camera rifts**: Kedah/the northwest\n- **Terrain**: Johor and the west coast are flat; mountainous interior (Ipoh ringed by hills); Penang hilly; isolated karst towers on flat northwest plains → Perlis/Kedah (Thai-style)\n- **Crops**: Oil palm concentrated in Johor, Pahang, west Perak; rubber near the Thai border; a small five-leaflet weed is typical of the east-coast range (Terengganu, Kelantan, Pahang) and Sabah"
         }
       ],
-      "rawContent": "马来西亚东西马、电线杆结构、车牌代码、爪夷文与油棕林笔记"
+      "rawContent": "马来西亚西马东马区分、TNB 黑色贴纸、各州路牌与垃圾桶、邮编、车牌、街景车颜色",
+      "sources": [
+        {
+          "title": "zi8gzag 2 – A Complete Guide to Malaysia on Geoguessr",
+          "url": "https://youtu.be/z96X5YOnjHY"
+        }
+      ]
     },
     {
       "id": "philippines",
@@ -5456,13 +6086,379 @@ window.GEOGUESSR_DATA = {
       "continent": "Asia",
       "sections": [
         {
-          "headingZh": "🛺 菲律宾机动三轮车 (Tricycle) 车顶弧度南北分布",
-          "headingEn": "Tricycle Roof Profiles: North, Central & South",
-          "contentZh": "- **低平车顶 (Low Roof Tricycle)**：主要分布在菲律宾北部吕宋岛 (Luzon) 广大城镇与乡村\n- **高拱圆形车顶 (High Curved Roof Tricycle)**：中部米沙鄢群岛 (Visayas，如宿务、保和、伊洛伊洛等地) 居多\n- **纯平箱式车顶 (Flat Boxy Roof Tricycle)**：主要集中在南部棉兰老岛 (Mindanao)",
-          "contentEn": "- **Low Roof Tricycles**: Predominant in the north across Luzon island\n- **High Curved Roof Tricycles**: Concentrated in the central Visayas islands (Cebu, Bohol, Iloilo)\n- **Flat Boxy Roof Tricycles**: Characteristic of the southern region of Mindanao"
+          "headingZh": "☎️ 电话区号：菲律宾最强工具",
+          "headingEn": "Phone Area Codes: The Strongest Tool",
+          "contentZh": "> 记忆法：2 = 首都；中间数字（3、4、5）在中部；大数字（6、7、8）在最北和最南。09xx 是手机号，无用。\n- **02**：大马尼拉\n- **04x**：吕宋中南部（043 八打雁/民都洛、044 布拉干/新怡诗夏、045 邦板牙/打拉、046 甲米地、047 巴丹/三描礼士、048 巴拉望、049 内湖）\n- **05x**：比科尔与东米沙鄢（052 阿尔拜、053 莱特、054 南甘马粦/那牙、055 萨马、056 索索贡/马斯巴特）\n- **03x**：中/西米沙鄢（032 宿务、033 伊洛伊洛、034/035 内格罗斯、036 卡皮斯/阿克兰、038 保和）\n- **07x**：北吕宋（072 拉乌尼翁、074 碧瑶/本格特、075 邦阿西楠、077 伊罗戈、078 卡加延/伊莎贝拉）\n- **06x**：棉兰老西部（062 三宝颜、063 拉瑙、064 哥打巴托、068 苏禄）\n- **08x**：棉兰老东部（082 达沃、083 桑托斯将军城、085 阿古桑、086 苏里高、088 米萨米斯/卡加延德奥罗）",
+          "contentEn": "> Mnemonic: 2 = the capital; middle digits (3, 4, 5) in the middle; high digits (6, 7, 8) in the far north and far south. 09xx is mobile and useless.\n- **02**: Metro Manila\n- **04x**: Central & Southern Luzon (043 Batangas/Mindoro, 044 Bulacan/Nueva Ecija, 045 Pampanga/Tarlac, 046 Cavite, 047 Bataan/Zambales, 048 Palawan, 049 Laguna)\n- **05x**: Bicol & Eastern Visayas (052 Albay, 053 Leyte, 054 Camarines Sur/Naga, 055 Samar, 056 Sorsogon/Masbate)\n- **03x**: Central & Western Visayas (032 Cebu, 033 Iloilo, 034/035 Negros, 036 Capiz/Aklan, 038 Bohol)\n- **07x**: Northern Luzon (072 La Union, 074 Baguio/Benguet, 075 Pangasinan, 077 Ilocos, 078 Cagayan/Isabela)\n- **06x**: Western Mindanao (062 Zamboanga, 063 Lanao, 064 Cotabato, 068 Sulu)\n- **08x**: Eastern Mindanao (082 Davao, 083 General Santos, 085 Agusan, 086 Surigao, 088 Misamis/Cagayan de Oro)"
+        },
+        {
+          "headingZh": "🌋 地标地貌与作物",
+          "headingEn": "Landmarks, Landscape & Crops",
+          "contentZh": "- **巧克力山（Chocolate Hills）**：保和岛中部成片的圆顶小山\n- **阿拉亚特山（Mt Arayat）**：马尼拉以北邦板牙平坦玉米田中孤立的一座火山\n- **马荣火山（Mayon）**：那牙东南（阿尔拜）的巨大完美锥形火山，常被云遮顶\n- **大致规律**：越往南棕榈越多；吕宋最北端棕榈少、山地干燥（伊罗戈/科迪勒拉）\n- **作物**：平原到处是水稻（中吕宋最多）；玉米偏棉兰老与北吕宋\n- **棉兰老三大作物**：菠萝（布基农、桑托斯将军城，Dole 种植园）、油棕（罕见，几乎只在棉兰老）、香蕉种植园（达沃、塔古姆，灰色土壤）\n- **巴拉望**：红土；**清真寺** → 棉兰老，尤其西部（三宝颜、BARMM）",
+          "contentEn": "- **Chocolate Hills**: Fields of dome-shaped hills in central Bohol\n- **Mt Arayat**: A lone volcano rising out of flat Pampanga cornfields north of Manila\n- **Mayon Volcano**: A huge, perfect cone southeast of Naga (Albay), often capped in cloud\n- **Rough rule**: More palms the further south; far-north Luzon has few palms and dry mountains (Ilocos/Cordillera)\n- **Crops**: Rice everywhere on flat land (most in Central Luzon); corn leans Mindanao and northern Luzon\n- **Mindanao's three crops**: Pineapple (Bukidnon, General Santos – Dole plantations), oil palm (rare, basically Mindanao only), banana plantations (Davao, Tagum, grey soil)\n- **Palawan**: Red soil; **mosques** → Mindanao, especially the west (Zamboanga, BARMM)"
+        },
+        {
+          "headingZh": "🛡️ 各岛专属基础设施",
+          "headingEn": "Island-Specific Infrastructure",
+          "contentZh": "- **宿务护栏**：银色护栏由细长圆柱形黄色立柱支撑（粗水泥柱的是伊洛伊洛/班乃，不是宿务）\n- **比科尔（含马斯巴特）护栏**：白/银色护栏带三道黑色条纹\n- **科迪勒拉（山地省）**：黑白或黑黄条纹的水泥防撞墩\n- **保和岛**：茎部特别粗的蘑菇形绝缘子\n- **班乃岛与吉马拉斯**：电表外有黄色边框（常为横向长条）\n- **锡基霍尔岛**：环岛公路路灯底部黑黄条纹\n- **马尼拉周边**：黄黑或绿黄涂装的电线杆\n- **巴拉望三轮车**：平顶 + 一整块巨大前挡风玻璃（未来感）\n- **三轮车顶粗略规律**：吕宋多低矮车顶，米沙鄢多高拱顶，棉兰老多平直方顶（仅作参考）\n- **三代黑车带车顶行李架**：棉兰老南部（桑托斯将军城）\n- **注意**：“Palawan Express”等是全国连锁店名，不代表所在岛屿",
+          "contentEn": "- **Cebu guardrail**: Silver guardrail on thin cylindrical yellow posts (thick concrete posts = Iloilo/Panay, not Cebu)\n- **Bicol (incl. Masbate) guardrail**: White/silver guardrail with three black stripes\n- **Cordillera (Mountain Province)**: Black-white or black-yellow striped concrete barriers\n- **Bohol**: Mushroom insulators with an unusually thick stem\n- **Panay & Guimaras**: Yellow frames around electricity meters (often long and horizontal)\n- **Siquijor**: Black-yellow striped lamp bases along the ring road\n- **Around Manila**: Yellow-black or green-yellow painted poles\n- **Palawan tricycle**: Flat roof + one huge, futuristic front window\n- **Tricycle roofs (rough tendency only)**: Low roofs in Luzon, tall curved roofs in the Visayas, flat boxy roofs in Mindanao\n- **Gen 3 black car with roof rack**: Southern Mindanao (General Santos)\n- **Caution**: Names like \"Palawan Express\" are nationwide chains, not island clues"
         }
       ],
-      "rawContent": "菲律宾突突车三种车顶高度与南北区域分布笔记"
+      "rawContent": "菲律宾电话区号、地标火山与巧克力山、各岛护栏绝缘子电表、作物、三轮车",
+      "sources": [
+        {
+          "title": "zi8gzag – Is the Philippines Geoguessr's HARDEST Country??",
+          "url": "https://youtu.be/BrdK4mNpP4Q"
+        },
+        {
+          "title": "Daiiono – 5 Metas Every Pro Should Know Ep.35 (Philippines)",
+          "url": "https://youtu.be/KKHZftlj_dE"
+        },
+        {
+          "title": "TreezErik – 5 Regional Philippines Metas",
+          "url": "https://youtu.be/oybrk9IIESw"
+        }
+      ]
+    },
+    {
+      "id": "thailand",
+      "nameZh": "泰国",
+      "nameEn": "Thailand",
+      "flag": "🇹🇭",
+      "continent": "Asia",
+      "sections": [
+        {
+          "headingZh": "🔢 区号、国道编号与省份缩写",
+          "headingEn": "Area Codes, Highway Numbers & Province Abbreviations",
+          "contentZh": "- **座机区号（9 位号码，按首位分区）**：02 曼谷；03x 中部与东部（034 北碧、035 大城、036 华富里/北标、038 春武里/罗勇、039 尖竹汶/达叻、032 佛丕/巴蜀）；04x 东北（042 乌隆/黎/廊开、043 孔敬、044 呵叻/猜也蓬/武里南、045 乌汶/四色菊）；05x 北部（053 清迈/清莱/夜丰颂、054 南邦/帕尧/难、055 彭世洛/素可泰/达、056 那空沙旺/碧差汶）；07x 南部（077 素叻/春蓬/拉廊、076 普吉/攀牙、075 甲米/董里/洛坤、074 宋卡/沙敦、073 北大年/也拉/陶公）。08/09 开头为手机号\n- **国道首位数字**：1 = 北部、2 = 东北、3 = 中部、4 = 南部（一两位数的大干线可跨区；不适用于省道）\n- **里程碑与路牌上的 Garuda**：白色 Garuda = 国道（地图上白色），黑色 Garuda = 省道（地图上深蓝色）；省道里程碑和路牌常写泰文**两字母省份缩写**\n- **黑色电箱**：常写**三字母省份缩写**（如 NTB = 暖武里），格式为“缩写 + 4 位数字”或“TCC-L2 + 缩写”\n- **学会读泰文**（zi8gzag 专门为此做了一期）：能读出地名与省份缩写后，城镇回合基本都能精确定位",
+          "contentEn": "- **Landline area codes (9-digit numbers, grouped by first digit)**: 02 Bangkok; 03x centre & east (034 Kanchanaburi, 035 Ayutthaya, 036 Lopburi/Saraburi, 038 Chonburi/Rayong, 039 Chanthaburi/Trat, 032 Phetchaburi/Prachuap); 04x Northeast (042 Udon/Loei/Nong Khai, 043 Khon Kaen, 044 Korat/Chaiyaphum/Buriram, 045 Ubon/Sisaket); 05x North (053 Chiang Mai/Chiang Rai/Mae Hong Son, 054 Lampang/Phayao/Nan, 055 Phitsanulok/Sukhothai/Tak, 056 Nakhon Sawan/Phetchabun); 07x South (077 Surat Thani/Chumphon/Ranong, 076 Phuket/Phang Nga, 075 Krabi/Trang/Nakhon Si Thammarat, 074 Songkhla/Satun, 073 Pattani/Yala/Narathiwat). 08/09 numbers are mobiles\n- **National road first digit**: 1 = North, 2 = Northeast, 3 = Centre, 4 = South (1–2-digit trunk roads cross regions; doesn't apply to provincial roads)\n- **Garuda on waystones and signs**: White Garuda = national road (white on the map), black Garuda = provincial road (dark blue on the map); provincial waystones and signs often show a **two-letter Thai province abbreviation**\n- **Black electrical boxes**: Often show a **three-letter province abbreviation** (e.g. NTB = Nonthaburi), as \"abbreviation + 4 digits\" or \"TCC-L2 + abbreviation\"\n- **Learn to read Thai** (zi8gzag made a whole video on it): once you can read place names and province abbreviations, most town rounds become precise"
+        },
+        {
+          "headingZh": "⚡ 电杆、绝缘子与基础设施",
+          "headingEn": "Poles, Insulators & Infrastructure",
+          "contentZh": "- **绝缘子棱数 7 道以上** → 半岛南半部，以及清莱、帕尧的公路；全国标准为 5–6 道\n- **横担上只有一个绝缘子** → 半岛南部到拉廊、春蓬；**两个绝缘子** → 全国其他地区\n- **智利式带凹槽的普通电杆** → 曼谷周边（更粗大的凹槽杆在全国公路上都有）\n- **黑色杆身 + 三个大白色反光片的路缘标** → 清迈、夜丰颂\n- **风力发电机** → 猜也蓬与呵叻西侧、宋卡与洛坤东海岸\n- **灰色波纹铁皮屋顶** → 北部与南部较多\n- **南部穆斯林地区**：伊斯兰服饰、爪夷文（阿拉伯字母）招牌与清真寺 → 最南部\n- **44 号公路（甲米—素叻）**：四车道分隔公路，中间隔离带极宽，常看不到对向车道，只能靠内侧黄线判断\n- **国家识别**：左侧通行；白色私家车牌、黄色商用车牌（东南亚独有）；黑白条纹尖顶方形路缘标；方形笨重的白色标志杆，底部常刷黑（东南亚独有）；方形带小孔的电杆；黄色中线；路灯杆底部红黑或黑白条纹；村里常见的绿色标志牌；三代大多看不到车",
+          "contentEn": "- **Insulators with 7+ ridges** → the southern half of the peninsula, plus highways in Chiang Rai and Phayao; the national standard is 5–6 ridges\n- **One insulator on the crossbar** → the peninsula south of Ranong/Chumphon; **two insulators** → the rest of the country\n- **Ordinary poles with a Chilean-style indent** → around Bangkok (bigger indented poles appear on highways everywhere)\n- **Black bollard with three large white reflectors** → Chiang Mai, Mae Hong Son\n- **Wind turbines** → western Chaiyaphum and Korat, the east coast of Songkhla and Nakhon Si Thammarat\n- **Grey corrugated metal roofs** → more common in the north and south\n- **Muslim south**: Islamic dress, Jawi (Arabic-script) signs and mosques → the far south\n- **Highway 44 (Krabi – Surat Thani)**: A divided four-lane road with an extremely wide median — you often can't see the other carriageway, only the yellow inner line tells you it's divided\n- **Country ID**: Left-hand traffic; white private plates, yellow commercial plates (unique in SE Asia); black-and-white striped square bollards with a pointed top; bulky square white signposts often with black bottoms (unique in SE Asia); square poles with small holes; yellow centre lines; red-black or black-white stripes on lamp-post bases; green village signs; Gen 3 usually shows no car"
+        },
+        {
+          "headingZh": "🌾 地貌与作物分布",
+          "headingEn": "Landscape & Crop Distribution",
+          "contentZh": "- **平坦干燥的两大平原**：曼谷以北（中部平原）与东部（东北呵叻高原，更干）\n- **高山** → 西北部（南部半岛部分也多山）；**低矮圆润的森林山** → 中北部；**大量裸露岩石的陡峭山** → 西部与半岛\n- **红土** → 东北最常见（全国都有）；**碎石路** → 各地都有，某些区域特别多\n- **水稻**：旱季稻（天空因山火有雾霾）→ 中部平原；雨季稻 → 东部平原\n- **橡胶林**（树干底部有黑色小割胶杯）→ 南部最多；**油棕**（90% 以上）→ 南部\n- **椰子**：密集的矮/中型椰林 → 曼谷以西；较稀疏的高椰林 → 巴蜀府；**糖棕** → 曼谷以南的半岛东岸与最南部；**槟榔** → 半岛（拉廊尤其多）\n- **甘蔗** → 中部与东部；**木薯**（掌状叶灌木）→ 中部与东北平原；**玉米** → 北部与中部\n- **果园** → 清迈—南奔谷地、沙缴东部、尖竹汶；**榴莲园** → 尖竹汶周边（幼树呈锥形）；**菠萝** → 曼谷东南与西南\n- **桉树人工林** → 沙缴周边；**柚木** → 北部（大叶、黄花）；**丹那沙林松** → 北部与西北；**变叶木**（黄橙红叶）→ 拉廊等沿海府",
+          "contentEn": "- **Two flat, dry plains**: North of Bangkok (the central plain) and the east (the Northeast/Khorat plateau, drier)\n- **Tall mountains** → the northwest (parts of the southern peninsula too); **low, smooth forested mountains** → the centre-north; **steep mountains with lots of exposed rock** → the west and the peninsula\n- **Red soil** → most common in the Northeast (found everywhere); **gravel roads** → everywhere, but especially in certain areas\n- **Rice**: Dry-season rice (hazy sky from wildfires) → the central plain; wet-season rice → the eastern plains\n- **Rubber plantations** (small black tapping cups on the trunks) → mostly the south; **oil palm** (>90%) → the south\n- **Coconut**: Dense short/medium coconut plantations → west of Bangkok; sparser tall plantations → Prachuap Khiri Khan; **palmyra palms** → the peninsula's east coast just south of Bangkok and the far south; **areca** → the peninsula (especially Ranong)\n- **Sugarcane** → centre & east; **cassava** (bushy, digitate leaves) → central & northeastern plains; **corn** → north & centre\n- **Fruit orchards** → the Chiang Mai–Lamphun valley, eastern Sa Kaeo, Chanthaburi; **durian** → around Chanthaburi (young trees are cone-shaped); **pineapple** → SE and SW of Bangkok\n- **Eucalyptus plantations** → around Sa Kaeo; **teak** → the north (large leaves, yellow flowers); **Tenasserim pine** → north & northwest; **garden croton** (yellow-orange-red leaves) → Ranong and other coastal provinces"
+        },
+        {
+          "headingZh": "🏙️ 城市路牌与地标地形",
+          "headingEn": "City Street Signs & Landmark Terrain",
+          "contentZh": "- **曼谷**：粉色出租车（几乎独有）、绿底黄字出租车；**曼谷与暖武里**：蓝色路牌下方带一小段绿色\n- **芭提雅**：船舵形路牌（独有）；**清莱府城**：红色路牌配金色装饰边框\n- **清迈**：红色双条车（songthaew）；**普吉**：富裕旅游岛，现代建筑、度假村、山丘与拥堵；**苏梅/帕岸岛**：狭窄拥挤的道路\n- **地形地标**：\n    - **清迈帕府县（Phrao）**：四面环山的平坦谷地；**清道县**：可见泰国第三高峰 Doi Luang Chiang Dao\n    - **帕尧**：东侧远处可见一条南北走向的锯齿山脊；**碧差汶谷地**：两侧都是南北向大山\n    - **达府西部**：玉米/甘蔗起伏丘陵 + 很棕的沥青路；**北碧**：深红色田地 + 木薯、橡胶\n    - **华富里西南**：形状奇特的山；**北标北部**：东西走向的大型裸岩山；**猜也蓬**：几乎处处可见的极长平顶山脊\n    - **考艾国家公园周边（呵叻南部）**：农村道路两旁大量广告、餐厅和度假村；园内道路镜头左前方有污点\n    - **那空拍侬北部（湄公河畔）**：东北方老挝一侧的喀斯特石灰岩山；**穆达汉**：稻田、甘蔗、木薯间的长矮丘\n    - **三百峰国家公园、考索国家公园、甲米西部**：巨大的裸岩山体\n    - **棕色沥青路** → 呵叻东南（甘蔗、木薯、玉米）与四色菊南部（香蕉、榴莲、橡胶）\n    - **道路网格**：华富里南部偏北北西网格、巴吞他尼正南北网格、罗勇西部东北—西南网格（工厂 + 橡胶 + 菠萝）",
+          "contentEn": "- **Bangkok**: Pink taxis (practically exclusive), yellow-on-green taxis; **Bangkok & Nonthaburi**: blue street signs with a small green section underneath\n- **Pattaya**: Ship's-helm-shaped street signs (exclusive); **Mueang Chiang Rai**: red street signs with golden decorated borders\n- **Chiang Mai**: Red songthaew trucks; **Phuket**: wealthy tourist island with modern buildings, resorts, hills and heavy traffic; **Koh Samui/Koh Pha-Ngan**: narrow, crowded roads\n- **Terrain landmarks**:\n    - **Phrao district (Chiang Mai)**: A flat valley ringed by mountains; **Chiang Dao**: views of Doi Luang Chiang Dao, Thailand's third-highest peak\n    - **Phayao**: A jagged north–south ridge visible to the east; **Phetchabun valley**: big N–S mountains on both sides\n    - **Western Tak**: Rolling corn/sugarcane hills + very brown asphalt; **Kanchanaburi**: deep red fields with cassava and rubber\n    - **SW Lopburi**: Distinctively shaped mountains; **northern Saraburi**: big east–west exposed-rock mountains; **Chaiyaphum**: very long flat-topped ridges visible from almost anywhere\n    - **Around Khao Yai NP (southern Korat)**: Rural roads lined with ads, restaurants and resorts; a smudge on the front-left of the camera on the park road\n    - **Northern Nakhon Phanom (Mekong)**: Jagged limestone karst on the Lao side to the northeast; **Mukdahan**: long low hills among rice, sugarcane, cassava\n    - **Khao Sam Roi Yot NP, Khao Sok NP, western Krabi**: Huge exposed-rock massifs\n    - **Brown paved roads** → SE Korat (sugarcane, cassava, corn) and southern Sisaket (bananas, durian, rubber)\n    - **Road grids**: A slightly NNW grid in southern Lopburi, a near-perfect N–S grid in Pathum Thani, a NE–SW grid in western Rayong (industry + rubber + pineapple)"
+        }
+      ],
+      "rawContent": "泰国电话区号、国道首位数字、省份缩写与黑色电箱、绝缘子数量、作物与地貌、城市路牌",
+      "sources": [
+        {
+          "title": "zi8gzag 2 – I Learned to Read Thai for Geoguessr!?",
+          "url": "https://youtu.be/pVcM0Rs7AwY"
+        },
+        {
+          "title": "Daiiono – 5 Metas Every Pro Should Know Ep.39 (Thailand)",
+          "url": "https://youtu.be/I0yNj9jaig8"
+        },
+        {
+          "title": "Plonk It – Thailand guide",
+          "url": "https://www.plonkit.net/thailand"
+        }
+      ]
+    },
+    {
+      "id": "vietnam",
+      "nameZh": "越南",
+      "nameEn": "Vietnam",
+      "flag": "🇻🇳",
+      "continent": "Asia",
+      "sections": [
+        {
+          "headingZh": "⚡ 电线杆：越南南北判断核心",
+          "headingEn": "Utility Poles: The Core North–South Tool",
+          "contentZh": "- **圆形“针孔”水泥杆**：全国最常见；**针孔很多** → 偏南；**针孔很少或光滑无孔** → 偏北\n- **全身镂空（孔一直到顶）的多孔杆**：只在北部；只有下半截有孔的“半镂空杆”全国都有\n- **倒梯形斜撑 / 梯形杆顶**：北部与中部（南部以外各地）\n- **真正的三叉戟杆顶** → 南部；**双三叉戟** → 中部；**“A 字”三角杆顶** → 中南部；**菲律宾式杆顶** → 南部\n- **偏置安装的路灯支架** → 南部（胡志明市一带）\n- **竹制电线杆**、杆上**黑色贴纸** → 北部；双杆并立没有区域意义\n- **“垃圾画质”镜头（Crap cam）** → 只在红河三角洲",
+          "contentEn": "- **Round concrete \"pinhole\" poles**: The most common pole; **many pinholes** → leans South; **few or no pinholes (smooth)** → leans North\n- **Fully holey poles (holes all the way up)**: North only; \"half-holey\" poles with holes only partway up appear everywhere\n- **Inverted-trapezoid braces / trapezoid pole tops**: North and Central (everywhere except the South)\n- **True trident pole top** → South; **double trident** → Central; **\"A-top\" triangle** → central-south; **Philippines-style pole top** → South\n- **Offset-mounted lamp attachment** → South (Ho Chi Minh City area)\n- **Bamboo poles** and **black stickers on poles** → North; double poles are not regional\n- **Low-quality \"crap cam\"** → Red River Delta only"
+        },
+        {
+          "headingZh": "🌾 地形、作物与建筑",
+          "headingEn": "Terrain, Crops & Architecture",
+          "contentZh": "- **只有两大平原**：北部红河三角洲（河内）与南部湄公河三角洲（笔直运河、椰子树）；其他地方几乎总能看到山\n- **西原（中部高原）**：红土，像柬埔寨；橡胶林（偏中南部）、咖啡\n- **茶园** → 北部；**木麻黄** → 中越边境；**火龙果田** → 南部（平顺）；**胡椒** → 南部\n- **沙质土 / 沙丘** → 中南部沿海（潘切一带），景观像巴西东北部；桉树 + 干燥 → 中南沿海\n- **喀斯特孤峰**（山顶常有神龛）；北部中越边境风格像中国（中式民居）\n- **北部建筑**：屋顶带中央尖塔/装饰顶；窄高的“河内管状屋”；传统木屋；红河三角洲稻田中的单座坟墓；木栅栏\n- **南部建筑**：湄公河三角洲房屋更方正；铁皮屋顶与开放式骑楼商铺较多\n- **国家识别**：右侧通行、白色车牌、红顶路缘标、红白“拐杖糖”电杆、黄底填充的警告牌（东南亚独有）、红底白箭头 V 形牌、柬埔寨式里程碑、路上晒稻谷",
+          "contentEn": "- **Only two big flat areas**: The Red River Delta in the north (Hanoi) and the Mekong Delta in the south (straight canals, coconut palms); elsewhere mountains are almost always visible\n- **Central Highlands**: Red soil, Cambodia-like; rubber (towards centre/south), coffee\n- **Tea** → North; **casuarina pines** → Chinese border; **dragon-fruit fields** → South (Bình Thuận); **black pepper** → South\n- **Sandy soil / dunes** → south-central coast (around Phan Thiết), can look like NE Brazil; eucalyptus + dry → south-central coast\n- **Karst towers** (often with a shrine on top); the far north near China looks Chinese (Chinese-style houses)\n- **Northern architecture**: Roofs with central spires/finials; narrow, tall \"Hanoi tube houses\"; traditional wooden houses; single graves in Red River Delta rice fields; wooden fences\n- **Southern architecture**: Boxier houses in the Mekong Delta; more tin roofs and open-front shophouses\n- **Country ID**: Right-hand traffic, white plates, red-topped bollards, red-white \"candy-cane\" poles, yellow-filled warning signs (unique in SE Asia), white-on-red chevrons, Cambodia-style km stones, rice drying on the road"
+        }
+      ],
+      "rawContent": "越南南北电线杆孔洞与杆顶、红河与湄公河三角洲、作物与建筑",
+      "sources": [
+        {
+          "title": "zi8gzag 2 – I Finally Learned Vietnam on Geoguessr",
+          "url": "https://youtu.be/aZh7at8WfbM"
+        }
+      ]
+    },
+    {
+      "id": "kazakhstan",
+      "nameZh": "哈萨克斯坦",
+      "nameEn": "Kazakhstan",
+      "flag": "🇰🇿",
+      "continent": "Asia",
+      "sections": [
+        {
+          "headingZh": "🛣️ 标志性公路：哈萨克斯坦靠“认路”",
+          "headingEn": "Signature Roads: Kazakhstan Is a Road-Learning Country",
+          "contentZh": "> 四代覆盖稀疏、道路很少——认出“哪条路”并对齐走向，往往就能拿到高分。\n- **M36 卡拉干达 → 阿拉木图**：冬季覆盖、荒凉；窄双车道，旁边平行的新路正在施工（巴尔喀什一带）；江布尔/杰特苏段为偏红土壤 + 黄色标线 + 红黄施工路缘标，东南方可见湖面\n- **M36 阿斯塔纳 → 卡拉干达**：**混凝土**分隔公路，两侧黄色外边线，东南—西北走向\n- **A1 阿斯塔纳 → 休钦斯克**：六车道分隔公路，两侧黄线，绿色草原与树\n- **布拉拜（阿克莫拉）国家公园**：黄色外边线 + 白色中线，松林夹杂白桦，白车“螺旋”天线\n- **E38 克孜勒奥尔达 → 奇姆肯特**：沥青路面、**全白标线**，沙漠灌丛，东南—西北走向（突厥斯坦东南更绿）\n- **阿斯塔纳 → 巴甫洛达尔**：东西向穿过起伏草原，红色路面，有外边线\n- **A3（向南通往中国边境）**：丘陵起伏、四月覆盖植被枯死，近边境有更大的山和小湖\n- **A26 坎迪阿加什 → E38**：路况极差，部分未铺装，无标线，平坦半干旱草原\n- **卡拉干达以西 A17**：路况差、无外边线、只有白色中线，秋季树木\n- **萨特帕耶夫以北**：干燥荒凉、橙红土壤、天上漂着大量积云\n- **阿亚古兹以南 R217/R260**：路面开裂、阴天；越往东云越少、白色中虚线褪色\n- **东南中国边境 A355（扎尔肯特一带）**：荒凉寒冷、日落覆盖、奇特山体，有时东侧见湖\n- **阿拉木图以南山路**：雪山、积雪路面、车身脏、折叠天线\n- **东哈萨克斯坦（厄斯克门附近）**：秋冬季橙绿色丘陵，东西向公路\n- **曼吉斯套沙漠路 + A27**：独有的路缘标只在这两条路上\n- **土库曼边境附近的沙质土路**：像阿曼，但皮卡车斗左后方有一根电线\n- **阿拉套飞地（阿拉木图以东）**：全国唯一的五月覆盖 + 大山",
+          "contentEn": "> Gen 4 coverage is sparse and roads are few — recognising which road you're on and lining up its direction usually scores big.\n- **M36 Karaganda → Almaty**: Winter coverage, barren; narrow two-lane road with a parallel new road under construction (around Balkhash); the Jambyl/Zhetisu stretch has reddish soil, yellow lines, red-yellow construction bollards and a lake to the southeast\n- **M36 Astana → Karaganda**: Divided **concrete** highway with yellow outer lines, SE–NW\n- **A1 Astana → Shchuchinsk**: Six-lane divided highway with yellow lines both sides, green grassland and trees\n- **Burabay (Akmola) national park**: Yellow outer lines + white centre line, pines mixed with birch, white car with a \"screw\" antenna\n- **E38 Kyzylorda → Shymkent**: Asphalt with **all-white lines**, sandy desert shrubs, SE–NW (greener southeast of Turkistan)\n- **Astana → Pavlodar**: East–west through hilly steppe, red road surface, outer lines\n- **A3 (south toward China)**: Very hilly with dead vegetation (April coverage); bigger hills and a small lake near the border\n- **A26 Kandyagash → E38**: Very poor quality, partly unpaved, no lines, flat semi-arid grassland\n- **A17 west of Karaganda**: Bad pavement, no outer lines, only a white centre line, autumn trees\n- **North of Satpayev**: Dry and desolate, orange-red soil, skies full of cumulus clouds\n- **R217/R260 south of Ayagoz**: Cracked road and overcast; further east fewer clouds and a faded dashed white centre line\n- **A355 on the SE China border (Zharkent area)**: Barren and cold-looking, sunset coverage, odd mountains, sometimes a lake to the east\n- **Mountain road south of Almaty**: Snowy peaks, snowy road, dirty car, folded antenna\n- **East Kazakhstan (near Oskemen)**: Orange-green autumn/winter hills, east–west road\n- **Mangystau desert road + A27**: Unique bollards found only on these two roads\n- **Sandy dirt road near the Turkmen border**: Looks like Oman, but the pickup has a wire in the back-left of the truck bed\n- **Alatau exclave east of Almaty**: The only May coverage in the country + big mountains"
+        },
+        {
+          "headingZh": "🏙️ 城市路灯、电杆与建筑",
+          "headingEn": "City Lamps, Poles & Architecture",
+          "contentZh": "- **塔拉兹**：红—黄—黑涂装的电线杆（约三分之一到一半的回合能看到）\n- **克孜勒奥尔达**：金属杆和燃气管上刷着带两道条纹的**青绿色**涂装\n- **塞米伊（塞米巴拉金斯克）**：蓝色木框、蓝色百叶窗、蓝色建筑\n- **乌拉尔斯克**：双管/三管“梯子形”路灯\n- **库利萨雷**：路灯顶部有很大的蓝色光控器\n- **突厥斯坦**：非常纤细的白色双头路灯\n- **房屋外黄色燃气盒（接在管道上）** → 奇姆肯特、突厥斯坦、塔尔迪库尔干\n- **酒红色屋顶** → 西哈萨克斯坦州、阿特劳、曼吉斯套\n- **季节**：西部里海洼地多为晴朗干燥的夏季覆盖；东部与北部平原多阴天或春季",
+          "contentEn": "- **Taraz**: Red-yellow-black painted poles (seen in roughly a third to half of rounds there)\n- **Kyzylorda**: **Turquoise** paint with two stripes on metal poles and gas pipes\n- **Semey**: Blue wooden frames, blue shutters, blue buildings\n- **Uralsk**: Double/triple \"ladder\" street lamps\n- **Kulsary**: A big blue photocell on top of the lamps\n- **Turkistan**: Very thin white double-headed lamps\n- **Yellow gas boxes on pipes outside houses** → Shymkent, Turkistan, Taldykorgan\n- **Burgundy roofs** → West Kazakhstan, Atyrau, Mangystau\n- **Seasons**: The western Caspian lowland is mostly sunny, dry summer coverage; the eastern and northern plains are more often overcast or spring"
+        }
+      ],
+      "rawContent": "哈萨克斯坦标志性公路、道路标线与路面、城市路灯电杆、季节覆盖、皮卡车斗电线",
+      "sources": [
+        {
+          "title": "Bird Pie – 10 Quick Tips to Regionguess Kazakhstan",
+          "url": "https://youtu.be/HLPHgFGGXS8"
+        },
+        {
+          "title": "Daiiono – 5 Metas Every Pro Should Know Ep.37 (Kazakhstan)",
+          "url": "https://youtu.be/GJsEvf1oQso"
+        }
+      ]
+    },
+    {
+      "id": "kyrgyzstan",
+      "nameZh": "吉尔吉斯斯坦",
+      "nameEn": "Kyrgyzstan",
+      "flag": "🇰🇬",
+      "continent": "Asia",
+      "sections": [
+        {
+          "headingZh": "🪞 后视镜车身比例：南北一眼区分",
+          "headingEn": "Side-Mirror Car Meta: North vs South at a Glance",
+          "contentZh": "> 看左侧后视镜里银色车身结束的位置。\n- **西南部（奥什、贾拉拉巴德，一直到塔什库姆尔）**：车身止于后视镜的**竖直边**——镜中能看到的路面较少（“南方镜”）\n- **其他地区（比什凯克等）**：车身止于后视镜的**水平边**——能看到完整轮拱和更多路面\n- **奥什与贾拉拉巴德之间**：车身正好在镜子拐角处（斜向）\n- **贾拉拉巴德环岛以西、沿托克托古尔山路北上**：后视镜很脏\n- **镜面上有一个小黑点** → 比什凯克以东\n- **国家识别**：车顶行李架皮卡、车牌左侧红色条、树干底部刷白、木电杆、红白三角纹里程碑（吉尔吉斯独有）",
+          "contentEn": "> Look where the silver car body ends in the left side mirror.\n- **Southwest (Osh, Jalal-Abad, up to Tash-Kömür)**: The car body ends on the mirror's **vertical** edge — less road visible (\"southern mirror\")\n- **Everywhere else (Bishkek etc.)**: The car ends on the mirror's **horizontal** edge — the full wheel arch and more road are visible\n- **Between Osh and Jalal-Abad**: The car sits exactly on the mirror corner (diagonal)\n- **West of the Jalal-Abad roundabout and up the Toktogul pass road**: A dirty mirror\n- **A small black dot on the mirror** → east of Bishkek\n- **Country ID**: Roof-rack pickup, red strip on the left of plates, white-painted tree trunks, wooden poles, red-white triangle-patterned km markers (unique to Kyrgyzstan)"
+        },
+        {
+          "headingZh": "🏔️ 山脉方向、湖泊与雪地",
+          "headingEn": "Mountain Directions, Lakes & Snow",
+          "contentZh": "- **用山的方向定位**（地图上的山基本都看得见）：\n    - **比什凯克/楚河谷地**：南边是巨大雪山，北边山小或没有；空气差时可能看不清\n    - **塔拉斯公路**：北面中等山、南面大山；塔拉斯城内电杆底部刷白 + 红黄条纹\n    - **卡拉科尔**：南北两侧都有雪山，晴天、积雪正在融化\n- **伊塞克湖**：巨大湖泊，湖的方向没有山；结合离湖、离山的距离与道路走向几乎可以 5K；另外两个可见的湖是托克托古尔水库和松湖\n- **纳伦一带**：多石、几乎无树、干燥得像中东的荒山；平直的长公路\n- **有雪的地方**：苏萨梅尔谷地（最多雪，乡村支路）、阿尔斯兰鲍布滑雪区（泥泞小路）、比什凯克东南（十月区）、卡拉科尔\n- **山口公路**：旁边常有一条大河\n- **比什凯克周边东西两侧城镇（托克马克等）**：黄/绿/白（顶部红）的彩色电线杆；分隔公路集中在比什凯克周边（比什凯克—巴雷克奇高速）\n- **奥什**：棕褐色砖房，屋顶多为深绿或深红",
+          "contentEn": "- **Use mountain directions** (the mountains on the map are generally visible):\n    - **Bishkek/Chüy valley**: Huge snowy mountains to the SOUTH, small or no mountains to the north; may be hazy on bad-air days\n    - **Talas road**: Moderate mountains north, big ones south; in Talas town poles have white-painted bottoms with red & yellow stripes\n    - **Karakol**: Snowy mountains both north and south, sunny with melting snow\n- **Lake Issyk-Kul**: A huge lake with no mountains in its direction; combine distance to lake/mountains with road angle to nearly 5K; the other visible lakes are Toktogul Reservoir and Song-Kul\n- **Naryn area**: Rocky, nearly treeless, desert-dry hills; long straight roads\n- **Where there's snow**: Suusamyr valley (the snowiest, rural side roads), the Arslanbob ski area (muddy tracks), southeast Bishkek (Oktyabr district), Karakol\n- **Mountain passes**: Usually a big river beside the road\n- **Towns east & west of Bishkek (Tokmok etc.)**: Colourful yellow/green/white (red-topped) poles; divided roads are concentrated around Bishkek (Bishkek–Balykchy highway)\n- **Osh**: Tan brick houses with dark green or dark red roofs"
+        }
+      ],
+      "rawContent": "吉尔吉斯斯坦后视镜车身比例、雪地分布、伊塞克湖、山脉方向、城市电杆",
+      "sources": [
+        {
+          "title": "Jasper Woodard – The Perfect Kyrgyzstan Tip",
+          "url": "https://youtu.be/Xe_303NwzvM"
+        },
+        {
+          "title": "Frenchmanilla – Kyrgyzstan Metas In Geoguessr",
+          "url": "https://youtu.be/gGpZnNlPaBg"
+        }
+      ]
+    },
+    {
+      "id": "mongolia",
+      "nameZh": "蒙古",
+      "nameEn": "Mongolia",
+      "flag": "🇲🇳",
+      "continent": "Asia",
+      "sections": [
+        {
+          "headingZh": "🛻 街景车三件套：备胎、车顶行李架、帐篷",
+          "headingEn": "The Car Trio: Spare Tire, Roof Rack & Tent",
+          "contentZh": "> 蒙古三代街景车是一辆丰田 Tacoma 皮卡。三个部件组合起来就能把范围缩到很小：备胎（约 4 个区）、行李架（约 8 个区）、帐篷（约 6 个区）。乌兰巴托城内几乎什么组合都有——拿不准时乌兰巴托是安全选择，街景车通常从乌兰巴托向外开。\n- **备胎（看车右后方）**：\n    - **带保护网**：西部（科布多、巴彦乌列盖）\n    - **绿色绑带**：东部（东方省、苏赫巴托省）及部分北部主路\n    - **橙色绑带**：乌兰巴托南北方向的中部及南部沙漠\n    - **有备胎但无网无带**：乌兰巴托东西两侧的中部\n    - **没有备胎**：乌兰巴托城内及近郊、额尔登特一带\n- **车顶行李架**：\n    - **横杠中间黑色橡胶垫**：西半部；无橡胶垫 → 东半部\n    - **中间竖杠模糊**：西半部；**竖杠之间有横向绑带**：乌兰巴托以西；**无绑带**：乌兰巴托南北或东北角\n    - 乌兰巴托以模糊行李架为主，其余组合（双侧绑带、左下斜带、右侧打结等）各对应特定小区域\n- **帐篷**：无帐篷 / 普通（偏蓝）帐篷 / 右侧有凹陷 / 红色张紧带 / 灰白帐篷（北部）各有分区；托尔博湖一带帐篷侧面有两个鼓包；空帐篷笼（有时积雪）→ 宗莫德以南",
+          "contentEn": "> Mongolia's Gen 3 car is a Toyota Tacoma pickup. Combining three parts narrows it down fast: spare tire (~4 zones), roof rack (~8 zones), tent (~6 zones). Inside Ulaanbaatar almost every combination occurs — when unsure UB is the safe guess, and the car generally drives outward from UB.\n- **Spare tire (rear right of the car)**:\n    - **With a protective net**: The west (Khovd, Bayan-Ölgii)\n    - **Green strap**: The east (Dornod, Sükhbaatar) and some northern main roads\n    - **Orange strap**: The centre north/south of UB and the southern desert\n    - **Tire present, no net or strap**: The centre east/west of UB\n    - **No spare tire**: Inside UB and its suburbs, around Erdenet\n- **Roof rack**:\n    - **Black rubber pad in the middle of the crossbar**: The western half; no pad → the eastern half\n    - **Middle vertical bar blurred**: The western half; **strap connecting the vertical bars**: west of UB; **no strap**: north or south of UB, or the far northeast\n    - UB is mostly the blurred rack; the other combos (straps both sides, diagonal bottom-left strap, knot on the right…) each map to a specific small zone\n- **Tent**: No tent / normal (bluish) tent / dent on the right / red tensioners / pale grey tent (the north) each have their zones; near Tolbo Lake the tent has two bumps on the side; an empty tent cage (sometimes full of snow) → south of Zuunmod"
+        },
+        {
+          "headingZh": "🏜️ 生物群落、天气与地貌",
+          "headingEn": "Biomes, Weather & Landscape",
+          "contentZh": "- **沙漠 / 荒漠草原**：南部戈壁（南戈壁省），草矮而稀、有小灌丛；冬季覆盖时草发黄\n- **草原**：中东部，白黄色草穗；乌兰巴托以南道路、额尔登特周边、乌兰巴托西南为**冬季草原**（常过曝）\n- **森林草原**：山坡上有针叶林；冬季时针叶发黄\n- **泰加林**：库苏古尔湖一带（冬季、草很短）；以白桦为主的泰加林非常好认\n- **天气**：蒙古号称“永恒蓝天之国”，大多晴天；部分城市有日落覆盖或厚云覆盖区——可用来区分相似城市\n- **湖泊**：库苏古尔湖（发黄的冬季泰加林）、乌布苏湖/沙兹盖湖（湖边红色植被）、库尔干湖（低太阳）、吉尔吉斯湖（镜头小故障）、特尔欣查干湖（多云、火山岩丘）、查干湖畔三角小木屋度假村等\n- **山与河**：达兰扎德嘎德西南带雪尖山脉；布伦海尔汗以北的山（全图少有的北面大山）；波塔宁冰川；科布多河、扎布汗河（穿过乌里雅苏台）、伊德尔河、图拉河（乌兰巴托北，植被茂密）\n- **蒙古包**：沿乌兰巴托—扎门乌德东南走廊及额尔登特周边几乎看不到；中北部牧区多见灰旧蒙古包",
+          "contentEn": "- **Desert / desert steppe**: The southern Gobi (Ömnögovi), short sparse grass and small shrubs; yellowed grass in winter coverage\n- **Steppe**: The centre and east, with white-yellow grass tufts; the road south of UB, around Erdenet and southwest of UB are **winter steppe** (often overexposed)\n- **Forest steppe**: Conifers on the hillsides; yellowed conifers in winter\n- **Taiga**: Around Lake Khövsgöl (winter, very short grass); birch-dominated taiga is very recognisable\n- **Weather**: The \"land of the eternal blue sky\" is mostly sunny; certain towns have sunset or thick-cloud coverage zones — useful to separate similar towns\n- **Lakes**: Khövsgöl (yellowed winter taiga), Uvs/Shaazgai (red vegetation on the shore), Khurgan (low sun), Khyargas (small camera glitch), Terkhiin Tsagaan (cloudy, volcanic rocky hills), the triangle-hut tourist resort at Tsagaan Lake, etc.\n- **Mountains & rivers**: A snow-tipped range southwest of Dalanzadgad; the range north of Burenkhairkhan (one of the few big mountains to the north on the map); the Potanin Glacier; the Khovd, Zavkhan (through Uliastai), Ider and Tuul (north of UB, dense vegetation) rivers\n- **Gers (yurts)**: Almost none along the UB → Zamyn-Üüd southeast corridor and around Erdenet; grey weathered gers are common in the north-central pasturelands"
+        },
+        {
+          "headingZh": "🏙️ 主要城市秒杀线索",
+          "headingEn": "Main City Signatures",
+          "contentZh": "- **乌兰巴托**：蓝天塔与苏赫巴托广场；西郊和近郊两座燃煤电厂（冷却塔与烟柱可用于定位）；带雕像的环岛；北部和东部的蒙古包棚户区；摩天轮游乐园\n- **额尔登特**：阴天，城北有缓丘、城南没有山（区别于乌兰巴托）\n- **达兰扎德嘎德**：日落覆盖，南面几乎一直能看到山脉\n- **乔巴山**：多云、刚下过雨的积水，部分混凝土板路，燃煤电厂\n- **车车尔勒格**：晴朗、北面大山、岩石多、很绿\n- **乌里雅苏台**：北面紧贴大山，城里很绿多树；城北多云\n- **西乌尔特**：荒漠草原、周围无山，唯一带特定行李架 Meta 的大城市\n- **扎门乌德**：中蒙边境，极干的沙漠，路中间小黄锥，带中文的彩色招牌\n- **赛音山达**：沙漠中完美蓝天，绿色底座路灯（独有），粉色“埃菲尔铁塔”\n- **哈拉和林**：沥青主路、水坑多，南西两面有山，粮仓，蓝底带小红条的路灯\n- **乌兰固木**：乌布苏湖以南，城南大山多云，黄白相间路缘\n- **木伦**：库苏古尔湖地区主城，远山环绕，有多道虚线的路面标线\n- **达尔汗**：地面积雪较多（区别于其他城市），主路有人行天桥\n- **巴彦洪戈尔**：阳光强烈、东面大山，恐龙模型公园；**乌列盖**：四面环山、干燥沙质人行道",
+          "contentEn": "- **Ulaanbaatar**: Blue Sky Tower and Sükhbaatar Square; two coal power plants on the west side and closer in (cooling towers and smoke help you position); roundabouts with statues; ger districts to the north and east; an amusement park with a big wheel\n- **Erdenet**: Grey weather, slight hills north of town and no mountains to the south (unlike UB)\n- **Dalanzadgad**: Sunset coverage, a mountain range visible to the south almost everywhere\n- **Choibalsan**: Very cloudy with fresh puddles, some concrete-slab roads, a coal power plant\n- **Tsetserleg**: Sunny, big rocky mountains to the north, very green\n- **Uliastai**: A big mountain range right against the north side, a green, tree-filled town; cloudy in the north part\n- **Baruun-Urt**: Desert steppe with no mountains around, the only big town with its particular roof-rack meta\n- **Zamyn-Üüd**: On the Chinese border — very dry desert, small yellow cones in the road centre, colourful signs with Chinese text\n- **Sainshand**: Perfect blue sky over desert, green-based street lamps (unique), a pink \"Eiffel Tower\"\n- **Kharkhorin**: Asphalt main roads with many puddles, mountains to the south and west, grain silos, lamps with a blue base and a small red stripe\n- **Ulaangom**: South of Uvs Lake, cloudy big mountains to the south, yellow-and-white kerbs\n- **Mörön**: The main town of the Khövsgöl area, distant mountains, road markings with several dashed lines\n- **Darkhan**: Noticeably more snow on the ground than other towns, a pedestrian bridge over the main road\n- **Bayankhongor**: Very bright sun, big mountains to the east, a fake-dinosaur park; **Ölgii**: ringed by mountains, dry sandy sidewalks"
+        }
+      ],
+      "rawContent": "蒙古街景车备胎、车顶行李架与帐篷 Meta、生物群落与天气、湖泊河流、城市地标",
+      "sources": [
+        {
+          "title": "proc – HIGH YIELD Mongolian Meta Tips (+ Kommu’s “The Mongolian Meta” guide)",
+          "url": "https://youtu.be/lPbPdHuWzTg"
+        },
+        {
+          "title": "Daiiono – 5 Metas Every Pro Should Know Ep.33 (Mongolia Part 1)",
+          "url": "https://youtu.be/8R2evNqwN_4"
+        },
+        {
+          "title": "Daiiono – 5 Metas Every Pro Should Know Ep.34 (Mongolia Part 2)",
+          "url": "https://youtu.be/Vhmff-vxz8Y"
+        }
+      ]
+    },
+    {
+      "id": "united-states",
+      "nameZh": "美国",
+      "nameEn": "United States",
+      "flag": "🇺🇸",
+      "continent": "North America",
+      "sections": [
+        {
+          "headingZh": "☎️ 电话区号、州际公路与前车牌",
+          "headingEn": "Area Codes, Interstates & Front Plates",
+          "contentZh": "- **大城市经典区号**：212 纽约曼哈顿、213 洛杉矶、312 芝加哥、313 底特律、202 华盛顿、415 旧金山、617 波士顿、215 费城、305 迈阿密、713 休斯敦\n- **全州只有一个区号的州（看到即秒）**：207 缅因、302 特拉华、307 怀俄明、406 蒙大拿、605 南达科他、701 北达科他、802 佛蒙特、401 罗德岛、603 新罕布什尔、907 阿拉斯加、808 夏威夷\n> 美国区号首位数字不按地理聚集，只能逐个记——优先记上面这些。\n- **州际公路（Interstate）**：偶数号东西向，数字最小的在墨西哥湾/墨西哥边境，越往北越大；奇数号南北向，数字最小的在西海岸，越往东越大\n- **美国国道（US Highway）**：规律相反——小的奇数号在东海岸，小的偶数号靠加拿大边境（例外较多）\n- **前车牌**：约一半的州不要求前车牌——结合车牌颜色可快速缩小范围\n- **I-19（亚利桑那图森—墨西哥边境）**：全美唯一用公里标示出口和距离（限速仍为英里）",
+          "contentEn": "- **Classic big-city area codes**: 212 Manhattan, 213 Los Angeles, 312 Chicago, 313 Detroit, 202 Washington DC, 415 San Francisco, 617 Boston, 215 Philadelphia, 305 Miami, 713 Houston\n- **States with a single area code (instant win)**: 207 Maine, 302 Delaware, 307 Wyoming, 406 Montana, 605 South Dakota, 701 North Dakota, 802 Vermont, 401 Rhode Island, 603 New Hampshire, 907 Alaska, 808 Hawaii\n> US area codes aren't clustered by first digit — they have to be learned one by one; start with the ones above.\n- **Interstates**: Even numbers run east–west, lowest along the Gulf/Mexico border and rising northward; odd numbers run north–south, lowest on the West Coast and rising eastward\n- **US Highways**: The inverse — low odd numbers on the East Coast, low even numbers near the Canadian border (more exceptions)\n- **Front plates**: About half the states don't require a front plate — combine with plate colour to narrow quickly\n- **I-19 (Tucson, AZ – Mexico border)**: The only US highway signed in kilometres for exits and distances (speed limits still in mph)"
+        },
+        {
+          "headingZh": "🚗 各州模糊车牌色系速查",
+          "headingEn": "Blurred State Plate Colours",
+          "contentZh": "- **黄色系**：阿拉斯加（亮黄，或蓝黄横条）、纽约（金黄/琥珀色 Excelsior）、新墨西哥（金丝雀黄配红字，或松石绿）、新泽西（淡黄渐变到白）\n- **绿色系**：佛蒙特（深绿底白字）、新罕布什尔（左上薄荷绿渐变右下深绿）\n- **蓝色系**：蒙大拿（深蓝底白字）、密歇根（上白下蓝渐变）、肯塔基（上白下天蓝）、康涅狄格（上浅青下白）、特拉华（深海军蓝配复古黄字）\n- **红色元素**：马萨诸塞（白底醒目红字）、犹他（蓝天 + 红色精致拱门剪影）、威斯康星（白底左上红色州名）、爱达荷（红白蓝三色横条）、北达科他（蓝天 + 红色晚霞带）\n- **图案款**：佛罗里达（中间两颗橙子）、佐治亚（中间桃子或蓝橙横条）、夏威夷（白底彩虹）、俄勒冈（中间深绿冷杉）、亚利桑那（蓝白渐变 + 左下紫色仙人掌）、科罗拉多（锯齿状绿白或红白山峰）\n- **条纹款**：宾夕法尼亚（上深蓝、下金黄、中白）、加利福尼亚（白底红色手写州名，或复古黑/黄）、伊利诺伊（白顶蓝底红字）、艾奥瓦（上蓝、中白、下草绿）、堪萨斯（浅天蓝 + 右下白色）",
+          "contentEn": "- **Yellow**: Alaska (bright yellow, or blue-yellow bands), New York (gold/amber Excelsior), New Mexico (canary yellow with red text, or turquoise), New Jersey (pale yellow fading to white)\n- **Green**: Vermont (deep green with white text), New Hampshire (mint green top-left fading to darker green)\n- **Blue**: Montana (dark blue with white text), Michigan (white top, blue gradient bottom), Kentucky (white top, azure bottom), Connecticut (pale cyan top fading to white), Delaware (deep navy with gold digits)\n- **Red elements**: Massachusetts (white with bold red characters), Utah (blue sky + red Delicate Arch), Wisconsin (white with red state name top-left), Idaho (red-white-blue bands), North Dakota (blue sky + red sunset band)\n- **Graphic plates**: Florida (two oranges in the middle), Georgia (a peach, or blue/orange bands), Hawaii (white with a rainbow), Oregon (a dark green fir tree in the middle), Arizona (blue-white gradient + purple cactus bottom-left), Colorado (jagged green-white or red-white peaks)\n- **Banded plates**: Pennsylvania (dark blue top, gold bottom, white middle), California (white with red script name, or retro black/yellow), Illinois (white top, blue base, red text), Iowa (blue top, white middle, grass-green bottom), Kansas (pale sky blue with white lower-right)"
+        },
+        {
+          "headingZh": "🛣️ 道路标线、路面与反光道钉",
+          "headingEn": "Road Lines, Pavement & Raised Markers",
+          "contentZh": "- **矩形反光道钉**：南部与西部（以及马萨诸塞）；**可铲雪的“H”形嵌入式道钉**：只在东部若干州的公路\n- **道钉位于双黄线两侧**：佐治亚、佛罗里达、得克萨斯、加利福尼亚（其他州道钉在双黄线中间）\n- **双黄线间距特别宽**：得克萨斯、阿肯色、路易斯安那、密西西比、俄勒冈\n- **双黄线之间涂黑条**：加利福尼亚；**小路没有黄色中线、只有两侧白线**：加利福尼亚、肯塔基\n- **中线特别粗**：西弗吉尼亚、马里兰、特拉华、弗吉尼亚\n- **“椒盐”粗颗粒路面**：得克萨斯（新墨西哥、俄克拉何马、科罗拉多也有）；上中西部乡村路（尤其伊利诺伊）也有，颜色不同\n- **肯塔基**：路面最外侧细长凹槽式减速带\n- **乡村道路用混凝土铺设**：艾奥瓦远比其他州常见（桥、高速、城市除外）\n- **苏福尔斯（南达科他）**：苏族石英岩骨料让路面呈淡粉色\n- **底特律**：以“英里”命名的道路网格（8 Mile Rd 等）",
+          "contentEn": "- **Rectangular raised pavement markers**: The South and West (plus Massachusetts); **snowplowable \"H\"-shaped recessed markers**: only on highways in certain eastern states\n- **Markers on each side of the double line**: Georgia, Florida, Texas, California (other states put them between the lines)\n- **Extra-wide gap between double yellows**: Texas, Arkansas, Louisiana, Mississippi, Oregon\n- **Black stripe between the double yellows**: California; **small roads with no yellow centre line, only white edges**: California, Kentucky\n- **Extra-thick centre lines**: West Virginia, Maryland, Delaware, Virginia\n- **Grainy \"salt-and-pepper\" surface**: Texas (also New Mexico, Oklahoma, Colorado); rural Upper Midwest roads (especially Illinois) have it in other colours\n- **Kentucky**: Thin, long recessed rumble strips at the very edge of the road\n- **Concrete paving on ordinary rural roads**: Far more common in Iowa than anywhere else (not bridges, highways or cities)\n- **Sioux Falls (SD)**: Sioux quartzite aggregate gives roads a pastel pink tint\n- **Detroit**: A grid of \"Mile\" roads (8 Mile Rd etc.)"
+        },
+        {
+          "headingZh": "🚧 各州路缘标、电线杆与标志牌",
+          "headingEn": "State Bollards, Poles & Signs",
+          "contentZh": "- **路缘标（反光桩）**：\n    - **内华达**：细杆上竖长方形白色反光片 + 黑框\n    - **犹他**：黑色长方形上叠白色方块（独有）；方形反光片两颗螺栓（亚利桑那一颗，爱达荷都有）\n    - **科罗拉多/怀俄明**：深色金属杆 + 白色圆形反光片，杆顶高出反光片；杆顶刷白/灰 → 怀俄明\n    - **华盛顿**：正面白色长方形、背面两个小白/银方块；**俄勒冈**：顶部超长长方形反光片\n    - **南达科他/蒙大拿**：白色菱形反光片（蒙大拿一颗螺栓、南达科他两颗）\n    - **黑色桨形杆身**：犹他、怀俄明（内布拉斯加也有）；**三个圆形反光片**：新墨西哥；**白杆黑反光片**：威斯康星\n- **电线杆**：加州大部分电杆底部三道黄色条纹（东北角莫多克、拉森县除外）；威斯康星与密歇根上半岛电杆上白色金属牌 + 橙色长方形和菱形；PacifiCorp 黄色横向金属牌 → 俄勒冈、爱达荷东部、犹他、怀俄明\n- **标志牌**：\n    - **明尼苏达**：桥前与护栏起止处黄色牌带竖向黑三角\n    - **缅因/新罕布什尔/马萨诸塞**：桥头与护栏端红绿小方牌；新罕布什尔桥头“E-2”白牌\n    - **威斯康星/密苏里**：县道用字母（A–ZZZ），威斯康星牌上多写“COUNTY”；威斯康星 ATV 路线绿牌、车道口带镇名/路名的门牌\n    - **俄克拉何马**：乡村停车牌背面三行数字的绿牌；**堪萨斯**：停车牌立柱白色反光片；**得克萨斯**：标志立柱黄/红色环带\n    - **俄勒冈**：限速牌只写“SPEED”；**西弗吉尼亚**：路牌带圆圈内“分数”符号；**北卡**：带门牌号与箭头的路名牌、白色小牌；**南卡**：黑底白字路名牌；**宾州/弗吉尼亚**：路口白色州道号小牌\n    - **纽约/佛蒙特**：三行数字小绿牌（第一行为路号；佛蒙特第二行以 0 开头，纽约第二行对应州交通局分区）\n    - **密歇根、俄亥俄、明尼苏达、纽约**：双立柱标志；**密歇根**大路口红绿灯与标志挂在钢索上（黄色灯箱）\n    - **方形护栏**：纽约、怀俄明；**国家公园**：护栏、标志、立柱刷成棕色；蓝黄县道盾牌出现在部分州",
+          "contentEn": "- **Bollards (delineators)**:\n    - **Nevada**: A vertical white rectangle with a black outline on a thin stick\n    - **Utah**: A white square over a black rectangle (unique); square reflectors with two bolts (Arizona one bolt, Idaho both)\n    - **Colorado/Wyoming**: Dark metal post with a white circular reflector and the post continuing above it; top painted white/grey → Wyoming\n    - **Washington**: White rectangle on the front, two small white/silver squares on the back; **Oregon**: a very long rectangular reflector on top\n    - **South Dakota/Montana**: White diamond reflector (Montana one bolt, South Dakota two)\n    - **Black paddle-shaped posts**: Utah, Wyoming (also Nebraska); **three round reflectors**: New Mexico; **white post with black reflectors**: Wisconsin\n- **Poles**: Most California poles have three yellow stripes at the bottom (except Modoc & Lassen counties in the NE); Wisconsin and Michigan's Upper Peninsula have a white metal plate with an orange rectangle and diamond on poles; PacifiCorp's thick yellow horizontal plates → Oregon, eastern Idaho, Utah, Wyoming\n- **Signs**:\n    - **Minnesota**: Yellow signs with vertical black triangles before bridges and at guardrail ends\n    - **Maine/New Hampshire/Massachusetts**: Small green and red rectangles marking bridge and guardrail ends; \"E-2\" white signs at New Hampshire bridges\n    - **Wisconsin/Missouri**: Lettered county highways (A–ZZZ), Wisconsin signs usually say \"COUNTY\"; Wisconsin green ATV route signs and driveway number signs with town/road names\n    - **Oklahoma**: Green sign with three rows of numbers on the back of rural stop signs; **Kansas**: white reflectors on stop-sign posts; **Texas**: yellow/red bands around signposts\n    - **Oregon**: Speed signs say just \"SPEED\"; **West Virginia**: street signs with a \"fraction\" inside a circle; **North Carolina**: street signs with house numbers and arrows, small white signs; **South Carolina**: black street signs with white text; **Pennsylvania/Virginia**: small white state-route signs at intersections\n    - **New York/Vermont**: Small green signs with three rows of numbers (top row = road number; Vermont's second row starts with 0, New York's matches the NYSDOT region)\n    - **Michigan, Ohio, Minnesota, New York**: Signs on two posts; **Michigan**: big intersections with lights and signs hung from wires (yellow boxes)\n    - **Square guardrails**: New York, Wyoming; **national parks**: brown-painted guardrails, signs and posts; blue-and-yellow county road shields in some states"
+        },
+        {
+          "headingZh": "🌲 地貌、植被与作物",
+          "headingEn": "Landscape, Vegetation & Crops",
+          "contentZh": "- **大平原**：北起加拿大边境南至得州中部，平坦少树，农田或干草原；**草原壶穴**（沼泽草 + 浅水塘）→ 蒙大拿东北至五大湖西部，北达科他最典型\n- **阿巴拉契亚**：低矮森林山脉（山毛榉、橡树）；纽约南部到弗吉尼亚南部为西南—东北走向的山脊夹平坦谷地；深色多横杆木栅栏 → 中南阿巴拉契亚\n- **落基山**：锯齿岩峰、松树、高处终年积雪；**大盆地**（内华达为中心）：高大雪山前的干燥灌丛平原；俄勒冈更平缓多岩、爱达荷与犹他中部更绿\n- **红土**：从俄克拉何马到南卡的深南部；**密西西比河下游河谷**：极平 + 红土 + 玉米；**欧扎克**丘陵 vs 更陡峭易见的**沃希托山**\n- **四角地区**：红色台地与方山；**内布拉斯加沙丘**：草覆盖的起伏沙丘；**德里夫特莱斯地区**：中西部少有的丘陵\n- **太平洋西北**：温带雨林（阔叶树、巨大针叶树、蕨类）；花旗松 → 卡斯卡迪亚（加州北部、爱达荷、蒙大拿也有）；**华盛顿东部**：金色麦田\n- **加州中央谷地**：地中海气候、葡萄园、橄榄树；**得州山地**（奥斯汀/圣安东尼奥以西）：丝兰、仙人掌、得州活橡树；**格兰德河谷**：极平灌丛 + 农田\n- **树与草**：东部白松（层叠水平枝）→ 新英格兰、五大湖北部、阿巴拉契亚；南方松（蓬松针簇）→ 东南部；鼠尾草（蓝绿灌丛）→ 西部内陆；巨人柱 → 亚利桑那南部；西班牙苔藓 → 深南部；南方草坪冬季变米黄\n- **作物**：玉米带、大豆（东部平原、中西部、密西西比河谷）；油菜花 → 北达科他（蒙大拿偶见）；棉花 → 东南沿海、密西西比河谷、得州西部、加州与亚利桑那部分；**水稻** → 只在加州中北部与阿肯色/路易斯安那/得州/密西西比的密西西比河谷；抽油机 → 得州、新墨西哥东部、北达科他\n- **地标**：佛罗里达大沼泽（笔直长路 + 丛林）、佛罗里达群岛（白沙）、科罗拉多前山南北向山脊、瓜达卢佩山、黑山、恶地与西奥多·罗斯福国家公园（秋色）、魔鬼塔、死亡谷、冰川国家公园、大弯国家公园",
+          "contentEn": "- **Great Plains**: From the Canadian border to central Texas — flat, few trees, farmland or dry grassland; **prairie potholes** (marsh grass + shallow ponds) → NE Montana to the western Great Lakes, classic in North Dakota\n- **Appalachians**: Low forested mountains (beech, oak); southern New York to southern Virginia has SW–NE ridges with flat valleys; dark multi-rail wooden fences → central/southern Appalachia\n- **Rockies**: Jagged peaks, pines, year-round snow up high; **Great Basin** (centred on Nevada): dry shrubby plains below tall snowy mountains; Oregon gentler and rockier, Idaho and central Utah greener\n- **Red soil**: The Deep South from Oklahoma to South Carolina; **Lower Mississippi Valley**: dead flat + red soil + corn; the **Ozarks** vs the steeper, more visible **Ouachitas**\n- **Four Corners**: Red mesas and tablelands; **Nebraska Sandhills**: grassy rolling dunes; **Driftless Area**: rare hills in the Midwest\n- **Pacific Northwest**: Temperate rainforest (broadleaf trees, giant conifers, ferns); Douglas firs → Cascadia (also N California, Idaho, Montana); **eastern Washington**: golden wheat fields\n- **California Central Valley**: Mediterranean, vineyards, olive trees; **Texas Hill Country** (west of Austin/San Antonio): yucca, prickly pear, Texas live oak; **Rio Grande Valley**: dead flat scrub + farms\n- **Trees & grass**: Eastern white pine (layered horizontal branches) → New England, northern Great Lakes, Appalachia; southern pines (fluffy needle clusters) → the Southeast; sagebrush (blue-green shrub) → the interior West; saguaro → southern Arizona; Spanish moss → the Deep South; southern lawns turn beige in winter\n- **Crops**: Corn belt; soybeans (eastern Plains, Midwest, Mississippi Valley); canola → North Dakota (rarely Montana); cotton → SE coastal states, Mississippi Valley, West Texas, parts of California & Arizona; **rice** → only north-central California and the Mississippi Valley in AR/LA/TX/MS; oil pumpjacks → Texas, eastern New Mexico, North Dakota\n- **Landmarks**: The Everglades (long straight roads + jungle), the Florida Keys (white sand), Colorado's N–S Front Range ridge, Guadalupe Mountains, Black Hills, Badlands and Theodore Roosevelt NP (fall colours), Devils Tower, Death Valley, Glacier NP, Big Bend"
+        },
+        {
+          "headingZh": "🏠 建筑、连锁店与城市秒杀",
+          "headingEn": "Architecture, Chains & City Signatures",
+          "contentZh": "- **建筑**：新英格兰木板房（高屋顶 + 门廊、沿海木瓦墙）；东北部城市三层木屋（stacked triplex）；东北部与芝加哥的褐石排屋；中南部与南阿巴拉契亚红色金属屋顶；新奥尔良、休斯敦、路易斯维尔、密西西比的窄长“猎枪屋”；新墨西哥普韦布洛风格（圆角平顶土坯）；西南与佛州西班牙殖民复兴风格（浅色灰泥 + 红瓦）；西部内陆深色木板木梁房；俄克拉何马/得州/路易斯安那超大斜屋顶；墨西哥湾沿岸短高脚屋、大西洋与墨西哥湾海岸高脚屋；东南部移动房屋与浸信会教堂最多\n- **新英格兰乡村**：路边矮石墙（康涅狄格、罗德岛、马萨诸塞、新罕布什尔）\n- **犹他/爱达荷**：以“数字 + 方位”命名街道（如 600 South）\n- **区域连锁店**：H-E-B、Buc-ee's、Whataburger → 得州；Publix → 佛州及周边；Waffle House、Zaxby's → 东南（佐治亚最多）；WaWa → 中大西洋与佛州；Sheetz → 宾州及阿巴拉契亚中部；Kwik Trip → 威斯康星/明尼苏达（艾奥瓦叫 Kwik Star）；Hy-Vee、Casey's、Pizza Ranch → 中西部；Carl's Jr.（西部）vs Hardee's（中东部）；In-N-Out → 西南（三分之二在加州）；Tim Hortons → 美加边境州\n- **城市**：匹兹堡黄色钢桥 + 三河交汇；旧金山维多利亚式彩色联排；新奥尔良彩色猎枪屋与铁艺阳台；迈阿密海滩装饰艺术建筑\n- **特殊覆盖**：TransAmerica Trail 福特 Bronco 摄像车（黑顶红引擎盖，俄勒冈至北卡乡村土路）；国家公园三代车带斜绕线圈的短天线",
+          "contentEn": "- **Architecture**: New England clapboard houses (high roofs + porches, shingle walls on the coast); stacked triple-deckers in Northeastern cities; brownstones in the Northeast and Chicago; red metal roofs in the Mid-South and southern Appalachia; narrow \"shotgun houses\" in New Orleans, Houston, Louisville, Mississippi; Pueblo Revival (rounded flat-roofed adobe) in New Mexico; Spanish Colonial Revival (light stucco + red tiles) in the Southwest and Florida; dark timber buildings in the interior West; huge sloped roofs in Oklahoma/Texas/Louisiana; short stilt houses on the Gulf Coast and tall ones on Atlantic/Gulf shores; mobile homes and Baptist churches most common in the Southeast\n- **Rural New England**: Short rock walls by the road (Connecticut, Rhode Island, Massachusetts, New Hampshire)\n- **Utah/Idaho**: Streets named by number + direction (e.g. 600 South)\n- **Regional chains**: H-E-B, Buc-ee's, Whataburger → Texas; Publix → Florida and neighbours; Waffle House, Zaxby's → the Southeast (most in Georgia); WaWa → Mid-Atlantic & Florida; Sheetz → Pennsylvania & central Appalachia; Kwik Trip → Wisconsin/Minnesota (Kwik Star in Iowa); Hy-Vee, Casey's, Pizza Ranch → the Midwest; Carl's Jr. (West) vs Hardee's (centre/East); In-N-Out → the Southwest (two-thirds in California); Tim Hortons → states bordering Canada\n- **Cities**: Pittsburgh's yellow steel bridges + three rivers; San Francisco's colourful Victorian row houses; New Orleans' shotgun houses and iron balconies; Miami Beach art deco\n- **Special coverage**: The TransAmerica Trail Ford Bronco (black roof, red hood, rural dirt roads from Oregon to North Carolina); Gen 3 cars in national parks with a stubby coiled antenna"
+        }
+      ],
+      "rawContent": "美国电话区号、各州车牌、州际公路编号、各州路缘标电杆标线、标志牌、地貌作物、建筑与连锁店",
+      "sources": [
+        {
+          "title": "zi8gzag 2 – How to Guess the United States on Geoguessr",
+          "url": "https://youtu.be/ECGz1k1m1hY"
+        },
+        {
+          "title": "zi8gzag – 1 Tip For Every US State on Geoguessr",
+          "url": "https://youtu.be/4xjwNoACxqA"
+        },
+        {
+          "title": "Daiiono – 5 Metas Every Pro Should Know Ep.14 (United States)",
+          "url": "https://youtu.be/vx0-7yy1ztU"
+        },
+        {
+          "title": "Plonk It – United States guide",
+          "url": "https://www.plonkit.net/united-states"
+        }
+      ]
+    },
+    {
+      "id": "canada",
+      "nameZh": "加拿大",
+      "nameEn": "Canada",
+      "flag": "🇨🇦",
+      "continent": "North America",
+      "sections": [
+        {
+          "headingZh": "🇨🇦 加拿大 vs 美国 & 各省车牌",
+          "headingEn": "Canada vs USA & Provincial Plates",
+          "contentZh": "- **棋盘格边框的 T 字路口/弯道警告牌**：只有加拿大（魁北克除外）；美国只有菱形内的部分\n- **限速牌写“MAXIMUM”**（不是 SPEED LIMIT）；让行标志不写“YIELD”；用米而不是英尺\n- **单黄中线**：加拿大比美国常见约 20 倍；木制标志立柱更常见；加拿大邮政标志\n- **前车牌**：只有安大略、曼尼托巴、不列颠哥伦比亚（新不伦瑞克老覆盖与卡车偶见）；其余省份无前牌\n- **车牌颜色**：曼尼托巴两侧绿边；萨斯喀彻温绿字；阿尔伯塔红字；新不伦瑞克红字；安大略白底深蓝字；爱德华王子岛左上浅蓝 + 左下深红；育空底部青色条\n- **区号**：有用，但只记非叠加（non-overlay）的区号即可\n- **四代车色**：白车 → 萨斯喀彻温常见；黑车 → 曼尼托巴、渥太华—蒙特利尔一带、新斯科舍—新不伦瑞克交界；蓝车 → 阿尔伯塔；无车覆盖 → 阿尔伯塔最常见",
+          "contentEn": "- **Checkerboard-bordered T-junction/curve signs**: Canada only (not Quebec); the US version is just the diamond part\n- **Speed signs say \"MAXIMUM\"** (not SPEED LIMIT); yield signs don't write \"YIELD\"; metres, not feet\n- **Single yellow centre line**: ~20x more common in Canada than the US; wooden sign posts more common; the Canada Post logo\n- **Front plates**: Only Ontario, Manitoba and British Columbia (older New Brunswick coverage and trucks occasionally); no front plate elsewhere\n- **Plate colours**: Manitoba green borders both ends; Saskatchewan green text; Alberta red text; New Brunswick red text; Ontario white with dark blue; PEI light blue top-left + dark red bottom-left; Yukon cyan bottom stripe\n- **Area codes**: Useful — learn the non-overlay ones\n- **Gen 4 car colours**: White → common in Saskatchewan; black → Manitoba, the Ottawa–Montreal area, the NS–NB border; blue → Alberta; no-car coverage → most common in Alberta"
+        },
+        {
+          "headingZh": "🏔️ 西部：不列颠哥伦比亚、阿尔伯塔、育空与西北地区",
+          "headingEn": "The West: BC, Alberta, Yukon & NWT",
+          "contentZh": "- **不列颠哥伦比亚（BC）**：\n    - **混凝土隔离墩代替护栏**（极强的 BC 线索）；**绿色标志背面**；山路上**悬挂式标志**\n    - 限速牌下写“km/h”；路缘标类似内华达款；变压器朝向道路\n    - **弗雷泽河谷**：平坦黑土谷地，南北两侧都是山；坎卢普斯/基洛纳为干旱雨影区\n- **阿尔伯塔（AB）**：\n    - **阿尔伯塔路缘标**（全省到处都是）；主干道上 3–4 根钢索的矮护栏\n    - 限速牌下不写 km/h；**Township/Range 乡村道路编号**为阿省独有网格（可据数字精确定位）\n    - **德拉姆黑勒**（卡尔加里东北）：无树的荒地岩层；南部可远眺蒙大拿的山\n- **育空（YT）**：只有二代和四代（没有三代），蓝车、秋景、永远多山；世界之巅公路（高海拔、无树、镜头污点）；登普斯特公路（黄色秋叶，过麦克弗森堡后极平）；阿拉斯加公路比弗克里克附近前方有摩托车队\n- **西北地区（NWT）**：路缘标白色反光带比阿尔伯塔窄得多；1 号与 7 号公路为四代，耶洛奈夫支线为二代；萨斯喀彻温式道路标线偶见于 BC 与育空",
+          "contentEn": "- **British Columbia**:\n    - **Concrete blocks instead of guardrails** (a very strong BC clue); **green sign backs**; **hanging signs** on mountain roads\n    - \"km/h\" written under speed limits; Nevada-like bollards; transformers facing the road\n    - **Fraser Valley**: Flat, dark-soil valley with mountains to the north AND south; Kamloops/Kelowna are a dry rain shadow\n- **Alberta**:\n    - **The Alberta bollard** (everywhere in the province); short guardrails with 3–4 steel cables on major roads\n    - No \"km/h\" under speed limits; **Township/Range road numbering** is an Alberta-only grid (numbers pin you down precisely)\n    - **Drumheller** (NE of Calgary): treeless badland rock formations; Montana's mountains are visible from southern Alberta\n- **Yukon**: Only Gen 2 and Gen 4 (no Gen 3), blue car, autumn colours, always mountainous; Top of the World Highway (high, treeless, camera smudge); Dempster Highway (yellow autumn leaves, dead flat past Fort McPherson); a biker gang ahead of the car on the Alaska Highway near Beaver Creek\n- **Northwest Territories**: Bollards with a much thinner white band than Alberta's; Hwy 1 & 7 are Gen 4, the Yellowknife spur Gen 2; Saskatchewan-style road lines occasionally appear in BC and Yukon"
+        },
+        {
+          "headingZh": "🌾 草原三省：萨斯喀彻温与曼尼托巴",
+          "headingEn": "The Prairies: Saskatchewan & Manitoba",
+          "contentZh": "- **萨斯喀彻温（SK）**：\n    - **萨省标线**：双黄线之间再加一条白线——高频出现\n    - **绝缘子左右交替**：这根杆左二右一，下一根换成左一右二\n    - 木桩上的**白色三角**；萨省杆顶特征鲜明\n    - **越往北树越多**（白杨林带沿国家公园一线延伸到埃德蒙顿以北）；南部极平、干燥、少树\n- **曼尼托巴（MB）**：\n    - 木桩上**绿—白—绿贴纸**（和车牌一样两边绿）\n    - 路缘标黑—灰（或黑—灰—橙）；低横担长绝缘子杆顶\n    - **北部道路两侧白杨林**（多为秋景）；弗林弗隆周边为加拿大地盾岩石\n- **通用**：南北向方格路网；油菜花田多在中部；不要点击三省北部无覆盖区",
+          "contentEn": "- **Saskatchewan**:\n    - **Sask road lines**: A white line between the double yellows — shows up a lot\n    - **Alternating insulators**: Two left/one right on one pole, then one left/two right on the next\n    - **White triangles** on wooden posts; distinctive Sask pole tops\n    - **Trees increase going NORTH** (the aspen parkland line runs along the national parks to north of Edmonton); the south is flat, dry and nearly treeless\n- **Manitoba**:\n    - **Green-white-green stickers** on wooden posts (like the plate's green ends)\n    - Black-grey (or black-grey-orange) bollards; low-crossbar pole tops with long insulators\n    - **Aspen forests along northern roads** (often autumn); Canadian Shield rock around Flin Flon\n- **General**: North–south grid roads; canola in the centre; never click the uncovered north of the three provinces"
+        },
+        {
+          "headingZh": "🍁 安大略与魁北克",
+          "headingEn": "Ontario & Quebec",
+          "contentZh": "- **安大略（ON）**：\n    - **斜切顶木桩 + 钢索护栏**：非常安大略\n    - **菱形反光路缘标**（背面也认得出）；**“杯子”杯形杆顶**（BC、新斯科舍偶见）；斜置绝缘子\n    - 喜欢在标志底部加东西：限速牌下**黑色小牌**（约一半）、里程牌下白色小牌\n    - **红色杆牌**（魁北克也有）；**加拿大地盾**：路边岩壁 → 安省中北部；桑德贝周边南北向网格 + 山丘\n    - 多伦多公交站：红白相间圆柱\n- **魁北克（QC）**：\n    - **只有法语**（看到英文就基本不是魁北克）；“ARRÊT”停车牌；街道用 rue / ch.\n    - **没有棋盘格警告牌**；**红白奥匈式 V 形导向牌**（不用黑黄）\n    - **“圣诞配色”红绿路缘标**，常装在护栏上；第二款类似缅因州\n    - **魁北克杆贴**：上黑下黄；专属杆顶（纽约州也能见到）；绝缘子面向道路\n    - **弯曲路灯**更常见；消防栓旁有标牌（东部省份类似）\n    - **加斯佩半岛**：299 号公路为阴天三代（132、198 为四代）；萨格奈与鲁安—诺兰达一带为南北网格",
+          "contentEn": "- **Ontario**:\n    - **Slant-cut wooden posts with cable guardrails**: Very Ontarian\n    - **Diamond-reflector bollards** (recognisable even from behind); **\"cups\" pole top** (occasionally BC, Nova Scotia); angled insulators\n    - Likes adding things below signs: a **black tab under speed signs** (~half the time), a white tab under km markers\n    - **Red tags on poles** (also Quebec); **Canadian Shield** rock cuts → central/northern Ontario; Thunder Bay has a N–S grid plus hills\n    - Toronto bus stops: red-and-white cylinders\n- **Quebec**:\n    - **French only** (English text means it's probably not Quebec); \"ARRÊT\" stop signs; streets are rue / ch.\n    - **No checkerboard warning signs**; **red-and-white Austro-Hungarian chevrons** (never black-yellow)\n    - **\"Christmas-coloured\" red/green bollards**, often mounted on guardrails; a second variant resembles Maine's\n    - **Quebec pole sticker**: black on top, yellow below; a Quebec-only pole top (also seen in New York state); insulators facing the road\n    - **Curved streetlights** more common; signs next to fire hydrants (similar in other eastern provinces)\n    - **Gaspé**: Road 299 is overcast Gen 3 (the 132 and 198 are Gen 4); Saguenay and Rouyn-Noranda have N–S grids"
+        },
+        {
+          "headingZh": "⚓ 大西洋四省：新不伦瑞克、新斯科舍、爱德华王子岛、纽芬兰与拉布拉多",
+          "headingEn": "Atlantic Canada: NB, NS, PEI, Newfoundland & Labrador",
+          "contentZh": "- **新不伦瑞克（NB）**：唯一官方双语省（STOP/ARRÊT 并列）；横贯加拿大公路上的**扁平黄色路缘标**；变压器朝向道路；**正下方矩形灯头**（新斯科舍偶见）；沿海与北部常见阿卡迪亚旗\n- **新斯科舍（NS）**：**双黄中线很常见**（加拿大其他省多为单黄）；绝缘子朝路、横担较短；布雷顿角多山\n- **爱德华王子岛（PEI）**：**极红的土壤**——看到就直接点；变压器 45° 安装；杆上小白牌\n- **纽芬兰（NL）**：\n    - **护栏立柱顶端为金字塔形**：全世界独一份\n    - **香脂冷杉“圣诞树”**遍布；三代多为晚秋；路边微粉的沙土\n    - 门前木制垃圾箱；标志杆用木箱固定；消防栓带菱形\n    - 横贯加拿大公路上四代偶见车身故障\n- **拉布拉多**：几乎只有 500/510 号横贯拉布拉多公路——蓝白条纹车，林线矮、太阳低",
+          "contentEn": "- **New Brunswick**: The only officially bilingual province (STOP/ARRÊT together); **flat yellow bollards** on the Trans-Canada; transformers facing the road; **rectangular downward-facing lamp heads** (occasionally NS); Acadian flags on the coast and in the north\n- **Nova Scotia**: **Double yellow centre lines are common** (other provinces mostly use single yellow); insulators facing the road, short crossbars; Cape Breton is hilly\n- **Prince Edward Island**: **Extremely red soil** — just click it; transformers mounted at 45°; small white plaques on poles\n- **Newfoundland**:\n    - **Guardrail posts with pyramid tops**: unique in the world\n    - **Balsam fir \"Christmas trees\"** everywhere; Gen 3 is often late autumn; slightly pinkish sandy roadsides\n    - Wooden bins outside houses; wooden boxes bracing sign posts; fire hydrants with a diamond\n    - Occasional Gen 4 car glitch on the Trans-Canada\n- **Labrador**: Basically only the Trans-Labrador Highway (500/510) — blue-white striped car, short tree line, low sun"
+        }
+      ],
+      "rawContent": "加拿大各省车牌前牌、路缘标护栏、电线杆杆顶、魁北克法语特征、大西洋省份、育空地貌",
+      "sources": [
+        {
+          "title": "zi8gzag 2 – How to Guess Canada on Geoguessr",
+          "url": "https://youtu.be/sApW_6-0zRc"
+        },
+        {
+          "title": "Daiiono – 5 Metas Every Pro Should Know Ep.23 (Canada)",
+          "url": "https://youtu.be/-bC5swLvZCc"
+        }
+      ]
+    },
+    {
+      "id": "mexico",
+      "nameZh": "墨西哥",
+      "nameEn": "Mexico",
+      "flag": "🇲🇽",
+      "continent": "North America",
+      "sections": [
+        {
+          "headingZh": "☎️ 电话区号、车牌与墨西哥城",
+          "headingEn": "Area Codes, Plates & Mexico City",
+          "contentZh": "- **电话区号首位**：5 = 中部（55/56 墨西哥城，“5 在中间”）；6 = 西北（下加州、索诺拉、奇瓦瓦、锡那罗亚）；8 = 东北（蒙特雷、科阿韦拉、塔毛利帕斯）；9 = 南部与尤卡坦；3 = 西部（33 瓜达拉哈拉）；4 = 巴希奥与中北部；2 = 普埃布拉/韦拉克鲁斯/瓦哈卡等中东部；7 = 格雷罗/莫雷洛斯/伊达尔戈。最值得背：6、8、9 三组（国土两端）\n- **墨西哥城**：粉白双色出租车；邮编 01–16 开头（墨西哥州为 50–57）\n- **车牌**：大多数没必要学；只推荐哈利斯科（像宾夕法尼亚车牌）、瓦哈卡（意大利国旗配色）、锡那罗亚（像日本国旗）、纳亚里特\n- **四代车**：蓝车、蓝色条纹车、黑车最常见；超裸露蓝车 → 恰帕斯（2023）与坎佩切（2024）；黑车 → 瓦哈卡、普埃布拉、瓜纳华托一带及托雷翁—蒙特雷；2022 条纹车 → 北部；带橙色元素的车 → 托雷翁—蒙特雷",
+          "contentEn": "- **First digit of area codes**: 5 = centre (55/56 Mexico City — \"5 is the middle\"); 6 = northwest (Baja, Sonora, Chihuahua, Sinaloa); 8 = northeast (Monterrey, Coahuila, Tamaulipas); 9 = the south & Yucatán; 3 = the west (33 Guadalajara); 4 = Bajío & north-centre; 2 = Puebla/Veracruz/Oaxaca east-centre; 7 = Guerrero/Morelos/Hidalgo. The most valuable are 6, 8 and 9 (the extremities)\n- **Mexico City**: Pink-and-white taxis; postcodes start 01–16 (State of Mexico 50–57)\n- **Plates**: Mostly not worth learning; only Jalisco (looks like Pennsylvania), Oaxaca (Italian-flag colours), Sinaloa (looks like the Japanese flag) and Nayarit\n- **Gen 4 car**: Blue, striped blue and black are most common; the super-exposed blue car → Chiapas (2023) and Campeche (2024); black car → Oaxaca, Puebla, the Guanajuato area and Torreón–Monterrey; 2022 striped car → the north; the orange-accented car → Torreón–Monterrey"
+        },
+        {
+          "headingZh": "🌵 仙人掌、龙舌兰与植被",
+          "headingEn": "Cacti, Agave & Vegetation",
+          "contentZh": "- **仙人掌（Nopal，扁平圆形）**：中部常见，最北部少，尤卡坦没有——乡村回合每轮都要找\n- **龙舌兰**：浅绿色的 Agave salmiana → 墨西哥城与圣路易斯波托西周边；**蓝色龙舌兰大田**（龙舌兰酒）→ 哈利斯科与纳亚里特（瓜达拉哈拉）；更大的变种 → 瓦哈卡（梅斯卡尔酒）\n- **丝兰树（“SLP 树”）** → 东部山脉：圣路易斯波托西、萨卡特卡斯、科阿韦拉；萨卡特卡斯—萨尔蒂约的分隔公路（54/57 号）两侧丝兰成片\n- **柱状仙人掌**：武伦柱（从低处分出长臂）→ 下加州；巨人柱（短而弯的臂）→ 索诺拉（亚利桑那边境）；风琴管仙人掌（像手指从地面长出）→ 索诺拉；蓝桃仙人掌 → 墨西哥城/圣路易斯波托西；Cephalocereus 无分枝柱状仙人掌 → 墨西哥城以南\n- **观峰玉（“外星触手”树）** → 下加州中部（埃尔罗萨里奥—蓬塔普列塔）；**银灰色脆枝菊** → 索诺拉/下加州；**椰枣** → 埃莫西约\n- **热带作物**：甘蔗 → 南部；椰子 → 南部沿海；萨巴尔扇叶棕 → 纳亚里特（东南沿海有矮款）；香蕉 → 南部低地；**油棕** → 只在恰帕斯；果树/橙树 → 韦拉克鲁斯（哈拉帕）\n- **树干细白、耐旱的小树 + 平地** → 尤卡坦半岛；**金黄草 + 白沙** → 科阿韦拉；**一丛丛的草** → 特拉斯卡拉\n- **红色树皮的树长进篱笆** → 韦拉克鲁斯（可与哥伦比亚区分）",
+          "contentEn": "- **Prickly pear (nopal)**: Common in the centre, rarer in the far north, absent from Yucatán — check every rural round\n- **Agave**: Light-green Agave salmiana → around Mexico City & San Luis Potosí; **fields of blue agave** (tequila) → Jalisco & Nayarit (Guadalajara); a bigger variant → Oaxaca (mezcal)\n- **Yucca trees (\"SLP tree\")** → the eastern ranges: San Luis Potosí, Zacatecas, Coahuila; yucca spam along the divided Zacatecas–Saltillo highway (54/57)\n- **Columnar cacti**: Cardón (long arms branching low) → Baja California; saguaro (short curving arms) → Sonora (Arizona border); organ pipe (finger-like from the ground) → Sonora; blue myrtle cactus → Mexico City/SLP; unbranched Cephalocereus columns → south of Mexico City\n- **Boojum trees (\"alien tentacles\")** → central Baja (El Rosario – Punta Prieta); **silver-grey brittlebush** → Sonora/Baja; **date palms** → Hermosillo\n- **Tropical crops**: Sugarcane → the south; coconut → southern coasts; sabal fan palms → Nayarit (shorter version on the SE coast); bananas → southern lowlands; **oil palm** → Chiapas only; fruit/orange trees → Veracruz (Xalapa)\n- **Thin white-trunked hardy trees + flat land** → Yucatán Peninsula; **golden grass + white sand** → Coahuila; **grass tufts** → Tlaxcala\n- **Red-barked trees grown into fences** → Veracruz (helps vs Colombia)"
+        },
+        {
+          "headingZh": "🏔️ 土壤、地形与地标",
+          "headingEn": "Soil, Terrain & Landmarks",
+          "contentZh": "- **土壤**：极红 → 萨卡特卡斯（米却肯、瓦哈卡也有）；黑色/深色农田 → 瓜纳华托（平坦，最容易的州之一）；红色农田 → 坎佩切北部；刺眼的白土 → 金塔纳罗奥\n- **地形**：尤卡坦平坦、坎佩切微起伏、塔巴斯科极平；恰帕斯山脊连绵；瓦哈卡处处是山；中央高原平地上四面都能看到山与火山（普埃布拉可望见火山）；下加州有山但不高；索诺拉平坦但北面总有山（得州边境除外）\n- **蒙特雷**：令人窒息的干燥锯齿状山峰；**蒂华纳周边**：地中海式景观；**西部**：矮小松林（中南部松林更高）\n- **地标**：\n    - **Cerro del Bernal**（塔毛利帕斯）：锯齿状“草帽”形死火山\n    - **Sierra del Abra Tanchipa**（圣路易斯波托西）：平直的长山脊\n    - **Maderas del Carmen**（科阿韦拉）：分层的巨型岩体，土路 53 号\n    - **瓦哈卡地峡风电场**（La Ventosa/Juchitán）：带红圈的风机 + 铁路\n- **褐土灌溉渠** → 洛斯莫奇斯/锡那罗亚",
+          "contentEn": "- **Soil**: Extremely red → Zacatecas (also Michoacán, Oaxaca); black/dark fields → Guanajuato (flat, one of the easiest states); red farm fields → northern Campeche; blinding white soil → Quintana Roo\n- **Terrain**: Yucatán flat, Campeche slightly hilly, Tabasco dead flat; Chiapas has ridge after ridge; Oaxaca is mountainous everywhere; on the central plateau you can always see mountains and volcanoes (Puebla often has a volcano view); Baja is mountainous but not tall; Sonora is flat but nearly always has mountains to the north (except on the Texas border)\n- **Monterrey**: Breathtaking dry, jagged peaks; **near Tijuana**: Mediterranean landscape; **the west**: stunted pines (taller pines in the centre/south)\n- **Landmarks**:\n    - **Cerro del Bernal** (Tamaulipas): jagged \"straw hat\" dormant volcano\n    - **Sierra del Abra Tanchipa** (San Luis Potosí): a long, flat, straight ridge\n    - **Maderas del Carmen** (Coahuila): tiered monolithic massif, dirt road 53\n    - **Isthmus of Tehuantepec wind farms** (La Ventosa/Juchitán): red-banded turbines + a railway\n- **Brown-dirt irrigation canals** → Los Mochis/Sinaloa"
+        },
+        {
+          "headingZh": "🧱 建筑、电线杆与道路",
+          "headingEn": "Architecture, Poles & Roads",
+          "contentZh": "- **建筑**：\n    - **满眼红砖** → 米却肯、哈利斯科、瓜纳华托（阿瓜斯卡连特斯也多）；尤卡坦基本没有\n    - **红砖白砖混用** → 中部谷地；**白砖为主** → 墨西哥城周边/普埃布拉\n    - **泥砖** → 北部（杜兰戈、萨卡特卡斯）；**带门的粉彩平房** → 美墨边境风格\n    - **茅草屋顶** → 尤卡坦、恰帕斯、圣路易斯波托西东部；**浅色石墙（Albarradas）** → 尤卡坦（墨西哥城/莫雷洛斯附近的石墙颜色深）\n- **电线杆与设施**：\n    - **“沿海绝缘子”**（白色、印尼式形状）→ 沿海各州（尤其科利马、米却肯、韦拉克鲁斯），内陆州从不出现，南下加州除外；多一圈脊的大号不算\n    - **两道脊的“UFO”绝缘子叠放在不对称横担上** → 墨西哥城、墨西哥州、伊达尔戈、莫雷洛斯\n    - **木杆 + 低横担** → 锡那罗亚与索诺拉；**水泥杆 + 低横担** → 北部；再加**一根长斜撑** → 杜兰戈（非常稳定）\n    - **下垂绝缘子**：木杆 → 下加州；水泥杆 → 尤卡坦\n    - **网格杆身** → 克雷塔罗、瓜纳华托、圣路易斯波托西\n    - **标志背面十字支架** → 奇瓦瓦（送分）；**红条纹路缘标** → 纳亚里特；**带皇冠的细路缘标** → 哈利斯科\n    - **黄色“NO EXCAVAR / DUCTOS”管道桩** → 墨西哥湾石油带（塔巴斯科、韦拉克鲁斯、塔毛利帕斯）\n- **道路**：\n    - **全白道路标线** → 塔巴斯科（现在变少）；**双黄线之间涂黑色沥青** → 锡那罗亚、杜兰戈、格雷罗\n    - **偏蓝的粗颗粒路面** → 东北/墨西哥湾；**鹅卵石路** → 瓜达拉哈拉、克雷塔罗；**六边形铺砖** → 普埃布拉；**三条石带的“瓦哈卡路”** → 瓦哈卡",
+          "contentEn": "- **Architecture**:\n    - **Red brick on every building** → Michoacán, Jalisco, Guanajuato (also Aguascalientes); basically absent from Yucatán\n    - **Mixed red & white brick** → the central valley; **mostly white brick** → around Mexico City/Puebla\n    - **Mud brick** → the north (Durango, Zacatecas); **pastel bungalows with gates** → US-border style\n    - **Thatched roofs** → Yucatán, Chiapas, eastern SLP; **pale stone walls (albarradas)** → Yucatán (stone walls near Mexico City/Morelos are dark)\n- **Poles & furniture**:\n    - **\"Coastal insulators\"** (white, Indonesian-shaped) → coastal states (especially Colima, Michoacán, Veracruz); never in landlocked states, and not Baja Sur; the bigger version with extra ridges doesn't count\n    - **Two-ridged \"UFO\" insulators stacked on an asymmetrical crossbar** → Mexico City, State of Mexico, Hidalgo, Morelos\n    - **Wooden pole + low crossbar** → Sinaloa & Sonora; **concrete pole + low crossbar** → the north; plus **one long support beam** → Durango (very consistent)\n    - **Hanging insulators**: on wooden poles → Baja; on concrete poles → Yucatán\n    - **Mesh-bodied poles** → Querétaro, Guanajuato, San Luis Potosí\n    - **Cross brace on the back of signs** → Chihuahua (a freebie); **red-striped bollards** → Nayarit; **thin bollard with a crown** → Jalisco\n    - **Yellow \"NO EXCAVAR / DUCTOS\" pipeline posts** → the Gulf oil belt (Tabasco, Veracruz, Tamaulipas)\n- **Roads**:\n    - **All-white road lines** → Tabasco (less common now); **black tar painted between double yellows** → Sinaloa, Durango, Guerrero\n    - **Grainy bluish asphalt** → the Northeast/Gulf; **cobblestones** → Guadalajara, Querétaro; **hexagonal pavers** → Puebla; **three-strip stone \"Oaxaca road\"** → Oaxaca"
+        }
+      ],
+      "rawContent": "墨西哥电话区号、仙人掌与龙舌兰、土壤地貌、红白砖建筑、绝缘子与电杆、道路铺装、地标山脉",
+      "sources": [
+        {
+          "title": "zi8gzag 2 – How to Guess Mexico on Geoguessr",
+          "url": "https://youtu.be/OCwoR4jzHdE"
+        },
+        {
+          "title": "Daiiono – 5 Metas Every Pro Should Know Ep.19 (Mexico)",
+          "url": "https://youtu.be/2o3eZfeaoGE"
+        }
+      ]
     },
     {
       "id": "brazil",
@@ -5474,35 +6470,291 @@ window.GEOGUESSR_DATA = {
         {
           "headingZh": "☎️ 电话区号 (DDD 11-99) 逆时针法则",
           "headingEn": "DDD Phone Area Codes: The Counter-Clockwise Spiral",
-          "contentZh": "- **区号结构**：11位电话号码前两位为 DDD 区号 (注意以 9 开头的多为手机号；第二位是 1 通常为该州主要大城市)\n- **从圣保罗开始逆时针旋转法则**：\n    - **1x**：圣保罗州 (São Paulo SP，以该州中心开始，11 为圣保罗市，12-19 为周边)\n    - **2x**：里约热内卢 (RJ 21/22/24) + 圣埃斯皮里图 (ES 27/28) (逆时针往右上角延伸)\n    - **3x**：米纳斯吉拉斯州 (Minas Gerais MG 31-38) (逆时针完成 SP 北部邻州)\n    - **4x**：巴拉那州 (PR 41-46) + 圣卡塔琳娜州 (SC 47-49) (转向 SP 南方大州)\n    - **5x**：南里奥格兰德州 (Rio Grande do Sul RS 51-55) (继续向最南端延伸)\n    - **6x**：中西部与南亚马逊：南马托格罗索 (MS 67) + 戈亚斯/联邦区 (GO/DF 61/62/64) + 托坎廷斯 (TO 63) + 马托格罗索 (MT 65/66) + 朗多尼亚 (RO 69) + 阿克里 (AC 68)\n    - **7x**：巴伊亚州 (Bahia BA 71-77) + 塞尔希培州 (SE 79) (逆时针上行)\n    - **8x**：卡廷加与东北沿海各州：皮奥伊 (PI) + 塞阿腊 (CE) + 北里奥格兰德 (RN) + 帕拉伊巴 (PB) + 伯南布哥 (PE) + 阿拉戈斯 (AL)\n    - **9x**：北亚马逊大区：帕拉 (PA 91/93/94) + 亚马孙 (AM 92/97) + 罗赖马 (RR 95) + 阿马帕 (AP 96) + 马拉尼昂 (MA 98/99)",
-          "contentEn": "- **DDD Code Structure**: The first two digits of landline numbers represent the DDD code (cell numbers start with 9; second digit 1 denotes capital/major city)\n- **The Counter-Clockwise Spiral Rule Starting from São Paulo**:\n    - **1x**: São Paulo State (SP: 11 is capital city, 12–19 for interior)\n    - **2x**: Rio de Janeiro (RJ 21/22/24) + Espírito Santo (ES 27/28)\n    - **3x**: Minas Gerais (MG 31–38)\n    - **4x**: Paraná (PR 41–46) + Santa Catarina (SC 47–49)\n    - **5x**: Rio Grande do Sul (RS 51–55, extreme south)\n    - **6x**: Central-West & Southern Amazonia: MS (67), GO/DF (61/62/64), TO (63), MT (65/66), RO (69), AC (68)\n    - **7x**: Bahia (BA 71–77) + Sergipe (SE 79)\n    - **8x**: Northeast / Caatinga: Piauí (PI), Ceará (CE), Rio Grande do Norte (RN), Paraíba (PB), Pernambuco (PE), Alagoas (AL)\n    - **9x**: Northern Amazonia: Pará (PA), Amazonas (AM), Roraima (RR), Amapá (AP), Maranhão (MA)"
+          "contentZh": "> zi8gzag：“没有哪个国家的电话区号比巴西更好用”。先背首位数字，再至少把 6x 和 9x 的第二位背下来。\n- **区号结构**：电话号码前两位为 DDD 区号（以 9 开头的八/九位号码多为手机号；第二位是 1 通常为该州首府）\n- **从圣保罗开始逆时针旋转**：\n    - **1x**：圣保罗州（11 圣保罗市，12-19 内陆）\n    - **2x**：里约热内卢（21/22/24）+ 圣埃斯皮里图（27/28）\n    - **3x**：米纳斯吉拉斯（31-38）\n    - **4x**：巴拉那（41-46）+ 圣卡塔琳娜（47-49）\n    - **5x**：南里奥格兰德（51-55）\n    - **6x**：中西部与南亚马逊：联邦区/戈亚斯（61/62/64）、托坎廷斯（63）、马托格罗索（65/66）、南马托格罗索（67）、阿克里（68）、朗多尼亚（69）\n    - **7x**：巴伊亚（71-77）+ 塞尔希培（79）\n    - **8x**：东北部：伯南布哥（81/87）、阿拉戈斯（82）、帕拉伊巴（83）、北里奥格兰德（84）、塞阿腊（85/88）、皮奥伊（86/89）\n    - **9x**：北部：帕拉（91/93/94）、亚马孙（92/97）、罗赖马（95）、阿马帕（96）、马拉尼昂（98/99）",
+          "contentEn": "> zi8gzag: \"There's no country in the world where learning the phone codes is as useful.\" Learn the first digit, then at least the second digits of the 6x and 9x groups.\n- **Structure**: The first two digits are the DDD code (numbers starting with 9 are usually mobiles; a second digit of 1 is usually the state capital)\n- **Counter-clockwise spiral starting from São Paulo**:\n    - **1x**: São Paulo state (11 the city, 12–19 the interior)\n    - **2x**: Rio de Janeiro (21/22/24) + Espírito Santo (27/28)\n    - **3x**: Minas Gerais (31–38)\n    - **4x**: Paraná (41–46) + Santa Catarina (47–49)\n    - **5x**: Rio Grande do Sul (51–55)\n    - **6x**: Centre-West & southern Amazon: DF/Goiás (61/62/64), Tocantins (63), Mato Grosso (65/66), Mato Grosso do Sul (67), Acre (68), Rondônia (69)\n    - **7x**: Bahia (71–77) + Sergipe (79)\n    - **8x**: Northeast: Pernambuco (81/87), Alagoas (82), Paraíba (83), Rio Grande do Norte (84), Ceará (85/88), Piauí (86/89)\n    - **9x**: North: Pará (91/93/94), Amazonas (92/97), Roraima (95), Amapá (96), Maranhão (98/99)"
         },
         {
-          "headingZh": "📮 邮政编码 (CEP 0-9) 首位地理分布",
-          "headingEn": "CEP Postal Codes: State-by-State Sweep",
-          "contentZh": "- **CEP 格式**：路牌下方注明的 CEP XXXXX-XXX，首位数字同样按顺时针/逆时针自南向北展开：\n    - **0-1**：圣保罗州 (SP)\n    - **2**：里约热内卢 (RJ) + 圣埃斯皮里图 (ES)\n    - **3**：米纳斯吉拉斯 (MG)\n    - **4**：巴伊亚 (BA) + 塞尔希培 (SE)\n    - **5**：卡廷加东北各州 (PE, AL, PB, RN)\n    - **6**：北部与东亚马逊 (CE, PI, MA, PA, AP, AM, RR, AC)\n    - **7**：中西部各州 (GO, DF, TO, MT, MS, RO)\n    - **8**：巴拉那 (PR) + 圣卡塔琳娜 (SC)\n    - **9**：南里奥格兰德州 (RS)",
-          "contentEn": "- **CEP Format**: Postcodes stamped on street signs read XXXXX-XXX; initial digits map cleanly across states:\n    - **0–1**: São Paulo (SP)\n    - **2**: Rio de Janeiro (RJ) & Espírito Santo (ES)\n    - **3**: Minas Gerais (MG)\n    - **4**: Bahia (BA) & Sergipe (SE)\n    - **5**: Northeast interior (PE, AL, PB, RN)\n    - **6**: North & Eastern Amazonia (CE, PI, MA, PA, AP, AM, RR, AC)\n    - **7**: Central-West (GO, DF, TO, MT, MS, RO)\n    - **8**: Paraná (PR) & Santa Catarina (SC)\n    - **9**: Rio Grande do Sul (RS)"
+          "headingZh": "📮 邮编 (CEP) 首位与联邦公路编号",
+          "headingEn": "CEP Postcodes & Federal Highway Numbering",
+          "contentZh": "- **CEP 格式**：路牌上常写 CEP XXXXX-XXX，首位数字：\n    - **0-1**：圣保罗州；**2**：里约 + 圣埃斯皮里图；**3**：米纳斯\n    - **4**：巴伊亚 + 塞尔希培；**5**：伯南布哥、阿拉戈斯、帕拉伊巴、北里奥格兰德\n    - **6**：塞阿腊、皮奥伊、马拉尼昂、帕拉、阿马帕、亚马孙、罗赖马、阿克里\n    - **7**：联邦区、戈亚斯、托坎廷斯、马托格罗索、南马托格罗索、朗多尼亚\n    - **8**：巴拉那 + 圣卡塔琳娜；**9**：南里奥格兰德\n- **州级公路**：州缩写 + 路号（如 SP-280、RJ-116、MG-050）——直接告诉你所在州\n- **联邦公路 BR-XXX**：\n    - **BR-0xx**：以巴西利亚为中心的放射线\n    - **BR-1xx**：南北向（沿海 BR-101、内陆 BR-116）\n    - **BR-2xx**：东西向（横贯亚马逊 BR-230）\n    - **BR-3xx**：对角线方向；**BR-4xx**：连接两条干线的联络线\n- **里程牌**：蓝色，常写道路名；巴西道路很长，单凭路名可能离得很远",
+          "contentEn": "- **CEP format**: Signs often show CEP XXXXX-XXX; first digit:\n    - **0–1**: São Paulo; **2**: Rio + Espírito Santo; **3**: Minas Gerais\n    - **4**: Bahia + Sergipe; **5**: Pernambuco, Alagoas, Paraíba, Rio Grande do Norte\n    - **6**: Ceará, Piauí, Maranhão, Pará, Amapá, Amazonas, Roraima, Acre\n    - **7**: DF, Goiás, Tocantins, Mato Grosso, Mato Grosso do Sul, Rondônia\n    - **8**: Paraná + Santa Catarina; **9**: Rio Grande do Sul\n- **State highways**: State abbreviation + number (SP-280, RJ-116, MG-050) — tells you the state directly\n- **Federal highways BR-XXX**:\n    - **BR-0xx**: Radial from Brasília\n    - **BR-1xx**: North–south (coastal BR-101, inland BR-116)\n    - **BR-2xx**: East–west (Trans-Amazonian BR-230)\n    - **BR-3xx**: Diagonal; **BR-4xx**: Connectors between two trunk roads\n- **Km markers**: Blue, usually naming the road; Brazilian roads are very long, so a road name alone can still leave you far away"
         },
         {
-          "headingZh": "🛣️ 国家高速 (BR-0xx 至 BR-4xx) 编号走向体系",
-          "headingEn": "Federal Highway Numbering: Radial, N-S, E-W, Diagonal",
-          "contentZh": "- **州级公路**：州名缩写 + 路号 (如 SP-280, RJ-116, MG-050)\n- **国家级联邦公路 (BR-XXX)**：\n    - **BR-000 至 BR-099 (放射状)**：以首都巴西利亚 (Brasília) 为中心向全国内陆与沿海辐射\n    - **BR-100 至 BR-199 (南北向)**：纵贯南北公路 (如沿海干线 BR-101, 内陆干线 BR-116)\n    - **BR-200 至 BR-299 (东西向)**：横贯东西公路 (如横跨亚马逊的 BR-230)\n    - **BR-300 至 BR-399 (对角斜向)**：跨区域对角线走向公路\n    - **BR-400 至 BR-499 (联络过渡)**：连接两条主干联邦公路的联络线或短支线",
-          "contentEn": "- **State Highways**: State abbreviation + number (e.g. SP-280, RJ-116, MG-050)\n- **Federal Highway Grid (BR-XXX)**:\n    - **BR-000 to BR-099 (Radial)**: Radiate outwards from the capital Brasília\n    - **BR-100 to BR-199 (North-South)**: Longitudinal trunk routes (e.g. coastal BR-101, inland spine BR-116)\n    - **BR-200 to BR-299 (East-West)**: Latitudinal routes (e.g. Trans-Amazonian BR-230)\n    - **BR-300 to BR-399 (Diagonal)**: Diagonal cross-regional routes\n    - **BR-400 to BR-499 (Connector)**: Link routes connecting two major highways"
+          "headingZh": "🌴 植被与作物：巴西区域判断之王",
+          "headingEn": "Vegetation & Crops: The King of Brazil Regionguessing",
+          "contentZh": "- **巴拉那松（南洋杉）**：烛台形针叶树 → 巴拉那、圣卡塔琳娜（南里奥格兰德高地）；南部回合先找它\n- **棕榈树分辨**：\n    - **椰子树**：沿海、偏北\n    - **卡瑙巴蜡棕（“绒球”扇叶，树干基部像菠萝）**：塞阿腊（皮奥伊、北里奥格兰德也有）\n    - **巴巴苏棕榈**：马拉尼昂（亚马逊及东部沿海也有）\n    - **阿萨伊棕榈（细高丛生）**：贝伦周边，但全国可见\n    - **布里蒂棕榈（扇叶圆润）**：西部（秘鲁也有）\n    - **马考巴棕榈（“巴拉圭棕榈”，叶片蓬乱）**：南马托格罗索、戈亚斯、米纳斯\n- **草**：“假草”（杂草代替草皮）→ 东北部；极高的金黄长草 → 托坎廷斯/中部\n- **桉树**：几乎都是成排种植园\n- **甘蔗**：东北沿海（伯南布哥、阿拉戈斯、帕拉伊巴）配**非红土** vs 圣保罗州配**红土**\n- **大豆（及带篷运豆卡车）**：马托格罗索、戈亚斯；**咖啡**：圣埃斯皮里图、米纳斯—圣保罗交界、米纳斯西部（乌贝兰迪亚）\n- **土壤**：极深红土 + 玉米 → 巴拉那西部；东北部红土最少（乳白/米色沙土、像非洲的灌木）；皮奥伊新修道路两侧铺红色碎石路肩（罗赖马、托坎廷斯也有）\n- **地形**：米纳斯/圣埃斯皮里图为“半个橙子”形的绿色圆丘；圣埃斯皮里图有拔地而起的巨大花岗岩穹丘；罗赖马多小山、草原稀疏；东北部旱季雨季差别极大\n- **其他**：巴西栗树 → 亚马逊；白蚁丘 → 米纳斯中西部、戈亚斯；木麻黄（细须状“松树”）→ 沿海",
+          "contentEn": "- **Paraná pine (Araucaria)**: Candelabra-shaped conifer → Paraná, Santa Catarina (RS highlands); look for it in every southern round\n- **Palms**:\n    - **Coconut**: Coast, further north\n    - **Carnaúba (\"pom-pom\" fan palm with a pineapple-like base)**: Ceará (also Piauí, RN)\n    - **Babaçu**: Maranhão (also the Amazon and east coast)\n    - **Açaí (thin, clustered)**: Around Belém but seen everywhere\n    - **Buriti (rounded fronds)**: The west (also Peru)\n    - **Macaúba (\"Paraguay palm\", shaggy)**: Mato Grosso do Sul, Goiás, Minas\n- **Grass**: \"Fake grass\" (weeds instead of turf) → Northeast; very tall golden grass → Tocantins/centre\n- **Eucalyptus**: Almost always planted in rows\n- **Sugarcane**: Northeast coast (PE, AL, PB) WITHOUT red soil vs São Paulo WITH red soil\n- **Soy (and covered soy trucks)**: Mato Grosso, Goiás; **coffee**: Espírito Santo, the Minas–São Paulo border, western Minas (Uberlândia)\n- **Soil**: Very dark red soil + corn → western Paraná; the Northeast has the least red soil (cream/whitish sand, African-looking scrub); Piauí lays red gravel shoulders beside newly paved roads (also Roraima, Tocantins)\n- **Terrain**: Minas/Espírito Santo have green \"half-orange\" hills; Espírito Santo has huge granite domes; Roraima small hills and thin savannah; the Northeast looks very different in dry vs rainy season\n- **Other**: Brazil-nut trees → Amazon; termite mounds → central/western Minas, Goiás; casuarina \"whisker pines\" → the coast"
         },
         {
-          "headingZh": "⚡ 电线杆、特色路灯臂与建筑细节",
-          "headingEn": "Utility Poles, Streetlight Arms & Architecture",
-          "contentZh": "- **电线杆与路灯设施**：\n    - **混凝土圆形电线杆**：在圣保罗州 (SP) 及其周边大都市区最常出现\n    - **纯木头电线杆**：在最南部的南里奥格兰德州 (RS) 大量出现\n    - **横杠下无三角斜支撑杆**：多集中在巴西东北部各州\n    - **彩色装饰性“羽翼状”路灯臂**：东北部塞阿腊州 (Ceará / CE) 独家特色\n    - **棕色蘑菇状瓷绝缘子**：东北部伯南布哥州 (Pernambuco / PE)\n    - **顶部单绝缘子，下方错位交替横向绝缘子**：马托格罗索州 (Mato Grosso / MT) 特色杆\n    - **长的黄色或黑色竖贴纸，印有一串数字**：戈亚斯州 (Goiás / GO)\n- **建筑与道路细节**：\n    - **门前类似洗手池/脸盆的高架垃圾架**：西部边境阿克里 (AC) 与朗多尼亚 (RO)\n    - **欧式红瓦砖木洋房**：南三州圣卡塔琳娜 (SC)、巴拉那 (PR)、南里奥格兰德 (RS)\n    - **高木柱支撑的吊脚木屋**：阿克里 (AC) 亚马逊雨林带\n    - **道路两侧泥土极其平整赤红 (类似澳洲)**：皮奥伊州 (Piauí / PI)\n    - **住宅电表箱内安装粗格金属网罩**：圣卡塔琳娜州 (SC)",
-          "contentEn": "- **Pole & Lighting Metas**:\n    - **Round Concrete Poles**: Most prevalent around São Paulo (SP) and neighboring industrial regions\n    - **Wooden Poles**: Ubiquitous in the southernmost state of Rio Grande do Sul (RS)\n    - **Crossarms Without Triangular Braces**: Concentrated across the Northeast\n    - **Ornate Winged Colorful Streetlight Brackets**: Signature meta of Ceará (CE)\n    - **Brown Mushroom Insulators**: Specific to Pernambuco (PE)\n    - **Top Single Insulator + Alternating Lower Insulators**: Mato Grosso (MT) pole configuration\n    - **Long Vertical Yellow/Black Number Stickers**: Goiás (GO)\n- **Architecture & Local Quirks**:\n    - **Washbasin-Style Elevated Trash Bins on Posts**: Acre (AC) and Rondônia (RO) in the far west\n    - **European-Style Brick & Timber Cottages**: Southern states (SC, PR, RS)\n    - **Stilt Wooden Houses on High Posts**: Acre (AC) rain forest lowlands\n    - **Neat Flat Red Road Shoulders (Aussie-like)**: Piauí (PI)\n    - **Heavy Wire Mesh Cages Inside Electric Meter Boxes**: Santa Catarina (SC)"
+          "headingZh": "⚡ 电线杆、基础设施与建筑",
+          "headingEn": "Poles, Infrastructure & Architecture",
+          "contentZh": "- **电线杆**：\n    - **圆形水泥杆**：偏南部（各州首府也常见）；巴西标准杆为一面平、一面有凹槽的分段水泥杆\n    - **木杆**：南里奥格兰德、里约周边、亚马逊（阿克里、帕拉除外）\n    - **横担下无斜撑**：东北部（有撑杆在东北部少见）\n    - **长条黄色标记（首位为字母）**：伯南布哥与巴伊亚；**黄/黑竖向数字贴纸**：戈亚斯\n    - **扎带固定的黄/橙色金属牌**：伯南布哥（位置高、近杆顶）与北里奥格兰德（位置较低）\n    - **黄底黑字涂装（市政代码 + 编号）**：圣保罗市及郊区\n    - **绝缘子**：棕色蘑菇形 → 伯南布哥；白色美式蘑菇形 → 巴伊亚；顶部单绝缘子 + 下方交错 → 马托格罗索\n    - **鸟巢（棕灶鸟）**：偏南部\n- **道路**：圣保罗州多带中央隔离带的双向分隔公路；鹅卵石路 → 最东北或最南部；六边形铺砖 → 圣卡塔琳娜（米纳斯也有）；红砖路（部分被沥青覆盖）→ 阿克里（里约布朗库）\n- **建筑**：德式房屋 → 南部；高脚木屋 → 阿克里；门前水泥垃圾台 → 朗多尼亚与阿克里；电表箱内粗网罩 → 圣卡塔琳娜\n- **围栏**：歪斜简陋木栅栏 → 东北部；整齐笔直的围栏 → 南部（需结合语境）",
+          "contentEn": "- **Poles**:\n    - **Round concrete poles**: Lean south (also common in state capitals); the standard Brazilian pole is a sectioned concrete pole flat on one side, notched on the other\n    - **Wooden poles**: Rio Grande do Sul, around Rio, the Amazon (but not Acre or Pará)\n    - **No braces under the crossarm**: Northeast (braces are rare there)\n    - **Long yellow marking starting with a letter**: Pernambuco & Bahia; **yellow/black vertical number stickers**: Goiás\n    - **Zip-tied yellow/orange metal tags**: Pernambuco (high, near the pole top) and Rio Grande do Norte (lower down)\n    - **Yellow paint with black text (municipality code + number)**: São Paulo city & suburbs\n    - **Insulators**: Brown mushroom → Pernambuco; white US-style mushroom → Bahia; single top insulator + staggered lower ones → Mato Grosso\n    - **Bird nests (ovenbirds) on poles**: Lean south\n- **Roads**: Divided highways with a median are typical of São Paulo state; cobblestones → far Northeast or far South; hexagonal pavers → Santa Catarina (also Minas); red-brick roads partly paved over → Acre (Rio Branco)\n- **Architecture**: German-style houses → the South; wooden stilt houses → Acre; concrete bin stands outside houses → Rondônia & Acre; heavy mesh inside electricity meter boxes → Santa Catarina\n- **Fences**: Rickety wooden fences → Northeast; neat straight fences → South (use with context)"
         },
         {
-          "headingZh": "🌲 植被生态带：巴拉那松、塞拉多与卡廷加",
-          "headingEn": "Vegetation Zones: Paraná Pine, Coffee, Macaw Palm & Caatinga",
-          "contentZh": "- **巴拉那松 (Paraná Pine / Araucaria)**：巨大如烛台的高寒针叶树，绝对标志着巴西南部三大州 (PR, SC, RS)\n- **成片高大咖啡灌木**：深绿茂密的成排灌木丛，多见于圣保罗州 (SP) 及其周边高原农场\n- **巴西栗树 (Brazil Nut Tree)**：高耸入云的保护伞状参天巨树，分布在亚马逊雨林及其外围走廊\n- **椰子树与甘蔗田**：椰子树遍布东部大西洋热带沿海；甘蔗田广泛种植于圣保罗州及东北沿海阿拉戈斯州 (Alagoas)\n- **连绵大豆田**：南亚马逊及马托格罗索农业开垦带\n- **金刚鹦鹉棕榈 (Macaw Palm / Bocaiuva)**：带极细密棕榈叶的粗壮棕榈，在南马托格罗索 (MS) 潘塔纳尔湿地边缘最常见\n- **稀疏细密的黄草伴随远山**：北部罗赖马州 (Roraima / RR) 高原草原",
-          "contentEn": "- **Paraná Pine (Araucaria)**: Majestic candelabra-shaped conifers, strictly marks the southern highlands (PR, SC, RS)\n- **Coffee Shrubs**: Dense clusters of tall, glossy green bushes across São Paulo (SP) and southern Minas Gerais\n- **Brazil Nut Trees**: Towering umbrella-shaped canopy giants characteristic of the Amazon Basin\n- **Coconut Palms & Sugarcane**: Coconut palms along the eastern tropical coast; massive sugarcane expanses in SP and Alagoas\n- **Soybean Seas**: Sprawling agricultural plains in southern Amazonia and Mato Grosso\n- **Macaw Palm (Bocaiuva)**: Fine, feathery palm fronds prominent in Mato Grosso do Sul (MS)\n- **Fine Dry Grass with Distant Massifs**: Highland savannah savannas in northern Roraima (RR)"
+          "headingZh": "💡 城市路灯与街景车",
+          "headingEn": "City Lamps & Google Car",
+          "contentZh": "- **贝伦**：橙色灯头；**特雷西纳**：橙色灯臂；**库亚巴**：绿色灯头\n- **南卡希亚斯**：黄色灯头 + “Z”字形灯臂\n- **里约热内卢**：平滑弧形灯臂（另有铅笔尖杆顶，巴西利亚也有）\n- **贝洛奥里藏特与乌贝拉巴**：灯臂上贴白色标签（贝洛更多高楼、更多山）\n- **塞阿腊**：彩色装饰性“羽翼”路灯臂\n- **四代街景车**：纯蓝最常见，白色条纹车次之，纯白车少；巴西没有黑车、红车\n    - **条纹车**：南马托格罗索常见（蓝车在那里反而少）\n    - **全白车**：塞阿腊常见\n    - **罕见的四代长天线**：圣玛丽亚（南里奥格兰德）及南马托格罗索附近\n- **三代**：短粗天线或无天线白车，几乎总是模糊的",
+          "contentEn": "- **Belém**: Orange lamp heads; **Teresina**: orange lamp ARMS; **Cuiabá**: green lamp heads\n- **Caxias do Sul**: Yellow lamp head on a zig-zag arm\n- **Rio de Janeiro**: Smoothly curved arc lamp arms (plus pencil-tip pole tops, also in Brasília)\n- **Belo Horizonte & Uberaba**: White tags on lamp arms (BH is bigger and hillier with high-rises)\n- **Ceará**: Ornate, colourful \"winged\" streetlight arms\n- **Gen 4 car**: Plain blue is most common, white striped next, plain white rare; Brazil has no black or red car\n    - **Striped car**: Common in Mato Grosso do Sul (where the blue car is uncommon)\n    - **All-white car**: Common in Ceará\n    - **Rare Gen 4 long antenna**: Around Santa Maria (RS) and Mato Grosso do Sul\n- **Gen 3**: Stubby antenna or no-antenna white car, almost always blurred"
         }
       ],
-      "rawContent": "巴西电话区号DDD逆时针规律、邮编CEP、公路编号、电杆路灯、建筑与植被完整笔记"
+      "rawContent": "巴西电话区号DDD逆时针规律、邮编CEP、公路编号、棕榈与作物、电杆路灯、城市路灯、街景车",
+      "sources": [
+        {
+          "title": "zi8gzag 2 – How to Guess Brazil on Geoguessr",
+          "url": "https://youtu.be/RQ9y44HoxQY"
+        },
+        {
+          "title": "Daiiono – 5 Metas Every Pro Should Know Ep.13 (Brazil)",
+          "url": "https://youtu.be/sMBVeE-uXRA"
+        }
+      ]
+    },
+    {
+      "id": "argentina",
+      "nameZh": "阿根廷",
+      "nameEn": "Argentina",
+      "flag": "🇦🇷",
+      "continent": "South America",
+      "sections": [
+        {
+          "headingZh": "🧭 区号、道路编号与国家识别",
+          "headingEn": "Area Codes, Road Numbers & Country ID",
+          "contentZh": "- **电话区号首位**：\n    - **11**：布宜诺斯艾利斯市及大都会区\n    - **2xx**：南部与西部——布宜诺斯艾利斯省（221 拉普拉塔、223 马德普拉塔、291 巴伊亚布兰卡）、拉潘帕、库约（261 门多萨、264 圣胡安、266 圣路易斯）、巴塔哥尼亚（299 内乌肯、280/297 丘布特、2966 圣克鲁斯、2901 火地岛）\n    - **3xx**：北部与中部——科尔多瓦 351、罗萨里奥 341、圣菲 342、恩特雷里奥斯 343、科连特斯 379、米西奥内斯 376、查科 362、福莫萨 370、图库曼 381、萨尔塔 387、胡胡伊 388\n- **里程桩**：白色，顶部黑条写路号；**RN** = 国道（地图上白色标注）、**RP** = 省道（地图上绿色标注）\n- **科尔多瓦省道**：独特的省道标志牌；**拉潘帕**：T 字路口的黄色长方形牌（下方 V 形纹、上方路号两侧箭头）\n- **国家识别**：黑底车牌中间有黑点（阿根廷独有）/ 白底蓝条新车牌；三代黑车（南美仅阿根廷、秘鲁、乌拉圭有）；四代“小镜头”（低机位、大圆形模糊）；红白 V 形导向牌（美洲独此一家）；护栏上黄/红长方形反光片；三线交替排列的圆形水泥杆、成对并立的电线杆；木制 A 字杆（南美仅阿根廷）",
+          "contentEn": "- **First digit of area codes**:\n    - **11**: Buenos Aires city and metro area\n    - **2xx**: The south & west — Buenos Aires province (221 La Plata, 223 Mar del Plata, 291 Bahía Blanca), La Pampa, Cuyo (261 Mendoza, 264 San Juan, 266 San Luis), Patagonia (299 Neuquén, 280/297 Chubut, 2966 Santa Cruz, 2901 Tierra del Fuego)\n    - **3xx**: The north & centre — Córdoba 351, Rosario 341, Santa Fe 342, Entre Ríos 343, Corrientes 379, Misiones 376, Chaco 362, Formosa 370, Tucumán 381, Salta 387, Jujuy 388\n- **Km markers**: White with a black top strip showing the road; **RN** = national road (white label on the map), **RP** = provincial road (green label)\n- **Córdoba provincial roads**: Unique provincial route markers; **La Pampa**: yellow rectangular signs at T-junctions (chevron pattern below, road number above with arrows each side)\n- **Country ID**: Black plates with a black dot in the middle (Argentina only) / white plates with a blue bar; black Gen 3 car (in South America only Argentina, Peru, Uruguay); Gen 4 \"smallcam\" (low mount, big round blur); red-and-white chevrons (unique in the Americas); yellow/red rectangular reflectors on guardrails; round concrete poles with three lines in an alternating pattern, doubled-up poles; wooden A-frame poles (only Argentina in South America)"
+        },
+        {
+          "headingZh": "🌵 各省植被、作物与地貌",
+          "headingEn": "Vegetation, Crops & Landscape by Province",
+          "contentZh": "- **地形大势**：西部多山，东部几乎无山；大部分国土平坦、无树、人烟稀少；科尔多瓦以西有中等高度的山\n- **红土** → 米西奥内斯（与巴西相似，先看其他线索）\n- **沙质土 + 茂密低矮灌木林** → 查科、福莫萨；**蜡棕（Caranday wax palm，短扇叶、单一树种稀疏林）** → 福莫萨为主，查科、科连特斯、圣菲北部也有；**托泰棕榈（光滑树干、矛状顶）** → 福莫萨、查科、米西奥内斯野生\n- **Trithrinax 棕榈（树干裹满枯叶）** → 科尔多瓦山区、圣路易斯及西北山区；**Butia yatay（羽状叶、常倾斜生长）** → 科连特斯、恩特雷里奥斯 El Palmar 国家公园\n- **人工林**：大多在恩特雷里奥斯（乌拉圭和巴西南部也有）\n- **潘帕斯草（白色蓬松花穗）**：潘帕斯地区；**布省路边小湖泊** → 布宜诺斯艾利斯省；**巴伊亚布兰卡东北** → 半海岸草丘\n- **圣路易斯**：偏红路面 + 两侧细长针茅草\n- **卡尔登树（Caldén，大型落叶树、枝条弯曲）** → 拉潘帕\n- **成排细高杨树 + 极平** → 内乌肯周边；**智利南洋杉（猴谜树）** → 内乌肯西部（23 号省道最多）\n- **平坦荒芜** → 中南部巴塔哥尼亚；**平草地 + 少灌木** → 火地岛或圣克鲁斯东南；**山毛榉林** → 火地岛\n- **西北部**：卡登仙人掌（烛台形、金褐色刺）→ 卡塔马卡、图库曼、萨尔塔、胡胡伊高海拔；牙签仙人掌 → 卡塔马卡—科尔多瓦之间、查科/萨尔塔/福莫萨交界；野生向日葵（Tithonia）→ 萨尔塔、胡胡伊、图库曼；红砖房 → 胡胡伊西部\n- **作物**：甘蔗 → 图库曼（萨尔塔、胡胡伊也有）；高粱（深红穗）→ 圣菲、科尔多瓦、布省；玉米 → 科尔多瓦、圣地亚哥德尔埃斯特罗；向日葵田 → 查科南部；葡萄园 + 西山东平 → 门多萨",
+          "contentEn": "- **Big picture**: Mountains in the far west, almost none in the east; most of the country is flat, treeless and sparsely populated; medium-height ranges west of Córdoba\n- **Red soil** → Misiones (looks like Brazil — check other clues first)\n- **Sandy soil + dense low scrub** → Chaco, Formosa; **Caranday wax palm (short fan leaves, sparse single-species stands)** → mainly Formosa, also Chaco, Corrientes, northern Santa Fe; **Totai palm (smooth trunk, spear-like top)** → wild in Formosa, Chaco, Misiones\n- **Trithrinax palm (trunk wrapped in dead leaves)** → the Córdoba sierras, San Luis and northern mountains; **Butia yatay (arching pinnate leaves, often leaning)** → Corrientes, El Palmar NP in Entre Ríos\n- **Tree plantations**: Mostly Entre Ríos (also Uruguay and southern Brazil)\n- **Pampas grass (white fluffy plumes)**: The Pampas; **small lakes by the road** → Buenos Aires province; **northeast of Bahía Blanca** → semi-coastal grassy hills\n- **San Luis**: Reddish pavement lined with long needle-grass\n- **Caldén (large deciduous tree with sinuous branches)** → La Pampa\n- **Single rows of tall thin poplars + dead flat** → around Neuquén; **monkey-puzzle trees** → western Neuquén (most on provincial road 23)\n- **Flat and barren** → central-southern Patagonia; **flat grass with few bushes** → Tierra del Fuego or SE Santa Cruz; **beech forests** → Tierra del Fuego\n- **The northwest**: Cardón cactus (candelabra, golden-brown spines) → high Catamarca, Tucumán, Salta, Jujuy; toothpick cactus → between Catamarca and Córdoba, and the Chaco/Salta/Formosa border; wild sunflowers (Tithonia) → Salta, Jujuy, Tucumán; red-brick houses → western Jujuy\n- **Crops**: Sugarcane → Tucumán (also Salta, Jujuy); sorghum (dark red heads) → Santa Fe, Córdoba, Buenos Aires; corn → Córdoba, Santiago del Estero; sunflower fields → southern Chaco; vineyards + mountains west / flat east → Mendoza"
+        },
+        {
+          "headingZh": "⚡ 电线杆、城市与地标道路",
+          "headingEn": "Poles, Cities & Landmark Roads",
+          "contentZh": "- **电线杆**：\n    - **拉脱维亚式木制挂钩杆** → 阿根廷境内只在拉里奥哈与门多萨\n    - **侧面只挂一个绝缘子的电杆** → 门多萨\n    - **白色竖向多位数字贴纸** → 图库曼\n- **城市出租车**：各大城市出租车配色独特，可直接判断城市（值得背）\n- **马德普拉塔及周边**（米拉马尔、内科切阿）：石英岩石材外墙 + 橙色瓦顶 + 拱形门廊\n- **科摩多罗里瓦达维亚**：建在琴克山坡上；**乌斯怀亚**：北面雪山\n- **地标道路**：\n    - **RN22 与 RN251**：日出覆盖\n    - **RP43**（卡塔马卡西北，安托法加斯塔德拉谢拉以南）：四代覆盖中的黑色火山岩\n    - **RN68**（萨尔塔南部）：红色山峦峡谷\n    - **RN65**（图库曼西部）：弯曲的山区土路，西段在云中\n    - **RN76 塔兰帕亚国家公园**（拉里奥哈西部）：红土 + 荒凉山脉\n    - **RN293**（圣克鲁斯西南近智利）：融雪覆盖\n    - **盐沼** → 胡胡伊（玻利维亚西南、智利东北也有）\n    - **圣胡安西南**：骑马摄像（智利一侧也有）；**中南部**：车尾带沙尘的“木屑车”\n    - **丘布特东北 Villa Dique Florentino Ameghino**：岩石地貌，西侧可见水坝",
+          "contentEn": "- **Poles**:\n    - **Latvian-style wooden hook poles** → within Argentina only La Rioja and Mendoza\n    - **Poles with a single insulator on the side** → Mendoza\n    - **White vertical multi-digit stickers** → Tucumán\n- **City taxis**: Each big city has distinctive taxi colours that identify the city (worth learning)\n- **Mar del Plata area** (Miramar, Necochea): Quartzite stone facades + orange tile roofs + vaulted porches\n- **Comodoro Rivadavia**: Built on the slopes of Chenque hill; **Ushuaia**: snowy mountains to the north\n- **Landmark roads**:\n    - **RN22 & RN251**: Sunrise coverage\n    - **RP43** (NW Catamarca, south of Antofagasta de la Sierra): black volcanic rocks in Gen 4\n    - **RN68** (southern Salta): red mountain canyon\n    - **RN65** (western Tucumán): bendy unpaved mountain road, its western part up in the clouds\n    - **RN76 in Talampaya NP** (western La Rioja): red soil + barren ranges\n    - **RN293** (SW Santa Cruz near Chile): melting-snow coverage\n    - **Salt flats** → Jujuy (also SW Bolivia, NE Chile)\n    - **SW San Juan**: horse trekker (also on the Chilean side); **centre-south**: the \"sawdust\" car with sandy dust on its back\n    - **Villa Dique Florentino Ameghino (NE Chubut)**: rock formations, a dam visible to the west"
+        }
+      ],
+      "rawContent": "阿根廷电话区号、国道省道里程桩、各省植被棕榈仙人掌、电线杆、城市出租车、地标道路",
+      "sources": [
+        {
+          "title": "zi8gzag 2 – How to Guess Argentina on Geoguessr (walkthrough of the Plonk It guide)",
+          "url": "https://youtu.be/4HYBRWzOy5Q"
+        },
+        {
+          "title": "Daiiono – 5 Metas Every Pro Should Know Ep.18 (Argentina)",
+          "url": "https://youtu.be/cNXNwyzX4VM"
+        },
+        {
+          "title": "Harrier – Important GeoGuessr Tips for Argentina!",
+          "url": "https://youtu.be/Eq1jKoQZF-g"
+        },
+        {
+          "title": "Plonk It – Argentina guide (written source used in the videos)",
+          "url": "https://www.plonkit.net/argentina"
+        }
+      ]
+    },
+    {
+      "id": "chile",
+      "nameZh": "智利",
+      "nameEn": "Chile",
+      "flag": "🇨🇱",
+      "continent": "South America",
+      "sections": [
+        {
+          "headingZh": "🔤 公路字母与电话区号：智利最“完美”的工具",
+          "headingEn": "Road Letters & Area Codes: Chile’s “Perfect” Tools",
+          "contentZh": "> zi8gzag 称智利为“完美的 GeoGuessr 国家”：国土狭长、南北差异巨大，而且道路字母和区号都按纬度排列。\n- **区域公路首字母自北向南从 A 递增到 Y**：\n    - **A** 阿里卡与塔拉帕卡、**B** 安托法加斯塔、**C** 阿塔卡马、**D** 科金博\n    - **E/F** 瓦尔帕莱索、**G** 圣地亚哥大区、**H** 奥希金斯、**J/K/L** 马乌莱、**N** 纽布莱\n    - **O/P/Q** 比奥比奥、**R/S** 阿劳卡尼亚、**T** 洛斯里奥斯、**U/V/W** 洛斯拉格斯、**X** 艾森、**Y** 麦哲伦\n- **电话区号（两位数 + 七位号码）**：\n    - **5x 北部**：58 阿里卡、57 伊基克、55 安托法加斯塔、52 科皮亚波、51 拉塞雷纳、53 奥瓦耶\n    - **3x 瓦尔帕莱索大区**：32 瓦尔帕莱索、33 基约塔、34 圣费利佩/洛斯安第斯、35 圣安东尼奥\n    - **2 圣地亚哥**\n    - **7x 中部农业区**：72 兰卡瓜、75 库里科、71 塔尔卡、73 利纳雷斯\n    - **4x 中南部**：42 奇廉、41 康塞普西翁、43 洛斯安赫莱斯、45 特木科\n    - **6x 南部**：63 瓦尔迪维亚、64 奥索尔诺、65 蒙特港、67 科伊艾克、61 蓬塔阿雷纳斯\n- **国家识别**：全白或全黄道路标线（几乎不混用；全黄线在美洲基本是智利独有，多见于国家公园与多雪地区）；三代白车无天线，其中带黑色部分的白车为智利独有；四代蓝车；两侧带凹槽的方形水泥杆（顶部有小针孔）；白色私家车牌、橙色商用车/出租车牌；黄底黑箭头 V 形牌；路牌立柱顶端开槽；桥梁栏杆柱刷红",
+          "contentEn": "> zi8gzag calls Chile \"the perfect GeoGuessr country\": long and thin with huge north–south differences, and both road letters and area codes follow latitude.\n- **Regional road letters increase from A to Y going north → south**:\n    - **A** Arica & Tarapacá, **B** Antofagasta, **C** Atacama, **D** Coquimbo\n    - **E/F** Valparaíso, **G** Santiago Metropolitan, **H** O'Higgins, **J/K/L** Maule, **N** Ñuble\n    - **O/P/Q** Biobío, **R/S** Araucanía, **T** Los Ríos, **U/V/W** Los Lagos, **X** Aysén, **Y** Magallanes\n- **Area codes (two digits + seven-digit number)**:\n    - **5x the north**: 58 Arica, 57 Iquique, 55 Antofagasta, 52 Copiapó, 51 La Serena, 53 Ovalle\n    - **3x Valparaíso region**: 32 Valparaíso, 33 Quillota, 34 San Felipe/Los Andes, 35 San Antonio\n    - **2 Santiago**\n    - **7x central farmland**: 72 Rancagua, 75 Curicó, 71 Talca, 73 Linares\n    - **4x south-centre**: 42 Chillán, 41 Concepción, 43 Los Ángeles, 45 Temuco\n    - **6x the south**: 63 Valdivia, 64 Osorno, 65 Puerto Montt, 67 Coyhaique, 61 Punta Arenas\n- **Country ID**: All-white or all-yellow road lines (almost never mixed; all-yellow is essentially unique to Chile in the Americas, used in national parks and snowy areas); Gen 3 white car with no antenna, and the white car with a visible black section is unique to Chile; blue Gen 4 car; square concrete poles indented on both sides (small pinholes near the top); white private plates, orange commercial/taxi plates; yellow chevrons with black arrows; slots at the top of signposts; red-painted bridge fence posts"
+        },
+        {
+          "headingZh": "🏜️ 从阿塔卡马到巴塔哥尼亚：南北景观带",
+          "headingEn": "From Atacama to Patagonia: North–South Landscape Bands",
+          "contentZh": "- **阿塔卡马沙漠（北部三分之一）**：世界最干燥，常常只有沙子和裸岩、一棵植物都没有\n- **阿里卡和帕里纳科塔**：平滑的沙质山体，略显侵蚀或呈球茎状；有山谷（智利其他地方少见）\n- **阿塔卡马大区与科金博北部**：多岩、凹凸不平的山；**棕红色土壤** → 阿塔卡马大区（三代最可靠）\n- **海岸城市山脊**：阿里卡 = 缓坡沙质小山脊；伊基克 = 高耸的大山脊；安托法加斯塔 = 更多岩石、更不规则\n- **瓦尔帕莱索西南**：桉树人工林 + 偏干燥\n- **圣地亚哥周边**：半干旱、干燥山丘、植被稀疏\n- **马乌莱**：与圣地亚哥相似但地中海气候、更绿，葡萄园多\n- **比奥比奥**：蓬松针叶的辐射松（康塞普西翁松）最多（纽布莱、阿劳卡尼亚较少）；比奥比奥与阿劳卡尼亚常见两侧是树的窄路\n- **阿劳卡尼亚东部**：智利南洋杉（猴谜树）\n- **奇洛埃大岛**：像新西兰的起伏农田；巨大像卷心菜的智利大黄（岛上及对岸大陆）\n- **洛斯拉格斯南部与艾森北部**：翠绿谷地 + 岩石山、多阴天；**艾森南部**：常为秋季橙红植被\n- **点状虚线标线** → 洛斯里奥斯与艾森；**麦哲伦**：混凝土路面 + 全黄标线，荒凉无树的草原",
+          "contentEn": "- **Atacama Desert (the northern third)**: The driest place on Earth — often just sand and bare rock with no plant in sight\n- **Arica y Parinacota**: Smooth, sandy mountains, slightly eroded or bulbous; valleys (rare elsewhere in Chile)\n- **Atacama region & northern Coquimbo**: Rocky, uneven mountains; **brownish-red soil** → Atacama region (most reliable in Gen 3)\n- **Coastal city ridges**: Arica = gentle sandy ridge; Iquique = a towering ridge; Antofagasta = rockier, more uneven\n- **SW Valparaíso**: Eucalyptus plantations + a fairly dry climate\n- **Around Santiago**: Semi-arid, dry hills, scattered vegetation\n- **Maule**: Similar to Santiago but Mediterranean and greener, lots of vineyards\n- **Biobío**: Most of the puffy-needled radiata (\"Concepción\") pines (fewer in Ñuble, Araucanía); narrow tree-lined roads common in Biobío and Araucanía\n- **Eastern Araucanía**: Monkey-puzzle trees\n- **Isla Grande de Chiloé**: Rolling New Zealand-like farmland; giant cabbage-like Chilean rhubarb (on the island and the mainland opposite)\n- **Southern Los Lagos & northern Aysén**: Lush green valleys + rocky mountains, often overcast; **southern Aysén**: often autumn orange-red vegetation\n- **Dotted road paint** → Los Ríos and Aysén; **Magallanes**: concrete road + all-yellow lines, barren treeless grassland"
+        },
+        {
+          "headingZh": "💡 城市路灯、电杆涂装与城镇线索",
+          "headingEn": "City Lamps, Pole Paint & Town Clues",
+          "contentZh": "- **路灯**：\n    - **橙色路灯** → 卡拉马、查尼亚拉尔（安托法加斯塔偶见）\n    - **绿色圆顶路灯** → 科皮亚波\n    - **带光控器的路灯** → 圣地亚哥（极常见）\n    - **灰色薄顶 + 圆底** → 塔尔卡；**蓝色长方形 + 黄条** → 康塞普西翁；**银顶灰底** → 蒙特港与特木科\n- **电杆涂装**：阿里卡 = 白漆黑数字；阿塔卡马沙漠其他城市 = 黄漆（褪色后可能像白色）；埃尔萨尔瓦多镇 = 圆杆刷黑漆\n- **圣佩德罗德阿塔卡马**：黏土砖墙，顶部常有三角形\n- **兰科**：几乎每个路口都有橙色路牌（马拉尔韦偶见）\n- **奥希金斯镇**：东侧紧贴大山、西侧远处雪山；路牌、栅栏等大量橙色木结构\n- **街景车特例**：圣地亚哥国家动物园以南拖着“Outback”拖车；Baños Morales 一带灰色丰田 Hilux（右前通气管）；孔圭利奥国家公园白色卡车；最南端威廉斯港白色皮卡",
+          "contentEn": "- **Street lamps**:\n    - **Orange lamps** → Calama, Chañaral (rarely Antofagasta)\n    - **Green dome lamps** → Copiapó\n    - **Lamps with photocells** → Santiago (very common)\n    - **Grey thin flat top with a rounded underside** → Talca; **blue rectangle with a yellow stripe** → Concepción; **silver top, grey bottom** → Puerto Montt & Temuco\n- **Pole paint**: Arica = white paint with black numbers; other Atacama Desert cities = yellow paint (may fade to white); El Salvador town = round poles painted black\n- **San Pedro de Atacama**: Clay-brick walls, often with triangles on top\n- **Lanco**: Orange street signs at almost every intersection (occasionally Malalhue)\n- **Villa O'Higgins**: Big mountains right to the east, distant snowy peaks to the west; lots of orange-stained wooden signs and fences\n- **Special cars**: Towing an \"Outback\" trailer south of Santiago's National Zoo; a grey Toyota Hilux (front-right snorkel) around Baños Morales; a white truck in Conguillío NP; a white pickup in Puerto Williams (the southernmost town)"
+        },
+        {
+          "headingZh": "🌋 标志性道路与国家公园",
+          "headingEn": "Signature Roads & National Parks",
+          "contentZh": "- **A-31**：高海拔，北侧是陡降的山谷；三代日落覆盖\n- **21 号公路（卡拉马—丘丘）**：四代日落——西段天空一大片白色光晕，东段暖色渐变、火山顶泛粉\n- **B-710 与 5 号公路**：四代日落；B-710 西侧有小山脊，5 号公路更开阔\n- **1 号公路**：沿海公路，东侧是一堵山墙、西侧是太平洋\n- **41 号公路**：山谷中、远处雪山，西侧树木与葡萄园多，局部三条黄线\n- **240 号公路**：路边成片紫色大叶羽扇豆\n- **劳卡国家公园**：一排雪山 + 两座孤立对称的雪顶火山，新铺的深色路面\n- **塔马鲁加尔草原保护区北段**：路边成排塔玛鲁戈树，道路一直西北走向\n- **上洛阿与新圣地亚哥三十字山**：开阔荒原 → 盐沼 → 雪顶火山/山脉（三十字山沙土偏红，东段山口路边有雪）\n- **洛斯弗拉门科斯保护区**：带红色调的平滑山体 + 盐沼，三条黄线\n- **亚诺斯德查列国家公园**：路边褐土、浅色沙斑、杜松、深色山体，多阴天\n- **上比奥比奥保护区**：辽阔无树 + 三条黄线，寒冷高海拔感，东侧有南洋杉\n- **普耶韦国家公园**：茂密植被、三条黄线、沥青修补缝多，东段大量枯树\n- **摄像点**：ALMA 射电望远镜、圣费利佩东北的骑马摄像、百内国家公园冰川徒步",
+          "contentEn": "- **A-31**: High altitude with a steep drop into a valley to the north; Gen 3 sunset coverage\n- **Ruta 21 (Calama – Chiu Chiu)**: Gen 4 sunset — a giant white glow in the west, a warm gradient in the east with pink-glowing volcano tops\n- **B-710 & Ruta 5**: Gen 4 sunset; the B-710 has a slight ridge to the west, Ruta 5 is more open\n- **Ruta 1**: Coastal road with a wall of mountains to the east and the Pacific to the west\n- **Ruta 41**: In a valley with snowy mountains in the distance, many trees and vineyards to the west, triple yellow lines in parts\n- **Ruta 240**: Roadsides full of purple large-leaved lupines\n- **Lauca NP**: A line of snowy peaks + two isolated symmetrical snow-capped volcanoes, freshly paved dark roads\n- **Northern Pampa del Tamarugal reserve**: Tamarugo trees lining a road heading consistently northwest\n- **Alto Loa & Nevado Tres Cruces**: Open wasteland → salt flats → snow-capped volcanoes/ranges (Tres Cruces has reddish sand and roadside snow on the eastern pass)\n- **Los Flamencos reserve**: Smooth reddish mountains + salt flats, triple yellow lines\n- **Llanos de Challe NP**: Brown roadside dirt, light sand patches, junipers, dark mountains, mostly overcast\n- **Alto Biobío reserve**: Vast and treeless with triple yellow lines, a cold high-altitude feel, monkey puzzles to the east\n- **Puyehue NP**: Dense vegetation, triple yellow lines, frequent tar snakes, many dead trees in the east\n- **Trekkers**: ALMA radio telescopes, a horse trekker NE of San Felipe, glacier hikes in Torres del Paine"
+        }
+      ],
+      "rawContent": "智利公路字母南北递增、电话区号、南北气候带、城市路灯与电杆涂装、国家公园与标志性道路",
+      "sources": [
+        {
+          "title": "zi8gzag – Why is CHILE the Perfect Geoguessr Country?",
+          "url": "https://youtu.be/GRF70Q4gv6M"
+        },
+        {
+          "title": "Daiiono – 5 Metas Every Pro Should Know Ep.24 (Chile)",
+          "url": "https://youtu.be/9MdM2MIL8eA"
+        },
+        {
+          "title": "Harrier – Important GeoGuessr Tips for Chile!",
+          "url": "https://youtu.be/e3Y7AAfFd1s"
+        },
+        {
+          "title": "Plonk It – Chile guide",
+          "url": "https://www.plonkit.net/chile"
+        }
+      ]
+    },
+    {
+      "id": "peru",
+      "nameZh": "秘鲁",
+      "nameEn": "Peru",
+      "flag": "🇵🇪",
+      "continent": "South America",
+      "sections": [
+        {
+          "headingZh": "🧭 区号、公路编号与国家识别",
+          "headingEn": "Area Codes, Highway Numbers & Country ID",
+          "contentZh": "- **电话区号**：\n    - **1**：利马\n    - **7x 北部沿海与北部山区**：72 通贝斯、73 皮乌拉、74 兰巴耶克（奇克拉约）、76 卡哈马卡\n    - **4x 中北部**：41 亚马孙、42 圣马丁（塔拉波托）、43 安卡什（瓦拉斯/钦博特）、44 拉利伯塔德（特鲁希略）\n    - **6x 中部与东部**：61 乌卡亚利、62 瓦努科、63 帕斯科、64 胡宁（万卡约）、65 洛雷托（伊基托斯）、66 阿亚库乔、67 万卡韦利卡\n    - **5x 南部**：51 普诺、52 塔克纳、53 莫克瓜、54 阿雷基帕、56 伊卡\n    - **8x 东南**：82 马德雷德迪奥斯、83 阿普里马克、84 库斯科\n- **公路编号自北向南递增**；1、3、5 号最长；1N/1S 只有图中一段（利马周边）是城外唯一的分隔高速\n- **公里桩**：黑白相间的混凝土桩（进出城镇时会标路号）\n- **国家识别**：南美唯一使用**黑白条纹标志杆**的国家（部分地区黑黄）；红/黄色三角形混凝土路缘标；护栏黑黄条纹且最外侧为**黑色**（玻利维亚为黄色）；金属标志杆底部浇混凝土块；电杆底部刷黑色或黑黄（南美独有）；桥梁刷橙色；嘟嘟车（mototaxi）；出租车与商用车侧面贴红白宽条；长方形金属电表带两三道横缝；货币 S/（索尔）；白色/黄色车牌（出租车上黄下白）；有四代覆盖（玻利维亚没有）和“小镜头”",
+          "contentEn": "- **Area codes**:\n    - **1**: Lima\n    - **7x north coast & northern highlands**: 72 Tumbes, 73 Piura, 74 Lambayeque (Chiclayo), 76 Cajamarca\n    - **4x north-centre**: 41 Amazonas, 42 San Martín (Tarapoto), 43 Áncash (Huaraz/Chimbote), 44 La Libertad (Trujillo)\n    - **6x centre & east**: 61 Ucayali, 62 Huánuco, 63 Pasco, 64 Junín (Huancayo), 65 Loreto (Iquitos), 66 Ayacucho, 67 Huancavelica\n    - **5x the south**: 51 Puno, 52 Tacna, 53 Moquegua, 54 Arequipa, 56 Ica\n    - **8x the southeast**: 82 Madre de Dios, 83 Apurímac, 84 Cusco\n- **Highway numbers increase north → south**; the 1, 3 and 5 are the longest; only one stretch of the 1N/1S (around Lima) is divided — the only divided highway outside cities\n- **Km markers**: Black-and-white concrete posts (showing the road number near towns)\n- **Country ID**: The only South American country with **black-and-white striped signposts** (black-yellow in some areas); red/yellow triangular concrete bollards; black-yellow striped guardrails whose outer stripe is **black** (Bolivia's is yellow); concrete blocks at the base of metal signposts; black or black-yellow painted pole bottoms (unique in South America); orange bridges; mototaxis; wide red-white stickers on taxis and commercial vehicles; rectangular metal meters with two or three slits; S/ (sol) prices; white/yellow plates (taxis yellow over white); Gen 4 and \"smallcam\" coverage (Bolivia has none)"
+        },
+        {
+          "headingZh": "🏜️ 地形、植被与土壤",
+          "headingEn": "Terrain, Vegetation & Soil",
+          "contentZh": "- **大格局**：覆盖集中在西部与主干道；东部平坦（亚马逊）、西部多山；例外是西北皮乌拉附近的平坦沙漠\n- **通贝斯越野路**：沙质土 + 绿色或枯萎灌木；通贝斯越野路没有黑车（看到白车要考虑）\n- **皮乌拉西南**：干燥、植被很少、基本平坦；**皮乌拉西北**：类似植被但明显更多丘陵\n- **北部山区**：覆盖灌丛与矮树（近海岸与厄瓜多尔边境更干）；**塔拉波托周边**：被植被覆盖的中高山，像哥伦比亚/巴西\n- **沿海作物**：椰子等高大棕榈（利马以北农业区）、甘蔗大田（奇克拉约、特鲁希略）、香蕉（北半部沿海）、橄榄园（最南端塔克纳）\n- **沿海农业谷地**（中南部）：夹在寸草不生的干山之间，谷地多为西南—东北走向\n- **伊卡、阿雷基帕、塔克纳**：荒芜平坦的沙漠，东边远处有山，像智利北部；1S 伊卡以南不分隔、沿海、红橙色土壤\n- **山区平地**：普诺中部、钦柴科查湖周边（容易与玻利维亚混淆）；的的喀喀湖以南 = 矮草、石墙村落、褐色砖房\n- **高海拔中部**：裸露岩石露头（钦柴科查湖到阿亚库乔最多）；瓦拉斯至库斯科一带尖锐岩质山顶；中南部高原岩石上的浅绿色地衣；松树人工林（辐射松、展叶松）在高海拔\n- **深红土壤**：库斯科、阿亚库乔、卡哈马卡、塔拉波托周边\n- **火山**：只在东南阿雷基帕一带",
+          "contentEn": "- **Big picture**: Coverage concentrates in the west and on main highways; flat in the east (Amazon), mountainous in the west; the exception is the flat desert around Piura in the northwest\n- **Tumbes off-roads**: Sandy soil with green or withered bushes; Tumbes off-roads never have the black car (consider it when you see the white car)\n- **SW Piura**: Dry, little vegetation, mostly flat; **NW of Piura city**: similar vegetation but noticeably hillier\n- **Northern mountains**: Covered in shrubs and small trees (drier toward the coast and the Ecuador border); **around Tarapoto**: tall vegetated mountains that look like Colombia/Brazil\n- **Coastal crops**: Coconut and other tall palms (farmland north of Lima), big sugarcane fields (Chiclayo, Trujillo), bananas (northern coast), olive groves (far-south Tacna)\n- **Coastal farm valleys** (centre & south): Sandwiched between bare, vegetation-free mountains, usually running SW–NE\n- **Ica, Arequipa, Tacna**: Barren, flat desert with mountains to the east, like northern Chile; the 1S south of Ica is undivided, coastal, with red-orange soil\n- **Flat highlands**: Central Puno and around Lake Chinchaycocha (easy to confuse with Bolivia); south of Lake Titicaca = low grass, stone-walled villages, brown brick houses\n- **High central Andes**: Exposed rock outcrops (most from Chinchaycocha to Ayacucho); sharp rocky peaks from Huaraz to Cusco; light-green lichen on rocks in the central/southern highlands; pine plantations (radiata, patula) at high elevation\n- **Dark red soil**: Around Cusco, Ayacucho, Cajamarca, Tarapoto\n- **Volcanoes**: Only in the southeast around Arequipa"
+        },
+        {
+          "headingZh": "🏘️ 建筑、电杆标记与城市",
+          "headingEn": "Architecture, Pole Markings & Cities",
+          "contentZh": "- **红砖房 + 蓝色玻璃**：越靠近的的喀喀湖越多（类似玻利维亚西部）\n- **带木支撑的出檐屋顶、鲜艳涂色** → 北部\n- **黄色竖排数字杆标** → 北部沿海与塔克纳；常配一个以城市代码开头的横向标签（如 CH = 钦博特）\n- **前舱敞开的嘟嘟车** → 北半部，尤其靠近亚马逊的北部地区；**马尔多纳多港**摩的司机穿黄色反光背心\n- **利马及利马大区**：顶部弯成倒“J”形的路灯（伊基托斯、普卡尔帕偶见）；长直、带中央分隔带的林荫大道\n- **莫克瓜**：顶部带黑黄条纹的圆柱形路缘标（独有）\n- **黄色危险警示墩**：Daiiono 列出的又一标志物\n- **库斯科**：红砖 + 西班牙殖民建筑，四面环山，市中心有机场（像玻利维亚拉巴斯）\n- **普卡尔帕**：西南西—东北东方向的街道网格\n- **伊基托斯**：孤立城市，只有三代；三轮嘟嘟车、阴天、起伏的亚马逊地貌\n- **塔克纳**：城北独特的干燥山脊；**阿雷基帕**：周围常见火山",
+          "contentEn": "- **Red brick + blue-tinted glass**: More common the closer you get to Lake Titicaca (like western Bolivia)\n- **Overhanging roofs with wooden supports, bright colours** → the north\n- **Yellow vertical number pole markings** → the north coast and Tacna; often with a horizontal tag starting with a city code (e.g. CH = Chimbote)\n- **Mototaxis with open front compartments** → the northern half, especially near the northern Amazon; **Puerto Maldonado** moto-taxi drivers wear yellow safety vests\n- **Lima & Lima region**: Lamp posts curving into an inverted \"J\" (occasionally Iquitos, Pucallpa); long, straight boulevards with medians\n- **Moquegua**: Cylindrical bollards with a black-yellow stripe on top (unique)\n- **Yellow danger block**: Another marker Daiiono highlights\n- **Cusco**: Red brick + Spanish colonial buildings, mountains on all sides, an airport in the middle of the city (resembles La Paz)\n- **Pucallpa**: A WSW–ENE street grid\n- **Iquitos**: Isolated city with only Gen 3; three-wheeled mototaxis, overcast skies, rolling Amazon landscape\n- **Tacna**: A distinctive dry ridge north of the city; **Arequipa**: volcanoes often visible"
+        },
+        {
+          "headingZh": "🛣️ 标志性道路",
+          "headingEn": "Signature Roads",
+          "contentZh": "- **1N（皮乌拉—兰巴耶克交界）**：半荒漠，三代多阴天（四代更干）\n- **5N（圣亚历杭德罗—埃斯佩兰萨）**：笔直平坦、路况好，南北向穿越雨林\n- **18C 与 5N 对比 30C**：Daiiono 专门比较的几条亚马逊公路\n- **30C（普兰琼—伊尼亚帕里）**：三代白车，茂密森林、村庄少，像巴西内陆，基本南北向\n- **28B（金比里—埃切拉蒂）**：四代，标线褪色或缺失的小路，贴着山坡沿河谷\n- **豪哈—万卡约谷地**：平坦，树木、农田、小村庄多，两侧是南北走向的山\n- **的的喀喀湖**：北岸覆盖拍摄于更湿润的季节，南岸较干\n- **钦柴科查湖**（万卡约以北）：沼泽状浅湖，东侧有山，比的的喀喀湖人烟更少、树更少\n- **马丘比丘**：白色街景车从阿瓜斯卡连特斯上山；阿瓜斯卡连特斯—库斯科铁路有摄像覆盖",
+          "contentEn": "- **1N (Piura–Lambayeque border)**: Semi-desert, overcast in Gen 3 (drier in Gen 4)\n- **5N (San Alejandro – Esperanza)**: Straight, flat, good condition, running north–south through rainforest\n- **18C & 5N vs 30C**: Amazon highways Daiiono compares side by side\n- **30C (Planchón – Iñapari)**: Gen 3 white car, dense forest, few villages, looks like interior Brazil, mostly north–south\n- **28B (Kimbiri – Echarate)**: Gen 4, a small road with faded or missing lines hugging a hillside beside a river valley\n- **Jauja–Huancayo valley**: Flat, with plenty of trees, farms and small villages, north–south mountains on both sides\n- **Lake Titicaca**: The north shore was shot in a much wetter season than the drier south shore\n- **Lake Chinchaycocha** (north of Huancayo): A marshy shallow lake with mountains to the east, less populated and with fewer trees than Titicaca\n- **Machu Picchu**: A white Street View car drives up from Aguas Calientes; the Aguas Calientes–Cusco railway is covered by a trekker"
+        }
+      ],
+      "rawContent": "秘鲁电话区号、公路编号、沿海沙漠与安第斯高原、红土与岩石、电杆标记、城市特征与标志性道路",
+      "sources": [
+        {
+          "title": "zi8gzag 2 – How to Guess Peru on Geoguessr (feat. Remy)",
+          "url": "https://youtu.be/8ehsoAF_Gyo"
+        },
+        {
+          "title": "Daiiono – 5 Metas Every Pro Should Know Ep.21 (Peru)",
+          "url": "https://youtu.be/0PK3YYxGawA"
+        },
+        {
+          "title": "Plonk It – Peru guide",
+          "url": "https://www.plonkit.net/peru"
+        }
+      ]
+    },
+    {
+      "id": "colombia",
+      "nameZh": "哥伦比亚",
+      "nameEn": "Colombia",
+      "flag": "🇨🇴",
+      "continent": "South America",
+      "sections": [
+        {
+          "headingZh": "🇨🇴 国家识别、车牌与道路里程桩",
+          "headingEn": "Country ID, Plates & Road Markers",
+          "contentZh": "- **“哥伦比亚十字”**：路边标志背面几乎都有十字形加固支架——在拉美看到就点哥伦比亚\n- **黄色车牌**：几乎所有车都是黄牌；车牌底部写着登记城镇名；出租车侧面也印车牌，常未打码——城市回合非常有用\n- **四代街景车**：哥伦比亚**从来没有蓝色四代车**；黑车上的“拉美天线”只在哥伦比亚和巴西（哥伦比亚更常见）\n- **道路里程桩（PR 桩）**：底部四位数字 = 路号 + 路段（如 25 | 12 = 25 号国道第 12 段），上方数字为距该段起点的公里数——对照国道路段表即可精确定位\n- **覆盖**：阿劳卡、亚马孙省没有四代；纳里尼奥、考卡、马格达莱纳四代有限（主要在干道和省界）",
+          "contentEn": "- **The \"Colombian cross\"**: A cross-shaped brace on the back of almost every roadside sign — see it in Latin America and click Colombia\n- **Yellow plates**: Almost every car has a yellow plate, with the registering town written along the bottom; taxis also print the plate on their side, often unblurred — very useful in cities\n- **Gen 4 car**: Colombia NEVER has the blue Gen 4 car; the \"LATAM antenna\" on a black car only exists in Colombia and Brazil (more common in Colombia)\n- **Road markers (PR posts)**: The four digits at the bottom are road + section (e.g. 25 | 12 = national route 25, section 12) and the number on top is the km from the start of that section — check it against the national route section list to pin your spot\n- **Coverage**: Arauca and Amazonas have no Gen 4; Nariño, Cauca and Magdalena have limited Gen 4 (mostly main highways and borders)"
+        },
+        {
+          "headingZh": "⚡ 各省电线杆贴纸与杆顶",
+          "headingEn": "Pole Stickers & Pole Tops by Department",
+          "contentZh": "- **安蒂奥基亚**：西北部常见绿黄杆身标记（南部少）；“安蒂奥基亚杆”涂装为“短黑—长黄—短黑”\n- **里萨拉尔达与卡尔达斯**：黄底橙字贴纸、橙底蓝字贴纸（黄底橙字在乔科也有）\n- **考卡山谷（Valle del Cauca）**：黄底黑字、蓝底黄字两种贴纸；另有考卡山谷专属杆顶\n- **纳里尼奥**：黄底蓝色**数字+字母**；**考卡**：黄底只有蓝色数字\n- **乌伊拉**：橙底黑字\n- **巴兰基亚**：底部有三个孔的白色路灯\n- **（作者自述可能不可靠）高绝缘子的棱数**：塞萨尔/瓜希拉 8、11 道；苏克雷、玻利瓦尔、大西洋省、科尔多瓦 7、10 道；考卡山谷 4 道；马格达莱纳 9 道",
+          "contentEn": "- **Antioquia**: Green-and-yellow pole markings common in the northwest (rarer in the south); \"Antioquia poles\" painted short black – long yellow – short black\n- **Risaralda & Caldas**: Orange-on-yellow and blue-on-orange number stickers (orange-on-yellow also in Chocó)\n- **Valle del Cauca**: Black-on-yellow and yellow-on-blue stickers, plus a Valle-only pole top\n- **Nariño**: Blue **numbers and letters** on yellow; **Cauca**: blue numbers only on yellow\n- **Huila**: Black numbers on orange\n- **Barranquilla**: White street lamps with three holes underneath\n- **(Author says possibly fake) ridges on tall insulators**: Cesar/La Guajira 8 or 11; Sucre, Bolívar, Atlántico, Córdoba 7 or 10; Valle del Cauca 4; Magdalena 9"
+        },
+        {
+          "headingZh": "🍌 作物、植被与特色谷地",
+          "headingEn": "Crops, Vegetation & Distinctive Valleys",
+          "contentZh": "- **香蕉种植园**：\n    - **金迪奥**：种植园藏在树篱后面\n    - **金迪奥周边各省**：路边较小、无树篱的香蕉园\n    - **安蒂奥基亚西北（乌拉巴）**：多云阴沉的三代覆盖\n    - **马格达莱纳**：干燥的沙土/尘土地，东边有山\n- **咖啡、茶与橄榄种植园**：咖啡轴心区（金迪奥、里萨拉尔达、卡尔达斯）及周边\n- **“韦拉克鲁斯树”（树干顶端像打了结）**：平原/缓丘地区常见；若是四代则优先考虑科尔多瓦（四代最多）\n- **“佩雷拉棕榈”（高耸的山地棕榈，如蜡棕）**：考卡山谷北部、托利马北部、金迪奥、里萨拉尔达、卡尔达斯的山区\n- **甘蔗田**：考卡山谷与考卡北部\n- **油棕 + 极沙质土壤**：阿拉卡塔卡（马格达莱纳）周边\n- **特色地区**：\n    - **西本多伊谷地（普图马约）**：阴天三代、高大树木、四面环山\n    - **内瓦周边谷地（乌伊拉）**：大量仙人掌，两侧都是山\n    - **阿劳卡**：只有一条主干道覆盖——阴沉三代 + 很深色的路肩",
+          "contentEn": "- **Banana plantations**:\n    - **Quindío**: Plantations hidden behind hedges\n    - **Departments around Quindío**: Smaller roadside plantations without hedges\n    - **NW Antioquia (Urabá)**: Very cloudy, gloomy Gen 3 coverage\n    - **Magdalena**: Dry sandy/dusty ground with mountains to the east\n- **Coffee, tea & olive plantations**: The coffee axis (Quindío, Risaralda, Caldas) and surroundings\n- **\"Veracruz trees\" (a knot-like bulge at the top of the trunk)**: Common in flat/gently hilly areas; if it's Gen 4, prefer Córdoba (which has the most Gen 4)\n- **\"Pereira palms\" (tall mountain palms, e.g. wax palms)**: Mountains of northern Valle del Cauca, northern Tolima, Quindío, Risaralda, Caldas\n- **Sugarcane fields**: Valle del Cauca and northern Cauca\n- **Oil palm + very sandy soil**: Around Aracataca (Magdalena)\n- **Distinctive areas**:\n    - **Sibundoy Valley (Putumayo)**: Overcast Gen 3, tall trees, mountains on every side\n    - **Valleys near Neiva (Huila)**: Lots of cacti with mountains on both sides\n    - **Arauca**: Only one main covered road — gloomy Gen 3 with very dark shoulders"
+        }
+      ],
+      "rawContent": "哥伦比亚各省电杆贴纸颜色、香蕉咖啡甘蔗种植园、特色谷地、道路里程桩、黄色车牌",
+      "sources": [
+        {
+          "title": "Vamp – After this video you will know every region in Colombia (+ Colombia Guide doc)",
+          "url": "https://youtu.be/pKkt_kC007Y"
+        },
+        {
+          "title": "Harrier – Important GeoGuessr Tips for Colombia!",
+          "url": "https://youtu.be/zpDH4GTQEb0"
+        }
+      ]
+    },
+    {
+      "id": "bolivia",
+      "nameZh": "玻利维亚",
+      "nameEn": "Bolivia",
+      "flag": "🇧🇴",
+      "continent": "South America",
+      "sections": [
+        {
+          "headingZh": "🏙️ 六大城市一眼区分",
+          "headingEn": "Telling the Six Main Cities Apart",
+          "contentZh": "> 覆盖集中在中部与中西部的六大城市（拉巴斯/埃尔阿尔托、科恰班巴、奥鲁罗、苏克雷、波托西、圣克鲁斯）及主干道；Daiiono 按“圣克鲁斯—拉巴斯—苏克雷周边”逐一讲解。\n- **拉巴斯**：极多山，城市在蜿蜒山谷中，周围山坡多绿色植被；市中心是全国唯一有 10 层以上高楼的地方；黄米色砂岩风化成的柱状岩林\n- **埃尔阿尔托**：紧邻拉巴斯却位于平坦高原，更干燥多尘、街道网格整齐；看不到尽头的半成品红砖楼；波浪边灰砖铺地；彩色未来感“新安第斯”建筑；渐变色（深绿到浅绿/红到黄）大门\n- **科恰班巴**：大平谷，**北面几乎总有一堵大山**——最稳定的区分方法；鹅卵石路主要在科恰班巴及其东南（苏克雷也有）\n- **奥鲁罗**：大城市中最干燥，西侧有一座大干山，其余平坦\n- **苏克雷**：多丘陵，城中常见圆润的树木覆盖小山；保存完好的殖民老城（白墙橙瓦）\n- **波托西**：同样多丘陵但干燥无树；可见被开采得光秃的金字塔形“富山”（Cerro Rico）\n- **圣克鲁斯**：唯一位于热带平原的大城市（周边小镇几乎一样）",
+          "contentEn": "> Coverage centres on six cities in the centre and centre-west (La Paz/El Alto, Cochabamba, Oruro, Sucre, Potosí, Santa Cruz) plus main roads; Daiiono walks through Santa Cruz, La Paz and Sucre in turn.\n- **La Paz**: Very hilly, the city sits in winding valleys with green hillsides; downtown has Bolivia's only 10+ storey buildings; eroded pillar-like yellow-beige sandstone formations\n- **El Alto**: Right next to La Paz but on a flat plateau — drier, dustier, a regular grid; endless half-finished red-brick buildings; grey wavy-edged brick paving; colourful futuristic \"Neo-Andean\" architecture; gradient-painted gates (dark-to-light green or red-to-yellow)\n- **Cochabamba**: A big flat valley with an imposing **wall of mountains to the north** almost always visible — the most reliable separator; cobblestone roads mainly in and SE of Cochabamba (also Sucre)\n- **Oruro**: The driest big city, a large dry hill to the west, otherwise flat\n- **Sucre**: Hilly, with round tree-covered hills around town; a well-preserved colonial centre (white walls, orange tiles)\n- **Potosí**: Also hilly but arid and treeless; the stripped, pyramid-shaped Cerro Rico mine mountain\n- **Santa Cruz**: The only big city in flat tropical lowland (nearby towns look identical)"
+        },
+        {
+          "headingZh": "🏔️ 高原、雨林与标志性道路",
+          "headingEn": "Altiplano, Lowlands & Signature Roads",
+          "contentZh": "- **高原（Altiplano）**：西部巨大的高原草地，草呈一簇簇的“玻利维亚刺猬”；道路本身平坦但四周常有山；**北半（拉巴斯/埃尔阿尔托附近）更绿**，**南半（奥鲁罗及往智利方向）更干**（1 号公路分隔段一侧例外）\n- **的的喀喀湖**：1 号公路德萨瓜德罗—瓜基段湖在北侧；2 号公路蒂基纳—巴塔利亚斯段湖在南/西侧；湖区很绿\n- **安第斯东侧**：非常翠绿的热带农业区（圣克鲁斯周边），地势平坦，**粉色土壤**；热带土路覆盖只在圣克鲁斯周边\n- **标志性道路**：\n    - **1/4 号公路拉巴斯—奥鲁罗**：全国唯一的大型分隔高速；1 号公路埃尔阿尔托以西路面常见白漆数字\n    - **3 号公路蓬戈段**：巨大的深灰色山体 + 低云；**北永加斯路（死亡之路）**：雾中热带山区土路\n    - **4 号公路维拉维拉—科恰班巴—布埃纳维斯塔**：镜头左前方方形污点；4 号公路西南段可见孤立雪顶火山**萨哈马**（萨哈马国家公园有黑色金属行李架的特殊车——Daiiono）\n    - **7 号公路迈拉纳—圣克鲁斯**：霓虹色画面故障；马塔拉尔一带绿色丘陵 + 晴天 + 仙人掌与黄花树\n    - **5 号公路查科（苏克雷以北）**：日落覆盖、混凝土路；**6 号公路塔拉布科—苏达涅斯**：近乎白色的浅色混凝土路面\n    - **1 号公路查拉帕塔附近**：干旱、山顶有雪斑、阴天；**25 号公路莫罗查塔**：极像秘鲁的山区土路\n    - **科伊帕萨盐沼**：极干旱沙漠 + 锥形火山丘",
+          "contentEn": "- **Altiplano**: The vast western highland grassland with tufted \"Bolivian hedgehog\" grass; the road is flat but hills are usually around; **the northern half (near La Paz/El Alto) is greener**, **the southern half (Oruro and toward Chile) drier** (one carriageway of divided Ruta 1 is an exception)\n- **Lake Titicaca**: On Ruta 1 (Desaguadero–Guaqui) the lake is to the north; on Ruta 2 (Tiquina–Batallas) it's south/west; the lakeside is very green\n- **East of the Andes**: Very green tropical farmland (around Santa Cruz), flat, with **pink soil**; tropical dirt-road coverage only around Santa Cruz\n- **Signature roads**:\n    - **Ruta 1/4 La Paz – Oruro**: The country's only big divided highway; Ruta 1 west of El Alto often has white-painted numbers on the road\n    - **Ruta 3 near Pongo**: Enormous dark-grey mountains + low clouds; **North Yungas Road (\"Death Road\")**: foggy tropical mountain dirt road\n    - **Ruta 4 Vila Vila – Cochabamba – Buena Vista**: A square smudge on the front-left of the camera; the SW Ruta 4 shows the isolated snowy volcano **Sajama** (Sajama NP has a special car with black metal roof bars — Daiiono)\n    - **Ruta 7 Mairana – Santa Cruz**: A neon visual glitch; around Mataral green hills + sunny skies + cacti and yellow-flowering trees\n    - **Ruta 5 near Chaco (north of Sucre)**: Sunset coverage on concrete; **Ruta 6 Tarabuco – Zudáñez**: almost white concrete pavement\n    - **Ruta 1 around Challapata**: Arid, snow patches on hilltops, overcast; **Ruta 25 near Morochata**: a dirt mountain road that looks just like Peru\n    - **Coipasa salt flat**: Extremely arid desert + cone-shaped volcanic hills"
+        }
+      ],
+      "rawContent": "玻利维亚六大城市区分、高原南北干湿、的的喀喀湖、圣克鲁斯粉色土壤、标志性道路与萨哈马火山",
+      "sources": [
+        {
+          "title": "Daiiono – 5 Metas Every Pro Should Know Ep.38 (Bolivia)",
+          "url": "https://youtu.be/P3hIw6sN_1k"
+        },
+        {
+          "title": "Harrier – Important GeoGuessr Tips for Bolivia!",
+          "url": "https://youtu.be/tp0SCYwaPL8"
+        },
+        {
+          "title": "Plonk It – Bolivia guide",
+          "url": "https://www.plonkit.net/bolivia"
+        }
+      ]
+    },
+    {
+      "id": "ecuador",
+      "nameZh": "厄瓜多尔",
+      "nameEn": "Ecuador",
+      "flag": "🇪🇨",
+      "continent": "South America",
+      "sections": [
+        {
+          "headingZh": "🛻 天线、车牌与区域地貌",
+          "headingEn": "Antenna, Plates & Regional Landscape",
+          "contentZh": "- **覆盖**：集中在西部，大片亚马逊没有覆盖；四代覆盖大部分国土（西北与东南有空缺），且总是大皮卡\n- **皮卡天线两种**：\n    - **“高”天线**（缠线全在天线中点以上）→ 一定在北半部；亚马逊覆盖绝大多数用高天线\n    - **“低”天线**（缠线大多在中点以下，顶端可能露一点）\n- **出租车/车牌首字母 = 省份**：通常与省名首字母相同（P = 皮钦查/基多，但在多个省偶尔出现）\n- **地形**：安第斯山纵贯中部，东西两侧较平\n- **香蕉园** → 西南部；**极干旱景观** → 瓜亚基尔—曼塔之间的海岸；**最平坦** → 瓜亚基尔周边（E-25、E-48）\n- **E-40 萨利纳斯—瓜亚基尔**：少数分隔公路之一，也是干旱西南海岸唯一的\n- **亚马逊**：平坦，大量白色树皮的 Cordia 树与油棕；**埃斯梅拉达斯**：像亚马逊但丘陵多得多\n- **南部**：蜿蜒山路 + 裸露的棕红色土（中部山路通常没有这种土）；**钦博拉索**：半干旱、松树多\n- **洛哈**：带椭圆形透空孔的电杆（邻省偶见）；**瓜亚斯**：黑黄色护栏\n- **东北部部分道路**：路边棕色管道；**加拉帕戈斯**：只有徒步与船只摄像（火山土、灌丛、火山口与象龟）",
+          "contentEn": "- **Coverage**: Concentrated in the west; much of the Amazon is uncovered; Gen 4 covers most of the country (gaps in the NW and SE) and is always a big pickup truck\n- **Two pickup antennas**:\n    - **\"High\" antenna** (wire entirely above the antenna's halfway point) → always the northern half; the Amazon coverage almost all uses the high antenna\n    - **\"Low\" antenna** (most wire below halfway, maybe a bit poking out at the top)\n- **First letter on taxis/plates = province**: Usually the province's initial (P = Pichincha/Quito, but it shows up occasionally in several provinces)\n- **Terrain**: The Andes run through the middle; east and west are flatter\n- **Banana plantations** → the southwest; **extremely dry landscape** → the coast between Guayaquil and Manta; **flattest** → around Guayaquil (E-25, E-48)\n- **E-40 Salinas – Guayaquil**: One of few divided highways, and the only one in the dry southwest coast\n- **Amazon**: Flat, lots of white-barked Cordia trees and oil palms; **Esmeraldas**: Amazon-like but much hillier\n- **The south**: Winding mountain roads + exposed brownish-red dirt (central mountain roads usually lack it); **Chimborazo**: semi-arid with many pines\n- **Loja**: Poles with oval see-through holes (occasionally neighbouring provinces); **Guayas**: black-and-yellow guardrails\n- **Some northeastern roads**: A brown pipe beside the road; **Galápagos**: only trekker and boat coverage (volcanic soil, scrub, craters, giant tortoises)"
+        }
+      ],
+      "rawContent": "厄瓜多尔皮卡天线高低、出租车省份字母、安第斯与沿海亚马逊、香蕉与干旱海岸、洛哈电杆",
+      "sources": [
+        {
+          "title": "Harrier – Important GeoGuessr Tips for Ecuador!",
+          "url": "https://youtu.be/ukAuKW89wAM"
+        },
+        {
+          "title": "Plonk It – Ecuador guide",
+          "url": "https://www.plonkit.net/ecuador"
+        }
+      ]
     },
     {
       "id": "australia",
@@ -5512,53 +6764,49 @@ window.GEOGUESSR_DATA = {
       "continent": "Oceania",
       "sections": [
         {
-          "headingZh": "🛣️ 十大国家级战略干线公路速查",
-          "headingEn": "Ten Major National Highways & Routes",
-          "contentZh": "- **斯图尔特公路 (Stuart Highway, A1/A87)**：阿德莱德 - 爱丽丝泉 - 达尔文 (纵贯澳洲中央荒漠南北大动脉)\n- **艾尔公路 (Eyre Highway, A1)**：诺斯曼 (WA) - 奥古斯塔港 (SA) (横穿纳拉伯平原东西大通道)\n- **休姆高速 (Hume Highway / Freeway, M31)**：悉尼 - 墨尔本 (连接全澳两大都市的核心高速走廊)\n- **大北方公路 (Great Northern Highway, 1/95)**：珀斯 - 纽曼 - 温德姆 (纵贯西澳北部的漫长荒漠干线)\n- **布鲁斯公路 (Bruce Highway, M1/A1)**：凯恩斯 (Cairns) - 阳光海岸 - 布里斯班 (昆士兰东海岸黄金干线)\n- **巴里尔公路 (Barrier Highway, A32)**：悉尼 - 断背山 (Broken Hill) - 阿德莱德 (内陆荒漠穿越线)\n- **米德兰公路 (Midland Highway, 1)**：霍巴特 - 朗塞斯顿 (塔斯马尼亚南北连接线)\n- **拉塞特公路 (Lasseter Highway, 4)**：斯图尔特公路 - 乌鲁鲁 (艾尔斯岩 Uluru 景区公路)\n- **太平洋高速 (Pacific Highway, A1/M1)**：悉尼 - 纽卡斯尔 - 布里斯班 (新南威尔士北海岸主干道)\n- **王子公路 (Princes Highway, A1/M1)**：悉尼 - 墨尔本 - 阿德莱德 (沿东南海岸弧形延伸风景公路)",
-          "contentEn": "- **Stuart Highway (A1 / A87)**: Adelaide – Alice Springs – Darwin (Trunk spine crossing central red outback)\n- **Eyre Highway (A1)**: Norseman (WA) – Port Augusta (SA) (Crosses the treeless Nullarbor Plain)\n- **Hume Highway (M31)**: Sydney – Melbourne (Busiest freight freeway connecting Australia's two largest cities)\n- **Great Northern Highway (1 / 95)**: Perth – Port Hedland – Wyndham (Long isolated highway through northern WA)\n- **Bruce Highway (M1 / A1)**: Cairns – Townsville – Brisbane (Queensland east coast arterial)\n- **Barrier Highway (A32)**: Sydney – Broken Hill – Adelaide (Red dirt outback connector)\n- **Midland Highway (Route 1)**: Hobart – Launceston (Spine of Tasmania)\n- **Lasseter Highway (Route 4)**: Stuart Highway junction – Uluru (Ayers Rock national park road)\n- **Pacific Highway (A1 / M1)**: Sydney – Gold Coast – Brisbane (Coastal NSW freeway)\n- **Princes Highway (A1 / M1)**: Sydney – Melbourne – Adelaide (Scenic southeastern coastal loop)"
+          "headingZh": "🧭 全澳通用工具：地名、车牌、公交站",
+          "headingEn": "Country-Wide Tools: Place Names, Plates & Bus Stops",
+          "contentZh": "> 职业选手经验：澳洲“地名知识为王”——小镇里城镇名会写满各处；道路编号体系不够一致，不值得专门背。\n- **车牌（可选）**：黄色 → 新南威尔士；褐红/红字 → 昆士兰；赭红 → 北领地；顶部蓝条 → 西澳；“S”开头 → 南澳；黄色徽标 → 塔斯马尼亚；三角徽标 → 维多利亚\n- **城市公交站**：阿德莱德 = 大黄色站亭（黄色立柱）；珀斯 = 独特的大绿色设计；昆士兰 = 大半圆顶；维多利亚 = 橙色；新州/首都领地/塔州 = 较普通的蓝色款\n- **四代车色（随时变化）**：西澳只有浅蓝车和红车（无白车）；2022 白车在昆士兰常见；北部内陆土路常见黑车；南澳也有深蓝车\n- **国家识别**：桉树树冠（橄榄色叶、浅色枝干）——新西兰几乎没有桉树，南非看黄色路边线；三代只有白车长天线\n- **澳洲道路标线**：99.9% 白线；新州永远双白中线，其他州单白中线很常见；路名常带“C”前缀 → 维多利亚与塔斯马尼亚",
+          "contentEn": "> Pro tip: in Australia \"place-name knowledge is king\" — towns write their names everywhere, while the road-numbering system is too inconsistent to be worth learning.\n- **Plates (optional)**: Yellow → NSW; maroon text → Queensland; ochre → NT; blue strip on top → WA; starting with \"S\" → SA; yellow emblem → Tasmania; triangle emblem → Victoria\n- **Urban bus stops**: Adelaide = big yellow shelter (yellow pole); Perth = unique big green design; Queensland = big semicircle; Victoria = orange; NSW/ACT/TAS = more generic blue styles\n- **Gen 4 car colours (they change)**: WA only had the light-blue and red cars (no white); the 2022 white car is common in Queensland; black car common on northern outback dirt roads; SA also has a dark-blue car\n- **Country ID**: Eucalyptus canopy (olive leaves, pale branches) — NZ has very few eucalypts; vs South Africa check for yellow edge lines; Gen 3 is always the white car with long antenna\n- **Lines**: 99.9% white; NSW always uses a double white centre line, other states often a single white line; \"C\"-prefixed routes → Victoria & Tasmania"
         },
         {
-          "headingZh": "⚡ 跨州基础设施元数据：车牌、路缘柱与电线杆",
-          "headingEn": "Cross-State Infrastructure: Plates, Bollards & Poles",
-          "contentZh": "- **车牌辨识**：**黄底黑字车牌**必为新南威尔士州 (NSW)；**白底红字车牌**必为北领地 (NT)\n- **交通信号灯外框**：信号灯灯罩外带一圈醒目白色反光边框的多见于北领地 (NT)、南澳 (SA) 和维多利亚 (VIC)\n- **路缘柱反光片形态**：短小方形反光板多见于昆士兰 (QLD) 与南澳 (SA)；圆形反光红点多见于西澳 (WA)\n- **地下消火栓指示柱**：白杆红顶带蓝色反光条的地下消防栓标记柱常见于维多利亚 (VIC) 和南澳 (SA)\n- **路牌立杆**：扁平金属片状立柱多见于南澳 (SA) 与西澳 (WA)\n- **道路编号前缀**：以 **C 开头**的编号 (如 C123) 主要属于维多利亚州 (VIC) 与塔斯马尼亚州 (TAS)\n- **电线杆结构特征**：\n    - **维多利亚 (VIC)**：十字架型木杆，顶部及左右两侧带螺纹瓷绝缘子\n    - **西澳 (WA)**：电杆底部刷绿色漆，顶部带有向上扬起的三叉戟金属支架\n    - **南澳 (SA)**：独特的 **Stobie Pole** (两根钢轨中间灌注水泥板的电线杆)，尤以阿德莱德为代表\n    - **塔斯马尼亚 (TAS)**：电杆上包裹全绿色的金属防负鼠圈 (Possum Trap)，顶端带有 90 度 L 型铁杆\n    - **北领地 (NT)**：镂空梯子型金属铁杆",
-          "contentEn": "- **License Plates**: **Yellow background** plates are unique to New South Wales (NSW); **white plates with red text** belong to Northern Territory (NT)\n- **Traffic Light Backboards**: Prominent white reflective borders around lights occur in NT, SA, and Victoria (VIC)\n- **Bollard Reflectors**: Short rectangular reflectors identify Queensland (QLD) and South Australia (SA); circular red reflector dots identify Western Australia (WA)\n- **Hydrant Markers**: White posts with red tops and blue reflectors denote underground fire plugs in VIC and SA\n- **Signposts**: Flat paddle-like steel blades indicate SA and WA\n- **Route Number Prefixes**: Routes prefixed with **letter C** (e.g. C123) are exclusive to Victoria (VIC) and Tasmania (TAS)\n- **Utility Pole Styles**:\n    - **Victoria (VIC)**: Timber cross with ribbed ceramic screw insulators on top and sides\n    - **Western Australia (WA)**: Base painted green with upturned trident steel crossarms on top\n    - **South Australia (SA)**: Iconic **Stobie Pole** (concrete slab sandwiched between steel rails), especially in Adelaide\n    - **Tasmania (TAS)**: Encased in a bright green metal possum guard with a 90-degree L-shaped steel bracket on top\n    - **Northern Territory (NT)**: Open-lattice steel ladder poles"
+          "headingZh": "🔶 西澳（WA）与北领地（NT）",
+          "headingEn": "Western Australia & Northern Territory",
+          "contentZh": "- **西澳**：\n    - **黄色扁平路标立柱**：西澳独有，极其好用\n    - **长木制路缘标 + 黑色底部 + 圆形反光片**：只在西澳\n    - **条纹路缘标**、两侧带白条的灰色“波兰国旗”柱、绿色地界桩（少见）→ 西澳\n    - **深红土 + 黑白“椒盐”碎石路面 + 红色树干 + 低矮的 Mallee 桉树**；标牌底部金属支架\n    - **草树（Spiky boys，黄脂木）**：西澳南部（南澳弗勒里厄半岛、袋鼠岛也有）\n    - **木杆上的三叉戟杆顶**：西澳与维州；**地名以“-up”结尾**（如 Joondalup、Manjimup）\n    - **地形**：极平坦；珀斯东北与河谷小镇较起伏；奥尔巴尼多山、海岸为悬崖；斯特林山脉是常见的少数大山\n- **北领地**：\n    - **生锈的多孔（镂空）钢杆**：非常好用\n    - **路标立柱上的黄色反光片**、130 km/h 限速 → 北领地独有\n    - **达尔文周边**：极其翠绿、红色道路、达尔文特色路灯；北部遍布白蚁丘\n    - **地形**：斯图尔特公路沿线极平；爱丽斯泉附近及派恩克里克、凯瑟琳以后开始有山",
+          "contentEn": "- **Western Australia**:\n    - **Flat, yellow-painted signposts**: WA only and extremely useful\n    - **Long wooden bollards with a black bottom + round reflector**: WA only\n    - **Striped bollards**, grey \"Polish-flag\" posts with white either side, green property markers (rare) → WA\n    - **Deep red soil + black-and-white \"salt-and-pepper\" chip seal + red-trunked trees + low mallee eucalypts**; metal brackets at the bottom of signs\n    - **Grass trees (\"spiky boys\")**: Southern WA (also SA's Fleurieu Peninsula and Kangaroo Island)\n    - **Tridents on wooden poles**: WA and Victoria; **town names ending in \"-up\"** (Joondalup, Manjimup)\n    - **Terrain**: Very flat; rolling NE of Perth and in the river towns; Albany hilly with cliffs; the Stirling Range is one of the few big mountains you see often\n- **Northern Territory**:\n    - **Rusty perforated (holey) steel poles**: Very useful\n    - **Yellow reflectors on signposts** and 130 km/h speed zones → NT only\n    - **Around Darwin**: Very lush, red roads, the Darwin lamp style; termite mounds across the north\n    - **Terrain**: Dead flat along the Stuart Highway; hills near Alice Springs and from Pine Creek/Katherine onward"
         },
         {
-          "headingZh": "🦘 各州独家绝杀特征：红土、植被与城市地貌",
-          "headingEn": "State-by-State Distinctive Features: WA, NT, QLD, NSW, VIC, TAS, ACT, SA",
-          "contentZh": "- **西澳大利亚州 (Western Australia / WA)**：\n    - **极深红刺眼的土壤**，搭配低矮干旱灌木丛；黄色路牌立柱；城市首府为珀斯 (Perth)\n    - **电线杆**：拥有细长暗红色的绝缘子，底部刷绿漆，顶部常有向上三叉戟，贴有白/黄色贴纸\n    - **车牌与地名**：车牌呈现淡蓝色调；城镇地名极其普遍以 **“-up”** 结尾 (如 Joondalup, Manjimup, Jerramungup)\n    - **路缘标**：路边平缓路缘石；红圆点或黑白斜条纹反光路桩；绿色指示牌立在路旁草地上\n- **北部地方 (Northern Territory / NT)**：\n    - **红土但伴随稀疏绿林**：深红土壤散布稀疏矮树与黄绿杂草；笔直穿过荒漠的无尽长路，红土路肩堆积有黑色/深褐色铁矿碎石块\n    - **车牌与设施**：白底红字车牌；生锈带圆孔金属电杆；路牌杆上贴黄贴纸；66 号公路街景镜头带有脏污黑斑\n- **昆士兰州 (Queensland / QLD)**：\n    - **热带与平坦地貌**：内陆地势极平坦无山丘，罗马镇 (Roma) 一带密布独特的澳洲酒瓶树 (Bottle Tree)\n    - **设施细节**：路桩反光板短小；电杆横木略微向上翘，钉有黑底带斜字数字牌；A6 路上电杆带交替三角形贴纸；橙边方形指示牌；黄色路牌柱顶部弯曲成平滑圆弧形；首府布里斯班\n- **新南威尔士州 (New South Wales / NSW)**：\n    - **起伏多山地形**：温带多山丘陵；标志性全黄车牌 (常为前短牌)；首府悉尼\n    - **标志与护栏**：“No Stopping” 禁停标志全红且无文字；公路钢护栏末端刷有红黑双色涂层 (其他州为黑白)；护栏末端黑黄条纹\n- **维多利亚州 (Victoria / VIC)**：\n    - **地貌与车牌**：平原农田中突兀耸立的山脉群 (如格兰坪)；白底车牌中间常带蓝色三角形小图标；首府墨尔本\n    - **设施**：电杆横木完全水平，绝缘子分布在侧面，杆上常贴蓝色方贴纸；“No Stopping” 标志带有文字说明\n- **塔斯马尼亚州 (Tasmania / TAS)**：\n    - **景观酷似新西兰**：湿润多雨、温带绿色丘陵农牧业山脉；电杆常包裹全绿防负鼠金属圈，顶端带 L 型铁件；街景车镜头边缘常有变色色差；首府霍巴特\n- **首都领地 (ACT - 堪培拉)**：\n    - **极致整齐的花园城市**：街道规划美观统一；道路边缘白色实线有断开，路中嵌有凸起反光猫眼道钉\n- **南澳大利亚州 (South Australia / SA)**：\n    - **路标与地貌**：大面积使用短反光板路桩；路旁草地上立白色说明牌；路标立柱为未涂漆的金属方管 (WA 多为黄色)；遍布著名的 Stobie 钢混电杆 (阿德莱德地标)；甘比尔山 (Mount Gambier) 街景镜头偶见树叶遮挡",
-          "contentEn": "- **Western Australia (WA)**:\n    - **Vivid deep red outback soil** with low scrub; yellow signposts; capital Perth\n    - **Poles**: Long dark red insulators, green painted bases, upturned trident brackets, white/yellow stickers\n    - **Plates & Towns**: Soft bluish plate tone; towns overwhelmingly end in **\"-up\"** (e.g. Joondalup, Manjimup)\n    - **Bollards**: Rounded gentle curb edges; red circular dots or black/white chevron markers; green signs standing on grass\n- **Northern Territory (NT)**:\n    - **Red soil dotted with trees**: Crimson soil covered in sparse savannah scrub; long straight highways with dark ironstone gravel shoulders\n    - **Plates & Metas**: White plates with red lettering; rusted perforated steel poles; yellow stickers on signposts; camera dirt smudges on Route 66\n- **Queensland (QLD)**:\n    - **Tropical & Flat Plains**: Extremely flat inland plains; Roma region populated by iconic swollen Bottle Trees\n    - **Metas**: Short reflector plates on bollards; slightly upturned pole crossarms with black slant-number plates; orange-bordered square signs; curved round-top yellow signposts; capital Brisbane\n- **New South Wales (NSW)**:\n    - **Hilly Terrain**: Undulating temperate hills; iconic all-yellow license plates (often short front plates); capital Sydney\n    - **Signage & Guardrails**: Textless all-red \"No Stopping\" signs; guardrail ends painted in red and black (other states use black and white); yellow-black diagonal stripes\n- **Victoria (VIC)**:\n    - **Topography & Plates**: Dramatic isolated mountain ranges rising abruptly from flat farmland (Grampians); white plates with blue triangle center icon; capital Melbourne\n    - **Infrastructure**: Perfectly horizontal pole crossbars with side-mounted screw insulators and blue square stickers; \"No Stopping\" signs include explanatory text\n- **Tasmania (TAS)**:\n    - **New Zealand-like Biome**: Temperate lush green rolling hills, cool maritime climate; utility poles fitted with full-wrap green metal possum barriers and L-brackets; camera lens discoloration; capital Hobart\n- **Australian Capital Territory (ACT)**:\n    - **Immaculate Garden City**: Canberra's geometric radial planning; broken white edge road markings with embedded raised cat's-eye reflectors\n- **South Australia (SA)**:\n    - **Infrastructure**: Short bollard reflectors; white information boards on grass; natural unpainted square steel signposts (WA uses yellow); trademark Stobie steel-concrete poles throughout Adelaide; foliage glitched onto camera lens around Mount Gambier"
+          "headingZh": "🏜️ 南澳（SA）",
+          "headingEn": "South Australia",
+          "contentZh": "- **Stobie 电线杆**：两根钢轨夹混凝土——南澳几乎没有木杆，传奇级 Meta\n- **白色地界桩**：南澳乡村非常常见\n- **未刷漆的扁平路标立柱**：南澳（西澳也有，但西澳多刷黄漆）；**V 形导向牌立柱带圆点** → 南澳\n- **学校区限速 25**（其他州 40）；**路边外线断开**的老式标线如今很少（首都领地仍常见）\n- **红/紫色路面**：艾尔半岛、约克半岛、斯图尔特公路（格伦丹博—库伯佩迪）\n- **地形**：阿德莱德以北是圆润起伏的小丘；艾尔半岛常有突兀小山；芒特甘比尔附近大片松树林\n- **白色土壤** → 南澳（塔州离岛也有）；**“海绵叶”杂草**：维州边境附近（如今少见）",
+          "contentEn": "- **Stobie poles**: Two steel rails with concrete between — SA has almost no wooden poles; a legendary meta\n- **White property markers**: Very common in rural SA\n- **Flat, unpainted signposts**: SA (WA has them too but usually painted yellow); **flat signposts with dots on chevrons** → SA\n- **School zones 25 km/h** (40 elsewhere); **gaps in the outer road line** are now rare (still common in the ACT)\n- **Red/purple road surfaces**: Eyre & Yorke Peninsulas and the Stuart Highway (Glendambo–Coober Pedy)\n- **Terrain**: Small, round, undulating hills north of Adelaide; random hills on the Eyre Peninsula; big pine plantations around Mount Gambier\n- **White soil** → SA (also the Tasmanian islands); **\"sponge leaf\" weed**: near the Victorian border (rare now)"
+        },
+        {
+          "headingZh": "🌴 昆士兰（QLD）、新南威尔士（NSW）与首都领地（ACT）",
+          "headingEn": "Queensland, New South Wales & the ACT",
+          "contentZh": "- **昆士兰**：\n    - **标志牌橙色外框**：昆州独有（新州从不出现）\n    - **向上倾斜的三叉戟杆顶（两侧各一个“硬币”）**：只在昆州\n    - **电线杆黑色数字标记**：东南部城市；**捆绑式路缘标**、**短反光片路缘标**（进阶）\n    - **高脚屋、棕榈**；北部热带海岸 + 凯恩斯周边甘蔗；罗马（Roma）一带的瓶子树；罗克汉普顿平地上突起的孤山；内陆常见红色路面\n- **新南威尔士**：\n    - **红色“禁止停车”标志**：只在新州（维州的同类标志带文字说明）\n    - **永远双白中线**；新州国家公园皮卡带有罩住的通气管与笼式货斗\n    - **内陆新州**可能像西澳（金合欢、红土）——用车色区分\n    - **地形**：山多在东部大分水岭一侧，西部只有零星小丘\n- **首都领地（ACT）**：带删除线的黄色护栏（新州也多）；胖版禁停标志；外侧标线断开 + 猫眼反光钉",
+          "contentEn": "- **Queensland**:\n    - **Orange border on signs**: Queensland only (never NSW)\n    - **Upward-slanted trident pole top with a \"coin\" on each side**: Queensland only\n    - **Black number markings on poles**: Southeast Qld cities; **strapped bollards**, **short-reflector bollards** (advanced)\n    - **Houses on stilts, palms**; tropical north coast + sugarcane around Cairns; bottle trees around Roma; isolated peaks sticking out of flat land at Rockhampton; red roads inland\n- **New South Wales**:\n    - **Red \"No Stopping\" sign**: NSW only (Victoria's version has explanatory text)\n    - **Always a double white centre line**; NSW national-park utes with a covered snorkel and caged tray\n    - **Inland NSW** can look like WA (acacia, red soil) — use car colour to separate\n    - **Terrain**: Mountains mostly on the Great Dividing Range side in the east; only scattered hills out west\n- **ACT**: Yellow guardrails with a strike-through (also common in NSW); fat \"No Stopping\" signs; gaps in the outer line + cat's-eye reflectors"
+        },
+        {
+          "headingZh": "🍃 维多利亚（VIC）与塔斯马尼亚（TAS）",
+          "headingEn": "Victoria & Tasmania",
+          "contentZh": "- **维多利亚**：\n    - **线圈杆顶**（两端带线圈、平直较长的横担）：只在维州，远处就能看到——必须掌握\n    - **圆形水泥电线杆**：全澳 64% 在维州（墨尔本尤其多）\n    - **路缘标上蓝色反光片 + 顶部红色**（指示排水口）→ 维州；**白框内蓝方块**（排水口）→ 墨尔本；**红色圆形杆牌** → 维州\n    - **成排高大松树防风林 + 平地** → 维州西部（沃南布尔一带）；格兰屏山高达约 1000 米；东部为高山区\n    - **灰色碎石路肩**（老覆盖）→ 本迪戈/维州北部\n- **塔斯马尼亚**：\n    - **橄榄绿色防负鼠护套**（其他州为银色）\n    - **横担上 90° L 形角钢**：只在塔州，必须掌握\n    - **偶见白色方向牌**；林下灌木极其茂密；处处起伏，西部荒野阴天多",
+          "contentEn": "- **Victoria**:\n    - **Coil pole top** (straight, longer crossarm with coils at the ends): Victoria only and visible from far away — a must-know\n    - **Round concrete poles**: 64% of Australia's are in Victoria (especially Melbourne)\n    - **Blue reflector with red on top on bollards** (drain marker) → Victoria; **blue square inside a white square** (drain) → Melbourne; **red circular pole plate** → Victoria\n    - **Rows of tall pine windbreaks on flat land** → Western Victoria (Warrnambool area); the Grampians reach ~1000 m; alpine country in the east\n    - **Grey gravel shoulders** (older coverage) → Bendigo/northern Victoria\n- **Tasmania**:\n    - **Olive-green possum guards** (silver elsewhere)\n    - **90° L-shaped angle iron on the crossarm**: Tasmania only — a must-know\n    - **Occasional white directional signs**; extremely dense undergrowth; hilly everywhere, the wild west is often overcast"
+        },
+        {
+          "headingZh": "🛣️ 十大干线公路速查",
+          "headingEn": "Ten Key Highways",
+          "contentZh": "- **斯图尔特公路（A1/A87）**：阿德莱德—爱丽斯泉—达尔文，纵贯中部红土内陆\n- **艾尔公路（A1）**：诺斯曼（西澳）—奥古斯塔港（南澳），横穿无树的纳拉伯平原\n- **休姆公路（M31）**：悉尼—墨尔本\n- **大北方公路（95/1）**：珀斯—黑德兰港—温德姆\n- **布鲁斯公路（M1/A1）**：布里斯班—汤斯维尔—凯恩斯\n- **屏障公路（A32）**：新州—布罗肯希尔—阿德莱德\n- **米德兰公路（1 号）**：霍巴特—朗塞斯顿\n- **拉塞特公路（4 号）**：斯图尔特公路—乌鲁鲁\n- **太平洋公路（A1/M1）**：悉尼—黄金海岸—布里斯班\n- **王子公路（A1/M1）**：悉尼—墨尔本—阿德莱德沿海\n> 偏远地区值得记住的路：西澳西北沿海公路、昆州最西部干线、北领地新铺的细窄内陆路（如 Tablelands Highway）——通过道路走向即可对齐。",
+          "contentEn": "- **Stuart Highway (A1/A87)**: Adelaide – Alice Springs – Darwin through the red centre\n- **Eyre Highway (A1)**: Norseman (WA) – Port Augusta (SA) across the treeless Nullarbor\n- **Hume Highway (M31)**: Sydney – Melbourne\n- **Great Northern Highway (95/1)**: Perth – Port Hedland – Wyndham\n- **Bruce Highway (M1/A1)**: Brisbane – Townsville – Cairns\n- **Barrier Highway (A32)**: NSW – Broken Hill – Adelaide\n- **Midland Highway (Route 1)**: Hobart – Launceston\n- **Lasseter Highway (Route 4)**: Stuart Highway – Uluru\n- **Pacific Highway (A1/M1)**: Sydney – Gold Coast – Brisbane\n- **Princes Highway (A1/M1)**: Sydney – Melbourne – Adelaide along the coast\n> Remote roads worth knowing: WA's northwest coastal highway, Queensland's far-west trunk roads, and the NT's newly covered thin inland roads (e.g. Tablelands Highway) — line them up by road direction."
         }
       ],
-      "rawContent": "澳大利亚十大国道、跨州基础设施、电杆、车牌与八大州独家绝杀特征完整笔记"
-    },
-    {
-      "id": "canada",
-      "nameZh": "加拿大",
-      "nameEn": "Canada",
-      "flag": "🇨🇦",
-      "continent": "North America",
-      "sections": [
+      "rawContent": "澳洲各州电线杆杆顶、路标立柱、路缘标、车牌、公交站、土壤植被与干线公路",
+      "sources": [
         {
-          "headingZh": "🚙 10省及3地区车牌颜色与前牌法规",
-          "headingEn": "Provincial License Plates & Front Plate Rules",
-          "contentZh": "- **必须悬挂前车牌的省份**：全加拿大仅 **BC (不列颠哥伦比亚)**、**MB (曼尼托巴)**、**ON (安大略)** 三省强制悬挂前牌 (其余大多数省份车头无牌)\n- **特色车牌图谱**：\n    - **北极熊轮廓车牌**：西北地区 (NT) 纯蓝底色北极熊；努纳武特 (NU) 米色/深色极光北极熊\n    - **爱德华王子岛 (PE)**：左上浅蓝、左下深红、右边纯白三色风车版面\n    - **安大略省 (ON)**：纯白底色深蓝字符，极为普及常见\n    - **育空地区 (YT)**：底部带有一条鲜艳的天蓝色横条 (淘金者标志)\n    - **曼尼托巴省 (MB)**：左右两侧各带一道绿色条纹 (友好曼尼托巴)",
-          "contentEn": "- **Mandatory Front Plate Provinces**: Only three provinces require a front license plate: **BC (British Columbia)**, **MB (Manitoba)**, and **ON (Ontario)** (vehicles in other provinces have no front plate)\n- **Signature Plate Designs**:\n    - **Polar Bear Die-Cut Plates**: Northwest Territories (NT) solid blue bear; Nunavut (NU) cream/dark sky bear\n    - **Prince Edward Island (PE)**: Light blue upper-left, deep red lower-left, white right\n    - **Ontario (ON)**: Crisp white field with dark royal blue characters\n    - **Yukon (YT)**: Vibrant cyan-blue horizontal stripe across bottom\n    - **Manitoba (MB)**: Distinctive green vertical side borders"
-        },
-        {
-          "headingZh": "🍁 东西各省道路设施、路缘标与高速标志",
-          "headingEn": "Province-by-Province Road Infrastructure & Bollards",
-          "contentZh": "- **不列颠哥伦比亚 (BC)**：\n    - 扁平长条形路缘柱，反光板宽大形似电影屏幕\n    - 依山公路边缘大量采用高混凝土防撞护栏 (Jersey Barrier)\n    - 限速牌下方常带有白底黑字 “km/h” 小副牌\n- **阿尔伯塔 (AB)**：\n    - 圆柱形路桩，顶部带有“黑-白-黑”三色环纹\n    - 信号灯悬臂支架通常涂装为全黑色\n- **萨斯喀彻温 (SK)**：\n    - 广袤平原麦浪，木电线杆绝缘子在左右两侧以“1个”和“2个”规律交替排列\n- **曼尼托巴 (MB)**：\n    - 圆柱形路桩顶部带有“黑-灰-黑”三色环，部分下方加装橙色反光圈\n- **安大略 (ON)**：\n    - 公路护栏广泛采用三条钢缆绳索连接短木桩的结构\n    - 高速入口匝道常有绿白相间的菱形指示牌；交通灯通常为亮黄色外壳\n    - 限速牌下方带有黑底白字 “km/h” 副牌；绿色里程牌下方带白色方块标示小数位\n    - 多伦多市内公交站牌为两端红色、中间白色且印有站号的圆柱立柱\n- **新不伦瑞克 (NB)**：\n    - 双语官方省份，Stop 标志上同时并列印有 **“STOP” 与 “ARRÊT”**\n    - 横贯加拿大高速 (Trans-Canada Highway) 上可见类似冰岛的黄黑色反光路桩\n- **爱德华王子岛 (PE)**：\n    - 全岛覆盖极其醒目的鲜红砖色土壤与砂岩海滩\n- **纽芬兰与拉布拉多 (NL)**：\n    - 漫山遍野类似圣诞树的黑云杉与冷杉针叶林；T 路口警示牌在传统棋盘格外还加装左右指示箭头，并整体嵌在一个大橙色正方形牌内\n- **西北地区 (NT)**：\n    - 黑白黑圆柱路桩，其中部白色反光带比 AB 省更细窄；广泛分布砂石碎石公路",
-          "contentEn": "- **British Columbia (BC)**:\n    - Flat wide paddle bollards with wide movie-screen-like reflectors\n    - Abundant concrete Jersey barriers along mountain highway drop-offs\n    - Speed limit signs feature a white \"km/h\" sub-plate beneath\n- **Alberta (AB)**:\n    - Cylindrical roadside bollards topped with a distinctive \"black-white-black\" banded pattern\n    - Traffic light gantries and masts are painted solid black\n- **Saskatchewan (SK)**:\n    - Boundless agricultural prairie fields; wooden pole crossarms alternate between 1 and 2 insulators left-to-right\n- **Manitoba (MB)**:\n    - Cylindrical bollards topped with black-gray-black stripes, occasionally with orange reflective bases\n- **Ontario (ON)**:\n    - Highway guardrails frequently use three tensioned steel cables strung between short posts\n    - Highway entrance ramps feature green-and-white diamond guidance signs; yellow traffic light housings\n    - Speed signs feature a black \"km/h\" tab below; green mile markers show decimals inside white squares\n    - Toronto bus stops are cylindrical posts with red ends and white centers\n- **New Brunswick (NB)**:\n    - Fully bilingual province; Stop signs explicitly combine **\"STOP\" and \"ARRÊT\"**\n    - Yellow-and-black Icelandic-style bollards along the Trans-Canada Highway\n    - Distinctive vibrant red clay soils across Prince Edward Island (PE)\n- **Newfoundland and Labrador (NL)**:\n    - Dense boreal spruce/fir forests resembling Christmas trees; T-intersection signs place black/yellow chevrons with arrows inside an oversized orange square\n- **Northwest Territories (NT)**:\n    - Black-white-black bollards with a significantly narrower white reflector band than Alberta; unpaved gravel highways"
-        },
-        {
-          "headingZh": "⚜️ 魁北克法语区独有道路特征与交通标志",
-          "headingEn": "Quebec Francophone Specifics & Chevrons",
-          "contentZh": "- **纯法语环境**：全境所有指路牌、路名牌均为纯法语书写\n- **停让标志**：全境 Stop 标志写为纯法语 **“ARRÊT”** (绝无英文 STOP 字样)\n- **交通信号灯**：十字路口交通灯普遍采用**横向水平悬挂** (Horizontal Traffic Lights)\n- **弯道指示标 (Chevron)**：采用独一无二的**红白相间**箭头反光牌 (加拿大其余所有省份均为黄黑相间)\n- **道路设施细节**：\n    - 木质电线杆上常贴有顶端带黑横条的黄色警示贴纸\n    - 细长反光棒直接用螺栓立在铁波形护栏上，带红或绿反光条\n    - 消防栓旁常插有高位橙色雪地警示杆\n    - T 字路口警示牌不带传统黑黄棋盘格",
-          "contentEn": "- **Francophone Signage**: Exclusively French road signage, municipal plaques, and place names\n- **Stop Signs**: Stop signs uniformly read **\"ARRÊT\"** without English text\n- **Horizontal Signals**: Traffic signals at intersections are mounted **horizontally** across mast arms\n- **Red & White Chevrons**: Curve warning chevrons are **red-and-white** arrows (all other Canadian provinces use yellow-and-black)\n- **Infrastructure Details**:\n    - Yellow pole stickers with black bars across the top\n    - Slender reflective rods bolted directly atop steel W-beam guardrails with red or green reflectors\n    - Orange marker stakes attached next to roadside fire hydrants for snowplow visibility\n    - T-intersection warnings omit the traditional black/yellow checkerboard"
+          "title": "zi8gzag 2 – How to Guess Australia on Geoguessr",
+          "url": "https://youtu.be/tlHqSSoowh8"
         }
-      ],
-      "rawContent": "加拿大各省车牌前牌法规、路缘柱、信号灯与魁北克法语区独占特征笔记"
+      ]
     },
     {
       "id": "new-zealand",
@@ -5568,273 +6816,39 @@ window.GEOGUESSR_DATA = {
       "continent": "Oceania",
       "sections": [
         {
-          "headingZh": "🇳🇿 北岛 vs 南岛：地形、植被与玉米田分布",
-          "headingEn": "North Island vs. South Island: Topography & Vegetation",
-          "contentZh": "- **北岛 (North Island)**：\n    - 地势以平缓起伏的绿色丘陵、牧场为主，气候相对温和干燥\n    - 连绵牛羊牧场与大面积玉米田；**玉米田只在北岛出现！**\n- **南岛 (South Island)**：\n    - 地形雄浑险峻，南阿尔卑斯山脉雪峰连绵，冰川峡谷纵横\n    - 西海岸为潮湿温带雨林与温带针叶林，东部坎特伯雷平原开阔干燥，南岛绝无玉米田种植",
-          "contentEn": "- **North Island**:\n    - Gentle undulating green pastures, rounded hills, and milder temperate climate\n    - Extensive corn / maize fields; **corn crops strictly only appear in the North Island!**\n- **South Island**:\n    - Grand, rugged alpine topography dominated by the Southern Alps snow peaks and glacial valleys\n    - Wet temperate rainforests along the West Coast, broad gravel plains in Canterbury; complete absence of maize farming"
+          "headingZh": "🇳🇿 南岛 vs 北岛：最先要做的判断",
+          "headingEn": "North vs South Island: The First Decision",
+          "contentZh": "- **金属围栏桩**：约 95% 在南岛；北岛围栏桩间距较密，南岛间距更宽\n- **金属横担**：99% 北岛（政府电杆统计）；全钢电杆只在北岛；普通木杆南北各半，参考价值低\n- **杆牌（竖排数字 + 分离的小黑方块）**：首位 3 或 4 → 北岛；首位 8 → 奥塔哥/南地\n- **乡村道路上的深蓝（偏紫）四代车**：只在北岛；乡村小路 + 深蓝车 → 怀卡托/奥克兰/北地；高速路上则北岛任意地区\n- **2023 年冬季覆盖** → 南岛\n- **非常粗糙的碎石沥青路面 + 平地远山** → 南岛（南地、坎特伯雷）\n- **州公路编号**：SH1 贯穿两岛；SH2–5 及 10–59 在北岛；SH6–8 及 60–99 在南岛\n- **电话区号**：03 = 整个南岛；04 惠灵顿；06 霍克斯湾/塔拉纳基/马纳瓦图/吉斯伯恩；07 怀卡托/丰盛湾；09 奥克兰/北地；02x 为手机\n- **玉米田**：绝大多数在北岛（怀卡托等）\n> 注意：北岛最北端和南岛最南端都非常湿润翠绿，容易互相混淆。",
+          "contentEn": "- **Metal fence posts**: ~95% South Island; North Island fence posts are spaced tightly, South Island more widely\n- **Metal crossbar**: 99% North Island (per government pole statistics); all-steel poles are North Island only; plain wooden poles are 50/50 and not very useful\n- **Pole tag (vertical number + detached small black square)**: first digit 3 or 4 → North Island; 8 → Otago/Southland\n- **Dark-blue (purplish) Gen 4 car on a rural road**: North Island only; rural road + dark-blue car → Waikato/Auckland/Northland; on highways anywhere in the North Island\n- **2023 winter coverage** → South Island\n- **Very grainy chip-seal + flat land with distant mountains** → South Island (Southland, Canterbury)\n- **State Highway numbers**: SH1 runs through both islands; SH2–5 and 10–59 are North Island; SH6–8 and 60–99 are South Island\n- **Area codes**: 03 = the whole South Island; 04 Wellington; 06 Hawke's Bay/Taranaki/Manawatū/Gisborne; 07 Waikato/Bay of Plenty; 09 Auckland/Northland; 02x is mobile\n- **Maize fields**: Overwhelmingly North Island (Waikato etc.)\n> Caution: the far north of the North Island and the far south of the South Island are both lush and green and easy to confuse."
         },
         {
-          "headingZh": "⚡ 电线杆质地、数字贴纸、围栏与高速编号",
-          "headingEn": "Poles, Pole Stickers, Fences & Highways",
-          "contentZh": "- **电线杆材质**：北岛以现代混凝土镂空梯子型杆为主；南岛仍保留大量圆形木质电线杆\n- **电杆 6 位数贴纸编码**：\n    - **北岛**：电杆贴纸首位数字通常为 **3 或 4**\n    - **南岛**：电杆贴纸首位数字通常为 **8**\n- **农场围栏跨度**：北岛牧场木桩围栏桩间距较密；南岛围栏木桩间距极大，且多使用轻型金属钢丝网围栏\n- **国道与高速编号**：\n    - **1 号国道 (SH1)**：纵贯南北两岛连接全境\n    - **2 至 5 号干线**：全部位于北岛\n    - **6 至 9 号干线**：全部位于南岛",
-          "contentEn": "- **Pole Types**: North Island features modern perforated ladder concrete poles; South Island retains abundant rustic round wooden poles\n- **Six-Digit Pole Label Codes**:\n    - **North Island**: First digit on pole marker sticker is **3 or 4**\n    - **South Island**: First digit on pole marker sticker is **8**\n- **Farm Fencing Spacing**: North Island fence posts have tight spacing; South Island fence posts have noticeably wider spans with high-tensile wire\n- **State Highway Numbering**:\n    - **State Highway 1 (SH1)**: Runs the entire length of both North and South Islands\n    - **State Highways 2 through 5**: Exclusively located on the North Island\n    - **State Highways 6 through 9**: Exclusively located on the South Island"
+          "headingZh": "🕳️ 多孔水泥电线杆与杆牌编号",
+          "headingEn": "Holey Concrete Poles & Pole Tag Numbers",
+          "contentZh": "- **多孔（holey）水泥杆**（类似罗马尼亚/匈牙利）：\n    - **南岛**：主要在南地，部分溢出到奥塔哥\n    - **北岛三处**：奥克兰市区（奥克兰乡村只在东南部）、塔拉纳基（埃格蒙特山周边，常能看到火山）、霍克斯湾（纳皮尔—黑斯廷斯，有时底部刷白）\n    - **方形水泥杆 + 长防负鼠套** → 南地（隐藏 Meta）\n- **黄色标签**：吉斯伯恩最常见（霍克斯湾、西海岸韦斯特波特、奥塔哥—坎特伯雷交界也有）\n- **竖排 5 位数（无小方块）**：奥克兰以北、塔拉纳基、偶见吉斯伯恩；南岛西海岸、尼尔森、蒂马鲁—怀马特\n- **竖排 6 位数**：以“P”开头 → 马纳瓦图（北岛唯一）；南岛：3 开头 → 马尔堡；01–12 开头 → 南地；13–17 开头 → 奥塔哥\n- **警示贴（白黑白横条 + 下方白色矩形）**：陶波一带、奥克兰以南、霍克斯湾\n- **顶端斜切的木杆** → 坎特伯雷；**橄榄绿防负鼠套** → 马尔堡",
+          "contentEn": "- **Holey (perforated) concrete poles** (Romania/Hungary style):\n    - **South Island**: Mainly Southland, with some spill into Otago\n    - **Three North Island areas**: Auckland city (rural Auckland only in the southeast), Taranaki (around Mt Egmont, often with the volcano visible), Hawke's Bay (Napier–Hastings, sometimes white-painted bottoms)\n    - **Square concrete poles with long possum guards** → Southland (a hidden meta)\n- **Yellow tags**: Most common in Gisborne (also Hawke's Bay, Westport on the West Coast, the Otago–Canterbury border)\n- **Vertical 5-digit numbers (no square)**: North of Auckland, Taranaki, rarely Gisborne; South Island West Coast, Nelson, Timaru–Waimate\n- **Vertical 6-digit numbers**: Starting with \"P\" → Manawatū (the only North Island area); South Island: starting 3 → Marlborough; 01–12 → Southland; 13–17 → Otago\n- **Warning sticker (white-black-white bars + white rectangle below)**: Around Taupō, south of Auckland, Hawke's Bay\n- **Wooden poles with a slanted cut top** → Canterbury; **olive-green possum guards** → Marlborough"
         },
         {
-          "headingZh": "☎️ 电话区号、恒天然 (Fonterra) 牌号与垃圾桶特征",
-          "headingEn": "Phone Area Codes, Fonterra Signs & Wheelie Bins",
-          "contentZh": "- **固定电话区号**：\n    - **04 至 09**：全部位于北岛 (惠灵顿 04，奥克兰 09，北地 09，丰盛湾 07，霍克斯湾 06)\n    - **03**：全南岛统一固定电话区号 (基督城、达尼丁、皇后镇全部为 03)\n    - **02**：开头全部为新西兰移动手机号码\n- **恒天然奶牛场门牌编号 (Fonterra Signs)**：\n    - 奶牛场门口蓝白标牌首位编号为 **1, 2, 7** 位于北岛\n    - 首位编号为 **3** 多位于南岛\n- **绿色市政垃圾桶盖**：带鲜艳绿色盖子的街头轮式垃圾桶 (Wheelie Bin) 标志着南岛最大城市基督城 (Christchurch)",
-          "contentEn": "- **Telephone Area Codes**:\n    - **04 to 09**: North Island only (Wellington 04, Auckland/Northland 09, Waikato/Bay of Plenty 07, Hawke's Bay 06)\n    - **03**: Entire South Island uniform landline area code (Christchurch, Dunedin, Queenstown)\n    - **02**: Mobile phone prefix across New Zealand\n- **Fonterra Dairy Farm Signs**:\n    - Farm gate collection signs starting with digits **1, 2, or 7** are on the North Island\n    - Signs starting with digit **3** are located on the South Island\n- **Green Wheelie Bin Lids**: Bright green plastic lids on residential curbside trash bins indicate Christchurch"
+          "headingZh": "🍇 区域地貌、无中线道路与城市细节",
+          "headingEn": "Regional Landscapes, No-Centre-Line Roads & Towns",
+          "contentZh": "- **葡萄园五大产区**：马尔堡（布伦海姆，最主要）、吉斯伯恩、霍克斯湾、尼尔森/里士满、中奥塔哥（克伦威尔/亚历山德拉——干燥山丘 + 雪峰）\n- **无中线道路**：“吉斯伯恩线”（吉斯伯恩的二/三代）；三代：怀罗阿以东半岛、惠灵顿周边；四代：通往塔拉纳基山的道路\n- **惠灵顿**：三代覆盖带方形雾霾（怀拉拉帕/东惠灵顿全为三代），冬季特有云型；黑色反光片的“惠灵顿路缘标”\n- **纳皮尔/霍克斯湾**：黄底黑字 + 黑色箭头的路牌（几乎不用蓝色路牌）；东海岸偏干、多冬季覆盖\n- **但尼丁**：两侧都是山 + 光秃山坡上的黄色荆豆（容易误判为北岛）；荆豆在南地/奥塔哥常见\n- **坎特伯雷**：草修剪得很短的平原，东侧可见班克斯半岛的山；**西海岸南岛**：绿色山丘、多雨、6 号公路\n- **尼尔森/塔斯曼**：山坡人工松林（南地、北帕默斯顿以西也有大片种植林）；尼尔森段 6 号公路前方有 Holcim 卡车\n- **塔拉纳基**：平坦地面上散布小土丘，正中是塔拉纳基火山锥\n- **丰盛湾**：陶朗加以东 2021 年夏季的纯白车\n- **其他（原笔记）**：恒天然奶站牌号首位 1/2/7 → 北岛、3 → 南岛；亮绿盖垃圾桶 → 基督城",
+          "contentEn": "- **Five wine regions**: Marlborough (Blenheim, the main one), Gisborne, Hawke's Bay, Nelson/Richmond, Central Otago (Cromwell/Alexandra — dry hills + snowy peaks)\n- **No centre line**: \"Gisborne lines\" (Gen 2/3 Gisborne); Gen 3: the peninsula east of Wairoa and around Wellington; Gen 4: roads up Mt Taranaki\n- **Wellington**: Gen 3 with a square haze (Wairarapa/eastern Wellington is all Gen 3) and a distinctive winter cloud pattern; the \"Wellington bollard\" with a black reflector\n- **Napier/Hawke's Bay**: Yellow street signs with black text and a black arrow (almost never blue); the dry east coast with lots of winter coverage\n- **Dunedin**: Hills on both sides + yellow gorse on bare slopes (easily mistaken for the North Island); gorse is common in Southland/Otago\n- **Canterbury**: Plains with very short, mown grass, Banks Peninsula hills visible to the east; **South Island West Coast**: green hills, rain, SH6\n- **Nelson/Tasman**: Pine plantations on hillsides (big plantations also in Southland and west of Palmerston North); a Holcim truck ahead on SH6 on the Nelson side\n- **Taranaki**: Level ground dotted with small hummocks around the Taranaki volcano cone\n- **Bay of Plenty**: Plain white 2021 summer car east of Tauranga\n- **Other (original notes)**: Fonterra farm numbers starting 1/2/7 → North Island, 3 → South Island; bright green bin lids → Christchurch"
         }
       ],
-      "rawContent": "新西兰南北岛植被地形、玉米田、电杆贴纸、围栏跨度、公路编号、区号与恒天然牌号完整笔记"
-    },
-    {
-      "id": "vietnam",
-      "nameZh": "越南",
-      "nameEn": "Vietnam",
-      "flag": "🇻🇳",
-      "continent": "Asia",
-      "sections": [
+      "rawContent": "新西兰南北岛区分、多孔电线杆、杆牌数字编号、无中线、葡萄园、公路编号、区号",
+      "sources": [
         {
-          "headingZh": "🇻🇳 北越 vs 南越：电线杆孔洞、建筑与屋顶样式",
-          "headingEn": "North vs. South Vietnam: Utility Poles & Roof Structures",
-          "contentZh": "- **北越 (河内及红河三角洲)**：\n    - 房屋屋顶常有尖刺或避雷针状塔尖装饰；传统法式排屋与红瓦平房居多\n    - 水泥电线杆上带有密布的较多较大孔洞，斜支撑架呈倒梯形结构\n- **南越 (胡志明市及湄公河三角洲)**：\n    - 水泥电线杆孔洞较小且细碎，斜支撑结构多呈正三角形\n    - 民间多轻型彩色铁皮屋顶与敞开式骑楼建筑",
-          "contentEn": "- **Northern Vietnam (Hanoi & Red River Delta)**:\n    - Roofs feature decorative spires, finials, and lightning rods; traditional French colonial shophouses and red tile clay roofs\n    - Concrete utility poles have numerous large square perforations with inverted trapezoid diagonal braces\n- **Southern Vietnam (Ho Chi Minh City & Mekong Delta)**:\n    - Utility pole holes are smaller, finer, and more compact; diagonal braces form upright triangles\n    - Predominance of corrugated tin roofs and open-front commercial arcades"
+          "title": "Daiiono – 5 Metas Every Pro Should Know Ep.22 (New Zealand, from Briny’s Ultimate NZ Guide)",
+          "url": "https://youtu.be/9yKGSYnkc-I"
+        },
+        {
+          "title": "zi8gzag 2 – Learning New Zealand with DerZiggi",
+          "url": "https://youtu.be/SyBAOCopJfI"
+        },
+        {
+          "title": "TreezErik – Geoguessr Pros reveal Secret New Zealand Metas",
+          "url": "https://youtu.be/ZO1OnFMXlhg"
         }
-      ],
-      "rawContent": "越南南北越电线杆孔洞形状、支撑梯形与屋顶铁皮建筑特征笔记"
-    },
-    {
-      "id": "tunisia",
-      "nameZh": "突尼斯",
-      "nameEn": "Tunisia",
-      "flag": "🇹🇳",
-      "continent": "Africa",
-      "sections": [
-        {
-          "headingZh": "🇹🇳 突尼斯跟随车车型与区域分布",
-          "headingEn": "Tunisia Follow-Car Metas: Toyota, Mazda & White Car",
-          "contentZh": "- **东北部沿海 (含纳布勒、苏塞一带)**：绝大多数由黑色/深色丰田皮卡 (Toyota Hilux) 作为护航跟随车\n- **中北部内陆走廊**：多见马自达皮卡 (Mazda BT-50) 作为跟随护航车\n- **首都突尼斯市 (Tunis) 及其周边**：常见白色普通民用小轿车作为跟随车",
-          "contentEn": "- **Northeastern Coast (Nabeul, Sousse)**: Follow car behind the Street View vehicle is a dark/black Toyota Hilux pickup\n- **Central-Northern Interior**: Follow car is frequently a Mazda BT-50 pickup\n- **Capital Tunis & Environs**: Follow car is often a white standard passenger car"
-        }
-      ],
-      "rawContent": "突尼斯丰田、马自达与白色跟随车区域分布笔记"
-    },
-    {
-      "id": "india",
-      "nameZh": "印度",
-      "nameEn": "India",
-      "flag": "🇮🇳",
-      "continent": "Asia",
-      "sections": [
-        {
-          "headingZh": "🌾 印度各邦植被与经济作物地理分布",
-          "headingEn": "Agricultural Crops, Forest Vegetation & Palms Across India",
-          "contentZh": "- **主要针叶树分布**：\n    - **圆形树冠长叶松 (Chir Pine)**：喜马拉雅西北角 (喜马偕尔邦、查谟克什米尔)\n    - **不规则树冠卡西松 (Khasi Pine)**：东北角梅加拉亚邦与卡西丘陵\n- **特色植被与竹林**：\n    - **高大密集倾斜丛生竹**：高大茂密且向路面倾斜生长的巨竹丛 → 东北部西孟加拉邦 (West Bengal) 与阿萨姆邦\n    - **仙人柱篱笆墙**：西部拉贾斯坦邦与古吉拉特邦荒漠农田边缘\n    - **粗壮野生银枣椰**：中部德干高原干旱平原\n    - **高耸纤细椰子树/槟榔树**：东部与南部热带沿海各邦 (喀拉拉、泰米尔纳德、奥里萨)\n- **农作物地理分布**：\n    - **茶叶种植园**：东北部阿萨姆/大吉岭，或西南高止山脉高原 (喀拉拉/泰米尔纳德)\n    - **甘蔗田**：北部恒河平原谷地或西南部沿海\n    - **棉花田**：西部马哈拉施特拉邦与古吉拉特邦深黑土带\n    - **金黄油菜花田**：西北部平原冬季景观\n    - **开阔平坦水稻田**：北部恒河平原平原带与东部三角洲",
-          "contentEn": "- **Pine Forest Distribution**:\n    - **Chir Pine (rounded crowns)**: Northwest Himalayan foothills (Himachal Pradesh, Jammu & Kashmir)\n    - **Khasi Pine (irregular open crowns)**: Northeast Meghalaya and Khasi Hills\n- **Signature Flora**:\n    - **Dense Arching Clumping Bamboo**: Towering dense bamboo groves leaning steeply over rural roads → West Bengal and Assam in the northeast\n    - **Cactus Hedgerows**: Western arid scrub along Rajasthan and Gujarat field boundaries\n    - **Stout Wild Date Palms**: Central Deccan plateau\n    - **Towering Slender Coconut & Areca Palms**: Eastern and southern tropical coastal belts (Kerala, Tamil Nadu, Odisha)\n- **Cash Crop Geography**:\n    - **Tea Plantations**: Northeast (Assam, Darjeeling) or southwest Western Ghats (Kerala, Tamil Nadu)\n    - **Sugarcane**: Northern Gangetic alluvial plains or southwest coastal lowlands\n    - **Cotton**: Western black soil volcanic belt (Maharashtra, Gujarat)\n    - **Yellow Mustard Fields**: Northwest winter plains\n    - **Flat Paddy Fields**: Vast Gangetic basin and eastern river deltas"
-        },
-        {
-          "headingZh": "🪨 土壤颜色分界与各邦特色电线杆结构",
-          "headingEn": "Soil Color Zones & State-Specific Utility Poles",
-          "contentZh": "- **土壤颜色分布**：\n    - **深黑肥沃棉土 (Black Cotton Soil)**：中西部德干高原火山岩风化带 (马哈拉施特拉等邦)\n    - **鲜艳砖红壤 (Laterite Red Soil)**：西南马拉巴尔海岸 (喀拉拉) 或中东部高地\n    - **干旱黄沙戈壁**：西北部塔尔沙漠走廊 (拉贾斯坦)\n- **各邦标志性电线杆**：\n    - **高密度细密圆孔杆 (带白黑白漆)**：东南部的泰米尔纳德邦 (Tamil Nadu)\n    - **两段式中空水泥杆 (智利型)**：东南部的安得拉邦与特伦甘纳邦 (Andhra Pradesh & Telangana，与泰卢固语对勾字符区完全重合)\n    - **混凝土中空波兰型方杆**：西部的古吉拉特邦 (Gujarat)\n    - **金属管中空波兰型杆或大黄圆贴纸**：西南角的喀拉拉邦 (Kerala)\n    - **并排两根圆形细长水泥杆**：喜马拉雅山区北部走廊",
-          "contentEn": "- **Soil Color Belts**:\n    - **Deep Black Cotton Soil**: West-central Deccan volcanic traps (Maharashtra, Madhya Pradesh)\n    - **Bright Red Laterite Soil**: Southwest Malabar coast (Kerala) and central-eastern highlands\n    - **Arid Yellow Sand**: Thar Desert corridor in northwestern Rajasthan\n    - **Signature Utility Poles**:\n    - **High-Density Perforated Poles (White-Black-White Painted Bands)**: Tamil Nadu in the southeast\n    - **Two-Stage Hollow Concrete Ladder Poles (Chile-style)**: Andhra Pradesh and Telangana (perfectly matches Telugu script with circular checkmarks)\n    - **Heavy Concrete Hollow Poles (Poland-style)**: Gujarat in the west\n    - **Steel Tube Hollow Poles or Large Yellow Circular Stickers**: Kerala in the southwest\n    - **Twin Bundled Concrete Poles**: Himalayan northern mountain roads"
-        },
-        {
-          "headingZh": "🛕 传统民居屋瓦形态与宗教建筑地貌",
-          "headingEn": "Roof Tile Profiles, Architecture & Regional Metas",
-          "contentZh": "- **屋顶瓦片形态区域特征**：\n    - **半圆形筒瓦 (U-Tile)**：中部偏东地区民居\n    - **细密平瓦，中间有突起脊梁 (W-Tile)**：南部热带各邦民居\n    - **两边长脊、中间小凸起 (Wide W-Tile)**：东部沿海平原\n    - **波纹金属铁皮大坡顶**：孟加拉国交界及东北部多雨地区\n    - **现代水泥坡顶洋房**：西南角喀拉拉邦侨民聚集区\n- **人文与街景车元数据**：\n    - **锡克教金顶寺庙与四格窗形电表**：西北角旁遮普邦 (Punjab)\n    - **彩色藏传佛教经幡与木棍编织篱笆**：东北喜马拉雅各邦 (锡金、阿萨姆丘陵)\n    - **黑顶明黄色车身嘟嘟车 (Tuk-tuks)**：东南部城市区域\n    - **方形金属行李车顶架**：西部或西北部沙漠街景车",
-          "contentEn": "- **Roof Tile Morphology**:\n    - **Curved Barrel Tiles (U-Tiles)**: East-central rural dwellings\n    - **Fine Flat Tiles with Central Ridges (W-Tiles)**: Southern tropical villages\n    - **Flanged Wide Tiles (Wide W-Tiles)**: Eastern coastal plains\n    - **Corrugated Sheet Metal Pitched Roofs**: High rainfall zones bordering Bangladesh and Northeast states\n    - **Modern Multistory Concrete Mansions**: Southwest Kerala NRI remittance belts\n- **Cultural Metas & Infrastructure**:\n    - **Sikh Gurdwaras & 4-Pane Window Meter Boxes**: Punjab in the northwest\n    - **Tibetan Buddhist Prayer Flags & Woven Stick Fences**: Northeast states (Sikkim, Assam highlands)\n    - **Black-Top Yellow Tuk-Tuks**: Southeastern urban centers\n    - **Square Metal Roof Rack Visible on Camera Car**: Western/Northwestern arid routes"
-        }
-      ],
-      "rawContent": "印度各邦植被、长叶松、卡西松、竹林、黑土红土、电线杆白黑白漆、屋顶瓦片形态与旁遮普电表笔记"
-    },
-    {
-      "id": "turkey",
-      "nameZh": "土耳其",
-      "nameEn": "Turkey",
-      "flag": "🇹🇷",
-      "continent": "Europe / Asia",
-      "sections": [
-        {
-          "headingZh": "🇹🇷 土耳其屋顶建筑、电话区号与街景车分布",
-          "headingEn": "Architecture, Phone Codes & Gen 4 Coverage",
-          "contentZh": "- **屋顶材质区域递变**：\n    - **红赤陶瓦片屋顶**：西部爱琴海及地中海沿岸广大城镇\n    - **波形铁皮坡屋顶**：东北部黑海湿润多雪山区\n    - **纯平顶混凝土方砖房**：东南部安纳托利亚干旱平原\n- **固定电话区号地理递进**：\n    - **2xx**：西部欧洲区、爱琴海走廊及伊兹密尔周边 (伊斯坦布尔欧洲区 212，亚洲区 216)\n    - **3xx**：中部安卡拉与安纳托利亚高原腹地 (安卡拉 312)\n    - **4xx**：东部、东北及东南部各省\n- **街景车镜头画质**：\n    - **四代高清皮卡街景车**：绝大部分高频覆盖在土耳其东部高原与南部山区走廊",
-          "contentEn": "- **Roof Materials Across Regions**:\n    - **Red Clay Terracotta Tiles**: Western Aegean and Mediterranean towns\n    - **Pitched Corrugated Metal Roofs**: Rainy and snowy northeastern Black Sea mountains\n    - **Flat Concrete Terraced Roofs**: Arid southeastern Anatolian plateaus\n- **Telephone Area Code Grid**:\n    - **2xx**: Western Turkey, Aegean Coast, and Izmir (Istanbul European side 212, Asian side 216)\n    - **3xx**: Central Anatolia and capital Ankara (Ankara 312)\n    - **4xx**: Eastern, northeastern, and southeastern provinces\n- **Camera Generation Coverage**:\n    - **Gen 4 High-Definition Pickup Car**: Heavily concentrated across Eastern Turkey and southern mountain highways"
-        },
-        {
-          "headingZh": "🌲 植被与农业作物地理过渡：从黑海到安纳托利亚",
-          "headingEn": "Vegetation & Crops: From Black Sea to Anatolian Plateau",
-          "contentZh": "- **北部黑海沿海走廊**：茂密苍翠的温带阔叶林与高山针叶林，年降水量充沛，茶园连绵\n- **东北角卡尔斯高原 (Kars)**：开阔高寒绿色牧场与草原\n- **西部与南部地中海沿海**：地中海硬叶林，满布耐旱土耳其松 (Turkish Pine) 与大片古老橄榄树林\n- **西北部色雷斯平原 (Thrace)**：一望无际的金黄色向日葵花田\n- **东南部干旱平原**：大面积棉花灌溉农田与平整灌渠",
-          "contentEn": "- **Northern Black Sea Coast**: Dense, lush temperate deciduous and conifer forests with heavy rain and tea plantations\n- **Northeast Kars Highlands**: High, undulating alpine steppe pastures and cattle meadows\n- **Western & Southern Mediterranean**: Dry maquis scrub, fragrant Turkish Pine woodlands, and sprawling olive groves\n- **Northwest Thrace Plains**: Boundless golden sunflower fields in summer\n- **Southeastern Desert Plains**: Expansive irrigated cotton fields"
-        }
-      ],
-      "rawContent": "土耳其瓦片铁皮平屋顶分布、电话区号2/3/4xx、四代车东部覆盖与植被向日葵棉花笔记"
-    },
-    {
-      "id": "mexico",
-      "nameZh": "墨西哥",
-      "nameEn": "Mexico",
-      "flag": "🇲🇽",
-      "continent": "North America",
-      "sections": [
-        {
-          "headingZh": "🌵 墨西哥城 (CDMX) 及周边五大方位生态特征",
-          "headingEn": "Mexico City & Surrounding 5 Directional Ecosystems",
-          "contentZh": "- **墨西哥城 (CDMX) 核心识别**：上粉红下白双拼色出租车；电话区号 **55 或 56**；邮政编码以 **5 开头** (0xxxx-5xxxx)\n- **墨西哥城周边五大方位生态绝杀**：\n    - **北部方位**：大片高耸的浅蓝色烛台仙人掌 (Blue Myrtle Cacti)；粗壮庞大的深绿萨尔米龙舌兰 (Agave salmiana)；水泥电线杆柱身呈菱形镂空网状结构\n    - **西部方位**：特基拉酒专用蓝色尖刺龙舌兰 (Agave tequilana)\n    - **东部方位**：人行道与庭院路面普遍采用六边形蜂窝状多孔地砖\n    - **南部方位**：高耸挺拔的无分枝石柱状梅斯卡拉仙人掌 (Cephalocereus mezcalaensis)",
-          "contentEn": "- **Mexico City (CDMX) Core Identifiers**: Iconic pink-and-white two-tone taxis; phone area codes **55 or 56**; postal codes starting with **5** (0xxxx–5xxxx)\n- **Five Cardinal Metas Around CDMX**:\n    - **North**: Dense stands of tall bluish Myrtle Cacti; massive thick Agave salmiana; concrete utility poles with diamond-mesh perforations\n    - **West**: Blue spiky Agave tequilana (tequila agave fields)\n    - **East**: Honeycomb hexagonal paving bricks widely laid on walkways\n    - **South**: Tall, slender, unbranched Cephalocereus mezcalaensis column cacti"
-        },
-        {
-          "headingZh": "🌊 墨西哥湾沿海、尤卡坦半岛与输油管立柱",
-          "headingEn": "Gulf of Mexico, Yucatán Limestone & Pipeline Posts",
-          "contentZh": "- **尤卡坦半岛 (Yucatán / 坎昆周边)**：\n    - 极其平坦的石灰岩干旱灌木林，道路两旁是用浅色石灰石垒砌的矮石墙 (Albarradas)\n    - 路肩多亮白色的碎砂石，日光反光耀眼；电线杆绝缘子多为小型圆轴卷轴式\n- **环墨西哥湾石油带 (塔巴斯科、韦拉克鲁斯、塔毛利帕斯)**：\n    - 公路旁频繁出现垂直书写 **“NO EXCAVAR”** (禁止挖掘) 和 **“DUCTOS”** (输油/气管道) 的鲜黄色铁质立柱防护标",
-          "contentEn": "- **Yucatán Peninsula (Quintana Roo / Campeche)**:\n    - Dead-flat low limestone scrub jungle flanked by rustic pale stone courtyard walls (Albarradas)\n    - Brilliant, blinding white limestone gravel road shoulders; compact spool-type pole insulators\n- **Gulf of Mexico Pipeline Belt (Tabasco, Veracruz, Tamaulipas)**:\n    - Yellow steel roadside posts marked with vertical text reading **\"NO EXCAVAR\"** (Do Not Dig) and **\"DUCTOS\"** (Petroleum Pipelines)"
-        },
-        {
-          "headingZh": "🏜️ 西部与北部荒漠、下加利福尼亚仙人柱与道路标线",
-          "headingEn": "Northern & Western Deserts, Baja Metas & Road Markings",
-          "contentZh": "- **西海岸走廊 (锡那罗亚 Sinaloa、杜兰戈 Durango、格雷罗 Guerrero)**：道路双黄中线中间涂有黑色沥青减磨密封涂料\n- **纳亚里特州 (Nayarit)**：道路两侧立柱类似法国带有倾斜红白反光顶的 Bollard (但底座漆黑；此柱亦见于瓦哈卡与恰帕斯边界的 190 号国道)\n- **东北边境 (靠近德克萨斯)**：粗糙颗粒状沥青路面，路肩长满金黄色簇状野草 (Gold Tufts)\n- **下加利福尼亚半岛 (Baja California)**：\n    - 木质电线杆上绝缘子悬挂垂吊在横木下方\n    - 满布高达十余米的巨型巨柱仙人柱 (Cardón)\n    - 黄花脆灌木 (Brittlebush) 与外形极其奇特如倒插胡萝卜的观峰玉树 (Boojum Tree / Cirio)\n- **西北山区 (奇瓦瓦 Chihuahua 与索诺拉 Sonora)**：干燥矮松树；路牌背面立柱多有垂直木十字加强架 (类似哥伦比亚)",
-          "contentEn": "- **Western Coastal Corridor (Sinaloa, Durango, Guerrero)**: Asphalt road centerline has black tar sealer painted between the double yellow lines\n- **Nayarit**: Roadside bollards resemble French bollards with slanted red/white reflectors (but with a black base; also found on Route 190 on the Oaxaca-Chiapas border)\n- **Northeast (Near Texas Border)**: Granular aggregate asphalt with golden tufts of bunchgrass along shoulders\n- **Baja California**:\n    - Wooden poles with insulators hanging downwards from crossarms\n    - Massive soaring Cardón cactus forests\n    - Yellow Brittlebush and bizarre carrot-like Boojum Trees (Cirio)\n- **Northwest Mountains (Chihuahua & Sonora)**: Stunted mountain pines; road signs reinforced with wooden crossbars on the back (Colombia-style)"
-        },
-        {
-          "headingZh": "🌴 南部热带与中部巴希奥红土农业带",
-          "headingEn": "Southern Tropics & Bajío Red Soil Farmlands",
-          "contentZh": "- **恰帕斯州 (Chiapas)**：湿润热带雨林丘陵，大片油棕榈树种植园\n- **塔巴斯科州 (Tabasco)**：连绵热带平原湿地，道路中心线多画为单条或双条白色中线\n- **瓦哈卡州 (Oaxaca)**：起伏多山干燥山村，常见独特的“三条卵石车辙铺装”路面\n- **中部巴希奥地区 (El Bajío / 瓜纳华托及周边)**：连绵起伏的富饶肥沃深红土壤现代农业平原",
-          "contentEn": "- **Chiapas**: Humid tropical jungle hills with extensive oil palm plantations\n- **Tabasco**: Flat tropical wet savannahs with white road centerlines (instead of standard yellow)\n- **Oaxaca**: Dry mountain valleys featuring distinctive triple-cobblestone track paved rural lanes\n- **Bajío Region (Guanajuato / Querétaro)**: Rich rolling crimson-red agricultural farmland"
-        }
-      ],
-      "rawContent": "墨西哥城CDMX五方位仙人掌龙舌兰、墨西哥湾管道黄柱、下加利福尼亚、瓦哈卡卵石路与巴希奥红土笔记"
-    },
-    {
-      "id": "japan",
-      "nameZh": "日本",
-      "nameEn": "Japan",
-      "flag": "🇯🇵",
-      "continent": "Asia",
-      "sections": [
-        {
-          "headingZh": "☎️ 电话区号南北递增法则与车牌地籍",
-          "headingEn": "Area Code North-South Gradient & License Plate Hubs",
-          "contentZh": "- **电话区号遵循由北向南递增铁律 (数字越小越偏北，越大越偏南)**：\n    - **011-016**：北海道 (札幌 011，旭川 0166)\n    - **02x**：东北地方及北关东 (仙台 022，青森 017/02x)\n    - **03**：东京都核心 23 区 (周围卫星城市多为 **04x**，如横滨 045，千叶 043，埼玉 048)\n    - **05x**：中部地方及东海地区 (名古屋 052，静冈 054)\n    - **06**：大阪市中心 (周围关西诸府县多为 **07x**，如京都 075，神户 078，奈良 074)\n    - **08x**：中国地方与四国地方 (广岛 082，冈山 086，高松 087，松山 089)\n    - **09x**：九州地方及沖縄 (冲绳) (福岡 (福冈) 092，熊本 096，沖縄 (冲绳)本岛及离岛 098)\n- **车牌汉字地名秒杀地籍**：\n    - **东京都核心**：“品川”、“世田谷”、“練馬 (练马)”、“足立”、“杉并”\n    - **富士山周边**：“富士山” (由山梨县与静冈县两县辖区共享)\n    - **关西核心**：“浪速 (なにわ)”、“大阪”、“京都”、“神户”\n    - **九州与沖縄 (冲绳)**：“福岡 (福冈)”、“北九州”、“久留米”、“熊本”、“鹿儿岛”、“沖縄 (冲绳)”",
-          "contentEn": "- **Strict North-to-South Ascending Area Code Rule**:\n    - **011–016**: Hokkaido (Sapporo 011, Asahikawa 0166)\n    - **02x**: Tohoku and Northern Kanto (Sendai 022, Aomori 017/02x)\n    - **03**: Central Tokyo 23 Wards (suburban prefectures use **04x**, e.g. Yokohama 045, Chiba 043, Saitama 048)\n    - **05x**: Chubu & Tokai (Nagoya 052, Shizuoka 054)\n    - **06**: Central Osaka City (surrounding Kansai prefectures use **07x**, e.g. Kyoto 075, Kobe 078, Nara 074)\n    - **08x**: Chugoku & Shikoku (Hiroshima 082, Okayama 086, Takamatsu 087, Matsuyama 089)\n    - **09x**: Kyushu & Okinawa (Fukuoka 092, Kumamoto 096, Okinawa 098)\n- **Kanji Place Names on License Plates**:\n    - **Tokyo Metro**: \"Shinagawa\" (品川), \"Setagaya\" (世田谷), \"Nerima\" (練馬), \"Adachi\" (足立)\n    - **Mount Fuji**: \"Fujisan\" (富士山, shared between Yamanashi and Shizuoka prefectures)\n    - **Kansai Region**: \"Naniwa\" (なにわ), \"Osaka\" (大阪), \"Kyoto\" (京都), \"Kobe\" (神戸)\n    - **Kyushu & Okinawa**: \"Fukuoka\" (福岡), \"Kumamoto\" (熊本), \"Okinawa\" (沖縄)"
-        },
-        {
-          "headingZh": "⚡ 全国九大电力区电线杆标牌与变压器结构",
-          "headingEn": "Nine Regional Power Company Pole Plates & Transformers",
-          "contentZh": "- **双牌识别体系**：日本电杆通常悬挂上下两块标牌：上方为地区电力公司牌 (通常为竖牌)，下方为国家牌 (NTT 电信竖牌，上面公司名 NTT，中间竖排汉字地籍，下方数字)。[参考图解](https://www.plonkit.net/japan)\n- **各大电力区具体特征**：\n    - **北海道电力**：地区牌比国家牌明显更长，有三道竖列 (其中两竖密布数字)，部分为橙色牌；电杆顶端变压器下方有金属十字形横向摆放的支撑架\n    - **东北电力**：地区牌为**横牌** (国家牌仍为竖牌)，常为银色极简设计，印有接近圆形的电力 logo，下方带一个大数字；杆身常贴灰白反光片；变压器侧边有提手状把手，或下部装有圆盘托底\n    - **关东电力 (东京周边)**：地区牌为竖牌，形状尺寸与国家牌相近，内部横向汉字名与竖向数字构成 T 形，logo 与东北类似；或为深灰色竖牌；变压器下方固定大木板托底，下部伸出两根平行金属支撑杆\n    - **北陆电力 (富山/石川/福井)**：地区牌与国家牌**均为横向安装**；杆身反光警示贴片亦为罕见的横向贴装\n    - **中部电力 (名古屋/爱知/静冈)**：地区牌为圆角竖牌，清晰印有“中部电力”字样与贝壳形徽标；反光贴片带有斜向交替条纹，上下黑边印有微小字符；变压器侧边装有黑色夹具组件。**长野县特例**：国家 NTT 牌为横牌\n    - **关西电力 (大阪/京都)**：地区牌与九州类似，通常不带公司 logo，版式较杂，牌面底部印有微小数字；反光贴片为很长的连续细竖线，颜色偏旧褪色\n    - **中国电力 (广岛/冈山)**：国家牌有时尺寸很大，logo 印有英文字符；电杆身有时印有醒目的**朝上黄色箭头**；反光贴片为 4 条短竖线且黑边带小字；变压器上有时印有红色大数字，铁杆连接处为全三角\n    - **四国电力**：电杆黄黑警示反光条中间有两条短横线相连，构成**“口”字形**；地区牌 logo 为 4 个圆点构成的菱形；电杆上方有时缠绕一条黑边黄带；反光片为 6 条竖短线；变压器常贴白贴纸，下部角铁连接处为半三角形\n    - **九州电力**：地区牌印有 **7 个圆点**组成的独特徽标，横向排列 3 位数字，竖向 4 个汉字通常排在右侧；反光板中间几道条纹颜色较深且带有立体凸点纹理；电线杆下半部常包裹类似美国的黄色塑料防撞护套\n    - **冲绳电力**：通常悬挂 2 至 3 块大小相近的竖向标牌，常印有**“冲电”**字样；柱身常用数道扁平细金属箍条缠绕紧固",
-          "contentEn": "- **Dual-Placard Identification System**: Japanese poles mount two plates: the upper is the regional power company plate (usually vertical), and the lower is the national NTT telecommunications plate (vertical, marked NTT on top, vertical Kanji in middle, digits below). [Plonkit Guide](https://www.plonkit.net/japan)\n- **Regional Power Company Breakdown**:\n    - **Hokkaido Electric**: Regional plate is much longer than NTT plate, featuring three vertical columns (two filled with dense digits); occasional orange plates; transformer mounted above a horizontal metal cross-brace\n    - **Tohoku Electric**: Regional plate is **horizontal** (NTT plate remains vertical), silver minimal design with circular logo and large digits; pale grey/white reflector strips; transformer with handles or resting on round bottom disc\n    - **Kanto Electric (Tokyo area)**: Vertical plate resembling NTT dimensions; horizontal Kanji and vertical digits form a T-shape; logo resembles Tohoku; or dark grey vertical plate; transformer mounted on large wood board with dual parallel steel braces\n    - **Hokuriku Electric (Toyama/Ishikawa)**: Both regional and NTT plates are **horizontal**; reflector strips are uniquely mounted horizontally\n    - **Chubu Electric (Nagoya/Aichi)**: Rounded vertical plate reading \"Chubu Electric\" with shell-shaped logo; diagonal alternating color reflector stripes with tiny text on black borders; black clamps on transformer sides. **Nagano exception**: NTT plate is mounted horizontally\n    - **Kansai Electric (Osaka/Kyoto)**: Similar to Kyushu, mostly lacks company logo, varied layouts, tiny digits at bottom; very long faded vertical reflector strips\n    - **Chugoku Electric (Hiroshima/Okayama)**: Large NTT plate with English letters; **yellow upward arrows** on poles; reflector has 4 short vertical lines; red numbers on transformers; full-triangle mounting iron bracket\n    - **Shikoku Electric**: Yellow/black pole wrap has horizontal connectors forming a **square (box-like) shape**; regional logo is a 4-dot diamond; occasional yellow stripe with black border on upper pole; 6 vertical reflector lines; half-triangle bracket beneath transformer\n    - **Kyushu Electric**: Regional plate stamped with a unique **7-dot emblem**, 3 horizontal digits, and 4 vertical Kanji on the right; center reflector bars are darker with tactile raised bumps; yellow protective plastic wire sleeves wrapped around lower pole\n    - **Okinawa Electric**: Typically displays 2 to 3 similar-sized vertical plates reading **\"沖電\"** (*Okiden*, Okinawa Electric); secured with thin metallic straps around the shaft"
-        },
-        {
-          "headingZh": "🗾 区域景观、地貌与独家秒杀特征",
-          "headingEn": "Regional Landscapes, Architecture & State Metas",
-          "contentZh": "- **北海道 (Hokkaido)**：\n    - 道路正上方悬挂垂直朝下的**红白相间雪地箭头** (暴雪天指引路面边缘)\n    - 道路宽阔，铺装有横向减速实线条纹；沿途遍布 **Seicomart** (橙色招牌+海鸥标志的北海道专属便利店)\n- **东北与北海道**：路边常见白色行李箱/烤箱造型的除雪与供暖设施；东北地方电线杆反光贴片多为灰白色 (非普通黄黑相间)\n- **四顾无山的平原**：关东平原 (东京及周边大平原) 或爱知县名古屋周边的浓尾平原 (全无高山，地平线平坦)\n- **中国地方 (Chugoku)**：传统木造民居屋顶普遍铺设**石州红瓦** (深橙红/红褐色防冻琉璃瓦，极易一眼辨识)\n- **山口县独家绝杀 (Yamaguchi)**：全日本唯一在公路上全面安装**鲜艳亮黄色 (或黄白相间) 金属护栏**的县份，见黄护栏必在山口县\n- **京都与奈良 (Kyoto & Nara)**：古都历史文化街区内的街角邮筒漆成深沉典雅的**深棕色/古铜色** (非普通鲜红邮筒)\n- **九州地方**：电线杆基部常包裹类似美国的黄色塑料防撞护套管\n- **冲绳群岛 (Okinawa)**：\n    - 珊瑚石灰岩砌筑的石墙院落与红瓦坡顶；门头端坐成对辟邪**风狮爷陶狮像 (Shisa)**；热带棕榈树林立\n    - 马路上频繁穿行白底黑字且带有大写英文字母 (**如 Y, E, A 开头**) 的驻日美军基地私家车牌",
-          "contentEn": "- **Hokkaido**:\n    - Overhead vertical **downward-pointing red-and-white snow arrows** (guide drivers along snow-covered roads)\n    - Wide roads with transverse rumble stripes; ubiquitous **Seicomart** convenience stores (orange logo with seagull, Hokkaido exclusive)\n- **Tohoku & Hokkaido**: White suitcase/oven-shaped roadside snow-melting or heating units; grey-white pole reflectors in Tohoku (instead of standard yellow/black)\n- **Completely Flat Plain Without Mountains**: Kanto Plain around Tokyo or Nobi Plain around Nagoya (vast horizon without mountains)\n- **Chugoku Region**: Traditional homes uniformly topped with **Sekishu Red Roof Tiles** (glazed orange-red terracotta tiles)\n- **Yamaguchi Prefecture Signature Meta**: The ONLY prefecture in Japan with **bright yellow (or yellow-and-white) roadside guardrails**\n- **Kyoto & Nara**: Antique historic districts feature elegant **dark bronze/brown mailboxes** instead of bright red\n- **Kyushu**: Yellow plastic protective ground cable sleeves wrapped on poles\n- **Okinawa**:\n    - Limestone coral courtyard walls with red clay tile roofs; paired guardian lion statues (**Shisa**) on gateposts; palm trees\n    - Private vehicles bearing white plates with single English letters (**Y, E, or A**) denoting US Military personnel"
-        }
-      ],
-      "rawContent": "日本九大电力公司电线杆牌变压器、电话区号递增、Seicomart、山口黄护栏、石州红瓦、冲绳美军车牌与风狮爷完整笔记"
-    },
-    {
-      "id": "kazakhstan",
-      "nameZh": "哈萨克斯坦",
-      "nameEn": "Kazakhstan",
-      "flag": "🇰🇿",
-      "continent": "Asia",
-      "sections": [
-        {
-          "headingZh": "🇰🇿 皮卡车斗电线与东西部季节街景",
-          "headingEn": "Kazakhstan Pickup Bed Wire & Seasonal Metas",
-          "contentZh": "- **街景皮卡左前电线**：在街景后方观察白色皮卡车斗，若左前方有一条黑色细电线连接，绝大多数位于**哈萨克斯坦西部** (阿特劳、阿克套走廊)；若车斗左前方无电线，则位于**哈萨克斯坦东部与中部**\n- **季节与天气**：西部咸海与里海低洼地带多干燥晴朗的烈日夏季街景；东部与北部平原多见阴天或春季田野景色",
-          "contentEn": "- **Pickup Bed Wire Meta**: Look back at the camera pickup bed; a black wire connecting to the left front side indicates **Western Kazakhstan** (Atyrau, Aktau); absence of wire indicates **Eastern or Central Kazakhstan**\n- **Seasonal Conditions**: The arid western Caspian depression features sunny, dry summer coverage; eastern and northern plains feature overcast or spring scenes"
-        }
-      ],
-      "rawContent": "哈萨克斯坦皮卡车斗左前方黑电线西部vs东部笔记"
-    },
-    {
-      "id": "kyrgyzstan",
-      "nameZh": "吉尔吉斯斯坦",
-      "nameEn": "Kyrgyzstan",
-      "flag": "🇰🇬",
-      "continent": "Asia",
-      "sections": [
-        {
-          "headingZh": "🇰🇬 后视镜备胎视野与天山地貌",
-          "headingEn": "Kyrgyzstan Mirror Tire Proportions & Topography",
-          "contentZh": "- **后视镜后轮备胎占比**：观察街景皮卡后视镜中倒映的后轮备胎轮廓：\n    - **北部 (比什凯克、伊塞克湖周边)**：后轮在后视镜中占据面积很大 (轮胎暴露比例多)\n    - **南部 (奥什、贾拉拉巴德走廊)**：轮胎在后视镜中占比极小或几乎看不见\n- **天山地貌**：雄浑壮丽的天山雪峰常伴随公路，高山峡谷牧场与核桃林连绵",
-          "contentEn": "- **Rearview Mirror Tire Meta**: Examine the spare tire visible in the camera truck's side mirror:\n    - **Northern Kyrgyzstan (Bishkek, Issyk-Kul)**: The tire takes up a large portion of the mirror view\n    - **Southern Kyrgyzstan (Osh, Jalal-Abad)**: The tire is small, subtle, or barely visible in the mirror\n- **Landscape**: Majestic Tian Shan snow-capped massifs along highways, lush high alpine valleys, and walnut groves"
-        }
-      ],
-      "rawContent": "吉尔吉斯斯坦后视镜轮胎占比多北部vs少南部笔记"
-    },
-    {
-      "id": "mongolia",
-      "nameZh": "蒙古",
-      "nameEn": "Mongolia",
-      "flag": "🇲🇳",
-      "continent": "Asia",
-      "sections": [
-        {
-          "headingZh": "🇲🇳 备胎固定带与车顶行李架横竖杠 Meta",
-          "headingEn": "Roof Rack Crossbars & Spare Tire Straps",
-          "contentZh": "- **通用法则**：首都乌兰巴托集齐了大部分车辆 Meta，若完全无法确定特征通常盲猜乌兰巴托；大部分街景车拍摄行驶方向为背离乌兰巴托\n- **右后方备用胎固定带 Meta**：\n    - **带网格防护罩**：位于蒙古西半部 (科布多、巴彦乌列盖)\n    - **扎绿色绑带**：位于蒙古最东部 (东方省、苏赫巴托尔省)\n    - **扎橙色绑带**：位于蒙古中部 (乌兰巴托正北或正南方向主干道)\n    - **无网格亦无绑带**：位于蒙古中部 (乌兰巴托正西或正东主干道)\n    - **车尾没有备用胎**：位于首都乌兰巴托市区或极近郊\n- **车顶架横杠特征**：\n    - **中间有黑色橡胶垫**：蒙古西半部\n    - **中间无黑色橡胶垫**：蒙古东半部\n- **车顶架竖杠特征**：\n    - **中间竖杠被模糊处理**：蒙古西半部\n    - **竖杠之间有一条横带相连**：乌兰巴托正西方\n    - **竖杠之间无横带连接**：乌兰巴托正北/正南，或蒙古东北角",
-          "contentEn": "- **General Principles**: Ulaanbaatar contains almost all car metas; if in doubt, UB is a safe guess; Street View cars typically drive away from UB\n- **Spare Tire Strap Metas (Rear-Right)**:\n    - **Protective Wire Mesh**: Western Mongolia (Khovd, Bayan-Ölgii)\n    - **Green Strap**: Far Eastern Mongolia (Dornod, Sükhbaatar)\n    - **Orange Strap**: Central Mongolia (directly North or South of Ulaanbaatar)\n    - **No Mesh & No Strap**: Central Mongolia (directly West or East of Ulaanbaatar)\n    - **No Spare Tire**: Inside Ulaanbaatar city or immediate suburbs\n- **Roof Rack Horizontal Bars**:\n    - **Black Rubber Pad in Center**: Western half of Mongolia\n    - **No Rubber Pad**: Eastern half of Mongolia\n- **Roof Rack Vertical Bars**:\n    - **Middle Vertical Bar Blurred**: Western half of Mongolia\n    - **Horizontal Band Connecting Vertical Bars**: West of Ulaanbaatar\n    - **No Connecting Band**: North or South of UB, or the far northeast corner"
-        },
-        {
-          "headingZh": "⛺ 蒙古包分布走廊与自然地理地貌",
-          "headingEn": "Yurt / Ger Distribution & Mongolian Landscapes",
-          "contentZh": "- **蒙古包 (Ger) 分布特征**：\n    - **完全看不见蒙古包的公路**：乌兰巴托往东南延伸通往中蒙扎门乌德口岸的主路，或额尔登特 (Erdenet) 矿业近郊\n    - **灰色破旧蒙古包**：多见于中北部传统牧区\n- **三大自然地理带**：\n    - **荒漠与戈壁沙丘**：蒙古中南部与南部各省 (南戈壁)\n    - **连绵起伏的大草甸**：蒙古中纬度核心带 (冬春带积雪的草甸多在乌兰巴托周边高山谷地)\n    - **泰加针叶林**：蒙古高纬度北部靠近俄罗斯边境山区 (库苏古尔湖沿岸)",
-          "contentEn": "- **Yurt (Ger) Metas**:\n    - **Zero Yurts Visible**: Southeast corridor from UB towards the Chinese border (Zamyn-Üüd), or around Erdenet\n    - **Grey Weathered Yurts**: Central-northern pastoral steppe\n- **Ecosystems & Topography**:\n    - **Desert & Gobi Gravel**: South-central and southern provinces (Omnogovi)\n    - **Rolling Alpine Steppe Meadows**: Central latitudes (snow-dusted grasslands lie around UB valleys)\n    - **Coniferous Boreal Taiga**: Far northern mountain border with Russia (Lake Khövsgöl)"
-        }
-      ],
-      "rawContent": "蒙古车顶架横杠竖杠、备胎绿带橙带网格、蒙古包分布与三大地貌完整笔记"
-    },
-    {
-      "id": "united-states",
-      "nameZh": "美国",
-      "nameEn": "United States",
-      "flag": "🇺🇸",
-      "continent": "North America",
-      "sections": [
-        {
-          "headingZh": "☎️ 大城市经典电话区号与七大“单区号州”",
-          "headingEn": "Megacity Area Codes & Seven Single-Area-Code States",
-          "contentZh": "- **大都市核心小数字区号 (送分题)**：\n    - **212**：纽约市曼哈顿 (NYC)\n    - **312**：芝加哥 (Chicago)\n    - **213**：洛杉矶 (Los Angeles)\n    - **313**：底特律 (Detroit)\n    - **202**：华盛顿特区 (Washington D.C.)\n    - **415**：旧金山；**617**：波士顿；**215**：费城；**305**：迈阿密；**713**：休斯敦\n- **全州仅有单一区号的七大州 (Single-Area-Code States - 一击必杀！)**：\n    - **207**：缅因州 (Maine)\n    - **302**：特拉华州 (Delaware)\n    - **307**：怀俄明州 (Wyoming)\n    - **406**：蒙大拿州 (Montana)\n    - **605**：南达科他州 (South Dakota)\n    - **701**：北达科他州 (North Dakota)\n    - **802**：佛蒙特州 (Vermont)",
-          "contentEn": "- **Iconic Historic Megacity Low Area Codes**:\n    - **212**: New York City (Manhattan)\n    - **312**: Chicago\n    - **213**: Los Angeles\n    - **313**: Detroit\n    - **202**: Washington D.C.\n    - **415**: San Francisco; **617**: Boston; **215**: Philadelphia; **305**: Miami; **713**: Houston\n- **The Seven Single-Area-Code States (Instant 5k Kills!)**:\n    - **207**: Maine\n    - **302**: Delaware\n    - **307**: Wyoming\n    - **406**: Montana\n    - **605**: South Dakota\n    - **701**: North Dakota\n    - **802**: Vermont"
-        },
-        {
-          "headingZh": "🚗 全美50州模糊车牌色系全图谱",
-          "headingEn": "All 50 US States Blurred License Plate Spectrum",
-          "contentZh": "- **黄色系车牌**：\n    - **Alaska**：全黄底色；或蓝黄横条纹\n    - **New York**：醒目金黄色/橙黄色块 (Excelsior 或 Empire Gold)\n    - **New Mexico**：纯亮黄色红字 (Centennial Yellow) 或亮绿底红字 (Turquoise)\n    - **New Jersey**：上黄下白渐变过渡色\n- **绿色系车牌**：\n    - **Vermont**：标志性纯深绿色底白字\n    - **New Hampshire**：左上浅绿，右下深绿渐变\n    - **Tennessee**：上白下墨绿双拼色 (旧版) 或深蓝底金徽标 (新版)\n- **蓝色系车牌**：\n    - **Montana**：纯深蓝底色白字\n    - **Michigan**：上白下天蓝渐变条纹\n    - **Kentucky**：上白下天蓝，水平分界线极其清晰\n    - **Connecticut**：上青天蓝下纯白，渐变鲜明\n    - **Delaware**：纯深蓝底黄色小数字 (复古数字牌)\n- **红色系车牌**：\n    - **Alaska**：蓝白横条中心带红点 (北极熊版)\n    - **Massachusetts**：大面积鲜艳红字白底，辨识度极高\n    - **Utah**：上方蓝天下方红色拱门岩石 (Life Elevated)\n    - **Wisconsin**：白底为主，左上角有亮红字\n    - **Illinois**：上白下蓝横条带鲜艳红字\n    - **Idaho**：清晰的上红中白下深蓝横条纹\n    - **North Dakota**：上方蓝天下方火红落日横条\n- **辐射与图形徽标系车牌**：\n    - **Florida**：白色背景中间一抹鲜艳绿色配橙色圆点 (橙子)\n    - **Georgia**：白色底中心带有粉橙色圆形 (佐治亚蜜桃) 或蓝白橙横条\n    - **Hawaii**：白色底色正中间横跨一道七彩彩虹 (Rainbow Plate)\n    - **Oregon**：白色底色正中央挺立一棵深绿色花旗松树\n- **横条纹系车牌**：\n    - **Pennsylvania**：上深蓝条纹、下黄色条纹、中间白底蓝字\n    - **California**：白底带模糊红色手写体 (California) 或复古黑底黄字\n    - **Arizona**：白蓝渐变背景，左下角带暗紫色仙人掌山脉剪影\n    - **Arkansas**：极浅淡的蓝白横条纹\n    - **Colorado**：绿白或红白锯齿雪山剪影条纹\n    - **Indiana**：蓝红横条 (极浅)，左右中央发白\n    - **Iowa**：上蓝、中白、下草绿三色横条纹\n    - **Kansas**：浅蓝底色，右下角偏白发亮",
-          "contentEn": "- **Yellow Tone Plates**:\n    - **Alaska**: Solid bright yellow; or blue-and-yellow horizontal bands\n    - **New York**: Golden-yellow / amber blocks (Excelsior / Empire Gold)\n    - **New Mexico**: Bright canary yellow with red text or bright turquoise green\n    - **New Jersey**: Pale yellow fading down into white\n- **Green Tone Plates**:\n    - **Vermont**: Trademark solid deep forest green with white text\n    - **New Hampshire**: Mint green top-left fading to darker green bottom-right\n    - **Tennessee**: White upper half, deep green lower half\n- **Blue Tone Plates**:\n    - **Montana**: Solid dark blue field with white lettering\n    - **Michigan**: White top with vivid blue bottom gradient\n    - **Kentucky**: Crisp white top half with azure blue bottom half\n    - **Connecticut**: Pale cyan blue top blending into clean white bottom\n    - **Delaware**: Minimalist deep navy blue with vintage yellow digits\n- **Red Tone Plates**:\n    - **Alaska**: Blue-and-white field with centered red grizzly bear\n    - **Massachusetts**: Crisp white plate dominated by bright red registration digits\n    - **Utah**: Blue sky over fiery red Delicate Arch silhouette\n    - **Wisconsin**: Pure white with vivid red state script in upper-left corner\n    - **Illinois**: White top, blue base with red center lettering\n    - **Idaho**: Sharp tricolor bands (red top, white center, blue bottom)\n    - **North Dakota**: Blue sky over glowing red sunset band\n- **Graphic & Emblem Plates**:\n    - **Florida**: White plate with twin oranges and green leaves in center\n    - **Georgia**: White plate with peach center emblem or blue/orange bands\n    - **Hawaii**: Pure white plate crossed by a bold pastel rainbow\n    - **Oregon**: Pure white field featuring a dark green Douglas Fir tree in center\n- **Striped & Multi-Band Plates**:\n    - **Pennsylvania**: Dark blue top band, gold bottom band, white center\n    - **California**: White with faint red cursive \"California\" script or retro black/yellow\n    - **Arizona**: Soft blue-to-white gradient with purple desert cacti silhouette on lower-left\n    - **Arkansas**: Subtle, washed-out blue/white bands\n    - **Colorado**: Jagged green-and-white or red-and-white mountain peaks\n    - **Indiana**: Faint blue/red bands with bright white center\n    - **Iowa**: Blue top, white center, prairie grass-green bottom\n    - **Kansas**: Soft sky blue with bright white wash in lower-right"
-        },
-        {
-          "headingZh": "🛣️ 各州独特道路标线、路缘柱与公路盾牌",
-          "headingEn": "State-Specific Road Markings, Bollards & Highway Shields",
-          "contentZh": "- **公制里程路牌**：全美仅亚利桑那州南部靠近墨西哥边境的 I-19 号州际公路上全部使用 **“km” (公里)** 单位标注\n- **商业路线标志 (Business Route)**：\n    - **加利福尼亚州**：Business 路线牌上方印有 “US” 标识\n    - **马里兰州与佐治亚州**：采用独特的绿色底色商业路线盾牌\n- **密苏里州字母州道**：密苏里州副州级公路完全采用**字母编号** (如 Route A, Route J, Route KK) 而非数字\n- **西弗吉尼亚州分数牌**：二级公路标号常带**分数形式** (如 211/23)，且路号经常套在独特的房屋轮廓图案中\n- **俄勒冈州限速牌**：标牌往往直接大写印刷 **“SPEED 55”** 而非全美通用的 “SPEED LIMIT 55”",
-          "contentEn": "- **Metric Signage**: Exclusively Interstate 19 in southern Arizona near the Mexican border uses **km / km/h** instead of miles\n- **Business Route Markers**:\n    - **California**: Business shields explicitly incorporate \"US\"\n    - **Maryland & Georgia**: Feature unique green-background Business Route shields\n- **Missouri Lettered Routes**: Missouri secondary state highways are designated with **letters** (e.g. Route A, Route KK) rather than numbers\n- **West Virginia Fractional Routes**: Secondary routes use **fractional numbers** (e.g. 211/23) enclosed inside a house-shaped silhouette\n- **Oregon Speed Signs**: Speed limit signs frequently read simply **\"SPEED 55\"** omitting the word \"LIMIT\""
-        },
-        {
-          "headingZh": "🎯 二十余州独家秒杀地理特征",
-          "headingEn": "Over 20 Signature State Clues: Hawaii to Alaska",
-          "contentZh": "- **夏威夷州 (Hawaii)**：电线杆上钉有长方形黄色铝片；高速指路牌上地名装在白色**“吉他拨片”**形状框内\n- **加利福尼亚州 (California)**：木质电线杆上常钉有 **3 片橙色横向反光铝条**；沥青路面双黄中线之间常浇注一道黑沥青防裂封缝胶\n- **华盛顿州 (WA) & 俄勒冈州 (OR)**：双向车道两条黄色中线之间**间距极其宽大**；华盛顿州路桩带有两块垂直分离的白色矩形反光板\n- **内华达州 (Nevada)**：路缘桩为**黑方块内嵌白方块**，上下由 4 颗金属大铆钉固定\n- **蒙大拿州 (MT) & 南达科他州 (SD)**：顶端截面呈菱形棱角的白色金属路桩\n- **北达科他州 (North Dakota)**：笔直公路上随处可见天然小池塘与湿地坑洼 (Prairie Potholes)\n- **爱达荷州 (ID) & 科罗拉多州 (CO)**：道路两侧安装罕见墨绿色反光立柱\n- **德克萨斯州 (Texas)**：路面铺装有明显黑色焦油黑斑颗粒；双黄实线间距极宽；农场出入口密集\n- **威斯康星州 (Wisconsin)**：电线杆警示贴纸为橙底黑字 **“WARNING”** 外加菱形感叹号图标\n- **明尼苏达州 (Minnesota)**：波形护栏末端常固定黄色方牌配黑色向下三角 chevron 警示板\n- **印第安纳波利斯 (Indianapolis)**：市内消防栓统一涂装清爽的**冰绿色/薄荷绿 (Ice Green)**\n- **密歇根州 (Michigan)**：道路命名遍布 **“X Mile Road”** (如 8 Mile, 12 Mile)；Stop 标志牌常用双根厚木桩平行支撑\n- **佐治亚州 (GA) & 佛罗里达州 (FL)**：沥青路面中心线两侧对称布设凸起反光猫眼道钉\n- **南卡罗来纳州 (South Carolina)**：Stop 停让标志上方加装黑色反光地名指向板\n- **弗吉尼亚州 (VA) & 马里兰州 (MD)**：路面白色实线和黄色中线画得极其粗重饱满\n- **肯塔基州 (Kentucky)**：路肩边缘开凿有形如岩石裂纹般的锯齿状减速震动带\n- **田纳西州孟菲斯 (Memphis)**：道路沥青颜色常泛出独特的深棕色/红褐色\n- **南达科他州苏福尔斯 (Sioux Falls)**：路面骨料采用当地粉红石英岩，整条公路呈现**粉红色**\n- **爱奥瓦州 (Iowa)**：全州高速与乡村干道极其广泛采用白色混凝土路面铺设\n- **阿肯色州 (Arkansas)**：路边民宅与机构门前高频悬挂红色阿肯色州旗\n- **俄克拉荷马州 (Oklahoma)**：土壤呈现极其鲜艳刺目的红土与红泥岩\n- **堪萨斯州 (Kansas)**：Stop 标志金属立杆上套有白色塑料反光套管\n- **阿拉斯加州 (Alaska)**：公路两侧铺满粉红色的柳兰野花与极地苔原矮灌木",
-          "contentEn": "- **Hawaii**: Large yellow aluminum placards mounted on utility poles; highway destinations displayed inside white \"guitar-pick\" shields\n- **California**: Wooden poles stamped with **three horizontal orange aluminum reflective strips**; black tar sealant poured between double yellow centerlines\n- **Washington & Oregon**: Extra-wide separation between double yellow centerlines; WA bollards feature two vertically separated white reflector rectangles\n- **Nevada**: Roadside bollards feature a black square inset with a white square secured by four corner rivets\n- **Montana & South Dakota**: Metal road marker stakes with diamond-shaped cross-sections\n- **North Dakota**: Abundant roadside prairie pothole sloughs and shallow ponds\n- **Idaho & Colorado**: Forest-green roadside marker stakes\n- **Texas**: Granular chip-seal pavement with coarse black bitumen tar spots; wide double yellow lines\n- **Wisconsin**: Orange \"WARNING\" decals on poles accompanied by a diamond exclamation mark\n- **Minnesota**: Guardrail terminals capped with yellow square plates featuring black downward chevrons\n- **Indianapolis (IN)**: City fire hydrants are uniformly painted distinct minty \"ice green\"\n- **Michigan**: Mile-based road grids (\"8 Mile Rd\", \"12 Mile Rd\"); Stop signs supported by dual parallel timber posts\n- **Georgia & Florida**: Raised reflective pavement markers (cat's eyes) installed along both sides of centerlines\n- **South Carolina**: Black destination pointer tabs mounted directly above Stop signs\n- **Virginia & Maryland**: Exceptionally thick, wide white shoulder lines and yellow centerlines\n- **Kentucky**: Shoulder rumble strips cut in irregular patterns resembling jagged fractured rock fissures\n- **Memphis (TN)**: Roadway asphalt exhibits a distinctive chocolate-brownish tint\n- **Sioux Falls (SD)**: Highways paved with local Sioux quartzite aggregate, resulting in a pastel pink road surface\n- **Iowa**: Heavy reliance on white-paved Portland concrete highways across rural routes\n- **Arkansas**: High frequency of red Arkansas state flags flying outside properties\n- **Oklahoma**: Brilliant deep crimson-red clay soils and red mudstone cuts\n- **Kansas**: White plastic protective sleeve wrapped around the base of Stop sign posts\n- **Alaska**: Roadside tundra valleys blanketed in bright pink Fireweed"
-        }
-      ],
-      "rawContent": "美国单区号州、全美50州模糊车牌色系、各州道路路缘柱、加州三橙条、夏威夷吉他拨片、内华达四钉等25州独家绝杀笔记"
-    },
-    {
-      "id": "thailand",
-      "nameZh": "泰国",
-      "nameEn": "Thailand",
-      "flag": "🇹🇭",
-      "continent": "Asia",
-      "sections": [
-        {
-          "headingZh": "🇹🇭 泰国南部多层绝缘子与电线杆特征",
-          "headingEn": "Southern Thailand Multi-Layer Insulators & Grid Metas",
-          "contentZh": "- **南部泰国多层绝缘子**：电线杆横担上的绝缘陶瓷碗/绝缘子盘层数极其密集，**若层数大于等于 7 层 (>7 disks)**，绝大多数直接定位泰国南部狭长半岛地带 (普吉、甲米、素叻他尼至马泰边境)\n- **泰式方杆与橡胶林**：混凝土方形四棱中空电杆，路边大面积规则种植的割胶橡胶林；泰文带有小圆圈字母，不同于柬埔寨高棉文或老挝文",
-          "contentEn": "- **Southern Multi-Layer Insulators**: Crossarm suspension ceramic insulator disks are heavily layered; **7 or more disks (>7 layers)** reliably indicates the southern peninsular tail of Thailand (Phuket, Krabi, Surat Thani down to the Malaysian border)\n- **Square Concrete Poles & Rubber Groves**: Square 4-rib hollow concrete poles alongside vast planted rubber tree monocultures; Thai script features characteristic loops on letters"
-        }
-      ],
-      "rawContent": "泰国南部电线杆绝缘子多层>7绝杀笔记"
+      ]
     },
     {
       "id": "south-africa",
@@ -5844,13 +6858,67 @@ window.GEOGUESSR_DATA = {
       "continent": "Africa",
       "sections": [
         {
-          "headingZh": "🇿🇦 开普敦及西南角 A 型电线杆铁架特征",
-          "headingEn": "Southwest Cape Town A-Frame Utility Pole Brackets",
-          "contentZh": "- **西南角 A 型金属铁架杆**：木质或水泥电线杆横梁下方带有倒 A 字形金属斜撑铁架，这是南非西南角西开普省 (Western Cape，开普敦周边高山与葡萄园产区) 的独家标志性电网结构\n- **道路标线与凡波斯灌木**：南非公路边缘统一画亮黄色实线 (或内黄外白)，左侧通行；开普半岛独有的温带硬叶凡波斯 (Fynbos) 灌木丛与平顶桌山地貌",
-          "contentEn": "- **Southwestern A-Frame Steel Brackets**: Wooden or concrete poles fitted with inverted A-frame steel diagonal brackets beneath crossarms are exclusive to the Western Cape (Cape Town, Winelands, and coastal mountain passes)\n- **Road Markings & Fynbos**: Yellow outer road shoulder lines, left-hand driving; unique Cape Fynbos heathland shrubs against sheer sandstone massifs"
+          "headingZh": "🔢 区号、公路编号与车牌",
+          "headingEn": "Area Codes, Road Numbers & Plates",
+          "contentZh": "- **座机区号（0 + 两位）按地区分组**：\n    - **01x 北部四省**：011 约翰内斯堡、012 比勒陀利亚、013/017 普马兰加、014/018 西北省、015 林波波、016 瓦尔\n    - **02x 西开普与北开普西部**：021 开普敦、022 西海岸、023 卡鲁/伍斯特、027 纳马夸兰、028 奥弗贝格\n    - **03x 夸祖鲁-纳塔尔**：031 德班、033 彼得马里茨堡、034/035/036、039 南海岸\n    - **04x 东开普与花园大道**：041 格克贝哈（伊丽莎白港）、043 东伦敦、044 乔治\n    - **05x 自由邦与北开普**：051 布隆方丹、053 金伯利、054 阿平顿、056–058 自由邦\n    - 06–08 开头为手机号\n- **N 国道**：路牌写“N”，谷歌地图显示蓝色五边形；**三位数 R 公路**大多按地区分组（100 系列全国散布）——Daiiono 专门讲解了 R 公路体系\n- **M 都市路线**：格克贝哈与德班有各自独特的 M 路标\n- **车牌**：各省设计不同；自由邦略带绿色、夸祖鲁-纳塔尔略带蓝色，模糊后仍可辨\n- **国家识别**：左侧通行；黄色外边线 + 白色中线（澳洲几乎从不用黄边线）；独特的三条中线（两实一虚，或两白夹一黄）；二代覆盖常见（非洲唯一）；英语与南非荷兰语（-fontein、-kraal、-dorp 等地名后缀遍布全国，不能用来分区）；“鸟杆”（1–5 根横杠 + 一排排白色小绝缘子）；绿色指路牌 + 黄色路号；红边白底三角警告牌；红白 V 形牌与单箭头细 V 形牌；四代全为带短天线的蓝车；城市住宅高墙电网",
+          "contentEn": "- **Landline area codes (0 + two digits), grouped by region**:\n    - **01x the four northern provinces**: 011 Johannesburg, 012 Pretoria, 013/017 Mpumalanga, 014/018 North West, 015 Limpopo, 016 Vaal\n    - **02x Western Cape & western Northern Cape**: 021 Cape Town, 022 West Coast, 023 Karoo/Worcester, 027 Namaqualand, 028 Overberg\n    - **03x KwaZulu-Natal**: 031 Durban, 033 Pietermaritzburg, 034/035/036, 039 South Coast\n    - **04x Eastern Cape & Garden Route**: 041 Gqeberha (Port Elizabeth), 043 East London, 044 George\n    - **05x Free State & Northern Cape**: 051 Bloemfontein, 053 Kimberley, 054 Upington, 056–058 Free State\n    - Numbers starting 06–08 are mobiles\n- **N highways**: Signs show \"N\", Google Maps shows a blue pentagon; **three-digit R roads** are mostly grouped by region (the 100s are spread nationwide) — Daiiono dedicates a segment to the R-road system\n- **M metropolitan routes**: Gqeberha and Durban each have distinctive M-route signs\n- **Plates**: Each province has its own design; Free State has a slight green tint and KwaZulu-Natal a slight blue tint, visible through the blur\n- **Country ID**: Left-hand traffic; yellow edge lines + white centre lines (Australia practically never uses yellow edges); unique triple centre lines (solid-dashed-solid, or white-yellow-white); common Gen 2 coverage (the only place in Africa); English and Afrikaans (suffixes like -fontein, -kraal, -dorp occur nationwide, so they don't help regionguess); \"bird poles\" (1–5 bars with rows of small white insulators); green direction signs with yellow road numbers; red-bordered triangular warning signs; red-white chevrons and thin single-arrow chevrons; all Gen 4 is a blue car with a short antenna; high walls and electric fences around suburban houses"
+        },
+        {
+          "headingZh": "⚡ 各省电线杆杆顶与标志背面贴纸",
+          "headingEn": "Pole Tops & Sign-Back Stickers by Province",
+          "contentZh": "- **三根横杠组成“A”字、下方绝缘子挂在横杠两端** → 几乎只在西开普（邻省偶见）\n- **更宽的“A”字、绝缘子直接挂在 A 上** → 东开普\n- **三叉戟杆顶** → 几乎是夸祖鲁-纳塔尔独有\n- **顶部三个左右交错水平伸出的绝缘子** → 北部四省（林波波、豪登、西北、普马兰加），北开普偶见\n- **两根斜杆组成“<”形** → 东北各省，林波波与西北省最常见\n- **一两根金属臂托绝缘子** → 普马兰加最常见\n- **普通标志背面方形红色贴纸** → 东开普及其附近的北开普、自由邦（西北省较少）；V 形牌背面红贴纸几乎每个省都有\n- **V 形牌背面白色贴纸** → 开普各省\n- **约翰内斯堡**：红绿灯和人行横道杆缠三道反光带；**德班**：路灯臂顶部有个小凸起；**豪登**（约堡、埃马拉赫莱尼）：电杆上贴满可疑小广告",
+          "contentEn": "- **Three bars forming an \"A\", bottom insulators at the ends of a horizontal bar** → almost exclusively Western Cape (rarely neighbouring provinces)\n- **A wider \"A\" with insulators attached directly to it** → Eastern Cape\n- **Trident pole tops** → almost unique to KwaZulu-Natal\n- **Three alternating insulators sticking out horizontally at the top** → the four northern provinces (Limpopo, Gauteng, North West, Mpumalanga), occasionally Northern Cape\n- **Two diagonal bars forming a \"<\"** → the northeastern provinces, most often Limpopo and North West\n- **One or two metal arms holding insulators** → most common in Mpumalanga\n- **Square red stickers on the back of regular signs** → Eastern Cape and nearby Northern Cape/Free State (less in North West); red stickers on chevron backs occur in almost every province\n- **White stickers on chevron backs** → the Cape provinces\n- **Johannesburg**: Traffic-light and crossing poles wrapped with three reflective strips; **Durban**: a small bump on top of the lamp arm; **Gauteng** (Johannesburg, Emalahleni): poles plastered with dodgy adverts"
+        },
+        {
+          "headingZh": "🌍 植被、作物与地貌",
+          "headingEn": "Vegetation, Crops & Landscape",
+          "contentZh": "- **西开普**：独特的陡峭尖锐无树岩山（莱索托附近也有类似）；葡萄园几乎只在西开普沿海谷地（北开普阿平顿附近也多）；开普敦—乔治沿海及开普敦以北为绿草起伏丘陵，北面或东面常见高耸山脊；**桌山**（3 公里长的平顶 + 金字塔形魔鬼峰）；乔治城北面可见乔治峰\n- **北开普**：干燥红土；北部电线杆顶上的巨大**群织雀鸟巢**；**R360（博克斯皮茨以北、博茨瓦纳边境）**：偏红沥青、干燥灰树与金色长草，南北走向\n- **东北部**：非常干燥荒凉，橙红色土壤，山丘覆盖灌丛（季节不同可能变得非常绿）；**林波波**：略带粉色的“得州式”粗颗粒路面、红色道路\n- **夸祖鲁-纳塔尔**：沿海甘蔗园（普马兰加莫桑比克边境也有）；**库克南洋杉**（异常高大）→ 东伦敦至德班的东南沿海\n- **松树人工林** → 斯威士兰以西、夸祖鲁-纳塔尔南部\n- **莫桑比克边境一带**：明显平坦、绿色亚热带植被\n- **克鲁格国家公园**：平坦稀树草原、无农田、草下红土，路口有独特的方向石；迷彩涂装、黑色后视镜和行李架的特殊车（现在也有四代）\n- **普马兰加**：塞昆达与埃马拉赫莱尼之间的发电厂",
+          "contentEn": "- **Western Cape**: Unique steep, sharp, treeless rocky mountains (similar around Lesotho); vineyards almost only in Western Cape coastal valleys (also common near Upington, Northern Cape); green rolling hills between Cape Town and George and north of Cape Town with tall ridges to the north or east; **Table Mountain** (a 3 km flat top + pyramid-shaped Devil's Peak); George's Peak visible north of George\n- **Northern Cape**: Dry, red soil; huge **sociable-weaver nests** on poles in the north; **R360 north of Bokspits (Botswana border)**: reddish asphalt, dry grey trees and long golden grass, north–south\n- **The Northeast**: Very dry and barren, orange-red soil, shrub-covered hills (can turn very green depending on season); **Limpopo**: slightly pink, Texas-like grainy pavement and red roads\n- **KwaZulu-Natal**: Coastal sugarcane (also on the Mpumalanga–Mozambique border); **Cook pines** (unusually tall) → the southeast coast from East London to Durban\n- **Pine plantations** → west of Eswatini and southern KwaZulu-Natal\n- **Near the Mozambique border**: Noticeably flat with green subtropical vegetation\n- **Kruger National Park**: Flat savannah, no farms, red soil under the grass, distinctive direction stones at junctions; a camouflage car with black mirrors and roof racks (now also Gen 4)\n- **Mpumalanga**: Power stations between Secunda and eMalahleni"
         }
       ],
-      "rawContent": "南非西南角开普敦电线杆A型铁架笔记"
+      "rawContent": "南非电话区号、R 公路编号分区、各省电线杆杆顶、标志背面贴纸、植被作物与地貌、城市特征",
+      "sources": [
+        {
+          "title": "zi8gzag – SOUTH AFRICA Beginner’s Guide: Geoguessr",
+          "url": "https://youtu.be/KHKKa_-arv0"
+        },
+        {
+          "title": "Daiiono – 5 Metas Every Pro Should Know Ep.17 (South Africa)",
+          "url": "https://youtu.be/SAFlxUlUro8"
+        },
+        {
+          "title": "Plonk It – South Africa guide",
+          "url": "https://www.plonkit.net/south-africa"
+        }
+      ]
+    },
+    {
+      "id": "tunisia",
+      "nameZh": "突尼斯",
+      "nameEn": "Tunisia",
+      "flag": "🇹🇳",
+      "continent": "Africa",
+      "sections": [
+        {
+          "headingZh": "🚙 跟随车：突尼斯最强区域线索",
+          "headingEn": "Follow Cars: The Strongest Tunisian Clue",
+          "contentZh": "> 突尼斯街景车后面几乎总跟着一辆护卫车，车型因地区而异。\n- **浅绿/苔绿色丰田**：北部——从比塞大一路到哈马马特\n- **深绿色马自达**：哈马马特以南的所有地区（突尼斯市除外）\n- **白色三菱（深绿马自达跟在其后）**：凯鲁万\n- **杰尔巴岛**：通常没有跟随车；偶见警用奔驰，极少见黑车\n- **突尼斯市**：各种其他跟随车（但不会是深绿马自达）",
+          "contentEn": "> The Tunisian Google car is almost always trailed by an escort vehicle, and the model depends on the region.\n- **Light/moss-green Toyota**: The north — from Bizerte down to Hammamet\n- **Dark-green Mazda**: Everywhere south of Hammamet (but not in Tunis)\n- **White Mitsubishi (with the dark-green Mazda behind it)**: Kairouan\n- **Djerba**: Usually no follow car; sometimes a police Mercedes, rarely a black car\n- **Tunis city**: Various other follow cars (never the dark-green Mazda)"
+        },
+        {
+          "headingZh": "🏜️ 覆盖范围与南北地貌",
+          "headingEn": "Coverage Extent & North–South Landscape",
+          "contentZh": "- **覆盖只在东海岸**：比塞大—突尼斯—苏塞—斯法克斯—加贝斯—杰尔巴/梅德宁，外加少数“星球大战”取景地等摄像点；内陆沙漠基本没有覆盖，绝不要点\n- **道路少** → 道路走向 + 周边环境就能逼近正确位置\n- **北部**：更绿，白色整洁建筑，山顶小镇（如 El Alia），平坦的泥土空地\n- **苏塞—莫纳斯提尔—马赫迪耶城市带**：彼此很像；**斯法克斯**多层建筑、城市覆盖最多 → 城市回合的稳妥选择\n- **白色盐湖（地图上显示为湖泊）**：A1 公路苏塞/恩菲达一带\n- **南部（加贝斯、梅德宁、杰尔巴）**：白色石块、浅色多石土壤、垃圾较多、椰枣树（加贝斯绿洲与杰尔巴）、沿桥/干河的管道；梅德宁—塔塔温一带有山\n- **杰尔巴岛**：环岛公路覆盖\n- **电话号码**：在突尼斯用处不大",
+          "contentEn": "- **Coverage is east coast only**: Bizerte – Tunis – Sousse – Sfax – Gabès – Djerba/Medenine, plus a few spots such as the Star Wars sets; the desert interior is basically uncovered — never click there\n- **Few roads** → road angle + surroundings get you close\n- **North**: Greener, tidy white buildings, hilltop towns (e.g. El Alia), flat dirt plains\n- **Sousse–Monastir–Mahdia urban belt**: Looks alike; **Sfax** has multi-storey buildings and the most urban coverage → a safe urban hedge\n- **White salt pans (shown as lakes on the map)**: Along the A1 around Sousse/Enfidha\n- **South (Gabès, Medenine, Djerba)**: White rocks, pale rocky soil, more litter, date palms (Gabès oasis & Djerba), pipelines along bridges/wadis; hills around Medenine–Tataouine\n- **Djerba**: A ring road of coverage around the island\n- **Phone numbers**: Not very useful in Tunisia"
+        }
+      ],
+      "rawContent": "突尼斯跟随车车型分区、东海岸覆盖、盐湖、南部白石与棕榈",
+      "sources": [
+        {
+          "title": "Kowalski – Tunisia: Tips for Unpopular Countries",
+          "url": "https://youtu.be/KSjsIWAEfS8"
+        }
+      ]
     }
   ],
   "islands": [
