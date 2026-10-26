@@ -311,3 +311,24 @@ html {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+/* Phones (< 640px): slightly larger text.
+   "body" raises specificity above Tailwind's own size classes. Desktop is unchanged. */
+@media (max-width: 639.98px) {
+  body .text-2xs      { font-size: 0.75rem; }    /* 10.4px → 12px */
+  body .text-\[11px\] { font-size: 12.5px; }
+  body .text-xs       { font-size: 0.875rem; }   /* 12px → 14px */
+  body .text-\[12px\] { font-size: 13.5px; }
+  body .text-\[12\.5px\] { font-size: 14.5px; }
+  body .text-\[13px\] { font-size: 15px; }       /* main note text */
+  body .text-sm       { font-size: 0.9375rem; }  /* 14px → 15px */
+  body .text-\[14px\] { font-size: 16px; }
+
+  /* Keep line spacing in step where no leading-* class is set */
+  body .text-2xs:not([class*="leading-"]) { line-height: 1.1rem; }
+  body .text-xs:not([class*="leading-"])  { line-height: 1.35rem; }
+  body .text-sm:not([class*="leading-"])  { line-height: 1.4rem; }
+
+  /* 16px form fields stop iOS Safari from zooming in when they are tapped */
+  body :is(input, select, textarea)[class] { font-size: 16px; }
+}
